@@ -1,0 +1,25 @@
+---
+import close from "../../assets/icons/close-button.svg"
+import { Picture } from "astro:assets"
+---
+<button>
+<Picture src={close} alt="cross icon" title="close the menu" loading="lazy" width="32" height="32" class="close"></Picture>
+</button>
+
+<style>
+    button {
+        border: none;
+        background-color: transparent;
+        float: right;
+        margin-right: 1rem;
+        margin-top: 1rem;
+        display: block;
+        z-index: +1;
+
+    }
+
+    .close {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+</style>

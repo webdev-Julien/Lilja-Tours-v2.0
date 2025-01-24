@@ -8,8 +8,11 @@ ogURL,
 ogDescription, 
 ogLocale, 
 ogLocaleAlt,
-pageTitle 
+pageTitle,
+linkfr
 } = Astro.props
+
+import TopBar from "../components/TopBar__EN.astro"
 ---
 <!doctype html>
 <html lang={language}>
@@ -37,7 +40,24 @@ pageTitle
 
         <slot name="jsonld"></slot>
     </head>
-
     <body>
-        
+        <header>
+        <TopBar linkfr={linkfr}></TopBar>
+        </header>
     </body>
+
+    <!--<body>
+
+        	{
+                gallery.map((pics) => {
+                    return (
+                        <PicGallery
+                        src={pics.src}
+                        alt={pics.alt}
+                        title={pics.title}  
+                        />                     
+                    )
+                })
+            }
+        
+    </body> -->

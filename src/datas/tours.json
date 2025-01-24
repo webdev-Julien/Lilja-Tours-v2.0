@@ -27,6 +27,57 @@
           "title": "boubou"
         },
 
+        "linkFr": "https://www.lilja-tours.com",
+        "bookVan": "https...Bokun",
+        "bookJeep": "https...Bokun"
+      },
+
+      "gallery": [
+        {
+          "src": "/arnarstapi/arnarstapi-1.webp",
+          "alt": "bibibi",
+          "title": "boubou"
+        },
+        {
+          "src": "/arnarstapi/arnarstapi-2.webp",
+          "alt": "bibibi",
+          "title": "boubou"
+        },
+        {
+          "src": "/arnarstapi/arnarstapi-3.webp",
+          "alt": "bibibi",
+          "title": "boubou"
+        }
+      ]
+    },
+
+    "french": {
+      "head": {
+        "language": "fr",
+        "pageTitle": "Le cercle d'or avec guide privé",
+        "description": "Follow Lilja Tours on the most popular tour in Iceland: The Golden Circle. Explore the National Park of Þingvellir, Geysir and Gullfoss, in a 6 hour tour.",
+        "ogTitle": "Private tour: Golden Circle Essentials",
+        "ogImage": "/.../...webp",
+        "ogDescription": "Follow Lilja Tours on the most popular tour in Iceland: The Golden Circle. Explore the National Park of Þingvellir, Geysir and Gullfoss, in a 6 hour tour.",
+        "ogURL": "https://jklfdhgkasdhgsdkljfhg",
+        "ogLocale": "en_US",
+        "ogLocaleAlt": "fr_FR"
+      },
+
+      "body": {
+        "h1": "Golden Circle Essentials",
+        "duration": "6 hours approx.",
+        "capacity": "6 passengers max.",
+        "interests": "Sightseeing, History",
+        "season": "All year round",
+        "difficulty": "No difficulty",
+
+        "headerCover": {
+          "src": "/../.webp",
+          "alt": "bibibi",
+          "title": "boubou"
+        },
+
         "linkFr": "/fr/ ...html",
         "bookVan": "https...Bokun",
         "bookJeep": "https...Bokun"
