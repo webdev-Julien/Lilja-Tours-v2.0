@@ -1,0 +1,36 @@
+{
+  "GCE": {
+    "english": {
+      "head": {
+        "language": "en",
+        "pageTitle": "Golden Circle Private tour",
+        "description": "Follow Lilja Tours on the most popular tour in Iceland: The Golden Circle. Explore the National Park of Þingvellir, Geysir and Gullfoss, in a 6 hour tour.",
+        "ogTitle": "Private tour: Golden Circle Essentials",
+        "ogImage": "/.../...webp",
+        "ogDescription": "Follow Lilja Tours on the most popular tour in Iceland: The Golden Circle. Explore the National Park of Þingvellir, Geysir and Gullfoss, in a 6 hour tour.",
+        "ogURL": "https://jklfdhgkasdhgsdkljfhg",
+        "ogLocale": "en_US",
+        "ogLocaleAlt": "fr_FR"
+      },
+
+      "body": {
+        "h1": "Golden Circle Essentials",
+        "duration": "6 hours approx.",
+        "capacity": "6 passengers max.",
+        "interests": "Sightseeing, History",
+        "season": "All year round",
+        "difficulty": "No difficulty",
+
+        "headerCover": {
+          "src": "/../.webp",
+          "alt": "bibibi",
+          "title": "boubou"
+        },
+
+        "linkFr": "/fr/ ...html",
+        "bookVan": "https...Bokun",
+        "bookJeep": "https...Bokun"
+      }
+    }
+  }
+}

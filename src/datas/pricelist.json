@@ -1,0 +1,19 @@
+{
+  "GCE": {
+    "vanISK": "165 000",
+    "vanUSD": "1 220",
+    "vanEUR": "1 100",
+    "jeepISK": "159 000",
+    "jeepUSD": "1 140",
+    "jeepEUR": "1 050"
+  },
+
+  "GCFV": {
+    "vanISK": "165 000",
+    "vanUSD": "1 220",
+    "vanEUR": "1 100",
+    "jeepISK": "159 000",
+    "jeepUSD": "1 140",
+    "jeepEUR": "1 050"
+  }
+}
