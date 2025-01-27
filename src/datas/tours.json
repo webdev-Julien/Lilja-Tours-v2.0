@@ -1,6 +1,6 @@
 {
   "GCE": {
-    "english": {
+    "__EN": {
       "head": {
         "language": "en",
         "pageTitle": "Golden Circle Private tour",
@@ -51,7 +51,7 @@
       ]
     },
 
-    "french": {
+    "__FR": {
       "head": {
         "language": "fr",
         "pageTitle": "Le cercle d'or avec guide privé",

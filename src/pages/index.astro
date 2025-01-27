@@ -2,9 +2,9 @@
 import tours from "../datas/tours.json"
 import Tourpage from "../layouts/Tourpage__EN.astro";
 import "../styles/style.css"
-const gallery = tours.GCE.english.gallery
-const pageTitle = tours.GCE.english.head.pageTitle
-const linkfr = tours.GCE.english.body.linkFr
+const gallery = tours.GCE.__EN.gallery
+const pageTitle = tours.GCE.__EN.head.pageTitle
+const linkfr = tours.GCE.__EN.body.linkFr
 ---
 
 <Tourpage gallery={gallery} pageTitle={pageTitle} linkfr={linkfr}></Tourpage>
