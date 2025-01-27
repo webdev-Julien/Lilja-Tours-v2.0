@@ -1,0 +1,34 @@
+---
+import burger from "../../assets/icons/hamburger-menu.svg"
+import { Picture } from "astro:assets"
+---
+<button id="menuButton">
+    <Picture src={burger} alt="Open menu" title="Open the menu" class="burger" width="32" height="32">
+</button>
+
+<style>
+      .burger {
+        width: 2rem;
+        height: 2rem;
+    }
+    button {
+        border: none;
+        background-color: transparent;
+        display: block;
+
+    }
+
+</style>
+
+<script>
+    const mainMenu = document.querySelector(".rectangleMenu")
+    const openMenuButton = document.getElementById("menuButton")
+
+    openMenuButton?.addEventListener("click", () => {
+        console.log("clicked")
+        mainMenu?.classList.toggle("pc")
+        mainMenu?.classList.toggle("mobile")
+
+    })
+
+</script>

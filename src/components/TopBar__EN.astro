@@ -3,14 +3,15 @@ import { Picture } from "astro:assets";
 const {linkfr} = Astro.props;
 import frenchflag from "../assets/icons/french.svg"
 import logo from "../assets/logos/lilja-tours-logo-transparent.png"
-import burger from "../assets/icons/hamburger-menu.svg"
+import MenuButton from "./buttons/MenuButton.astro";
 import CloseButton from "./buttons/CloseButton.astro"
 import Logo from "../assets/logos/Lilja-Tours.png"
+
 ---
 
 <div class="topbar">
-
     <Picture src={logo} alt="Lilja Tours logo" class="logoTopBar" width="160" height="32"></Picture>
+
 
     <nav class="topBarMenu">
         <ul class="menuLinks">
@@ -19,7 +20,7 @@ import Logo from "../assets/logos/Lilja-Tours.png"
             <li class="pc"><a href="#" class="menuLink" title="List of excursions">On your own</a></li>
             <li class="pc"><a href="#" class="menuLink" title="About Lilja Tours">About</a></li>
             <li class="pc"><a href={linkfr} class="menuLink" title="Voir en français / See in french"><Picture src={frenchflag} alt="french flag / drapeau français" title="french/français" class="flag" width="100" height="32"></a></li>
-            <li class="mobile"><a href="#" class="menuLink" title="Voir en français / See in french"><Picture src={burger} alt="Open menu" title="Open the menu" class="burger" width="32" height="32"></a></li>
+            <li class="mobile"><MenuButton></MenuButton></li>
             
         </ul>
     </nav>
@@ -55,6 +56,7 @@ import Logo from "../assets/logos/Lilja-Tours.png"
 <style>
     :root {
         --topBarHeight: 3.5rem;
+        --transitionTime: .5s;
     }
 
     /*TOPBAR*/
@@ -62,7 +64,7 @@ import Logo from "../assets/logos/Lilja-Tours.png"
         width: 100%;
         background-color: hsl(0, 0%, 20%, 1);
         padding-block: 1rem;
-        padding-inline: 2rem;
+        padding-inline: 2rem 5rem;
         display: flex;
         justify-content: space-between;
         max-height: var(--topBarHeight);
@@ -70,11 +72,13 @@ import Logo from "../assets/logos/Lilja-Tours.png"
 
     }
 
+
     .menuLinks {
         list-style-position: inside;
         list-style-type: none;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: flex-end;
+        gap: 1rem;
         width: 100%;
         height: 100%;
         align-items: center;
@@ -88,6 +92,13 @@ import Logo from "../assets/logos/Lilja-Tours.png"
 
     .flag {
         width: 2rem;
+        filter: brightness(75%);
+        transition: var(--transitionTime);
+    }
+
+    .flag:hover {
+        filter: brightness(120%);
+        transition: var(--transitionTime);
     }
 
     .burger {
@@ -100,6 +111,7 @@ import Logo from "../assets/logos/Lilja-Tours.png"
         height: auto;
         aspect-ratio: 5 / 1;
     }
+    
 
     .menuLink {
         color: white;
@@ -107,7 +119,7 @@ import Logo from "../assets/logos/Lilja-Tours.png"
         font-size: clamp(1rem, calc(2vw+1rem), 2rem);
         text-underline-offset: .4rem;
         height: 100%;
-        transition: .5s;
+        transition: var(--transitionTime);
         display: flex;
         align-items: center;
     }
@@ -123,7 +135,7 @@ import Logo from "../assets/logos/Lilja-Tours.png"
     .menuLink:hover, .menuLink:focus {
         text-decoration: underline;
         text-underline-offset: .3rem;
-        transition: .5s;
+        transition: var(--transitionTime);
     }
 
     .mobile {
@@ -175,7 +187,7 @@ import Logo from "../assets/logos/Lilja-Tours.png"
         font-size: 2rem;
         text-underline-offset: .4rem;
         height: 100%;
-        transition: .5s;
+        transition: var(--transitionTime);
         display: flex;
         align-items: center;
     }
