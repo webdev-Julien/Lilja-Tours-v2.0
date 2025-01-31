@@ -1,0 +1,143 @@
+---
+const {
+    ItiSectionTitle,
+    ItiSectionTitleSrcMobile,
+    ItiSectionTitleSrcPC,
+    ItiSectionTitleAlt,
+    ItiSectionTitleTitle,
+    AllItiItems,
+    itiTextContent
+    } = Astro.props
+
+import { Image } from "astro:assets";
+import chevron from "../assets/icons/Next-section.svg"
+import PicItiTitle from "../components/Pics/PicItiTitle.astro"
+import ItiItem from "../layouts/ItiItem.astro"
+---
+<section>
+    <div class="itiTitleSection">
+
+        <PicItiTitle     
+        srcMobile={ItiSectionTitleSrcMobile}
+        srcPC={ItiSectionTitleSrcPC}
+        alt={ItiSectionTitleAlt}
+        title={ItiSectionTitleTitle}
+        ></PicItiTitle>
+
+        <div class="gradient"></div>
+        <a href="#itin" title="navigate to your itinerary">
+        <div class="titleUp">
+            <div class="title">
+                <Image src={chevron} alt="Downward arrow" title="Navigate to next section" width="60" height="60" class="chevron" id="disp"></Image>
+                <h2>{ItiSectionTitle}</h2>
+                <Image src={chevron} alt="Downward arrow" title="Navigate to next section" width="60" height="60" class="chevron"></Image>
+            </div>
+        </div></a>
+    </div>
+
+    <div class="allItems" id="itin">
+
+	{
+        AllItiItems.map((iti) => {
+
+            return (
+
+                <ItiItem
+                srcMobile={iti.itiItemPicSrcMobile}
+                itiItemPicSrcPC={iti.itiItemPicSrcPC}
+                itiItemPicAlt={iti.itiItemPicAlt}
+                itiItemPicTitle={iti.itiItemPicTitle}
+                >
+                    <div set:html={itiTextContent[AllItiItems.indexOf(iti)]} />
+                
+                    
+                </ItiItem>                    
+            )
+        })
+    }
+
+</div>
+
+
+</section>
+
+
+<style>
+
+    a {
+        text-decoration: none;
+    }
+    .itiTitleSection  {
+        position: relative;
+    }
+
+    .gradient {
+        width: 100%;
+        height: 50dvh;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, rgba(0, 0, 0, 0.75) 99.06%);
+        position: absolute;
+        inset: 0;
+    }
+
+    h2 {
+        font-size: clamp(2rem, calc(5vw + 1rem), 4rem );
+        color: white;
+        text-align: center;
+        font-weight: lighter;
+    }
+
+    .title {
+        display: flex;
+        width: 50%;
+        margin-inline: auto;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        height: fit-content;
+        border-bottom: 1px solid white;
+        border-top: 1px solid white;
+        
+    }
+
+    .titleUp {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        position: absolute;
+        align-items: center;
+        inset: 0;
+        cursor: default;
+    }
+
+    .chevron {
+        animation-name: chevrons;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        
+
+    }
+
+    @keyframes chevrons {
+        0% {opacity: .5;}
+        50% {opacity: 1;}        
+        100% {opacity: .5;}
+    }
+
+    @media only screen and (max-width: 1000px) {
+
+        #disp {
+            display: none;
+        }
+
+        .title {
+            flex-direction: column;
+            padding-bottom: 1rem;
+        }
+
+        .chevron {
+            width: 3rem;
+        }
+
+
+    }
+</style>

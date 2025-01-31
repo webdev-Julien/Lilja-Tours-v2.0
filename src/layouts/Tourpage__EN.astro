@@ -9,10 +9,31 @@ ogDescription,
 ogLocale, 
 ogLocaleAlt,
 pageTitle,
-linkfr
+linkfr,
+srcMobileHeader,
+srcPCHeader,
+altHeader,
+titleHeader,
+tourSeason,
+tourDuration,
+tourDifficulty,
+tourCapacity,
+vclassdisplay,
+toyotadisplay,
+ItiSectionTitle,
+ItiSectionTitleSrcMobile,
+ItiSectionTitleSrcPC,
+ItiSectionTitleAlt,
+ItiSectionTitleTitle,
+AllItiItems,
+itiTextContent
 } = Astro.props
 
 import TopBar from "../components/TopBar__EN.astro"
+import PicHeader from "../components/Pics/PicHeader.astro"
+import HeaderInfos from "../layouts/HeaderInfos__EN.astro"
+import ItiSection from "./ItiSection__EN.astro"
+import InternalNav from "../components/InternalNav__EN.astro"
 ---
 <!doctype html>
 <html lang={language}>
@@ -41,10 +62,78 @@ import TopBar from "../components/TopBar__EN.astro"
         <slot name="jsonld"></slot>
     </head>
     <body>
-        <header>
-        <TopBar linkfr={linkfr}></TopBar>
+        <header class="header">
+            <TopBar linkfr={linkfr}></TopBar>
+            <div class="headerContainerPic">
+                <PicHeader srcMobile={srcMobileHeader} srcPC={srcPCHeader} alt={altHeader} title={titleHeader}></PicHeader></div>
+                <div class="headerGradient"></div>
+                <div class="headerInfos">
+                    <HeaderInfos
+                    season={tourSeason}
+                    duration={tourDuration}
+                    difficulty={tourDifficulty}
+                    capacity={tourCapacity}
+                    vclassdisplay={vclassdisplay}
+                    toyotadisplay={toyotadisplay}
+                    ></HeaderInfos>
+                </div>
+            </div>
         </header>
+
+        <main>
+            <ItiSection
+            ItiSectionTitle={ItiSectionTitle}
+            ItiSectionTitleSrcMobile={ItiSectionTitleSrcMobile}
+            ItiSectionTitleSrcPC={ItiSectionTitleSrcPC}
+            ItiSectionTitleAlt={ItiSectionTitleAlt}
+            ItiSectionTitleTitle={ItiSectionTitleTitle}
+            AllItiItems={AllItiItems}
+            itiTextContent={itiTextContent}
+            iti="#iti"
+            ></ItiSection>
+            <InternalNav></InternalNav>
+        </main>
+
+    
     </body>
+
+    <style>
+
+        .header {
+            min-height: 100dvh;
+            width: 100%;
+        }
+
+        .headerContainerPic {
+            width: 100%;
+            min-height: calc(100dvh - 3.5rem);
+            max-height: calc(100dvh - 3.5rem);
+            position: relative;
+        }
+
+        .headerGradient {
+            width: 100%;
+            min-height: calc(100dvh - 3.5rem);
+            max-height: calc(100dvh - 3.5rem);
+            position: absolute;
+            top: 3.5rem;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(255, 255, 255, 0.00) 99.06%);
+        }
+
+        .headerInfos {
+            position: absolute;
+            inset: 3.5rem 0 0 0;
+            display: flex;
+            height:  calc(100dvh - 3.5rem);
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            align-content: center;
+
+        }
+
+
+    </style>
 
     <!--<body>
 

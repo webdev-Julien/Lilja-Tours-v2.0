@@ -8,6 +8,23 @@
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 img {
   display: block;
+}
+
+h3 {
+  color: #a3b9e1;
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+p {
+  line-height: 1.4;
+  color: white;
+  font-size: clamp(1rem, 2vw, 1.3rem);
+  font-weight: lighter;
+  margin-block: 1rem;
 }

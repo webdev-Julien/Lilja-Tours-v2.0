@@ -1,5 +1,11 @@
 {
   "GCE": {
+    "display": {
+      "MercedesButton": "block",
+      "ToyotaButton": "block",
+      "MOLButton": "none"
+    },
+
     "__EN": {
       "head": {
         "language": "en",
@@ -15,23 +21,54 @@
 
       "body": {
         "h1": "Golden Circle Essentials",
-        "duration": "6 hours approx.",
-        "capacity": "6 passengers max.",
+        "duration": "6",
+        "capacity": "6",
         "interests": "Sightseeing, History",
         "season": "All year round",
         "difficulty": "No difficulty",
 
         "headerCover": {
-          "src": "/../.webp",
-          "alt": "bibibi",
-          "title": "boubou"
+          "srcMobile": "/pictures/golden-circle-essentials/headers/oxararfoss-mobile.webp",
+          "srcPC": "/pictures/golden-circle-essentials/headers/oxararfoss-pc.webp",
+          "alt": "Frozen waterfall and sunset",
+          "title": "Private Golden Circle Tour: Öxarárfoss"
+        },
+        "itiCover": {
+          "itiTitle": "Your itinerary",
+          "srcMobile": "/pictures/golden-circle-essentials/itinerary/title/gullfoss-mobile.webp",
+          "srcPC": "/pictures/golden-circle-essentials/itinerary/title/gullfoss-pc.webp",
+          "alt": "Closeup of a giant waterfall",
+          "title": "Private Golden Circle Tour: Gullfoss"
         },
 
         "linkFr": "https://www.lilja-tours.com",
         "bookVan": "https...Bokun",
-        "bookJeep": "https...Bokun"
-      },
+        "bookJeep": "https...Bokun",
 
+        "itiItem": [
+          {
+            "itiItemTitle": "Þingvellir National Park",
+            "itiItemPicSrcMobile": "/pictures/golden-circle-essentials/itinerary/thingvellir/Thingvellir-portrait.webp",
+            "itiItemPicSrcPC": "/pictures/golden-circle-essentials/itinerary/thingvellir/Thingvellir-landscape.webp",
+            "itiItemPicAlt": "Landscape of mountains, rivers and lake",
+            "itiItemPicTitle": "Golden Circle Essentials: Þingvellir"
+          },
+          {
+            "itiItemTitle": "Þingvellir National Park",
+            "itiItemPicSrcMobile": "/pictures/golden-circle-essentials/itinerary/geysir/geysir-portrait.webp",
+            "itiItemPicSrcPC": "/pictures/golden-circle-essentials/itinerary/geysir/geysir-landscape.webp",
+            "itiItemPicAlt": "Geyser erupting",
+            "itiItemPicTitle": "Golden Circle Essentials: Geysir"
+          },
+          {
+            "itiItemTitle": "Þingvellir National Park",
+            "itiItemPicSrcMobile": "/pictures/golden-circle-essentials/itinerary/gullfoss/gullfoss-portrait.webp",
+            "itiItemPicSrcPC": "/pictures/golden-circle-essentials/itinerary/gullfoss/gullfoss-landscape.webp",
+            "itiItemPicAlt": "Landscape of mountains, rivers and lake",
+            "itiItemPicTitle": "Golden Circle Essentials: Þingvellir"
+          }
+        ]
+      },
       "gallery": [
         {
           "src": "/arnarstapi/arnarstapi-1.webp",

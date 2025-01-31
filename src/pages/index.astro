@@ -2,9 +2,63 @@
 import tours from "../datas/tours.json"
 import Tourpage from "../layouts/Tourpage__EN.astro";
 import "../styles/style.css"
+import * as Thing from "../Ititexts/thingvellir1__EN.md"
+import * as Geysir from "../Ititexts/geysir1__EN.md"
+import * as Gullfoss from "../Ititexts/gullfoss1__EN.md"
+
 const gallery = tours.GCE.__EN.gallery
 const pageTitle = tours.GCE.__EN.head.pageTitle
 const linkfr = tours.GCE.__EN.body.linkFr
+const srcMobileHeader = tours.GCE.__EN.body.headerCover.srcMobile
+const srcPCHeader = tours.GCE.__EN.body.headerCover.srcPC
+const altHeader = tours.GCE.__EN.body.headerCover.alt
+const titleHeader = tours.GCE.__EN.body.headerCover.title
+const tourSeason = tours.GCE.__EN.body.season
+const tourDuration = tours.GCE.__EN.body.duration
+const tourDifficulty = tours.GCE.__EN.body.difficulty
+const tourCapacity = tours.GCE.__EN.body.capacity
+const ItiSectionTitle = tours.GCE.__EN.body.itiCover.itiTitle
+const ItiSectionTitleSrcMobile = tours.GCE.__EN.body.itiCover.srcMobile
+const ItiSectionTitleSrcPC =  tours.GCE.__EN.body.itiCover.srcPC
+const ItiSectionTitleAlt =  tours.GCE.__EN.body.itiCover.alt
+const ItiSectionTitleTitle = tours.GCE.__EN.body.itiCover.title
+const AllItiItems = tours.GCE.__EN.body.itiItem
+const itiTextContent = [Thing.compiledContent(), Geysir.compiledContent(), Gullfoss.compiledContent()]
+
 ---
 
-<Tourpage gallery={gallery} pageTitle={pageTitle} linkfr={linkfr}></Tourpage>
+<Tourpage 
+gallery={gallery} 
+pageTitle={pageTitle} 
+linkfr={linkfr}
+srcMobileHeader={srcMobileHeader}
+srcPCHeader={srcPCHeader}
+altHeader={altHeader}
+titleHeader={titleHeader}
+
+tourSeason={tourSeason}
+tourDuration={tourDuration}
+tourDifficulty={tourDifficulty}
+tourCapacity={tourCapacity}
+
+ItiSectionTitle={ItiSectionTitle}
+ItiSectionTitleSrcMobile={ItiSectionTitleSrcMobile}
+ItiSectionTitleSrcPC={ItiSectionTitleSrcPC}
+ItiSectionTitleAlt={ItiSectionTitleAlt}
+ItiSectionTitleTitle={ItiSectionTitleTitle}
+
+AllItiItems={AllItiItems}
+
+itiTextContent={itiTextContent}
+
+
+
+
+
+
+
+
+>
+
+</Tourpage>
+

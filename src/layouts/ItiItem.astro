@@ -1,0 +1,128 @@
+---
+const {
+    srcMobile,
+    itiItemPicSrcPC,
+    itiItemPicAlt,
+    itiItemPicTitle,
+
+} = Astro.props
+---
+
+<div class="itiItem">
+    <picture>
+        <source media="(max-width:1000px)" srcset={srcMobile} width="428" height="905">
+        <img src={itiItemPicSrcPC} alt={itiItemPicAlt} title={itiItemPicTitle} class="bcImg" width="1920" height="1080" loading="lazy">
+    </picture>
+
+    <div class="wrapper">
+        <div class="imgText">
+            <div class="text">
+                <slot></slot>
+            </div>
+            <div class="pic">
+                <picture>
+                    <source media="(max-width:1000px)" srcset={itiItemPicSrcPC} width="1920" height="1080">
+                    <img src={srcMobile} alt={itiItemPicAlt} title={itiItemPicTitle} class="inPic" width="428" height="905" loading="lazy">
+                </picture>
+            </div>
+
+        </div>
+    </div>
+
+
+</div>
+
+    
+<style>
+
+    
+
+    .imgText {
+        padding: 3rem;
+        display: flex;
+        gap: 10rem;
+        justify-content: space-around;
+
+    }
+
+    .pic {
+        width: 30%;
+        border-radius: 1rem;
+
+    }
+
+    .text {
+        width: 40%;
+    }
+
+    .inPic {
+        border-radius: 1rem;
+        display: block;
+        width: 100%;
+        max-height: 100%;
+        object-fit: cover;
+        object-position: center;
+    } 
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100dvh;
+        justify-content: space-around;
+
+    }
+
+    .imgText {
+        width: 75%;
+        height: 800px;
+        margin-inline: auto;
+        border-radius: 15px;
+        background: rgba(41, 41, 41, 0.75);
+        backdrop-filter: blur(7.5px);
+    }
+
+
+    .itiItem {
+        position: relative;
+    }
+
+    .bcImg {
+        z-index: -1;
+        position: absolute;
+        inset: 0;
+        height: 100dvh;
+        width: 100%;
+        display: block;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    @media only screen and (max-width: 1000px) {
+
+        .imgText {
+            flex-direction: column;
+            padding: 1rem;
+            gap: 1rem;
+            justify-content: flex-start;
+            height: fit-content;
+        }
+
+        .pic {
+            order: -1;
+            width: 100%;
+        }
+
+        .inPic {
+            height: auto;
+        }
+
+        .text {
+            width: 100%;
+        }
+
+    }
+
+
+</style>

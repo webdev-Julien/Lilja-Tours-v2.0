@@ -1,0 +1,68 @@
+---
+import { Image } from "astro:assets";
+import iti from "../assets/icons/itinerary.svg"
+import info from "../assets/icons/infos.svg"
+import gallery from "../assets/icons/gallery.svg"
+import wapp from "../assets/icons/whatsapp-green.svg"
+
+
+---
+
+<nav class="internalNav">
+    <ul class="list">
+        <li><a href="#itin" title="See your itinerary"><Image src={iti} alt="itinerary icon" height="30" width="30" loading="lazy" title="Navigate to itinerary"></Image></a></li>
+        <li><a href="#" title=""><Image src={info} alt="information icon" height="30" width="30" loading="lazy" title="Navigate to information"></Image></a></li>
+        <li><a href="#" title=""><Image src={gallery} alt="picture icon" height="30" width="30" loading="lazy" title="Navigate to gallery"></Image></a></li>
+        <li><a href="#" title="" class="book">BOOK</a></li>
+        <li><a href="#" title=""><Image src={wapp} alt="whatsapp icon" height="30" width="30" loading="lazy" title="Send us a WhatsApp message"></Image></a></li>
+    </ul>
+</nav>
+
+<style>
+    li:hover {
+        filter: brightness(200%);
+        scale: 1.1;
+        transition: .5s;
+    }
+    li {
+        transition: .5s;
+
+    }
+    .internalNav {
+        border-radius: 15px 15px 0px 0px;
+        background: rgba(41, 41, 41, 0.80);
+        backdrop-filter: blur(7.5px);
+        position: sticky;
+        bottom:0;
+        width: 50%;
+        margin-inline: auto;
+        padding-block: 0.625rem;
+        padding-inline: 2rem;
+        height: 3.5rem;
+    }
+    .list {
+        list-style: none;
+        list-style-position: inside;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .book {
+        color: #A3B9E1;
+        font-weight: bold;
+        font-size: 1.25rem;
+    }
+
+    @media only screen and (max-width: 1000px) {
+
+        .internalNav {
+            width: 95%;
+            height: 3rem;
+        }
+    }
+</style>
