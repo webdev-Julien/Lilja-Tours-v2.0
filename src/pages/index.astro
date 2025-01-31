@@ -6,7 +6,7 @@ import * as Thing from "../Ititexts/thingvellir1__EN.md"
 import * as Geysir from "../Ititexts/geysir1__EN.md"
 import * as Gullfoss from "../Ititexts/gullfoss1__EN.md"
 
-const gallery = tours.GCE.__EN.gallery
+const gallery = tours.GCE.__EN.body.gallery
 const pageTitle = tours.GCE.__EN.head.pageTitle
 const linkfr = tours.GCE.__EN.body.linkFr
 const srcMobileHeader = tours.GCE.__EN.body.headerCover.srcMobile
@@ -18,10 +18,18 @@ const tourDuration = tours.GCE.__EN.body.duration
 const tourDifficulty = tours.GCE.__EN.body.difficulty
 const tourCapacity = tours.GCE.__EN.body.capacity
 const ItiSectionTitle = tours.GCE.__EN.body.itiCover.itiTitle
-const ItiSectionTitleSrcMobile = tours.GCE.__EN.body.itiCover.srcMobile
-const ItiSectionTitleSrcPC =  tours.GCE.__EN.body.itiCover.srcPC
-const ItiSectionTitleAlt =  tours.GCE.__EN.body.itiCover.alt
-const ItiSectionTitleTitle = tours.GCE.__EN.body.itiCover.title
+const ItiSectionTitleSrcMobile = tours.GCE.__EN.body.itiCover.itiSrcMobile
+const ItiSectionTitleSrcPC = tours.GCE.__EN.body.itiCover.itiSrcPC
+const ItiSectionTitleAlt = tours.GCE.__EN.body.itiCover.itiAlt
+const ItiSectionTitleTitle = tours.GCE.__EN.body.itiCover.itiTitle
+const gtk = tours.GCE.__EN.body.goodToKnow
+const wtb = tours.GCE.__EN.body.WhatToBring
+const i = tours.GCE.__EN.body.Included
+const ni = tours.GCE.__EN.body.nonIncluded
+
+
+
+
 const AllItiItems = tours.GCE.__EN.body.itiItem
 const itiTextContent = [Thing.compiledContent(), Geysir.compiledContent(), Gullfoss.compiledContent()]
 
@@ -46,10 +54,17 @@ ItiSectionTitleSrcMobile={ItiSectionTitleSrcMobile}
 ItiSectionTitleSrcPC={ItiSectionTitleSrcPC}
 ItiSectionTitleAlt={ItiSectionTitleAlt}
 ItiSectionTitleTitle={ItiSectionTitleTitle}
+gtk={gtk}
+wtb={wtb}
+i={i}
+ni={ni}
+
 
 AllItiItems={AllItiItems}
 
 itiTextContent={itiTextContent}
+
+gallery={gallery}
 
 
 

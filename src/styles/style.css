@@ -12,19 +12,24 @@ html {
   scroll-behavior: smooth;
 }
 
+/*body {
+  overflow: hidden;
+}*/
+
 img {
   display: block;
 }
 
 h3 {
   color: #a3b9e1;
-  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  font-size: clamp(1rem, 3vw, 2.5rem);
+  font-weight: normal;
 }
 
 p {
   line-height: 1.4;
   color: white;
-  font-size: clamp(1rem, 2vw, 1.3rem);
+  font-size: clamp(0.8rem, 2vw, 1.3rem);
   font-weight: lighter;
   margin-block: 1rem;
 }

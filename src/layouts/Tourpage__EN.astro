@@ -26,7 +26,12 @@ ItiSectionTitleSrcPC,
 ItiSectionTitleAlt,
 ItiSectionTitleTitle,
 AllItiItems,
-itiTextContent
+itiTextContent,
+gtk,
+wtb,
+i,
+ni,
+gallery
 } = Astro.props
 
 import TopBar from "../components/TopBar__EN.astro"
@@ -34,6 +39,8 @@ import PicHeader from "../components/Pics/PicHeader.astro"
 import HeaderInfos from "../layouts/HeaderInfos__EN.astro"
 import ItiSection from "./ItiSection__EN.astro"
 import InternalNav from "../components/InternalNav__EN.astro"
+import InfoSection from "./InfoSection__EN.astro"
+import GallerySection from "./GallerySection.astro"
 ---
 <!doctype html>
 <html lang={language}>
@@ -89,9 +96,22 @@ import InternalNav from "../components/InternalNav__EN.astro"
             ItiSectionTitleTitle={ItiSectionTitleTitle}
             AllItiItems={AllItiItems}
             itiTextContent={itiTextContent}
-            iti="#iti"
             ></ItiSection>
+
+            <InfoSection
+            gtk={gtk}
+            wtb={wtb}
+            i={i}
+            ni={ni}
+            
+            ></InfoSection>
+
+            <GallerySection 
+            gallery={gallery}>
+            </GallerySection>
+
             <InternalNav></InternalNav>
+
         </main>
 
     

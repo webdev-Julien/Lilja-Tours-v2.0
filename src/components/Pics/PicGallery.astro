@@ -1,16 +1,23 @@
 ---
 const {
-    src,
+    srcPC,
+    srcMobile,
     alt,
     title
 } = Astro.props
 ---
 
-<img 
-src={src} 
-alt={alt} 
-title={title} 
-loading="lazy" 
-width="600" 
-height="338">
+<picture>
+    <source media="(max-width:650px)" srcset={srcMobile} width="600" height="338">
+    <img src={srcPC} alt={alt} title={title} width="1920" height="1080" loading="lazy">
+  </picture>
 
+  <style>
+    img {
+        display: block;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        object-position: center;
+    }
+  </style>

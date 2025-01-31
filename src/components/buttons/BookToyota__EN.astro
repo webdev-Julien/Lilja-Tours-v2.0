@@ -65,4 +65,30 @@ const {bookLinkToyota} = Astro.props;
         }
 
     }
+
+    @media only screen and (max-height: 800px) {
+        button {
+            width: 10rem;
+            height: 3.33rem;
+
+            .book {
+            color: rgba(0, 0, 0, 0.50);
+            text-align: center;
+            font-size: 1rem;
+            font-weight: bold;
+            width: 100%;
+            margin: 0;
+
+            }
+            
+            .car {
+            color: rgba(0, 0, 0, 0.50);
+            font-size: .8rem;
+            text-align: center;
+            width: 100%;
+            margin: 0;
+            }
+
+        }
+    }
 </style>

@@ -1,11 +1,5 @@
 {
   "GCE": {
-    "display": {
-      "MercedesButton": "block",
-      "ToyotaButton": "block",
-      "MOLButton": "none"
-    },
-
     "__EN": {
       "head": {
         "language": "en",
@@ -35,10 +29,10 @@
         },
         "itiCover": {
           "itiTitle": "Your itinerary",
-          "srcMobile": "/pictures/golden-circle-essentials/itinerary/title/gullfoss-mobile.webp",
-          "srcPC": "/pictures/golden-circle-essentials/itinerary/title/gullfoss-pc.webp",
-          "alt": "Closeup of a giant waterfall",
-          "title": "Private Golden Circle Tour: Gullfoss"
+          "itiSrcMobile": "/pictures/golden-circle-essentials/itinerary/title/gullfoss-mobile.webp",
+          "itiSrcPC": "/pictures/golden-circle-essentials/itinerary/title/gullfoss-pc.webp",
+          "itiAlt": "",
+          "itiPicTitle": ""
         },
 
         "linkFr": "https://www.lilja-tours.com",
@@ -67,25 +61,91 @@
             "itiItemPicAlt": "Landscape of mountains, rivers and lake",
             "itiItemPicTitle": "Golden Circle Essentials: Þingvellir"
           }
+        ],
+
+        "goodToKnow": [
+          "1km walk on even ground",
+          "1km walk on easy terrain, with a few steps",
+          "Restaurants available in Gullfoss or Geysir"
+        ],
+
+        "WhatToBring": [
+          "Weatherproof clothes",
+          "Warm clothes in the winter",
+          "Comfortable shoes"
+        ],
+
+        "Included": [
+          "Private driver guide",
+          "Comfortable vehicle",
+          "All entrances and parking fees"
+        ],
+
+        "nonIncluded": ["Food, drinks", "Meals, snacks", "personal expenses"],
+
+        "gallery": [
+          {
+            "srcMob": "/pictures/golden-circle-essentials/gallery/Thingvellir-1-mobile.webp",
+            "srcPc": "/pictures/golden-circle-essentials/gallery/Thingvellir-1-pc.webp",
+            "alt": "Huge mountain, large lake, and tiny forest",
+            "title": "Golden Circle Essentials: Thingvellir"
+          },
+          {
+            "srcMob": "/pictures/golden-circle-essentials/gallery/Thingvellir-2-mobile.webp",
+            "srcPc": "/pictures/golden-circle-essentials/gallery/Thingvellir-2-pc.webp",
+            "alt": "Small waterfall with a rainbow in the mist",
+            "title": "Golden Circle Essentials: Thingvellir"
+          },
+          {
+            "srcMob": "/pictures/golden-circle-essentials/gallery/Thingvellir-3-mobile.webp",
+            "srcPc": "/pictures/golden-circle-essentials/gallery/Thingvellir-3-pc.webp",
+            "alt": "Sunrise over lakes and islands",
+            "title": "Golden Circle Essentials: Thingvellir"
+          },
+          {
+            "srcMob": "/pictures/golden-circle-essentials/gallery/Thingvellir-4-mobile.webp",
+            "srcPc": "/pictures/golden-circle-essentials/gallery/Thingvellir-4-pc.webp",
+            "alt": "Snowy mountains and frozen lakes",
+            "title": "Golden Circle Essentials: Thingvellir"
+          },
+          {
+            "srcMob": "/pictures/golden-circle-essentials/gallery/geysir-1-mobile.webp",
+            "srcPc": "/pictures/golden-circle-essentials/gallery/geysir-1-pc.webp",
+            "alt": "Erupting Geyser",
+            "title": "Golden Circle Essentials: Geysir"
+          },
+          {
+            "srcMob": "/pictures/golden-circle-essentials/gallery/geysir-2-mobile.webp",
+            "srcPc": "/pictures/golden-circle-essentials/gallery/geysir-2-pc.webp",
+            "alt": "Word geysir carved in stone before a steaming water stream",
+            "title": "Golden Circle Essentials: Geysir"
+          },
+          {
+            "srcMob": "/pictures/golden-circle-essentials/gallery/geysir-3-mobile.webp",
+            "srcPc": "/pictures/golden-circle-essentials/gallery/geysir-3-pc.webp",
+            "alt": "Cloud of steam after a geyser's eruption",
+            "title": "Golden Circle Essentials: Geysir"
+          },
+          {
+            "srcMob": "/pictures/golden-circle-essentials/gallery/gullfoss-1-mobile.webp",
+            "srcPc": "/pictures/golden-circle-essentials/gallery/gullfoss-1-pc.webp",
+            "alt": "Two drops of one large waterfall",
+            "title": "Golden Circle Essentials: Gullfoss"
+          },
+          {
+            "srcMob": "/pictures/golden-circle-essentials/gallery/gullfoss-2-mobile.webp",
+            "srcPc": "/pictures/golden-circle-essentials/gallery/gullfoss-2-pc.webp",
+            "alt": "Family posing before a waterfall",
+            "title": "Golden Circle Essentials: Gullfoss"
+          },
+          {
+            "srcMob": "/pictures/golden-circle-essentials/gallery/gullfoss-3-mobile.webp",
+            "srcPc": "/pictures/golden-circle-essentials/gallery/gullfoss-3-pc.webp",
+            "alt": "Immense waterfall, in wintery landscape",
+            "title": "Golden Circle Essentials: Gullfoss"
+          }
         ]
-      },
-      "gallery": [
-        {
-          "src": "/arnarstapi/arnarstapi-1.webp",
-          "alt": "bibibi",
-          "title": "boubou"
-        },
-        {
-          "src": "/arnarstapi/arnarstapi-2.webp",
-          "alt": "bibibi",
-          "title": "boubou"
-        },
-        {
-          "src": "/arnarstapi/arnarstapi-3.webp",
-          "alt": "bibibi",
-          "title": "boubou"
-        }
-      ]
+      }
     },
 
     "__FR": {
