@@ -1,0 +1,107 @@
+---
+import { Image } from "astro:assets";
+import CardBookLC from "../buttons/carCardBookButton/CardBookToyota__EN.astro";
+
+import groupSize from "../../assets/icons/group-size-white.svg"
+
+const {jeepISK, jeepEUR, jeepUSD, capacity} = Astro.props
+---
+
+<article>
+    <div class="pic">
+
+        <picture>
+            <source media="(max-width:1000px)" srcset="/pictures/cars/Toyota-LandCruiser-Mobile.webp" width="600" height="338">
+            <img src="/pictures/cars/Toyota-LandCruiser-PC.webp" alt="Picture of a Toyota Land Cruiser" title="Book with the LandCruiser" class="carPic" width="960" height="540" loading="lazy">
+        </picture>
+
+
+    </div>
+
+    <div class="textAndButton">
+
+        <div class="text">
+            <h3>Mercedes V-Class</h3>
+
+                <div class="tourInfo">
+                        <Image src={groupSize} alt="calendar icon" title="seasonality" width="15" height="15" class="infoIcon" loading="lazy"></Image>
+                        <p class="info">: 4 maximum</p>
+                </div>
+
+            <p class="rate"><span class="price">{jeepISK} ISK</span><span class="perVehicle">/ per vehicle</span></p>
+            <p class="otherCurrencies"><em>Approx. {jeepUSD} $ or {jeepEUR} € </em></p>
+        </div>
+        
+        <CardBookLC></CardBookLC>
+
+    </div>
+</article>
+
+<style>
+
+p {
+    margin: 0;
+}
+    article {
+        background-color: #292929;
+        width: clamp(18.75rem, 30vw, 31.25rem);
+        filter: drop-shadow(0 0 0.75rem #000000);
+
+    }
+
+    .carPic {
+        min-width: 100%;
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+        .tourInfo {
+        display: flex;
+        justify-content: space-between;
+        width: max-content;
+        align-items: center;
+        margin-bottom: .75rem;
+    }
+
+    h3 {
+        font-weight: bold;
+        font-size: 1rem;
+        color: white;
+    }
+
+    .textAndButton {
+        width: 85%;
+        margin-inline: auto;
+        padding-block: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .info::before {
+        content: " ";
+        white-space: pre;
+    }
+
+    .info {
+        font-size: 1rem;
+    }
+
+    .price {
+        font-size: 1.25rem;
+        color: #A2B9E1;
+        font-weight: bold;
+    }
+
+    .perVehicle {
+        font-size: .75rem;
+    }
+
+    .otherCurrencies {
+        font-size: .75rem;
+    }
+
+
+</style>
+

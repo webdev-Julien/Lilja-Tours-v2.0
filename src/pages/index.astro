@@ -1,5 +1,8 @@
 ---
 import tours from "../datas/tours.json"
+import pricelist from "../datas/pricelist.json"
+
+
 import Tourpage from "../layouts/Tourpage__EN.astro";
 import "../styles/style.css"
 import * as Thing from "../Ititexts/goldenCircle/thingvellir1__EN.md"
@@ -18,10 +21,20 @@ import ReadMore from "../components/buttons/ReadMore__EN.astro";
 
 
 const itiTextContent = [Thing.compiledContent(), Geysir.compiledContent(), Gullfoss.compiledContent()]
+const vanISK = pricelist.GCE.vanISK
+const vanEUR = pricelist.GCE.vanEUR
+const vanUSD = pricelist.GCE.vanUSD
+const capacity = tours.GCE.__EN.body.capacity
+const jeepISK = pricelist.GCE.jeepISK
+const jeepEUR = pricelist.GCE.jeepEUR
+const jeepUSD = pricelist.GCE.jeepUSD
+
+
 
 ---
 
 <Tourpage 
+tourTitle={tours.GCE.__EN.head.tourTitle}
 gallery={tours.GCE.__EN.body.gallery} 
 pageTitle={tours.GCE.__EN.head.pageTitle} 
 linkfr={tours.GCE.__EN.body.linkFr}
@@ -33,7 +46,7 @@ titleHeader={tours.GCE.__EN.body.headerCover.title}
 tourSeason={tours.GCE.__EN.body.season}
 tourDuration={tours.GCE.__EN.body.duration}
 tourDifficulty={tours.GCE.__EN.body.difficulty}
-tourCapacity={tours.GCE.__EN.body.capacity}
+tourCapacity={capacity}
 
 ItiSectionTitle={tours.GCE.__EN.body.itiCover.itiTitle}
 ItiSectionTitleSrcMobile={tours.GCE.__EN.body.itiCover.itiSrcMobile}
@@ -68,8 +81,8 @@ itiTextContent={itiTextContent}
 
 <div class="carCards" slot="carCards">
 
-    <BookVClassCard></BookVClassCard>
-    <BookLCCard></BookLCCard>
+    <BookVClassCard vanISK={vanISK} vanEUR={vanEUR} vanUSD={vanUSD}></BookVClassCard>
+    <BookLCCard jeepISK={jeepISK} jeepEUR={jeepEUR} jeepUSD={jeepUSD}></BookLCCard>
     <BookMOLCard></BookMOLCard>
 
 
@@ -102,9 +115,11 @@ itiTextContent={itiTextContent}
     }
 
 
+
     @media only screen and (max-height: 800px) {
         .bookButtons {
             gap: .75rem;
         }
+
     }
     </style>

@@ -1,0 +1,101 @@
+---
+const {bookLinkSuperJeep} = Astro.props;
+
+---
+
+<a href={bookLinkSuperJeep} title="Book the tour in LandCruiser"><button>
+    <p class="book">BOOK</p>
+    <p class="car">Toyota LandCruiser</p>
+</button></a>
+
+<style>
+    a {
+        text-decoration: none;
+    }
+
+    button {
+        width: 9rem;
+        height: 3rem;
+        flex-shrink: 0;
+        border-radius: 1rem;
+
+        backdrop-filter: blur(7.5px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        cursor: pointer;
+        padding-block: 1.5rem;
+        border: 2px solid rgba(255, 255, 255, 0.50);
+        background-color: rgba(0, 0, 0, 0.30);
+        transition: .5s;
+
+            .book {
+            color: white;
+            text-align: center;
+            font-size: 1rem;
+            font-weight: bold;
+            width: 100%;
+            margin: 0;
+
+
+            }
+            
+            .car {
+            color: white;
+            font-size: .75rem;
+            text-align: center;
+            width: 100%;
+            margin: 0;
+
+            }
+    }
+
+    button:hover, button:focus {
+        background-color: hsla(0, 0%, 100%, 0.5);
+        border: 2px solid rgba(0, 0, 0, 0.30);
+        transition: .5s;
+
+        .book {
+        color: rgba(0, 0, 0, 0.50);
+        }
+
+        .car {
+        color: black;
+        }
+
+    }
+
+    
+    @media only screen and (max-height: 800px) {
+        button {
+            width: 5rem;
+            height: 1.7rem;
+
+            .book {
+            color: rgba(0, 0, 0, 0.50);
+            text-align: center;
+            font-size: .75rem;
+            font-weight: bold;
+            width: 100%;
+            margin: 0;
+
+            }
+            
+            .car {
+            color: rgba(0, 0, 0, 0.50);
+            font-size: .6rem;
+            text-align: center;
+            width: 100%;
+            margin: 0;
+            }
+
+        }
+    }
+
+    @media only screen and (max-width: 1000px) {
+        button {
+            margin-top: 1rem;
+        }
+    }
+</style>

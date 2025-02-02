@@ -10,14 +10,14 @@ const {
     duration,
     difficulty,
     capacity,
-    vclassdisplay,
+    tourTitle,
     toyotadisplay
 } = Astro.props
 
 ---
 
 <div class="headerContainer">
-    <h1>GOLDEN CIRCLE ESSENTIALS</h1>
+    <h1>{tourTitle}</h1>
     <div class="tourInfos">
         <div class="tourInfo">
             <Image src={calendar} alt="calendar icon" title="seasonality" width="30" height="30" class="infoIcon" loading="lazy"></Image>

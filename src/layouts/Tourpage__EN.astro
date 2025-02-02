@@ -31,7 +31,8 @@ gtk,
 wtb,
 i,
 ni,
-gallery
+gallery,
+tourTitle
 } = Astro.props
 
 import TopBar from "../components/TopBar__EN.astro"
@@ -77,6 +78,7 @@ import BookSection from "./BookSection__EN.astro"
                 <div class="headerGradient"></div>
                 <div class="headerInfos">
                     <HeaderInfos
+                    tourTitle={tourTitle}
                     season={tourSeason}
                     duration={tourDuration}
                     difficulty={tourDifficulty}
@@ -115,7 +117,7 @@ import BookSection from "./BookSection__EN.astro"
             gallery={gallery}>
             </GallerySection>
 
-            <BookSection>
+            <BookSection tourTitle={tourTitle}>
                 <slot slot="carCards" name="carCards"></slot>
             </BookSection>
 
