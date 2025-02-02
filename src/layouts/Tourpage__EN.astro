@@ -43,6 +43,7 @@ import InternalNav from "../components/InternalNav__EN.astro"
 import InfoSection from "./InfoSection__EN.astro"
 import GallerySection from "./GallerySection.astro"
 import BookSection from "./BookSection__EN.astro"
+import FormSection from "./FormSection.astro"
 ---
 <!doctype html>
 <html lang={language}>
@@ -69,6 +70,8 @@ import BookSection from "./BookSection__EN.astro"
         <title>{pageTitle}</title>
 
         <slot name="jsonld"></slot>
+
+        <!--<script src="https://tally.so/widgets/embed.js"></script> -->
     </head>
     <body>
         <header class="header">
@@ -121,8 +124,12 @@ import BookSection from "./BookSection__EN.astro"
                 <slot slot="carCards" name="carCards"></slot>
             </BookSection>
 
+            <FormSection>
+                <slot slot="form" name="form"></slot>
+            </FormSection>
 
-            <InternalNav></InternalNav>
+
+            <InternalNav bookOrQuote="BOOK"></InternalNav>
 
         </main>
 
