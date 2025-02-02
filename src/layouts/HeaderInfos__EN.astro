@@ -1,8 +1,5 @@
 ---
 import { Image } from "astro:assets";
-import BookToyota from "../components/buttons/BookToyota__EN.astro";
-import BookVClass from "../components/buttons/BookVClass__EN.astro";
-import ReadMore from "../components/buttons/ReadMore__EN.astro";
 import calendar from "../assets/icons/calendar-white.svg"
 import hourglass from "../assets/icons/hourglass-white.svg"
 import level from "../assets/icons/difficulty-white.svg"
@@ -39,11 +36,11 @@ const {
             <p class="info">: {capacity} maximum</p>
         </div>
     </div>
-    <div class="bookButtons">
-        <BookVClass></BookVClass>
-        <BookToyota></BookToyota>
-        <ReadMore></ReadMore>
-    </div>
+
+
+        <slot name="bookButtons"></slot>
+
+    
 </div>
 
 <style>
@@ -105,20 +102,6 @@ const {
     .info::before {
         content: " ";
         white-space: pre;
-    }
-
-    .bookButtons {
-        width: 150%;
-        display: flex;
-        justify-content: space-evenly;
-        gap: 1.25rem;
-        align-items: center;
-        flex-wrap: wrap;
-        animation-name: Title;
-        animation-duration: 2s;
-        animation-delay: 2s;
-        animation-fill-mode: forwards;
-        opacity: 0;
     }
 
     @media only screen and (max-height: 800px) {

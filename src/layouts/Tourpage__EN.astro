@@ -41,6 +41,7 @@ import ItiSection from "./ItiSection__EN.astro"
 import InternalNav from "../components/InternalNav__EN.astro"
 import InfoSection from "./InfoSection__EN.astro"
 import GallerySection from "./GallerySection.astro"
+import BookSection from "./BookSection__EN.astro"
 ---
 <!doctype html>
 <html lang={language}>
@@ -82,7 +83,11 @@ import GallerySection from "./GallerySection.astro"
                     capacity={tourCapacity}
                     vclassdisplay={vclassdisplay}
                     toyotadisplay={toyotadisplay}
-                    ></HeaderInfos>
+                    >
+                
+                    <slot name="bookButtons" slot="bookButtons"></slot>
+                
+                </HeaderInfos>
                 </div>
             </div>
         </header>
@@ -109,6 +114,10 @@ import GallerySection from "./GallerySection.astro"
             <GallerySection 
             gallery={gallery}>
             </GallerySection>
+
+            <BookSection>
+                <slot slot="carCards" name="carCards"></slot>
+            </BookSection>
 
 
             <InternalNav></InternalNav>

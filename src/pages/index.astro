@@ -6,6 +6,16 @@ import * as Thing from "../Ititexts/goldenCircle/thingvellir1__EN.md"
 import * as Geysir from "../Ititexts/goldenCircle/geysir1__EN.md"
 import * as Gullfoss from "../Ititexts/goldenCircle/gullfoss1__EN.md"
 
+import BookLCCard from "../components/bookCards/BookLCCard__EN.astro";
+import BookMOLCard from "../components/bookCards/BookMOLCard__EN.astro";
+import BookVClassCard from "../components/bookCards/BookVClassCard__EN.astro";
+
+import BookVClass from "../components/buttons/BookVClass__EN.astro"
+import BookToyota from "../components/buttons/BookToyota__EN.astro"
+import ReadMore from "../components/buttons/ReadMore__EN.astro";
+
+
+
 
 const itiTextContent = [Thing.compiledContent(), Geysir.compiledContent(), Gullfoss.compiledContent()]
 
@@ -50,5 +60,51 @@ itiTextContent={itiTextContent}
 
 >
 
+<div class="bookButtons" slot="bookButtons">
+    <BookVClass></BookVClass>
+    <BookToyota></BookToyota>
+    <ReadMore></ReadMore>
+</div>
+
+<div class="carCards" slot="carCards">
+
+    <BookVClassCard></BookVClassCard>
+    <BookLCCard></BookLCCard>
+    <BookMOLCard></BookMOLCard>
+
+
+
+</div>
 
 </Tourpage>
+
+<style>
+        .bookButtons {
+        width: 150%;
+        display: flex;
+        justify-content: space-evenly;
+        gap: 1.25rem;
+        align-items: center;
+        flex-wrap: wrap;
+        animation-name: Title;
+        animation-duration: 2s;
+        animation-delay: 2s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+    }
+
+    .carCards {
+        width: 100%;
+        display: flex;
+        gap: 10rem;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+
+    @media only screen and (max-height: 800px) {
+        .bookButtons {
+            gap: .75rem;
+        }
+    }
+    </style>
