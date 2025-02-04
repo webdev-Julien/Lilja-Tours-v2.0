@@ -4,6 +4,8 @@ import rates from "../datas/pricelist.json"
 import TourCards from "../layouts/TourCards.astro"
 import RegionTagButton from "../components/buttons/RegionTagButton.astro"
 import TypeTagButton from "../components/buttons/TypeTagButton.astro"
+import "../styles/style.css"
+
 ---
 
 <!DOCTYPE html>
@@ -18,7 +20,7 @@ import TypeTagButton from "../components/buttons/TypeTagButton.astro"
 cardImageSrc={tours.GCE.__EN.body.cardPic.imgSrc}
 cardImageAlt={tours.GCE.__EN.body.cardPic.imgAlt}
 cardImageTitle={tours.GCE.__EN.body.cardPic.imgTitle}
-cardTitle={tours.GCE.__EN.head.pageTitle}
+cardTitle={tours.GCE.__EN.head.tourTitle}
 jeepISK={rates.GCE.jeepISK}
 jeepUSD={rates.GCE.jeepUSD}
 jeepEUR={rates.GCE.jeepEUR}
