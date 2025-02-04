@@ -8,6 +8,8 @@ import "../styles/style.css"
 import * as Thing from "../Ititexts/goldenCircle/thingvellir1__EN.md"
 import * as Geysir from "../Ititexts/goldenCircle/geysir1__EN.md"
 import * as Gullfoss from "../Ititexts/goldenCircle/gullfoss1__EN.md"
+import * as Test from "../Ititexts/goldenCircle/test.mdx"
+import { Content as TestContent } from "../Ititexts/goldenCircle/test.mdx"
 
 import BookLCCard from "../components/bookCards/BookLCCard__EN.astro";
 import BookMOLCard from "../components/bookCards/BookMOLCard__EN.astro";
@@ -19,7 +21,6 @@ import ReadMore from "../components/buttons/ReadMore__EN.astro";
 
 
 
-
 const itiTextContent = [Thing.compiledContent(), Geysir.compiledContent(), Gullfoss.compiledContent()]
 const vanISK = pricelist.GCE.vanISK
 const vanEUR = pricelist.GCE.vanEUR
@@ -28,7 +29,6 @@ const capacity = tours.GCE.__EN.body.capacity
 const jeepISK = pricelist.GCE.jeepISK
 const jeepEUR = pricelist.GCE.jeepEUR
 const jeepUSD = pricelist.GCE.jeepUSD
-
 
 
 ---
@@ -73,6 +73,8 @@ itiTextContent={itiTextContent}
 
 >
 
+
+
 <div class="bookButtons" slot="bookButtons">
     <BookVClass></BookVClass>
     <BookToyota></BookToyota>
@@ -97,6 +99,9 @@ itiTextContent={itiTextContent}
 </div>
 
 </Tourpage>
+
+<p style="color:red; height: 300px">{Test.customFrontmatter.tourtitle}</p>
+
 
 <style>
         .bookButtons {

@@ -1,5 +1,6 @@
 {
   "GCE": {
+    "test": "Golden Circle",
     "__EN": {
       "head": {
         "language": "en",
