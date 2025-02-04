@@ -5,11 +5,11 @@ import pricelist from "../datas/pricelist.json"
 
 import Tourpage from "../layouts/Tourpage__EN.astro";
 import "../styles/style.css"
-import * as Thing from "../Ititexts/goldenCircle/thingvellir1__EN.md"
-import * as Geysir from "../Ititexts/goldenCircle/geysir1__EN.md"
-import * as Gullfoss from "../Ititexts/goldenCircle/gullfoss1__EN.md"
+import * as Thing from "../Ititexts/goldenCircleEssentials/thingvellir1__EN.md"
+import * as Geysir from "../Ititexts/goldenCircleEssentials/geysir1__EN.md"
+import * as Gullfoss from "../Ititexts/goldenCircleEssentials/gullfoss1__EN.md"
 import * as Test from "../Ititexts/goldenCircle/test.mdx"
-import { Content as TestContent } from "../Ititexts/goldenCircle/test.mdx"
+
 
 import BookLCCard from "../components/bookCards/BookLCCard__EN.astro";
 import BookMOLCard from "../components/bookCards/BookMOLCard__EN.astro";
@@ -19,7 +19,7 @@ import BookVClass from "../components/buttons/BookVClass__EN.astro"
 import BookToyota from "../components/buttons/BookToyota__EN.astro"
 import ReadMore from "../components/buttons/ReadMore__EN.astro";
 
-
+import TourCards from "../layouts/TourCards.astro";
 
 const itiTextContent = [Thing.compiledContent(), Geysir.compiledContent(), Gullfoss.compiledContent()]
 const vanISK = pricelist.GCE.vanISK
@@ -92,16 +92,14 @@ itiTextContent={itiTextContent}
 </div>
 
 <div slot="form">
-    <!--<iframe data-tally-src="https://tally.so/embed/mRbZKQ?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="618" frameborder="0" marginheight="0" marginwidth="0" title="Do you have any questions about the Golden Circle Essentials tour?"></iframe> -->
-
     <iframe data-tally-src="https://tally.so/embed/mRbZKQ?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="618" frameborder="0" marginheight="0" marginwidth="0" title="Do you have any questions about the Golden Circle Essentials tour?"></iframe>
     <script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
 </div>
 
+
 </Tourpage>
 
-<p style="color:red; height: 300px">{Test.customFrontmatter.tourtitle}</p>
-
+<TourCards></TourCards>
 
 <style>
         .bookButtons {

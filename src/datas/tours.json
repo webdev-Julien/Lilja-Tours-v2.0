@@ -1,6 +1,5 @@
 {
   "GCE": {
-    "test": "Golden Circle",
     "__EN": {
       "head": {
         "language": "en",
@@ -29,6 +28,7 @@
           "alt": "Frozen waterfall and sunset",
           "title": "Private Golden Circle Tour: Öxarárfoss"
         },
+
         "itiCover": {
           "itiTitle": "Your itinerary",
           "itiSrcMobile": "/pictures/golden-circle-essentials/itinerary/title/gullfoss-mobile.webp",
@@ -146,40 +146,27 @@
             "alt": "Immense waterfall, in wintery landscape",
             "title": "Golden Circle Essentials: Gullfoss"
           }
-        ]
-      }
-    },
+        ],
 
-    "__FR": {
-      "head": {
-        "language": "fr",
-        "pageTitle": "Le cercle d'or avec guide privé",
-        "description": "Follow Lilja Tours on the most popular tour in Iceland: The Golden Circle. Explore the National Park of Þingvellir, Geysir and Gullfoss, in a 6 hour tour.",
-        "ogTitle": "Private tour: Golden Circle Essentials",
-        "ogImage": "/.../...webp",
-        "ogDescription": "Follow Lilja Tours on the most popular tour in Iceland: The Golden Circle. Explore the National Park of Þingvellir, Geysir and Gullfoss, in a 6 hour tour.",
-        "ogURL": "https://jklfdhgkasdhgsdkljfhg",
-        "ogLocale": "en_US",
-        "ogLocaleAlt": "fr_FR"
-      },
+        "typeTags": [
+          {
+            "tag": "Sightseeing",
+            "tagLink": "/.....html"
+          }
+        ],
 
-      "body": {
-        "h1": "Golden Circle Essentials",
-        "duration": "6 hours approx.",
-        "capacity": "6 passengers max.",
-        "interests": "Sightseeing, History",
-        "season": "All year round",
-        "difficulty": "No difficulty",
+        "regionTags": [
+          {
+            "tag": "Golden Circle",
+            "tagLink": "/.....html"
+          }
+        ],
 
-        "headerCover": {
-          "src": "/../.webp",
-          "alt": "bibibi",
-          "title": "boubou"
-        },
-
-        "linkFr": "/fr/ ...html",
-        "bookVan": "https...Bokun",
-        "bookJeep": "https...Bokun"
+        "cardPic": {
+          "imgSrc": "/pictures/golden-circle-essentials/card/golden-circle-essentials-card.webp",
+          "imgAlt": "A geyser about to erupt",
+          "imgTitle": "Private tour: Golden Circle Essentials"
+        }
       }
     }
   }

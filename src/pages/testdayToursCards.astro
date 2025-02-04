@@ -1,0 +1,33 @@
+---
+import tours from "../datas/tours.json"
+import rates from "../datas/pricelist.json"
+import TourCards from "../layouts/TourCards.astro"
+import RegionTagButton from "../components/buttons/RegionTagButton.astro"
+import TypeTagButton from "../components/buttons/TypeTagButton.astro"
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <TourCards     
+cardImageSrc={tours.GCE.__EN.body.cardPic.imgSrc}
+cardImageAlt={tours.GCE.__EN.body.cardPic.imgAlt}
+cardImageTitle={tours.GCE.__EN.body.cardPic.imgTitle}
+cardTitle={tours.GCE.__EN.head.pageTitle}
+jeepISK={rates.GCE.jeepISK}
+jeepUSD={rates.GCE.jeepUSD}
+jeepEUR={rates.GCE.jeepEUR}
+tourSeason={tours.GCE.__EN.body.season}
+tourDuration={tours.GCE.__EN.body.duration}
+tourDifficulty={tours.GCE.__EN.body.difficulty}
+tourCapacity={tours.GCE.__EN.body.capacity}>
+</TourCards>
+</body>
+</html>
+
+

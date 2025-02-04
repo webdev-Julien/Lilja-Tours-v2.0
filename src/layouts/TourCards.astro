@@ -1,0 +1,66 @@
+---
+import { Image } from "astro:assets";
+import calendar from "../assets/icons/calendar-white.svg"
+import hourglass from "../assets/icons/hourglass-white.svg"
+import level from "../assets/icons/difficulty-white.svg"
+import groupSize from "../assets/icons/group-size-white.svg"
+
+const {
+    cardImageSrc,
+    cardImageAlt,
+    cardImageTitle,
+    cardTitle,
+    jeepISK,
+    jeepUSD,
+    jeepEUR,
+    tourSeason,
+    tourDuration,
+    tourDifficulty,
+    tourCapacity
+} = Astro.props
+
+---
+
+<article>
+    <div class="picWrap">
+        <div class="pic">
+            <img src={cardImageSrc} alt={cardImageAlt} title={cardImageTitle} loading="lazy" width="500" height="338">
+        </div>
+        <div class="picOverlay">
+           <slot name="cardTextContent"></slot>
+        </div>
+    </div>
+    <div class="textInfos">
+        <h2>{cardTitle}</h2>
+            <div class="rates">
+                <p>Starting from:</p>
+                <p>{jeepISK} ISK <span>/vehicle</span></p>
+                <p>Approx. {jeepUSD} $ or {jeepEUR} €</p>
+            </div>
+            <div class="infos">
+                <div class="info">
+                    <Image src={calendar} alt="Calendar icon"></Image>
+                    <p>: {tourSeason}</p>
+                </div>
+                <div class="info">
+                    <Image src={hourglass} alt="hourglass icon"></Image>
+                    <p>: Approx. {tourDuration} h</p>
+                </div>
+                <div class="info">
+                    <Image src={level} alt="level icon"></Image>
+                    <p>: {tourDifficulty}</p>
+                </div>
+                <div class="info">
+                    <Image src={groupSize} alt="group icon"></Image>
+                    <p>: {tourCapacity} maximum</p>
+                </div>
+            </div>
+            <div class="tags">
+                <slot name="tags"></slot>
+            </div>
+    </div>
+</article>
+
+<style>
+
+</style>
