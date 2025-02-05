@@ -23,37 +23,40 @@ const {
 
 <article>
     <div class="picWrap">
-        <div class="pic">
-            <img src={cardImageSrc} alt={cardImageAlt} title={cardImageTitle} loading="lazy" width="500" height="338">
-        </div>
+            <img src={cardImageSrc} alt={cardImageAlt} title={cardImageTitle} loading="lazy" width="400" height="225" class="backImg">
         <div class="picOverlay">
-           <slot name="cardTextContent"></slot>
+           <!-- <slot name="cardTextContent"></slot>-->
+<slot name="textContentCard">
         </div>
+
     </div>
     <div class="textInfos">
-        <h2>{cardTitle}</h2>
+        <a href=""><h2>{cardTitle}</h2></a>
             <div class="rates">
-                <p>Starting from:</p>
-                <p>{jeepISK} ISK <span>/vehicle</span></p>
-                <p>Approx. {jeepUSD} $ or {jeepEUR} €</p>
+                <p class="startingFrom">Starting from:</p>
+                <p class="rateISK">{jeepISK} ISK <span class="vehicle">/vehicle</span></p>
+                <p class="approx"><em>Approx. {jeepUSD} $ or {jeepEUR} €</em></p>
             </div>
+
             <div class="infos">
+
                 <div class="info">
-                    <Image src={calendar} alt="Calendar icon"></Image>
-                    <p>: {tourSeason}</p>
+                    <Image src={calendar} alt="Calendar icon" title="seasonality" width="15" height="15"  class="icon" loading="lazy"></Image>
+                    <p class="pictoText">: {tourSeason}</p>
                 </div>
                 <div class="info">
-                    <Image src={hourglass} alt="hourglass icon"></Image>
-                    <p>: Approx. {tourDuration} h</p>
+                    <Image src={hourglass} alt="hourglass icon" title="duration" width="15" height="15"  class="icon" loading="lazy"></Image>
+                    <p class="pictoText">: Approx. {tourDuration} h</p>
+                </div>
+                <div class="info"> 
+                    <Image src={level} alt="level icon" title="difficulty" width="15" height="15"  class="icon" loading="lazy"></Image>
+                    <p class="pictoText">: {tourDifficulty}</p>
                 </div>
                 <div class="info">
-                    <Image src={level} alt="level icon"></Image>
-                    <p>: {tourDifficulty}</p>
+                    <Image src={groupSize} alt="group icon" title="capacity" width="15" height="15"  class="icon" loading="lazy"></Image>
+                    <p class="pictoText">: {tourCapacity} maximum</p>
                 </div>
-                <div class="info">
-                    <Image src={groupSize} alt="group icon"></Image>
-                    <p>: {tourCapacity} maximum</p>
-                </div>
+
             </div>
             <div class="tags">
                 <slot name="tags"></slot>
@@ -63,4 +66,137 @@ const {
 
 <style>
 
+    a {
+        text-decoration: none;
+    }
+
+    article {
+        background-color: #292929;
+        filter: drop-shadow(0 0 0.6rem #000000);
+        width: fit-content;
+        height: fit-content;
+        max-width: 32rem;
+        margin: 2rem;
+    }
+
+    .backImg {
+        display: block;
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+
+    .picwrap {
+        position: relative;
+        overflow: hidden;
+
+    }
+
+
+
+    .picOverlay {
+        position: absolute;
+        height: 14.0625rem;
+        padding: 1rem;
+        background-color: hsla(0, 0%, 16%, 0.80);
+        top: 0;
+        visibility: hidden;
+        opacity: 0;
+        transition: .5s;
+        width: 100%;
+        
+
+        p {
+                font-size: 1rem;
+            }
+    }
+    .backImg:hover + .picOverlay, .picOverlay:hover {
+        opacity: 1;
+        transition: .5;
+        visibility: visible;
+ 
+
+    
+}
+    .textInfos {
+        display: flex;
+        flex-direction: column;
+        padding: .5rem 1rem 1rem 1rem;
+    }
+
+
+
+    .infos {
+        display: flex;
+        width: 100%;
+        margin-inline: auto;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 1rem;
+        flex-wrap: wrap;
+    }
+
+    h2 {
+        color: white;
+        text-decoration: underline;
+        font-weight: lighter;
+        font-size: 1.5rem;
+        margin-bottom: .75rem;
+        line-height: 1;
+        text-underline-offset: .25rem;
+        text-decoration-thickness: .05rem;
+    }
+
+    p {
+        margin: 0    
+    }
+
+    .startingFrom {
+        color: rgba(255, 255, 255, 0.6);
+        font-size: .5rem;
+        font-weight: lighter;
+    }
+
+    .approx {
+        color: rgb(255, 255, 255, 0.6);
+        font-size: .5rem;
+        font-weight: lighter;
+    }
+
+    .rateISK {
+        color: #A3B9E1;
+        font-weight: normal;
+        font-size: 1.5rem;
+    }
+
+    .rates > p   {
+        line-height: 1.2;
+    }
+
+    
+
+    .pictoText {
+        font-size: .75rem;
+        font-weight: lighter;   
+    }
+
+    .vehicle {
+        color: rgba(255, 255, 255, 0.6);
+        font-size: .5rem;
+        font-weight: lighter;
+        }
+
+.info {
+    display: inline-flex;
+    text-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pictoText::before {
+    content:" ";
+    white-space: pre;
+}
 </style>

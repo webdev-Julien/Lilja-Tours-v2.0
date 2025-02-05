@@ -25,7 +25,7 @@ const itiTextContent = [Thing.compiledContent(), Geysir.compiledContent(), Gullf
 const vanISK = pricelist.GCE.vanISK
 const vanEUR = pricelist.GCE.vanEUR
 const vanUSD = pricelist.GCE.vanUSD
-const capacity = tours.GCE.__EN.body.capacity
+const capacity = tours[0].__EN.body.capacity
 const jeepISK = pricelist.GCE.jeepISK
 const jeepEUR = pricelist.GCE.jeepEUR
 const jeepUSD = pricelist.GCE.jeepUSD
@@ -34,32 +34,32 @@ const jeepUSD = pricelist.GCE.jeepUSD
 ---
 
 <Tourpage 
-tourTitle={tours.GCE.__EN.head.tourTitle}
-gallery={tours.GCE.__EN.body.gallery} 
-pageTitle={tours.GCE.__EN.head.pageTitle} 
-linkfr={tours.GCE.__EN.body.linkFr}
-srcMobileHeader={tours.GCE.__EN.body.headerCover.srcMobile}
-srcPCHeader={tours.GCE.__EN.body.headerCover.srcPC}
-altHeader={tours.GCE.__EN.body.headerCover.alt}
-titleHeader={tours.GCE.__EN.body.headerCover.title}
+tourTitle={tours[0].__EN.head.tourTitle}
+gallery={tours[0].__EN.body.gallery} 
+pageTitle={tours[0].__EN.head.pageTitle} 
+linkfr={tours[0].__EN.body.linkFr}
+srcMobileHeader={tours[0].__EN.body.headerCover.srcMobile}
+srcPCHeader={tours[0].__EN.body.headerCover.srcPC}
+altHeader={tours[0].__EN.body.headerCover.alt}
+titleHeader={tours[0].__EN.body.headerCover.title}
 
-tourSeason={tours.GCE.__EN.body.season}
-tourDuration={tours.GCE.__EN.body.duration}
-tourDifficulty={tours.GCE.__EN.body.difficulty}
+tourSeason={tours[0].__EN.body.season}
+tourDuration={tours[0].__EN.body.duration}
+tourDifficulty={tours[0].__EN.body.difficulty}
 tourCapacity={capacity}
 
-ItiSectionTitle={tours.GCE.__EN.body.itiCover.itiTitle}
-ItiSectionTitleSrcMobile={tours.GCE.__EN.body.itiCover.itiSrcMobile}
-ItiSectionTitleSrcPC={tours.GCE.__EN.body.itiCover.itiSrcPC}
-ItiSectionTitleAlt={tours.GCE.__EN.body.itiCover.itiAlt}
-ItiSectionTitleTitle={tours.GCE.__EN.body.itiCover.itiTitle}
-gtk={tours.GCE.__EN.body.goodToKnow}
-wtb={tours.GCE.__EN.body.WhatToBring}
-i={tours.GCE.__EN.body.Included}
-ni={tours.GCE.__EN.body.nonIncluded}
+ItiSectionTitle={tours[0].__EN.body.itiCover.itiTitle}
+ItiSectionTitleSrcMobile={tours[0].__EN.body.itiCover.itiSrcMobile}
+ItiSectionTitleSrcPC={tours[0].__EN.body.itiCover.itiSrcPC}
+ItiSectionTitleAlt={tours[0].__EN.body.itiCover.itiAlt}
+ItiSectionTitleTitle={tours[0].__EN.body.itiCover.itiTitle}
+gtk={tours[0].__EN.body.goodToKnow}
+wtb={tours[0].__EN.body.WhatToBring}
+i={tours[0].__EN.body.Included}
+ni={tours[0].__EN.body.nonIncluded}
 
 
-AllItiItems={tours.GCE.__EN.body.itiItem}
+AllItiItems={tours[0].__EN.body.itiItem}
 
 itiTextContent={itiTextContent}
 

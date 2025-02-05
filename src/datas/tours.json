@@ -1,5 +1,5 @@
-{
-  "GCE": {
+[
+  {
     "__EN": {
       "head": {
         "language": "en",
@@ -155,12 +155,10 @@
           }
         ],
 
-        "regionTags": [
-          {
-            "tag": "Golden Circle",
-            "tagLink": "/.....html"
-          }
-        ],
+        "regionTags": {
+          "tag": "Golden Circle",
+          "tagLink": "/.....html"
+        },
 
         "cardPic": {
           "imgSrc": "/pictures/golden-circle-essentials/card/golden-circle-essentials-card.webp",
@@ -170,4 +168,4 @@
       }
     }
   }
-}
+]
