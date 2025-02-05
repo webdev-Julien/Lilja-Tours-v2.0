@@ -1,4 +1,4 @@
-### Geysir: The Origin of All Geysers  
+### Geysir & Strokkur 
 
 Did you know that all geysers worldwide are named after **Geysir** in Iceland? The word "geyser" originates from the Icelandic verb **"að geysa,"** meaning *to gush*.  
 

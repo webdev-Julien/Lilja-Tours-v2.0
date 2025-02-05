@@ -37,27 +37,6 @@ const {
                 <p class="rateISK">{jeepISK} ISK <span class="vehicle">/vehicle</span></p>
                 <p class="approx"><em>Approx. {jeepUSD} $ or {jeepEUR} €</em></p>
             </div>
-
-            <div class="infos">
-
-                <div class="info">
-                    <Image src={calendar} alt="Calendar icon" title="seasonality" width="15" height="15"  class="icon" loading="lazy"></Image>
-                    <p class="pictoText">: {tourSeason}</p>
-                </div>
-                <div class="info">
-                    <Image src={hourglass} alt="hourglass icon" title="duration" width="15" height="15"  class="icon" loading="lazy"></Image>
-                    <p class="pictoText">: Approx. {tourDuration} h</p>
-                </div>
-                <div class="info"> 
-                    <Image src={level} alt="level icon" title="difficulty" width="15" height="15"  class="icon" loading="lazy"></Image>
-                    <p class="pictoText">: {tourDifficulty}</p>
-                </div>
-                <div class="info">
-                    <Image src={groupSize} alt="group icon" title="capacity" width="15" height="15"  class="icon" loading="lazy"></Image>
-                    <p class="pictoText">: {tourCapacity} maximum</p>
-                </div>
-
-            </div>
             <div class="tags">
                 <slot name="tags"></slot>
             </div>
