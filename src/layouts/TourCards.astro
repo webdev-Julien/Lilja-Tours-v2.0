@@ -26,7 +26,13 @@ const {
             <img src={cardImageSrc} alt={cardImageAlt} title={cardImageTitle} loading="lazy" width="400" height="225" class="backImg">
         <div class="picOverlay">
            <!-- <slot name="cardTextContent"></slot>-->
+<<<<<<< HEAD
 <slot name="textContentCard">
+=======
+            <p>Enjoy the most famous tour in Iceland. Visit sites of exception such as Gullfoss, geysir and Thingvellir.Enjoy the most famous tour in Iceland. Visit sites of exception such as Gullfoss, geysir and Thingvellir.Enjoy the most famous tour in Iceland. Visit sites of exception such as Gullfoss, geysir and Thingvellir.
+
+                Enjoy the most famous tour in Iceland. Visit sites of exception such as Gullfoss, geysir and Thingvellir.</p>
+>>>>>>> f9594ab1b56a1960b810f44fe638c1b8db873efc
         </div>
 
     </div>
@@ -34,13 +40,18 @@ const {
         <a href=""><h2>{cardTitle}</h2></a>
             <div class="rates">
                 <p class="startingFrom">Starting from:</p>
+<<<<<<< HEAD
                 <p class="rateISK">{jeepISK} ISK <span class="vehicle">/vehicle</span></p>
+=======
+                <p class="rateISK">{jeepISK} ISK <span>/vehicle</span></p>
+>>>>>>> f9594ab1b56a1960b810f44fe638c1b8db873efc
                 <p class="approx"><em>Approx. {jeepUSD} $ or {jeepEUR} €</em></p>
             </div>
 
             <div class="infos">
 
                 <div class="info">
+<<<<<<< HEAD
                     <Image src={calendar} alt="Calendar icon" title="seasonality" width="15" height="15"  class="icon" loading="lazy"></Image>
                     <p class="pictoText">: {tourSeason}</p>
                 </div>
@@ -54,6 +65,21 @@ const {
                 </div>
                 <div class="info">
                     <Image src={groupSize} alt="group icon" title="capacity" width="15" height="15"  class="icon" loading="lazy"></Image>
+=======
+                    <Image src={calendar} alt="Calendar icon" width="15" height="15"  class="icon"></Image>
+                    <p class="pictoText">: {tourSeason}</p>
+                </div>
+                <div class="info">
+                    <Image src={hourglass} alt="hourglass icon" width="15" height="15"  class="icon"></Image>
+                    <p class="pictoText">: Approx. {tourDuration} h</p>
+                </div>
+                <div class="info"> 
+                    <Image src={level} alt="level icon" width="15" height="15"  class="icon"></Image>
+                    <p class="pictoText">: {tourDifficulty}</p>
+                </div>
+                <div class="info">
+                    <Image src={groupSize} alt="group icon" width="15" height="15"  class="icon"></Image>
+>>>>>>> f9594ab1b56a1960b810f44fe638c1b8db873efc
                     <p class="pictoText">: {tourCapacity} maximum</p>
                 </div>
 
@@ -66,6 +92,7 @@ const {
 
 <style>
 
+<<<<<<< HEAD
     a {
         text-decoration: none;
     }
@@ -80,22 +107,39 @@ const {
     }
 
     .backImg {
+=======
+    article {
+        background-color: #292929;
+        filter: drop-shadow(0 0 0.75rem #000000);
+        width: fit-content;
+        height: fit-content;
+        max-width: 32rem;
+    }
+
+    img {
+>>>>>>> f9594ab1b56a1960b810f44fe638c1b8db873efc
         display: block;
         min-width: 100%;
         max-width: 100%;
     }
 
+<<<<<<< HEAD
 
     .picwrap {
         position: relative;
         overflow: hidden;
 
+=======
+    .picwrap {
+        position: relative;
+>>>>>>> f9594ab1b56a1960b810f44fe638c1b8db873efc
     }
 
 
 
     .picOverlay {
         position: absolute;
+<<<<<<< HEAD
         height: 14.0625rem;
         padding: 1rem;
         background-color: hsla(0, 0%, 16%, 0.80);
@@ -124,28 +168,57 @@ const {
         padding: .5rem 1rem 1rem 1rem;
     }
 
+=======
+        inset: 0;
+    }
+
+    .textInfos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+>>>>>>> f9594ab1b56a1960b810f44fe638c1b8db873efc
 
 
     .infos {
         display: flex;
         width: 100%;
         margin-inline: auto;
+<<<<<<< HEAD
         justify-content: space-between;
         align-items: center;
         gap: 1rem;
         margin-top: 1rem;
         flex-wrap: wrap;
+=======
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1rem
+>>>>>>> f9594ab1b56a1960b810f44fe638c1b8db873efc
     }
 
     h2 {
         color: white;
         text-decoration: underline;
+<<<<<<< HEAD
         font-weight: lighter;
         font-size: 1.5rem;
         margin-bottom: .75rem;
         line-height: 1;
         text-underline-offset: .25rem;
         text-decoration-thickness: .05rem;
+=======
+        font-weight: normal;
+        font-size: 2rem;
+        margin-bottom: .75rem;
+>>>>>>> f9594ab1b56a1960b810f44fe638c1b8db873efc
     }
 
     p {
@@ -153,6 +226,7 @@ const {
     }
 
     .startingFrom {
+<<<<<<< HEAD
         color: rgba(255, 255, 255, 0.6);
         font-size: .5rem;
         font-weight: lighter;
@@ -162,11 +236,21 @@ const {
         color: rgb(255, 255, 255, 0.6);
         font-size: .5rem;
         font-weight: lighter;
+=======
+        color: white;
+        font-size: .75rem;
+    }
+
+    .approx {
+        color: white;
+        font-size: .75rem;
+>>>>>>> f9594ab1b56a1960b810f44fe638c1b8db873efc
     }
 
     .rateISK {
         color: #A3B9E1;
         font-weight: normal;
+<<<<<<< HEAD
         font-size: 1.5rem;
     }
 
@@ -199,4 +283,19 @@ const {
     content:" ";
     white-space: pre;
 }
+=======
+        font-size: 2rem;
+    }
+
+    .rates > p   {
+        line-height: 1;
+    }
+
+    .pictoText {
+        font-size: .75rem;    
+    }
+
+
+
+>>>>>>> f9594ab1b56a1960b810f44fe638c1b8db873efc
 </style>

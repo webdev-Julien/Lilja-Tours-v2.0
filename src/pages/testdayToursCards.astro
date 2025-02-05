@@ -2,6 +2,7 @@
 import tours from "../datas/tours.json"
 import rates from "../datas/pricelist.json"
 import TourCards from "../layouts/TourCards.astro"
+<<<<<<< HEAD
 import RegionTag from "../components/tags/RegionTag.astro"
 import TypeTag from "../components/tags/TypeTag.astro"
 import * as GCECard from "../cardTexts/golden-circle-essentials.md"
@@ -9,6 +10,12 @@ import "../styles/style.css"
 
 const textContentCard = [GCECard.compiledContent()]
 
+=======
+import RegionTagButton from "../components/buttons/RegionTagButton.astro"
+import TypeTagButton from "../components/buttons/TypeTagButton.astro"
+import "../styles/style.css"
+
+>>>>>>> f9594ab1b56a1960b810f44fe638c1b8db873efc
 ---
 
 <!DOCTYPE html>
@@ -19,6 +26,7 @@ const textContentCard = [GCECard.compiledContent()]
     <title>Document</title>
 </head>
 <body>
+<<<<<<< HEAD
 
     {
         tours.map((tour) => {
@@ -28,6 +36,13 @@ const textContentCard = [GCECard.compiledContent()]
 cardImageAlt={tour.__EN.body.cardPic.imgAlt}
 cardImageTitle={tour.__EN.body.cardPic.imgTitle}
 cardTitle={tour.__EN.head.tourTitle}
+=======
+    <TourCards     
+cardImageSrc={tours.GCE.__EN.body.cardPic.imgSrc}
+cardImageAlt={tours.GCE.__EN.body.cardPic.imgAlt}
+cardImageTitle={tours.GCE.__EN.body.cardPic.imgTitle}
+cardTitle={tours.GCE.__EN.head.tourTitle}
+>>>>>>> f9594ab1b56a1960b810f44fe638c1b8db873efc
 jeepISK={rates.GCE.jeepISK}
 jeepUSD={rates.GCE.jeepUSD}
 jeepEUR={rates.GCE.jeepEUR}
