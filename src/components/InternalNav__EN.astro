@@ -4,17 +4,20 @@ import iti from "../assets/icons/itinerary.svg"
 import info from "../assets/icons/infos.svg"
 import gallery from "../assets/icons/gallery.svg"
 import wapp from "../assets/icons/whatsapp-green.svg"
+import top from "../assets/icons/back-to-top-white.svg"
 
 const {bookOrQuote} = Astro.props
 ---
 
 <nav class="internalNav">
     <ul class="list">
+        <li><a href="#top" title=""><Image src={top} alt="arrow pointing upwards" height="30" width="30" loading="lazy" title="scroll back to top"></Image></a></li>
         <li><a href="#itin" title="See your itinerary"><Image src={iti} alt="itinerary icon" height="30" width="30" loading="lazy" title="Navigate to itinerary"></Image></a></li>
         <li><a href="#info" title=""><Image src={info} alt="information icon" height="30" width="30" loading="lazy" title="Navigate to information"></Image></a></li>
         <li><a href="#gallery" title=""><Image src={gallery} alt="picture icon" height="30" width="30" loading="lazy" title="Navigate to gallery"></Image></a></li>
         <li><a href="#bookings" title="" class="book">{bookOrQuote}</a></li>
         <li><a href="#" title=""><Image src={wapp} alt="whatsapp icon" height="30" width="30" loading="lazy" title="Send us a WhatsApp message"></Image></a></li>
+        
     </ul>
 </nav>
 
