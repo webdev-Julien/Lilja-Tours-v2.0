@@ -56,7 +56,6 @@ const toursCollection__EN = defineCollection({
     nonIncluded: z.array(z.string()),
 
     // Gallery
-
     gallery: z.array(
       z.object({
         srcMob: z.string(),
@@ -66,7 +65,6 @@ const toursCollection__EN = defineCollection({
       })),
     
     // Card
-
     tagsRegion: z.string(),
     tagsType: z.string(z.array(z.string())),
     cardPicSrc: z.string(),
