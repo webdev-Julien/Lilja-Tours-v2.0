@@ -56,8 +56,26 @@ const toursCollection__EN = defineCollection({
     nonIncluded: z.array(z.string()),
 
     // Gallery
-  }),
+
+    gallery: z.array(
+      z.object({
+        srcMob: z.string(),
+        srcPc: z.string(),
+        alt: z.string(),
+        title: z.string()
+      })),
+    
+    // Card
+
+    tagsRegion: z.string(),
+    tagsType: z.string(z.array(z.string())),
+    cardPicSrc: z.string(),
+    cardPicAlt: z.string(),
+    cardPicTitle: z.string()    
+  })
 });
+
+
 
 export const collections = {
   daytours__EN: toursCollection__EN,
