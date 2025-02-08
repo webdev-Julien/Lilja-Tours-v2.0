@@ -1,0 +1,64 @@
+import { defineCollection, z } from "astro:content";
+import ItiItem from "../layouts/ItiItem.astro";
+const toursCollection__EN = defineCollection({
+  type: "content",
+  schema: z.object({
+    // Rates
+    vanISK: z.number(),
+    jeepISK: z.number(),
+
+    // Head and metas
+    pageTitle: z.string(),
+    description: z.string(),
+    ogTitle: z.string(),
+    ogImage: z.string(),
+
+    // Tour datas
+    duration: z.string(),
+    capacity: z.string(),
+    season: z.string(),
+    difficulty: z.string(),
+
+    // H1
+    tourTitle: z.string(),
+
+    // Header Picture
+    headerCoverSrcMobile: z.string(),
+    headerCoverSrcPC: z.string(),
+    headerCoverAlt: z.string(),
+    headerCoverTitle: z.string(),
+
+    // Iti Picture
+    itiCoverTitle: z.string(),
+    itiCoverImgSrcMobile: z.string(),
+    itiCoverImgSrcPC: z.string(),
+    itiCoverImgAlt: z.string(),
+    itiCoverImgTitle: z.string(),
+
+    // Links
+    linkFr: z.string(),
+    bookVan: z.string(),
+    bookJeep: z.string(),
+
+    // Itinerary
+    ItiItems: z.array(
+      z.object({
+        itiItemTitle: z.string(),
+        itiItemPicSrcMobile: z.string(),
+        itiItemPicSrcPC: z.string(),
+      })
+    ),
+
+    // Tour infos
+    goodToKnow: z.array(z.string()),
+    WhatToBring: z.array(z.string()),
+    Included: z.array(z.string()),
+    nonIncluded: z.array(z.string()),
+
+    // Gallery
+  }),
+});
+
+export const collections = {
+  daytours__EN: toursCollection__EN,
+};
