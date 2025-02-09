@@ -1,6 +1,5 @@
 import { defineCollection, z } from "astro:content";
-import ItiItem from "../layouts/ItiItem.astro";
-const toursCollection__EN = defineCollection({
+const daytours__EN = defineCollection({
   type: "content",
   schema: z.object({
     // Rates
@@ -41,7 +40,7 @@ const toursCollection__EN = defineCollection({
     bookJeep: z.string(),
 
     // Itinerary
-    ItiItems: z.array(
+    itiItems: z.array(
       z.object({
         itiItemTitle: z.string(),
         itiItemPicSrcMobile: z.string(),
@@ -61,20 +60,19 @@ const toursCollection__EN = defineCollection({
         srcMob: z.string(),
         srcPc: z.string(),
         alt: z.string(),
-        title: z.string()
-      })),
-    
+        title: z.string(),
+      })
+    ),
+
     // Card
     tagsRegion: z.string(),
-    tagsType: z.string(z.array(z.string())),
+    tagsType: z.array(z.string()),
     cardPicSrc: z.string(),
     cardPicAlt: z.string(),
-    cardPicTitle: z.string()    
-  })
+    cardPicTitle: z.string(),
+  }),
 });
 
-
-
 export const collections = {
-  daytours__EN: toursCollection__EN,
+  daytours__EN: daytours__EN,
 };

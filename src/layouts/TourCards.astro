@@ -13,10 +13,7 @@ const {
     jeepISK,
     jeepUSD,
     jeepEUR,
-    tourSeason,
-    tourDuration,
-    tourDifficulty,
-    tourCapacity
+    textContent
 } = Astro.props
 
 ---
@@ -25,8 +22,8 @@ const {
     <div class="picWrap">
             <img src={cardImageSrc} alt={cardImageAlt} title={cardImageTitle} loading="lazy" width="400" height="225" class="backImg">
         <div class="picOverlay">
-           <!-- <slot name="cardTextContent"></slot>-->
-<slot name="textContentCard"></slot>
+          <p>{textContent}</p>
+<!--<slot name="textContentCard"></slot> -->
         </div>
 
     </div>

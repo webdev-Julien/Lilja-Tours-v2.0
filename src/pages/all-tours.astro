@@ -1,5 +1,12 @@
 ---
 import {ISK_to_USD_Rate, ISK_to_EUR_Rate} from "../constants"
+import { getCollection } from "astro:content";
+import type { CollectionEntry } from "astro:content";
+import TourCards from "../layouts/TourCards.astro";
+import "../styles/style.css"
+
+
+const allTours: CollectionEntry<"daytours__EN">[] = await getCollection("daytours__EN")
 ---
 <!DOCTYPE html>
 
@@ -12,6 +19,21 @@ import {ISK_to_USD_Rate, ISK_to_EUR_Rate} from "../constants"
 
 <body>
 
+    {allTours.map(tour => (
+        <TourCards
+cardImageSrc={tour.data.cardPicSrc}
+cardImageAlt={tour.data.cardPicAlt}
+cardImageTitle={tour.data.cardPicTitle}
+cardTitle={tour.data.tourTitle}
+jeepISK={tour.data.jeepISK}
+jeepUSD={Math.floor(tour.data.jeepISK / ISK_to_USD_Rate)}
+jeepEUR={Math.floor(tour.data.jeepISK / ISK_to_USD_Rate)}
+textContent={
+    tour.body.split("\n")[0] + tour.body.split("\n")[2] + tour.body.split("\n")[4]
+}
+
+></TourCards>
+))}
 
     
 </body>
