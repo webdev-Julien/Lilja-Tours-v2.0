@@ -73,6 +73,7 @@ const daytours__EN = defineCollection({
     cardPicSrc: z.string(),
     cardPicAlt: z.string(),
     cardPicTitle: z.string(),
+
   }),
 });
 

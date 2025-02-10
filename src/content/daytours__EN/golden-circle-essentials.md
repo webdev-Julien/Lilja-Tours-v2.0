@@ -180,7 +180,7 @@ cardPicAlt: "A geyser about to erupt"
 cardPicTitle: "Private tour: Golden Circle Essentials"
 #---
 
-slug: golden-circle-essentials-iceland
+slug: golden-circle-essentials
 
 ---
 

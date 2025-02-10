@@ -19,20 +19,10 @@ const allTours: CollectionEntry<"daytours__EN">[] = await getCollection("daytour
 
 <body>
 
-    {allTours.map( async (tour) => (
+    {allTours.map((tour) => (
 
         <TourCards
-cardImageSrc={tour.data.cardPicSrc}
-cardImageAlt={tour.data.cardPicAlt}
-cardImageTitle={tour.data.cardPicTitle}
-cardTitle={tour.data.tourTitle}
-jeepISK={tour.data.jeepISK}
-jeepUSD={Math.floor(tour.data.jeepISK / ISK_to_USD_Rate)}
-jeepEUR={Math.floor(tour.data.jeepISK / ISK_to_USD_Rate)}
-season={tour.data.season}
-duration={tour.data.duration}
-difficulty={tour.data.difficulty}
-capacity={tour.data.capacity}
+tour = {tour}
 >
 
 </TourCards>

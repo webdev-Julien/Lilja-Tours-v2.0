@@ -5,42 +5,40 @@ import hourglass from "../assets/icons/hourglass-white.svg"
 import level from "../assets/icons/difficulty-white.svg"
 import groupSize from "../assets/icons/group-size-white.svg"
 
-const {
-    cardImageSrc,
-    cardImageAlt,
-    cardImageTitle,
-    cardTitle,
-    jeepISK,
-    jeepUSD,
-    jeepEUR,
-    season,
-    duration,
-    difficulty,
-    capacity
-} = Astro.props
+import type { CollectionEntry } from "astro:content";
+
+import {ISK_to_USD_Rate, ISK_to_EUR_Rate} from "../constants"
+
+
+
+const {tour} = Astro.props
+
+interface Props {
+    tour:CollectionEntry<"daytours__EN">
+}
 
 ---
 
 <article>
     <div class="picWrap">
-            <img src={cardImageSrc} alt={cardImageAlt} title={cardImageTitle} loading="lazy" width="400" height="225" class="backImg">
+            <img src={tour.data.cardPicSrc} alt={tour.data.cardPicAlt} title={tour.data.cardPicTitle} loading="lazy" width="400" height="225" class="backImg">
         <div class="picOverlay">
             <div class="tourInfos">
                 <div class="tourInfo">
                     <Image src={calendar} alt="calendar icon" title="seasonality" width="30" height="30" class="infoIcon" loading="lazy"></Image>
-                    <p class="info">: {season}</p>
+                    <p class="info">: {tour.data.season}</p>
                 </div>
                 <div class="tourInfo">
                     <Image src={hourglass} alt="calendar icon" title="duration" width="30" height="30" class="infoIcon" loading="lazy"></Image>
-                    <p class="info">: Approx. {duration} hours</p>
+                    <p class="info">: Approx. {tour.data.duration} hours</p>
                 </div>
                 <div class="tourInfo">
                     <Image src={level} alt="calendar icon" title="difficulty" width="30" height="30" class="infoIcon" loading="lazy"></Image>
-                    <p class="info">: {difficulty}</p>
+                    <p class="info">: {tour.data.difficulty}</p>
                 </div>
                 <div class="tourInfo">
                     <Image src={groupSize} alt="calendar icon" title="capacity" width="30" height="30" class="infoIcon" loading="lazy"></Image>
-                    <p class="info">: {capacity} maximum</p>
+                    <p class="info">: {tour.data.capacity} maximum</p>
                 </div>
             </div>
         
@@ -49,11 +47,11 @@ const {
 
     </div>
     <div class="textInfos">
-        <a href=""><h2>{cardTitle}</h2>
+        <a href={"/private-day-tours-iceland/"+tour.slug}><h2>{tour.data.tourTitle}</h2>
             <div class="rates">
                 <p class="startingFrom">Starting from:</p>
-                <p class="rateISK">{jeepISK} ISK <span class="vehicle">/vehicle</span></p>
-                <p class="approx"><em>Approx. {jeepUSD} $ or {jeepEUR} €</em></p>
+                <p class="rateISK">{tour.data.jeepISK} ISK <span class="vehicle">/vehicle</span></p>
+                <p class="approx"><em>Approx. {Math.floor(tour.data.jeepISK / ISK_to_USD_Rate)} $ or {Math.floor(tour.data.jeepISK / ISK_to_EUR_Rate)} €</em></p>
             </div></a>
             <div class="tags">
                 <slot name="tags"></slot>
