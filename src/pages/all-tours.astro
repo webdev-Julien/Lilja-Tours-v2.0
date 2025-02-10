@@ -19,7 +19,8 @@ const allTours: CollectionEntry<"daytours__EN">[] = await getCollection("daytour
 
 <body>
 
-    {allTours.map(tour => (
+    {allTours.map( async (tour) => (
+
         <TourCards
 cardImageSrc={tour.data.cardPicSrc}
 cardImageAlt={tour.data.cardPicAlt}
@@ -28,11 +29,13 @@ cardTitle={tour.data.tourTitle}
 jeepISK={tour.data.jeepISK}
 jeepUSD={Math.floor(tour.data.jeepISK / ISK_to_USD_Rate)}
 jeepEUR={Math.floor(tour.data.jeepISK / ISK_to_USD_Rate)}
-textContent={
-    tour.body.split("\n")[0] + tour.body.split("\n")[2] + tour.body.split("\n")[4]
-}
+season={tour.data.season}
+duration={tour.data.duration}
+difficulty={tour.data.difficulty}
+capacity={tour.data.capacity}
+>
 
-></TourCards>
+</TourCards>
 ))}
 
     

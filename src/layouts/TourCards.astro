@@ -13,7 +13,10 @@ const {
     jeepISK,
     jeepUSD,
     jeepEUR,
-    textContent
+    season,
+    duration,
+    difficulty,
+    capacity
 } = Astro.props
 
 ---
@@ -22,8 +25,26 @@ const {
     <div class="picWrap">
             <img src={cardImageSrc} alt={cardImageAlt} title={cardImageTitle} loading="lazy" width="400" height="225" class="backImg">
         <div class="picOverlay">
-          <p>{textContent}</p>
-<!--<slot name="textContentCard"></slot> -->
+            <div class="tourInfos">
+                <div class="tourInfo">
+                    <Image src={calendar} alt="calendar icon" title="seasonality" width="30" height="30" class="infoIcon" loading="lazy"></Image>
+                    <p class="info">: {season}</p>
+                </div>
+                <div class="tourInfo">
+                    <Image src={hourglass} alt="calendar icon" title="duration" width="30" height="30" class="infoIcon" loading="lazy"></Image>
+                    <p class="info">: Approx. {duration} hours</p>
+                </div>
+                <div class="tourInfo">
+                    <Image src={level} alt="calendar icon" title="difficulty" width="30" height="30" class="infoIcon" loading="lazy"></Image>
+                    <p class="info">: {difficulty}</p>
+                </div>
+                <div class="tourInfo">
+                    <Image src={groupSize} alt="calendar icon" title="capacity" width="30" height="30" class="infoIcon" loading="lazy"></Image>
+                    <p class="info">: {capacity} maximum</p>
+                </div>
+            </div>
+        
+
         </div>
 
     </div>
@@ -41,6 +62,19 @@ const {
 </article>
 
 <style>
+
+    .tourInfos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem
+
+    }
+
+    .tourInfo {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
 
     a {
         text-decoration: none;
@@ -80,6 +114,9 @@ const {
         opacity: 0;
         transition: .5s;
         width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         
 
         p {
@@ -98,6 +135,11 @@ const {
         display: flex;
         flex-direction: column;
         padding: .75rem 1rem 1rem 1rem;
+    }
+
+    .info::before {
+        content: " ";
+        white-space: pre
     }
 
 

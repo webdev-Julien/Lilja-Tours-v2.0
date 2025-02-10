@@ -9,6 +9,7 @@ pageTitle: "Golden Circle Private tour"
 description: "Follow Lilja Tours on the most popular tour in Iceland: The Golden Circle. Explore the National Park of Þingvellir, Geysir and Gullfoss, in a 6 hour tour."
 ogTitle: "Private tour: Golden Circle Essentials"
 ogImage: "/.webp"
+language: "fr"
 #---
 
 # Tour datas
@@ -46,25 +47,36 @@ bookJeep: "#"
 # Itinerary
 itiItems: [
   { 
-    itiItemTitle: "Thingvellir",
+    itiItemTitle: "Þingvellir (Thingvellir) National Park",
     itiItemPicSrcMobile: "/pictures/golden-circle-essentials/itinerary/thingvellir/Thingvellir-portrait.webp",
     itiItemPicSrcPC: "/pictures/golden-circle-essentials/itinerary/thingvellir/Thingvellir-landscape.webp",
     itiItemPicAlt: "Landscape of mountains, rivers and lake",
-    itiItemPicTitle: "Golden Circle Essentials: Þingvellir"
+    itiItemPicTitle: "Golden Circle Essentials: Þingvellir",
+    itiItemStrings: ["**Þingvellir National Park** is the perfect starting point for your **Golden Circle tour**, offering stunning scenery and rich history.",
+    "Founded in 930, it’s home to the world’s first parliament, where Icelandic settlers met annually to shape laws. The parliament remained here until 1798, and in 2004, Þingvellir became a **UNESCO World Heritage Site**.",
+    "Beyond history, Þingvellir sits on the **Mid-Atlantic Ridge**, where the Eurasian and North American plates drift apart. It’s the only place on Earth where this rift is visible above sea level. From the **Hákið viewing platform**, you’ll stand on the edge of the American continent.",
+    "A short walk through the park leads to **Öxarárfoss**, a scenic waterfall with its own unique history."]
     },
     {
-    itiItemTitle: "Geysir",
+    itiItemTitle: "Geysir & Strokkur",
     itiItemPicSrcMobile: "/pictures/golden-circle-essentials/itinerary/geysir/geysir-portrait.webp",
     itiItemPicSrcPC: "/pictures/golden-circle-essentials/itinerary/geysir/geysir-landscape.webp",
     itiItemPicAlt: "Geyser erupting",
-    itiItemPicTitle: "Golden Circle Essentials: Geysir"
+    itiItemPicTitle: "Golden Circle Essentials: Geysir",
+    itiItemStrings: ["Did you know that all geysers worldwide are named after **Geysir** in Iceland? The word geyser originates from the Icelandic verb **að geysa,** meaning _to gush_.",
+    "While Geysir itself is now dormant (its last known eruption was in the year **2000**), its neighboring geyser **Strokkur** remains highly active. Strokkur erupts every **5 to 10 minutes**, thrilling visitors with powerful bursts of steaming water.",
+    "Located in the famous **Golden Circle**, Geysir and Strokkur are must-visit natural wonders, showcasing Iceland's geothermal power. Don't miss the chance to witness Strokkur’s spectacular eruptions up close!"]
     },
     {
-    itiItemTitle: "Gullfoss",
+    itiItemTitle: "Gullfoss: The Golden Waterfall",
     itiItemPicSrcMobile: "/pictures/golden-circle-essentials/itinerary/gullfoss/gullfoss-portrait.webp",
     itiItemPicSrcPC: "/pictures/golden-circle-essentials/itinerary/gullfoss/gullfoss-landscape.webp",
     itiItemPicAlt: "Landscape of mountains rivers and lake",
-    itiItemPicTitle: "Golden Circle Essentials Þingvellir"}]
+    itiItemPicTitle: "Golden Circle Essentials Þingvellir",
+    itiItemStrings: ["Iceland’s famous **Golden Circle** gets its name from **Gullfoss**, the breathtaking **Golden Waterfall.** While several legends explain its name, your guide will share the fascinating stories during your visit.",
+    "Did you know that Gullfoss was once at risk of disappearing? A proposed **hydropower plant** nearly altered this natural wonder forever. Thankfully, conservation efforts preserved its beauty, allowing visitors to witness its raw power today.",
+    "A must-see on the **Golden Circle**, Gullfoss showcases Iceland’s untamed nature with its thunderous cascades and stunning golden mist."]
+    }]
 #---
 
 # Tour infos
@@ -168,7 +180,7 @@ cardPicAlt: "A geyser about to erupt"
 cardPicTitle: "Private tour: Golden Circle Essentials"
 #---
 
-#slug: golden-circle-essentials-iceland
+slug: golden-circle-essentials-iceland
 
 ---
 
@@ -177,27 +189,3 @@ cardPicTitle: "Private tour: Golden Circle Essentials"
 Join our **Golden Circle Essentials Tour** and visit Iceland’s top three attractions: **Þingvellir National Park**, the erupting **Strokkur geyser**, and the stunning **Gullfoss** (_The Golden Falls_).
 
 Perfect for travelers on a tight schedule, this **half-day (six-hour) tour** offers a seamless way to experience Iceland’s natural wonders—ideal for short visits or cruise stopovers.
-
-### Þingvellir National Park
-
-**Þingvellir National Park** is the perfect starting point for your **Golden Circle tour**, offering stunning scenery and rich history.
-
-Founded in 930, it’s home to the world’s first parliament, where Icelandic settlers met annually to shape laws. The parliament remained here until 1798, and in 2004, Þingvellir became a **UNESCO World Heritage Site**.
-
-Beyond history, Þingvellir sits on the **Mid-Atlantic Ridge**, where the Eurasian and North American plates drift apart. It’s the only place on Earth where this rift is visible above sea level. From the **Hákið viewing platform**, you’ll stand on the edge of the American continent.
-
-A short walk through the park leads to **Öxarárfoss**, a scenic waterfall with its own unique history.
-
-### Geysir & Strokkur
-
-Did you know that all geysers worldwide are named after **Geysir** in Iceland? The word "geyser" originates from the Icelandic verb **"að geysa,"** meaning _to gush_.
-While Geysir itself is now dormant (its last known eruption was in the year **2000**), its neighboring geyser **Strokkur** remains highly active. Strokkur erupts every **5 to 10 minutes**, thrilling visitors with powerful bursts of steaming water.
-
-Located in the famous **Golden Circle**, Geysir and Strokkur are must-visit natural wonders, showcasing Iceland's geothermal power. Don't miss the chance to witness Strokkur’s spectacular eruptions up close!
-
-### Gullfoss: The Golden Waterfall
-
-Iceland’s famous **Golden Circle** gets its name from **Gullfoss**, the breathtaking **"Golden Waterfall."** While several legends explain its name, your guide will share the fascinating stories during your visit.
-Did you know that Gullfoss was once at risk of disappearing? A proposed **hydropower plant** nearly altered this natural wonder forever. Thankfully, conservation efforts preserved its beauty, allowing visitors to witness its raw power today.
-
-A must-see on the **Golden Circle**, Gullfoss showcases Iceland’s untamed nature with its thunderous cascades and stunning golden mist.

@@ -1,4 +1,5 @@
 import { defineCollection, z } from "astro:content";
+
 const daytours__EN = defineCollection({
   type: "content",
   schema: z.object({
@@ -11,6 +12,7 @@ const daytours__EN = defineCollection({
     description: z.string(),
     ogTitle: z.string(),
     ogImage: z.string(),
+    language: z.string(),
 
     // Tour datas
     duration: z.string(),
@@ -45,6 +47,7 @@ const daytours__EN = defineCollection({
         itiItemTitle: z.string(),
         itiItemPicSrcMobile: z.string(),
         itiItemPicSrcPC: z.string(),
+        itiItemStrings: z.array(z.string()),
       })
     ),
 
