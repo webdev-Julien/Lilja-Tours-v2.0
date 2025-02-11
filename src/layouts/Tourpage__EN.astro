@@ -48,7 +48,8 @@ const {
     gtk,
     wtb,
     i,
-    ni
+    ni,
+    gallery
 } = Astro.props
 
 ---
@@ -97,7 +98,7 @@ const {
                     >
                 
                     <div slot="bookButtons" class="bookButtons">
-                        {bookButtons.map((button) => (
+                        {bookButtons.map((button:any) => (
 
                             <BookVClassEN
                             bookLinkMercedes = {button.bookLink}
@@ -129,12 +130,12 @@ const {
             ni={ni}
             
             ></InfoSection>
-<!--
+
             <GallerySection 
-            gallery={tour.data.gallery}>
+            gallery={gallery}>
             </GallerySection>
 
-            <BookSection tourTitle={tour.data.tourTitle}>
+            <!--<BookSection tourTitle={tour.data.tourTitle}>
                 <div slot="carCards">
 
                 </div>
@@ -142,10 +143,10 @@ const {
 
             <FormSection>
                 <slot slot="form" name="form"></slot>
-            </FormSection>
+            </FormSection>-->
 
 
-            <InternalNav bookOrQuote="BOOK"></InternalNav> -->
+            <InternalNav bookOrQuote="BOOK"></InternalNav>
 
         </main>
 
