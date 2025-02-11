@@ -1,40 +1,4 @@
 ---
-const {
-language, 
-metaDescription, 
-ogTitle, 
-ogImage, 
-ogURL, 
-ogDescription, 
-ogLocale, 
-ogLocaleAlt,
-pageTitle,
-linkfr,
-srcMobileHeader,
-srcPCHeader,
-altHeader,
-titleHeader,
-tourSeason,
-tourDuration,
-tourDifficulty,
-tourCapacity,
-vclassdisplay,
-toyotadisplay,
-ItiSectionTitle,
-ItiSectionTitleSrcMobile,
-ItiSectionTitleSrcPC,
-ItiSectionTitleAlt,
-ItiSectionTitleTitle,
-AllItiItems,
-itiTextContent,
-gtk,
-wtb,
-i,
-ni,
-gallery,
-tourTitle
-} = Astro.props
-
 import TopBar from "../components/TopBar__EN.astro"
 import PicHeader from "../components/Pics/PicHeader.astro"
 import HeaderInfos from "../layouts/HeaderInfos__EN.astro"
@@ -46,6 +10,47 @@ import BookSection from "./BookSection__EN.astro"
 import FormSection from "./FormSection.astro"
 
 
+import {ISK_to_USD_Rate, ISK_to_EUR_Rate} from "../constants"
+
+import BookVClassEN from "../components/buttons/BookVClass__EN.astro"
+import MenuButton from "../components/buttons/MenuButton.astro"
+import ReadMore from "../components/buttons/ReadMore__EN.astro"
+
+
+import type { CollectionEntry } from "astro:content";
+import ReadMoreEN from "../components/buttons/ReadMore__EN.astro"
+
+const {
+    language, 
+    tour, 
+    description, 
+    ogTitle, 
+    ogImage, 
+    url,
+    pageTitle,
+    linkFr,
+    tourTitle,
+    season,
+    duration,
+    difficulty,
+    capacity,
+    bookButtons,
+    itiCoverImgSrcMobile, 
+    itiCoverImgSrcPC,
+    itiCoverImgAlt,
+    itiCoverImgTitle,
+    itiCoverTitle,
+    itiItems,
+    headerCoverSrcMobile,
+    headerCoverSrcPC,
+    headerCoverAlt,
+    headerCoverTitle,
+    gtk,
+    wtb,
+    i,
+    ni
+} = Astro.props
+
 ---
 <!doctype html>
 <html lang={language}>
@@ -54,17 +59,17 @@ import FormSection from "./FormSection.astro"
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
             name="description"
-            content={metaDescription}
+            content={description}
         />
 
         <meta property="og:title" content={ogTitle}>
         <meta property="og:type" content="website">
         <meta property="og:image" content={ogImage}>
-        <meta property="og:url" content={ogURL}>
-        <meta property="og:description" content={ogDescription}>
+        <meta property="og:url" content={url}>
+        <meta property="og:description" content={description}>
 
-        <meta property="og:locale" content={ogLocale}>
-        <meta property="og:locale:alternate" content={ogLocaleAlt}>
+        <meta property="og:locale" content="en_US">
+        <meta property="og:locale:alternate" content="fr_FR">
         <meta property="og:image:width" content="1200">
         <meta property="og:image:height" content="630">
         <meta property="og:logo" content="/logos/Lilja-Tours-Full-Logo.png" />
@@ -73,26 +78,34 @@ import FormSection from "./FormSection.astro"
 
         <slot name="jsonld"></slot>
 
-        <!--<script src="https://tally.so/widgets/embed.js"></script> -->
+        <!--script src="https://tally.so/widgets/embed.js"></script> -->
     </head>
     <body>
         <header class="header">
-            <TopBar linkfr={linkfr}></TopBar>
+            <TopBar linkfr={linkFr}></TopBar>
             <div class="headerContainerPic">
-                <PicHeader srcMobile={srcMobileHeader} srcPC={srcPCHeader} alt={altHeader} title={titleHeader}></PicHeader></div>
+                <PicHeader srcMobile={headerCoverSrcMobile} srcPC={headerCoverSrcPC} alt={headerCoverAlt} title={headerCoverTitle}></PicHeader></div>
                 <div class="headerGradient"></div>
                 <div class="headerInfos">
+                    
                     <HeaderInfos
                     tourTitle={tourTitle}
-                    season={tourSeason}
-                    duration={tourDuration}
-                    difficulty={tourDifficulty}
-                    capacity={tourCapacity}
-                    vclassdisplay={vclassdisplay}
-                    toyotadisplay={toyotadisplay}
+                    season={season}
+                    duration={duration}
+                    difficulty={difficulty}
+                    capacity={capacity}
                     >
                 
-                    <slot name="bookButtons" slot="bookButtons"></slot>
+                    <div slot="bookButtons" class="bookButtons">
+                        {bookButtons.map((button) => (
+
+                            <BookVClassEN
+                            bookLinkMercedes = {button.bookLink}
+                            buttonText = {button.textButton}
+                    ></BookVClassEN>
+                    ))}
+                    <ReadMore>
+                    </div>
                 
                 </HeaderInfos>
                 </div>
@@ -101,15 +114,14 @@ import FormSection from "./FormSection.astro"
 
         <main>
             <ItiSection
-            ItiSectionTitle={ItiSectionTitle}
-            ItiSectionTitleSrcMobile={ItiSectionTitleSrcMobile}
-            ItiSectionTitleSrcPC={ItiSectionTitleSrcPC}
-            ItiSectionTitleAlt={ItiSectionTitleAlt}
-            ItiSectionTitleTitle={ItiSectionTitleTitle}
-            AllItiItems={AllItiItems}
-            itiTextContent={itiTextContent}
+            itiCoverImgSrcMobile={itiCoverImgSrcMobile}
+            itiCoverImgSrcPC={itiCoverImgSrcPC}
+            itiCoverImgAlt={itiCoverImgAlt}
+            itiCoverImgTitle={itiCoverImgTitle}
+            itiCoverTitle={itiCoverTitle}
+            itiItems={itiItems}
             ></ItiSection>
-
+            
             <InfoSection
             gtk={gtk}
             wtb={wtb}
@@ -117,13 +129,15 @@ import FormSection from "./FormSection.astro"
             ni={ni}
             
             ></InfoSection>
-
+<!--
             <GallerySection 
-            gallery={gallery}>
+            gallery={tour.data.gallery}>
             </GallerySection>
 
-            <BookSection tourTitle={tourTitle}>
-                <slot slot="carCards" name="carCards"></slot>
+            <BookSection tourTitle={tour.data.tourTitle}>
+                <div slot="carCards">
+
+                </div>
             </BookSection>
 
             <FormSection>
@@ -131,7 +145,7 @@ import FormSection from "./FormSection.astro"
             </FormSection>
 
 
-            <InternalNav bookOrQuote="BOOK"></InternalNav>
+            <InternalNav bookOrQuote="BOOK"></InternalNav> -->
 
         </main>
 
@@ -173,21 +187,38 @@ import FormSection from "./FormSection.astro"
 
         }
 
+        .bookButtons {
+        width: 150%;
+        display: flex;
+        justify-content: space-evenly;
+        gap: 1.25rem;
+        align-items: center;
+        flex-wrap: wrap;
+        animation-name: Title;
+        animation-duration: 2s;
+        animation-delay: 2s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+    }
+
+    .carCards {
+        width: 100%;
+        display: flex;
+        gap: 10rem;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+
+
+    @media only screen and (max-height: 800px) {
+        .bookButtons {
+            gap: .75rem;
+        }
+
+    }
+    </style>
+
 
     </style>
 
-    <!--<body>
-
-        	{
-                gallery.map((pics) => {
-                    return (
-                        <PicGallery
-                        src={pics.src}
-                        alt={pics.alt}
-                        title={pics.title}  
-                        />                     
-                    )
-                })
-            }
-        
-    </body> -->

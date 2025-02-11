@@ -1,4 +1,6 @@
 ---
+import "../../styles/style.css"
+
 import TourpageEN from "../../layouts/Tourpage__EN.astro";
 
 import { getCollection } from "astro:content";
@@ -16,44 +18,34 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props
 ---
-<h1>TEST</h1>
 <TourpageEN
 
-language={}
-metaDescription={}
-ogTitle={}
-ogImage={}
-ogURL={}
-ogDescription={}
-ogLocale={}
-ogLocaleAlt={}
-pageTitle={}
-linkfr={}
-srcMobileHeader={}
-srcPCHeader={}
-altHeader={}
-titleHeader={}
-tourTitle={}
-tourSeason={}
-tourDuration={}
-tourDifficulty={}
-tourCapacity={}
-vclassdisplay={}
-toyotadisplay={}
-ItiSectionTitle={}
-ItiSectionTitleSrcMobile={}
-ItiSectionTitleSrcPC={}
-ItiSectionTitleAlt={}
-ItiSectionTitleTitle={}
-AllItiItems={}
-itiTextContent={}
-gtk={}
-wtb={}
-i={}
-ni={}
-gallery={}
-tourTitle={}
-
-
+language={entry.data.language}
+description={entry.data.description}
+ogTitle={entry.data.ogTitle}
+ogImage={entry.data.ogImage}
+url={"https://www.iceland-for-you.com/private-day-tours-iceland/"+entry.slug}
+pageTitle={entry.data.pageTitle}
+headerCoverSrcMobile={entry.data.headerCoverSrcMobile}
+headerCoverSrcPC={entry.data.headerCoverSrcPC}
+headerCoverAlt={entry.data.headerCoverAlt}
+headerCoverTitle={entry.data.headerCoverTitle}
+linkFR={entry.data.linkFr}
+tourTitle={entry.data.tourTitle}
+season={entry.data.season}
+duration={entry.data.duration}
+difficulty={entry.data.difficulty}
+capacity={entry.data.capacity}
+bookButtons={entry.data.bookButtons}
+itiCoverImgSrcMobile={entry.data.itiCoverImgSrcMobile}
+itiCoverImgSrcPC={entry.data.itiCoverImgSrcPC}
+itiCoverImgAlt={entry.data.itiCoverImgAlt}
+itiCoverImgTitle={entry.data.itiCoverImgTitle}
+itiCoverTitle={entry.data.itiCoverTitle}
+itiItems={entry.data.itiItems}
+gtk={entry.data.goodToKnow}
+wtb={entry.data.WhatToBring}
+i={entry.data.Included}
+ni={entry.data.nonIncluded}
 
 ></TourpageEN>

@@ -1,13 +1,14 @@
 ---
+import type { CollectionEntry } from "astro:content";
+
 const {
-    ItiSectionTitle,
-    ItiSectionTitleSrcMobile,
-    ItiSectionTitleSrcPC,
-    ItiSectionTitleAlt,
-    ItiSectionTitleTitle,
-    AllItiItems,
-    itiTextContent
-    } = Astro.props
+    itiCoverImgSrcMobile, 
+    itiCoverImgSrcPC,
+    itiCoverImgAlt,
+    itiCoverImgTitle,
+    itiCoverTitle,
+    itiItems
+} = Astro.props
 
 import { Image } from "astro:assets";
 import chevron from "../assets/icons/Next-section.svg"
@@ -17,14 +18,14 @@ import ItiItem from "../layouts/ItiItem.astro"
 <section>
     <div class="itiTitleSection">
 
-        <PicItiTitle srcMobile={ItiSectionTitleSrcMobile} srcPC={ItiSectionTitleSrcPC} alt={ItiSectionTitleAlt} title={ItiSectionTitleTitle}></PicItiTitle>
+        <PicItiTitle srcMobile={itiCoverImgSrcMobile} srcPC={itiCoverImgSrcPC} alt={itiCoverImgAlt} title={itiCoverImgTitle}></PicItiTitle>
 
         <div class="gradient"></div>
         <a href="#itin" title="navigate to your itinerary">
         <div class="titleUp">
             <div class="title">
                 <Image src={chevron} alt="Downward arrow" title="Navigate to next section" width="60" height="60" class="chevron" id="disp"></Image>
-                <h2>{ItiSectionTitle}</h2>
+                <h2>{itiCoverTitle}</h2>
                 <Image src={chevron} alt="Downward arrow" title="Navigate to next section" width="60" height="60" class="chevron"></Image>
             </div>
         </div></a>
@@ -33,17 +34,22 @@ import ItiItem from "../layouts/ItiItem.astro"
     <div class="allItems" id="itin">
 
 	{
-        AllItiItems.map((iti, indx) => {
+        itiItems.map((iti, indx) => {
 
             return (
 
                 <ItiItem
+                itiItemTitle={iti.itiItemTitle}
                 srcMobile={iti.itiItemPicSrcMobile}
                 itiItemPicSrcPC={iti.itiItemPicSrcPC}
                 itiItemPicAlt={iti.itiItemPicAlt}
                 itiItemPicTitle={iti.itiItemPicTitle}
                 >
-                    <div set:html={itiTextContent[AllItiItems.indexOf(iti)]} />
+                    <div>
+                        {iti.itiItemStrings.map((paraph) => (
+                            <p>{paraph}</p>
+                        ))}
+                    </div>
 
                 
                     

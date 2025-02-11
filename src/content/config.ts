@@ -29,6 +29,12 @@ const daytours__EN = defineCollection({
     headerCoverAlt: z.string(),
     headerCoverTitle: z.string(),
 
+    // BookButtons
+    bookButtons: z.array(z.object({
+      textButton: z.string(),
+      bookLink: z.string(),
+    })),
+
     // Iti Picture
     itiCoverTitle: z.string(),
     itiCoverImgSrcMobile: z.string(),
@@ -47,6 +53,8 @@ const daytours__EN = defineCollection({
         itiItemTitle: z.string(),
         itiItemPicSrcMobile: z.string(),
         itiItemPicSrcPC: z.string(),
+        itiItemPicAlt: z.string(),
+        itiItemPicTitle: z.string(),
         itiItemStrings: z.array(z.string()),
       })
     ),
