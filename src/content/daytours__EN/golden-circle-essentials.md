@@ -192,6 +192,12 @@ cardPicAlt: "A geyser about to erupt"
 cardPicTitle: "Private tour: Golden Circle Essentials"
 #---
 
+# Bookings Cards
+
+
+
+#---
+
 slug: golden-circle-essentials
 
 ---
