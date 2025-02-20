@@ -8,7 +8,7 @@ import InfoSection from "./InfoSection__EN.astro"
 import GallerySection from "./GallerySection.astro"
 import BookSection from "./BookSection__EN.astro"
 import FormSection from "./FormSection.astro"
-
+import BookCardEN from "../components/bookCards/BookCard__EN.astro"
 
 import {ISK_to_USD_Rate, ISK_to_EUR_Rate} from "../constants"
 
@@ -49,7 +49,9 @@ const {
     wtb,
     i,
     ni,
-    gallery
+    gallery,
+    vehicles,
+    form
 } = Astro.props
 
 ---
@@ -135,15 +137,33 @@ const {
             gallery={gallery}>
             </GallerySection>
 
-            <!--<BookSection tourTitle={tour.data.tourTitle}>
-                <div slot="carCards">
+            <BookSection tourTitle={tourTitle}>
+                <div slot="carCards" class="carCards">
+
+                    {vehicles.map((car:any) => (
+                        <BookCardEN
+                        vehicName={car.name}
+                        srcPC={car.srcPC}
+                        srcMobile={car.srcMobile}
+                        vehicAlt={car.alt}
+                        vehicleTitle={car.title}
+                        capacity={car.capacity}
+                        rate={car.rate}
+                        bookLink={car.bookLink}
+                        buttonText={car.name}
+                        ></BookCardEN>
+                    ))}
 
                 </div>
             </BookSection>
 
             <FormSection>
-                <slot slot="form" name="form"></slot>
-            </FormSection>-->
+                <div slot="form">
+                    <a href={form} title="fill a form" class="formA"><button class="formButton">
+                        <p class="formAction">Access our form</p>
+                    </button></a>
+                </div>
+            </FormSection>
 
             
 
@@ -156,7 +176,51 @@ const {
     </body>
 
     <style>
+        .formButton {
+            
+        }
 
+        .formA {
+        text-decoration: none;
+    }
+
+    .formButton {
+        width: 15rem;
+        height: 5rem;
+        flex-shrink: 0;
+        border-radius: 1rem;
+        border: 2px solid hsla(0, 0%, 100%, 0.5);
+        background: rgba(0, 0, 0, 0.30);
+        backdrop-filter: blur(7.5px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        cursor: pointer;
+        transition: .5s;
+
+    }
+
+    .formAction {
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: lighter;
+        width: 100%;
+        margin: 0;
+    }
+
+
+    .formButton:hover, .formButton:focus {
+        background: rgba(255, 255, 255, 0.50);
+        border: 2px solid rgba(0, 0, 0, 0.30);
+        transition: .5s;
+
+        .formAction {
+        color: rgba(0, 0, 0, 0.50);
+        }
+
+    }
         .header {
             min-height: 100dvh;
             width: 100%;
@@ -207,9 +271,9 @@ const {
     .carCards {
         width: 100%;
         display: flex;
-        gap: 10rem;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-evenly;
+        gap: 3rem;
     }
 
 

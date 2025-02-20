@@ -192,9 +192,33 @@ cardPicAlt: "A geyser about to erupt"
 cardPicTitle: "Private tour: Golden Circle Essentials"
 #---
 
-# Bookings Cards
+# Bookings Cards: Vehicles
 
+vehicles: [
+  {
+    name: "Mercedes V-Class",
+    srcPC: "/pictures/cars/Mercedes V-Class.webp",
+    srcMobile: "/pictures/cars/Mercedes VClass-mobile.webp",
+    alt: "A blue mercedes van",
+    title: "Book in V-class",
+    rate: 165000,
+    bookLink: "",
+    capacity: "6"
+  },
+    {
+    name: "Toyota LandCruiser",
+    srcPC: "/pictures/cars/Toyota-LandCruiser.webp",
+    srcMobile: "/pictures/cars/Toyota-LandCruiser-mobile.webp",
+    alt: "A grey toyota superJeep",
+    title: "Book in LandCruiser",
+    rate: 159000,
+    bookLink: "",
+    capacity: "4"
+  }
 
+]
+
+form: "https://tally.so/r/mRbZKQ"
 
 #---
 

@@ -82,6 +82,21 @@ const daytours__EN = defineCollection({
     cardPicAlt: z.string(),
     cardPicTitle: z.string(),
 
+    // Vehicles
+    vehicles: z.array(z.object({
+      name: z.string(),
+      srcPC: z.string(),
+      srcMobile: z.string(),
+      alt: z.string(),
+      title: z.string(),
+      rate: z.number(),
+      bookLink: z.string(),
+      capacity: z.string(),    })),
+
+      // Form
+
+    form: z.string(),
+
   }),
 });
 

@@ -3,19 +3,17 @@ import { Image } from "astro:assets";
 import CardBookVClass from "../buttons/carCardBookButton/CardBookVClass__EN.astro";
 import {ISK_to_USD_Rate, ISK_to_EUR_Rate} from "../../constants"
 
-import
-
 import groupSize from "../../assets/icons/group-size-white.svg"
 
-const {vanISK, vanEUR, vanUSD, jeepISK, jeepEUR, jeepUSD, capacity} = Astro.props
+const {vehicName, srcPC, srcMobile, vehicAlt, vehicTitle, capacity, rate, bookLink, buttonText} = Astro.props
 ---
 
 <article>
     <div class="pic">
 
         <picture>
-            <source media="(max-width:1000px)" srcset="/pictures/cars/Mercedes-VClass-Mobile.webp" width="600" height="338">
-            <img src="/pictures/cars/Mercedes-VClass-PC.webp" alt="Picture of a blue Mercedes V-Class" title="Book with the V-Class" class="carPic" width="960" height="540" loading="lazy">
+            <source media="(max-width:1000px)" srcset={srcMobile} width="600" height="338">
+            <img src={srcPC} alt={vehicAlt} title={vehicTitle} class="carPic" width="960" height="540" loading="lazy">
         </picture>
 
 
@@ -24,18 +22,18 @@ const {vanISK, vanEUR, vanUSD, jeepISK, jeepEUR, jeepUSD, capacity} = Astro.prop
     <div class="textAndButton">
 
         <div class="text">
-            <h3>Mercedes V-Class</h3>
+            <h3>{vehicName}</h3>
 
                 <div class="tourInfo">
                         <Image src={groupSize} alt="calendar icon" title="seasonality" width="15" height="15" class="infoIcon" loading="lazy"></Image>
-                        <p class="info">: 6 maximum</p>
+                        <p class="info">: {capacity} maximum</p>
                 </div>
 
-            <p class="rate"><span class="price">{vanISK} ISK</span><span class="perVehicle">/ per vehicle</span></p>
-            <p class="otherCurrencies"><em>Approx. {vanUSD} $ or {vanEUR} € </em></p>
+            <p class="rate"><span class="price">{rate} ISK</span><span class="perVehicle">/ per vehicle</span></p>
+            <p class="otherCurrencies"><em>Approx. {Math.floor(rate / ISK_to_USD_Rate)} $ or {Math.floor(rate / ISK_to_EUR_Rate)} € </em></p>
         </div>
         
-        <CardBookVClass></CardBookVClass>
+        <CardBookVClass bookLinkMercedes={bookLink} buttonText={buttonText}></CardBookVClass>
 
     </div>
 </article>
