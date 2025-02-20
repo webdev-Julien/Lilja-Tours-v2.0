@@ -76,8 +76,7 @@ const daytours__EN = defineCollection({
     ),
 
     // Card
-    tagsRegion: z.string(),
-    tagsType: z.array(z.string()),
+    tags: z.array(z.string()),
     cardPicSrc: z.string(),
     cardPicAlt: z.string(),
     cardPicTitle: z.string(),

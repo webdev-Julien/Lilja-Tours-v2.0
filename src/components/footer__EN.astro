@@ -1,4 +1,84 @@
 ---
-
+import { Image } from "astro:assets";
 ---
 
+<footer>
+
+    <main>
+
+        <div class="col1">
+            <div class="review">
+                <button class="reviewButton">Leave a review</button>
+            </div>
+            <div class="review">
+                <button class="reviewButton">Leave a review</button>
+            </div>
+        </div>
+        <div class="col2">
+            <div class="socials">
+
+            </div>
+            <div class="socials">
+
+            </div>
+            <div class="licence">
+             <!--   <Image src={} alt=""></Image> -->
+            </div>
+        </div>
+        <div class="col3">
+            <div class="row1">
+                <div class="lists">
+                    <ul></ul>
+                    <ul></ul>
+                    <ul></ul>
+                    <ul></ul>
+                </div>
+            </div>
+            <div class="row2">
+                <!--<Image src={} alt=""></Image>
+                <Image src={} alt=""></Image> -->
+            </div>
+        </div>
+
+    </main>
+    <aside>
+        <p>Lilja Tours ehf. // Kennitala: 480621-0260 // VSK (VAT) Number: 141759 // Phone number: +354 764 3715 // Address: Hólabraut 15, 220 Hafnarfjörður // Email: julien@lilja-tours.com</p>
+    </aside>
+
+</footer>
+
+<style>
+
+    footer {
+        min-height: 100dvh;
+    }
+
+    main {
+        background-color: #5B7297;
+        display: grid;
+        grid-template-columns: .5fr .5fr 1fr;
+        gap: 2rem;
+        min-height: 95dvh;
+    }
+
+    main > * {
+        padding: 1rem;
+    }
+
+    aside {
+        background-color: #292929;
+        border-top: .125rem solid white;
+        min-height: 5dvh;
+        color: white;
+        text-align: center;
+    }
+
+    .reviewButton {
+        background-color: #292929;
+        color: white;
+        border: none;
+        border-radius: 1000rem;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+    }
+</style>

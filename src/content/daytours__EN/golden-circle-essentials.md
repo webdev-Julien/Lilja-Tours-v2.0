@@ -185,8 +185,7 @@ title: "Golden Circle Essentials: Gullfoss"
 
 # Card
 
-tagsRegion: "Golden Circle"
-tagsType: ["Sightseeing"]
+tags: ["Golden Circle","Sightseeing"]
 cardPicSrc: "/pictures/golden-circle-essentials/card/golden-circle-essentials-card.webp"
 cardPicAlt: "A geyser about to erupt"
 cardPicTitle: "Private tour: Golden Circle Essentials"
