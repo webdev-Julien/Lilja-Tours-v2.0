@@ -30,10 +30,12 @@ const daytours__EN = defineCollection({
     headerCoverTitle: z.string(),
 
     // BookButtons
-    bookButtons: z.array(z.object({
-      textButton: z.string(),
-      bookLink: z.string(),
-    })),
+    bookButtons: z.array(
+      z.object({
+        textButton: z.string(),
+        bookLink: z.string(),
+      })
+    ),
 
     // Iti Picture
     itiCoverTitle: z.string(),
@@ -46,6 +48,7 @@ const daytours__EN = defineCollection({
     linkFr: z.string(),
     bookVan: z.string(),
     bookJeep: z.string(),
+    fulllinkFr: z.string(),
 
     // Itinerary
     itiItems: z.array(
@@ -82,20 +85,22 @@ const daytours__EN = defineCollection({
     cardPicTitle: z.string(),
 
     // Vehicles
-    vehicles: z.array(z.object({
-      name: z.string(),
-      srcPC: z.string(),
-      srcMobile: z.string(),
-      alt: z.string(),
-      title: z.string(),
-      rate: z.number(),
-      bookLink: z.string(),
-      capacity: z.string(),    })),
+    vehicles: z.array(
+      z.object({
+        name: z.string(),
+        srcPC: z.string(),
+        srcMobile: z.string(),
+        alt: z.string(),
+        title: z.string(),
+        rate: z.number(),
+        bookLink: z.string(),
+        capacity: z.string(),
+      })
+    ),
 
-      // Form
+    // Form
 
     form: z.string(),
-
   }),
 });
 

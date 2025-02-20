@@ -1,0 +1,23 @@
+Cards picture:
+
+500 x 281
+
+Gallery:
+
+PC: 600 x 338
+Mobile: 600 x 338
+
+Headers:
+
+PC: 1920 x 580
+Mobile: 428 x 905
+
+Itinerary: 
+
+PC: 480 x 270
+Mobile: 214 x 453
+
+Title:
+
+PC: 480 x 135
+Mobile: 214 x 229

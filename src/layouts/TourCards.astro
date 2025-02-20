@@ -54,12 +54,52 @@ interface Props {
                 <p class="approx"><em>Approx. {Math.floor(tour.data.jeepISK / ISK_to_USD_Rate)} $ or {Math.floor(tour.data.jeepISK / ISK_to_EUR_Rate)} €</em></p>
             </div></a>
             <div class="tags">
-                <slot name="tags"></slot>
+                {
+                    tour.data.tags.map((tag:any) => (
+                        <button>{tag}</button>
+                    ))
+                }
             </div>
     </div>
 </article>
 
 <style>
+
+    .tags {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 1rem;
+        margin-top: .75rem;
+
+        button {
+            padding: .2rem .75rem;
+            border-radius: 9999px;
+            border: none;
+            background-color: rgba(91, 114, 151, 0.3);;
+            font-size: 1rem;
+            color: white;
+            cursor: pointer;
+            transition: .3s;
+        }
+
+        button:hover, button:focus {
+            filter: brightness(120%);
+            transition: .3s;
+        }
+
+        button:first-child {
+            background-color: #5B7297;
+        }
+
+        button:first-child:hover, button:first-child:focus {
+            filter: brightness(120%);
+            transition: .3s;
+        }
+    }
+
+
 
     .tourInfos {
         display: grid;
@@ -85,12 +125,14 @@ interface Props {
         height: fit-content;
         max-width: 32rem;
         margin: 2rem;
+        border-radius: 1rem;
     }
 
     .backImg {
         display: block;
         min-width: 100%;
         max-width: 100%;
+        border-radius: 1rem 1rem 0 0;
     }
 
 

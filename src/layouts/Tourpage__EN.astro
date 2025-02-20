@@ -48,7 +48,8 @@ const {
     ni,
     gallery,
     vehicles,
-    form
+    form,
+    fulllinkFr
 } = Astro.props
 
 ---
@@ -61,6 +62,8 @@ const {
             name="description"
             content={description}
         />
+
+       <link rel="alternate" hreflang="fr" href={fulllinkFr} />
 
         <meta property="og:title" content={ogTitle}>
         <meta property="og:type" content="website">
@@ -156,9 +159,9 @@ const {
 
             <FormSection>
                 <div slot="form">
-                    <a href={form} title="fill a form" class="formA"><button class="formButton">
-                        <p class="formAction">Access our form</p>
-                    </button></a>
+                    <a href={form} title="fill a form" class="formA" target="_blank">
+                        <button class="formButton"><p class="formAction">Access our form</p></button>
+                    </a>
                 </div>
             </FormSection>
 
@@ -173,12 +176,10 @@ const {
     </body>
 
     <style>
-        .formButton {
-            
-        }
 
         .formA {
         text-decoration: none;
+        width: fit-content
     }
 
     .formButton {
@@ -203,7 +204,6 @@ const {
         text-align: center;
         font-size: 1.5rem;
         font-weight: lighter;
-        width: 100%;
         margin: 0;
     }
 

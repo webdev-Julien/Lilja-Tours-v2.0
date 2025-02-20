@@ -2,7 +2,7 @@
 import close from "../../assets/icons/close-button.svg"
 import { Picture } from "astro:assets"
 ---
-<button id="closeButton">
+<button id="closeButton" aria-label="close sidebar">
 <Picture src={close} alt="cross icon" title="close the menu" loading="lazy" width="32" height="32" class="close" loading="lazy"></Picture>
 </button>
 
@@ -10,28 +10,29 @@ import { Picture } from "astro:assets"
     button {
         border: none;
         background-color: transparent;
-        float: right;
-        margin-right: 1rem;
-        margin-top: 1rem;
         display: block;
         z-index: +1;
+        padding: .5rem;
 
     }
 
     .close {
-        width: 1.5rem;
-        height: 1.5rem;
+        width: 1rem;
+        height: 1rem;
     }
 </style>
 
 <script>
-    const mainMenu = document.querySelector(".rectangleMenu")
+    const mainMenu = document.querySelector(".topBarMenu")
     const closeButton = document.getElementById("closeButton")
+    const openMenuButton = document.getElementById("menuButton")
+
 
     closeButton?.addEventListener("click", () => {
         console.log("clicked")
-        mainMenu?.classList.toggle("pc")
-        mainMenu?.classList.toggle("mobile")
+        mainMenu?.classList.toggle("slide")
+        openMenuButton?.setAttribute("aria-expanded", "false")
+        mainMenu?.setAttribute("inert", "")
 
     })
 

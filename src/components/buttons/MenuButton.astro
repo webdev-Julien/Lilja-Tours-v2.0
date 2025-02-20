@@ -2,7 +2,7 @@
 import burger from "../../assets/icons/hamburger-menu.svg"
 import { Picture } from "astro:assets"
 ---
-<button id="menuButton">
+<button id="menuButton"aria-label="open sidebar" aria-expanded="false" aria-controls="topBarMenu">
     <Picture src={burger} alt="Open menu" title="Open the menu" class="burger" width="32" height="32" loading="lazy">
 </button>
 
@@ -21,13 +21,13 @@ import { Picture } from "astro:assets"
 </style>
 
 <script>
-    const mainMenu = document.querySelector(".rectangleMenu")
+    const mainMenu = document.getElementById("topBarMenu")
     const openMenuButton = document.getElementById("menuButton")
 
     openMenuButton?.addEventListener("click", () => {
-        mainMenu?.classList.toggle("pc")
-
-        mainMenu?.classList.toggle("mobile")
+        mainMenu?.classList.toggle("slide")
+        openMenuButton?.setAttribute("aria-expanded", "true")
+        mainMenu?.removeAttribute("inert")
 
 
 

@@ -1,5 +1,5 @@
 ---
-import { Picture } from "astro:assets";
+import { Image } from "astro:assets";
 const {linkfr} = Astro.props;
 import frenchflag from "../assets/icons/french.svg"
 import logo from "../assets/logos/lilja-tours-logo-transparent.png"
@@ -10,55 +10,47 @@ import Logo from "../assets/logos/Lilja-Tours.png"
 ---
 
 <div class="topbar"  id="top">
+        <Image src={logo} alt="Lilja Tours logo" class="logoTopBar" width="160" height="32" loading="lazy"></Image>
+        <div id="menuButt"><MenuButton></MenuButton></div>
 
-
-    <nav class="topBarMenu">
+    <nav class="topBarMenu" id="topBarMenu">
         
-        <Picture src={logo} alt="Lilja Tours logo" class="logoTopBar" width="160" height="32" loading="lazy"></Picture>
+
+
        <div class="groupMenu">
-        <ul class="menuLinks">
+        <ul class="menuLinks purple">
 
             <li class="pc"><a href="#" class="menuLink nonImp" title="About Lilja Tours">About</a></li>
             <li class="pc"><a href="#" class="menuLink nonImp" title="About Lilja Tours">Contact</a></li>
             <li class="pc"><a href="#" class="menuLink nonImp" title="About Lilja Tours">F.A.Q</a></li>
             <li class="pc"><a href="#" class="menuLink nonImp" title="About Lilja Tours">Blog</a></li>
-        </ul>
-        <ul class="menuLinks">
-                        <li class="pc"><a href="/all-day-tours.html" class="menuLink" title="List of day tours">DAY TOURS</a></li>
+        </ul><div class="close" id="closeButt"><CloseButton></CloseButton></div>
+        <ul class="menuLinks whites">
+            <li class="pc"><a href="/all-day-tours.html" class="menuLink" title="List of day tours">DAY TOURS</a></li>
             <li class="pc"><a href="#" class="menuLink" title="List of multiday tours">MULTIDAY TOURS</a></li>
             <li class="pc"><a href="#" class="menuLink" title="List of excursions">ON YOUR OWN</a></li>
-                        <li class="pc"><a href={linkfr} class="menuLink" title="Voir en français / See in french"><Picture src={frenchflag} alt="french flag / drapeau français" title="french/français" class="flag" width="100" height="32"  loading="lazy"></a></li>
-            <li class="mobile"><MenuButton style="float:right"></MenuButton></li>
+                        <li class="pc"><a href={linkfr} class="menuLink" title="Voir en français / See in french"><Image src={frenchflag} alt="french flag / drapeau français" title="french/français" class="flag" width="100" height="32"  loading="lazy"/></a></li>
         </ul></div>
         
     </nav>
 
-    <!--MOBILE MENU -->
-
-</div>
-<div class="rectangleMenu mobile">
-    <div class="logoCont">
-    <Picture src={Logo} alt="Logo Lilja Tours" title="Retour page d'accueil" loading="lazy" width="270" height="80" class="menuLogo"></Picture>
-    </div>
-    <nav class="menuNavMobile">
-        <div style="width: 100%; display: flex; justify-content: space-between; flex-direction: column; align-items:center; gap: 7.5rem"></div>
-        <ul class="menuLinks menuLinksMobile">
-            <li class="mobile"><a href="#" class="menuLinkMobile" title="List of day tours">DAY TOURS</a></li>
-            <li class="mobile"><a href="#" class="menuLinkMobile" title="List of multiday tours">MULTIDAY TOURS</a></li>
-            <li class="mobile"><a href="#" class="menuLinkMobile" title="List of excursions">ON YOUR OWN</a></li></ul>
-
-        <ul class="menuLinks menuLinksMobile">
-            <li class="mobile"><a href="#" class="menuLinkMobile nonImp" title="About Lilja Tours">About</a></li>
-            <li class="mobile"><a href="#" class="menuLinkMobile nonImp" title="About Lilja Tours">Contact</a></li>
-            <li class="mobile"><a href="#" class="menuLinkMobile nonImp" title="About Lilja Tours">F.A.Q</a></li>
-            <li class="mobile"><a href="#" class="menuLinkMobile nonImp" title="About Lilja Tours">Blog</a></li>
-            <li class="mobile"><a href={linkfr} class="menuLinkMobile" title="Voir en français / See in french"><Picture src={frenchflag} alt="french flag / drapeau français" title="french/français" class="flag" width="100" height="32"></a></li>
-        </ul></div>
-    </nav>
-    
 </div>
 
 <style>
+    #closeButt {
+        float: right;
+        display: none;
+        background-color: rgba(255, 255, 255, 0.6);
+        border-radius: 100%;
+
+    }
+
+    #menuButt {
+        display: none;
+        float: right;
+    }
+
+
     :root {
         --topBarHeight: 3.5rem;
         --transitionTime: .5s;
@@ -74,6 +66,7 @@ import Logo from "../assets/logos/Lilja-Tours.png"
         max-height: var(--topBarHeight);
         align-items: center;
         align-content: center;
+        position: relative;
 
     }
 
@@ -165,14 +158,6 @@ import Logo from "../assets/logos/Lilja-Tours.png"
     }
 
 
-    .mobile {
-        display: none;
-    }
-
-    .pc {
-        display: block;
-    }
-
     /*MENUMOBILE*/
 
     .rectangleMenu {
@@ -198,82 +183,79 @@ import Logo from "../assets/logos/Lilja-Tours.png"
 
     }
 
-    .menuNavMobile {
-        display: flex;
-        flex-direction: column;
-        width: 80%;
-        margin-inline: auto;
-        height: 75%;
-        margin-block: .75rem;
-        align-items: center;
-    }
 
-    .menuLinkMobile {
-        color: #292929;
-        text-decoration: none;
-        font-size: 2rem;
-        text-underline-offset: .4rem;
+    @media  screen and (max-width: 1400px) {
 
-        transition: var(--transitionTime);
-        display: flex;
-        align-items: center;
-    }
-
-    .menuLinkMobile:hover {
-        text-decoration: underline;
-        text-underline-offset: .4rem;
-    }
-
-    .menuLinks.menuLinksMobile {
-        display: flex;
-        flex-direction: column;
-
-    }
-
-    @media only screen and (max-width: 1000px) {
-
-        .pc {
-            display: none;
+        .topbar {
+            justify-content: space-between;
+        }
+        .topBarMenu {
+            height: 100dvh;
+            width: 70%;
+            position: absolute;
+            right: -100%;
+            top:0;
+            z-index: 999;
+            display: flex;
+            flex-direction: column;
+            background-color: rgba(41, 41, 41, 0.75);
+            backdrop-filter: blur(10px);
+            transition: .3s;
         }
 
-        .mobile {
+        .groupMenu {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-block: 5rem;
+        }
+
+        ul {
+            flex-direction: column;
+        }
+
+        .slide {
+        right: 0;
+        transition: .3s;
+    }
+        .whites {
+            order: -1;
+        }
+
+      #menuButt {
             display: block;
         }
 
-        li.mobile {
+        #closeButt {
             display: flex;
-            padding: 0;
+            justify-content: center;
             align-items: center;
+            position: absolute; 
+            right: 1rem;
+            top: 1rem;
         }
 
-        .menuLink {
-            display: flex;
-            align-items: center;
-        }
 
-        .menuLinks {
-            justify-content: flex-end;
-        }
-
-        .topbar {
-            padding-inline: 1rem;
-        }
-
-        .nonImp {
-        color: #a3b9e1;
-        font-size: 1.5rem;
     }
 
-    .groupMenu {
-        width: 30px;
-        display: flex; 
-        justify-content: flex-end; 
-        align-items: center; 
-        flex-direction: row;
-    }
-        
-    }
 
 
 </style>
+
+<script>
+        
+const media:any = window.matchMedia("(width < 800px)")
+const mainMenu:any = document.querySelector(".topBarMenu")
+
+media.addEventListener("change", (e:any) => updateNavBar(e))
+
+function updateNavBar(e:any) {
+    const isMobile = e.matches;
+    if (isMobile) {
+        mainMenu.setAttribute("inert", "")
+    } else {
+        mainMenu.removeAttribute("inert")
+    }
+}
+</script>
 

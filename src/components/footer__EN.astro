@@ -48,7 +48,6 @@ import messe from "../assets/images/footer/messager.svg"
 
             </div>
 
-             <Image src={TA} alt="Official travel agency licence" title="Travel agency licenced delivered by Ferðamálastofa" width="377" height="420" loading="lazy" class="TAPic"></Image>
 
         </div>
         <div class="col3">
@@ -153,24 +152,30 @@ import messe from "../assets/images/footer/messager.svg"
     .logos {
         max-height: 26.25rem;
         border-radius: 1rem;
+        max-width: 80%;
     }
 
     .row2 {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 2rem
     }
 
     .TAPic {
         margin-inline: auto;
-        max-width: 80%;
+        max-width: 100%;
         border-radius: 1rem;
     }
     main {
         background-color: #5B7297;
-        display: grid;
+        /*display: grid;
         grid-template-columns: .5fr .5fr 1fr;
-        gap: 2rem;
+        gap: 2rem;*/
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
         min-height: 95dvh;
     }
 
@@ -221,6 +226,7 @@ import messe from "../assets/images/footer/messager.svg"
             gap: 0
         }        
 
+
         .col1, .col2, .col3{
             display: flex;
             flex-direction: column;
@@ -230,6 +236,7 @@ import messe from "../assets/images/footer/messager.svg"
 
         .col3 {
             order: -1;
+            width: 80%;
         }
 
         .col1 {
@@ -244,8 +251,9 @@ import messe from "../assets/images/footer/messager.svg"
             height: auto;
         }
 
-        .col3 {
+        .col2 {
             width: 80%;
+            margin-inline: auto ;
         }
 
         .logos {
