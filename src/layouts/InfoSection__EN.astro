@@ -9,7 +9,7 @@ const {gtk, wtb, i, ni}=Astro.props
         <ul>
             <li><h3>Good to know</h3></li>
             {
-                gtk.map((bas) => {
+                gtk.map((bas:any) => {
         
                     return (
         
@@ -23,7 +23,7 @@ const {gtk, wtb, i, ni}=Astro.props
         <ul>
             <li><h3>What to bring?</h3></li>
             {
-                wtb.map((bas) => {
+                wtb.map((bas:any) => {
         
                     return (
         
@@ -37,7 +37,7 @@ const {gtk, wtb, i, ni}=Astro.props
         <ul>
             <li><h3>Included:</h3></li>
             {
-                i.map((bas) => {
+                i.map((bas:any) => {
         
                     return (
         
@@ -50,7 +50,7 @@ const {gtk, wtb, i, ni}=Astro.props
         <ul>
             <li><h3>Non included:</h3></li>
             {
-                ni.map((bas) => {
+                ni.map((bas:any) => {
         
                     return (
         

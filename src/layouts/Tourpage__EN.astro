@@ -12,15 +12,10 @@ import BookCardEN from "../components/bookCards/BookCard__EN.astro"
 
 import FooterEN from "../components/footer__EN.astro"
 
-import {ISK_to_USD_Rate, ISK_to_EUR_Rate} from "../constants"
-
 import BookVClassEN from "../components/buttons/BookVClass__EN.astro"
-import MenuButton from "../components/buttons/MenuButton.astro"
+
 import ReadMore from "../components/buttons/ReadMore__EN.astro"
 
-
-import type { CollectionEntry } from "astro:content";
-import ReadMoreEN from "../components/buttons/ReadMore__EN.astro"
 
 const {
     language, 
@@ -274,7 +269,7 @@ const {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-evenly;
+        justify-content: flex-start;
         gap: 3rem;
     }
 

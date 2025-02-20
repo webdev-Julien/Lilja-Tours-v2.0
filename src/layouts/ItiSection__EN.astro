@@ -34,7 +34,7 @@ import ItiItem from "../layouts/ItiItem.astro"
     <div class="allItems" id="itin">
 
 	{
-        itiItems.map((iti, indx) => {
+        itiItems.map((iti:any) => {
 
             return (
 
@@ -46,7 +46,7 @@ import ItiItem from "../layouts/ItiItem.astro"
                 itiItemPicTitle={iti.itiItemPicTitle}
                 >
                     <div>
-                        {iti.itiItemStrings.map((paraph) => (
+                        {iti.itiItemStrings.map((paraph:any) => (
                             <p>{paraph}</p>
                         ))}
                     </div>
