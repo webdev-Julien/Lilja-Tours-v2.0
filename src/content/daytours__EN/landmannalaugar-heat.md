@@ -6,7 +6,7 @@ jeepISK: 250000
 
 # Head and metas
 pageTitle: "Landmannalaugar in the Icelandic highlands | Luxury private tour | Lilja Tours"
-description: "Explore Snæfellsnes Peninsula on a private tour. Visit Arnarstapi, Kirkjufell, and Djúpalónssandur. Book your Icelandic adventure with us."
+description: "Explore Landmannalaugar on a private hiking tour. Discover stunning lava fields, colorful mountains, and breathtaking views. Book your adventure today!"
 ogTitle: "Private tour: Landmannalaugar"
 ogImage: "/pictures/landmannalaugar-heat/card/landmannalaugar.webp"
 language: "en"
@@ -196,7 +196,7 @@ vehicles: [
     {
     name: "Toyota LandCruiser",
     srcPC: "/pictures/cars/Toyota-LandCruiser.webp",
-    srcMobile: "/pictures/cars/Toyota-LandCruiser-Mobile.webp",
+    srcMobile: "/pictures/cars/Toyota-LandCruiser-mobile.webp",
     alt: "A grey toyota superJeep",
     title: "Book in LandCruiser",
     rate: 250000,

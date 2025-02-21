@@ -215,7 +215,7 @@ vehicles: [
     {
     name: "Toyota LandCruiser",
     srcPC: "/pictures/cars/Toyota-LandCruiser.webp",
-    srcMobile: "/pictures/cars/Toyota-LandCruiser-Mobile.webp",
+    srcMobile: "/pictures/cars/Toyota-LandCruiser-mobile.webp",
     alt: "A grey toyota superJeep",
     title: "Book in LandCruiser",
     rate: 185000,
