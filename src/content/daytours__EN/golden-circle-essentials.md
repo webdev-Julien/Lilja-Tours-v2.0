@@ -2,7 +2,7 @@
 # Rates
 vanISK: 165000
 jeepISK: 159000
-#---
+
 
 # Head and metas
 pageTitle: "Golden Circle Private tour"
@@ -10,25 +10,25 @@ description: "Follow Lilja Tours on the most popular tour in Iceland: The Golden
 ogTitle: "Private tour: Golden Circle Essentials"
 ogImage: "/pictures/golden-circle-essentials/card/golden-circle-card.webp"
 language: "en"
-#---
+
 
 # Tour datas
 duration: "6"
 capacity: "6"
 season: "All year"
 difficulty: "No difficulty"
-#---
+
 
 # H1
 tourTitle: "Golden Circle Essentials"
-#---
+
 
 # Header Picture
 headerCoverSrcMobile: "/pictures/golden-circle-essentials/headers/oxararfoss-mobile.webp"
 headerCoverSrcPC: "/pictures/golden-circle-essentials/headers/oxararfoss-pc.webp"
 headerCoverAlt: "Frozen waterfall and sunset"
 headerCoverTitle: "Golden Circle Essentials private tour"
-#---
+
 
 # BookButtons
 bookButtons: [
@@ -48,14 +48,14 @@ itiCoverImgSrcMobile: "/pictures/golden-circle-essentials/itinerary/title/gullfo
 itiCoverImgSrcPC: "/pictures/golden-circle-essentials/itinerary/title/gullfoss-pc.webp"
 itiCoverImgAlt: "Close up of a giant waterfall"
 itiCoverImgTitle: "Gullfoss"
-#---
+
 
 # Links
 linkFr: "#"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753710"
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753711"
 fulllinkFr: "#"
-#---
+
 
 # Itinerary
 itiItems: [
@@ -90,7 +90,7 @@ itiItems: [
     "Did you know that Gullfoss was once at risk of disappearing? A proposed -hydropower plant- nearly altered this natural wonder forever. Thankfully, conservation efforts preserved its beauty, allowing visitors to witness its raw power today.",
     "A must-see on the -Golden Circle-, Gullfoss showcases Iceland’s untamed nature with its thunderous cascades and stunning golden mist."]
     }]
-#---
+
 
 # Tour infos
 
@@ -117,7 +117,7 @@ nonIncluded: [
   "Meals, snacks", 
   "personal expenses"
 ]
-#---
+
 
 # Gallery
 
@@ -182,7 +182,7 @@ srcPc: "/pictures/golden-circle-essentials/gallery/gullfoss-3-pc.webp",
 alt: "Immense waterfall, in wintery landscape",
 title: "Golden Circle Essentials: Gullfoss"
 }]
-#---
+
 
 # Card
 
@@ -190,7 +190,7 @@ tags: ["Golden Circle","Sightseeing"]
 cardPicSrc: "/pictures/golden-circle-essentials/card/golden-circle-essentials-card.webp"
 cardPicAlt: "A geyser about to erupt"
 cardPicTitle: "Private tour: Golden Circle Essentials"
-#---
+
 
 # Bookings Cards: Vehicles
 
@@ -220,14 +220,8 @@ vehicles: [
 
 form: "https://tally.so/r/mRbZKQ"
 
-#---
+
 
 slug: golden-circle-essentials
 
 ---
-
-### Golden Circle Essentials: Experience Iceland in Just Six Hours
-
-Join our -Golden Circle Essentials Tour- and visit Iceland’s top three attractions: -Þingvellir National Park-, the erupting -Strokkur geyser-, and the stunning -Gullfoss- (_The Golden Falls_).
-
-Perfect for travelers on a tight schedule, this -half-day (six-hour) tour- offers a seamless way to experience Iceland’s natural wonders—ideal for short visits or cruise stopovers.

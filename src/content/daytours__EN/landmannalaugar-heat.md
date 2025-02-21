@@ -2,7 +2,7 @@
 # Rates
 vanISK: 250000
 jeepISK: 250000
-#---
+
 
 # Head and metas
 pageTitle: "Landmannalaugar in the Icelandic highlands | Luxury private tour | Lilja Tours"
@@ -10,25 +10,25 @@ description: "Explore Snæfellsnes Peninsula on a private tour. Visit Arnarstapi
 ogTitle: "Private tour: Landmannalaugar"
 ogImage: "/pictures/landmannalaugar-heat/card/landmannalaugar.webp"
 language: "en"
-#---
+
 
 # Tour datas
 duration: "12"
 capacity: "4"
 season: "Jun - Sept"
 difficulty: "Moderate"
-#---
+
 
 # H1
 tourTitle: "Landmannalaugar's Heat"
-#---
+
 
 # Header Picture
 headerCoverSrcMobile: "/pictures/landmannalaugar-heat/headers/landmannalaugar-mobile.webp"
 headerCoverSrcPC: "/pictures/landmannalaugar-heat/headers/landmannalaugar-pc.webp"
 headerCoverAlt: "Colourful mountains as far as the eye can see"
 headerCoverTitle: "Landmannalaugar private hiking tour"
-#---
+
 
 # BookButtons
 bookButtons: [
@@ -44,14 +44,14 @@ itiCoverImgSrcMobile: "/pictures/landmannalaugar-heat/itinerary/title/landmannal
 itiCoverImgSrcPC: "/pictures/landmannalaugar-heat/itinerary/title/landmannalaugar-pc.webp"
 itiCoverImgAlt: "Beautiful landscape of rugged mountains"
 itiCoverImgTitle: "Landmannalaugar itinerary"
-#---
+
 
 # Links
 linkFr: "#"
 bookVan: ""
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/751054"
 fulllinkFr: "#"
-#---
+
 
 # Itinerary
 itiItems: [
@@ -86,7 +86,7 @@ itiItems: [
     "This picturesque canyon provides the perfect conclusion to your journey through the Icelandic Highlands. Its awe-inspiring beauty and serene surroundings leave a lasting impression, capturing the wild spirit of Iceland’s landscapes."]
     }
     ]
-#---
+
 
 # Tour infos
 
@@ -115,7 +115,7 @@ nonIncluded: [
   "Meals, snacks", 
   "personal expenses"
 ]
-#---
+
 
 # Gallery
 
@@ -180,7 +180,7 @@ srcPc: "/pictures/landmannalaugar-heat/gallery/sigoldugljufur-1-pc.webp",
 alt: "Countless beautiful waterfalls falling into a canyon",
 title: "Landmannalaugar's Heat: Sigöldugljúfur"
 }]
-#---
+
 
 # Card
 
@@ -188,7 +188,7 @@ tags: ["Highlands","Sightseeing", "Hiking", "Jeep Only"]
 cardPicSrc: "/pictures/landmannalaugar-heat/card/landmannalaugar.webp"
 cardPicAlt: "Sunset over a immense natural stone arch"
 cardPicTitle: "Private hiking tour: Landmannalaugar's Heat"
-#---
+
 
 # Bookings Cards: Vehicles
 
@@ -208,7 +208,7 @@ vehicles: [
 
 form: "https://tally.so/r/w7p12R"
 
-#---
+
 
 slug: landmannalaugar-heat
 

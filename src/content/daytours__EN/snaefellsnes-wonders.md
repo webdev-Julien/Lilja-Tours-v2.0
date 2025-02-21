@@ -2,7 +2,7 @@
 # Rates
 vanISK: 189000
 jeepISK: 185000
-#---
+
 
 # Head and metas
 pageTitle: "Snæfellsnes Peninsula Iceland | Luxury private tour | Lilja Tours"
@@ -10,25 +10,25 @@ description: "Explore Snæfellsnes Peninsula on a private tour. Visit Arnarstapi
 ogTitle: "Private tour: Snæfellsnes Peninsula"
 ogImage: "/pictures/snaefellsnes-wonders/card/snaefellsnes-private-tour.webp"
 language: "en"
-#---
+
 
 # Tour datas
 duration: "11"
 capacity: "6"
 season: "All year"
 difficulty: "No difficulty"
-#---
+
 
 # H1
 tourTitle: "Snæfellsnes wonders"
-#---
+
 
 # Header Picture
 headerCoverSrcMobile: "/pictures/snaefellsnes-wonders/headers/snaefellsnes-mobile.webp"
 headerCoverSrcPC: "/pictures/snaefellsnes-wonders/headers/snaefellsnes-pc.webp"
 headerCoverAlt: "Sunrise over stunning icelandic landscapes"
 headerCoverTitle: "Snæfellsnes wonders private tour"
-#---
+
 
 # BookButtons
 bookButtons: [
@@ -48,14 +48,14 @@ itiCoverImgSrcMobile: "/pictures/snaefellsnes-wonders/itinerary/title/snaefellsn
 itiCoverImgSrcPC: "/pictures/snaefellsnes-wonders/itinerary/title/snaefellsnes-pc.webp"
 itiCoverImgAlt: "Beautiful landscape"
 itiCoverImgTitle: "Snæfellsnes itinerary"
-#---
+
 
 # Links
 linkFr: "#"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753699"
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753700"
 fulllinkFr: "#"
-#---
+
 
 # Itinerary
 itiItems: [
@@ -96,7 +96,7 @@ itiItems: [
     "With so many remarkable sites to explore, your guide will tailor the journey to leave you in awe of Iceland's stunning beauty."]
     }
     ]
-#---
+
 
 # Tour infos
 
@@ -124,7 +124,7 @@ nonIncluded: [
   "Meals, snacks", 
   "personal expenses"
 ]
-#---
+
 
 # Gallery
 
@@ -189,7 +189,7 @@ srcPc: "/pictures/snaefellsnes-wonders/gallery/ytri-tunga-1-pc.webp",
 alt: "A seal is popping his head ouot of the water",
 title: "Snæfellsnes wonders: Ytri-Tunga"
 }]
-#---
+
 
 # Card
 
@@ -197,7 +197,7 @@ tags: ["West Iceland","Sightseeing"]
 cardPicSrc: "/pictures/snaefellsnes-wonders/card/snaefellsnes-private-tour.webp"
 cardPicAlt: "Sunset over a immense natural stone arch"
 cardPicTitle: "Private tour: Snæfellsnes wonders"
-#---
+
 
 # Bookings Cards: Vehicles
 
@@ -227,7 +227,7 @@ vehicles: [
 
 form: "https://tally.so/r/w4pP5o"
 
-#---
+
 
 slug: snaefellsnes-wonders
 

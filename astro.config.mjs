@@ -8,6 +8,6 @@ import mdx from '@astrojs/mdx';
 export default defineConfig({
   integrations: [mdx()],
   site: 'https://webdev-Julien.github.io',
-  base: "/Lilja-Tours-v2.0/",
+  base: '/Lilja-Tours-v2.0/',
   outDir: "dist"
 });

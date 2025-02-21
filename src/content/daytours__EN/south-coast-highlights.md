@@ -2,7 +2,7 @@
 # Rates
 vanISK: 185000
 jeepISK: 179000
-#---
+
 
 # Head and metas
 pageTitle: "South Coast Iceland | Luxury private tour | Lilja Tours"
@@ -10,25 +10,25 @@ description: "Explore Iceland's stunning South Coast with a private tour. Discov
 ogTitle: "Private tour: South Coast Highlights"
 ogImage: "/pictures/south-coast-highlights/card/south-coast-highlights.webp"
 language: "en"
-#---
+
 
 # Tour datas
 duration: "9"
 capacity: "6"
 season: "All year"
 difficulty: "No difficulty"
-#---
+
 
 # H1
 tourTitle: "South Coast Highlights"
-#---
+
 
 # Header Picture
 headerCoverSrcMobile: "/pictures/south-coast-highlights/headers/skogafoss-mobile.webp"
 headerCoverSrcPC: "/pictures/south-coast-highlights/headers/skogafoss-pc.webp"
 headerCoverAlt: "Someone stands before a waterfall and a rainbow"
 headerCoverTitle: "South Coast Highlights private tour"
-#---
+
 
 # BookButtons
 bookButtons: [
@@ -48,14 +48,14 @@ itiCoverImgSrcMobile: "/pictures/south-coast-highlights/itinerary/title/solheima
 itiCoverImgSrcPC: "/pictures/south-coast-highlights/itinerary/title/solheimajokull-PC.webp"
 itiCoverImgAlt: "Close up of a glacier"
 itiCoverImgTitle: "Sólheimajökull"
-#---
+
 
 # Links
 linkFr: "#"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753704"
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753708"
 fulllinkFr: "#"
-#---
+
 
 # Itinerary
 itiItems: [
@@ -106,7 +106,7 @@ itiItems: [
     "Beyond its geological marvels, Reynisfjara becomes a lively nesting ground for thousands of migratory birds during the summer, including the iconic puffin. These seabirds return each year to breed on the cliffs above the black sand, offering a spectacular bird-watching experience. Visitors can observe them diving into the ocean for fish or resting on the rugged rock formations. However, caution is advised, as the beach is known for its dangerous sneaker waves. Explore Reynisfjara to experience the raw power of Icelandic nature and its vibrant wildlife."]
     }
     ]
-#---
+
 
 # Tour infos
 
@@ -132,7 +132,7 @@ nonIncluded: [
   "Meals, snacks", 
   "personal expenses"
 ]
-#---
+
 
 # Gallery
 
@@ -197,7 +197,7 @@ srcPc: "/pictures/south-coast-highlights/gallery/solheimajokull-2-pc.webp",
 alt: "Close up of a glacier outlet",
 title: "South Coast Highlights: Sólheimajökull"
 }]
-#---
+
 
 # Card
 
@@ -205,7 +205,7 @@ tags: ["South Coast","Sightseeing"]
 cardPicSrc: "/pictures/south-coast-highlights/card/south-coast-highlights.webp"
 cardPicAlt: "Sunset over a black sand beach"
 cardPicTitle: "Private tour: South Coast Highlights"
-#---
+
 
 # Bookings Cards: Vehicles
 
@@ -235,7 +235,7 @@ vehicles: [
 
 form: "https://tally.so/r/m6p1QA"
 
-#---
+
 
 slug: south-coast-highlights
 
