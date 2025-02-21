@@ -4,20 +4,75 @@ import type { CollectionEntry } from "astro:content";
 import TourCards from "../layouts/TourCards.astro";
 import "../styles/style.css"
 
+import TopBar from "../components/TopBar__EN.astro";
+
+import PicHeader from "../components/Pics/PicHeader.astro";
+import FooterEN from "../components/footer__EN.astro";
 
 const allTours: CollectionEntry<"daytours__EN">[] = await getCollection("daytours__EN")
----
-<!DOCTYPE html>
 
+const {linkFr} = Astro.props
+---
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content=""
+        />
+
+       <link rel="alternate" hreflang="fr" href="#" />
+
+        <meta property="og:title" content="Discover all of our private tours">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="/pictures/list-all-tours/all-private-day-tours-in-iceland-pc.webp">
+        <meta property="og:url" content="https://www.lilja-tours.com/all-day-tours.html">
+        <meta property="og:description" content="">
+
+        <meta property="og:locale" content="en_US">
+        <meta property="og:locale:alternate" content="fr_FR">
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="630">
+        <meta property="og:logo" content="/logos/Lilja-Tours-Full-Logo.png" />
+
+        <title>Private tours in Iceland | day tours | Lilja Tours</title>
+
+        <slot name="jsonld"></slot>
+
+    </head>
 
 <body>
 
+    <header class="header">
+        <TopBar linkfr={linkFr}></TopBar>
+        <div class="headerContainerPic">
+            <PicHeader srcMobile="/pictures/list-all-tours/all-private-day-tours-in-iceland-mobile.webp" srcPC="/pictures/list-all-tours/all-private-day-tours-in-iceland-pc.webp" alt="Picture of stunning waterfalls in desertic landscapes" title="All of our day tours in Iceland"></PicHeader></div>
+            <div class="headerGradient"></div>
+            <div class="headerInfos">
+                <h1>Exclusive Private Day Tours in Iceland</h1>
+                <h2>Explore Iceland in style with our Luxury Tours</h2>
+                <div class="tags">
+
+                            <button class="tagButtR">Golden Circle</button>
+                            <button class="tagButtR">South Coast</button>
+                            <button class="tagButtR">Highlands</button>
+                            <button class="tagButtR">West Iceland</button>
+                            <button class="tagButtR">Reykjavík</button>
+
+                            <button class="tagButtT">Sightseeing</button>
+                            <button class="tagButtT">Adventure</button>
+                            <button class="tagButtT">Hiking</button>
+                            <button class="tagButtT">Jeep only</button>
+
+
+                </div>
+                
+            </div>
+        </div>
+    </header>
+<main>
     {allTours.map((tour) => (
 
         <TourCards
@@ -27,8 +82,125 @@ tour = {tour}
 </TourCards>
 ))}
 
-    
+</main>
+
+<FooterEN></FooterEN>
 </body>
 
 
 </html>
+
+<style>
+
+    .tags {
+        display: flex;
+        flex-wrap: wrap;
+        width: 75%;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .tagButtR {
+        padding: .2rem .75rem;
+            border-radius: 9999px;
+            border: none;
+            font-size: 1rem;
+            color: white;
+            cursor: pointer;
+            transition: .3s;
+            background-color: #5B7297;
+    }
+
+
+
+        .tagButtT {
+            padding: .2rem .75rem;
+            border-radius: 9999px;
+            border: none;
+            background-color: #292929;
+            font-size: 1rem;
+            color: white;
+            cursor: pointer;
+            transition: .3s;
+        }
+        .tagButtR:hover, .tagButtR:focus,   .tagButtT:hover, .tagButtT:focus {
+            filter: brightness(120%);
+            transition: .3s;
+        }
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+  .header {
+            min-height: 100dvh;
+            width: 100%;
+        }
+
+        .headerContainerPic {
+            width: 100%;
+            min-height: calc(100dvh - 3.5rem);
+            max-height: calc(100dvh - 3.5rem);
+            position: relative;
+        }
+
+        .headerGradient {
+            width: 100%;
+            min-height: calc(100dvh - 3.5rem);
+            max-height: calc(100dvh - 3.5rem);
+            position: absolute;
+            top: 3.5rem;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(255, 255, 255, 0.00) 99.06%);
+        }
+
+        .headerInfos {
+            position: absolute;
+            inset: 3.5rem 0 0 0;
+            display: flex;
+            height:  calc(100dvh - 3.5rem);
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            gap: 5rem;
+
+        }
+
+        h1 {
+        color: #FFF;
+        text-align: center;
+        font-size: clamp(2rem, calc(5vw + 1rem), 4rem );
+        font-weight: lighter;
+        min-width: min-content;
+        max-width: max-content;
+        text-wrap: balance;
+        animation-name: Title;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+    }
+
+    h2 {
+        color: #FFF;
+        text-align: center;
+        font-size: clamp(1.5rem, calc(5vw + 1rem), 2.5rem );
+        font-weight: lighter;
+        min-width: min-content;
+        max-width: max-content;
+        text-wrap: balance;
+        animation-name: Title;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+        font-style: italic;
+    }
+
+@keyframes Title {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+</style>

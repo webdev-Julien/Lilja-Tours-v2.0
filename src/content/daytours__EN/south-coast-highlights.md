@@ -76,7 +76,7 @@ itiItems: [
     itiItemPicAlt: "Stunning, giant waterfall",
     itiItemPicTitle: "South Coast Highlights: Skogafoss",
     itiItemStrings: ["Skógafoss is one of Iceland’s most iconic waterfalls, easily visible from Route One on the South Coast. Standing at an impressive 60 meters, its powerful cascade creates a mesmerizing mist that often produces vivid rainbows on sunny days, making it a photographer’s paradise. Its scenic beauty and majestic presence attract visitors from around the world, and its popularity surged after being featured in Game of Thrones, drawing fans and travelers alike.",
-    "A local legend adds to its allure—according to folklore, a giant’s hidden treasure lies behind the waterfall. Many have tried to find it, but the treasure remains a mystery. Your guide will share this tale as you explore the area. For those seeking adventure, a staircase beside the waterfall leads to a viewpoint offering breathtaking panoramic views of the surrounding landscapes. Plan your visit to experience this majestic natural wonder and uncover the myths that make Skógafoss truly magical."]
+    "A local legend adds to its allure—according to folklore, a giant’s hidden treasure lies behind the waterfall. Many have tried to find it, but the treasure remains a mystery. Your guide will share this tale as you explore the area. For those seeking adventure, a staircase beside the waterfall leads to a viewpoint offering breathtaking panoramic views of the surrounding landscapes. Discover Skógafoss to experience this majestic natural wonder and uncover the myths that make it truly magical."]
     },
     {
     itiItemTitle: "Sólheimajökull glacier",
@@ -85,7 +85,7 @@ itiItems: [
     itiItemPicAlt: "Edge of a glacier reflecting in the water",
     itiItemPicTitle: "South Coast Highlights - Sólheimajökull",
     itiItemStrings: ["Glaciers cover about 11% of Iceland's landscape, each showcasing unique features shaped by time and nature. Sólheimajökull is no exception. This magnificent glacier is partially veiled by volcanic ash from nearby eruptions, creating a dramatic contrast of black and white ice that captivates every visitor. Its rugged, ever-changing surface reveals the raw power of Icelandic geology.",
-    "Located on Iceland's South Coast, Sólheimajökull beautifully illustrates the land of fire and ice, where glaciers and volcanoes coexist. Visitors can explore crevasses, ice caves, and jagged ridges, offering a glimpse into the dynamic interplay between fire and ice. Guided glacier hikes provide a closer look at this natural wonder, allowing adventurers to experience the power and beauty of Sólheimajökull firsthand. Its breathtaking scenery and geological significance make it a must-visit destination for those seeking to explore Iceland’s wild, untamed beauty."]
+    "Located on Iceland's South Coast, Sólheimajökull beautifully illustrates the land of fire and ice, where glaciers and volcanoes coexist. Visitors can admire crevasses, ice caves, and jagged ridges, offering a glimpse into the dynamic interplay between fire and ice. Guided glacier hikes provide a closer look at this natural wonder, allowing adventurers to experience the power and beauty of Sólheimajökull firsthand. Its breathtaking scenery and geological significance make it a must-visit destination for those seeking to explore Iceland’s wild, untamed beauty."]
     },
      {
     itiItemTitle: "Dýrhólaey ",

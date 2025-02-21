@@ -47,7 +47,7 @@ import ItiItem from "../layouts/ItiItem.astro"
                 >
                     <div>
                         {iti.itiItemStrings.map((paraph:any) => (
-                            <p>{paraph}</p>
+                            <p set:html={paraph}></p>
                         ))}
                     </div>
 
