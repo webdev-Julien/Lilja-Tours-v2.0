@@ -184,7 +184,7 @@ title: "Landmannalaugar's Heat: Sigöldugljúfur"
 
 # Card
 
-tags: ["Highlands","Sightseeing", "Hiking", "Jeep Only"]
+tags: ["Highlands", "Hiking", "Jeep Only"]
 cardPicSrc: "/pictures/landmannalaugar-heat/card/landmannalaugar.webp"
 cardPicAlt: "Sunset over a immense natural stone arch"
 cardPicTitle: "Private hiking tour: Landmannalaugar's Heat"

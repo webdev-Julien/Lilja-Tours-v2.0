@@ -20,7 +20,7 @@ difficulty: "No difficulty"
 
 
 # H1
-tourTitle: "Snæfellsnes wonders"
+tourTitle: "Snæfellsnes Wonders"
 
 
 # Header Picture
@@ -78,7 +78,7 @@ itiItems: [
     "This beach is rich in history, with scattered remains of an old shipwreck adding a haunting yet fascinating touch. Visitors can also find heavy stones once used to test the strength of aspiring fishermen. Djúpalónssandur beautifully combines natural wonder and cultural heritage."]
     },
     {
-    itiItemTitle: "Arnarstapi shoreline",
+    itiItemTitle: "Arnarstapi Shoreline",
     itiItemPicSrcMobile: "/pictures/snaefellsnes-wonders/itinerary/arnarstapi-mobile.webp",
     itiItemPicSrcPC: "/pictures/snaefellsnes-wonders/itinerary/arnarstapi-pc.webp",
     itiItemPicAlt: "Impressive shoreline of a small icelandic village",
