@@ -1,0 +1,36 @@
+---
+const {tourTitle} = Astro.props;
+---
+
+<section id="bookings">
+    <div class="wrapper">
+
+<h2>Réservez votre excursion : <span class="lj">{tourTitle}</span></h2>
+
+<slot name="carCards"></slot>
+</div>
+</section>
+
+<style>
+
+.wrapper {
+        width: 75%;
+        margin-inline: auto;
+    }
+.lj {
+    color: #A2B9E1;
+}
+
+h2 {
+      font-size: clamp(1.5rem, 3vw, 2rem);
+        color: white;
+        font-weight: normal;
+        margin-bottom: 5rem;
+    }
+
+section {
+    background-color: #292929;
+    padding-block: 5rem;
+}
+
+</style>

@@ -1,0 +1,132 @@
+---
+const {gtk, wtb, i, ni}=Astro.props
+---
+
+<section id="info">
+    <div class="wrapper">
+    <h2>Information</h2>
+    <div class="listContainer">
+        <ul>
+            <li><h3>Bon à savoir</h3></li>
+            {
+                gtk.map((bas:any) => {
+        
+                    return (
+        
+                       <li>{bas}</li>               
+                    )
+                })
+            }
+
+        </ul>
+
+        <ul>
+            <li><h3>Que prendre avec vous?</h3></li>
+            {
+                wtb.map((bas:any) => {
+        
+                    return (
+        
+                       <li>{bas}</li>               
+                    )
+                })
+            }
+
+        </ul>
+
+        <ul>
+            <li><h3>Inclus:</h3></li>
+            {
+                i.map((bas:any) => {
+        
+                    return (
+        
+                       <li>{bas}</li>               
+                    )
+                })
+            }
+        </ul>
+
+        <ul>
+            <li><h3>Non inclus:</h3></li>
+            {
+                ni.map((bas:any) => {
+        
+                    return (
+        
+                       <li>{bas}</li>               
+                    )
+                })
+            }
+
+        </ul>
+    </div></div>
+</section>
+
+<style>
+
+    .listContainer {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    ul {
+        list-style-type: none;
+        list-style-position: inside;
+        border: 1px solid white;
+        padding: 1rem;
+        border-radius: 15px;
+        background-color: hsl(0, 0%, 25%);
+    }
+
+    #info {
+        background-color: #292929;
+        width: 100%;
+        padding-block: 5rem ;
+    }
+
+    .wrapper {
+        width: 75%;
+        margin-inline: auto;
+    }
+
+    h2 {
+        font-size: clamp(1.5rem, 3vw, 2rem);
+        color: white;
+        font-weight: normal;
+        margin-bottom: 5rem;
+    }
+h3 {
+    font-size: clamp(1rem, 3vw, 1.25rem);
+    font-weight: bold;
+}
+
+li {
+    color: white;
+    line-height: 1.8;
+}
+
+li:not(:first-child)::before {
+    content: "-";
+}
+
+
+@media only screen and (max-width: 1000px) {
+        .listContainer {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+        }
+
+        h2 {
+            margin-bottom: 2rem;
+        }
+
+        #info {
+            padding-block: 2rem;
+        }
+    }
+
+</style>

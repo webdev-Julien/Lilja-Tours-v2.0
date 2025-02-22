@@ -1,0 +1,55 @@
+---
+import "../../../styles/style.css"
+
+import TourpageEN from "../../../layouts/Tourpage__EN.astro";
+
+import { getCollection } from "astro:content";
+import type { CollectionEntry } from "astro:content";
+
+export async function getStaticPaths() {
+    const daytours__EN: CollectionEntry<"daytours__EN">[] = await getCollection("daytours__EN")
+    return daytours__EN.map(entry => ({
+        params: {
+            slug: entry.slug
+        },
+        props: {entry}
+    }))
+}
+
+const { entry } = Astro.props
+---
+<TourpageEN
+
+language={entry.data.language}
+description={entry.data.description}
+ogTitle={entry.data.ogTitle}
+ogImage={entry.data.ogImage}
+url={"https://www.iceland-for-you.com/private-day-tours-iceland/"+entry.slug}
+pageTitle={entry.data.pageTitle}
+headerCoverSrcMobile={entry.data.headerCoverSrcMobile}
+headerCoverSrcPC={entry.data.headerCoverSrcPC}
+headerCoverAlt={entry.data.headerCoverAlt}
+headerCoverTitle={entry.data.headerCoverTitle}
+linkFR={entry.data.linkFr}
+tourTitle={entry.data.tourTitle}
+season={entry.data.season}
+duration={entry.data.duration}
+difficulty={entry.data.difficulty}
+capacity={entry.data.capacity}
+bookButtons={entry.data.bookButtons}
+itiCoverImgSrcMobile={entry.data.itiCoverImgSrcMobile}
+itiCoverImgSrcPC={entry.data.itiCoverImgSrcPC}
+itiCoverImgAlt={entry.data.itiCoverImgAlt}
+itiCoverImgTitle={entry.data.itiCoverImgTitle}
+itiCoverTitle={entry.data.itiCoverTitle}
+itiItems={entry.data.itiItems}
+gtk={entry.data.goodToKnow}
+wtb={entry.data.WhatToBring}
+i={entry.data.Included}
+ni={entry.data.nonIncluded}
+gallery={entry.data.gallery}
+vehicles={entry.data.vehicles}
+form={entry.data.form}
+fulllinkFr={entry.data.fulllinkFr}
+
+></TourpageEN>

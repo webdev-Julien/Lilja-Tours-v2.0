@@ -1,0 +1,287 @@
+---
+import TopBar from "../../components/TopBar__EN.astro"
+import PicHeader from "../../components/Pics/PicHeader.astro"
+import HeaderInfos from "../../layouts/HeaderInfos__EN.astro"
+import ItiSection from "../ItiSection__EN.astro"
+import InternalNav from "../../components/InternalNav__EN.astro"
+import InfoSection from "../InfoSection__EN.astro"
+import GallerySection from "../GallerySection.astro"
+import BookSection from "./BookSection__EN.astro"
+import FormSection from "../FormSection.astro"
+import BookCardEN from "../../components/bookCards/BookCard__EN.astro"
+
+import FooterEN from "../../components/footer__EN.astro"
+
+import BookVClassEN from "../../components/buttons/BookVClass__EN.astro"
+
+import ReadMore from "../../components/buttons/ReadMore__EN.astro"
+
+
+const {
+    language, 
+    tour, 
+    description, 
+    ogTitle, 
+    ogImage, 
+    url,
+    pageTitle,
+    linkFr,
+    tourTitle,
+    season,
+    duration,
+    difficulty,
+    capacity,
+    bookButtons,
+    itiCoverImgSrcMobile, 
+    itiCoverImgSrcPC,
+    itiCoverImgAlt,
+    itiCoverImgTitle,
+    itiCoverTitle,
+    itiItems,
+    headerCoverSrcMobile,
+    headerCoverSrcPC,
+    headerCoverAlt,
+    headerCoverTitle,
+    gtk,
+    wtb,
+    i,
+    ni,
+    gallery,
+    vehicles,
+    form,
+    fulllinkFr
+} = Astro.props
+
+---
+<!doctype html>
+<html lang={language}>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content={description}
+        />
+
+       <link rel="alternate" hreflang="en" href={fulllinkFr} />
+
+        <meta property="og:title" content={ogTitle}>
+        <meta property="og:type" content="website">
+        <meta property="og:image" content={ogImage}>
+        <meta property="og:url" content={url}>
+        <meta property="og:description" content={description}>
+
+        <meta property="og:locale" content="fr_FR">
+        <meta property="og:locale:alternate" content="en_US">
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="630">
+        <meta property="og:logo" content="/logos/Lilja-Tours-Full-Logo.png" />
+
+        <title>{pageTitle}</title>
+
+        <slot name="jsonld"></slot>
+
+    </head>
+    <body>
+        <header class="header">
+            <TopBar linkfr={linkFr}></TopBar>
+            <div class="headerContainerPic">
+                <PicHeader srcMobile={headerCoverSrcMobile} srcPC={headerCoverSrcPC} alt={headerCoverAlt} title={headerCoverTitle}></PicHeader></div>
+                <div class="headerGradient"></div>
+                <div class="headerInfos">
+                    
+                    <HeaderInfos
+                    tourTitle={tourTitle}
+                    season={season}
+                    duration={duration}
+                    difficulty={difficulty}
+                    capacity={capacity}
+                    >
+                
+                    <div slot="bookButtons" class="bookButtons">
+                        {bookButtons.map((button:any) => (
+
+                            <BookVClassEN
+                            bookLinkMercedes = {button.bookLink}
+                            buttonText = {button.textButton}
+                    ></BookVClassEN>
+                    ))}
+                    <ReadMore>
+                    </div>
+                
+                </HeaderInfos>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <ItiSection
+            itiCoverImgSrcMobile={itiCoverImgSrcMobile}
+            itiCoverImgSrcPC={itiCoverImgSrcPC}
+            itiCoverImgAlt={itiCoverImgAlt}
+            itiCoverImgTitle={itiCoverImgTitle}
+            itiCoverTitle={itiCoverTitle}
+            itiItems={itiItems}
+            ></ItiSection>
+            
+            <InfoSection
+            gtk={gtk}
+            wtb={wtb}
+            i={i}
+            ni={ni}
+            
+            ></InfoSection>
+
+            <GallerySection 
+            gallery={gallery}>
+            </GallerySection>
+
+            <BookSection tourTitle={tourTitle}>
+                <div slot="carCards" class="carCards">
+
+                    {vehicles.map((car:any) => (
+                        <BookCardEN
+                        vehicName={car.name}
+                        srcPC={car.srcPC}
+                        srcMobile={car.srcMobile}
+                        vehicAlt={car.alt}
+                        vehicleTitle={car.title}
+                        capacity={car.capacity}
+                        rate={car.rate}
+                        bookLink={car.bookLink}
+                        buttonText={car.name}
+                        ></BookCardEN>
+                    ))}
+
+                </div>
+            </BookSection>
+
+            <FormSection>
+                <div slot="form">
+                    <a href={form} title="fill a form" class="formA" target="_blank">
+                        <button class="formButton"><p class="formAction">Accédez à notre formulaire</p></button>
+                    </a>
+                </div>
+            </FormSection>
+
+            
+
+
+            <InternalNav bookOrQuote="BOOK"></InternalNav>
+
+        </main>
+
+    <FooterEN></FooterEN>
+    </body>
+
+    <style>
+
+        .formA {
+        text-decoration: none;
+        width: fit-content
+    }
+
+    .formButton {
+        width: 15rem;
+        height: 5rem;
+        flex-shrink: 0;
+        border-radius: 1rem;
+        border: 2px solid hsla(0, 0%, 100%, 0.5);
+        background: rgba(0, 0, 0, 0.30);
+        backdrop-filter: blur(7.5px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        cursor: pointer;
+        transition: .5s;
+
+    }
+
+    .formAction {
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: lighter;
+        margin: 0;
+    }
+
+
+    .formButton:hover, .formButton:focus {
+        background: rgba(255, 255, 255, 0.50);
+        border: 2px solid rgba(0, 0, 0, 0.30);
+        transition: .5s;
+
+        .formAction {
+        color: rgba(0, 0, 0, 0.50);
+        }
+
+    }
+        .header {
+            min-height: 100dvh;
+            width: 100%;
+        }
+
+        .headerContainerPic {
+            width: 100%;
+            min-height: calc(100dvh - 3.5rem);
+            max-height: calc(100dvh - 3.5rem);
+            position: relative;
+        }
+
+        .headerGradient {
+            width: 100%;
+            min-height: calc(100dvh - 3.5rem);
+            max-height: calc(100dvh - 3.5rem);
+            position: absolute;
+            top: 3.5rem;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(255, 255, 255, 0.00) 99.06%);
+        }
+
+        .headerInfos {
+            position: absolute;
+            inset: 3.5rem 0 0 0;
+            display: flex;
+            height:  calc(100dvh - 3.5rem);
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            align-content: center;
+
+        }
+
+        .bookButtons {
+        width: 150%;
+        display: flex;
+        justify-content: space-evenly;
+        gap: 1.25rem;
+        align-items: center;
+        flex-wrap: wrap;
+        animation-name: Title;
+        animation-duration: 2s;
+        animation-delay: 2s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+    }
+
+    .carCards {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 3rem;
+    }
+
+
+
+    @media only screen and (max-height: 800px) {
+        .bookButtons {
+            gap: .75rem;
+        }
+
+    }
+    </style>
+
+
+    </style>
+

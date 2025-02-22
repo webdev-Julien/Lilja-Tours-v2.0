@@ -1,13 +1,13 @@
 ---
 import { getCollection } from "astro:content";
 import type { CollectionEntry } from "astro:content";
-import TourCards from "../layouts/TourCards.astro";
-import "../styles/style.css"
+import TourCards from "../../layouts/TourCards.astro";
+import "../../styles/style.css"
 
-import TopBar from "../components/TopBar__EN.astro";
+import TopBar from "../../components/TopBar__EN.astro";
 
-import PicHeader from "../components/Pics/PicHeader.astro";
-import FooterEN from "../components/footer__EN.astro";
+import PicHeader from "../../components/Pics/PicHeader.astro";
+import FooterEN from "../../components/footer__EN.astro";
 
 const allTours: CollectionEntry<"daytours__EN">[] = await getCollection("daytours__EN")
 
@@ -44,7 +44,7 @@ const {linkFr} = Astro.props
 <body>
 
     <header class="header">
-        <TopBar linkfr="/fr/toutes-nos-excursions.html"></TopBar>
+        <TopBar linkfr="/all-day-tours.html"></TopBar>
         <div class="headerContainerPic">
             <PicHeader srcMobile="/pictures/list-all-tours/all-private-day-tours-in-iceland-mobile.webp" srcPC="/pictures/list-all-tours/all-private-day-tours-in-iceland-pc.webp" alt="Picture of stunning waterfalls in desertic landscapes" title="All of our day tours in Iceland"></PicHeader></div>
             <div class="headerGradient"></div>

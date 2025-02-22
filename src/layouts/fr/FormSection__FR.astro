@@ -1,0 +1,31 @@
+---
+
+---
+
+<section id="form">
+    <div class="wrapper">
+        <h2>Personnalisez votre excursion tour, ou posez nous vos questions:</h2>
+    <slot name="form"></slot></div>
+</section>
+
+<style>
+
+section {
+        background-color: #292929;
+        width: 100%;
+        padding-block: 5rem ;
+}
+
+.wrapper {
+    width: 75%;
+    margin-inline: auto;
+}
+
+h2 {
+        font-size: clamp(1.5rem, 3vw, 2rem);
+        color: white;
+        font-weight: normal;
+        margin-bottom: 3rem;
+    }
+
+</style>

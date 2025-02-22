@@ -1,0 +1,70 @@
+---
+const {gallery} = Astro.props
+import PicGallery from "../../components/Pics/PicGallery.astro"
+---
+
+<section id="gallery">
+    <div class="wrapper">
+        <h2>Gallerie</h2>
+        <div class="picContainer">
+            {
+                gallery.map((pix:any) => {
+        
+                    return (
+        
+                    <PicGallery     
+                    srcPC={pix.srcPc}
+                    srcMobile={pix.srcMob}
+                    alt={pix.alt}
+                    title>={pix.title}
+
+                    </PicGallery>
+
+                    )
+                })
+            }
+        </div>
+    </div>
+</section>
+
+<style>
+    .picContainer {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+
+        .wrapper {
+        width: 75%;
+        margin-inline: auto;
+    }
+        #gallery {
+        background-color: #292929;
+        width: 100%;
+        padding-block: 5rem ;
+    }
+      h2 {
+        font-size: clamp(1.5rem, 3vw, 2rem);
+        color: white;
+        font-weight: normal;
+        margin-bottom: 5rem;
+    }
+
+@media only screen and (max-width: 1000px) {
+    h2 {
+            margin-bottom: 2rem;
+        }
+
+    .picContainer {
+        grid-template-columns: 1fr;
+    }
+
+    
+    #gallery {
+            padding-block: 2rem;
+        }
+
+}
+</style>
+
