@@ -20,7 +20,7 @@ difficulty: "No difficulty"
 
 
 # H1
-tourTitle: "Golden Circle Essentials"
+tourTitle: "Cercle d'Or: Les essentiels"
 
 
 # Header Picture
@@ -186,7 +186,7 @@ title: "Golden Circle Essentials: Gullfoss"
 
 # Card
 
-tags: ["Golden Circle","Sightseeing"]
+tags: ["Cercle d'Or","Découverte"]
 cardPicSrc: "/pictures/golden-circle-essentials/card/golden-circle-essentials-card.webp"
 cardPicAlt: "A geyser about to erupt"
 cardPicTitle: "Private tour: Golden Circle Essentials"
@@ -222,6 +222,6 @@ form: "https://tally.so/r/mRbZKQ"
 
 
 
-slug: golden-circle-essentials
+slug: cercle-d-or-essentiels
 
 ---

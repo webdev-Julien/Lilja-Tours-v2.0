@@ -1,7 +1,7 @@
 ---
 import { Image } from "astro:assets";
 const {linkfr} = Astro.props;
-import frenchflag from "../assets/icons/french.svg"
+import frenchflag from "../assets/icons/english.svg"
 import logo from "../assets/logos/lilja-tours-logo-transparent.png"
 import MenuButton from "./buttons/MenuButton.astro";
 import CloseButton from "./buttons/CloseButton.astro"
@@ -20,16 +20,16 @@ import Logo from "../assets/logos/Lilja-Tours.png"
        <div class="groupMenu">
         <ul class="menuLinks purple">
 
-            <li class="pc"><a href="#" class="menuLink nonImp" title="About Lilja Tours">About</a></li>
-            <li class="pc"><a href="#" class="menuLink nonImp" title="Contact us">Contact</a></li>
-            <li class="pc"><a href="#" class="menuLink nonImp" title="Frequently asked questions">F.A.Q</a></li>
-            <li class="pc"><a href="#" class="menuLink nonImp" title="Our blog">Blog</a></li>
+            <li class="pc"><a href="#" class="menuLink nonImp" title="A propos de  Lilja Tours">A propos</a></li>
+            <li class="pc"><a href="#" class="menuLink nonImp" title="Contactez nous">Contact</a></li>
+            <li class="pc"><a href="#" class="menuLink nonImp" title="Foire aux questions">F.A.Q</a></li>
+            <li class="pc"><a href="#" class="menuLink nonImp" title="Notre blog">Blog</a></li>
         </ul><div class="close" id="closeButt"><CloseButton></CloseButton></div>
         <ul class="menuLinks whites">
-            <li class="pc"><a href="/all-day-tours.html" class="menuLink" title="List of day tours">DAY TOURS</a></li>
-            <li class="pc"><a href="#" class="menuLink" title="List of multiday tours">MULTIDAY TOURS</a></li>
-            <li class="pc"><a href="#" class="menuLink" title="List of excursions">ON YOUR OWN</a></li>
-                        <li class="pc"><a href={linkfr} class="menuLink" title="Voir en français / See in french"><Image src={frenchflag} alt="french flag / drapeau français" title="french/français" class="flag" width="100" height="32"  loading="lazy"/></a></li>
+            <li class="pc"><a href="/all-day-tours.html" class="menuLink" title="Liste nos excursions à la journée">EXCURSIONS</a></li>
+            <li class="pc"><a href="#" class="menuLink" title="Liste de nos circuits">CIRCUITS</a></li>
+            <li class="pc"><a href="#" class="menuLink" title="Excursions de nos partenaires">PAR VOUS MÊME</a></li>
+                        <li class="pc"><a href={linkfr} class="menuLink" title="Voir en anglais / See in english"><Image src={frenchflag} alt="american flag / drapeau américain" title="english/anglais" class="flag" width="100" height="32"  loading="lazy"/></a></li>
         </ul></div>
         
     </nav>

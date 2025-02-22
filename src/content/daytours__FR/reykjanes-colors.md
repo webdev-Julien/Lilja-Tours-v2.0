@@ -20,7 +20,7 @@ difficulty: "No difficulty"
 
 
 # H1
-tourTitle: "Colors of Reykjanes"
+tourTitle: "Couleurs de Reykjanes"
 
 
 # Header Picture
@@ -193,7 +193,7 @@ title: "Colors of Reykjanes Peninsula: Stampar"
 
 # Card
 
-tags: ["West Iceland","Sightseeing"]
+tags: ["Ouest Islandais","Découverte"]
 cardPicSrc: "/pictures/reykjanes-colors/card/reykjanes-colors.webp"
 cardPicAlt: "Sunset over a black sand beach"
 cardPicTitle: "Private tour: Colors of Reykjanes Peninsula"
@@ -229,6 +229,6 @@ form: "https://tally.so/r/3qkog5"
 
 
 
-slug: reykjanes-colors
+slug: couleurs-peninsule-reykjanes
 
 ---

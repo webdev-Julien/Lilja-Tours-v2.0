@@ -20,7 +20,7 @@ difficulty: "No difficulty"
 
 
 # H1
-tourTitle: "South Coast Highlights"
+tourTitle: "Haut lieux de la Côte Sud"
 
 
 # Header Picture
@@ -201,7 +201,7 @@ title: "South Coast Highlights: Sólheimajökull"
 
 # Card
 
-tags: ["South Coast","Sightseeing"]
+tags: ["Côte Sud","Découverte"]
 cardPicSrc: "/pictures/south-coast-highlights/card/south-coast-highlights.webp"
 cardPicAlt: "Sunset over a black sand beach"
 cardPicTitle: "Private tour: South Coast Highlights"
@@ -237,6 +237,6 @@ form: "https://tally.so/r/m6p1QA"
 
 
 
-slug: south-coast-highlights
+slug: haut-lieux-cote-sud-islandaise
 
 ---

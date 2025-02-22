@@ -20,7 +20,7 @@ difficulty: "No difficulty"
 
 
 # H1
-tourTitle: "Snæfellsnes Wonders"
+tourTitle: "Merveilles de Snæfellsnes"
 
 
 # Header Picture
@@ -229,6 +229,6 @@ form: "https://tally.so/r/w4pP5o"
 
 
 
-slug: snaefellsnes-wonders
+slug: merveilles-de-la-peninsule-de-snaefellsnes
 
 ---

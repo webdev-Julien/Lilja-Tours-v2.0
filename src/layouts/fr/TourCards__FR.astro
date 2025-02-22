@@ -14,7 +14,7 @@ import {ISK_to_USD_Rate, ISK_to_EUR_Rate} from "../../constants"
 const {tour} = Astro.props
 
 interface Props {
-    tour:CollectionEntry<"daytours__EN">
+    tour:CollectionEntry<"daytours__FR">
 }
 
 ---
@@ -30,7 +30,7 @@ interface Props {
                 </div>
                 <div class="tourInfo">
                     <Image src={hourglass} alt="calendar icon" title="duration" width="30" height="30" class="infoIcon" loading="lazy"></Image>
-                    <p class="info">: Approx. {tour.data.duration} hours</p>
+                    <p class="info">: Approx. {tour.data.duration} heures</p>
                 </div>
                 <div class="tourInfo">
                     <Image src={level} alt="calendar icon" title="difficulty" width="30" height="30" class="infoIcon" loading="lazy"></Image>
@@ -47,11 +47,11 @@ interface Props {
 
     </div>
     <div class="textInfos">
-        <a href={"/private-day-tours-iceland/"+tour.slug}><h2>{tour.data.tourTitle}</h2>
+        <a href={"/fr/excursions-en-islande/"+tour.slug}><h2>{tour.data.tourTitle}</h2>
             <div class="rates">
-                <p class="startingFrom">Starting from:</p>
-                <p class="rateISK">{tour.data.jeepISK} ISK <span class="vehicle">/vehicle</span></p>
-                <p class="approx"><em>Approx. {Math.floor(tour.data.jeepISK / ISK_to_USD_Rate)} $ or {Math.floor(tour.data.jeepISK / ISK_to_EUR_Rate)} €</em></p>
+                <p class="startingFrom">A partir de:</p>
+                <p class="rateISK">{tour.data.jeepISK} ISK <span class="vehicle">/véhicule</span></p>
+                <p class="approx"><em>Approx. {Math.floor(tour.data.jeepISK / ISK_to_USD_Rate)} $ ou {Math.floor(tour.data.jeepISK / ISK_to_EUR_Rate)} €</em></p>
             </div></a>
             <div class="tags">
                 {

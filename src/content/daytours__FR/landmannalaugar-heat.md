@@ -20,7 +20,7 @@ difficulty: "Moderate"
 
 
 # H1
-tourTitle: "Landmannalaugar's Heat"
+tourTitle: "Le Brulant Landmannalaugar"
 
 
 # Header Picture
@@ -184,7 +184,7 @@ title: "Landmannalaugar's Heat: Sigöldugljúfur"
 
 # Card
 
-tags: ["Highlands", "Hiking", "Jeep Only"]
+tags: ["Hautes Terres", "Randonnée", "4x4"]
 cardPicSrc: "/pictures/landmannalaugar-heat/card/landmannalaugar.webp"
 cardPicAlt: "Sunset over a immense natural stone arch"
 cardPicTitle: "Private hiking tour: Landmannalaugar's Heat"
@@ -210,6 +210,6 @@ form: "https://tally.so/r/w7p12R"
 
 
 
-slug: landmannalaugar-heat
+slug: landmannalaugar-brulant
 
 ---
