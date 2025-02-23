@@ -94,7 +94,7 @@ goodToKnow: [
   "La difficulté de la randonnée peut être ajustée",  
   "Non recommandé pour les personnes ayant des problèmes de mobilité",  
   "Terrain irrégulier, montées et descentes",  
-  "Nous nous arrêterons en chemin pour acheter de la nourriture pour la journée si nécessaire."  
+  "Nous nous arrêterons en chemin pour acheter à manger."  
 ]
 
 WhatToBring: [  
