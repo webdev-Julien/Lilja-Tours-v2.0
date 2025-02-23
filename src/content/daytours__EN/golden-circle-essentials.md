@@ -5,7 +5,7 @@ jeepISK: 159000
 
 
 # Head and metas
-pageTitle: "Golden Circle Private tour"
+pageTitle: "Golden Circle Essentials | Luxury private tour | Lilja Tours"
 description: "Follow Lilja Tours on the most popular tour in Iceland: The Golden Circle. Explore the National Park of Þingvellir, Geysir and Gullfoss, in a 6 hour tour."
 ogTitle: "Private tour: Golden Circle Essentials"
 ogImage: "/pictures/golden-circle-essentials/card/golden-circle-card.webp"
@@ -51,10 +51,10 @@ itiCoverImgTitle: "Gullfoss"
 
 
 # Links
-linkFr: "#"
+linkFr: "/fr/excursions-en-islande/cercle-d-or-essentiels.html"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753710"
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753711"
-fulllinkFr: "#"
+fulllinkFr: "https://www.lilja-tours.com/fr/excursions-en-islande/cercle-d-or-essentiels.html"
 
 
 # Itinerary

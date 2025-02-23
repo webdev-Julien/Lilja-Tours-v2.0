@@ -5,18 +5,18 @@ jeepISK: 185000
 
 
 # Head and metas
-pageTitle: "Snæfellsnes Peninsula Iceland | Luxury private tour | Lilja Tours"
-description: "Explore Snæfellsnes Peninsula on a private tour. Visit Arnarstapi, Kirkjufell, and Djúpalónssandur. Book your Icelandic adventure with us."
-ogTitle: "Private tour: Snæfellsnes Peninsula"
+pageTitle: "Péninsule de Snæfellsnes en Islande | Excursions d'exception | Lilja Tours"
+description: "Explorez la péninsule de Snæfellsnes en visite privée. Visitez Arnarstapi, Kirkjufell et Djúpalónssandur. Réservez votre aventure islandaise !"
+ogTitle: "Visite privée: La péninsule de Snæfellsnes"
 ogImage: "/pictures/snaefellsnes-wonders/card/snaefellsnes-private-tour.webp"
-language: "en"
+language: "fr"
 
 
 # Tour datas
 duration: "11"
 capacity: "6"
-season: "All year"
-difficulty: "No difficulty"
+season: "Toute l'année"
+difficulty: "Sans difficultés"
 
 
 # H1
@@ -26,8 +26,8 @@ tourTitle: "Merveilles de Snæfellsnes"
 # Header Picture
 headerCoverSrcMobile: "/pictures/snaefellsnes-wonders/headers/snaefellsnes-mobile.webp"
 headerCoverSrcPC: "/pictures/snaefellsnes-wonders/headers/snaefellsnes-pc.webp"
-headerCoverAlt: "Sunrise over stunning icelandic landscapes"
-headerCoverTitle: "Snæfellsnes wonders private tour"
+headerCoverAlt: "Lever de soleil au dessus de somptueux paysages islandais"
+headerCoverTitle: "Visite guidée des merveilles de Snæfellsnes"
 
 
 # BookButtons
@@ -43,86 +43,86 @@ bookButtons: [
 ]
 
 # Iti Picture
-itiCoverTitle: "Your itinerary"
+itiCoverTitle: "Votre itinéraire"
 itiCoverImgSrcMobile: "/pictures/snaefellsnes-wonders/itinerary/title/snaefellsnes-mobile.webp"
 itiCoverImgSrcPC: "/pictures/snaefellsnes-wonders/itinerary/title/snaefellsnes-pc.webp"
-itiCoverImgAlt: "Beautiful landscape"
-itiCoverImgTitle: "Snæfellsnes itinerary"
+itiCoverImgAlt: "Magnifiques paysages"
+itiCoverImgTitle: "Snæfellsnes"
 
 
 # Links
-linkFr: "#"
+linkFr: "/private-day-tours-iceland/snaefellsnes-wonders.html"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753699"
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753700"
-fulllinkFr: "#"
+fulllinkFr: "https://www.lilja-tours.com/private-day-tours-iceland/snaefellsnes-wonders.html"
 
 
 # Itinerary
 itiItems: [
   { 
-    itiItemTitle: "Mount Kirkjufell",
+    itiItemTitle: "Mont Kirkjufell",
     itiItemPicSrcMobile: "/pictures/snaefellsnes-wonders/itinerary/kirkjufell-mobile.webp",
     itiItemPicSrcPC: "/pictures/snaefellsnes-wonders/itinerary/kirkjufell-pc.webp",
-    itiItemPicAlt: "Breathtaking panorama of a conic mountain and a few waterfalls",
-    itiItemPicTitle: "Snæfellsnes wonders: Kirkjufell",
-    itiItemStrings: ["Kirkjufell is Iceland’s most photographed mountain, standing majestically on the Snæfellsnes Peninsula. Its striking conical shape has made it a popular landmark among tourists and locals alike. Its global fame skyrocketed after being featured in Game of Thrones, attracting even more visitors eager to capture its iconic silhouette.",
-    "As you approach the best viewpoint, you’ll pass by two picturesque waterfalls, known as Kirkjufellsfoss. The combination of cascading water and the mountain’s dramatic backdrop creates a truly mesmerizing scene, perfect for photography and sightseeing."]
+    itiItemPicAlt: "Paysage à couper le souffle d'une montagne conique et de cascades",
+    itiItemPicTitle: "Merveilles de Snæfellsnes: Kirkjufell",
+    itiItemStrings: ["Kirkjufell est la montagne la plus photographiée d'Islande, se dressant majestueusement sur la péninsule de Snæfellsnes. Sa forme conique saisissante en a fait un point de repère populaire auprès des touristes et des locaux. Sa renommée mondiale a explosé après son apparition dans Game of Thrones, attirant encore plus de visiteurs désireux de capturer sa silhouette emblématique.",  
+    "En vous approchant du meilleur point de vue, vous passerez par deux cascades pittoresques, appelées Kirkjufellsfoss. La combinaison de l'eau en cascade et du décor dramatique de la montagne crée une scène véritablement envoûtante, parfaite pour la photographie et le tourisme."]
     },
     {
-    itiItemTitle: "Djúpalónssandur Black Sand Beach",
+    itiItemTitle: "Plage de sable noir: Djúpalónssandur",
     itiItemPicSrcMobile: "/pictures/snaefellsnes-wonders/itinerary/djupalonssandur-mobile.webp",
     itiItemPicSrcPC: "/pictures/snaefellsnes-wonders/itinerary/djupalonssandur-pc.webp",
-    itiItemPicAlt: "A never ending, beautiful black sand beach",
-    itiItemPicTitle: "Snæfellsnes wonders: Djúpalónssandur",
-    itiItemStrings: ["Djúpalónssandur is the most iconic black sand beach on the Snæfellsnes Peninsula, located within Snæfellsnesjökull National Park. Positioned at the edge of an expansive lava field from the nearby volcano, its rugged landscape showcases unique rock formations shaped by centuries of erosion.",
-    "This beach is rich in history, with scattered remains of an old shipwreck adding a haunting yet fascinating touch. Visitors can also find heavy stones once used to test the strength of aspiring fishermen. Djúpalónssandur beautifully combines natural wonder and cultural heritage."]
+    itiItemPicAlt: "Une plage de sable noir, s'étendant à l'infini",
+    itiItemPicTitle: "Merveilles de Snæfellsnes: Djúpalónssandur",
+    itiItemStrings: ["Djúpalónssandur est la plage de sable noir la plus emblématique de la péninsule de Snæfellsnes, située dans le parc national de Snæfellsnesjökull. Nichée au bord d'un vaste champ de lave provenant du volcan voisin, son paysage accidenté présente des formations rocheuses uniques sculptées par des siècles d'érosion.",  
+    "Cette plage est riche en histoire, avec des vestiges dispersés d'une ancienne épave ajoutant une touche à la fois mystérieuse et fascinante. Les visiteurs peuvent également y trouver des pierres lourdes autrefois utilisées pour tester la force des jeunes pêcheurs. Djúpalónssandur allie magnifiquement merveille naturelle et patrimoine culturel."]
     },
     {
-    itiItemTitle: "Arnarstapi Shoreline",
+    itiItemTitle: "Le littoral d'Arnarstapi",
     itiItemPicSrcMobile: "/pictures/snaefellsnes-wonders/itinerary/arnarstapi-mobile.webp",
     itiItemPicSrcPC: "/pictures/snaefellsnes-wonders/itinerary/arnarstapi-pc.webp",
-    itiItemPicAlt: "Impressive shoreline of a small icelandic village",
-    itiItemPicTitle: "Snæfellsnes wonders - Arnarstapi",
-    itiItemStrings: ["Arnarstapi is often celebrated as one of Iceland’s most picturesque villages, known for its uniquely rugged shoreline. Starting from the harbor, visitors can admire panoramic views of mountains stretching over the ocean. A scenic walk leads to the statue of Bárður, the legendary first settler of the Snæfellsnes Peninsula.",
-    "Along the way, stunning rock formations shape the dramatic coastline, making it a paradise for photographers. In summer, Arnarstapi comes alive with vibrant birdlife, adding a magical touch to its already breathtaking landscape."]
+    itiItemPicAlt: "L'impressionnant littoral d'un village islandais",
+    itiItemPicTitle: "Merveilles de Snæfellsnes: Arnarstapi",
+    itiItemStrings: ["Arnarstapi est souvent considéré comme l'un des villages les plus pittoresques d'Islande, réputé pour son littoral sauvage unique. Depuis le port, les visiteurs peuvent admirer des vues panoramiques sur les montagnes s'étendant au-dessus de l'océan. Une promenade pittoresque mène à la statue de Bárður, le légendaire premier colon de la péninsule de Snæfellsnes.",  
+    "En chemin, de superbes formations rocheuses dessinent une côte spectaculaire, faisant d'Arnarstapi un paradis pour les photographes. En été, le village s'anime avec une faune aviaire colorée, ajoutant une touche magique à son paysage déjà époustouflant."]
     },
      {
-    itiItemTitle: "And so much more ...",
+    itiItemTitle: "Et bien plus ...",
     itiItemPicSrcMobile: "/pictures/snaefellsnes-wonders/itinerary/and-more-mobile.webp",
     itiItemPicSrcPC: "/pictures/snaefellsnes-wonders/itinerary/and-more-pc.webp",
-    itiItemPicAlt: "Stunning landscapes from the Snæfellsnes peninsula",
-    itiItemPicTitle: "Snæfellsnes wonders - Iceland in miniature",
-    itiItemStrings: ["The Snæfellsnes Peninsula is known for its diverse landscapes and breathtaking natural wonders. From majestic cliffs to serene beaches, this region has something for everyone. To enhance your experience, the next two stops on the tour are left to your guide’s expertise. He/She may choose the panoramic viewpoint over Lóndrangar, the cascading waterfall of Bjarnafoss, the ancient Saxhóll crater, or the playful seals at Ytri-Tunga.",
-    "With so many remarkable sites to explore, your guide will tailor the journey to leave you in awe of Iceland's stunning beauty."]
+    itiItemPicAlt: "Magnifiques paysages de la péninsule de Snæfellsnes",
+    itiItemPicTitle: "Merveilles de Snæfellsnes: L'Islande en miniature",
+    itiItemStrings: ["La péninsule de Snæfellsnes est réputée pour ses paysages variés et ses merveilles naturelles à couper le souffle. Des falaises majestueuses aux plages paisibles, cette région offre quelque chose pour tous les goûts. Pour enrichir votre expérience, les deux prochaines étapes de la visite sont laissées à l'expertise de votre guide. Il/Elle pourra choisir le point de vue panoramique sur Lóndrangar, la cascade de Bjarnafoss, l'ancien cratère de Saxhóll ou les phoques joueurs à Ytri-Tunga.",  
+    "Avec tant de sites remarquables à explorer, votre guide adaptera le parcours pour vous laisser en admiration devant la beauté époustouflante de l'Islande."]
     }
     ]
 
 
 # Tour infos
 
-goodToKnow: [
-  "30 minutes walk on easy, flat terrain in Arnarstapi", 
-  "Uneven down/up hill terrain in Djúpalónssandur, on very short distance",
-  "Easy viewpoint access for people with mobility issues in Djúpalónssandur",
-  "Access to sites can be difficult in winter"
+goodToKnow: [  
+  "30 minutes de marche sur un terrain plat et facile à Arnarstapi",  
+  "Terrain irrégulier en descente/montée à Djúpalónssandur, sur une très courte distance",  
+  "Accès facile au point de vue pour les personnes à mobilité réduite à Djúpalónssandur",  
+  "L'accès aux sites peut être difficile en hiver"  
 ]
 
-WhatToBring: [
-  "Weatherproof clothes", 
-  "Warm clothes in the winter", 
-  "Comfortable shoes"
+WhatToBring: [  
+  "Vêtements imperméables",  
+  "Vêtements chauds en hiver",  
+  "Chaussures confortables"  
 ]
 
-Included: [
-  "Private driver guide",
-  "Comfortable vehicle",
-  "All entrances and parking fees"
+Included: [  
+  "Guide-chauffeur privé",  
+  "Véhicule confortable",  
+  "Tous les frais d'entrée et de stationnement"  
 ]
 
-nonIncluded: [
-  "Food, drinks", 
-  "Meals, snacks", 
-  "personal expenses"
+nonIncluded: [  
+  "Nourriture, boissons",  
+  "Repas, collations",  
+  "Dépenses personnelles"  
 ]
 
 
@@ -132,71 +132,71 @@ gallery: [
 {
 srcMob: "/pictures/snaefellsnes-wonders/gallery/budakirkja-1-mobile.webp",
 srcPc: "/pictures/snaefellsnes-wonders/gallery/budakirkja-1-pc.webp",
-alt: "Black church in front of a stunning landscape with sea and mountains",
-title: "Snæfellsnes wonders: Búðakirkja"
+alt: "Église noire devant des paysages somptueux de mer et montagnes",
+title: "Merveilles de Snæfellsnes: Búðakirkja"
 },    
 {
 srcMob: "/pictures/snaefellsnes-wonders/gallery/djupalonssandur-2-mobile.webp",
 srcPc: "/pictures/snaefellsnes-wonders/gallery/djupalonssandur-2-pc.webp",
-alt: "Impressive rushing waves",
-title: "Snæfellsnes wonders: Djúpalónssandur"
+alt: "D'impressionnantes vqgues déferlantes",
+title: "Merveilles de Snæfellsnes: Djúpalónssandur"
 },    
 {
 srcMob: "/pictures/snaefellsnes-wonders/gallery/arnarstapi-1-mobile.webp",
 srcPc: "/pictures/snaefellsnes-wonders/gallery/arnarstapi-1-pc.webp",
-alt: "Lonely house in a winter landscape",
-title: "Snæfellsnes wonders: Arnarstapi"
+alt: "Maison solitaire dans un paysage hivernal",
+title: "Merveilles de Snæfellsnes: Arnarstapi"
 },  
 {
 srcMob: "/pictures/snaefellsnes-wonders/gallery/arnarstapi-2-mobile.webp",
 srcPc: "/pictures/snaefellsnes-wonders/gallery/arnarstapi-2-pc.webp",
-alt: "Peaceful village bordering mountains",
-title: "Snæfellsnes wonders: Arnarstapi"
+alt: "Village paisible au pied des montagnes",
+title: "Merveilles de Snæfellsnes: Arnarstapi"
 },  
 {
 srcMob: "/pictures/snaefellsnes-wonders/gallery/arnarstapi-3-mobile.webp",
 srcPc: "/pictures/snaefellsnes-wonders/gallery/arnarstapi-3-pc.webp",
-alt: "Stunning stone arch over the ocean",
-title: "Snæfellsnes wonders: Gatklettur"
+alt: "Magnifique arche de pierre au dessus de l'océan",
+title: "Merveilles de Snæfellsnes: Gatklettur"
 },   
 {
 srcMob: "/pictures/snaefellsnes-wonders/gallery/djupalonssandur-4-mobile.webp",
 srcPc: "/pictures/snaefellsnes-wonders/gallery/djupalonssandur-4-pc.webp",
-alt: "Black sand beach and ocean",
-title: "Snæfellsnes wonders: Djúpalónssandur"
+alt: "Plage de sable noir devant l'océan",
+title: "Merveilles de Snæfellsnes: Djúpalónssandur"
 },    
 {
 srcMob: "/pictures/snaefellsnes-wonders/gallery/kirkjufell-1-mobile.webp",
 srcPc: "/pictures/snaefellsnes-wonders/gallery/kirkjufell-1-pc.webp",
-alt: "Summit of an icelandic mountain in the winter time",
-title: "Snæfellsnes wonders: Kirkjufell"
+alt: "Sommet enneigé d'une montagne islandaise",
+title: "Merveilles de Snæfellsnes: Kirkjufell"
 },  
 {
 srcMob: "/pictures/snaefellsnes-wonders/gallery/snaefellsjokull-1-mobile.webp",
 srcPc: "/pictures/snaefellsnes-wonders/gallery/snaefellsjokull-1-pc.webp",
-alt: "Snow covered glacier at sunset",
-title: "Snæfellsnes wonders: Snæfellsjökull"
+alt: "Glacier recouvert de neige au coucher du soleil",
+title: "Merveilles de Snæfellsnes: Snæfellsjökull"
 },  
 {
 srcMob: "/pictures/snaefellsnes-wonders/gallery/londrangar-1-mobile.webp",
 srcPc: "/pictures/snaefellsnes-wonders/gallery/londrangar-1-pc.webp",
-alt: "Edge of a cliff, with abundant bird life",
-title: "Snæfellsnes wonders: Londrangar"
+alt: "Bordure de falaise avec une abondante vie avicole",
+title: "Merveilles de Snæfellsnes: Londrangar"
 },  
 {
 srcMob: "/pictures/snaefellsnes-wonders/gallery/ytri-tunga-1-mobile.webp",
 srcPc: "/pictures/snaefellsnes-wonders/gallery/ytri-tunga-1-pc.webp",
-alt: "A seal is popping his head ouot of the water",
-title: "Snæfellsnes wonders: Ytri-Tunga"
+alt: "Une tête de phoque déborde de l'eau",
+title: "Merveilles de Snæfellsnes: Ytri-Tunga"
 }]
 
 
 # Card
 
-tags: ["West Iceland","Sightseeing"]
+tags: ["Ouest Islandais","Découverte"]
 cardPicSrc: "/pictures/snaefellsnes-wonders/card/snaefellsnes-private-tour.webp"
-cardPicAlt: "Sunset over a immense natural stone arch"
-cardPicTitle: "Private tour: Snæfellsnes wonders"
+cardPicAlt: "Coucher de soleil derrière une arche de pierre"
+cardPicTitle: "Visite guidée et privée: Merveilles de Snæfellsnes"
 
 
 # Bookings Cards: Vehicles
@@ -206,8 +206,8 @@ vehicles: [
     name: "Mercedes V-Class",
     srcPC: "/pictures/cars/Mercedes-VClass.webp",
     srcMobile: "/pictures/cars/Mercedes-VClass-mobile.webp",
-    alt: "A blue mercedes van",
-    title: "Book in V-class",
+    alt: "Un van bleu mercedes",
+    title: "Réservez en V-class",
     rate: 189000,
     bookLink: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753699",
     capacity: "6"
@@ -216,8 +216,8 @@ vehicles: [
     name: "Toyota LandCruiser",
     srcPC: "/pictures/cars/Toyota-LandCruiser.webp",
     srcMobile: "/pictures/cars/Toyota-LandCruiser-mobile.webp",
-    alt: "A grey toyota superJeep",
-    title: "Book in LandCruiser",
+    alt: "Un Toyota Landcruiser gris",
+    title: "Réservez en LandCruiser",
     rate: 185000,
     bookLink: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753700",
     capacity: "4"

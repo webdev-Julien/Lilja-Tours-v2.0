@@ -51,10 +51,10 @@ itiCoverImgTitle: "Snæfellsnes itinerary"
 
 
 # Links
-linkFr: "#"
+linkFr: "/fr/excursions-en-islande/merveilles-de-la-peninsule-de-snaefellsnes.html"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753699"
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753700"
-fulllinkFr: "#"
+fulllinkFr: "https://www.lilja-tours.com//fr/excursions-en-islande/merveilles-de-la-peninsule-de-snaefellsnes.html"
 
 
 # Itinerary

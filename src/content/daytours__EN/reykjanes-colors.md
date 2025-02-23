@@ -51,10 +51,10 @@ itiCoverImgTitle: "Stampar"
 
 
 # Links
-linkFr: "#"
+linkFr: "/fr/excursions-en-islande/couleurs-peninsule-reykjanes.html"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/796567"
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/796870"
-fulllinkFr: "#"
+fulllinkFr: "https://www.lilja-tours.com//fr/excursions-en-islande/couleurs-peninsule-reykjanes.html"
 
 
 # Itinerary
@@ -195,7 +195,7 @@ title: "Colors of Reykjanes Peninsula: Stampar"
 
 tags: ["West Iceland","Sightseeing"]
 cardPicSrc: "/pictures/reykjanes-colors/card/reykjanes-colors.webp"
-cardPicAlt: "Sunset over a black sand beach"
+cardPicAlt: "Sunset over varied landscape"
 cardPicTitle: "Private tour: Colors of Reykjanes Peninsula"
 
 
