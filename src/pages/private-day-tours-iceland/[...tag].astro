@@ -30,7 +30,7 @@ const {tag} = Astro.params
 
 const taggedTours = daytours__EN.filter(tour => tour.data.tags.includes(tag))
 
-const taggy = tag.charAt(0).toUpperCase() + tag.slice(1).replaceAll("-", " ").replaceAll("iceland", "Iceland").replaceAll("vik", "vík")
+const taggy = tag.charAt(0).toUpperCase() + tag.slice(1).replaceAll("-", " ").replaceAll("iceland", "Iceland").replaceAll("vik", "vík").replaceAll("circle", "Circle").replaceAll("coast", "Coast")
 ---
 
 <!DOCTYPE html>
@@ -99,7 +99,7 @@ const taggy = tag.charAt(0).toUpperCase() + tag.slice(1).replaceAll("-", " ").re
         </div>
     </header>
 <main>
-<h2 class="listo">{"List of our "+taggy+" Tours"}</h2>
+<h2 class="listo">{"Our "+taggy+" Tours"}</h2>
 <div class="cards">
     {taggedTours.map((tour:any) => (
 

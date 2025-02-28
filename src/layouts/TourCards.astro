@@ -57,7 +57,7 @@ interface Props {
                 {
                     tour.data.tags.map((tag:any) => (
                         
-                        <button><a href={"/private-day-tours-iceland/"+tag.toLowerCase()} title={"list of"+tag}>{tag.charAt(0).toUpperCase() + tag.slice(1).replaceAll("-", " ")}</a></button>
+                        <button><a href={"/private-day-tours-iceland/"+tag.toLowerCase()} title={"list of"+tag}>{tag.charAt(0).toUpperCase() + tag.slice(1).replaceAll("-", " ").replaceAll("circle", "Circle").replaceAll("coast", "Coast")}</a></button>
                     ))
                 }
             </div>
