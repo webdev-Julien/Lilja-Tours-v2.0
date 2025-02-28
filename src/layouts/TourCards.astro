@@ -56,7 +56,8 @@ interface Props {
             <div class="tags">
                 {
                     tour.data.tags.map((tag:any) => (
-                        <button>{tag}</button>
+                        
+                        <a href={"/private-day-tours-iceland/"+tag.replaceAll(" ", "-").toLowerCase()+".html"} title={"list of"+tag}><button>{tag}</button></a>
                     ))
                 }
             </div>

@@ -1,0 +1,28 @@
+---
+import "../../styles/style.css"
+
+import TourpageEN from "../../layouts/Tourpage__EN.astro";
+
+import { getCollection } from "astro:content";
+import type { CollectionEntry } from "astro:content";
+
+export async function getStaticPaths() {
+    const daytours__EN: CollectionEntry<"daytours__EN">[] = await getCollection("daytours__EN")
+
+
+
+    return daytours__EN.map(entry => ({
+
+
+        params: {
+            tag: entry.data.tags[0].replaceAll(" ", "-").toLowerCase()
+        },
+
+
+
+        props: {entry}
+    }))
+}
+
+const { entry } = Astro.props
+---
