@@ -1,28 +1,207 @@
 ---
 import "../../styles/style.css"
 
-import TourpageEN from "../../layouts/Tourpage__EN.astro";
 
 import { getCollection } from "astro:content";
 import type { CollectionEntry } from "astro:content";
+import TopBar from "../../components/TopBar__EN.astro";
+import TourCards from "../../layouts/TourCards.astro";
+import PicHeader from "../../components/Pics/PicHeader.astro";
+import FooterEN from "../../components/footer__EN.astro";
+import TagBarEN from "../../components/tags/TagBar__EN.astro";
+
 
 export async function getStaticPaths() {
     const daytours__EN: CollectionEntry<"daytours__EN">[] = await getCollection("daytours__EN")
-
-
-
-    return daytours__EN.map(entry => ({
-
-
+    const allTags = [...new Set(daytours__EN.flatMap(entry => entry.data.tags.map(tag => tag.replaceAll("í", "i"))))];
+    return allTags.map(taggy => ({
         params: {
-            tag: entry.data.tags[0].replaceAll(" ", "-").toLowerCase()
-        },
-
-
-
-        props: {entry}
+            tag: taggy
+        }
     }))
 }
 
+const daytours__EN: CollectionEntry<"daytours__EN">[] = await getCollection("daytours__EN")
+
+
+
 const { entry } = Astro.props
+const {tag} = Astro.params
+
+const taggedTours = daytours__EN.filter(tour => tour.data.tags.includes(tag))
+
+const taggy = tag.charAt(0).toUpperCase() + tag.slice(1).replaceAll("-", " ").replaceAll("iceland", "Iceland").replaceAll("vik", "vík")
 ---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content={"All of our "+taggy.replaceAll("-", " ")+" private day tours. Book it Now!"}
+        />
+
+       <link rel="alternate" hreflang="fr" href={
+        "https://www.lilja-tours.com/fr/excursions-en-islande/"+tag
+        .replaceAll("golden-circle", "cercle-d-or")
+            .replaceAll("south-coast","cote-sud")
+            .replaceAll("highlands","hautes-terres")
+            .replaceAll("west-iceland","ouest-islandais")
+            .replaceAll("sightseeing","decouverte")
+            .replaceAll("adventure", "aventure")
+            .replaceAll("hiking","randonnee")
+            .replaceAll("jeep-only","4x4")
+        }/>
+       <link rel="canonical" href="https://www.lilja-tours.com/all-day-tours" />
+
+        <meta property="og:title" content={taggy+"Private Tours"}>
+        <meta property="og:type" content="website">
+        <meta property="og:image" content={"/pictures/list-all-tours/day-tours-tags/"+tag+"-pc.webp"}>
+        <meta property="og:url" content={"https://www.lilja-tours.com/private-day-tours-iceland/"+tag}>
+        <meta property="og:description" content={"All of our "+taggy.replaceAll("-", " ")+" private day tours. Book it Now!"}>
+
+        <meta property="og:locale" content="en_US">
+        <meta property="og:locale:alternate" content="fr_FR">
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="630">
+        <meta property="og:logo" content="/logos/Lilja-Tours-Full-Logo.png" />
+
+        <title>{taggy+" Tours | Private day tours in Iceland | Llija Tours"}</title>
+
+    </head>
+</head>
+<body>
+
+    <header class="header">
+        <TopBar linkfr={
+            "/fr/excursions-en-islande/"+tag
+            .replaceAll("golden-circle", "cercle-d-or")
+            .replaceAll("south-coast","cote-sud")
+            .replaceAll("highlands","hautes-terres")
+            .replaceAll("west-iceland","ouest-islandais")
+            .replaceAll("sightseeing","decouverte")
+            .replaceAll("adventure", "aventure")
+            .replaceAll("hiking","randonnee")
+            .replaceAll("jeep-only","4x4")
+            }></TopBar>
+        <div class="headerContainerPic">
+            <PicHeader srcMobile={"/pictures/list-all-tours/day-tours-tags/"+tag+"-mobile.webp"} srcPC={"/pictures/list-all-tours/day-tours-tags/"+tag+"-pc.webp"} alt="Beautiful picture of Icelandic Landscape" title="All of our day tours in Iceland"></PicHeader></div>
+            <div class="headerGradient"></div>
+            <div class="headerInfos">
+                <h1>{"Discover our "+taggy+" Private Tours"} </h1>
+                <h2>Or select another category :</h2>
+               <TagBarEN></TagBarEN>
+                
+            </div>
+        </div>
+    </header>
+<main>
+<h2 class="listo">{"List of our "+taggy+" Tours"}</h2>
+<div class="cards">
+    {taggedTours.map((tour:any) => (
+
+        <TourCards
+tour = {tour}
+>
+
+</TourCards>
+))}</div>
+
+
+</main>
+<FooterEN></FooterEN>
+</body>
+</html>
+
+<style>
+
+    main {
+        padding: 5rem;
+    }
+    .cards {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+
+
+  .header {
+            min-height: 100dvh;
+            width: 100%;
+        }
+
+        .headerContainerPic {
+            width: 100%;
+            min-height: calc(100dvh - 3.5rem);
+            max-height: calc(100dvh - 3.5rem);
+            position: relative;
+        }
+
+        .headerGradient {
+            width: 100%;
+            min-height: calc(100dvh - 3.5rem);
+            max-height: calc(100dvh - 3.5rem);
+            position: absolute;
+            top: 3.5rem;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(255, 255, 255, 0.00) 99.06%);
+        }
+
+        .headerInfos {
+            position: absolute;
+            inset: 3.5rem 0 0 0;
+            display: flex;
+            height:  calc(100dvh - 3.5rem);
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            gap: 5rem;
+
+        }
+
+        h1 {
+        color: #FFF;
+        text-align: center;
+        font-size: clamp(2rem, calc(5vw + 1rem), 4rem );
+        font-weight: lighter;
+        min-width: min-content;
+        max-width: max-content;
+        text-wrap: balance;
+        animation-name: Title;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+    }
+
+    h2 {
+        color: #FFF;
+        text-align: center;
+        font-size: clamp(1.5rem, calc(5vw + 1rem), 2.5rem );
+        font-weight: lighter;
+        min-width: min-content;
+        max-width: max-content;
+        text-wrap: balance;
+        animation-name: Title;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+        font-style: italic;
+    }
+
+.listo {
+    padding-left: 2rem;
+
+}
+
+@keyframes Title {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+</style>

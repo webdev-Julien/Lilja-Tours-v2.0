@@ -47,7 +47,7 @@ interface Props {
 
     </div>
     <div class="textInfos">
-        <a href={"/private-day-tours-iceland/"+tour.slug}><h2>{tour.data.tourTitle}</h2>
+        <a href={"/private-day-tours-iceland/"+tour.slug}><h3>{tour.data.tourTitle}</h3>
             <div class="rates">
                 <p class="startingFrom">Starting from:</p>
                 <p class="rateISK">{tour.data.jeepISK} ISK <span class="vehicle">/vehicle</span></p>
@@ -57,7 +57,7 @@ interface Props {
                 {
                     tour.data.tags.map((tag:any) => (
                         
-                        <a href={"/private-day-tours-iceland/"+tag.replaceAll(" ", "-").toLowerCase()+".html"} title={"list of"+tag}><button>{tag}</button></a>
+                        <button><a href={"/private-day-tours-iceland/"+tag.toLowerCase()} title={"list of"+tag}>{tag.charAt(0).toUpperCase() + tag.slice(1).replaceAll("-", " ")}</a></button>
                     ))
                 }
             </div>
@@ -79,7 +79,7 @@ interface Props {
             padding: .2rem .75rem;
             border-radius: 9999px;
             border: none;
-            background-color: rgba(91, 114, 151, 0.3);;
+            background-color: rgba(91, 114, 151, 0.3);
             font-size: 1rem;
             color: white;
             cursor: pointer;
@@ -94,7 +94,7 @@ interface Props {
         }
 
         button:first-child {
-            background-color: #5B7297;
+            background-color: rgb(91, 114, 151);
         }
 
         button:first-child:hover, button:first-child:focus {
@@ -120,6 +120,7 @@ interface Props {
 
     a {
         text-decoration: none;
+        color: white;
     }
 
     article {
@@ -199,7 +200,7 @@ interface Props {
         flex-wrap: wrap;
     }
 
-    h2 {
+    h3 {
         color: white;
         text-decoration: underline;
         font-weight: lighter;

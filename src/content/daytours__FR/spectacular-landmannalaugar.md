@@ -183,7 +183,7 @@ title: "Spectaculaire Landmannalaugar: Sigöldugljúfur"
 
 # Card
 
-tags: ["Hautes Terres", "Randonnée", "4x4"]
+tags: ["hautes-terres", "randonnee", "4x4"]
 cardPicSrc: "/pictures/landmannalaugar-heat/card/landmannalaugar.webp"
 cardPicAlt: "Clair obscur sur une vallée colorée"
 cardPicTitle: "Excursion randonnée privée et guidée: Spectaculaire Landmannalaugar"

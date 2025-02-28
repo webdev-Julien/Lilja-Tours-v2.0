@@ -184,7 +184,7 @@ title: "Spectacular Landmannalaugar: Sigöldugljúfur"
 
 # Card
 
-tags: ["Highlands", "Hiking", "Jeep Only"]
+tags: ["highlands", "hiking", "jeep-only"]
 cardPicSrc: "/pictures/landmannalaugar-heat/card/landmannalaugar.webp"
 cardPicAlt: "Sunlight and shadow over a colorful valley"
 cardPicTitle: "Private hiking tour: Spectacular Landmannalaugar"

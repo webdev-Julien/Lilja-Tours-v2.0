@@ -200,7 +200,7 @@ title: "Hauts lieux de la côte sud islandaise: Sólheimajökull"
 
 # Card
 
-tags: ["Côte Sud","Découverte"]
+tags: ["cote-sud","decouverte"]
 cardPicSrc: "/pictures/south-coast-highlights/card/south-coast-highlights.webp"
 cardPicAlt: "Coucher de soleil sur une plage de sable noir"
 cardPicTitle: "Visite privée et guidée: Hauts lieux de la côte sud islandaise"

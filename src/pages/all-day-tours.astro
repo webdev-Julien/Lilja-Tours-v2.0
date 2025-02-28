@@ -8,6 +8,7 @@ import TopBar from "../components/TopBar__EN.astro";
 
 import PicHeader from "../components/Pics/PicHeader.astro";
 import FooterEN from "../components/footer__EN.astro";
+import TagBarEN from "../components/tags/TagBar__EN.astro";
 
 const allTours: CollectionEntry<"daytours__EN">[] = await getCollection("daytours__EN")
 
@@ -51,21 +52,9 @@ const {linkFr} = Astro.props
             <div class="headerInfos">
                 <h1>Exclusive Private Day Tours in Iceland</h1>
                 <h2>Explore Iceland in style with our Luxury Tours</h2>
-                <div class="tags">
+              
+                <TagBarEN></TagBarEN>
 
-                            <button class="tagButtR">Golden Circle</button>
-                            <button class="tagButtR">South Coast</button>
-                            <button class="tagButtR">Highlands</button>
-                            <button class="tagButtR">West Iceland</button>
-                            <button class="tagButtR">Reykjavík</button>
-
-                            <button class="tagButtT">Sightseeing</button>
-                            <button class="tagButtT">Adventure</button>
-                            <button class="tagButtT">Hiking</button>
-                            <button class="tagButtT">Jeep only</button>
-
-
-                </div>
                 
             </div>
         </div>
@@ -90,43 +79,7 @@ tour = {tour}
 
 <style>
 
-    .tags {
-        display: flex;
-        flex-wrap: wrap;
-        width: 75%;
-        justify-content: center;
-        align-items: center;
-        gap: 1rem;
-    }
-
-    .tagButtR {
-        padding: .2rem .75rem;
-            border-radius: 9999px;
-            border: none;
-            font-size: 1rem;
-            color: white;
-            cursor: pointer;
-            transition: .3s;
-            background-color: #5B7297;
-    }
-
-
-
-        .tagButtT {
-            padding: .2rem .75rem;
-            border-radius: 9999px;
-            border: none;
-            background-color: #292929;
-            font-size: 1rem;
-            color: white;
-            cursor: pointer;
-            transition: .3s;
-        }
-        .tagButtR:hover, .tagButtR:focus,   .tagButtT:hover, .tagButtT:focus {
-            filter: brightness(140%);
-            translate: 0 -.25rem;
-            transition: .3s;
-        }
+   
 
 main {
     display: flex;

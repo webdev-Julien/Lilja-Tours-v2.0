@@ -56,7 +56,7 @@ interface Props {
             <div class="tags">
                 {
                     tour.data.tags.map((tag:any) => (
-                        <button>{tag}</button>
+                    <button><a href={"/fr/excursions-en-islande/"+tag.toLowerCase()} title={"list of "+tag}>{tag.charAt(0).toUpperCase() + tag.slice(1).replaceAll("d-or", "d'or").replaceAll("ote", "ôte").replaceAll("island", "Island").replaceAll("ecou", "écou").replaceAll("onnee", "onnée").replaceAll("-", " ").replaceAll("vik", "vík")}</a></button>
                     ))
                 }
             </div>
@@ -102,7 +102,9 @@ interface Props {
         }
     }
 
-
+    a {
+        color: white;
+    }
 
     .tourInfos {
         display: grid;

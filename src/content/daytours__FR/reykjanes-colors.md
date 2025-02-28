@@ -192,7 +192,7 @@ title: "Couleurs de la péninsule de Reykjanes: Stampar"
 
 # Card
 
-tags: ["Ouest Islandais","Découverte"]
+tags: ["ouest-islandais","decouverte"]
 cardPicSrc: "/pictures/reykjanes-colors/card/reykjanes-colors.webp"
 cardPicAlt: "Coucher de soleil au dessus de magnifiques paysages"
 cardPicTitle: "Visite privée et guidée: Couleurs de la péninsule de Reykjanes"

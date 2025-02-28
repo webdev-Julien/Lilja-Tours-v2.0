@@ -193,7 +193,7 @@ title: "Merveilles de Snæfellsnes: Ytri-Tunga"
 
 # Card
 
-tags: ["Ouest Islandais","Découverte"]
+tags: ["ouest-islandais","decouverte"]
 cardPicSrc: "/pictures/snaefellsnes-wonders/card/snaefellsnes-private-tour.webp"
 cardPicAlt: "Coucher de soleil derrière une arche de pierre"
 cardPicTitle: "Visite guidée et privée: Merveilles de Snæfellsnes"

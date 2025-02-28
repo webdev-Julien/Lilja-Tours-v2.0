@@ -201,7 +201,7 @@ title: "South Coast Highlights: Sólheimajökull"
 
 # Card
 
-tags: ["South Coast","Sightseeing"]
+tags: ["south-coast","sightseeing"]
 cardPicSrc: "/pictures/south-coast-highlights/card/south-coast-highlights.webp"
 cardPicAlt: "Sunset over a black sand beach"
 cardPicTitle: "Private tour: South Coast Highlights"
