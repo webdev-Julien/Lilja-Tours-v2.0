@@ -1,0 +1,107 @@
+---
+import { Image } from "astro:assets";
+import CardBookVClass from "../buttons/carCardBookButton/CardBookVClass__EN.astro";
+import {ISK_to_USD_Rate, ISK_to_EUR_Rate} from "../../constants"
+
+import groupSize from "../../assets/icons/group-size-white.svg"
+
+const {vehicName, srcPC, srcMobile, vehicAlt, vehicTitle, capacity, rate, bookLink, buttonText} = Astro.props
+---
+
+<article>
+    <div class="pic">
+
+        <picture>
+            <source media="(max-width:1000px)" srcset={srcMobile} width="600" height="338">
+            <img src={srcPC} alt={vehicAlt} title={vehicTitle} class="carPic" width="960" height="540" loading="lazy">
+        </picture>
+
+
+    </div>
+
+    <div class="textAndButton">
+
+        <div class="text">
+            <h3>{vehicName}</h3>
+
+                <div class="tourInfo">
+                        <Image src={groupSize} alt="calendar icon" title="seasonality" width="15" height="15" class="infoIcon" loading="lazy"></Image>
+                        <p class="info">: {capacity} maximum</p>
+                </div>
+
+            <p class="rate"><span class="price">{rate} ISK</span><span class="perVehicle">/ par véhicule</span></p>
+            <p class="otherCurrencies"><em>Env. {Math.floor(rate / ISK_to_USD_Rate)} $ ou {Math.floor(rate / ISK_to_EUR_Rate)} € </em></p>
+        </div>
+        
+        <CardBookVClass bookLinkMercedes={bookLink} buttonText={buttonText}></CardBookVClass>
+
+    </div>
+</article>
+
+<style>
+
+p {
+    margin: 0;
+}
+    article {
+        background-color: #292929;
+        width: clamp(18.75rem, 30vw, 31.25rem);
+        filter: drop-shadow(0 0 0.75rem #000000);
+    }
+
+    .carPic {
+        min-width: 100%;
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+        .tourInfo {
+        display: flex;
+        justify-content: space-between;
+        width: max-content;
+        align-items: center;
+        margin-bottom: .75rem;
+    }
+
+    h3 {
+        font-weight: bold;
+        font-size: 1rem;
+        color: white;
+    }
+
+    .textAndButton {
+        width: 85%;
+        margin-inline: auto;
+        padding-block: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .info::before {
+        content: " ";
+        white-space: pre;
+    }
+
+    .info {
+        font-size: 1rem;
+    }
+
+    .price {
+        font-size: 1.25rem;
+        color: #A2B9E1;
+        font-weight: bold;
+    }
+
+    .perVehicle {
+        font-size: .75rem;
+    }
+
+    .otherCurrencies {
+        font-size: .75rem;
+    }
+
+
+</style>
+

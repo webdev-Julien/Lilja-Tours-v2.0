@@ -1,0 +1,96 @@
+---
+const {bookLinkMercedes, buttonText} = Astro.props;
+
+---
+
+<a href={bookLinkMercedes} title={"Réserver l'excursion en "+buttonText}><button>
+    <p class="book">Réserver</p>
+    <p class="car">{buttonText}</p>
+</button></a>
+
+<style>
+    a {
+        text-decoration: none;
+    }
+
+    button {
+        width: 15rem;
+        height: 5rem;
+        flex-shrink: 0;
+        border-radius: 1rem;
+
+        backdrop-filter: blur(7.5px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        cursor: pointer;
+
+
+        background: rgba(255, 255, 255, 0.50);
+        border: 2px solid rgba(0, 0, 0, 0.30);
+        transition: .5s;
+
+            .book {
+            color: rgba(0, 0, 0, 0.50);
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+            width: 100%;
+            margin: 0;
+
+
+            }
+            
+            .car {
+            color: black;
+            font-size: 1.25rem;
+            text-align: center;
+            width: 100%;
+            margin: 0;
+
+            }
+    }
+
+    button:hover, button:focus {
+        border: 2px solid hsla(0, 0%, 100%, 0.5);
+        background: rgba(0, 0, 0, 0.30);
+        transition: .5s;
+
+        .book {
+        color: white;
+        }
+
+        .car {
+        color: white;
+        }
+
+    }
+
+    
+    @media only screen and (max-height: 800px) {
+        button {
+            width: 10rem;
+            height: 3.33rem;
+
+            .book {
+            color: rgba(0, 0, 0, 0.50);
+            text-align: center;
+            font-size: 1rem;
+            font-weight: bold;
+            width: 100%;
+            margin: 0;
+
+            }
+            
+            .car {
+            color: rgba(0, 0, 0, 0.50);
+            font-size: .8rem;
+            text-align: center;
+            width: 100%;
+            margin: 0;
+            }
+
+        }
+    }
+</style>

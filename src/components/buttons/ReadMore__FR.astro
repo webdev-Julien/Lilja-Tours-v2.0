@@ -1,0 +1,68 @@
+
+
+<a href="#itin" title="Découvrez l'itinéraire"><button>
+    <p class="book">Explorez l'itinéraire</p>
+</button></a>
+
+<style>
+    a {
+        text-decoration: none;
+    }
+
+    button {
+        width: 15rem;
+        height: 5rem;
+        flex-shrink: 0;
+        border-radius: 1rem;
+        border: 2px solid hsla(0, 0%, 100%, 0.5);
+        background: rgba(0, 0, 0, 0.30);
+        backdrop-filter: blur(7.5px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        cursor: pointer;
+        transition: .5s;
+
+    }
+
+    .book {
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: lighter;
+        width: 100%;
+        margin: 0;
+    }
+
+
+    button:hover, button:focus {
+        background: rgba(255, 255, 255, 0.50);
+        border: 2px solid rgba(0, 0, 0, 0.30);
+        transition: .5s;
+
+        .book {
+        color: rgba(0, 0, 0, 0.50);
+        }
+
+    }
+
+    
+    @media only screen and (max-height: 800px) {
+        button {
+            width: 10rem;
+            height: 3.33rem;
+
+            .book {
+            text-align: center;
+            font-size: 1rem;
+            font-weight: lighter;
+            width: 100%;
+            margin: 0;
+
+            }
+            
+
+        }
+    }
+</style>
