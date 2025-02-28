@@ -1,0 +1,50 @@
+---
+const {home, cateLink} = Astro.props
+---
+<nav>
+    <ul>
+        <li><a href={cateLink} title="Back to main category">{home}</a></li>
+        <slot></slot>
+    </ul>
+</nav>
+
+<style>
+nav {
+    height: 3rem;
+    padding: .6rem 0 .5rem 4rem;
+    width: 100%;
+    background-color: rgba(41, 41, 41, 0.75);
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+
+    ul {
+        list-style-type: none;
+        list-style-position: inside;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 1rem
+    }
+
+    li {
+        color: white;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+        nav {
+            padding: .6rem 0 .5rem 1rem;
+            ul {
+                gap: .5rem
+            }
+        }
+
+    }
+</style>

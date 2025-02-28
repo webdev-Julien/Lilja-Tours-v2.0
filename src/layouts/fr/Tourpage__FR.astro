@@ -16,6 +16,7 @@ import BookVClassEN from "../../components/buttons/BookVClass__FR.astro"
 
 import ReadMore from "../../components/buttons/ReadMore__FR.astro"
 
+import TagNavEN from "../../components/tags/TagNav__EN.astro"
 
 const {
     language, 
@@ -49,7 +50,8 @@ const {
     gallery,
     vehicles,
     form,
-    fulllinkFr
+    fulllinkFr,
+    taggies
 } = Astro.props
 
 ---
@@ -115,6 +117,20 @@ const {
         </header>
 
         <main>
+
+            <TagNavEN cateLink="/all-day-tours" home="DAY TOURS > ">
+                <div class="tags">
+                    {
+                        taggies.map((tag:any) => (
+                            
+                            <li><button class="tagButton"><a href={"/excursions-en-islande/"+tag.toLowerCase()} title={"liste des excursions : "+tag}>{tag.charAt(0).toUpperCase() + tag.slice(1).replaceAll("-", " ")}</a></button></li>
+                        ))
+                    }
+                </div>
+            </TagNavEN>
+
+
+
             <ItiSection
             itiCoverImgSrcMobile={itiCoverImgSrcMobile}
             itiCoverImgSrcPC={itiCoverImgSrcPC}
@@ -175,6 +191,48 @@ const {
     </body>
 
     <style>
+
+        
+main {
+            position: relative;
+        }
+
+.tags {
+        display: flex;
+        flex-wrap: wrap;
+
+        align-items: center;
+        justify-content: flex-start;
+        gap: 1rem;
+
+        .tagButton {
+            padding: .2rem .75rem;
+            border-radius: 9999px;
+            border: none;
+            background-color: rgba(91, 114, 151, 0.3);
+            font-size: 1rem;
+            color: white;
+            cursor: pointer;
+            transition: .3s;
+        }
+
+        .tagButton:hover, .tagButton:focus {
+            filter: brightness(140%);
+            translate: 0 -.25rem;
+            transition: .3s;
+
+        }
+
+         li:first-child .tagButton {
+            background-color: rgb(91, 114, 151);
+        }
+
+        .tagButton:first-child:hover, .tagButton:first-child:focus {
+            filter: brightness(120%);
+            transition: .3s;
+        }
+    }
+
 
         .formA {
         text-decoration: none;

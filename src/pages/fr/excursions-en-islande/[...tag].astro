@@ -30,7 +30,7 @@ const {tag} = Astro.params
 
 const taggedTours = daytours__FR.filter(tour => tour.data.tags.includes(tag))
 
-const taggy = tag.charAt(0).toUpperCase() + tag.slice(1).replaceAll("d-or", "d'or").replaceAll("cote", "Côte").replaceAll("island", "Island").replaceAll("decou", "Décou").replaceAll("onnee", "onnée").replaceAll("-", " ").replaceAll("iceland", "Iceland").replaceAll("vik", "vík")
+const taggy = tag.charAt(0).toUpperCase() + tag.slice(1).replaceAll("d-or", "d'or").replaceAll("ote", "ôte").replaceAll("island", "Island").replaceAll("ecou", "écou").replaceAll("onnee", "onnée").replaceAll("-", " ").replaceAll("iceland", "Iceland").replaceAll("vik", "vík")
 ---
 
 <!DOCTYPE html>
@@ -202,6 +202,11 @@ tour = {tour}
 @keyframes Title {
     from {opacity: 0}
     to {opacity: 1}
+}
+
+@media  screen and (max-width:800px) {
+    main{padding-inline: 1rem}
+    
 }
 
 </style>
