@@ -3,7 +3,7 @@ const {home, cateLink} = Astro.props
 ---
 <nav>
     <ul>
-        <li><a href={cateLink} title="Back to main category">{home}</a></li>
+        <li><a href={cateLink} title="Back to main category" class="homeLink">{home}</a> &gt; </li>
         <slot></slot>
     </ul>
 </nav>
@@ -35,12 +35,22 @@ nav {
     a {
         text-decoration: none;
         color: white;
+        text-underline-offset: 0;
+        transition: .3s;
+
+    }
+
+    .homeLink:hover {
+        text-decoration: underline;
+        text-underline-offset: .25rem;
+        transition: .3s;
     }
 }
 
 @media only screen and (max-width: 800px) {
         nav {
             padding: .6rem 0 .5rem 1rem;
+            height: fit-content;
             ul {
                 gap: .5rem
             }

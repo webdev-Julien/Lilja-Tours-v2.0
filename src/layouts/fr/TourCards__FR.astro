@@ -47,7 +47,7 @@ interface Props {
 
     </div>
     <div class="textInfos">
-        <a href={"/fr/excursions-en-islande/"+tour.slug}><h2>{tour.data.tourTitle}</h2>
+        <a href={"/fr/excursions-en-islande/"+tour.slug} title="voir la page" class="tourLink"><h2>{tour.data.tourTitle}</h2>
             <div class="rates">
                 <p class="startingFrom">A partir de:</p>
                 <p class="rateISK">{tour.data.jeepISK} ISK <span class="vehicle">/véhicule</span></p>
@@ -64,6 +64,16 @@ interface Props {
 </article>
 
 <style>
+
+    .tourLink:hover {
+        scale: 1.025;
+        translate: .3rem 0;
+        transition: .3s;
+    }
+
+    .tourLink {
+        transition: .3s;
+    }
 
     .tags {
         display: flex;

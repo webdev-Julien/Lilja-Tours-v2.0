@@ -118,12 +118,12 @@ const {
 
         <main>
 
-            <TagNavEN cateLink="/all-day-tours" home="DAY TOURS > ">
+            <TagNavEN cateLink="/fr/toutes-nos-excursions" home="EXCURSIONS">
                 <div class="tags">
                     {
                         taggies.map((tag:any) => (
                             
-                            <li><button class="tagButton"><a href={"/excursions-en-islande/"+tag.toLowerCase()} title={"liste des excursions : "+tag}>{tag.charAt(0).toUpperCase() + tag.slice(1).replaceAll("-", " ")}</a></button></li>
+                            <li><button class="tagButton"><a href={"/excursions-en-islande/"+tag.toLowerCase()} title={"liste des excursions : "+tag}>{tag.charAt(0).toUpperCase() + tag.slice(1).replaceAll("d-or", "d'or").replaceAll("ote", "ôte").replaceAll("island", "Island").replaceAll("ecou", "écou").replaceAll("onnee", "onnée").replaceAll("-", " ")}</a></button></li>
                         ))
                     }
                 </div>
