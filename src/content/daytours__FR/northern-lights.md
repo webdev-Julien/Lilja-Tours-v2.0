@@ -8,7 +8,7 @@ jeepISK: 173000
 pageTitle: "Sorties aurores boréales en Islande | Excursion d'exception | Lilja Tours"
 description: "Vivez une excursion privée en Islande pour voir les aurores boréales. Éloignez-vous des lumières, chassez l'Aurore et admirez un ciel étoilé dans l'obscurité pure."
 ogTitle: "Sortie privée: Excursion aurores boréales"
-ogImage: "/pictures/south-coast-highlights/card/northern-lights.webp"
+ogImage: "/pictures/northern-lights/card/northern-lights.webp"
 language: "fr"
 
 

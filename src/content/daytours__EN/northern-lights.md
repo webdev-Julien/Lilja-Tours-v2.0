@@ -8,7 +8,7 @@ jeepISK: 173000
 pageTitle: "Northern Lights Tour Iceland | Luxury private tour | Lilja Tours"
 description: "Experience a private Northern Lights tour in Iceland. Escape city lights, chase the Aurora Borealis, and marvel at a starlit sky in pristine darkness."
 ogTitle: "Private tour: Northern Lights Hunting in Iceland"
-ogImage: "/pictures/south-coast-highlights/card/northern-lights.webp"
+ogImage: "/pictures/northern-lights/card/northern-lights.webp"
 language: "en"
 
 
