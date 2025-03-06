@@ -3,6 +3,11 @@ import { defineCollection, z } from "astro:content";
 const daytours__EN = defineCollection({
   type: "content",
   schema: z.object({
+    // Filter
+    filter: z.string().optional(),
+    plus: z.string().optional(),
+
+
     // Rates
     vanISK: z.number(),
     jeepISK: z.number(),
@@ -107,6 +112,10 @@ const daytours__EN = defineCollection({
 const daytours__FR = defineCollection({
   type: "content",
   schema: z.object({
+    // Filter
+    filter: z.string().optional(),
+    plus: z.string().optional(),
+
     // Rates
     vanISK: z.number(),
     jeepISK: z.number(),
