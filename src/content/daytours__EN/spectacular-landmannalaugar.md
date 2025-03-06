@@ -147,7 +147,7 @@ title: "Spectacular Landmannalaugar: Ljótipollur"
 {
 srcMob: "/pictures/landmannalaugar-heat/gallery/landmannalaugar-5-mobile.webp",
 srcPc: "/pictures/landmannalaugar-heat/gallery/landmannalaugar-5-pc.webp",
-alt: "EErie landscpae of lake and dark mountains",
+alt: "Eerie landscpae of lake and dark mountains",
 title: "Spectacular Landmannalaugar: Landmannalaugar"
 },   
 {

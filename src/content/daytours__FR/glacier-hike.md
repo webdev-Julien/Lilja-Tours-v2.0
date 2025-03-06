@@ -168,7 +168,7 @@ title: "Randonnée sur glacier Sólheimajökull"
 
 # Card
 
-tags: ["cote-sud","randonnee"]
+tags: ["cote-sud","randonnee", "aventure"]
 cardPicSrc: "/pictures/glacier-hike/card/glacier-hike.webp"
 cardPicAlt: "Glacier et plage de sable noir"
 cardPicTitle: "Excursion privée: Randonnée sur glacier"
