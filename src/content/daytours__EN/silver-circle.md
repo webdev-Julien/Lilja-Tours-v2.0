@@ -178,7 +178,7 @@ title: "Borgarfjörður and Silver Circle: Viðgelmir"
 srcMob: "/pictures/silver-circle/gallery/borgaf-7-mobile.webp",
 srcPc: "/pictures/silver-circle/gallery/borgaf-7-pc.webp",
 alt: "Hot springs by a fjord and people taking a dip",
-title: "Borgarfjörður and Silver Circle: Viðgelmir"
+title: "Borgarfjörður and Silver Circle: Hvammsvík"
 },  
 {
 srcMob: "/pictures/silver-circle/gallery/borgaf-8-mobile.webp",

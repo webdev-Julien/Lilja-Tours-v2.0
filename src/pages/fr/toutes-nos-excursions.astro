@@ -50,7 +50,7 @@ const {linkFr} = Astro.props
             <div class="headerGradient"></div>
             <div class="headerInfos">
                 <h1>Excursions exclusives en Islande avec guide privé</h1>
-                <h2>Explorez l'Islande avec style et confort avec nos excursions d'exception</h2>
+                <h2>Explorez l'Islande avec style et confort grâce à nos excursions d'exception</h2>
                 <div class="tags">
 
                             <button class="tagButtR">Cercle d'or</button>
@@ -70,17 +70,40 @@ const {linkFr} = Astro.props
             </div>
         </div>
     </header>
-<main>
-    {allTours.map((tour:any) => (
-
+    <main> 
+        <div class="firstText">
+           <h2>Excursions Privées à la Journée – Des Expériences Exclusives Rien Que pour Vous</h2>
+           <p>Découvrez notre sélection d’excursions privées au départ de Reykjavík. Ces aventures prêtes à réserver sont disponibles toute l’année et vous offrent une expérience personnalisée avec votre propre véhicule et guide. Le tarif affiché correspond au prix total du véhicule, garantissant un voyage pratique et économique pour votre groupe.</p>
+        </div>
+    
+        <div class="wrapper">
+    
+        {allTours.filter((baba:any) => baba.data.filter===undefined).map((tour) => (
+    
+            <TourCards
+    tour = {tour}
+    >
+    
+    </TourCards>
+    ))}
+    </div>
+    <div class="firstText">
+        <h2>Excursions Privées à la Journée avec Activités Incluses:</h2>
+        <p><p>Enrichissez votre aventure islandaise avec nos excursions privées incluant des activités uniques opérées par des prestataires de confiance. Ces circuits allient le confort d’un transport privé à des expériences inoubliables telles que des randonnées sur glacier, des sorties en motoneige ou des bains géothermiques. Le prix de base couvre le véhicule, tandis qu’un supplément par personne s’applique pour l’activité choisie lors de la réservation.</p></p>
+    </div>
+    
+    <div class="wrapper">
+    
+    {allTours.filter((baba:any) => baba.data.filter==="extra").map((tour) => (
+    
         <TourCards
-tour = {tour}
->
-
-</TourCards>
-))}
-
-</main>
+    tour = {tour}
+    >
+    
+    </TourCards>
+    ))}
+    </div>
+    </main>
 
 <FooterEN></FooterEN>
 </body>
@@ -128,9 +151,43 @@ tour = {tour}
             transition: .3s;
         }
 
-main {
+
+        .firstText {
+        width: calc(100% - 4rem);
+        margin: 2rem auto;
+        padding: 2rem;
+        background-color: rgba(255, 255, 255, 0.25);
+        border-radius: 1rem;
+
+        p {
+            width: 100%;
+        }
+    }
+
+    main h2 {
+        margin-bottom: 3rem;
+        width: 100%;
+        text-align: center;
+        margin-inline: auto;
+        font-style: normal;
+        font-size: clamp(1.5rem, calc(5vw + 1rem), 2.5rem );
+    }
+
+    h2:not(:first-child) {
+        margin-block: 5rem;
+    }
+
+   main {
+    width: 90%;
+    margin-inline: auto;
+    padding: 5rem 0;
+   }
+
+.wrapper {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
 
 }
   .header {
@@ -200,6 +257,22 @@ main {
 @keyframes Title {
     from {opacity: 0}
     to {opacity: 1}
+}
+
+@media screen and (max-width: 800px) {
+    main h2 {
+        font-size: clamp(1rem, calc(1vw + 1rem), 2rem );
+    }
+
+    main p {
+        font-size: 1rem;
+    }
+
+    main {
+        padding-block: 2rem;
+    }
+
+
 }
 
 </style>

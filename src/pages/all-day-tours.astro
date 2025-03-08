@@ -9,6 +9,7 @@ import TopBar from "../components/TopBar__EN.astro";
 import PicHeader from "../components/Pics/PicHeader.astro";
 import FooterEN from "../components/footer__EN.astro";
 import TagBarEN from "../components/tags/TagBar__EN.astro";
+import { undefined } from "astro:schema";
 
 const allTours: CollectionEntry<"daytours__EN">[] = await getCollection("daytours__EN")
 
@@ -59,12 +60,32 @@ const allTours: CollectionEntry<"daytours__EN">[] = await getCollection("daytour
         </div>
     </header>
 <main> 
-       <h2>List of our private tours</h2>
+    <div class="firstText">
+       <h2>Private Day Tours – Exclusive Experiences Just for You:</h2>
+       <p>Explore our curated selection of private day tours departing from Reykjavík. These ready-to-book adventures are available year-round, offering a personalized experience with your own vehicle and guide. The price displayed below covers the entire vehicle, ensuring a hassle-free and cost-effective journey for your group.</p>
+    </div>
+
     <div class="wrapper">
 
-    {allTours.map((tour) => (
+    {allTours.filter((baba:any) => baba.data.filter===undefined).map((tour) => (
 
         <TourCards
+tour = {tour}
+>
+
+</TourCards>
+))}
+</div>
+<div class="firstText">
+    <h2>Private Day Tours with Added Activities:</h2>
+    <p>Enhance your Icelandic adventure with our private day tours that include unique experiences operated by trusted third-party providers. These tours combine the comfort of private transportation with exciting activities such as museums, lava tunnels, geothermal spa visits and more. The base price covers the vehicle, while an additional per-person fee applies for the selected activity upon booking.</p>
+</div>
+
+<div class="wrapper">
+
+{allTours.filter((baba:any) => baba.data.filter==="extra").map((tour) => (
+
+    <TourCards
 tour = {tour}
 >
 
@@ -81,13 +102,32 @@ tour = {tour}
 
 <style>
 
-    h2 {
-        padding-left: 3rem;
-        margin-bottom: 5rem;
+    .firstText {
+        width: calc(100% - 4rem);
+        margin: 2rem auto;
+        padding: 2rem;
+        background-color: rgba(255, 255, 255, 0.25);
+        border-radius: 1rem;
+
+        p {
+            width: 100%;
+        }
+    }
+
+    main h2 {
+        margin-bottom: 3rem;
+        width: 100%;
+        text-align: center;
+        margin-inline: auto;
+        font-style: normal;
+    }
+
+    h2:not(:first-child) {
+        margin-block: 5rem;
     }
 
    main {
-    width: 75%;
+    width: 90%;
     margin-inline: auto;
     padding: 5rem 0;
    }
@@ -95,6 +135,7 @@ tour = {tour}
 .wrapper {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
     justify-content: center;
 
 }
@@ -165,6 +206,22 @@ tour = {tour}
 @keyframes Title {
     from {opacity: 0}
     to {opacity: 1}
+}
+
+@media screen and (max-width: 800px) {
+    main h2 {
+        font-size: clamp(1rem, calc(1vw + 1rem), 2rem );
+    }
+
+    main p {
+        font-size: 1rem;
+    }
+
+    main {
+        padding-block: 2rem;
+    }
+
+
 }
 
 </style>
