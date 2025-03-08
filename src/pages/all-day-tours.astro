@@ -58,7 +58,10 @@ const allTours: CollectionEntry<"daytours__EN">[] = await getCollection("daytour
             </div>
         </div>
     </header>
-<main>
+<main> 
+       <h2>List of our private tours</h2>
+    <div class="wrapper">
+
     {allTours.map((tour) => (
 
         <TourCards
@@ -67,7 +70,7 @@ tour = {tour}
 
 </TourCards>
 ))}
-
+</div>
 </main>
 
 <FooterEN></FooterEN>
@@ -78,11 +81,21 @@ tour = {tour}
 
 <style>
 
-   
+    h2 {
+        padding-left: 3rem;
+        margin-bottom: 5rem;
+    }
 
-main {
+   main {
+    width: 75%;
+    margin-inline: auto;
+    padding: 5rem 0;
+   }
+
+.wrapper {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 
 }
   .header {
