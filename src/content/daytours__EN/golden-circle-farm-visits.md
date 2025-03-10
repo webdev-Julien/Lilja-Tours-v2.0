@@ -51,10 +51,10 @@ itiCoverImgTitle: "Gullfoss"
 
 
 # Links
-linkFr: "/fr/excursions-en-islande/cercle-d-or-experience-culinaire.html"
+linkFr: "/fr/excursions-en-islande/cercle-d-or-experience-culinaire"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753715"
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753717"
-fulllinkFr: "https://www.lilja-tours.com/fr/excursions-en-islande/cercle-d-or-experience-culinaire.html"
+fulllinkFr: "https://www.lilja-tours.com/fr/excursions-en-islande/cercle-d-or-experience-culinaire"
 
 
 # Itinerary

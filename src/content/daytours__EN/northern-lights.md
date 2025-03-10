@@ -51,10 +51,10 @@ itiCoverImgTitle: "Northern Lights"
 
 
 # Links
-linkFr: "/fr/excursions-en-islande/sortie-privee-aurores-boreales-islande.html"
+linkFr: "/fr/excursions-en-islande/sortie-privee-aurores-boreales-islande"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/707396"
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/971141"
-fulllinkFr: "https://www.lilja-tours.com/fr/excursions-en-islande/sortie-privee-aurores-boreales-islande.html"
+fulllinkFr: "https://www.lilja-tours.com/fr/excursions-en-islande/sortie-privee-aurores-boreales-islande"
 
 
 # Itinerary

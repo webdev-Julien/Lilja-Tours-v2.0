@@ -51,10 +51,10 @@ itiCoverImgTitle: "Gullfoss"
 
 
 # Links
-linkFr: "/private-day-tours-iceland/golden-circle-essentials.html"
+linkFr: "/private-day-tours-iceland/golden-circle-essentials"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753710"
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753711"
-fulllinkFr: "https://www.lilja-tours.com//private-day-tours-iceland/golden-circle-essentials.html"
+fulllinkFr: "https://www.lilja-tours.com//private-day-tours-iceland/golden-circle-essentials"
 
 
 # Itinerary

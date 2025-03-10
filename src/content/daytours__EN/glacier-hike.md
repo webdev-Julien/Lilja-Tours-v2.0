@@ -47,10 +47,10 @@ itiCoverImgTitle: "Glacier Hike"
 
 
 # Links
-linkFr: "/fr/excursions-en-islande/marche-sur-glacier-en-islande.html"
+linkFr: "/fr/excursions-en-islande/marche-sur-glacier-en-islande"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/740991"
 bookJeep: "#"
-fulllinkFr: "https://www.lilja-tours.com/fr/excursions-en-islande/marche-sur-glacier-en-islande.html"
+fulllinkFr: "https://www.lilja-tours.com/fr/excursions-en-islande/marche-sur-glacier-en-islande"
 
 
 # Itinerary

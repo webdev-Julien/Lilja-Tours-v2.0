@@ -47,10 +47,10 @@ itiCoverImgTitle: "Landmannalaugar itinerary"
 
 
 # Links
-linkFr: "/fr/excursions-en-islande/spectaculaire-landmannalaugar.html"
+linkFr: "/fr/excursions-en-islande/spectaculaire-landmannalaugar"
 bookVan: ""
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/751054"
-fulllinkFr: "https://www.lilja-tours.com/fr/excursions-en-islande/spectaculaire-landmannalaugar.html"
+fulllinkFr: "https://www.lilja-tours.com/fr/excursions-en-islande/spectaculaire-landmannalaugar"
 
 
 # Itinerary

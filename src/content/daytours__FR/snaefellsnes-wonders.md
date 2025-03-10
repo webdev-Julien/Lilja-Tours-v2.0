@@ -51,10 +51,10 @@ itiCoverImgTitle: "Snæfellsnes"
 
 
 # Links
-linkFr: "/private-day-tours-iceland/snaefellsnes-wonders.html"
+linkFr: "/private-day-tours-iceland/snaefellsnes-wonders"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753699"
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753700"
-fulllinkFr: "https://www.lilja-tours.com/private-day-tours-iceland/snaefellsnes-wonders.html"
+fulllinkFr: "https://www.lilja-tours.com/private-day-tours-iceland/snaefellsnes-wonders"
 
 
 # Itinerary

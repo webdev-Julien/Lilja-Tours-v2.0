@@ -51,10 +51,10 @@ itiCoverImgTitle: "Sólheimajökull"
 
 
 # Links
-linkFr: "/private-day-tours-iceland/south-coast-highlights.html"
+linkFr: "/private-day-tours-iceland/south-coast-highlights"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753704"
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753708"
-fulllinkFr: "https://www.lilja-tours.com/private-day-tours-iceland/south-coast-highlights.html"
+fulllinkFr: "https://www.lilja-tours.com/private-day-tours-iceland/south-coast-highlights"
 
 
 # Itinerary

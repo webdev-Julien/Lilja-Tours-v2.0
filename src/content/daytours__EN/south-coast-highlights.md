@@ -51,10 +51,10 @@ itiCoverImgTitle: "Sólheimajökull"
 
 
 # Links
-linkFr: "/fr/excursions-en-islande/haut-lieux-cote-sud-islandaise.html"
+linkFr: "/fr/excursions-en-islande/haut-lieux-cote-sud-islandaise"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753704"
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753708"
-fulllinkFr: "https://www.lilja-tours.com/fr/excursions-en-islande/haut-lieux-cote-sud-islandaise.html"
+fulllinkFr: "https://www.lilja-tours.com/fr/excursions-en-islande/haut-lieux-cote-sud-islandaise"
 
 
 # Itinerary

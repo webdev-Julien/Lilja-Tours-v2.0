@@ -51,10 +51,10 @@ itiCoverImgTitle: "Stampar"
 
 
 # Links
-linkFr: "/private-day-tours-iceland/reykjanes-colors.html"
+linkFr: "/private-day-tours-iceland/reykjanes-colors"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/796567"
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/796870"
-fulllinkFr: "https://www.lilja-tours.com/private-day-tours-iceland/reykjanes-colors.html"
+fulllinkFr: "https://www.lilja-tours.com/private-day-tours-iceland/reykjanes-colors"
 
 
 # Itinerary
