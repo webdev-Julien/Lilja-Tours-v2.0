@@ -1,0 +1,152 @@
+<section class="section2">
+    <div class="whyPrivate">
+    <h2>Have a chat with us!</h2>
+    <p>We’d love to hear all about your travel plans for Iceland!    </p>
+    <p>Reaching out to us is easy, just check our <a href="/contact.html" title="contact page">contact page</a> for all available options. For a quick response or a casual chat, feel free to message us anytime on WhatsApp. </p>
+    <div class="staffContacts">
+      <div class="staffPerson">
+        <img src="/pictures/Julien-CEO-Founder-Guide.webp" width="75" height="75" alt="guide smiling at the camera with arm crossed, in the winter" title="Julien Sales and Marketing" loading="lazy" class="staffPic">
+        <h3>Julien:</h3>
+        <p class="role">General inquiries, travel planning</p>
+        
+        <a href="https://wa.me/3547643715" title="Julien on WhatsApp" class="niLine"><div class="staffPhone">
+          <img src="/icons/whatsapp-green.svg" class="homeWapp" width="30" height="30" alt="WhatsApp icon" title="Philippe Operations" loading="lazy">
+          <p class="phoneNumber"><span style="font-size:.9rem">(+354)</span> 764 3715</p>
+          </div></a>
+      </div>
+      <div class="staffPerson">
+                      <img src="/pictures/Philippe-Owner-Guide.webp" width="75" height="75" alt="guide smiling at the camera with arm crossed, in the winter" title="Julien Sales and Marketing" loading="lazy" class="staffPic">
+                      <h3>Philippe:</h3>
+        <p class="role">Questions about booked tours</p>
+
+          <a href="https://wa.me/3547728756" title="Philippe on WhatsApp" class="niLine"><div class="staffPhone">
+          <img src="/icons/whatsapp-green.svg" class="homeWapp" width="30" height="30" alt="WhatsApp icon" title="Philippe Operations" loading="lazy">
+          <p class="phoneNumber"> <span style="font-size:.9rem">(+354)</span> 772 8756</p>
+          </div></a>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <style>
+
+h2 {
+    color: #a3b9e1;
+  font-size: clamp(1rem, 3vw, 2.5rem);
+  font-weight: normal;
+}
+
+a {
+    color: white;
+}
+
+    .section2 {
+        width: 75%;
+        margin-inline: auto;
+        padding-block: 5rem;
+    }
+    .niLine {
+  text-decoration: none;
+  color: hsl(0, 0%, 20%);
+}
+
+  .staffContacts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    margin-inline: auto;
+    gap: 5rem;
+
+    .staffPhone {
+      width: 75%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 1rem;
+      margin-inline: auto;
+      background-color: hsl(0, 0%, 80%);
+      border-radius: 15px;
+      gap: 1rem;
+      transition: 1s;
+
+
+
+
+    }
+
+    .staffPhone:hover {
+      background-color: hsl(0, 0%, 20%);
+      cursor: pointer;
+
+      .phoneNumber{
+        color: white;
+      }
+    }
+
+    .phoneNumber {
+      font-weight: bold;
+      transition: 1s;
+    }
+
+    .homeWapp {
+    width: 30px;
+    margin-left: .8rem;
+    }
+
+    .staffPic {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-inline: auto;
+    margin-block: 1rem;
+    }
+
+    .staffPerson {
+      background-color: hsl(0, 0%, 20%);
+      border-radius: 15px;
+      padding: .5rem;
+      text-align: center;
+      margin-block: 3rem;
+      width: 100%;
+    }}
+
+    @media only screen and (max-width: 800px) {
+      .whatWeDo  {
+        grid-template-columns: repeat(2,1fr);
+      }
+      #order {
+    order: +1;
+  }
+
+  .whyPrivate {
+    width: 90%;
+  }
+
+  .heroTourContent {
+    display: flex;
+    flex-direction: column;
+    margin-block: 2rem;
+    width: 90%;
+    padding-inline: 2rem;
+  }
+
+  .heroPic {
+  height: 1200px;
+}
+
+.heroPictures {
+    border-radius: 15px 15px 0 0;
+    margin-bottom: 1rem;
+  }
+
+  .staffContacts {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .staffPhone {
+    justify-content: space-evenly;
+  }
+
+    }
+  </style>

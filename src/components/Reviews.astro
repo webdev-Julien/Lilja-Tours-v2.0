@@ -96,4 +96,49 @@
       content: close-quote;
     }
 
+    @media only screen and (max-width: 800px) {
+
+      section {
+        min-height: 100dvh;
+      }
+      .whatWeDo  {
+        grid-template-columns: repeat(2,50%);
+        min-height: 100dvh;
+      }
+      #order {
+    order: +1;
+  }
+
+  .whyPrivate {
+    width: 90%;
+  }
+
+  .heroTourContent {
+    display: flex;
+    flex-direction: column;
+    margin-block: 2rem;
+    width: 90%;
+    padding-inline: 2rem;
+  }
+
+  .heroPic {
+  height: 1200px;
+}
+
+.heroPictures {
+    border-radius: 15px 15px 0 0;
+    margin-bottom: 1rem;
+  }
+
+  .staffContacts {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .staffPhone {
+    justify-content: space-evenly;
+  }
+
+    }
+
 </style>
