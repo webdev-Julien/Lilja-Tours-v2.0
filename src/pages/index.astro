@@ -1,21 +1,180 @@
 ---
-import TopBarEN from "../components/TopBar__EN.astro";
+
 import "../styles/style.css";
+import { Image } from "astro:assets";
+import TopBar from "../components/TopBar__EN.astro";
+import PicHeader from "../components/Pics/PicHeader.astro";
+import Reviews from "../components/Reviews.astro"
+import ItiItem from "../layouts/ItiItem.astro";
+import Footer from "../components/footer__EN.astro";
+import IFY from "../assets/images/footer/Iceland-for-You-logo.webp"
 ---
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Private tours in Iceland | Lilja Tours - Icelandic Travel Agency</title>
 </head>
-<body style="height: 1000px;">
-            <TopBarEN/>
-            <div>
-                <p style="color:white">Left to do as day tours: SCVT, GSNKL. Maybe add Reykjavík tours. <br>Index, contact, about, t&C, PrivPolicy. <br>Then one page with form for Multiday. <br>Third party excursion page(s).<br>FAQ Page. <br>Multiday itineraries Collection<br>Blog</p>
+<body>
+    <header class="header">
+        <TopBar linkfr="/fr/"></TopBar>
+        <div class="headerContainerPic">
+            <PicHeader srcMobile="/pictures/homepage/headers/volcano-love.webp" srcPC="/pictures/homepage/headers/waterfall-love.webp" alt="Picture of stunning icelandic landscapes, waterfalls and volcnaoes" title="Lilja Tours travel agency"></PicHeader></div>
+            <div class="headerGradient"></div>
+            <div class="headerInfos">
+                <h1>The Icelandic Expert for Your Private Tours</h1>
+                <h2>Tailored travels with personal driver-guide</h2>                
             </div>
+        </div>
+
+    </header>
+    <main>
+
+        <Reviews/>
+
+        <section>
+        <ItiItem    
+        srcMobile="/pictures/homepage/why-private-mobile.webp",
+        itiItemPicSrcPC="/pictures/homepage/why-private-pc.webp",
+        itiItemPicAlt="Wonderful landscapes from Iceland",
+        itiItemPicTitle="Travel with a private tour",
+        itiItemTitle="Why choose a private Tour?">
+        <p>A private tour combines the in-depth knowledge and comfort of a guided experience with the flexibility of a self-guided journey. With a private, tailor-made tour, you remain in control while our dedicated guides ensure that your trip is nothing short of exceptional.</p>
+
+            <p>Together, we create a customized itinerary that covers everything from transportation to accommodation. We provide suggestions, but the final decisions are always yours.</p>
+            
+            <p>For day tours, we offer a wide selection of ready-to-book options available directly on our website. Each of these tours is fully customizable, so don’t hesitate to reach out if you’d like to make any modifications.</p>
+            
+           <!-- <p>If you’re traveling independently, we also have a dedicated section for you. There, you’ll find a curated list of excursions across Iceland. We’ve carefully selected trusted partners who provide top-quality services throughout the country.
+            </p> -->
+    </ItiItem>
+</section>
+<section>
+    <ItiItem    
+    srcMobile="/pictures/homepage/ify-mobile.webp",
+    itiItemPicSrcPC="/pictures/homepage/ify-pc.webp",
+    itiItemPicAlt="Wonderful landscapes from Iceland",
+    itiItemPicTitle="Travel with a private tour",
+    itiItemTitle="Discover Iceland For You. Our premium brand for luxury group travels">
+    <p>At the beginning of 2025, we introduced a new brand dedicated to high-end multiday group tours. Our meticulously designed itineraries allow you to experience Iceland in top-tier hotels, with the most comfortable vehicles, and with the same exceptional level of service that <strong>Lilja Tours</strong> has been delivering since 2021—all at a more affordable price than a private tour.</p> 
+    <p>For 2025, we have scheduled three departures (4 to 12 participants maximum):</p> 
+    <ul> 
+        <li><a>10-day Luxury Ring Road Tour in September</a></li> 
+        <li><a>5-day Adventure Tour in October</a></li> 
+        <li><a>5-day Discovery Tour in November</a></li>
+    </ul>
+    <a href="https://www.iceland-for-you.com" title="See our group tours offer"><Image src={IFY} alt="Iceland for you Logo" width="596" height="426" class="logos" loading="lazy"></Image></a>
+
+</ItiItem>
+</section>
+
+        
+    </main>
+    <Footer/>
 </body>
 </html>
+<style>
+
+    ul {
+        font-size: 1.25rem;
+        color: white;
+        list-style-position: inside;
+        font-weight: lighter;
+    }
+
+    .logos {
+        max-width: 50%;
+        height: auto;
+        display: flex;
+        margin-inline: auto;
+        margin-top: 2rem;
+        border-radius: 1rem;
+    }
+ .header {
+            min-height: 100dvh;
+            width: 100%;
+        }
+
+        .headerContainerPic {
+            width: 100%;
+            min-height: calc(100dvh - 3.5rem);
+            max-height: calc(100dvh - 3.5rem);
+            position: relative;
+        }
+
+        .headerGradient {
+            width: 100%;
+            min-height: calc(100dvh - 3.5rem);
+            max-height: calc(100dvh - 3.5rem);
+            position: absolute;
+            top: 3.5rem;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(255, 255, 255, 0.00) 99.06%);
+        }
+
+        .headerInfos {
+            position: absolute;
+            inset: 3.5rem 0 0 0;
+            display: flex;
+            height:  calc(100dvh - 3.5rem);
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            gap: 5rem;
+
+        }
+
+        h1 {
+        color: #FFF;
+        text-align: center;
+        font-size: clamp(2rem, calc(5vw + 1rem), 4rem );
+        font-weight: lighter;
+        min-width: min-content;
+        max-width: max-content;
+        text-wrap: balance;
+        animation-name: Title;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+    }
+
+    h2 {
+        color: #FFF;
+        text-align: center;
+        font-size: clamp(1.5rem, calc(5vw + 1rem), 2.5rem );
+        font-weight: lighter;
+        min-width: min-content;
+        max-width: max-content;
+        text-wrap: balance;
+        animation-name: Title;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+        font-style: italic;
+    }
+
+
+
+@keyframes Title {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+@media screen and (max-width: 800px) {
+    main h2 {
+        font-size: clamp(1rem, calc(1vw + 1rem), 2rem );
+    }
+
+    main p {
+        font-size: 1rem;
+    }
+
+
+}
+
+</style>
 
 
 

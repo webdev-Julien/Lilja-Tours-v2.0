@@ -1,0 +1,137 @@
+---
+
+import "../../styles/style.css";
+import { Image } from "astro:assets";
+import TopBar from "../../components/TopBar__FR.astro";
+import PicHeader from "../../components/Pics/PicHeader.astro";
+import Reviews from "../../components/Reviews.astro"
+import ItiItem from "../../layouts/ItiItem.astro";
+import Footer from "../../components/footer__FR.astro";
+---
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excursions privées en Islande | Lilja Tours - Agence de voyage Islandaise</title>
+</head>
+<body>
+    <header class="header">
+        <TopBar linkfr="/"></TopBar>
+        <div class="headerContainerPic">
+            <PicHeader srcMobile="/pictures/homepage/headers/volcano-love.webp" srcPC="/pictures/homepage/headers/waterfall-love.webp" alt="Photos de magnifiques paysages islandais" title="Agence de voyage: Lilja Tours"></PicHeader></div>
+            <div class="headerGradient"></div>
+            <div class="headerInfos">
+                <h1>L'expert de vos excursions et circuits en Islande</h1>
+                <h2>Voyages sur mesure d'exception avec chauffeur-gudie privé</h2>                
+            </div>
+        </div>
+
+    </header>
+    <main>
+
+        <Reviews/>
+
+        <ItiItem    
+        srcMobile="/pictures/homepage/why-private-mobile.webp",
+        itiItemPicSrcPC="/pictures/homepage/why-private-pc.webp",
+        itiItemPicAlt="Magnifiques paysages islandais",
+        itiItemPicTitle="Voyagez avec un guide privé",
+        itiItemTitle="Pourquoi choisir une excursion privée?">
+        <p>Une visite privée combine les connaissances approfondies et le confort d'une visite guidée avec la flexibilité d'un voyage en autonomie. Avec une excursion privée et sur mesure, vous restez maître de votre itinéraire, tandis que nos guides dévoués veillent à ce que votre voyage soit inoubliable.</p> <p>Ensemble, nous concevons un itinéraire personnalisé incluant tout, du transport à l'hébergement. Nous vous faisons des suggestions, mais c'est vous qui prenez les décisions finales.</p> <p>Pour les excursions d'une journée, nous proposons une large sélection de circuits prêts à être réservés directement sur notre site web. Chacune de ces visites est entièrement personnalisable, alors n'hésitez pas à nous contacter si vous souhaitez y apporter des modifications.</p> <!-- <p>Si vous voyagez seul, nous avons également une section dédiée pour vous. Vous y trouverez une liste d'excursions à travers toute l'Islande. Nous avons soigneusement sélectionné des partenaires de confiance offrant des services de haute qualité dans tout le pays.</p> -->
+    </ItiItem>
+
+
+        
+    </main>
+    <Footer/>
+</body>
+</html>
+<style>
+ .header {
+            min-height: 100dvh;
+            width: 100%;
+        }
+
+        .headerContainerPic {
+            width: 100%;
+            min-height: calc(100dvh - 3.5rem);
+            max-height: calc(100dvh - 3.5rem);
+            position: relative;
+        }
+
+        .headerGradient {
+            width: 100%;
+            min-height: calc(100dvh - 3.5rem);
+            max-height: calc(100dvh - 3.5rem);
+            position: absolute;
+            top: 3.5rem;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(255, 255, 255, 0.00) 99.06%);
+        }
+
+        .headerInfos {
+            position: absolute;
+            inset: 3.5rem 0 0 0;
+            display: flex;
+            height:  calc(100dvh - 3.5rem);
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            gap: 5rem;
+
+        }
+
+        h1 {
+        color: #FFF;
+        text-align: center;
+        font-size: clamp(2rem, calc(5vw + 1rem), 4rem );
+        font-weight: lighter;
+        min-width: min-content;
+        max-width: max-content;
+        text-wrap: balance;
+        animation-name: Title;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+    }
+
+    h2 {
+        color: #FFF;
+        text-align: center;
+        font-size: clamp(1.5rem, calc(5vw + 1rem), 2.5rem );
+        font-weight: lighter;
+        min-width: min-content;
+        max-width: max-content;
+        text-wrap: balance;
+        animation-name: Title;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+        font-style: italic;
+    }
+
+
+
+@keyframes Title {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+@media screen and (max-width: 800px) {
+    main h2 {
+        font-size: clamp(1rem, calc(1vw + 1rem), 2rem );
+    }
+
+    main p {
+        font-size: 1rem;
+    }
+
+
+}
+
+</style>
+
+
+

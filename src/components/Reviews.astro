@@ -1,0 +1,99 @@
+<section id="section1" class="whatWeDo">
+    <div class="section1a">
+      <img src="/pictures/dark-mountains-in-the-highlands.webp" alt="Dark mountains" title="highlands adventure" class="backGHomeSection" width="800" height="800" loading="lazy">
+      <div class="reviewHome">
+      <p class="reviewTitle">Fantastic Experience</p>
+        <img src="/icons/TripAdvisor-Logo-Home.svg" alt="logo TripAdvisor" title="Our reviews on TripAdvisor" width="350" height="200" loading="lazy" class="logoReview">
+        <img src="/icons/5-stars-review-TripAdvisor.webp" alt="5 stars on TripAdvisor" title="5 stars review" width="500" height="103" loading="lazy" class="fiveDots">
+        
+      </div>
+
+    </div>
+    <div class="section1a">
+      <img src="/pictures/hike-to-reykjadalur.webp" alt="Moss covered rocks over a stream of water" title="Hike to reykjadalur" class="backGHomeSection" width="800" height="800" loading="lazy">
+      <div class="reviewHome">
+        <p class="reviewTitle">Would highly recommend!!</p>
+        <img src="/icons/logo-google.svg" alt="logo Google" title="Our reviews on Google" width="350" height="200" loading="lazy" class="logoReview">
+        <img src="/icons/star.svg" alt="5 stars on Google reviews" title="5 stars review" width="500" height="103" loading="lazy" class="fiveDots">
+        </div>
+    </div>
+    <div class="section1a" id="order">
+      <img src="/pictures/birds-in-a-fjord.webp" alt="black birds flying over the sea before snow covered mountains" title="All around Iceland tours" class="backGHomeSection" width="800" height="800" loading="lazy">
+      <div class="reviewHome">
+        <p class="reviewTitle">Amazing Tour Company</p>
+        <img src="/icons/TripAdvisor-Logo-Home.svg" alt="logo TripAdvisor" title="Our reviews on TripAdvisor" width="350" height="200" loading="lazy" class="logoReview">
+        <img src="/icons/5-stars-review-TripAdvisor.webp" alt="5 stars on TripAdvisor" title="5 stars review" width="500" height="103" loading="lazy" class="fiveDots">
+        </div>
+    </div>
+    <div class="section1a">
+      <img src="/pictures/beautiful-northern-lights.webp" alt="Northern Lights looking like an eagle" title="Northern Lights Tours" class="backGHomeSection" width="800" height="800" loading="lazy">
+      <div class="reviewHome">
+        <p class="reviewTitle">Great family memories</p>
+        <img src="/icons/logo-google.svg" alt="logo Google" title="Our reviews on Google" width="350" height="200" loading="lazy" class="logoReview">
+        <img src="/icons/star.svg" alt="5 stars on Google reviews" title="5 stars review" width="500" height="103" loading="lazy" class="fiveDots">
+        </div>
+      </div>
+  </section>
+
+<style>
+
+
+.whatWeDo {
+        display: grid;
+        grid-template-columns: repeat(4, 25%);
+        padding: 0;
+    }
+
+    .section1a {
+      position: relative;
+    }
+
+    .backGHomeSection {
+        display: block;
+        object-position: center;
+        object-fit: cover;
+        height: 30rem;
+        aspect-ratio: 1 / 1;
+    }
+
+    .logoReview {
+    max-height: 6.25rem;
+    margin-bottom: 1rem;
+    max-width: 30%;
+    margin-inline: auto;
+  }
+
+  .fiveDots {
+    max-width: 75%;
+    margin-inline: auto;
+    height: auto;
+    aspect-ratio: 5 / 1;
+  }
+
+    .reviewHome {
+      position: absolute;
+      top:50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      max-height: 100%;
+      transition: 1s;
+      width: 100%;
+    }
+    .reviewTitle,.reviewTitle2 {
+      font-size: clamp(1.5rem, 3vw, 3rem);
+      line-height: 1.2;
+      text-align: center;
+      font-style: italic;
+      color: white;
+      margin-bottom: 1rem;
+    }
+
+    .reviewTitle::before{
+      content: open-quote;
+    }
+
+    .reviewTitle::after{
+      content: close-quote;
+    }
+
+</style>
