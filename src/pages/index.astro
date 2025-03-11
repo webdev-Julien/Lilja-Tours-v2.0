@@ -15,7 +15,22 @@ import HomeContacts from "../components/HomeContacts.astro";
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Experience Iceland with Lilja Tours. Enjoy private, tailor-made tours with expert guides or luxury small-group journeys. Explore Iceland your way with us">
     <title>Private tours in Iceland | Lilja Tours - Icelandic Travel Agency</title>
+
+    <link rel="alternate" hreflang="fr" href="https://www.lilja-tours.com/fr/" />
+
+    <meta property="og:title" content="Lilja Tours - Icelandic Travel Agency - Private Tours">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="/pictures/list-all-tours/all-private-day-tours-in-iceland-pc.webp">
+    <meta property="og:url" content="https://www.lilja-tours.com/">
+    <meta property="og:description" content="Experience Iceland with Lilja Tours. Enjoy private, tailor-made tours with expert guides or luxury private journeys. Explore Iceland your way with us">
+
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="fr_FR">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:logo" content="/logos/Lilja-Tours-Full-Logo.png" />
 </head>
 <body>
     <header class="header">
@@ -58,12 +73,12 @@ import HomeContacts from "../components/HomeContacts.astro";
     itiItemPicAlt="Wonderful landscapes from Iceland",
     itiItemPicTitle="Travel with a private tour",
     itiItemTitle="Discover Iceland For You. Our premium brand for luxury group travels">
-    <p>At the beginning of 2025, we introduced a new brand dedicated to high-end multiday group tours. Our meticulously designed itineraries allow you to experience Iceland in top-tier hotels, with the most comfortable vehicles, and with the same exceptional level of service that <strong>Lilja Tours</strong> has been delivering since 2021—all at a more affordable price than a private tour.</p> 
-    <p>For 2025, we have scheduled three departures (4 to 12 participants maximum):</p> 
+    <p>In early 2025, we launched a new brand for high-end multiday group tours. Enjoy Iceland in top-tier hotels, with premium vehicles and Lilja Tours' exceptional service—at a more affordable price than a private tour.</p>  
+    <p>For 2025, we offer three departures (4 to 12 participants):</p>    
     <ul> 
-        <li><a>10-day Luxury Ring Road Tour in September</a></li> 
-        <li><a>5-day Adventure Tour in October</a></li> 
-        <li><a>5-day Discovery Tour in November</a></li>
+        <li><a href="https://www.iceland-for-you.com/luxury-ring-road-tour.html" title="See our 10 days luxury ring road tour">10-day Luxury Ring Road Tour in September</a></li> 
+        <li><a href="https://www.iceland-for-you.com/south-west-iceland-adventures-tour.html" title="See our 5 days tour in October">5-day Adventure Tour in October</a></li> 
+        <li><a href="https://www.iceland-for-you.com/south-west-iceland-sightseeing-tour.html" title="See our 5 days tour in November">5-day Discovery Tour in November</a></li>
     </ul>
     <a href="https://www.iceland-for-you.com" title="See our group tours offer"><Image src={IFY} alt="Iceland for you Logo" width="596" height="426" class="logos" loading="lazy"></Image></a>
 
@@ -157,6 +172,13 @@ import HomeContacts from "../components/HomeContacts.astro";
         font-style: italic;
     }
 
+    li a {
+        font-size: 1rem;
+        color: white;
+    }
+    li a:visited {
+        color: white;
+    }
 
 
 @keyframes Title {
@@ -171,6 +193,20 @@ import HomeContacts from "../components/HomeContacts.astro";
 
     main p {
         font-size: 1rem;
+        line-height: 1;
+    }
+
+    li a {
+        font-size: 1rem;
+        color: white;
+    }
+
+    li {
+        line-height: 1;
+    }
+
+    li a:visited {
+        color: white;
     }
 
 

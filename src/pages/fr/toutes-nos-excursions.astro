@@ -8,29 +8,32 @@ import TopBar from "../../components/TopBar__FR.astro";
 
 import PicHeader from "../../components/Pics/PicHeader.astro";
 import FooterEN from "../../components/footer__FR.astro";
+import TagBarEN from "../../components/tags/TagBar__FR.astro";
+import TagBarFR from "../../components/tags/TagBar__FR.astro";
+
 
 const allTours: CollectionEntry<"daytours__FR">[] = await getCollection("daytours__FR")
 
 const {linkFr} = Astro.props
 ---
 <!doctype html>
-<html lang="en">
+<html lang="fr">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="Discover luxury private day tours in Iceland. Explore stunning landscapes with exclusive, tailor-made experiences. Book now!">
 
 
-       <link rel="alternate" hreflang="fr" href="#" />
+       <link rel="alternate" hreflang="en" href="https://www.lilja-tours.com/all-day-tours" />
 
         <meta property="og:title" content="Discover all of our private tours">
         <meta property="og:type" content="website">
         <meta property="og:image" content="/pictures/list-all-tours/all-private-day-tours-in-iceland-pc.webp">
-        <meta property="og:url" content="https://www.lilja-tours.com/all-day-tours">
+        <meta property="og:url" content="https://www.lilja-tours.com/toutes-nos-excursions">
         <meta property="og:description" content="Discover luxury private day tours in Iceland. Explore stunning landscapes with exclusive, tailor-made experiences. Book now!">
 
-        <meta property="og:locale" content="en_US">
-        <meta property="og:locale:alternate" content="fr_FR">
+        <meta property="og:locale" content="fr_FR">
+        <meta property="og:locale:alternate" content="en_US">
         <meta property="og:image:width" content="1200">
         <meta property="og:image:height" content="630">
         <meta property="og:logo" content="/logos/Lilja-Tours-Full-Logo.png" />
@@ -53,16 +56,7 @@ const {linkFr} = Astro.props
                 <h2>Explorez l'Islande avec style et confort grâce à nos excursions d'exception</h2>
                 <div class="tags">
 
-                            <button class="tagButtR">Cercle d'or</button>
-                            <button class="tagButtR">Côte sud</button>
-                            <button class="tagButtR">Hautes terres</button>
-                            <button class="tagButtR">Ouest Islandais</button>
-                            <button class="tagButtR">Reykjavík</button>
-
-                            <button class="tagButtT">Découverte</button>
-                            <button class="tagButtT">Aventure</button>
-                            <button class="tagButtT">Randonnée</button>
-                            <button class="tagButtT">4x4</button>
+                         <TagBarFR/>
 
 
                 </div>

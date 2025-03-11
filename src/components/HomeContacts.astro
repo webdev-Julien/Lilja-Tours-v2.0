@@ -1,8 +1,8 @@
 <section class="section2">
     <div class="whyPrivate">
     <h2>Have a chat with us!</h2>
-    <p>We’d love to hear all about your travel plans for Iceland!    </p>
-    <p>Reaching out to us is easy, just check our <a href="/contact.html" title="contact page">contact page</a> for all available options. For a quick response or a casual chat, feel free to message us anytime on WhatsApp. </p>
+    <p class="p">We’d love to hear all about your travel plans for Iceland!    </p>
+    <p class="p">Reaching out to us is easy, just check our <a href="/contact.html" title="contact page">contact page</a> for all available options. For a quick response or a casual chat, feel free to message us anytime on WhatsApp. </p>
     <div class="staffContacts">
       <div class="staffPerson">
         <img src="/pictures/Julien-CEO-Founder-Guide.webp" width="75" height="75" alt="guide smiling at the camera with arm crossed, in the winter" title="Julien Sales and Marketing" loading="lazy" class="staffPic">
@@ -122,6 +122,10 @@ a {
     width: 90%;
   }
 
+  .p {
+    font-size: 1.1rem;
+  }
+
   .heroTourContent {
     display: flex;
     flex-direction: column;
@@ -142,10 +146,15 @@ a {
   .staffContacts {
     display: flex;
     flex-direction: column;
+    gap: .5rem;
   }
 
   .staffPhone {
     justify-content: space-evenly;
+  }
+
+  .staffPerson {
+    margin-block: .5rem;
   }
 
     }

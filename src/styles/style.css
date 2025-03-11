@@ -42,6 +42,18 @@ p {
   margin-block: 1rem;
 }
 
+h2 {
+  color: #FFF;
+  text-align: center;
+  font-size: clamp(1.5rem, calc(5vw + 1rem), 2.5rem );
+  font-weight: lighter;
+  min-width: min-content;
+  max-width: max-content;
+  text-wrap: balance;
+
+  font-style: italic;
+}
+
 @view-transition {
   navigation: auto;
 }
