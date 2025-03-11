@@ -3,6 +3,8 @@
 vanISK: 255000
 jeepISK: 249000
 
+# filter
+filter: "norm"
 
 # Head and metas
 pageTitle: "South Coast et Rando Glacier | Excursions privées | Lilja Tours"

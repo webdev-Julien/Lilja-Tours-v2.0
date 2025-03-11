@@ -3,6 +3,8 @@
 vanISK: 139000
 jeepISK: 139000
 
+# filter
+filter: "norm"
 
 # Head and metas
 pageTitle: "Rando glacier en Islande | Excursion privée | Lilja Tours"

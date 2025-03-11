@@ -3,6 +3,8 @@
 vanISK: 179000
 jeepISK: 173000
 
+# filter
+filter: "norm"
 
 # Head and metas
 pageTitle: "Sorties aurores boréales en Islande | Excursion d'exception | Lilja Tours"

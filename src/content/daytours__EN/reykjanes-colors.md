@@ -3,6 +3,8 @@
 vanISK: 164000
 jeepISK: 159000
 
+# filter
+filter: "norm"
 
 # Head and metas
 pageTitle: "Reykjanes Peninsula | Luxury private tour | Lilja Tours"

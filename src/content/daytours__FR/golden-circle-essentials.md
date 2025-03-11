@@ -3,6 +3,8 @@
 vanISK: 165000
 jeepISK: 159000
 
+# filter
+filter: "norm"
 
 # Head and metas
 pageTitle: "Les essentiels du cercle d'or | Excursion d'exception | Lilja Tours"

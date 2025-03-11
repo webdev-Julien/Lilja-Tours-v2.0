@@ -9,7 +9,7 @@ import TopBar from "../components/TopBar__EN.astro";
 import PicHeader from "../components/Pics/PicHeader.astro";
 import FooterEN from "../components/footer__EN.astro";
 import TagBarEN from "../components/tags/TagBar__EN.astro";
-import { undefined } from "astro:schema";
+
 
 const allTours: CollectionEntry<"daytours__EN">[] = await getCollection("daytours__EN")
 
@@ -68,7 +68,7 @@ const allTours: CollectionEntry<"daytours__EN">[] = await getCollection("daytour
 
     <div class="wrapper">
 
-    {allTours.filter((baba:any) => baba.data.filter===undefined).map((tour) => (
+    {allTours.filter((baba:any) => baba.data.filter==="norm").map((tour) => (
 
         <TourCards
 tour = {tour}

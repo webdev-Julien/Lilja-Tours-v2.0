@@ -3,6 +3,8 @@
 vanISK: 260000
 jeepISK: 250000
 
+# filter
+filter: "norm"
 
 # Head and metas
 pageTitle: "Westman Islands - Vetsmannaeyjar | Luxury private tour | Lilja Tours"

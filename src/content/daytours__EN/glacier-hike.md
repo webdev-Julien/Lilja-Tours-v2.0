@@ -3,6 +3,9 @@
 vanISK: 139000
 jeepISK: 139000
 
+# filter
+filter: "norm"
+
 
 # Head and metas
 pageTitle: "Glacier Hike in Iceland | Luxury private tour | Lilja Tours"

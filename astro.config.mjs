@@ -9,6 +9,8 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://www.lilja-tours.com',
+   base: '/',
+  outDir: 'dist',
   build: {
     format: "directory"
   },

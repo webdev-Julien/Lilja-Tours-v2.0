@@ -3,6 +3,8 @@
 vanISK: 164000
 jeepISK: 159000
 
+# filter
+filter: "norm"
 
 # Head and metas
 pageTitle: "Péninsule de Reykjanes | Excursion d'exception | Lilja Tours"

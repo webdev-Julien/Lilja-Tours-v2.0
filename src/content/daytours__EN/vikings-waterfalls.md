@@ -3,6 +3,8 @@
 vanISK: 185000
 jeepISK: 190000
 
+# filter
+filter: "norm"
 
 # Head and metas
 pageTitle: "Vikings and Waterfalls | Luxury private tour | Lilja Tours"

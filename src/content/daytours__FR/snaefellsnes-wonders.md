@@ -3,6 +3,8 @@
 vanISK: 189000
 jeepISK: 185000
 
+# filter
+filter: "norm"
 
 # Head and metas
 pageTitle: "Péninsule de Snæfellsnes en Islande | Excursions d'exception | Lilja Tours"

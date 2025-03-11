@@ -3,6 +3,9 @@
 vanISK: 189000
 jeepISK: 185000
 
+# filter
+filter: "norm"
+
 
 # Head and metas
 pageTitle: "Snæfellsnes Peninsula Iceland | Luxury private tour | Lilja Tours"

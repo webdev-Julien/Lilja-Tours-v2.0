@@ -3,6 +3,8 @@
 vanISK: 185000
 jeepISK: 179000
 
+# filter
+filter: "norm"
 
 # Head and metas
 pageTitle: "Côte sud Islandaise | Excursions d'exception | Lilja Tours"

@@ -3,6 +3,9 @@
 vanISK: 185000
 jeepISK: 179000
 
+# filter
+filter: "norm"
+
 
 # Head and metas
 pageTitle: "Golden Circle and farm lunch | Luxury private tour | Lilja Tours"

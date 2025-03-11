@@ -3,6 +3,8 @@
 vanISK: 179000
 jeepISK: 173000
 
+# filter
+filter: "norm"
 
 # Head and metas
 pageTitle: "Northern Lights Tour Iceland | Luxury private tour | Lilja Tours"

@@ -3,6 +3,8 @@
 vanISK: 165000
 jeepISK: 159000
 
+# filter
+filter: "norm"
 
 # Head and metas
 pageTitle: "Randonnée à Glymur en Islande | Excursions d'exception | Lilja Tours"

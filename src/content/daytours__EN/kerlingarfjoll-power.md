@@ -3,6 +3,9 @@
 vanISK: 250000
 jeepISK: 250000
 
+# filter
+filter: "norm"
+
 
 # Head and metas
 pageTitle: "Kerlingarfjöll in the Icelandic highlands | Luxury private tour | Lilja Tours"

@@ -3,6 +3,8 @@
 vanISK: 185000
 jeepISK: 179000
 
+# filter
+filter: "norm"
 
 # Head and metas
 pageTitle: "Cercle d'or et déjeuner à la ferme | Excursions haut de gamme | Lilja Tours"

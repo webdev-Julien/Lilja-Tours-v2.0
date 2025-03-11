@@ -3,6 +3,8 @@
 vanISK: 250000
 jeepISK: 250000
 
+# filter
+filter: "norm"
 
 # Head and metas
 pageTitle: "Landmannalaugar dans les hautes terres islandaises | Excursion d'exception | Lilja Tours"

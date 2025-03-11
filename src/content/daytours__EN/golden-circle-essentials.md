@@ -3,6 +3,9 @@
 vanISK: 165000
 jeepISK: 159000
 
+# filter
+filter: "norm"
+
 
 # Head and metas
 pageTitle: "Golden Circle Essentials | Luxury private tour | Lilja Tours"
