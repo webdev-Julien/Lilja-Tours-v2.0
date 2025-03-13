@@ -181,7 +181,7 @@ vehicles: [
     srcMobile: "/pictures/cars/meet-on-solo.webp",
     alt: "A glacier tongue and a lake",
     title: "Meet on Location",
-    rate: 179000,
+    rate: 139000,
     bookLink: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/740991",
     capacity: "6"
   }

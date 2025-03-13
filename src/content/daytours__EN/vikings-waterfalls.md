@@ -226,7 +226,7 @@ vehicles: [
     srcMobile: "/pictures/cars/Toyota-LandCruiser-mobile.webp",
     alt: "A grey toyota superJeep",
     title: "Book in LandCruiser",
-    rate: 179000,
+    rate: 190000,
     bookLink: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/770519",
     capacity: "4"
   }

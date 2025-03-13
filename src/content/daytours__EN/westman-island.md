@@ -215,7 +215,7 @@ vehicles: [
     srcMobile: "/pictures/cars/Mercedes-VClass-mobile.webp",
     alt: "A blue mercedes van",
     title: "Book in V-class",
-    rate: 189000,
+    rate: 260000,
     bookLink: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/741342",
     capacity: "6"
   },
@@ -225,7 +225,7 @@ vehicles: [
     srcMobile: "/pictures/cars/Toyota-LandCruiser-mobile.webp",
     alt: "A grey toyota superJeep",
     title: "Book in LandCruiser",
-    rate: 185000,
+    rate: 250000,
     bookLink: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/971165",
     capacity: "4"
   }
