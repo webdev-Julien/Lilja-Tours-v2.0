@@ -125,7 +125,7 @@ Included: [
 nonIncluded: [
   "Food, drinks", 
   "Meals, snacks", 
-  "personal expenses"
+  "Personal expenses"
 ]
 
 

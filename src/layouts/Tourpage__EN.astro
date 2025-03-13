@@ -120,14 +120,13 @@ const {
         <main>
 
         <TagNavEN cateLink="/all-day-tours" home="DAY TOURS">
-                <div class="tags">
+
                     {
                         taggies.map((tag:any) => (
                             
-                            <li><button class="tagButton"><a href={"/private-day-tours-iceland/"+tag.toLowerCase()} title={"list of"+tag}>{tag.charAt(0).toUpperCase() + tag.slice(1).replaceAll("-", " ")}</a></button></li>
+                            <li><a href={"/private-day-tours-iceland/"+tag.toLowerCase()} title={"list of"+tag}><button class="tagButton">{tag.charAt(0).toUpperCase() + tag.slice(1).replaceAll("-", " ")}</button></a></li>
                         ))
                     }
-                </div>
             </TagNavEN>
 
 
@@ -196,14 +195,6 @@ const {
             position: relative;
         }
 
-.tags {
-        display: flex;
-        flex-wrap: wrap;
-
-        align-items: center;
-        justify-content: flex-start;
-        gap: 1rem;
-
         .tagButton {
             padding: .2rem .75rem;
             border-radius: 9999px;
@@ -222,16 +213,15 @@ const {
 
         }
 
-         li:first-child .tagButton {
+         li:nth-child(2) .tagButton {
             background-color: rgb(91, 114, 151);
         }
 
-        .tagButton:first-child:hover, .tagButton:first-child:focus {
+        .tagButton:nth-child(2):hover, .tagButton:nth-child(2):focus {
             filter: brightness(120%);
             transition: .3s;
         }
-    }
-
+    
 
         .formA {
         text-decoration: none;

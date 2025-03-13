@@ -121,14 +121,12 @@ const {
         <main>
 
             <TagNavEN cateLink="/fr/toutes-nos-excursions" home="EXCURSIONS">
-                <div class="tags">
                     {
                         taggies.map((tag:any) => (
                             
-                            <li><button class="tagButton"><a href={"/fr/excursions-en-islande/"+tag.toLowerCase()} title={"liste des excursions : "+tag}>{tag.charAt(0).toUpperCase() + tag.slice(1).replaceAll("d-or", "d'or").replaceAll("ote", "ôte").replaceAll("island", "Island").replaceAll("ecou", "écou").replaceAll("onnee", "onnée").replaceAll("-", " ")}</a></button></li>
+                            <li><a href={"/fr/excursions-en-islande/"+tag.toLowerCase()} title={"liste des excursions : "+tag}><button class="tagButton">{tag.charAt(0).toUpperCase() + tag.slice(1).replaceAll("d-or", "d'or").replaceAll("ote", "ôte").replaceAll("island", "Island").replaceAll("ecou", "écou").replaceAll("onnee", "onnée").replaceAll("-", " ")}</button></a></li>
                         ))
                     }
-                </div>
             </TagNavEN>
 
 
@@ -199,13 +197,6 @@ main {
             position: relative;
         }
 
-.tags {
-        display: flex;
-        flex-wrap: wrap;
-
-        align-items: center;
-        justify-content: flex-start;
-        gap: 1rem;
 
         .tagButton {
             padding: .2rem .75rem;
@@ -225,15 +216,15 @@ main {
 
         }
 
-         li:first-child .tagButton {
+         li:nth-child(2) .tagButton {
             background-color: rgb(91, 114, 151);
         }
 
-        .tagButton:first-child:hover, .tagButton:first-child:focus {
+        .tagButton:nth-child(2):hover, .tagButton:nth-child(2):focus {
             filter: brightness(120%);
             transition: .3s;
         }
-    }
+    
 
 
         .formA {
