@@ -47,7 +47,7 @@ interface Props {
 
     </div>
     <div class="textInfos">
-        <a href={"/fr/excursions-en-islande/"+tour.slug} title="voir la page" class="tourLink"><h2>{tour.data.tourTitle}</h2>
+        <a href={"/fr/excursions-en-islande/"+tour.slug} title="voir la page" class="tourLink"><h3>{tour.data.tourTitle}</h3>
             <div class="rates">
                 <p class="startingFrom">A partir de:</p>
                 <p class="rateISK">{tour.data.jeepISK} ISK <span class="vehicle">/véhicule</span></p>
@@ -210,7 +210,7 @@ interface Props {
         flex-wrap: wrap;
     }
 
-    h2 {
+    h3 {
         color: white;
         text-decoration: underline;
         font-weight: lighter;
@@ -271,5 +271,12 @@ interface Props {
 .pictoText::before {
     content:" ";
     white-space: pre;
+}
+
+@media screen and (max-width:800px) {
+    article {
+        width: 100%;
+        margin: 2rem auto;
+    }
 }
 </style>
