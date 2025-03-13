@@ -8,6 +8,7 @@ import Reviews from "../../components/Reviews.astro"
 import ItiItem from "../../layouts/ItiItem.astro";
 import Footer from "../../components/footer__FR.astro";
 import IFY from "../../assets/images/footer/Iceland-for-You-logo.webp"
+import HomeContactsFR from "../../components/HomeContacts__FR.astro";
 
 ---
 <!DOCTYPE html>
@@ -86,7 +87,7 @@ import IFY from "../../assets/images/footer/Iceland-for-You-logo.webp"
         </ItiItem>
         </section>
 
-        
+        <HomeContactsFR/>
     </main>
     <Footer/>
 </body>
@@ -208,6 +209,13 @@ ul {
     }
 
 
+}
+
+@media screen and (max-width: 800px) {
+
+main p {
+    line-height: .9;
+}
 }
 
 </style>

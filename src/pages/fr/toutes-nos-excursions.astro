@@ -54,12 +54,9 @@ const {linkFr} = Astro.props
             <div class="headerInfos">
                 <h1>Excursions exclusives en Islande avec guide privé</h1>
                 <h2>Explorez l'Islande avec style et confort</h2>
-                <div class="tags">
 
                          <TagBarFR/>
 
-
-                </div>
                 
             </div>
         </div>
@@ -107,46 +104,7 @@ const {linkFr} = Astro.props
 
 <style>
 
-    .tags {
-        display: flex;
-        flex-wrap: wrap;
-        width: 75%;
-        justify-content: center;
-        align-items: center;
-        gap: 1rem;
-    }
-
-    .tagButtR {
-        padding: .2rem .75rem;
-            border-radius: 9999px;
-            border: none;
-            font-size: 1rem;
-            color: white;
-            cursor: pointer;
-            transition: .3s;
-            background-color: #5B7297;
-    }
-
-
-
-        .tagButtT {
-            padding: .2rem .75rem;
-            border-radius: 9999px;
-            border: none;
-            background-color: #292929;
-            font-size: 1rem;
-            color: white;
-            cursor: pointer;
-            transition: .3s;
-        }
-        .tagButtR:hover, .tagButtR:focus,   .tagButtT:hover, .tagButtT:focus {
-            filter: brightness(140%);
-            translate: 0 -.25rem;
-            transition: .3s;
-        }
-
-
-        .firstText {
+.firstText {
         width: calc(100% - 4rem);
         margin: 2rem auto;
         padding: 2rem;
@@ -164,7 +122,6 @@ const {linkFr} = Astro.props
         text-align: center;
         margin-inline: auto;
         font-style: normal;
-        font-size: clamp(1.5rem, calc(5vw + 1rem), 2.5rem );
     }
 
     h2:not(:first-child) {
@@ -264,6 +221,14 @@ const {linkFr} = Astro.props
 
     main {
         padding-block: 2rem;
+    }
+
+    .headerInfos {
+        gap: 1rem;
+    }
+
+    header h2 {
+        margin-block: 2rem;
     }
 
 

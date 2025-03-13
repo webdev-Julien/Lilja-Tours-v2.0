@@ -1,11 +1,11 @@
 ---
-const {bookLinkMercedes} = Astro.props;
+const {bookLinkMercedes, buttonText} = Astro.props;
 
 ---
 
 <a href={bookLinkMercedes} title="Book the tour in Mercedes V-Class"><button>
     <p class="book">BOOK</p>
-    <p class="car">Mercedes V-Class</p>
+    <p class="car">{buttonText}</p>
 </button></a>
 
 <style>
