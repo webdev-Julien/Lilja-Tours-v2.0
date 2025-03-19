@@ -129,4 +129,24 @@ li:not(:first-child)::before {
         }
     }
 
+    @media only screen and (max-width: 1500px) {
+        .listContainer {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+        }
+
+        h2 {
+            margin-bottom: 2rem;
+        }
+
+        #info {
+            padding-block: 2rem;
+        }
+
+        ul {
+            margin-block: 2rem;
+        }
+    }
+
 </style>
