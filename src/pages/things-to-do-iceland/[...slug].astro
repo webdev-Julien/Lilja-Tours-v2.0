@@ -1,0 +1,21 @@
+---
+import "../../styles/style.css"
+
+import ExcupageEN from "../../layouts/Excupage__EN.astro";
+
+import { getCollection } from "astro:content";
+import type { CollectionEntry } from "astro:content";
+
+export async function getStaticPaths() {
+    const daytours__EN: CollectionEntry<"excurs__EN">[] = await getCollection("excurs__EN")
+    return daytours__EN.map(entry => ({
+        params: {
+            slug: entry.slug
+        },
+        props: {entry}
+    }))
+}
+
+const { entry } = Astro.props
+---
+

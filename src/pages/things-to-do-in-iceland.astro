@@ -1,0 +1,223 @@
+---
+import { getCollection } from "astro:content";
+import type { CollectionEntry } from "astro:content";
+import ExcuCards from "../layouts/ExcuCards.astro";
+import "../styles/style.css"
+
+import TopBar from "../components/TopBar__EN.astro";
+
+import PicHeader from "../components/Pics/PicHeader.astro";
+import FooterEN from "../components/footer__EN.astro";
+import TagBarEN from "../components/tags/TagBar__EN.astro";
+
+
+const excurs__EN: CollectionEntry<"excurs__EN">[] = await getCollection("excurs__EN")
+
+---
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Discover luxury private day tours in Iceland. Explore stunning landscapes with exclusive, tailor-made experiences. Book now!">
+
+
+       <link rel="alternate" hreflang="fr" href="https://www.lilja-tours.com/fr/toutes-nos-excursions" />
+       <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+        <meta property="og:title" content="Discover all of our private tours">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="/pictures/list-all-tours/all-private-day-tours-in-iceland-pc.webp">
+        <meta property="og:url" content="https://www.lilja-tours.com/all-day-tours">
+        <meta property="og:description" content="Discover luxury private day tours in Iceland. Explore stunning landscapes with exclusive, tailor-made experiences. Book now!">
+
+        <meta property="og:locale" content="en_US">
+        <meta property="og:locale:alternate" content="fr_FR">
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="630">
+        <meta property="og:logo" content="/logos/Lilja-Tours-Full-Logo.png" />
+
+        <title>Private tours in Iceland | day tours | Lilja Tours</title>
+
+        <slot name="jsonld"></slot>
+
+    </head>
+
+    <header class="header">
+        <TopBar linkfr="/fr/toutes-nos-excursions"></TopBar>
+        <div class="headerContainerPic">
+            <PicHeader srcMobile="/pictures/list-all-tours/all-private-day-tours-in-iceland-mobile.webp" srcPC="/pictures/list-all-tours/all-private-day-tours-in-iceland-pc.webp" alt="Picture of stunning waterfalls in desertic landscapes" title="All of our day tours in Iceland"></PicHeader></div>
+            <div class="headerGradient"></div>
+            <div class="headerInfos">
+                <h1>Exclusive Private Day Tours in Iceland</h1>
+                <h2>Explore Iceland in style with our Luxury Tours</h2>
+              
+                <TagBarEN></TagBarEN>
+
+                
+            </div>
+        </div>
+    </header>
+
+    <main>
+        {excurs__EN.map((excu:any) => (
+
+        <ExcuCards
+excu = {excu}
+>
+
+</ExcuCards>
+))}
+    </main>
+
+</main>
+
+<FooterEN></FooterEN>
+</body>
+
+
+</html>
+
+<style>
+
+    .firstText {
+        width: calc(100% - 4rem);
+        margin: 2rem auto;
+        padding: 2rem;
+        background-color: rgba(255, 255, 255, 0.25);
+        border-radius: 1rem;
+
+        p {
+            width: 100%;
+        }
+    }
+
+    main h2 {
+        margin-bottom: 3rem;
+        width: 100%;
+        text-align: center;
+        margin-inline: auto;
+        font-style: normal;
+    }
+
+    h2:not(:first-child) {
+        margin-block: 5rem;
+    }
+
+   main {
+    width: 90%;
+    margin-inline: auto;
+    padding: 5rem 0;
+   }
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+
+}
+  .header {
+            min-height: 100dvh;
+            width: 100%;
+        }
+
+        .headerContainerPic {
+            width: 100%;
+            min-height: calc(100dvh - 3.5rem);
+            max-height: calc(100dvh - 3.5rem);
+            position: relative;
+        }
+
+        .headerGradient {
+            width: 100%;
+            min-height: calc(100dvh - 3.5rem);
+            max-height: calc(100dvh - 3.5rem);
+            position: absolute;
+            top: 3.5rem;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(255, 255, 255, 0.00) 99.06%);
+        }
+
+        .headerInfos {
+            position: absolute;
+            inset: 3.5rem 0 0 0;
+            display: flex;
+            height:  calc(100dvh - 3.5rem);
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            gap: 5rem;
+
+        }
+
+        h1 {
+        color: #FFF;
+        text-align: center;
+        font-size: clamp(2rem, calc(5vw + 1rem), 4rem );
+        font-weight: lighter;
+        min-width: min-content;
+        max-width: max-content;
+        text-wrap: balance;
+        animation-name: Title;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+    }
+
+    h2 {
+        color: #FFF;
+        text-align: center;
+        font-size: clamp(1.5rem, calc(5vw + 1rem), 2.5rem );
+        font-weight: lighter;
+        min-width: min-content;
+        max-width: max-content;
+        text-wrap: balance;
+        animation-name: Title;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+        font-style: italic;
+    }
+
+@keyframes Title {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+@media screen and (max-width: 800px) {
+    main h2 {
+        font-size: clamp(1rem, calc(1vw + 1rem), 2rem );
+    }
+
+    main p {
+        font-size: 1rem;
+    }
+
+    main {
+        padding-block: 2rem;
+    }
+
+    .headerInfos {
+        gap: 1rem;
+    }
+
+    header h2 {
+        margin-block: 2rem;
+    }
+
+    .wrapper {
+        width: 95%;
+        margin-inline: auto;
+    }
+
+    .firstText {
+        width: 95%;
+    }
+
+
+}
+
+</style>
