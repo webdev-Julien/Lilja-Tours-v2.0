@@ -8,10 +8,14 @@ import TopBar from "../components/TopBar__EN.astro";
 
 import PicHeader from "../components/Pics/PicHeader.astro";
 import FooterEN from "../components/footer__EN.astro";
-import TagBarEN from "../components/tags/TagBar__EN.astro";
+
 
 
 const excurs__EN: CollectionEntry<"excurs__EN">[] = await getCollection("excurs__EN")
+
+//const rvkCult = excurs__EN.filter((excurs:any)=> {
+  //  excurs.data.filter==="reykjavik" && excurs.data.filter2==="cult"
+//})
 
 ---
 
@@ -28,7 +32,7 @@ const excurs__EN: CollectionEntry<"excurs__EN">[] = await getCollection("excurs_
 
         <meta property="og:title" content="Discover all of our private tours">
         <meta property="og:type" content="website">
-        <meta property="og:image" content="/pictures/list-all-tours/all-private-day-tours-in-iceland-pc.webp">
+        <meta property="og:image" content="https://www.lilja-tours.com/pictures/excursions/whale-watching-reykjavik-mobile-pc.webp">
         <meta property="og:url" content="https://www.lilja-tours.com/all-day-tours">
         <meta property="og:description" content="Discover luxury private day tours in Iceland. Explore stunning landscapes with exclusive, tailor-made experiences. Book now!">
 
@@ -47,21 +51,26 @@ const excurs__EN: CollectionEntry<"excurs__EN">[] = await getCollection("excurs_
     <header class="header">
         <TopBar linkfr="/fr/toutes-nos-excursions"></TopBar>
         <div class="headerContainerPic">
-            <PicHeader srcMobile="/pictures/list-all-tours/all-private-day-tours-in-iceland-mobile.webp" srcPC="/pictures/list-all-tours/all-private-day-tours-in-iceland-pc.webp" alt="Picture of stunning waterfalls in desertic landscapes" title="All of our day tours in Iceland"></PicHeader></div>
+            <PicHeader srcMobile="/pictures/excursions/whale-watching-reykjavik-mobile.webp" srcPC="/pictures/excursions/whale-watching-reykjavik-pc.webp" alt="Picture of stunning waterfalls in desertic landscapes" title="All of our day tours in Iceland"></PicHeader></div>
             <div class="headerGradient"></div>
             <div class="headerInfos">
-                <h1>Exclusive Private Day Tours in Iceland</h1>
-                <h2>Explore Iceland in style with our Luxury Tours</h2>
-              
-                <TagBarEN></TagBarEN>
-
-                
+                <h1>Explore Iceland on your own</h1>
+                <h2>Book your excursion with one of our trusted partners all around Iceland</h2>
+                <p class="headerP">At <strong>Lilja Tours</strong>, we do not offer self-drive tour. Yet, for those interested in discovering the country fully independently, we provide the possibility to book the best excursions and tours with renowned tour-operators that we have been working with for years now. This curated list allows you to pick only the best possible activities, and at a better price, thanks to our promocode: <strong>LILJA5</strong>, that you may use upon booking. Happy exploration!</p>
             </div>
+           
         </div>
     </header>
 
     <main>
-        {excurs__EN.map((excu:any) => (
+        <div class="firstText">
+            <h2>Excursions from Reykjavík:</h2>
+            <p>All the below excursions offer a departure from Reykjavík. Some of them might require to go to a specific location, while others will offer pickup options. Explore our selection of Whale Watching tours, museums, shows, hot spring admissions and even helicopter tours.</p>
+         </div>
+         <h3>Cultural Experiences</h3>
+         <div class="wrapper">
+        {excurs__EN.filter((baba:any) => baba.data.filter==="reykjavik" && baba.data.filter2==="culture").map((excu:any) => (
+
 
         <ExcuCards
 excu = {excu}
@@ -69,9 +78,41 @@ excu = {excu}
 
 </ExcuCards>
 ))}
+
+    </div>
+    <h3>Whale Watching Tours</h3>
+    <div class="wrapper">
+   {excurs__EN.filter((baba:any) => baba.data.filter==="reykjavik" && baba.data.filter2==="ww").map((excu:any) => (
+
+
+   <ExcuCards
+excu = {excu}
+>
+
+</ExcuCards>
+))}
+
+</div>
+
+    <div class="firstText">
+        <h2>Excursions in the rest of Iceland:</h2>
+        <p>As you are exploring the country and wondering about what to do between two visits of our gorgeous landscapes while far away from the capital area, look no further! We are working with businesses all around the island, take your pick! </p>
+     </div>
+
+     <div class="wrapper">
+    {excurs__EN.filter((baba:any) => (baba.data.filter==="country")).map((excu:any) => (
+
+
+    <ExcuCards
+excu = {excu}
+>
+
+</ExcuCards>
+))}
+
+</div>
     </main>
 
-</main>
 
 <FooterEN></FooterEN>
 </body>
@@ -80,6 +121,20 @@ excu = {excu}
 </html>
 
 <style>
+
+h3 {
+  color: white;
+  font-size: clamp(1.25rem, 3vw, 2.5rem);
+  font-weight: lighter;
+  width: 95%;
+  margin: 5rem auto;
+  text-align: left;
+}
+
+    .headerP {
+        width: 50%;
+        margin-inline: auto;
+    }
 
     .firstText {
         width: calc(100% - 4rem);
@@ -206,6 +261,7 @@ excu = {excu}
 
     header h2 {
         margin-block: 2rem;
+        width: 95%;
     }
 
     .wrapper {
@@ -215,6 +271,11 @@ excu = {excu}
 
     .firstText {
         width: 95%;
+    }
+
+    .headerP {
+        width: 75%;
+        margin-inline: auto;
     }
 
 

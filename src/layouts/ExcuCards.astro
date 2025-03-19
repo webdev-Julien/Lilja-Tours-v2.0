@@ -28,7 +28,7 @@ interface Props {
                 {
                     excu.data.tag.map((tag:any) => (
                         
-                        <button><a href={"/things-to-do-iceland/"+tag.toLowerCase()} title={"list of"+tag}>{tag.charAt(0).toUpperCase() + tag.slice(1).replaceAll("-", " ")}</a></button>
+                        <div class="tagDiv">{tag}</div>
                     ))
                 }
             </div>
@@ -56,30 +56,13 @@ interface Props {
         gap: 1rem;
         margin-top: .75rem;
 
-        button {
+        .tagDiv {
             padding: .2rem .75rem;
             border-radius: 9999px;
             border: none;
             background-color: rgba(91, 114, 151, 0.3);
             font-size: 1rem;
             color: white;
-            cursor: pointer;
-            transition: .3s;
-        }
-
-        button:hover, button:focus {
-            filter: brightness(140%);
-            translate: 0 -.25rem;
-            transition: .3s;
-
-        }
-
-        button:first-child {
-            background-color: rgb(91, 114, 151);
-        }
-
-        button:first-child:hover, button:first-child:focus {
-            filter: brightness(120%);
             transition: .3s;
         }
     }

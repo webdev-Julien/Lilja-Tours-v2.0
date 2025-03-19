@@ -1,7 +1,7 @@
 ---
 import TopBar from "../components/TopBar__EN.astro"
 import PicHeader from "../components/Pics/PicHeader.astro"
-import HeaderInfos from "../layouts/HeaderInfos__EN.astro"
+import HeaderInfos from "../layouts/HeaderInfosExcu__EN.astro"
 import ItiSection from "../layouts/ItiSection__EN.astro"
 import InternalNav from "../components/InternalNav__EN.astro"
 import InfoSection from "./InfoSection__EN.astro"
@@ -28,30 +28,12 @@ const {
     pageTitle,
     linkFr,
     tourTitle,
-    season,
-    duration,
-    difficulty,
-    capacity,
-    bookButtons,
-    itiCoverImgSrcMobile, 
-    itiCoverImgSrcPC,
-    itiCoverImgAlt,
-    itiCoverImgTitle,
-    itiCoverTitle,
-    itiItems,
+    subTitle,
     headerCoverSrcMobile,
     headerCoverSrcPC,
     headerCoverAlt,
     headerCoverTitle,
-    gtk,
-    wtb,
-    i,
-    ni,
-    gallery,
-    vehicles,
-    form,
-    fulllinkFr,
-    taggies
+    fulllinkFr
 } = Astro.props
 
 ---
@@ -95,21 +77,9 @@ const {
                     
                     <HeaderInfos
                     tourTitle={tourTitle}
-                    season={season}
-                    duration={duration}
-                    difficulty={difficulty}
-                    capacity={capacity}
-                    >
-                
-                    <div slot="bookButtons" class="bookButtons">
-                        {bookButtons.map((button:any) => (
+                    subTitle={subTitle}
 
-                            <BookVClassEN
-                            bookLinkMercedes = {button.bookLink}
-                            buttonText = {button.textButton}
-                    ></BookVClassEN>
-                    ))}
-                    <ReadMore>
+                    >
                     </div>
                 
                 </HeaderInfos>
@@ -117,79 +87,24 @@ const {
             </div>
         </header>
 
-        <main>
-
-        <TagNavEN cateLink="/all-day-tours" home="DAY TOURS">
-
-                    {
-                        taggies.map((tag:any) => (
-                            
-                            <li><a href={"/private-day-tours-iceland/"+tag.toLowerCase()} title={"list of"+tag}><button class="tagButton">{tag.charAt(0).toUpperCase() + tag.slice(1).replaceAll("-", " ")}</button></a></li>
-                        ))
-                    }
-            </TagNavEN>
-
-
-            <ItiSection
-            itiCoverImgSrcMobile={itiCoverImgSrcMobile}
-            itiCoverImgSrcPC={itiCoverImgSrcPC}
-            itiCoverImgAlt={itiCoverImgAlt}
-            itiCoverImgTitle={itiCoverImgTitle}
-            itiCoverTitle={itiCoverTitle}
-            itiItems={itiItems}
-            ></ItiSection>
-            
-            <InfoSection
-            gtk={gtk}
-            wtb={wtb}
-            i={i}
-            ni={ni}
-            
-            ></InfoSection>
-
-            <GallerySection 
-            gallery={gallery}>
-            </GallerySection>
-
-            <BookSection tourTitle={tourTitle}>
-                <div slot="carCards" class="carCards">
-
-                    {vehicles.map((car:any) => (
-                        <BookCardEN
-                        vehicName={car.name}
-                        srcPC={car.srcPC}
-                        srcMobile={car.srcMobile}
-                        vehicAlt={car.alt}
-                        vehicleTitle={car.title}
-                        capacity={car.capacity}
-                        rate={car.rate}
-                        bookLink={car.bookLink}
-                        buttonText={car.name}
-                        ></BookCardEN>
-                    ))}
-
-                </div>
-            </BookSection>
-
-            <FormSection>
-                <div slot="form">
-                    <a href={form} title="fill a form" class="formA" target="_blank">
-                        <button class="formButton"><p class="formAction">Access our form</p></button>
-                    </a>
-                </div>
-            </FormSection>
-
-            
-
-
-            <InternalNav bookOrQuote="BOOK"></InternalNav>
-
-        </main>
+     <main>
+        <div class="wrapper">
+        <slot></slot></div>
+     </main>
 
     <FooterEN></FooterEN>
     </body>
 
     <style>
+
+        .wrapper  {
+            width: 50%;
+            margin: 3rem auto;
+            padding: 2rem 3rem;
+            background-color: hsl(0, 0%, 10%);
+            border-radius: 1rem;
+
+        }
 
         main {
             position: relative;
@@ -325,6 +240,14 @@ const {
     @media only screen and (max-height: 800px) {
         .bookButtons {
             gap: .75rem;
+        }
+
+    }
+
+    
+    @media only screen and (max-width: 800px) {
+        .wrapper {
+            width: 95%;
         }
 
     }

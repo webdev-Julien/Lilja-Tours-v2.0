@@ -1,0 +1,111 @@
+---
+import { Image } from "astro:assets";
+import calendar from "../assets/icons/calendar-white.svg"
+import hourglass from "../assets/icons/hourglass-white.svg"
+import level from "../assets/icons/difficulty-white.svg"
+import groupSize from "../assets/icons/group-size-white.svg"
+
+const {
+
+    tourTitle,
+    subTitle
+} = Astro.props
+
+---
+
+<div class="headerContainer">
+    <h1>{tourTitle}</h1>
+    <div class="tourInfos">
+       <h2 class="subTitle">{subTitle}</h2>
+    </div>
+
+
+        <slot name="bookButtons"></slot>
+
+    
+</div>
+
+<style>
+
+    .headerContainer {
+        padding-block: 2.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        width: 35%;
+        margin-inline: auto;
+    }
+
+    h1 {
+        color: #FFF;
+        text-align: center;
+        font-size: clamp(2rem, calc(5vw + 1rem), 4rem );
+        font-weight: lighter;
+        min-width: min-content;
+        max-width: max-content;
+        text-wrap: balance;
+        animation-name: Title;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+    }
+
+    .subTitle {
+        color: #FFF;
+  text-align: center;
+  font-size: clamp(1.5rem, calc(5vw + 1rem), 2.5rem );
+  font-weight: lighter;
+  min-width: min-content;
+  max-width: max-content;
+  text-wrap: balance;
+
+  font-style: italic;
+    }
+
+@keyframes Title {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+    .tourInfos {
+        display: flex;
+        gap: 1.25rem;
+        width: 100%;
+        margin-inline: auto;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        animation-name: Title;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+    }
+
+    .tourInfo {
+        display: flex;
+        justify-content: space-between;
+        width: max-content;
+        align-items: center;
+    }
+
+    .info {
+        color: white;
+        margin: 0;
+    }
+    .info::before {
+        content: " ";
+        white-space: pre;
+    }
+
+    @media only screen and (max-height: 800px) {
+    
+        .headerContainer {
+            gap: 1rem;
+        }
+
+        .bookButtons {
+            gap: .75rem;
+        }
+    }
+</style>
