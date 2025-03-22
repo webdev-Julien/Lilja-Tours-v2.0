@@ -247,8 +247,8 @@ const excurs__EN = defineCollection({
 
     metaDescription: z.string(),
 
-    filter: z.string(),
-    filter2: z.string(),
+    filter: z.string().optional(),
+    filter2: z.string().optional(),
   }),
 });
 

@@ -13,9 +13,12 @@ import FooterEN from "../components/footer__EN.astro";
 
 const excurs__EN: CollectionEntry<"excurs__EN">[] = await getCollection("excurs__EN")
 
-//const rvkCult = excurs__EN.filter((excurs:any)=> {
-  //  excurs.data.filter==="reykjavik" && excurs.data.filter2==="cult"
-//})
+const rvkCult = excurs__EN.filter((excurs:any) =>  excurs.data.filter==="reykjavik" && excurs.data.filter2 === "culture")
+
+const rvkWw = excurs__EN.filter((excurs:any) =>  excurs.data.filter==="reykjavik" && excurs.data.filter2 === "ww")
+
+
+
 
 ---
 
@@ -69,7 +72,7 @@ const excurs__EN: CollectionEntry<"excurs__EN">[] = await getCollection("excurs_
          </div>
          <h3>Cultural Experiences</h3>
          <div class="wrapper">
-        {excurs__EN.filter((baba:any) => baba.data.filter==="reykjavik" && baba.data.filter2==="culture").map((excu:any) => (
+        {rvkCult.map((excu:any) => (
 
 
         <ExcuCards
@@ -82,15 +85,15 @@ excu = {excu}
     </div>
     <h3>Whale Watching Tours</h3>
     <div class="wrapper">
-   {excurs__EN.filter((baba:any) => baba.data.filter==="reykjavik" && baba.data.filter2==="ww").map((excu:any) => (
+        {rvkWw.map((excu:any) => (
 
 
-   <ExcuCards
-excu = {excu}
->
-
-</ExcuCards>
-))}
+            <ExcuCards
+    excu = {excu}
+    >
+    
+    </ExcuCards>
+    ))}
 
 </div>
 
