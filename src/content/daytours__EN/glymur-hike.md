@@ -95,7 +95,7 @@ WhatToBring: [
 ]
 
 Included: [
-  "Private glacier guide",
+  "Private hiking guide",
   "Transportation from Reykjavík"
 ]
 

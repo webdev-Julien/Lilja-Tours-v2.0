@@ -89,7 +89,7 @@ WhatToBring: [
 
 Included: [
   "Private glacier guide",
-  "Glacier Gears"
+  "Glacier Gear(s)"
 ]
 
 nonIncluded: [

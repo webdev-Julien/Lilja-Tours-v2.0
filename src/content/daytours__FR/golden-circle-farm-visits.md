@@ -15,7 +15,7 @@ language: "fr"
 
 
 # Tour datas
-duration: "6"
+duration: "8-9"
 capacity: "6"
 season: "Toute l'année"
 difficulty: "Sans difficultés"

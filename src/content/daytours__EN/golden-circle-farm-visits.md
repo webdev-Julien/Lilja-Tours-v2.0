@@ -16,7 +16,7 @@ language: "en"
 
 
 # Tour datas
-duration: "6"
+duration: "8-9"
 capacity: "6"
 season: "All year"
 difficulty: "No difficulty"

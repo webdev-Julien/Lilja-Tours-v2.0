@@ -78,7 +78,7 @@ itiItems: [
 
 goodToKnow: [
   "The arctic nights are cold", 
-  "The tour can be canceled depending on weatehr forecasts",
+  "The tour can be canceled depending on weather forecasts",
   "We recommend you book as early as possible during your trip",
   "We provide hot chocolate and photography",
   "Northern Lights are not guaranteed"
