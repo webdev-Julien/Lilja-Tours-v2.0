@@ -7,7 +7,7 @@ jeepISK: 159000
 filter: "norm"
 
 # Head and metas
-pageTitle: "Randonnée à Glymur en Islande | Excursions d'exception | Lilja Tours"
+pageTitle: "Randonnée à Glymur en Islande | Excursions d'exception "
 description: "Partez en randonnée privée vers Glymur, la deuxième plus haute cascade d’Islande ! Traversez des rivières, admirez des paysages grandioses et vivez une aventure unique."
 ogTitle: "Excursion privée: Randonnée vers Glymur"
 ogImage: "/pictures/glymur/card/glymur.webp"

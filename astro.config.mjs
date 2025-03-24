@@ -1,19 +1,19 @@
 // @ts-check
 // @ts-check
-import { defineConfig } from 'astro/config';
+import { defineConfig } from "astro/config";
 
-import mdx from '@astrojs/mdx';
+import mdx from "@astrojs/mdx";
 
-import sitemap from '@astrojs/sitemap';
+import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://www.lilja-tours.com',
-   base: '/',
-  outDir: 'dist',
+  site: "https://www.lilja-tours.com",
+  base: "/",
+  outDir: "dist",
   build: {
-    format: "directory"
+    format: "directory",
   },
-  trailingSlash: 'always',
+  trailingSlash: "ignore",
   integrations: [mdx(), sitemap()],
 });

@@ -21,10 +21,10 @@ tag: ["Cultural Experience"]
 rate: 5990
 
 linkFr: "/fr/a-faire-en-islande/perlan-musee-reykjavik"
-hrefLang: "https://www.lilja-tours.com/fr/a-faire-en-islande/perlan-musee-reykjavik"
+hrefLang: "https://www.lilja-tours.com/fr/a-faire-en-islande/perlan-musee-reykjavik/"
 
 url: ""
-pageTitle: "Perlan museum in Reykjavík | Lilja Tours"
+pageTitle: "Perlan museum in Reykjavík "
 metaDescription: ""
 
 filter: "reykjavik"
@@ -40,16 +40,19 @@ Step into the heart of Iceland’s geological story at **Wonders of Iceland**, a
 One of the highlights is **Áróra**, Iceland’s only **planetarium show**, where you'll embark on a stunning visual exploration of the **Northern Lights**—a cinematic experience like no other. Cap off your visit with panoramic views of Reykjavik from the **360° observation deck**, offering unbeatable photo opportunities.
 
 ## What's Included
+
 - Admission to **Wonders of Iceland** exhibition
 - Ticket to **Áróra – Northern Lights Planetarium show**
 - Access to the **360° Observation Deck**
 
 ## Good to Know
+
 - **Wheelchair and stroller accessible**
 - Suitable for guests with **limited mobility**
 - Open daily from **09:00 to 21:00** (hours may vary on holidays and special events)
 
 ## Cancellation Policy
+
 - **100% cancellation fee** if cancelled **1 day or less** before the scheduled visit
 - **Free cancellation** if cancelled earlier
 
@@ -88,7 +91,7 @@ font-weight: normal;
 main h2 {
 font-style: normal;
 text-align: left;
-font-weight: bold;
+font-weight: normal;
 text-decoration: underline;
 }
 

@@ -7,7 +7,7 @@ jeepISK: 249000
 filter: "norm"
 
 # Head and metas
-pageTitle: "South Coast and Glacier Hike | Luxury private tour | Lilja Tours"
+pageTitle: "South Coast and Glacier Hike | Luxury private tour "
 description: "​Embark on a private South Coast adventure with Lilja Tours. Explore Seljalandsfoss and Skógafoss waterfalls, stroll along Reynisfjara black sand beach, and hike Sólheimajökull glacier. ​"
 ogTitle: "Private tour: South Coast and Glacier Hike"
 ogImage: "/pictures/south-coast-glacier-hike/card/south-coast-glacier-hike.webp"

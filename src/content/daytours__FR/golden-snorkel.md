@@ -7,7 +7,7 @@ jeepISK: 185000
 filter: "extra"
 
 # Head and metas
-pageTitle: "Cercle d'or et Masque et tuba dans silfra | Excursions d'exception | Lilja Tours"
+pageTitle: "Cercle d'or et Masque et tuba dans silfra | Excursions d'exception "
 description: " Découvrez le Cercle d’Or en Islande : Þingvellir et ses plaques tectoniques, Strokkur en éruption, Gullfoss majestueuse et plongez dans les eaux cristallines de Silfra."
 ogTitle: "Excursions privées: Le cercle d'or"
 ogImage: "/pictures/golden-snorkel/card/golden-snorkel.webp"

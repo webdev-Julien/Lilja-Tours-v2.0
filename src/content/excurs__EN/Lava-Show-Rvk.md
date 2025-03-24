@@ -24,7 +24,7 @@ linkFr: "/fr/a-faire-en-islande/le-lava-show-reykjavik"
 hrefLang: "https://www.lilja-tours.com/fr/a-faire-en-islande/le-lava-show-reykjavik"
 
 url: ""
-pageTitle: "The Lava Show in Reykjavík | Lilja Tours"
+pageTitle: "The Lava Show in Reykjavík "
 metaDescription: ""
 
 filter: "reykjavik"
@@ -117,7 +117,7 @@ font-weight: normal;
 main h2 {
 font-style: normal;
 text-align: left;
-font-weight: bold;
+font-weight: normal;
 text-decoration: underline;
 }
 

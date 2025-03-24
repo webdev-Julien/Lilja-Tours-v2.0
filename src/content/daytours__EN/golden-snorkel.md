@@ -7,7 +7,7 @@ jeepISK: 185000
 filter: "extra"
 
 # Head and metas
-pageTitle: "Golden Circle and Silfra Snorkel | Luxury private tour | Lilja Tours"
+pageTitle: "Golden Circle and Silfra Snorkel | Luxury private tour "
 description: "Explore Iceland’s Golden Circle, from Þingvellir’s tectonic wonders to the erupting Strokkur and the majestic Gullfoss, and snorkel in the crystal-clear waters at Silfra."
 ogTitle: "Private tour: Golden Snorkel"
 ogImage: "/pictures/golden-snorkel/card/golden-snorkel.webp"

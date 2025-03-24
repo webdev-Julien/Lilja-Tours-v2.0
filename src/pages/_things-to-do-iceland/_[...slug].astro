@@ -10,7 +10,7 @@ export async function getStaticPaths() {
     const daytours__EN: CollectionEntry<"excurs__EN">[] = await getCollection("excurs__EN")
     return daytours__EN.map(entry => ({
         params: {
-            slug: entry.slug
+            slug: entry.slug+"/"
         },
         props: {entry}
     }))
@@ -27,7 +27,7 @@ description = {entry.data.metaDescription}
 fulllinkFr= {entry.data.hrefLang}
 ogTitle= {entry.data.pageTitle}
 ogImage= {entry.data.pageCover.srcPC}
-url= {"https://lilja-tours.com/things-to-do-iceland/"+entry.slug}
+url= {"https://lilja-tours.com/things-to-do-iceland/"+entry.slug+"/"}
 pageTitle= {entry.data.pageTitle}
 linkFr= {entry.data.linkFr}
 headerCoverSrcMobile= {entry.data.pageCover.srcMobile}

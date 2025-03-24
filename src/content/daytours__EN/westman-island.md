@@ -7,7 +7,7 @@ jeepISK: 250000
 filter: "norm"
 
 # Head and metas
-pageTitle: "Westman Islands - Vetsmannaeyjar | Luxury private tour | Lilja Tours"
+pageTitle: "Westman Islands - Vetsmannaeyjar | Luxury private tour "
 description: "Explore the Westman Islands on a private tour! Enjoy ferry rides, spot puffins, see Elephant Rock, hike Eldfell volcano, and visit the Eldheimar Museum."
 ogTitle: "Private tour: Westman Islands"
 ogImage: "/pictures/westman-islands/card/westman-islands.webp"

@@ -7,7 +7,7 @@ jeepISK: 250000
 filter: "norm"
 
 # Head and metas
-pageTitle: "Landmannalaugar dans les hautes terres islandaises | Excursion d'exception | Lilja Tours"
+pageTitle: "Landmannalaugar dans les hautes terres islandaises | Excursion d'exception "
 description: "Explorez Landmannalaugar en randonnée privée. Découvrez champs de lave, montagnes colorées et vues à couper le souffle. Réservez votre aventure !"
 ogTitle: "Visite privée: Landmannalaugar"
 ogImage: "/pictures/landmannalaugar-heat/card/landmannalaugar.webp"

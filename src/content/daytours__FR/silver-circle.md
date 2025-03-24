@@ -7,7 +7,7 @@ jeepISK: 169000
 filter: "extra"
 
 # Head and metas
-pageTitle: "Borgarfjörður, le cercle d'argent | Excursions d'exception | Lilja Tours"
+pageTitle: "Borgarfjörður, le cercle d'argent | Excursions d'exception "
 description: "Partez en excursion privée à Borgarfjörður et explorez Hraunfossar, Barnafoss, Deildartunguhver, la grotte de Viðgelmir et les sources chaudes de Hvammsvík."
 ogTitle: "Excursion privée: Le cercle d'argent"
 ogImage: "/pictures/silver-circle/card/silver-circle.webp"

@@ -7,7 +7,7 @@ jeepISK: 169000
 filter: "extra"
 
 # Head and metas
-pageTitle: "Borgarfjörður, silver circle | Luxury private tour | Lilja Tours"
+pageTitle: "Borgarfjörður, silver circle | Luxury private tour "
 description: "Embark on a private tour to Borgarfjörður and explore Hraunfossar, Barnafoss, Deildartunguhver, Viðgelmir Cave, and the hot springs of Hvammsvík."
 ogTitle: "Private tour: The Silver Circle"
 ogImage: "/pictures/silver-circle/card/silver-circle.webp"

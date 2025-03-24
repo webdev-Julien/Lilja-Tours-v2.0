@@ -8,7 +8,7 @@ filter: "norm"
 
 
 # Head and metas
-pageTitle: "Golden Circle and farm lunch | Luxury private tour | Lilja Tours"
+pageTitle: "Golden Circle and farm lunch | Luxury private tour "
 description: "Discover Iceland's Golden Circle with private tours by Lilja Tours, including visits to Thingvellir National Park, Strokkur geyser, Gullfoss waterfall, and local farms for unique culinary experiences."
 ogTitle: "Private tour: Golden Circle Culinary Experience"
 ogImage: "/pictures/golden-circle-farm-visits/card/golden-circle-farm-visits.webp"

@@ -18,13 +18,13 @@ title2: "Observe the giants of the sea in their natural habitat"
 
 tag: ["Whale watching"]
 
-rate: 5990
+rate: 23490
 
 linkFr: "/fr/a-faire-en-islande/observation-baleines-reykjavik"
-hrefLang: "https://www.lilja-tours.com/fr/a-faire-en-islande/observation-baleines-reykjavik"
+hrefLang: "https://www.lilja-tours.com/fr/a-faire-en-islande/observation-baleines-reykjavik/"
 
 url: ""
-pageTitle: "Whale watching in Reykjavík | Lilja Tours"
+pageTitle: "Whale watching in Reykjavík "
 metaDescription: ""
 
 filter: "reykjavik"
@@ -32,11 +32,12 @@ filter2: "ww"
 
 slug: whale-watching-reykjavik
 ---
+
 Set sail on an unforgettable marine adventure, departing from the heart of Reykjavík’s Old Harbour. Choose between two unique ways to experience the rich wildlife of Faxaflói Bay: the **Whale Watching Classic** or the **Whale Watching Express**. Whether you prefer a relaxed cruise or a high-speed thrill, there’s a perfect tour waiting for you.
 
 ## Whale Watching Classic – Year-Round (3 to 3.5 Hours)
 
-Our flagship experience, the Classic Tour, runs all year aboard *Andrea*—our largest and most comfortable vessel. Designed with families and wildlife lovers in mind, it offers:
+Our flagship experience, the Classic Tour, runs all year aboard _Andrea_—our largest and most comfortable vessel. Designed with families and wildlife lovers in mind, it offers:
 
 - Spacious indoor lounges and open decks for optimal viewing.
 - Fascinating onboard exhibits featuring whale bones, baleen, and teeth.
@@ -44,7 +45,7 @@ Our flagship experience, the Classic Tour, runs all year aboard *Andrea*—our l
 
 ## Whale Watching Express – Summer Only (2 to 2.5 Hours)
 
-Short on time but big on adventure? The Express Tour gets you to the whale watching grounds faster aboard *Lilja*, our speedy and sleek vessel.
+Short on time but big on adventure? The Express Tour gets you to the whale watching grounds faster aboard _Lilja_, our speedy and sleek vessel.
 
 - Operates from June 1st to September 30th.
 - Ideal for travelers seeking a quicker, more exhilarating journey.
@@ -62,20 +63,24 @@ The waters of Faxaflói Bay are teeming with life. On your tour, you might spot:
 ## Departure Schedule
 
 **Whale Watching Classic**  
-*Available Year-Round*
-- 09:00 – March 1st to November 15th  
-- 13:00 – Daily, all year  
+_Available Year-Round_
+
+- 09:00 – March 1st to November 15th
+- 13:00 – Daily, all year
 - 17:00 – May 15th to September 30th
 
 **Whale Watching Express**  
-*June 1st to September 30th*
-- 10:00 – Daily  
-- 14:00 – Daily  
+_June 1st to September 30th_
+
+- 10:00 – Daily
+- 14:00 – Daily
 - 21:00 – June 15th to July 31st (Note: No transfer service available for this time slot)
 
 Explore the ocean like never before—whether you're here for calm waters or a pulse-quickening ride, Reykjavík’s whale watching tours promise memories that last a lifetime.
 
+<script type="text/javascript" src="https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=97236c68-b945-4a96-8587-660bdc4c45fd" async></script>
 
+<div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/20499"></div>
 
 <style>
 p {
@@ -103,11 +108,10 @@ font-weight: normal;
 }
 
 
-
 main h2 {
 font-style: normal;
 text-align: left;
-font-weight: bold;
+font-weight: normal;
 text-decoration: underline;
 }
 

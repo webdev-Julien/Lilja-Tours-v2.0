@@ -7,7 +7,7 @@ jeepISK: 179000
 filter: "norm"
 
 # Head and metas
-pageTitle: "South Coast Iceland | Luxury private tour | Lilja Tours"
+pageTitle: "South Coast Iceland | Luxury private tour "
 description: "Explore Iceland's stunning South Coast with a private tour. Discover waterfalls, black sand beaches, and glaciers. Book your adventure today!"
 ogTitle: "Private tour: South Coast Highlights"
 ogImage: "/pictures/south-coast-highlights/card/south-coast-highlights.webp"

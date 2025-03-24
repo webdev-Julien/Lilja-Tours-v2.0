@@ -1,0 +1,124 @@
+---
+cardCover:
+  {
+    src: "/pictures/excursions/special-tours-whale-watching-reykjavik/whale-watching-rib-boat-card.webp",
+    alt: "Humpack whale right next to a Rib Boat",
+    title: "Book a whale watching tour in Reykjavík",
+  }
+pageCover:
+  {
+    srcPC: "/pictures/excursions/special-tours-whale-watching-reykjavik/whale-watching-rib-boat-header-pc.webp",
+    srcMobile: "/pictures/excursions/special-tours-whale-watching-reykjavik/whale-watching-rib-boat-header-mobile.webp",
+    alt: "Humpack whale right next to a Rib Boat",
+    title: "Book a whale watching tour in Reykjavík",
+  }
+
+title1: "Whale watching in RIB boats – Reykjavík"
+title2: "Get intimate with the Whales Of Iceland"
+
+tag: ["Whale watching"]
+
+rate: 23490
+
+linkFr: "/fr/a-faire-en-islande/observation-baleines-zodiac-reykjavik"
+hrefLang: "https://www.lilja-tours.com/fr/a-faire-en-islande/observation-baleines-zodiac-reykjavik/"
+
+url: ""
+pageTitle: "Whale watching Express in Reykjavík "
+metaDescription: ""
+
+filter: "reykjavik"
+filter2: "ww"
+
+slug: whale-watching-rib-boat-reykjavik
+---
+
+## High-Speed Whale Watching Adventure in Reykjavík
+
+**Feel the thrill of the ocean and witness Iceland’s incredible marine life up close!**
+
+Hop aboard our newest RIB (Rigid Inflatable Boat) for a fast-paced, unforgettable 2-hour whale watching tour. This express adventure is perfect for those looking to make the most of their time in Reykjavík while experiencing nature at its wildest.
+
+## Get Closer Than Ever to Whales in Faxaflói Bay
+
+Our specially designed 12-meter boat allows for close encounters with whales in a way that's safe for both you and the wildlife. With a cruising speed of 32 knots, we spend less time getting there and more time where the whales are feeding.
+
+## Puffins, Speed, and Coastal Views
+
+During the summer months, we make a stop at Akurey, also known as Puffin Island, to see these charismatic seabirds in their natural nesting grounds. Afterward, we zoom across the bay, feeling the sea breeze and excitement build. On our return, enjoy a scenic ride along the beautiful Reykjavík coastline — a fantastic moment to snap some photos of the city from the sea.
+
+## Bonus: Free Entry to Whales of Iceland
+
+Every RIB Express ticket includes free admission to the **Whales of Iceland Exhibition**, located nearby in the harbor area. We highly recommend visiting before or after your tour to enrich your whale watching experience.
+
+## What's Included
+
+- 2-hour guided whale watching tour on a RIB boat
+- Entrance to **Whales of Iceland Exhibition**
+- Professional English-speaking guide
+- Visit to Puffin Island (seasonal)
+- Scenic return along the Reykjavík coast
+- Warm floatable overalls, gloves, goggles & lifevests
+- Suspension seats for added comfort
+
+## Not Included
+
+- Hotel pickup/drop-off (available at extra cost)
+
+## Important to Know
+
+- **Check-in required at least 30 minutes before departure** for a safety briefing and gear fitting.
+- Late arrivals (less than 15 minutes before departure) may not be accommodated, and no refunds will be issued.
+- **No whale sightings?** You’ll receive a complimentary ticket to join a Classic or Express Whale Watching tour on another day.
+
+## What Should You Bring?
+
+- Dress in **warm layers**, wear **sturdy footwear**, and don’t forget **sunscreen** and your **camera**!
+
+## Cancellation Policy
+
+- Cancellations made **less than 24 hours** before departure are non-refundable (100% fee).
+
+## Multilingual Audio App Available
+
+Enhance your experience with our app, available in English, German, French, Spanish, and Simplified Chinese. Download it during your trip for a self-guided wildlife audio tour that complements your adventure on the water.
+
+<script type="text/javascript" src="https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=97236c68-b945-4a96-8587-660bdc4c45fd" async></script>
+
+<div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/20499"></div>
+
+<style>
+p {
+line-height: 1.4;
+color: white;
+font-size: clamp(0.8rem, 2vw, 1.3rem);
+font-weight: lighter;
+margin-block: 1rem;
+text-align: justify;
+margin-block: 2rem;
+}
+
+li {
+line-height: 1.4;
+color: white;
+font-size: clamp(0.8rem, 2vw, 1.3rem);
+font-weight: lighter;
+margin-block: 1rem;
+text-align: justify;
+
+}
+
+strong {
+font-weight: normal;
+}
+
+
+
+main h2 {
+font-style: normal;
+text-align: left;
+font-weight: normal;
+text-decoration: underline;
+}
+
+</style>

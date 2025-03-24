@@ -7,7 +7,7 @@ jeepISK: 250000
 filter: "norm"
 
 # Head and metas
-pageTitle: "Þórsmörk dans les hautes-terres islandaises | Excursions d'exception | Lilja Tours"
+pageTitle: "Þórsmörk dans les hautes-terres islandaises | Excursions d'exception "
 description: "Explorez les Hautes Terres islandaises lors d'une excursion privée à Þórsmörk ! Randonnez à Nauthúsagíl, gravissez Valahnúkur et explorez Stakkholtsgjá."
 ogTitle: "Excursion guidée: Þórsmörk"
 ogImage: "/pictures/thorsmork/card/thorsmork.webp"

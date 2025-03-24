@@ -8,7 +8,7 @@ filter: "norm"
 
 
 # Head and metas
-pageTitle: "Vikings et Cascade | Excursion d'exception | Lilja Tours"
+pageTitle: "Vikings et Cascade | Excursion d'exception "
 description: "Explorez les trésors cachés de l'Islande lors d’un circuit privé ! Cascades spectaculaires, ruines vikings, oasis verdoyantes et festin viking. Une aventure unique !"
 ogTitle: "Visite privée: Vikings et Cascades"
 ogImage: "/pictures/vikings-waterfalls/card/vikings-waterfalls.webp"

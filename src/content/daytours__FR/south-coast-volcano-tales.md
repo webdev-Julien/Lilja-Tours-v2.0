@@ -7,7 +7,7 @@ jeepISK: 190000
 filter: "extra"
 
 # Head and metas
-pageTitle: "Côte sud et contes volcaniques | Excursions d'exception | Lilja Tours"
+pageTitle: "Côte sud et contes volcaniques | Excursions d'exception "
 description: "Découvrez la Côte Sud islandaise en tour privé ! Admirez Skógafoss, Seljalandsfoss, Reynisfjara, Sólheimajökull et le Lava Show pour une aventure volcanique."
 ogTitle: "Excursions privées: Côte Sud et Contes Volcaniques"
 ogImage: "/pictures/south-coast-volcano-tales/card/the-lava-show.webp"

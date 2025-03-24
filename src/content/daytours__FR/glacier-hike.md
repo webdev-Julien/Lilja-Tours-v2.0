@@ -7,7 +7,7 @@ jeepISK: 139000
 filter: "norm"
 
 # Head and metas
-pageTitle: "Rando glacier en Islande | Excursion privée | Lilja Tours"
+pageTitle: "Rando glacier en Islande | Excursion privée "
 description: "Profitez d'une randonnée privée sur le glacier Sólheimajökull ! Marchez sur la glace avec un guide expert, loin de la foule, et admirez un paysage époustouflant."
 ogTitle: "Excursion privée: Marche sur glacier en Islande"
 ogImage: "/pictures/glacier-hike/card/glacier-hike.webp"

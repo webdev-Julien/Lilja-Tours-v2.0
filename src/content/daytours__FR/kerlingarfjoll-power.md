@@ -7,7 +7,7 @@ jeepISK: 250000
 filter: "norm"
 
 # Head and metas
-pageTitle: "Kerlingarfjöll dans les hautes terres islandaises | Excursions d'exception | Lilja Tours"
+pageTitle: "Kerlingarfjöll dans les hautes terres islandaises | Excursions d'exception "
 description: "Partez en randonnée privée à Kerlingarfjöll, entre sources chaudes fumantes, montagnes orangées et vues glaciaires pour une aventure islandaise unique."
 ogTitle: "Randonnée avec guide privé: Kerlingarfjöll"
 ogImage: "/pictures/kerlingarfjoll/card/kerlingarfjoll.webp"

@@ -7,7 +7,7 @@ jeepISK: 159000
 filter: "norm"
 
 # Head and metas
-pageTitle: "Péninsule de Reykjanes | Excursion d'exception | Lilja Tours"
+pageTitle: "Péninsule de Reykjanes | Excursion d'exception "
 description: "Découvrez la péninsule de Reykjanes en visite privée. Explorez Seltún, Gunnuhver, Nátthagi et Stampar. Merveilles volcaniques vous attendent !"
 ogTitle: "Visite privée: Péninsule de Reykjanes"
 ogImage: "/pictures/reykjanes-colors/card/reykjanes-colors.webp"

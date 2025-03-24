@@ -7,7 +7,7 @@ jeepISK: 250000
 filter: "norm"
 
 # Head and metas
-pageTitle: "Þórsmörk in the Icelandic highlands | Luxury private tour | Lilja Tours"
+pageTitle: "Þórsmörk in the Icelandic highlands | Luxury private tour "
 description: "Explore Iceland’s Highlands on a private Þórsmörk tour! Hike Nauthúsagíl’s waterfall, conquer Valahnúkur’s peak & wander through Stakkholtsgjá canyon."
 ogTitle: "Private tour: Þórsmörk"
 ogImage: "/pictures/thorsmork/card/thorsmork.webp"

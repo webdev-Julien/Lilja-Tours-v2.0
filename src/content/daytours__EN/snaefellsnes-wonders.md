@@ -8,7 +8,7 @@ filter: "norm"
 
 
 # Head and metas
-pageTitle: "Snæfellsnes Peninsula Iceland | Luxury private tour | Lilja Tours"
+pageTitle: "Snæfellsnes Peninsula Iceland | Luxury private tour "
 description: "Explore Snæfellsnes Peninsula on a private tour. Visit Arnarstapi, Kirkjufell, and Djúpalónssandur. Book your Icelandic adventure with us."
 ogTitle: "Private tour: Snæfellsnes Peninsula"
 ogImage: "/pictures/snaefellsnes-wonders/card/snaefellsnes-private-tour.webp"

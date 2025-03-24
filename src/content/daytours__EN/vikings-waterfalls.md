@@ -7,7 +7,7 @@ jeepISK: 190000
 filter: "norm"
 
 # Head and metas
-pageTitle: "Vikings and Waterfalls | Luxury private tour | Lilja Tours"
+pageTitle: "Vikings and Waterfalls | Luxury private tour "
 description: "Explore Iceland’s hidden gems on a private tour! Visit stunning waterfalls, Viking ruins, lush oases, and end with a Viking feast. A journey through history and nature!"
 ogTitle: "Private tour: Vikings and Waterfalls"
 ogImage: "/pictures/vikings-waterfalls/card/vikings-waterfalls.webp"

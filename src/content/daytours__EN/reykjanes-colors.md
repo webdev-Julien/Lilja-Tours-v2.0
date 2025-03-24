@@ -7,7 +7,7 @@ jeepISK: 159000
 filter: "norm"
 
 # Head and metas
-pageTitle: "Reykjanes Peninsula | Luxury private tour | Lilja Tours"
+pageTitle: "Reykjanes Peninsula | Luxury private tour "
 description: "Discover Reykjanes Peninsula on a private tour. Explore Seltún, Gunnuhver, Nátthagi, and Stampar's stunning landscapes. Volcanic wonders await!"
 ogTitle: "Private tour: Reykjanes peninsula"
 ogImage: "/pictures/reykjanes-colors/card/reykjanes-colors.webp"

@@ -8,7 +8,7 @@ filter: "norm"
 
 
 # Head and metas
-pageTitle: "Kerlingarfjöll in the Icelandic highlands | Luxury private tour | Lilja Tours"
+pageTitle: "Kerlingarfjöll in the Icelandic highlands | Luxury private tour "
 description: "Embark on a private hike in Kerlingarfjöll, where steaming hot springs, vibrant orange mountains & glacial views create a surreal Icelandic adventure."
 ogTitle: "Private tour: Kerlingarfjöll"
 ogImage: "/pictures/kerlingarfjoll/card/kerlingarfjoll.webp"

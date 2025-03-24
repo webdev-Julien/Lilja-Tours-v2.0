@@ -7,7 +7,7 @@ jeepISK: 173000
 filter: "norm"
 
 # Head and metas
-pageTitle: "Northern Lights Tour Iceland | Luxury private tour | Lilja Tours"
+pageTitle: "Northern Lights Tour Iceland | Luxury private tour "
 description: "Experience a private Northern Lights tour in Iceland. Escape city lights, chase the Aurora Borealis, and marvel at a starlit sky in pristine darkness."
 ogTitle: "Private tour: Northern Lights Hunting in Iceland"
 ogImage: "/pictures/northern-lights/card/northern-lights.webp"
