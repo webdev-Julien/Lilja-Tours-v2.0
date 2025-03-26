@@ -1,0 +1,69 @@
+---
+cardCover:
+  {
+    src: "/pictures/excursions/sky-lagoon-saman-pass/sky-lagoon-saman-pass-card.webp",
+    alt: "A woman is bathing in the Sky Lagoon Hot Springs",
+    title: "Book the Sky Lagoon in Reykjavík",
+  }
+pageCover:
+  {
+    srcPC: "/pictures/excursions/sky-lagoon-saman-pass/sky-lagoon-saman-pass-header-pc.webp",
+    srcMobile: "/pictures/excursions/sky-lagoon-saman-pass/sky-lagoon-saman-pass-header-mobile.webp",
+    alt: "A woman is bathing in the Sky Lagoon Hot Springs",
+    title: "Book the Sky Lagoon in Reykjavík",
+  }
+
+title1: "The Sky Lagoon – Pure Pass"
+title2: "Iceland’s Ultimate Geothermal Escape"
+
+tag: ["Hot Spring"]
+
+rate: 12990
+
+linkFr: "/fr/a-faire-en-islande/reserver-sky-lagoon-saman-pass/"
+hrefLang: "https://www.lilja-tours.com/fr/a-faire-en-islande/reserver-sky-lagoon-saman-pass/"
+
+url: ""
+pageTitle: "The Sky Lagoon in Reykjavík"
+metaDescription: ""
+
+filter: "reykjavik"
+filter2: "hotS"
+
+slug: book-sky-lagoon-pure-pass
+---
+
+Step into serenity just minutes from downtown Reykjavík at **Sky Lagoon**, Iceland’s breathtaking new geothermal spa. Carved into a dramatic stretch of the Atlantic coastline, this immersive retreat blends ancient bathing traditions with contemporary Icelandic design.
+
+## A Tranquil World Just Beyond the City
+
+Though only a short drive from Reykjavík, Sky Lagoon feels like another world—one shaped by sea, sky, and geothermal power. This natural oasis pays tribute to Iceland’s age-old bathing rituals, offering a moment of calm in a setting that’s both wild and beautiful.
+
+## The 7-Step Sky Ritual – A Journey of Rejuvenation
+
+At the heart of the Sky Lagoon experience lies the **Sky Ritual**, a seven-step wellness journey rooted in Icelandic tradition. Designed to relax body and mind, this rejuvenating process includes:
+
+- A warm geothermal soak with ocean views  
+- A cold plunge to invigorate the senses  
+- A steam bath infused with Icelandic aromas  
+- A cleansing body scrub  
+- A refreshing shower  
+- A peaceful sauna  
+- A final soak to seal in serenity
+
+Every guest is invited to take part in this unforgettable ritual, included with all admissions.
+
+## Booking & Cancellation
+
+- **Flexible cancellation**: Full refund available if cancelled at least 48 hours before your visit.
+- **Towels included** with all passes.
+
+Take time to reconnect—with nature, with Icelandic tradition, and with yourself—at Sky Lagoon, where every visit feels like a return to something essential.
+
+<script type="text/javascript" src="https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=97236c68-b945-4a96-8587-660bdc4c45fd" async></script>
+     
+<div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/618636"></div>
+
+
+
+

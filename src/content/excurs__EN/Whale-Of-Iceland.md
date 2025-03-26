@@ -92,39 +92,3 @@ After your visit, unwind at the **Big Little Whale Café**, serving coffee, past
 <script type="text/javascript" src="https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=97236c68-b945-4a96-8587-660bdc4c45fd" async></script>
 
 <div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/14386"></div>
-
-<style>
-p {
-line-height: 1.4;
-color: white;
-font-size: clamp(0.8rem, 2vw, 1.3rem);
-font-weight: lighter;
-margin-block: 1rem;
-text-align: justify;
-margin-block: 2rem;
-}
-
-li {
-line-height: 1.4;
-color: white;
-font-size: clamp(0.8rem, 2vw, 1.3rem);
-font-weight: lighter;
-margin-block: 1rem;
-text-align: justify;
-
-}
-
-strong {
-font-weight: normal;
-}
-
-
-
-main h2 {
-font-style: normal;
-text-align: left;
-font-weight: normal;
-text-decoration: underline;
-}
-
-</style>
