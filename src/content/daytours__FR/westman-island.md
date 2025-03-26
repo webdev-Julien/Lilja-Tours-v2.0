@@ -11,7 +11,7 @@ filter: "norm"
 pageTitle: "Îles Westman - Vetsmannaeyjar | Luxury private tour "
 description: "Explorez les îles Vestmann en circuit privé ! Prenez le ferry, observez les macareux, admirez Elephant Rock, randonnez sur Eldfell et visitez le musée Eldheimar."
 ogTitle: "Excursion privée: Îles Westman"
-ogImage: "/pictures/westman-islands/card/westman-islands.webp"
+ogImage: "https://www.lilja-tours.com/pictures/westman-islands/card/westman-islands.webp"
 language: "fr"
 
 

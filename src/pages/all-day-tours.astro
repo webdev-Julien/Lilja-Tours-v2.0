@@ -23,6 +23,8 @@ const allTours: CollectionEntry<"daytours__EN">[] = await getCollection("daytour
 
 
        <link rel="alternate" hreflang="fr" href="https://www.lilja-tours.com/fr/toutes-nos-excursions/" />
+       <link rel="alternate" hreflang="en" href="https://www.lilja-tours.com/all-day-tours/" />
+
        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
        <link rel="canonical" href="https://www.lilja-tours.com/all-day-tours/">
 
@@ -36,11 +38,11 @@ const allTours: CollectionEntry<"daytours__EN">[] = await getCollection("daytour
         <meta property="og:locale:alternate" content="fr_FR">
         <meta property="og:image:width" content="1200">
         <meta property="og:image:height" content="630">
-        <meta property="og:logo" content="/logos/Lilja-Tours-Full-Logo.png" />
+        <meta property="og:logo" content="https://www.lilja-tours/logos/Lilja-Tours-Full-Logo.png" />
 
         <title>Private tours in Iceland | day tours </title>
 
-        <slot name="jsonld"></slot>
+
 
         <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16894749666">
@@ -53,6 +55,393 @@ const allTours: CollectionEntry<"daytours__EN">[] = await getCollection("daytour
   gtag('config', 'AW-16894749666');
 </script>
 
+
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "TouristTrip",
+          "name": "Glymur Hike",
+          "url": "https://www.lilja-tours.com/private-day-tours-iceland/private-tour-glymur-hike/",
+          "description": "A 5-6 hour private hike to Glymur, Iceland's second-highest waterfall, offering stunning views and a moderate hiking challenge.",
+          "image": "https://www.lilja-tours.com/pictures/glymur/headers/glymur-pc.webp",
+          "inLanguage": ["en", "fr"],
+          "offers": {
+            "@type": "Offer",
+            "price": "159000",
+            "priceCurrency": "ISK",
+            "availability": "https://schema.org/InStock"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": 13
+          },
+          "review": {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "name": "Sophie D."
+            },
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": 5
+            },
+            "reviewBody": "An unforgettable day exploring Iceland's hidden gems! Our guide was knowledgeable and friendly. Highly recommend this tour."
+          },
+          "provider": {
+            "@type": "Organization",
+            "name": "Lilja Tours",
+            "url": "https://www.lilja-tours.com",
+            "logo": "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Reykjavík",
+              "addressCountry": "IS"
+            },
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "contactType": "Customer Service",
+              "email": "julien@lilja-tours.com"
+            }
+          }
+        },
+        {
+          "@type": "TouristTrip",
+          "name": "Glacier Hike",
+          "url": "https://www.lilja-tours.com/private-day-tours-iceland/glacier-hike-iceland/",
+          "description": "Experience a 3-4 hour private glacier hike on Iceland's South Coast, suitable for those seeking adventure and natural beauty.",
+          "image": "https://www.lilja-tours.com/pictures/glacier-hike/headers/glacier-hike-pc.webp",
+          "inLanguage": ["en", "fr"],
+          "offers": {
+            "@type": "Offer",
+            "price": "139000",
+            "priceCurrency": "ISK",
+            "availability": "https://schema.org/InStock"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": 13
+          },
+          "review": {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "name": "Sophie D."
+            },
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": 5
+            },
+            "reviewBody": "An unforgettable day exploring Iceland's hidden gems! Our guide was knowledgeable and friendly. Highly recommend this tour."
+          },
+          "provider": {
+            "@type": "Organization",
+            "name": "Lilja Tours",
+            "url": "https://www.lilja-tours.com",
+            "logo": "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Reykjavík",
+              "addressCountry": "IS"
+            },
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "contactType": "Customer Service",
+              "email": "julien@lilja-tours.com"
+            }
+          }
+        },
+        {
+          "@type": "TouristTrip",
+          "name": "Golden Circle Essentials",
+          "url": "https://www.lilja-tours.com/private-day-tours-iceland/golden-circle-essentials/",
+          "description": "A 6-hour private tour covering Iceland's iconic Golden Circle, including Thingvellir National Park, Geysir, and Gullfoss waterfall.",
+          "image": "https://www.lilja-tours.com/pictures/golden-circle-essentials/headers/oxararfoss-pc.webp",
+          "inLanguage": ["en", "fr"],
+          "offers": {
+            "@type": "Offer",
+            "price": "159000",
+            "priceCurrency": "ISK",
+            "availability": "https://schema.org/InStock"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": 13
+          },
+          "review": {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "name": "Sophie D."
+            },
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": 5
+            },
+            "reviewBody": "An unforgettable day exploring Iceland's hidden gems! Our guide was knowledgeable and friendly. Highly recommend this tour."
+          },
+          "provider": {
+            "@type": "Organization",
+            "name": "Lilja Tours",
+            "url": "https://www.lilja-tours.com",
+            "logo": "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Reykjavík",
+              "addressCountry": "IS"
+            },
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "contactType": "Customer Service",
+              "email": "julien@lilja-tours.com"
+            }
+          }
+        }
+        ,
+    {
+      "@type": "TouristTrip",
+      "name": "Kerlingarfjöll's Power",
+      "url": "https://www.lilja-tours.com/private-day-tours-iceland/kerlingarfjoll-power-hiking-tour/",
+      "description": "A challenging 12-hour private tour to the geothermal area of Kerlingarfjöll, showcasing colorful rhyolite mountains and hot springs.",
+      "image": "https://www.lilja-tours.com/pictures/kerlingarfjoll/headers/kerlingarfjoll-pc.webp",
+      "inLanguage": ["en", "fr"],
+      "offers": {
+        "@type": "Offer",
+        "price": "250000",
+        "priceCurrency": "ISK",
+        "availability": "https://schema.org/InStock"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "reviewCount": 13
+      },
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Sophie D."
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 5
+        },
+        "reviewBody": "An unforgettable day exploring Iceland's hidden gems! Our guide was knowledgeable and friendly. Highly recommend this tour."
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Lilja Tours",
+        "url": "https://www.lilja-tours.com",
+        "logo": "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Reykjavík",
+          "addressCountry": "IS"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "Customer Service",
+          "email": "julien@lilja-tours.com"
+        }
+      }
+    },
+    {
+      "@type": "TouristTrip",
+      "name": "Magic of the Icelandic Auroras",
+      "url": "https://www.lilja-tours.com/private-day-tours-iceland/northern-lights-iceland/",
+      "description": "A 4-5 hour private tour chasing the Northern Lights, offering a personalized experience to witness this natural phenomenon.",
+      "image": "https://www.lilja-tours.com/pictures/northern-lights/headers/aurora-borealis-pc.webp",
+      "inLanguage": ["en", "fr"],
+      "offers": {
+        "@type": "Offer",
+        "price": "173000",
+        "priceCurrency": "ISK",
+        "availability": "https://schema.org/InStock"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "reviewCount": 13
+      },
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Sophie D."
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 5
+        },
+        "reviewBody": "An unforgettable day exploring Iceland's hidden gems! Our guide was knowledgeable and friendly. Highly recommend this tour."
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Lilja Tours",
+        "url": "https://www.lilja-tours.com",
+        "logo": "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Reykjavík",
+          "addressCountry": "IS"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "Customer Service",
+          "email": "julien@lilja-tours.com"
+        }
+      }
+    },
+    {
+      "@type": "TouristTrip",
+      "name": "Culinary Golden Circle",
+      "url": "https://www.lilja-tours.com/private-day-tours-iceland/golden-circle-culinary-experience/",
+      "description": "An 8-9 hour private tour combining the classic Golden Circle sights with visits to local farms for unique culinary experiences.",
+      "image": "https://www.lilja-tours.com/pictures/golden-circle-farm-visits/headers/golden-circle-farm-visits-pc.webp",
+      "inLanguage": ["en", "fr"],
+      "offers": {
+        "@type": "Offer",
+        "price": "179000",
+        "priceCurrency": "ISK",
+        "availability": "https://schema.org/InStock"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "reviewCount": 13
+      },
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Sophie D."
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 5
+        },
+        "reviewBody": "An unforgettable day exploring Iceland's hidden gems! Our guide was knowledgeable and friendly. Highly recommend this tour."
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Lilja Tours",
+        "url": "https://www.lilja-tours.com",
+        "logo": "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Reykjavík",
+          "addressCountry": "IS"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "Customer Service",
+          "email": "info@lilja-tours.com"
+        }
+      }
+    },
+    {
+      "@type": "TouristTrip",
+      "name": "Colors of Reykjanes",
+      "url": "https://www.lilja-tours.com/private-day-tours-iceland/reykjanes-colors/",
+      "description": "A 6-hour private tour exploring the Reykjanes Peninsula's geothermal areas, lava fields, and coastal landscapes.",
+      "image": "https://www.lilja-tours.com/pictures/reykjanes-colors/headers/reykjanes-pc.webp",
+      "inLanguage": ["en", "fr"],
+      "offers": {
+        "@type": "Offer",
+        "price": "159000",
+        "priceCurrency": "ISK",
+        "availability": "https://schema.org/InStock"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "reviewCount": 13
+      },
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Sophie D."
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 5
+        },
+        "reviewBody": "An unforgettable day exploring Iceland's hidden gems! Our guide was knowledgeable and friendly. Highly recommend this tour."
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Lilja Tours",
+        "url": "https://www.lilja-tours.com",
+        "logo": "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Reykjavík",
+          "addressCountry": "IS"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "Customer Service",
+          "email": "julien@lilja-tours.com"
+        }
+      }
+    },
+    {
+      "@type": "TouristTrip",
+      "name": "Snæfellsnes Wonders",
+      "url": "https://www.lilja-tours.com/private-day-tours-iceland/snaefellsnes-wonders/",
+      "description": "An 11-hour private tour of the Snæfellsnes Peninsula, known as 'Iceland in Miniature,' featuring diverse landscapes and coastal villages.",
+      "image": "/pictures/snaefellsnes-wonders/headers/snaefellsnes-pc.webp",
+      "inLanguage": ["en", "fr"],
+      "offers": {
+        "@type": "Offer",
+        "price": "185000",
+        "priceCurrency": "ISK",
+        "availability": "https://schema.org/InStock"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "reviewCount": 13
+      },
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Sophie D."
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 5
+        },
+        "reviewBody": "An unforgettable day exploring Iceland's hidden gems! Our guide was knowledgeable and friendly. Highly recommend this tour."
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Lilja Tours",
+        "url": "https://www.lilja-tours.com",
+        "logo": "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Reykjavík",
+          "addressCountry": "IS"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "Customer Service",
+          "email": "julien@lilja-tours.com"
+        }
+      }
+    }
+  ]
+}
+</script>
+
+
     </head>
 
 <body>
@@ -63,8 +452,9 @@ const allTours: CollectionEntry<"daytours__EN">[] = await getCollection("daytour
             <PicHeader srcMobile="/pictures/list-all-tours/all-private-day-tours-in-iceland-mobile.webp" srcPC="/pictures/list-all-tours/all-private-day-tours-in-iceland-pc.webp" alt="Picture of stunning waterfalls in desertic landscapes" title="All of our day tours in Iceland"></PicHeader></div>
             <div class="headerGradient"></div>
             <div class="headerInfos">
-                <h1>Exclusive Private Day Tours in Iceland</h1>
-                <h2>Explore Iceland in style with our Luxury Tours</h2>
+                <h1>Luxury Private Tours in Iceland</h1>
+                <h2>Exclusive icelandic Experiences Tailored for You</h2>
+                <p class="headerP">At Lilja Tours, we specialize in offering luxury private tours in Iceland, providing discerning travelers with bespoke day trips that showcase the island's stunning landscapes and cultural treasures. Our exclusive experiences are designed to cater to your unique interests, ensuring a personalized and unforgettable journey.</p>
               
                 <TagBarEN></TagBarEN>
 
@@ -74,8 +464,9 @@ const allTours: CollectionEntry<"daytours__EN">[] = await getCollection("daytour
     </header>
 <main> 
     <div class="firstText">
-       <h2>Private Day Tours – Exclusive Experiences Just for You:</h2>
-       <p>Explore our curated selection of private day tours departing from Reykjavík. These ready-to-book adventures are available year-round, offering a personalized experience with your own vehicle and guide. The price displayed below covers the entire vehicle, ensuring a hassle-free and cost-effective journey for your group.</p>
+       <h2>Private Day Tours from Reykjavík:</h2>
+       <p>Explore our curated selection of bespoke private tours departing from Reykjavík. These ready-to-book adventures are available year-round, offering a personalized experience with your own vehicle and guide. The price displayed below covers the entire vehicle, ensuring a hassle-free and cost-effective journey for your group.</p>
+       <p>Would you be more interested in a <a href="/multiday/" title="see our multiday tours">personalized multiday tour</a>?</p>
     </div>
 
     <div class="wrapper">
@@ -115,6 +506,12 @@ tour = {tour}
 
 <style>
 
+    
+.headerP {
+        width: 50%;
+        margin-inline: auto;
+    }
+
     .firstText {
         width: calc(100% - 4rem);
         margin: 2rem auto;
@@ -124,6 +521,10 @@ tour = {tour}
 
         p {
             width: 100%;
+        }
+
+        a, a:visited, a:focus {
+            color: white;
         }
     }
 
@@ -250,6 +651,12 @@ tour = {tour}
     .firstText {
         width: 95%;
     }
+
+    .headerP {
+        width: 75%;
+        margin-inline: auto;
+    }
+
 
 
 }

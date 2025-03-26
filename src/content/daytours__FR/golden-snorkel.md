@@ -10,7 +10,7 @@ filter: "extra"
 pageTitle: "Cercle d'or et Masque et tuba dans silfra | Excursions d'exception "
 description: " Découvrez le Cercle d’Or en Islande : Þingvellir et ses plaques tectoniques, Strokkur en éruption, Gullfoss majestueuse et plongez dans les eaux cristallines de Silfra."
 ogTitle: "Excursions privées: Le cercle d'or"
-ogImage: "/pictures/golden-snorkel/card/golden-snorkel.webp"
+ogImage: "https://www.lilja-tours.com/pictures/golden-snorkel/card/golden-snorkel.webp"
 language: "fr"
 
 

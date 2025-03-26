@@ -10,7 +10,7 @@ filter: "norm"
 pageTitle: "Rando glacier en Islande | Excursion privée "
 description: "Profitez d'une randonnée privée sur le glacier Sólheimajökull ! Marchez sur la glace avec un guide expert, loin de la foule, et admirez un paysage époustouflant."
 ogTitle: "Excursion privée: Marche sur glacier en Islande"
-ogImage: "/pictures/glacier-hike/card/glacier-hike.webp"
+ogImage: "https://www.lilja-tours.com/pictures/glacier-hike/card/glacier-hike.webp"
 language: "fr"
 
 

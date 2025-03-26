@@ -10,7 +10,7 @@ filter: "norm"
 pageTitle: "Péninsule de Reykjanes | Excursion d'exception "
 description: "Découvrez la péninsule de Reykjanes en visite privée. Explorez Seltún, Gunnuhver, Nátthagi et Stampar. Merveilles volcaniques vous attendent !"
 ogTitle: "Visite privée: Péninsule de Reykjanes"
-ogImage: "/pictures/reykjanes-colors/card/reykjanes-colors.webp"
+ogImage: "https://www.lilja-tours.com/pictures/reykjanes-colors/card/reykjanes-colors.webp"
 language: "fr"
 
 

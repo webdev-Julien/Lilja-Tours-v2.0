@@ -10,7 +10,7 @@ filter: "extra"
 pageTitle: "Borgarfjörður, le cercle d'argent | Excursions d'exception "
 description: "Partez en excursion privée à Borgarfjörður et explorez Hraunfossar, Barnafoss, Deildartunguhver, la grotte de Viðgelmir et les sources chaudes de Hvammsvík."
 ogTitle: "Excursion privée: Le cercle d'argent"
-ogImage: "/pictures/silver-circle/card/silver-circle.webp"
+ogImage: "https://www.lilja-tours.com/pictures/silver-circle/card/silver-circle.webp"
 language: "fr"
 
 

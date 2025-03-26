@@ -10,7 +10,7 @@ filter: "norm"
 pageTitle: "Péninsule de Snæfellsnes en Islande | Excursions d'exception "
 description: "Explorez la péninsule de Snæfellsnes en visite privée. Visitez Arnarstapi, Kirkjufell et Djúpalónssandur. Réservez votre aventure islandaise !"
 ogTitle: "Visite privée: La péninsule de Snæfellsnes"
-ogImage: "/pictures/snaefellsnes-wonders/card/snaefellsnes-private-tour.webp"
+ogImage: "https://www.lilja-tours.com/pictures/snaefellsnes-wonders/card/snaefellsnes-private-tour.webp"
 language: "fr"
 
 

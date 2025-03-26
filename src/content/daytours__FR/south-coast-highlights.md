@@ -10,7 +10,7 @@ filter: "norm"
 pageTitle: "Côte sud Islandaise | Excursions d'exception "
 description: "Explorez la côte sud de l'Islande en visite privée. Découvrez cascades, plages de sable noir et glaciers. Réservez votre aventure !"
 ogTitle: "Visite privée: Hauts lieux de la côte sud islandaise"
-ogImage: "/pictures/south-coast-highlights/card/south-coast-highlights.webp"
+ogImage: "https://www.lilja-tours.com/pictures/south-coast-highlights/card/south-coast-highlights.webp"
 language: "fr"
 
 

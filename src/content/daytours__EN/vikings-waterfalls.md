@@ -10,7 +10,7 @@ filter: "norm"
 pageTitle: "Vikings and Waterfalls | Luxury private tour "
 description: "Explore Iceland’s hidden gems on a private tour! Visit stunning waterfalls, Viking ruins, lush oases, and end with a Viking feast. A journey through history and nature!"
 ogTitle: "Private tour: Vikings and Waterfalls"
-ogImage: "/pictures/vikings-waterfalls/card/vikings-waterfalls.webp"
+ogImage: "https://www.lilja-tours.com/pictures/vikings-waterfalls/card/vikings-waterfalls.webp"
 language: "en"
 
 

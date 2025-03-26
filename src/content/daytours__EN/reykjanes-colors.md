@@ -10,7 +10,7 @@ filter: "norm"
 pageTitle: "Reykjanes Peninsula | Luxury private tour "
 description: "Discover Reykjanes Peninsula on a private tour. Explore Seltún, Gunnuhver, Nátthagi, and Stampar's stunning landscapes. Volcanic wonders await!"
 ogTitle: "Private tour: Reykjanes peninsula"
-ogImage: "/pictures/reykjanes-colors/card/reykjanes-colors.webp"
+ogImage: "https://www.lilja-tours.com/pictures/reykjanes-colors/card/reykjanes-colors.webp"
 language: "en"
 
 

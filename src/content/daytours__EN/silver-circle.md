@@ -10,7 +10,7 @@ filter: "extra"
 pageTitle: "Borgarfjörður, silver circle | Luxury private tour "
 description: "Embark on a private tour to Borgarfjörður and explore Hraunfossar, Barnafoss, Deildartunguhver, Viðgelmir Cave, and the hot springs of Hvammsvík."
 ogTitle: "Private tour: The Silver Circle"
-ogImage: "/pictures/silver-circle/card/silver-circle.webp"
+ogImage: "https://www.lilja-tours.com/pictures/silver-circle/card/silver-circle.webp"
 language: "en"
 
 

@@ -10,7 +10,7 @@ filter: "norm"
 pageTitle: "Sorties aurores boréales en Islande | Excursion d'exception "
 description: "Vivez une excursion privée en Islande pour voir les aurores boréales. Éloignez-vous des lumières, chassez l'Aurore et admirez un ciel étoilé dans l'obscurité pure."
 ogTitle: "Sortie privée: Excursion aurores boréales"
-ogImage: "/pictures/northern-lights/card/northern-lights.webp"
+ogImage: "https://www.lilja-tours.com/pictures/northern-lights/card/northern-lights.webp"
 language: "fr"
 
 
@@ -195,6 +195,50 @@ vehicles: [
 ]
 
 form: "https://tally.so/r/wgkK84"
+
+jsonLd:
+  "@context": "https://schema.org"
+  "@type": "TouristTrip"
+  name: "Sortie Privée Aurores Boréales en Islande"
+  description: "Partez à la chasse aux aurores boréales lors d’une excursion privée de 4 heures au départ de Reykjavík. Profitez d’un guide local expérimenté, d’un véhicule 4x4 confortable et d’un itinéraire flexible pour vivre une soirée magique sous les lumières du Nord."
+  image:
+    - "https://www.lilja-tours.com/pictures/northern-lights/gallery/northern-lights-1-pc.webp"
+    - "https://www.lilja-tours.com/pictures/northern-lights/gallery/northern-lights-2-pc.webp"
+    - "https://www.lilja-tours.com/pictures/northern-lights/gallery/northern-lights-3-pc.webp"
+    - "https://www.lilja-tours.com/pictures/northern-lights/gallery/northern-lights-4-pc.webp"
+    - "https://www.lilja-tours.com/pictures/northern-lights/gallery/northern-lights-5-pc.webp"
+  url: "https://www.lilja-tours.com/fr/excursions-en-islande/sortie-privee-aurores-boreales-islande/"
+  inLanguage:
+    - "fr"
+    - "en"
+  touristType:
+    "@type": "Audience"
+    name: "Voyageurs haut de gamme"
+  itinerary:
+    "@type": "ItemList"
+    itemListElement: []
+  offers:
+    "@type": "Offer"
+    price: "173000"
+    priceCurrency: "ISK"
+    availability: "https://schema.org/InStock"
+    url: "https://www.lilja-tours.com/fr/excursions-en-islande/sortie-privee-aurores-boreales-islande/"
+  provider:
+    "@type": "TravelAgency"
+    name: "Lilja Tours"
+    url: "https://www.lilja-tours.com"
+    logo: "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png"
+  departureLocation:
+    "@type": "Place"
+    name: "Reykjavík"
+  duration: "PT4H"
+  maximumAttendeeCapacity: 6
+  availableLanguage:
+    - "@type": "Language"
+      name: "Français"
+    - "@type": "Language"
+      name: "Anglais"
+  temporalCoverage: "2024-09-01/2025-03-31"
 
 
 

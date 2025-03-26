@@ -14,6 +14,6 @@ export default defineConfig({
   build: {
     format: "directory",
   },
-  trailingSlash: "ignore",
+  trailingSlash: "always",
   integrations: [mdx(), sitemap()],
 });

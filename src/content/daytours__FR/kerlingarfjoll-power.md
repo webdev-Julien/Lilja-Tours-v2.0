@@ -10,7 +10,7 @@ filter: "norm"
 pageTitle: "Kerlingarfjöll dans les hautes terres islandaises | Excursions d'exception "
 description: "Partez en randonnée privée à Kerlingarfjöll, entre sources chaudes fumantes, montagnes orangées et vues glaciaires pour une aventure islandaise unique."
 ogTitle: "Randonnée avec guide privé: Kerlingarfjöll"
-ogImage: "/pictures/kerlingarfjoll/card/kerlingarfjoll.webp"
+ogImage: "https://www.lilja-tours.com/pictures/kerlingarfjoll/card/kerlingarfjoll.webp"
 language: "fr"
 
 

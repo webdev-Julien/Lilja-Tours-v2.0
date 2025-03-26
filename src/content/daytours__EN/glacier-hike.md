@@ -11,7 +11,7 @@ filter: "norm"
 pageTitle: "Glacier Hike in Iceland | Luxury private tour "
 description: "Enjoy a private glacier hike on Sólheimajökull! Walk on ice with expert guidance, escape the crowds, and experience Iceland’s breathtaking glacial landscape."
 ogTitle: "Private tour: Glacier Hike in Iceland"
-ogImage: "/pictures/glacier-hike/card/glacier-hike.webp"
+ogImage: "https://www.lilja-tours.com/pictures/glacier-hike/card/glacier-hike.webp"
 language: "en"
 
 

@@ -10,7 +10,7 @@ filter: "extra"
 pageTitle: "Côte sud et contes volcaniques | Excursions d'exception "
 description: "Découvrez la Côte Sud islandaise en tour privé ! Admirez Skógafoss, Seljalandsfoss, Reynisfjara, Sólheimajökull et le Lava Show pour une aventure volcanique."
 ogTitle: "Excursions privées: Côte Sud et Contes Volcaniques"
-ogImage: "/pictures/south-coast-volcano-tales/card/the-lava-show.webp"
+ogImage: "https://www.lilja-tours.com/pictures/south-coast-volcano-tales/card/the-lava-show.webp"
 language: "fr"
 
 

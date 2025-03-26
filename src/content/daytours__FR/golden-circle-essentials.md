@@ -10,7 +10,7 @@ filter: "norm"
 pageTitle: "Les essentiels du cercle d'or | Excursion d'exception "
 description: "Suivez Lilja Tours sur le célèbre Golden Circle. Découvrez Þingvellir, Geysir et Gullfoss en une visite de 6 heures."
 ogTitle: "Visite privée: Les essentiels du cercle d'or"
-ogImage: "/pictures/golden-circle-essentials/card/golden-circle-card.webp"
+ogImage: "https://www.lilja-tours.com/pictures/golden-circle-essentials/card/golden-circle-card.webp"
 language: "fr"
 
 

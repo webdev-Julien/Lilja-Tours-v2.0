@@ -10,7 +10,7 @@ filter: "norm"
 pageTitle: "Þórsmörk in the Icelandic highlands | Luxury private tour "
 description: "Explore Iceland’s Highlands on a private Þórsmörk tour! Hike Nauthúsagíl’s waterfall, conquer Valahnúkur’s peak & wander through Stakkholtsgjá canyon."
 ogTitle: "Private tour: Þórsmörk"
-ogImage: "/pictures/thorsmork/card/thorsmork.webp"
+ogImage: "https://www.lilja-tours.com/pictures/thorsmork/card/thorsmork.webp"
 language: "en"
 
 

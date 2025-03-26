@@ -10,7 +10,7 @@ filter: "norm"
 pageTitle: "Þórsmörk dans les hautes-terres islandaises | Excursions d'exception "
 description: "Explorez les Hautes Terres islandaises lors d'une excursion privée à Þórsmörk ! Randonnez à Nauthúsagíl, gravissez Valahnúkur et explorez Stakkholtsgjá."
 ogTitle: "Excursion guidée: Þórsmörk"
-ogImage: "/pictures/thorsmork/card/thorsmork.webp"
+ogImage: "https://www.lilja-tours.com/pictures/thorsmork/card/thorsmork.webp"
 language: "fr"
 
 

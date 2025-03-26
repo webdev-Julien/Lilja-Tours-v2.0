@@ -10,7 +10,7 @@ filter: "norm"
 pageTitle: "Landmannalaugar in the Icelandic highlands | Luxury private tour "
 description: "Explore Landmannalaugar on a private hiking tour. Discover stunning lava fields, colorful mountains, and breathtaking views. Book your adventure today!"
 ogTitle: "Private tour: Landmannalaugar"
-ogImage: "/pictures/landmannalaugar-heat/card/landmannalaugar.webp"
+ogImage: "https://www.lilja-tours.com/pictures/landmannalaugar-heat/card/landmannalaugar.webp"
 language: "en"
 
 

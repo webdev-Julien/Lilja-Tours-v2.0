@@ -11,7 +11,7 @@ filter: "norm"
 pageTitle: "Vikings et Cascade | Excursion d'exception "
 description: "Explorez les trésors cachés de l'Islande lors d’un circuit privé ! Cascades spectaculaires, ruines vikings, oasis verdoyantes et festin viking. Une aventure unique !"
 ogTitle: "Visite privée: Vikings et Cascades"
-ogImage: "/pictures/vikings-waterfalls/card/vikings-waterfalls.webp"
+ogImage: "https://www.lilja-tours.com/pictures/vikings-waterfalls/card/vikings-waterfalls.webp"
 language: "fr"
 
 

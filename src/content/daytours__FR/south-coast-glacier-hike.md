@@ -10,7 +10,7 @@ filter: "norm"
 pageTitle: "South Coast et Rando Glacier | Excursions privées "
 description: "Partez à l'aventure sur la côte sud avec Lilja Tours. Découvrez Seljalandsfoss et Skógafoss, explorez la plage de Reynisfjara et randonnez sur le glacier Sólheimajökull.​"
 ogTitle: "Excursion privée: Côte sud et rando glacier"
-ogImage: "/pictures/south-coast-glacier-hike/card/south-coast-glacier-hike.webp"
+ogImage: "https://www.lilja-tours.com/pictures/south-coast-glacier-hike/card/south-coast-glacier-hike.webp"
 language: "fr"
 
 

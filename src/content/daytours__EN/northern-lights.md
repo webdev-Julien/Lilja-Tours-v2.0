@@ -10,7 +10,7 @@ filter: "norm"
 pageTitle: "Northern Lights Tour Iceland | Luxury private tour "
 description: "Experience a private Northern Lights tour in Iceland. Escape city lights, chase the Aurora Borealis, and marvel at a starlit sky in pristine darkness."
 ogTitle: "Private tour: Northern Lights Hunting in Iceland"
-ogImage: "/pictures/northern-lights/card/northern-lights.webp"
+ogImage: "https://www.lilja-tours.com/pictures/northern-lights/card/northern-lights.webp"
 language: "en"
 
 
@@ -204,6 +204,49 @@ vehicles: [
 
 form: "https://tally.so/r/wgkK84"
 
+jsonLd:
+  "@context": "https://schema.org"
+  "@type": "TouristTrip"
+  name: "Northern Lights Private Tour in Iceland"
+  description: "Experience the magic of the Aurora Borealis on a luxury private tour from Reykjavík. With a local expert guide, comfortable 4x4 vehicle, and flexible scheduling, this 4-hour Northern Lights hunt offers an unforgettable Icelandic night."
+  image:
+    - "https://www.lilja-tours.com/pictures/northern-lights/gallery/northern-lights-1-pc.webp"
+    - "https://www.lilja-tours.com/pictures/northern-lights/gallery/northern-lights-2-pc.webp"
+    - "https://www.lilja-tours.com/pictures/northern-lights/gallery/northern-lights-3-pc.webp"
+    - "https://www.lilja-tours.com/pictures/northern-lights/gallery/northern-lights-4-pc.webp"
+    - "https://www.lilja-tours.com/pictures/northern-lights/gallery/northern-lights-5-pc.webp"
+  url: "https://www.lilja-tours.com/private-day-tours-iceland/northern-lights-iceland/"
+  inLanguage:
+    - "en"
+    - "fr"
+  touristType:
+    "@type": "Audience"
+    name: "Luxury travelers"
+  itinerary:
+    "@type": "ItemList"
+    itemListElement: []
+  offers:
+    "@type": "Offer"
+    price: "173000"
+    priceCurrency: "ISK"
+    availability: "https://schema.org/InStock"
+    url: "https://www.lilja-tours.com/private-day-tours-iceland/northern-lights-iceland/"
+  provider:
+    "@type": "TravelAgency"
+    name: "Lilja Tours"
+    url: "https://www.lilja-tours.com"
+    logo: "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png"
+  departureLocation:
+    "@type": "Place"
+    name: "Reykjavík"
+  duration: "PT4H"
+  maximumAttendeeCapacity: 6
+  availableLanguage:
+    - "@type": "Language"
+      name: "English"
+    - "@type": "Language"
+      name: "French"
+  temporalCoverage: "2024-09-01/2025-03-31"
 
 
 slug: northern-lights-iceland

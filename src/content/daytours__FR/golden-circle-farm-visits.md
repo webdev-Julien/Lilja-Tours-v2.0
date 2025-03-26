@@ -10,7 +10,7 @@ filter: "norm"
 pageTitle: "Cercle d'or et déjeuner à la ferme | Excursions haut de gamme "
 description: "Découvrez le Cercle d’Or en Islande avec Lilja Tours : explorez Þingvellir, le geyser Strokkur, la chute Gullfoss et des fermes locales pour des expériences uniques."
 ogTitle: "Visite privée: Cercle d'or et expérience culinaire"
-ogImage: "/pictures/golden-circle-farm-visits/card/golden-circle-farm-visits.webp"
+ogImage: "https://www.lilja-tours.com/pictures/golden-circle-farm-visits/card/golden-circle-farm-visits.webp"
 language: "fr"
 
 

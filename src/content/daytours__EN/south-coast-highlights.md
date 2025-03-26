@@ -10,7 +10,7 @@ filter: "norm"
 pageTitle: "South Coast Iceland | Luxury private tour "
 description: "Explore Iceland's stunning South Coast with a private tour. Discover waterfalls, black sand beaches, and glaciers. Book your adventure today!"
 ogTitle: "Private tour: South Coast Highlights"
-ogImage: "/pictures/south-coast-highlights/card/south-coast-highlights.webp"
+ogImage: "https://www.lilja-tours.com/pictures/south-coast-highlights/card/south-coast-highlights.webp"
 language: "en"
 
 

@@ -11,7 +11,7 @@ filter: "norm"
 pageTitle: "Glymur Hike in Iceland | Luxury private tour "
 description: "Embark on a private hike to Glymur, Iceland’s second-highest waterfall! Cross rivers, explore breathtaking landscapes, and enjoy an unforgettable adventure."
 ogTitle: "Private tour: Glymur Hike in Iceland"
-ogImage: "/pictures/glymur/card/glymur.webp"
+ogImage: "https://www.lilja-tours.com/pictures/glymur/card/glymur.webp"
 language: "en"
 
 

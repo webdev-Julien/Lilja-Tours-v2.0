@@ -105,6 +105,52 @@ const daytours__EN = defineCollection({
     // Form
 
     form: z.string(),
+
+    jsonLd: z
+      .object({
+        "@context": z.literal("https://schema.org"),
+        "@type": z.literal("TouristTrip"),
+        name: z.string(),
+        description: z.string(),
+        image: z.array(z.string().url()), // updated here
+        url: z.string().url(),
+        inLanguage: z.array(z.string()),
+        touristType: z.object({
+          "@type": z.literal("Audience"),
+          name: z.string(),
+        }),
+        itinerary: z.object({
+          "@type": z.literal("ItemList"),
+          itemListElement: z.array(z.unknown()), // or refine later
+        }),
+        offers: z.object({
+          "@type": z.literal("Offer"),
+          price: z.string(),
+          priceCurrency: z.string(),
+          availability: z.string().url(),
+          url: z.string().url(),
+        }),
+        provider: z.object({
+          "@type": z.literal("TravelAgency"),
+          name: z.string(),
+          url: z.string().url(),
+          logo: z.string().url(),
+        }),
+        departureLocation: z.object({
+          "@type": z.literal("Place"),
+          name: z.string(),
+        }),
+        duration: z.string(),
+        maximumAttendeeCapacity: z.number(),
+        availableLanguage: z.array(
+          z.object({
+            "@type": z.literal("Language"),
+            name: z.string(),
+          })
+        ),
+        temporalCoverage: z.string(), // format: YYYY-MM-DD/YYYY-MM-DD
+      })
+      .optional(),
   }),
 });
 
@@ -213,6 +259,52 @@ const daytours__FR = defineCollection({
     // Form
 
     form: z.string(),
+
+    jsonLd: z
+      .object({
+        "@context": z.literal("https://schema.org"),
+        "@type": z.literal("TouristTrip"),
+        name: z.string(),
+        description: z.string(),
+        image: z.array(z.string().url()), // updated here
+        url: z.string().url(),
+        inLanguage: z.array(z.string()),
+        touristType: z.object({
+          "@type": z.literal("Audience"),
+          name: z.string(),
+        }),
+        itinerary: z.object({
+          "@type": z.literal("ItemList"),
+          itemListElement: z.array(z.unknown()), // or refine later
+        }),
+        offers: z.object({
+          "@type": z.literal("Offer"),
+          price: z.string(),
+          priceCurrency: z.string(),
+          availability: z.string().url(),
+          url: z.string().url(),
+        }),
+        provider: z.object({
+          "@type": z.literal("TravelAgency"),
+          name: z.string(),
+          url: z.string().url(),
+          logo: z.string().url(),
+        }),
+        departureLocation: z.object({
+          "@type": z.literal("Place"),
+          name: z.string(),
+        }),
+        duration: z.string(),
+        maximumAttendeeCapacity: z.number(),
+        availableLanguage: z.array(
+          z.object({
+            "@type": z.literal("Language"),
+            name: z.string(),
+          })
+        ),
+        temporalCoverage: z.string(), // format: YYYY-MM-DD/YYYY-MM-DD
+      })
+      .optional(),
   }),
 });
 

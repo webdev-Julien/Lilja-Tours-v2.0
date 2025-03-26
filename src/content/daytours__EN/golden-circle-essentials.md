@@ -11,7 +11,7 @@ filter: "norm"
 pageTitle: "Golden Circle Essentials | Luxury private tour "
 description: "Follow Lilja Tours on the most popular tour in Iceland: The Golden Circle. Explore the National Park of Þingvellir, Geysir and Gullfoss, in a 6 hour tour."
 ogTitle: "Private tour: Golden Circle Essentials"
-ogImage: "/pictures/golden-circle-essentials/card/golden-circle-card.webp"
+ogImage: "https://www.lilja-tours.com/pictures/golden-circle-essentials/card/golden-circle-card.webp"
 language: "en"
 
 

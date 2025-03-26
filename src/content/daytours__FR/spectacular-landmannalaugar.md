@@ -10,7 +10,7 @@ filter: "norm"
 pageTitle: "Landmannalaugar dans les hautes terres islandaises | Excursion d'exception "
 description: "Explorez Landmannalaugar en randonnée privée. Découvrez champs de lave, montagnes colorées et vues à couper le souffle. Réservez votre aventure !"
 ogTitle: "Visite privée: Landmannalaugar"
-ogImage: "/pictures/landmannalaugar-heat/card/landmannalaugar.webp"
+ogImage: "https://www.lilja-tours.com/pictures/landmannalaugar-heat/card/landmannalaugar.webp"
 language: "fr"
 
 
