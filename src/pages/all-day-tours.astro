@@ -42,6 +42,17 @@ const allTours: CollectionEntry<"daytours__EN">[] = await getCollection("daytour
 
         <slot name="jsonld"></slot>
 
+        <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16894749666">
+</script>
+<script is:raw>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-16894749666');
+</script>
+
     </head>
 
 <body>
