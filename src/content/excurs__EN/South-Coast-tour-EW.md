@@ -1,0 +1,132 @@
+---
+cardCover:
+  {
+    src: "/pictures/excursions/minibus-tours/south-coast-card.webp",
+    alt: "Sea pillars dominating the icelandic ocean",
+    title: "Book a small group tour to the south coast of Iceland",
+  }
+pageCover:
+  {
+    srcPC: "/pictures/excursions/minibus-tours/south-coast-header-pc.webp",
+    srcMobile: "/pictures/excursions/minibus-tours/south-coast-header-mobile.webp",
+    alt: "Sea pillars dominating the icelandic ocean",
+    title: "Book a small group tour to the south coast of Iceland",
+  }
+
+title1: "South Coast of Iceland - Small group tour"
+title2: "Waterfalls, Glaciers & Black Sand Wonders"
+
+tag: ["Small group tour"]
+
+rate: 19990
+
+linkFr: "/fr/a-faire-en-islande/cote-sud-islandaise-minibus/"
+hrefLang: "https://www.lilja-tours.com/fr/a-faire-en-islande/cote-sud-islandaise-minibus/"
+
+url: ""
+pageTitle: "South Coast tour in small group"
+metaDescription: ""
+
+filter: "reykjavik"
+filter2: "bus"
+
+slug: south-coast-tour-iceland
+---
+
+## **Discover Iceland’s Wild South – A Journey into Earth’s Raw Beauty**
+
+Ready for a once-in-a-lifetime experience? Our South Coast tour takes you deep into one of Iceland’s most dramatic and awe-inspiring landscapes — where volcanic power meets glacial beauty, and Viking history echoes through the valleys.
+
+From towering waterfalls to ancient ice and haunting black sand shores, this journey is perfect for nature lovers, photography enthusiasts, and adventure seekers alike.
+
+---
+
+## **Tour Highlights**
+
+### **Seljalandsfoss Waterfall**
+
+Stand in awe before this graceful cascade, then take the rare opportunity to walk _behind_ the waterfall for a completely different view of its beauty. A perfect photo moment, raincoat highly recommended!
+
+### **Gljúfrabúi Waterfall**
+
+Hidden behind a cliff near Seljalandsfoss, Gljúfrabúi is one of Iceland’s best-kept secrets. Venture through a narrow gorge (weather permitting) and uncover this magical waterfall tucked away from the crowds.
+
+### **Skógafoss Waterfall**
+
+Majestic and thunderous, Skógafoss drops from a height of 60 meters. Climb the staircase for sweeping views from the top, or admire its power from below as mist fills the air.
+
+### **Vík í Mýrdal Village**
+
+Pause in the quaint village of Vík, set between towering cliffs and black sand beaches. A charming stop for refreshments, souvenirs, or simply soaking in the coastal vibes.
+
+### **Reynisfjara Black Sand Beach**
+
+Feel the power of the Atlantic at Reynisfjara — a surreal beach famed for its volcanic black sand, striking basalt columns, and the dramatic Reynisdrangar sea stacks just offshore.
+
+### **Sólheimajökull Glacier**
+
+Get up close to the icy edge of Sólheimajökull, an outlet glacier from Mýrdalsjökull. The textures, colors, and formations of the glacier make this a fascinating stop — no hiking involved, just unforgettable views.
+
+---
+
+## **Why Join This Tour?**
+
+- **Epic scenery** from volcanoes and glaciers to legendary black beaches
+- **Expert guides** who share Icelandic myths, geology, and Viking lore
+- **Comfortable travel** in small groups with Wi-Fi and professional drivers
+- A **well-paced itinerary** that ensures time to explore and enjoy each site
+
+This isn’t just sightseeing — it’s an immersive journey through the forces that shaped Iceland.
+
+---
+
+## **What’s Included**
+
+- Pickup and drop-off from designated Reykjavík locations (**starts at 8:30 AM**)
+- Professional, local driver-guide
+- Travel in a comfortable, air-conditioned minivan
+- **Free onboard WiFi**
+
+---
+
+## **What’s Not Included**
+
+- Food and drinks
+- Glacier hiking or other paid activities
+
+---
+
+## **What You Should Know**
+
+- Be ready at your pickup location by **08:30**
+- Not wheelchair or stroller accessible
+- Children must be accompanied by an adult
+- Tour not recommended for infants (0–3 years old)
+- Operates in all weather — dress accordingly
+- **Crampons recommended in winter months**
+- We may call you if you're not at your pickup location — make sure your phone is reachable
+
+---
+
+## **What to Bring**
+
+- Waterproof and weather-appropriate clothing
+- Good walking shoes or hiking boots
+- Camera
+- Snacks or lunch (we’ll make stops for food purchases too)
+
+---
+
+## **Cancellation Policy**
+
+- **100% cancellation fee** applies if canceled **within 24 hours** of departure
+
+---
+
+# **Book Your South Coast Tour Now**
+
+Don't miss the chance to experience Iceland's most epic landscapes — reserve your seat today and get ready for a journey you'll never forget.
+
+<script type="text/javascript" src="https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=97236c68-b945-4a96-8587-660bdc4c45fd" async></script>
+
+<div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/115465"></div>

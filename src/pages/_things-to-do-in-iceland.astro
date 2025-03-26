@@ -15,8 +15,7 @@ const excurs__EN: CollectionEntry<"excurs__EN">[] = await getCollection("excurs_
 
 const rvkCult = excurs__EN.filter((excurs:any) =>  excurs.data.filter==="reykjavik" && excurs.data.filter2 === "culture")
 const rvkHsprings = excurs__EN.filter((excurs:any) =>  excurs.data.filter==="reykjavik" && excurs.data.filter2 === "hotS")
-
-
+const rvkMiniBus = excurs__EN.filter((excurs:any) =>  excurs.data.filter==="reykjavik" && excurs.data.filter2 === "bus")
 const rvkWw = excurs__EN.filter((excurs:any) =>  excurs.data.filter==="reykjavik" && excurs.data.filter2 === "ww")
 
 
@@ -84,6 +83,19 @@ const rvkWw = excurs__EN.filter((excurs:any) =>  excurs.data.filter==="reykjavik
             <h2>Excursions from Reykjavík:</h2>
             <p>All the below excursions offer a departure from Reykjavík. Some of them might require to go to a specific location, while others will offer pickup options. Explore our selection of Whale Watching tours, museums, shows, hot spring admissions and even helicopter tours.</p>
          </div>
+
+         <h3>Day tours: Shared departures</h3>
+         <div class="wrapper">
+        {rvkMiniBus.map((excu:any) => (
+
+
+        <ExcuCards
+excu = {excu}
+>
+
+</ExcuCards>
+))}
+       
 
          <h3>Hot Springs</h3>
          <div class="wrapper">

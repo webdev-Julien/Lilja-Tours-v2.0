@@ -1,0 +1,120 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  font-family: var(--bf-font);
+}
+
+:root {
+  --bf-font: Roboto, sans-serif;
+  --bf-primary: #1976d2;
+  --bf-text: rgba(0, 0, 0, 0.87);
+  --bf-line: rgba(0, 0, 0, 0.12);
+  --bf-fill: rgba(0, 0, 0, 0.04);
+  --bf-radius: 4px;
+  --bf-card-width: 300px;
+  --bf-image-height: 200px;
+}
+
+html {
+  scroll-behavior: smooth;
+  content-visibility: auto;
+  background-color: #292929;
+}
+
+img {
+  display: block;
+}
+
+h2 {
+  font-style: italic;
+}
+
+/*--*/
+
+body {
+  color: rgba(0, 0, 0, 0.87);
+  color: var(--bf-text);
+  font-size: 1rem;
+  line-height: 1.6;
+  border-spacing: 1.125rem;
+}
+strong {
+  font-weight: lighter;
+  color: white;
+}
+
+main h2 {
+  font-size: calc(1.4rem + 1.4vw);
+  margin: 1.5rem 0.75rem 1rem 0.75rem;
+  font-style: normal;
+  text-align: left;
+  width: 100%;
+}
+
+h3 {
+  font-size: calc(1.2rem + 1vw);
+  margin: 1.25rem 0.75rem 0.75rem 0.75rem;
+  color: white;
+}
+
+p {
+  margin: 0.75rem;
+}
+
+p,
+a {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: #1976d2;
+  color: var(--bf-primary);
+}
+
+a:active,
+a:hover {
+  outline-width: 0;
+  outline: 0;
+}
+
+a:active,
+a:focus,
+a:hover {
+  text-decoration: underline;
+}
+
+ul,
+ol {
+  padding: 0 2em;
+}
+
+ul {
+  list-style-type: disc;
+  color: white;
+}
+
+hr {
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.12);
+  background-color: var(--bf-line);
+  border: none;
+  margin: 0;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+}

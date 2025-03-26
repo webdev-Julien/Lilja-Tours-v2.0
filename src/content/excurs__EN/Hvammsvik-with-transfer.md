@@ -3,14 +3,14 @@ cardCover:
   {
     src: "/pictures/excursions/hvammsvik-transfer/hvammsvik-transfer-card.webp",
     alt: "Women bathing in the Hvammsvík hot spring by a fjord",
-    title: "Book the Hvammsvæik Hot Springs with a bus transfer",
+    title: "Book the Hvammsvík Hot Springs with a bus transfer",
   }
 pageCover:
   {
     srcPC: "/pictures/excursions/hvammsvik-transfer/hvammsvik-transfer-header-pc.webp",
     srcMobile: "/pictures/excursions/hvammsvik-transfer/hvammsvik-transfer-header-mobile.webp",
     alt: "Women bathing in the Hvammsvík hot spring by a fjord",
-    title: "Book the Hvammsvæik Hot Springs with a bus transfer",
+    title: "Book the Hvammsvík Hot Springs with a bus transfer",
   }
 
 title1: "Hvammsvík hot springs – With transfer from Reykjavík"
@@ -67,29 +67,23 @@ The area is also one of the **best places to catch the northern lights** between
 
 Once discovered by Viking settlers over a millennium ago—recorded in the ancient Landnámabók—Hvammsvík has always been a special place. Its natural harbor, thermal activity, and surrounding beauty made it a prized location even then.
 
-
 ## What’s Included
 
-- Round-trip bus transportation  
-- Entrance to Hvammsvík Hot Springs  
-- Free WiFi  
-- All taxes and service fees  
+- Round-trip bus transportation
+- Entrance to Hvammsvík Hot Springs
+- Free WiFi
+- All taxes and service fees
 
 **Food and drinks are not included** but are available for purchase at Stormur Bistro.
-
 
 ## What to Bring
 
 - Swimsuit, towel, and water shoes (available to rent on-site if needed)
-
 
 ## Cancellation Policy
 
 Free cancellation available **up to 48 hours before departure**.
 
 <script type="text/javascript" src="https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=97236c68-b945-4a96-8587-660bdc4c45fd" async></script>
-     
+
 <div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/804330"></div>
-
-
-
