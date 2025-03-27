@@ -7,8 +7,8 @@ jeepISK: 139000
 filter: "norm"
 
 # Head and metas
-pageTitle: "Rando glacier en Islande | Excursion privée "
-description: "Profitez d'une randonnée privée sur le glacier Sólheimajökull ! Marchez sur la glace avec un guide expert, loin de la foule, et admirez un paysage époustouflant."
+pageTitle: "Randonnée privée sur le glacier Sólheimajökull – Aventure exclusive en Islande"
+description: "Partez pour une randonnée privée sur le glacier Sólheimajökull, en Islande. Explorez en toute sécurité les formations de glace et crevasses avec un guide expérimenté. Réservez votre aventure exclusive dès maintenant."
 ogTitle: "Excursion privée: Marche sur glacier en Islande"
 ogImage: "https://www.lilja-tours.com/pictures/glacier-hike/card/glacier-hike.webp"
 language: "fr"
@@ -22,7 +22,7 @@ difficulty: "Moderée"
 
 
 # H1
-tourTitle: "Randonnée sur Glacier"
+tourTitle: "Randonnée privée sur le glacier Sólheimajökull"
 
 
 # Header Picture
@@ -58,7 +58,7 @@ fulllinkFr: "https://www.lilja-tours.com/private-day-tours-iceland/glacier-hike-
 # Itinerary
 itiItems: [
   { 
-    itiItemTitle: "Votre randonné sur Sólheimajökull",
+    itiItemTitle: "Découvrez la magie des glaciers islandais",
     itiItemPicSrcMobile: "/pictures/glacier-hike/itinerary/glacier-hike-mobile.webp",
     itiItemPicSrcPC: "/pictures/glacier-hike/itinerary/glacier-hike-pc.webp",
     itiItemPicAlt: "Photo prise du haut d'un glacier",
@@ -194,7 +194,49 @@ vehicles: [
 
 form: "https://tally.so/r/nG5vgk"
 
-
+jsonLd:
+  "@context": "https://schema.org"
+  "@type": "TouristTrip"
+  name: "Randonnée Privée sur Glacier en Islande"
+  description: "Partez pour une aventure inoubliable sur un glacier du sud de l’Islande avec un guide certifié. Explorez les crevasses, les formations de glace et les paysages spectaculaires lors de cette randonnée privée de 10 heures avec transport depuis Reykjavík."
+  image:
+    - "https://www.lilja-tours.com/pictures/glacier-hike/glacier-hike-1-pc.webp"
+    - "https://www.lilja-tours.com/pictures/glacier-hike/glacier-hike-2-pc.webp"
+    - "https://www.lilja-tours.com/pictures/glacier-hike/glacier-hike-3-pc.webp"
+    - "https://www.lilja-tours.com/pictures/glacier-hike/glacier-hike-4-pc.webp"
+    - "https://www.lilja-tours.com/pictures/glacier-hike/glacier-hike-5-pc.webp"
+  url: "https://www.lilja-tours.com/fr/excursions-en-islande/marche-sur-glacier-en-islande/"
+  inLanguage:
+    - "fr"
+    - "en"
+  touristType:
+    "@type": "Audience"
+    name: "Voyageurs haut de gamme"
+  itinerary:
+    "@type": "ItemList"
+    itemListElement: []
+  offers:
+    "@type": "Offer"
+    price: "238000"
+    priceCurrency: "ISK"
+    availability: "https://schema.org/InStock"
+    url: "https://www.lilja-tours.com/fr/excursions-en-islande/marche-sur-glacier-en-islande/"
+  provider:
+    "@type": "TravelAgency"
+    name: "Lilja Tours"
+    url: "https://www.lilja-tours.com"
+    logo: "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png"
+  departureLocation:
+    "@type": "Place"
+    name: "Reykjavík"
+  duration: "PT10H"
+  maximumAttendeeCapacity: 6
+  availableLanguage:
+    - "@type": "Language"
+      name: "Français"
+    - "@type": "Language"
+      name: "Anglais"
+  temporalCoverage: "2025-01-01/2025-12-31"
 
 slug: marche-sur-glacier-en-islande
 

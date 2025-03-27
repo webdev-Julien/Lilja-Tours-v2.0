@@ -1,0 +1,119 @@
+---
+cardCover:
+  {
+    src: "/pictures/excursions/lava-tunnel/adventure-tour-card.webp",
+    alt: "A tourist stand inside of a lava cave",
+    title: "Book an adventure inside of a lava tunnel",
+  }
+pageCover:
+  {
+    srcPC: "/pictures/excursions/lava-tunnel/adventure-tour-header-pc.webp",
+    srcMobile: "/pictures/excursions/lava-tunnel/adventure-tour-header-mobile.webp",
+    alt: "A tourist stand inside of a lava cave",
+    title: "Book an adventure inside of a lava tunnel",
+  }
+
+title1: "Lava Falls Adventure Tour"
+title2: "Explore Iceland’s Hidden Underground Marvel"
+
+tag: ["Adventure tour"]
+
+rate: 25900
+
+linkFr: "/fr/a-faire-en-islande/exploration-en-profondeur-d-un-tunnel-de-lave/"
+hrefLang: "https://www.lilja-tours.com/fr/a-faire-en-islande/exploration-en-profondeur-d-un-tunnel-de-lave/"
+
+url: ""
+pageTitle: "The Lava Tunnel in Iceland - Adventure tour"
+metaDescription: ""
+
+filter: "reykjavik"
+filter2: "adv"
+
+slug: the-lava-tunnel-adventure-tour
+---
+
+**3–4 Hour Guided Caving Experience | Small Groups | For Adventurous Souls Only**
+
+## **Go Deeper Into Iceland’s Lava Tunnels**
+
+Step into the shadows of Iceland’s volcanic past and venture deep inside **Raufarhólshellir**, one of the country’s largest and most captivating lava tunnels. The **Lava Falls Adventure Tour** takes you far beyond the standard route — all the way to the end of the cave, where few visitors have gone and where the awe-inspiring **lava falls** mark the dramatic origin of this geological wonder.
+
+---
+
+## **Why Choose the Lava Falls Adventure Tour?**
+
+### **A More Extreme Experience**
+
+This is not your average cave walk. You’ll traverse boulders, jagged lava rocks, and uneven terrain as you push deeper into the cave. It’s physically demanding, but the reward is unmatched.
+
+### **Small Groups, Big Discoveries**
+
+Led by expert caving guides, this intimate tour offers a truly immersive journey into Iceland’s underground. You’ll rely solely on **head torches** and your guide’s knowledge to light the way through this raw and unfiltered landscape.
+
+### **Lava Falls – A Rare Natural Phenomenon**
+
+At the end of the tunnel, you’ll encounter the stunning lava falls — a geological formation few ever get to witness. It's a moment of stillness, wonder, and connection to the raw power of the Earth.
+
+---
+
+## **Tour Highlights**
+
+- **Explore the Full Length of Raufarhólshellir** – one of Iceland’s longest lava tunnels
+- **Visit the Hidden Lava Falls** – a natural marvel deep inside the earth
+- **Traverse Real Caving Terrain** – boulders, uneven rocks, and tight passages
+- **Feel the Darkness** – Headlamps only, no artificial lighting, for a true underground adventure
+
+---
+
+## **Perfect For**
+
+- **Adventure Seekers** – Ideal for those who want a real physical challenge and a story to tell
+- **Nature Enthusiasts** – Witness rare formations formed by ancient eruptions
+- **Experienced Hikers or Fit Travelers** – Good balance and fitness are essential
+
+---
+
+## **Important Details**
+
+**Tour Duration:** 3–4 hours inside the cave  
+**Age Requirement:** 12+ (not suitable for children under 12)  
+**Not Recommended For:** Pregnant travelers, those with claustrophobia, or limited mobility  
+**Group Size:** Small groups only for safety and immersion  
+**Arrival Time:** Arrive 10–15 minutes before your scheduled departure  
+**Location:** Self-drive only – **transportation is not included**
+
+---
+
+## **What’s Included**
+
+✔ Certified Caving Guide  
+✔ Helmet  
+✔ Headlamp  
+✔ Gloves  
+✔ Crampons (if needed)
+
+**Not Included:**  
+✘ Food & drinks  
+✘ Gratuities  
+✘ Transport – **you must arrive at The Lava Tunnel independently**
+
+---
+
+## **What to Bring**
+
+- **Warm outdoor clothing** – the cave stays around 3–4°C (36–40°F) year-round
+- **Hiking boots with ankle support** – mandatory for safety
+- **Water & snacks (optional)**
+
+---
+
+## **Cancellation Policy**
+
+- **100% cancellation fee** if canceled **less than 24 hours** before the tour
+
+---
+
+<script type="text/javascript" src="https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=97236c68-b945-4a96-8587-660bdc4c45fd" async></script>
+
+<div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/10987"></div>

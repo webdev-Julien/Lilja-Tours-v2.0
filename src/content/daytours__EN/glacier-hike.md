@@ -8,8 +8,8 @@ filter: "norm"
 
 
 # Head and metas
-pageTitle: "Glacier Hike in Iceland | Luxury private tour "
-description: "Enjoy a private glacier hike on Sólheimajökull! Walk on ice with expert guidance, escape the crowds, and experience Iceland’s breathtaking glacial landscape."
+pageTitle: "Private Glacier Hike on Sólheimajökull – Exclusive Icelandic Adventure"
+description: "Embark on a private glacier hike on Sólheimajökull, Iceland. Experience personalized exploration of stunning ice formations and crevasses with our expert guides. Book your exclusive adventure today."
 ogTitle: "Private tour: Glacier Hike in Iceland"
 ogImage: "https://www.lilja-tours.com/pictures/glacier-hike/card/glacier-hike.webp"
 language: "en"
@@ -23,7 +23,7 @@ difficulty: "Moderate"
 
 
 # H1
-tourTitle: "Glacier Hike"
+tourTitle: "Private Glacier Hike on Sólheimajökull"
 
 
 # Header Picture
@@ -42,7 +42,7 @@ bookButtons: [
 ]
 
 # Iti Picture
-itiCoverTitle: "Your experience"
+itiCoverTitle: "Tour Details​"
 itiCoverImgSrcMobile: "/pictures/glacier-hike/itinerary/title/solo-mobile.webp"
 itiCoverImgSrcPC: "/pictures/glacier-hike/itinerary/title/solo-pc.webp"
 itiCoverImgAlt: "Close Up of a glacier"
@@ -59,7 +59,7 @@ fulllinkFr: "https://www.lilja-tours.com/fr/excursions-en-islande/marche-sur-gla
 # Itinerary
 itiItems: [
   { 
-    itiItemTitle: "Your Glacier Hike on Sólheimajökull",
+    itiItemTitle: "Experience the Majesty of Iceland's Glaciers",
     itiItemPicSrcMobile: "/pictures/glacier-hike/itinerary/glacier-hike-mobile.webp",
     itiItemPicSrcPC: "/pictures/glacier-hike/itinerary/glacier-hike-pc.webp",
     itiItemPicAlt: "Picture taken from the top of a glacier",
@@ -190,7 +190,49 @@ vehicles: [
 
 form: "https://tally.so/r/nG5vgk"
 
-
+jsonLd:
+  "@context": "https://schema.org"
+  "@type": "TouristTrip"
+  name: "Glacier Hike Private Tour in Iceland"
+  description: "Embark on a thrilling private glacier hike in South Iceland with a certified guide. Explore crevasses, ice formations, and stunning glacier landscapes in safety and comfort. This 10-hour adventure includes private transport from Reykjavík and a personalized experience on the ice."
+  image:
+    - "https://www.lilja-tours.com/pictures/glacier-hike/glacier-hike-1-pc.webp"
+    - "https://www.lilja-tours.com/pictures/glacier-hike/glacier-hike-2-pc.webp"
+    - "https://www.lilja-tours.com/pictures/glacier-hike/glacier-hike-3-pc.webp"
+    - "https://www.lilja-tours.com/pictures/glacier-hike/glacier-hike-4-pc.webp"
+    - "https://www.lilja-tours.com/pictures/glacier-hike/glacier-hike-5-pc.webp"
+  url: "https://www.lilja-tours.com/private-day-tours-iceland/glacier-hike-iceland/"
+  inLanguage:
+    - "en"
+    - "fr"
+  touristType:
+    "@type": "Audience"
+    name: "Luxury travelers"
+  itinerary:
+    "@type": "ItemList"
+    itemListElement: []
+  offers:
+    "@type": "Offer"
+    price: "238000"
+    priceCurrency: "ISK"
+    availability: "https://schema.org/InStock"
+    url: "https://www.lilja-tours.com/private-day-tours-iceland/glacier-hike-iceland/"
+  provider:
+    "@type": "TravelAgency"
+    name: "Lilja Tours"
+    url: "https://www.lilja-tours.com"
+    logo: "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png"
+  departureLocation:
+    "@type": "Place"
+    name: "Reykjavík"
+  duration: "PT10H"
+  maximumAttendeeCapacity: 6
+  availableLanguage:
+    - "@type": "Language"
+      name: "English"
+    - "@type": "Language"
+      name: "French"
+  temporalCoverage: "2025-01-01/2025-12-31"
 
 slug: glacier-hike-iceland
 

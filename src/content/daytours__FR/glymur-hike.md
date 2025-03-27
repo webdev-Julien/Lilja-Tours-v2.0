@@ -7,7 +7,7 @@ jeepISK: 159000
 filter: "norm"
 
 # Head and metas
-pageTitle: "Randonnée à Glymur en Islande | Excursions d'exception "
+pageTitle: "Randonnée privée à la cascade Glymur – Aventure scénique près de Reykjavík"
 description: "Partez en randonnée privée vers Glymur, la deuxième plus haute cascade d’Islande ! Traversez des rivières, admirez des paysages grandioses et vivez une aventure unique."
 ogTitle: "Excursion privée: Randonnée vers Glymur"
 ogImage: "https://www.lilja-tours.com/pictures/glymur/card/glymur.webp"
@@ -22,7 +22,7 @@ difficulty: "Moderée"
 
 
 # H1
-tourTitle: "Randonnée vers Glymur"
+tourTitle: "Randonnée privée à Glymur"
 
 
 # Header Picture
@@ -45,7 +45,7 @@ bookButtons: [
 ]
 
 # Iti Picture
-itiCoverTitle: "Votre randonnée"
+itiCoverTitle: "Votre randonnée guidée"
 itiCoverImgSrcMobile: "/pictures/glymur/itinerary/title/glymur-mobile.webp"
 itiCoverImgSrcPC: "/pictures/glymur/itinerary/title/glymur-pc.webp"
 itiCoverImgAlt: "Des gens traversent une rivière à pied"
@@ -62,7 +62,7 @@ fulllinkFr: "https://www.lilja-tours.com/private-day-tours-iceland/private-tour-
 # Itinerary
 itiItems: [
   { 
-    itiItemTitle: "Votre randonnée vers les chutes de Glymur",
+    itiItemTitle: "Des guides experts",
     itiItemPicSrcMobile: "/pictures/glymur/itinerary/glymur-mobile.webp",
     itiItemPicSrcPC: "/pictures/glymur/itinerary/glymur-pc.webp",
     itiItemPicAlt: "Magnifique haute cascade tombant dans un ravin",
@@ -205,7 +205,49 @@ vehicles: [
 
 form: "https://tally.so/r/w4z7kY"
 
-
+jsonLd:
+  "@context": "https://schema.org"
+  "@type": "TouristTrip"
+  name: "Randonnée Privée à la Cascade Glymur en Islande"
+  description: "Partez pour une randonnée privée vers Glymur, la deuxième plus haute cascade d’Islande. Cette excursion exclusive vous plonge dans une nature spectaculaire avec des traversées de rivières, des panoramas époustouflants et une tranquillité loin des sentiers touristiques. Guidée par un expert local, cette aventure allie activité et confort, avec départ depuis Reykjavík ou rendez-vous sur place."
+  image:
+    - "https://www.lilja-tours.com/pictures/glymur/gallery/glymur-5-pc.webp"
+    - "https://www.lilja-tours.com/pictures/glymur/gallery/glymur-4-pc.webp"
+    - "https://www.lilja-tours.com/pictures/glymur/gallery/glymur-3-pc.webp"
+    - "https://www.lilja-tours.com/pictures/glymur/gallery/glymur-2-pc.webp"
+    - "https://www.lilja-tours.com/pictures/glymur/gallery/glymur-1-pc.webp"
+  url: "https://www.lilja-tours.com/fr/excursions-en-islande/randonnee-privee-cascade-glymur/"
+  inLanguage:
+    - "fr"
+    - "en"
+  touristType:
+    "@type": "Audience"
+    name: "Voyageurs haut de gamme"
+  itinerary:
+    "@type": "ItemList"
+    itemListElement: []
+  offers:
+    "@type": "Offer"
+    price: "159000"
+    priceCurrency: "ISK"
+    availability: "https://schema.org/InStock"
+    url: "https://www.lilja-tours.com/fr/excursions-en-islande/randonnee-privee-cascade-glymur/"
+  provider:
+    "@type": "TravelAgency"
+    name: "Lilja Tours"
+    url: "https://www.lilja-tours.com"
+    logo: "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png"
+  departureLocation:
+    "@type": "Place"
+    name: "Reykjavík ou rendez-vous sur place"
+  duration: "PT6H"
+  maximumAttendeeCapacity: 6
+  availableLanguage:
+    - "@type": "Language"
+      name: "Français"
+    - "@type": "Language"
+      name: "Anglais"
+  temporalCoverage: "2025-06-01/2025-09-30"
 
 slug: randonnee-guidee-glymur-islande
 

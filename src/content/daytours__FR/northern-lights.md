@@ -7,8 +7,8 @@ jeepISK: 173000
 filter: "norm"
 
 # Head and metas
-pageTitle: "Sorties aurores boréales en Islande | Excursion d'exception "
-description: "Vivez une excursion privée en Islande pour voir les aurores boréales. Éloignez-vous des lumières, chassez l'Aurore et admirez un ciel étoilé dans l'obscurité pure."
+pageTitle: "Sorties aurores boréales en Islande avec photographie professionnelle"
+description: "Partez pour une excursion privée à la chasse aux aurores boréales en Islande, avec un guide expert et des boissons chaudes. Vivez une nuit inoubliable sous le ciel arctique."
 ogTitle: "Sortie privée: Excursion aurores boréales"
 ogImage: "https://www.lilja-tours.com/pictures/northern-lights/card/northern-lights.webp"
 language: "fr"
@@ -22,7 +22,7 @@ difficulty: "Nuits froides"
 
 
 # H1
-tourTitle: "Magie des Aurores Boréales"
+tourTitle: "Excursion privée aux aurores boréales en Islande"
 
 
 # Header Picture
@@ -45,7 +45,7 @@ bookButtons: [
 ]
 
 # Iti Picture
-itiCoverTitle: "Votre experience"
+itiCoverTitle: "Votre Excursion"
 itiCoverImgSrcMobile: "/pictures/northern-lights/itinerary/title/northern-lights-mobile.webp"
 itiCoverImgSrcPC: "/pictures/northern-lights/itinerary/title/northern-lights-pc.webp"
 itiCoverImgAlt: "Aurores Boréales vertes"
@@ -62,7 +62,7 @@ fulllinkFr: "https://www.lilja-tours.com/private-day-tours-iceland/northern-ligh
 # Itinerary
 itiItems: [
   { 
-    itiItemTitle: "Votre chasse aux Aurores Boréales",
+    itiItemTitle: "Avec prise de photos et boissons chaudes",
     itiItemPicSrcMobile: "/pictures/northern-lights/itinerary/northern-lights-mobile.webp",
     itiItemPicSrcPC: "/pictures/northern-lights/itinerary/northern-lights-pc.webp",
     itiItemPicAlt: "Fantastique photo d'aurores boréales",

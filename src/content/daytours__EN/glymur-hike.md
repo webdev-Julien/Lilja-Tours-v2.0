@@ -8,8 +8,8 @@ filter: "norm"
 
 
 # Head and metas
-pageTitle: "Glymur Hike in Iceland | Luxury private tour "
-description: "Embark on a private hike to Glymur, Iceland’s second-highest waterfall! Cross rivers, explore breathtaking landscapes, and enjoy an unforgettable adventure."
+pageTitle: "Private Glymur Waterfall Hike in Iceland – Scenic Adventure Near Reykjavík"
+description: "Embark on a private hiking adventure to Glymur Waterfall, Iceland's second-highest cascade. Experience breathtaking landscapes, river crossings, and panoramic views near Reykjavík with our expert guides."
 ogTitle: "Private tour: Glymur Hike in Iceland"
 ogImage: "https://www.lilja-tours.com/pictures/glymur/card/glymur.webp"
 language: "en"
@@ -23,7 +23,7 @@ difficulty: "Moderate"
 
 
 # H1
-tourTitle: "Glymur Hike"
+tourTitle: "Private Glymur Waterfall Hike in Iceland"
 
 
 # Header Picture
@@ -46,7 +46,7 @@ bookButtons: [
 ]
 
 # Iti Picture
-itiCoverTitle: "Your Hike"
+itiCoverTitle: "Tour overview"
 itiCoverImgSrcMobile: "/pictures/glymur/itinerary/title/glymur-mobile.webp"
 itiCoverImgSrcPC: "/pictures/glymur/itinerary/title/glymur-pc.webp"
 itiCoverImgAlt: "People wading through a river"
@@ -63,7 +63,7 @@ fulllinkFr: "https://www.lilja-tours.com/fr/excursions-en-islande/randonnee-guid
 # Itinerary
 itiItems: [
   { 
-    itiItemTitle: "Your Hiking tour to Glymur Waterfall",
+    itiItemTitle: "Expert Guides​",
     itiItemPicSrcMobile: "/pictures/glymur/itinerary/glymur-mobile.webp",
     itiItemPicSrcPC: "/pictures/glymur/itinerary/glymur-pc.webp",
     itiItemPicAlt: "Gorgeous waterfall flowing down in a deep canyon",
@@ -208,6 +208,50 @@ vehicles: [
 form: "https://tally.so/r/w4z7kY"
 
 
+
+jsonLd:
+  "@context": "https://schema.org"
+  "@type": "TouristTrip"
+  name: "Glymur Waterfall Private Hike in Iceland"
+  description: "Hike to Iceland’s second-highest waterfall on this private day tour from Reykjavík. This 8-hour adventure takes you through scenic canyons, river crossings, and dramatic viewpoints, led by a local expert guide in a private setting."
+  image:
+    - "https://www.lilja-tours.com/pictures/glymur/gallery/glymur-5-pc.webp"
+    - "https://www.lilja-tours.com/pictures/glymur/gallery/glymur-4-pc.webp"
+    - "https://www.lilja-tours.com/pictures/glymur/gallery/glymur-3-pc.webp"
+    - "https://www.lilja-tours.com/pictures/glymur/gallery/glymur-2-pc.webp"
+    - "https://www.lilja-tours.com/pictures/glymur/gallery/glymur-1-pc.webp"
+  url: "https://www.lilja-tours.com/private-day-tours-iceland/private-tour-glymur-hike/"
+  inLanguage:
+    - "en"
+    - "fr"
+  touristType:
+    "@type": "Audience"
+    name: "Luxury travelers"
+  itinerary:
+    "@type": "ItemList"
+    itemListElement: []
+  offers:
+    "@type": "Offer"
+    price: "198000"
+    priceCurrency: "ISK"
+    availability: "https://schema.org/InStock"
+    url: "https://www.lilja-tours.com/private-day-tours-iceland/private-tour-glymur-hike/"
+  provider:
+    "@type": "TravelAgency"
+    name: "Lilja Tours"
+    url: "https://www.lilja-tours.com"
+    logo: "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png"
+  departureLocation:
+    "@type": "Place"
+    name: "Reykjavík"
+  duration: "PT8H"
+  maximumAttendeeCapacity: 6
+  availableLanguage:
+    - "@type": "Language"
+      name: "English"
+    - "@type": "Language"
+      name: "French"
+  temporalCoverage: "2025-05-01/2025-10-15"
 
 slug: private-tour-glymur-hike
 

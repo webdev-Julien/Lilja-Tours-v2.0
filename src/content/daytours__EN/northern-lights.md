@@ -7,8 +7,8 @@ jeepISK: 173000
 filter: "norm"
 
 # Head and metas
-pageTitle: "Northern Lights Tour Iceland | Luxury private tour "
-description: "Experience a private Northern Lights tour in Iceland. Escape city lights, chase the Aurora Borealis, and marvel at a starlit sky in pristine darkness."
+pageTitle: "Private Northern Lights Tour in Iceland with Professional Photography"
+description: "Experience a private Northern Lights tour in Iceland, complete with professional photography, expert guides, and cozy refreshments. Capture unforgettable memories under the Arctic sky."
 ogTitle: "Private tour: Northern Lights Hunting in Iceland"
 ogImage: "https://www.lilja-tours.com/pictures/northern-lights/card/northern-lights.webp"
 language: "en"
@@ -22,7 +22,7 @@ difficulty: "Cold nights"
 
 
 # H1
-tourTitle: "Magic of the Icelandic Auroras"
+tourTitle: "Private Northern Lights Tour in Iceland"
 
 
 # Header Picture
@@ -45,7 +45,7 @@ bookButtons: [
 ]
 
 # Iti Picture
-itiCoverTitle: "Your experience"
+itiCoverTitle: "Tour overview"
 itiCoverImgSrcMobile: "/pictures/northern-lights/itinerary/title/northern-lights-mobile.webp"
 itiCoverImgSrcPC: "/pictures/northern-lights/itinerary/title/northern-lights-pc.webp"
 itiCoverImgAlt: "Green aurora borealis"
@@ -62,7 +62,7 @@ fulllinkFr: "https://www.lilja-tours.com/fr/excursions-en-islande/sortie-privee-
 # Itinerary
 itiItems: [
   { 
-    itiItemTitle: "Your Northern Lights Hunt",
+    itiItemTitle: "Professional Photography Included",
     itiItemPicSrcMobile: "/pictures/northern-lights/itinerary/northern-lights-mobile.webp",
     itiItemPicSrcPC: "/pictures/northern-lights/itinerary/northern-lights-pc.webp",
     itiItemPicAlt: "Amazing picture of Northern Lights in Iceland",

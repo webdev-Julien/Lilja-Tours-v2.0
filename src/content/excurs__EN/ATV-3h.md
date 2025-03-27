@@ -1,0 +1,122 @@
+---
+cardCover:
+  {
+    src: "/pictures/excursions/atv-tours/3hours-tour-card.webp",
+    alt: "People on ATVs are gazing at the icelandic sunset behind the mountains",
+    title: "Book a 3 hours ATV ride next to Reykjavík",
+  }
+pageCover:
+  {
+    srcPC: "/pictures/excursions/atv-tours/3hours-tour-header-pc.webp",
+    srcMobile: "/pictures/excursions/atv-tours/3hours-tour-header-mobile.webp",
+    alt: "People on ATVs are gazing at the icelandic sunset behind the mountains",
+    title: "Book a 3 hours ATV ride next to Reykjavík",
+  }
+
+title1: "ATV ride next to Reykjavík - 3 Hours"
+title2: "Volcanic Springs ATV Tour"
+
+tag: ["Adventure tour"]
+
+rate: 35000
+
+linkFr: "/fr/a-faire-en-islande/excursion-quad-3-hours-reykjavik/"
+hrefLang: "https://www.lilja-tours.com/fr/a-faire-en-islande/excursion-quad-3-hours-reykjavik/"
+
+url: ""
+pageTitle: "Atv ride - 3 hours tour"
+metaDescription: ""
+
+filter: "reykjavik"
+filter2: "adv"
+
+slug: atv-ride-3-hours-tour
+---
+
+**Just 15 Minutes from Reykjavík | Pickup at 13:00 | Available Tue–Sat, May 15 – Nov 15**
+
+## **Discover Iceland’s Untamed Beauty on an Epic 3-Hour ATV Adventure**
+
+Swap the tour buses for raw adventure as you take on Iceland’s backlands on a powerful ATV. Our **Volcanic Springs ATV Tour** leads you through steaming valleys, across rugged lava fields, and into the heart of Iceland’s geothermal wilderness. Whether you're looking to explore nature, get your adrenaline fix, or simply try something unforgettable — this is the tour for you.
+
+---
+
+## **Why You’ll Love This ATV Experience**
+
+### **Unleash Your Wild Side**
+
+Forget paved roads. Feel the freedom of the open trail as you power through lava landscapes, river crossings, and mountain paths. There’s no better way to experience Iceland’s natural energy than from the seat of an ATV.
+
+### **Epic Trails & Hidden Hot Springs**
+
+Start your ride in the wild backlands near Reykjavík and climb toward the **Hengill mountain range**, with sweeping views of the **Hellisheiði geothermal power plant**. Journey into **Instidalur valley**, where a hidden hot spring awaits — and if conditions allow, you can even take a dip.
+
+### **Scenic Heights and Volcanic Views**
+
+Reach a panoramic viewpoint at the top of Hengill, where on clear days, you’ll catch stunning vistas stretching from the south coast beaches to **Eyjafjallajökull** and **Mýrdalsjökull** glaciers.
+
+---
+
+## **What to Expect on the Volcanic Springs Tour**
+
+- **3-Hour Guided ATV Adventure:** Traverse lava fields, geothermal areas, and mountain trails.
+- **Geothermal Hotspots:** See nature in action with steaming springs and geothermal activity at every turn.
+- **Breathtaking Viewpoints:** Ride to the edge of Iceland’s wildest vistas with views of volcanoes and glaciers.
+
+---
+
+## **Who This Tour Is Perfect For**
+
+- **Adventurers & Outdoor Lovers:** If you crave rugged trails and raw landscapes, this tour delivers.
+- **Groups & Friends:** Create legendary memories riding together across Iceland’s wilderness.
+- **Families:** A fun and safe experience suitable for families with children aged 6+ (as passengers).
+- **Intermediate Riders:** While beginners are welcome, this 3-hour ride is best for those comfortable with moderate outdoor activity.
+
+---
+
+## **Practical Info**
+
+**What’s Provided:**  
+✔ Helmet  
+✔ Gloves  
+✔ Overalls & ski mask  
+✔ Rain gear (if needed)
+
+**What to Bring:**
+
+- Warm, weather-appropriate clothing
+- Outdoor shoes
+
+**Pickup Details:**
+
+- Optional pickup available 30 minutes before departure
+- Tour base is just 15 minutes from central Reykjavík
+
+**Duration:**
+
+- **ATV Ride Only:** Approx. 3 hours
+- **With Pickup/Drop-off:** Approx. 4.5 hours
+- **Meet-on-location guests:** Approx. 3.5 hours
+
+---
+
+## **Important Booking Info**
+
+- **Price is per person** (not per ATV)
+- **Single Rider:** One person per ATV
+- **Shared Rider:** Two people per ATV (must book in pairs)
+- If booking an odd number of participants, at least one **single rider** booking is required
+- **Drivers:** Must be 17+ and hold a valid driver’s license
+- **Passengers:** Must be at least 6 years old
+
+---
+
+## **Cancellation Policy**
+
+Cancel up to **24 hours before departure** for a **full refund**.
+
+---
+
+<script type="text/javascript" src="https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=97236c68-b945-4a96-8587-660bdc4c45fd" async></script>
+
+<div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/88"></div>

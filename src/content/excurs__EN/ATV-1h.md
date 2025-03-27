@@ -1,0 +1,131 @@
+---
+cardCover:
+  {
+    src: "/pictures/excursions/atv-tours/1hours-tour-card.webp",
+    alt: "Someone is riding an ATV in deep snow",
+    title: "Book a 1 hours ATV ride next to Reykjavík",
+  }
+pageCover:
+  {
+    srcPC: "/pictures/excursions/atv-tours/1hours-tour-header-pc.webp",
+    srcMobile: "/pictures/excursions/atv-tours/1hours-tour-header-mobile.webp",
+    alt: "Someone is riding an ATV in deep snow",
+    title: "Book a 2 hours ATV ride next to Reykjavík",
+  }
+
+title1: "ATV ride next to Reykjavík - 1 Hour"
+title2: "Reykjavík Peak ATV Adventure"
+
+tag: ["Adventure tour"]
+
+rate: 16000
+
+linkFr: "/fr/a-faire-en-islande/excursion-quad-1-hours-reykjavik/"
+hrefLang: "https://www.lilja-tours.com/fr/a-faire-en-islande/excursion-quad-1-hours-reykjavik/"
+
+url: ""
+pageTitle: "Atv ride - 1 hour tour"
+metaDescription: ""
+
+filter: "reykjavik"
+filter2: "adv"
+
+slug: atv-ride-1-hour-tour
+---
+
+**Just 15 Minutes from the City | Pickup at 13:00 | Available Year-Round**
+
+## **Push Beyond the Usual with This 2-Hour Mountain ATV Tour**
+
+Get ready to take your Icelandic ATV experience to the next level. The **Twin Peaks ATV Adventure** combines adrenaline, panoramic mountain views, and a deep dive into the rugged beauty surrounding Reykjavík. This extended 2-hour ride delivers the perfect blend of technical challenge and awe-inspiring scenery as you summit not one—but two—stunning peaks.
+
+---
+
+**Just 15 Minutes from Downtown | Pickup Available | Ideal for All Skill Levels**
+
+## **Discover the Icelandic Wilderness in Just One Hour**
+
+Short on time but big on adventure? The **Reykjavík Peak ATV Tour** is the perfect introduction to Iceland's rugged beauty. In just one hour, you’ll journey from city outskirts into untamed nature, riding trails that wind past scenic lakes and up a volcanic peak for views that stretch as far as the eye can see.
+
+---
+
+## **Why Choose the Reykjavík Peak ATV Tour?**
+
+### **An Action-Packed Hour**
+
+Perfect for solo adventurers, families, or groups, this compact tour delivers big thrills in a short time—ideal for those with tight schedules.
+
+### **Scenic Lakeside Trails**
+
+Cruise along gravel roads and trails near **Lake Hafravatn**, a peaceful natural setting just outside the city.
+
+### **Climb to Reykjavík Peak**
+
+Tackle varied terrain as you ascend to the summit of **Reykjavík Peak**, where a panoramic reward awaits.
+
+### **Unmatched Views**
+
+From the top, you’ll enjoy breathtaking vistas of **Faxaflói Bay**, the **Bláfjöll Mountains**, **Esja**, and the **Hengill volcanic system** — even the **Hellisheiði geothermal power plant** is in sight.
+
+---
+
+## **Tour Highlights**
+
+- **Fun for Everyone:** Easy-to-operate ATVs and expert guides make this tour accessible to all riders.
+- **Nature Close to the City:** Just 15 minutes from downtown, yet a world away from the urban bustle.
+- **Incredible Photo Opportunities:** Capture your moment at the peak with Iceland’s landscape laid out before you.
+
+---
+
+## **Perfect For**
+
+- **Beginners & First-Time Riders:** A relaxed yet exciting way to experience off-roading.
+- **Families:** A safe and memorable outing suitable for riders and passengers ages 6 and up.
+- **Groups:** Great for a quick and thrilling group activity near Reykjavík.
+
+---
+
+## **What’s Included**
+
+✔ Helmet  
+✔ Gloves  
+✔ Overalls & Ski Mask  
+✔ Rain gear (if needed)
+
+**What to Bring:**
+
+- Warm, weather-appropriate clothes
+- Outdoor shoes
+
+---
+
+## **Tour Duration**
+
+- **ATV Ride:** Approx. 1 hour
+- **With Pickup/Drop-off:** Approx. 2.5 hours
+- **Meet-on-location Guests:** Approx. 1.5 hours
+
+**Pickup is optional and scheduled 30 minutes before departure.**
+
+---
+
+## **Booking Details**
+
+- **Prices are per person, not per ATV**
+- **Single Rider:** One person per ATV
+- **Shared Rider:** Two people per ATV (minimum of 2 people required)
+- **Odd-numbered bookings** (e.g., 3, 5, 7) require at least one **single rider** reservation
+- **Drivers:** Must be 17+ with a valid driver’s license
+- **Passengers:** Minimum age 6 years
+
+---
+
+## **Cancellation Policy**
+
+Cancel up to **24 hours before the tour** for a **full refund**.
+
+---
+
+<script type="text/javascript" src="https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=97236c68-b945-4a96-8587-660bdc4c45fd" async></script>
+
+<div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/86"></div>

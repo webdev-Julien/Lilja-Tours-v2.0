@@ -59,7 +59,7 @@ strong {
 }
 
 main h2 {
-  font-size: calc(1.4rem + 1.4vw);
+  font-size: clamp(calc(1.1rem+1vw), 3vw, calc(1.5rem + 1vw));
   margin: 1.5rem 0.75rem 1rem 0.75rem;
   font-style: normal;
   text-align: left;
@@ -67,7 +67,7 @@ main h2 {
 }
 
 h3 {
-  font-size: calc(1.2rem + 1vw);
+  font-size: clamp(calc(0.75rem+1vw), 2vw, calc(1rem + 1vw));
   margin: 1.25rem 0.75rem 0.75rem 0.75rem;
   color: white;
 }

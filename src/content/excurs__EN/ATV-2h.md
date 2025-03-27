@@ -1,0 +1,124 @@
+---
+cardCover:
+  {
+    src: "/pictures/excursions/atv-tours/2hours-tour-card.webp",
+    alt: "Many people on an ATV tour in Iceland are looking at the sunset",
+    title: "Book a 2 hours ATV ride next to Reykjavík",
+  }
+pageCover:
+  {
+    srcPC: "/pictures/excursions/atv-tours/2hours-tour-header-pc.webp",
+    srcMobile: "/pictures/excursions/atv-tours/2hours-tour-header-mobile.webp",
+    alt: "Many people on an ATV tour in Iceland are looking at the sunset",
+    title: "Book a 2 hours ATV ride next to Reykjavík",
+  }
+
+title1: "ATV ride next to Reykjavík - 2 Hours"
+title2: "Twin Peaks ATV Adventure"
+
+tag: ["Adventure tour"]
+
+rate: 22000
+
+linkFr: "/fr/a-faire-en-islande/excursion-quad-2-hours-reykjavik/"
+hrefLang: "https://www.lilja-tours.com/fr/a-faire-en-islande/excursion-quad-2-hours-reykjavik/"
+
+url: ""
+pageTitle: "Atv ride - 2 hours tour"
+metaDescription: ""
+
+filter: "reykjavik"
+filter2: "adv"
+
+slug: atv-ride-2-hours-tour
+---
+
+**Just 15 Minutes from the City | Pickup at 13:00 | Available Year-Round**
+
+## **Push Beyond the Usual with This 2-Hour Mountain ATV Tour**
+
+Get ready to take your Icelandic ATV experience to the next level. The **Twin Peaks ATV Adventure** combines adrenaline, panoramic mountain views, and a deep dive into the rugged beauty surrounding Reykjavík. This extended 2-hour ride delivers the perfect blend of technical challenge and awe-inspiring scenery as you summit not one—but two—stunning peaks.
+
+---
+
+## **Why Choose the Twin Peaks ATV Tour?**
+
+### **Double the Peaks, Double the Thrill**
+
+This tour is a step up from the classic Reykjavík Peak ride. You'll climb **Hafrafell** and **Úlfarsfell**, two distinct mountains offering unforgettable views and fun, varied terrain.
+
+### **A Complete Off-Road Experience**
+
+From smooth asphalt and lakeside gravel paths to rocky mountain trails and steep inclines, this route covers it all. Whether you're a first-timer or an experienced rider, the changing terrain keeps things exciting from start to finish.
+
+### **Million-Dollar Views**
+
+Stand above Reykjavík with a 360° view that includes the **Reykjanes Peninsula**, **Viðey Island**, **Esja**, and even **Snæfellsjökull glacier** on a clear day. These views alone are worth the ride.
+
+---
+
+## **Tour Highlights**
+
+- **Ride to the Top of Hafrafell and Úlfarsfell**  
+  Navigate a mix of trails to reach two incredible summits.
+
+- **Scenic Lakeside Cruising**  
+  Begin your journey along the serene **Hafravatn Lake** before heading uphill.
+
+- **Views Over Reykjavík & Beyond**  
+  Take in sweeping vistas of the capital, coastline, and distant mountain ranges.
+
+---
+
+## **Perfect For**
+
+- **Beginners & Experienced Riders:** The tour is suitable for all skill levels, with expert guides leading the way.
+- **Families & Friends:** A memorable shared adventure perfect for small groups and families (passengers 6+).
+- **Adventurers at Heart:** If you want more than a quick ride, this extended tour delivers extra thrills and deeper immersion.
+
+---
+
+## **What's Included**
+
+✔ Helmet  
+✔ Gloves  
+✔ Overalls & Ski Mask  
+✔ Rain gear (if needed)
+
+**What to Bring:**
+
+- Warm layers (weather can shift quickly)
+- Sturdy outdoor shoes
+
+---
+
+## **Tour Duration**
+
+- **On the ATV:** Approx. 2 hours
+- **With Pickup/Drop-off:** Approx. 3.5 hours
+- **Meet-on-location Guests:** Approx. 2.5 hours
+
+**Pickup:** Optional and scheduled 30 minutes before departure.
+
+---
+
+## **Important Information**
+
+- **Prices are per person, not per vehicle**
+- **Single Rider:** One person per ATV
+- **Shared Rider:** Two people per ATV (minimum of 2 people to book this option)
+- **Odd-numbered bookings** (e.g., 3, 5, 7) require at least one person to be booked as a single rider
+- **Drivers:** Must be 17+ with a valid driver’s license
+- **Passengers:** Minimum age 6 years
+
+---
+
+## **Cancellation Policy**
+
+Full refund available if canceled **at least 24 hours before departure**.
+
+---
+
+<script type="text/javascript" src="https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=97236c68-b945-4a96-8587-660bdc4c45fd" async></script>
+
+<div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/87"></div>
