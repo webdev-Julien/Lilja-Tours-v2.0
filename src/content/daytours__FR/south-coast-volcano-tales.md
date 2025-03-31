@@ -230,6 +230,7 @@ tags: ["cote-sud","decouverte"]
 cardPicSrc: "/pictures/south-coast-volcano-tales/card/the-lava-show.webp"
 cardPicAlt: "Informations à propos des volcans islandais, sur un mur éclairé en rouge"
 cardPicTitle: "Excursion privée: Côte sud et contes volcaniques"
+cardTitle: "Côte Sud et Contes Volcaniques"
 
 
 # Bookings Cards: Vehicles

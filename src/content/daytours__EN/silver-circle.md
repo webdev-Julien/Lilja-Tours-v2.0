@@ -206,6 +206,7 @@ tags: ["west-iceland","sightseeing"]
 cardPicSrc: "/pictures/silver-circle/card/silver-circle.webp"
 cardPicAlt: "Beautiful waterfalls flowing on turquoise blue water"
 cardPicTitle: "Private tour: Borgarfjörður and Silver Circle"
+cardTitle: "The Silver Circle"
 
 
 # Bookings Cards: Vehicles

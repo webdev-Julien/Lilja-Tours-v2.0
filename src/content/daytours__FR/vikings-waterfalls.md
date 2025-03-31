@@ -218,6 +218,7 @@ tags: ["hautes-terres","decouverte","4x4"]
 cardPicSrc: "/pictures/vikings-waterfalls/card/vikings-waterfalls.webp"
 cardPicAlt: "Magnifique cascade"
 cardPicTitle: "Excursion guidée et privée: Vikings et Cascades"
+cardTitle: "Vikings & Cascades"
 
 
 # Bookings Cards: Vehicles

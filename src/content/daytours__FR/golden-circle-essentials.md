@@ -191,6 +191,7 @@ tags: ["cercle-d-or","decouverte"]
 cardPicSrc: "/pictures/golden-circle-essentials/card/golden-circle-essentials-card.webp"
 cardPicAlt: "Un geyser sur le point d'entrer en éruption"
 cardPicTitle: "Visite privée et guidée: Les essentiels du cercle d'or"
+cardTitle: "Cercle d'Or: Les essentiels"
 
 
 # Bookings Cards: Vehicles

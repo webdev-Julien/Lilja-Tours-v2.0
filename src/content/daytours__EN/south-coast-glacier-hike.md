@@ -210,6 +210,7 @@ tags: ["south-coast","sightseeing", "hiking", "adventure"]
 cardPicSrc: "/pictures/south-coast-glacier-hike/card/south-coast-glacier-hike.webp"
 cardPicAlt: "Picture taken from the top of a glacier"
 cardPicTitle: "Private tour: South Coast Glacier Hike"
+cardTitle: "South Coast & Glacier Hike"
 
 
 # Bookings Cards: Vehicles

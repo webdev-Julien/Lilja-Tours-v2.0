@@ -215,6 +215,7 @@ tags: ["highlands","sightseeing","jeep-only"]
 cardPicSrc: "/pictures/vikings-waterfalls/card/vikings-waterfalls.webp"
 cardPicAlt: "Beautiful waterfall"
 cardPicTitle: "Private tour: Vikings and Waterfalls"
+cardTitle: "Vikings and Waterfalls"
 
 
 # Bookings Cards: Vehicles

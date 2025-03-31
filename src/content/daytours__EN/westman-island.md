@@ -204,6 +204,7 @@ tags: ["south-coast","sightseeing", "hiking"]
 cardPicSrc: "/pictures/westman-islands/card/westman-islands.webp"
 cardPicAlt: "Rock shaped as an elephant"
 cardPicTitle: "Private tour: Westman islands"
+cardTitle: "The Westman Islands"
 
 
 # Bookings Cards: Vehicles

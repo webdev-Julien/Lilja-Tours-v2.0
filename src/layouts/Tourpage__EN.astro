@@ -52,7 +52,8 @@ const {
     form,
     fulllinkFr,
     taggies,
-    jsonLd
+    jsonLd,
+    cta
 } = Astro.props
 
 ---
@@ -171,7 +172,7 @@ const {
             gallery={gallery}>
             </GallerySection>
 
-            <BookSection tourTitle={tourTitle}>
+            <BookSection tourTitle={tourTitle} cta={cta}>
                 <div slot="carCards" class="carCards">
 
                     {vehicles.map((car:any) => (

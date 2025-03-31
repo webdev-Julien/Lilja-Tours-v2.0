@@ -1,13 +1,14 @@
 ---
-const {tourTitle} = Astro.props;
+const {tourTitle, cta, cta2} = Astro.props;
 ---
 
 <section id="bookings">
     <div class="wrapper">
 
-<h2>Réservez votre excursion : <span class="lj">{tourTitle}</span></h2>
+<h2 class="test">Réservez votre <span class="lj">{tourTitle}</span> et {cta}</h2>
 
 <slot name="carCards"></slot>
+<p set:html={cta2}></p>
 </div>
 </section>
 
@@ -21,11 +22,13 @@ const {tourTitle} = Astro.props;
     color: #A2B9E1;
 }
 
-h2 {
+.test {
       font-size: clamp(1.5rem, 3vw, 2rem);
         color: white;
         font-weight: normal;
         margin-bottom: 5rem;
+        text-align: left;
+
     }
 
 section {

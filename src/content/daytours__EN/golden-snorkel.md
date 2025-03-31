@@ -207,6 +207,7 @@ tags: ["golden-circle","sightseeing","adventure"]
 cardPicSrc: "/pictures/golden-snorkel/card/golden-snorkel.webp"
 cardPicAlt: "People in dry suits about to dive in clear waters"
 cardPicTitle: "Private tour: Golden Snorkel"
+cardTitle: "Golden Snorkel"
 
 
 # Bookings Cards: Vehicles

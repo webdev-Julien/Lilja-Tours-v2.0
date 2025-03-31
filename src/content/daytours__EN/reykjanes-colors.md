@@ -199,6 +199,7 @@ tags: ["west-iceland","sightseeing"]
 cardPicSrc: "/pictures/reykjanes-colors/card/reykjanes-colors.webp"
 cardPicAlt: "Sunset over varied landscape"
 cardPicTitle: "Private tour: Colors of Reykjanes Peninsula"
+cardTitle: "Colors of Reykjanes"
 
 
 # Bookings Cards: Vehicles

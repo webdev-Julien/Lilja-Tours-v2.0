@@ -7,9 +7,9 @@ jeepISK: 173000
 filter: "norm"
 
 # Head and metas
-pageTitle: "Sorties aurores boréales en Islande avec photographie professionnelle"
-description: "Partez pour une excursion privée à la chasse aux aurores boréales en Islande, avec un guide expert et des boissons chaudes. Vivez une nuit inoubliable sous le ciel arctique."
-ogTitle: "Sortie privée: Excursion aurores boréales"
+pageTitle: "Excursion privée Aurores Boréales en Islande | Photographie Professionnelle"
+description: "Découvrez les Aurores Boréales en Islande lors d'une excursion privée. Guide expert, photographie professionnelle et boissons chaudes pour une nuit magique sous le ciel arctique."
+ogTitle: "Excursion privée Aurores Boréales en Islande | Photographie Professionnelle"
 ogImage: "https://www.lilja-tours.com/pictures/northern-lights/card/northern-lights.webp"
 language: "fr"
 
@@ -28,7 +28,7 @@ tourTitle: "Excursion privée aux aurores boréales en Islande"
 # Header Picture
 headerCoverSrcMobile: "/pictures/northern-lights/headers/aurora-borealis-mobile.webp"
 headerCoverSrcPC: "/pictures/northern-lights/headers/aurora-borealis-pc.webp"
-headerCoverAlt: "Magnifiques aurores coronales"
+headerCoverAlt: "Excursion privée en Islande - Aurores Boréales coronales dans le ciel nocturne"
 headerCoverTitle: "Excursion privée: Aurores boréales en Islande"
 
 
@@ -53,10 +53,10 @@ itiCoverImgTitle: "Aurores Boréales"
 
 
 # Links
-linkFr: "/private-day-tours-iceland/northern-lights-iceland"
+linkFr: "/private-day-tours-iceland/private-northern-lights-tour-in-iceland"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/707396"
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/971141"
-fulllinkFr: "https://www.lilja-tours.com/private-day-tours-iceland/northern-lights-iceland"
+fulllinkFr: "https://www.lilja-tours.com/private-day-tours-iceland/private-northern-lights-tour-in-iceland"
 
 
 # Itinerary
@@ -65,10 +65,9 @@ itiItems: [
     itiItemTitle: "Avec prise de photos et boissons chaudes",
     itiItemPicSrcMobile: "/pictures/northern-lights/itinerary/northern-lights-mobile.webp",
     itiItemPicSrcPC: "/pictures/northern-lights/itinerary/northern-lights-pc.webp",
-    itiItemPicAlt: "Fantastique photo d'aurores boréales",
+    itiItemPicAlt: "Excursion Aurores Boréales en Islande - Ciel illuminé de lumière verte",
     itiItemPicTitle: "Chasse aux aurores boréales",
-    itiItemStrings: ["Partez pour une <strong>excursion privée à la découverte des aurores boréales en Islande</strong> et assistez à l’un des spectacles les plus fascinants de la nature. Votre aventure commence loin des lumières de la ville, où votre guide expert vous emmènera vers les meilleurs endroits pour observer les <strong>aurores boréales</strong>. Une fois le lieu idéal trouvé, patience et chance détermineront le temps d’attente avant que le ciel ne s’illumine de couleurs éclatantes. Les aurores boréales sont un phénomène imprévisible, directement lié à l’activité solaire, rendant chaque observation unique et magique.",
-    "En attendant l’apparition des aurores, vous serez émerveillé par la beauté du <strong>ciel nocturne islandais</strong>, totalement exempt de pollution lumineuse. Des millions d’étoiles scintillent au-dessus de vous, créant une atmosphère inoubliable. Que les aurores dansent sous vos yeux ou restent insaisissables, cette immersion dans la nature intacte de l’Islande est une aventure en soi. Ne manquez pas cette expérience unique pour chasser les aurores en tout confort et avec style !"]
+    itiItemStrings: ["Vivez une aventure inoubliable avec Lilja Tours lors d'une excursion privée aux Aurores Boréales en Islande. Accompagné d'un guide expert, explorez les meilleurs sites pour observer ce phénomène lumineux unique.","Profitez d'un confort optimal avec boissons chaudes et photographie professionnelle pour immortaliser ce moment magique. Votre aventure commence loin des lumières de la ville, où votre guide expert vous emmènera vers les meilleurs endroits pour observer les aurores boréales. Une fois le lieu idéal trouvé, patience et chance détermineront le temps d’attente avant que le ciel ne s’illumine de couleurs éclatantes. Les aurores boréales sont un phénomène imprévisible, directement lié à l’activité solaire, rendant chaque observation unique et magique."]
     }
     ]
 
@@ -101,61 +100,61 @@ gallery: [
 {
 srcMob: "/pictures/northern-lights/gallery/northern-lights-1-mobile.webp",
 srcPc: "/pictures/northern-lights/gallery/northern-lights-1-pc.webp",
-alt: "Quelqu'un regarde les aurores depuis le toit d'une voiture",
+alt: "Tour privé en Islande - Observation des Aurores Boréales depuis un véhicule",
 title: "Magie des aurores boréales islandaises"
 },    
 {
 srcMob: "/pictures/northern-lights/gallery/northern-lights-2-mobile.webp",
 srcPc: "/pictures/northern-lights/gallery/northern-lights-2-pc.webp",
-alt: "Aurores Boréales et pleine lune",
+alt: "Excursion Aurores Boréales en Islande - Pleine lune et lumière aurorale",
 title: "Magie des aurores boréales islandaises"
 },    
 {
 srcMob: "/pictures/northern-lights/gallery/northern-lights-3-mobile.webp",
 srcPc: "/pictures/northern-lights/gallery/northern-lights-3-pc.webp",
-alt: "Aurores au dessus de l'océan",
+alt: "Aurores Boréales sur l'océan islandais - Excursion privée",
 title: "Magie des aurores boréales islandaises"
 },  
 {
 srcMob: "/pictures/northern-lights/gallery/northern-lights-4-mobile.webp",
 srcPc: "/pictures/northern-lights/gallery/northern-lights-4-pc.webp",
-alt: "Brillantes et denses aurores boréales vertes",
+alt: "Spectacle lumineux d'Aurores Boréales vertes - Excursion en Islande",
 title: "Magie des aurores boréales islandaises"
 },  
 {
 srcMob: "/pictures/northern-lights/gallery/northern-lights-5-mobile.webp",
 srcPc: "/pictures/northern-lights/gallery/northern-lights-5-pc.webp",
-alt: "Gros plan d'aurores boréales",
+alt: "Détail d'Aurores Boréales - Excursion privée en Islande",
 title: "Magie des aurores boréales islandaises"
 },   
 {
 srcMob: "/pictures/northern-lights/gallery/northern-lights-6-mobile.webp",
 srcPc: "/pictures/northern-lights/gallery/northern-lights-6-pc.webp",
-alt: "Fort spectacle d'aurores boréales",
+alt: "Intense activité des Aurores Boréales en Islande - Excursion nocturne",
 title: "Magie des aurores boréales islandaises"
 },    
 {
 srcMob: "/pictures/northern-lights/gallery/northern-lights-7-mobile.webp",
 srcPc: "/pictures/northern-lights/gallery/northern-lights-7-pc.webp",
-alt: "Des aurores vertes dansent derrière une montagne",
+alt: "Aurores Boréales vertes dansant derrière une montagne islandaise",
 title: "Magie des aurores boréales islandaises"
 },  
 {
 srcMob: "/pictures/northern-lights/gallery/northern-lights-8-mobile.webp",
 srcPc: "/pictures/northern-lights/gallery/northern-lights-8-pc.webp",
-alt: "Vertes et violettes aurores",
+alt: "Aurores Boréales vertes et violettes - Ciel magique en Islande",
 title: "Magie des aurores boréales islandaises"
 },  
 {
 srcMob: "/pictures/northern-lights/gallery/northern-lights-9-mobile.webp",
 srcPc: "/pictures/northern-lights/gallery/northern-lights-9-pc.webp",
-alt: "Aurores Boréales en forme d'oiseau",
+alt: "Aurores Boréales en forme d'oiseau - Excursion privée en Islande",
 title: "Magie des aurores boréales islandaises"
 },  
 {
 srcMob: "/pictures/northern-lights/gallery/northern-lights-10-mobile.webp",
 srcPc: "/pictures/northern-lights/gallery/northern-lights-10-pc.webp",
-alt: "Des aurores fines derrière un 4x4",
+alt: "Aurores Boréales en arrière-plan d'un 4x4 - Tour privé en Islande",
 title: "Magie des aurores boréales islandaises"
 }]
 
@@ -166,6 +165,7 @@ tags: ["reykjavik","decouverte"]
 cardPicSrc: "/pictures/northern-lights/card/northern-lights.webp"
 cardPicAlt: "Incroyables aurores boréales"
 cardPicTitle: "Sortie guidée: Aurores Boréales"
+cardTitle: "Magie des Aurores Boréales"
 
 
 # Bookings Cards: Vehicles
@@ -175,7 +175,7 @@ vehicles: [
     name: "Mercedes V-Class",
     srcPC: "/pictures/cars/Mercedes-VClass.webp",
     srcMobile: "/pictures/cars/Mercedes-VClass-mobile.webp",
-    alt: "Un van bleu mercedes",
+    alt: "Un van bleu mercedes pour votre excursion privée vers les aurores boréales",
     title: "Réserver en V-class",
     rate: 179000,
     bookLink: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/707396",
@@ -185,7 +185,7 @@ vehicles: [
     name: "Toyota LandCruiser",
     srcPC: "/pictures/cars/Toyota-LandCruiser.webp",
     srcMobile: "/pictures/cars/Toyota-LandCruiser-mobile.webp",
-    alt: "Une superjeep toyota",
+    alt: "Une superjeep toyota, parfait pour une observation privée des aurores boréales",
     title: "Réserver en LandCruiser",
     rate: 173000,
     bookLink: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/971141",
@@ -194,13 +194,15 @@ vehicles: [
 
 ]
 
+cta: "vivez la magie du ciel islandais !"
+
 form: "https://tally.so/r/wgkK84"
 
 jsonLd:
   "@context": "https://schema.org"
   "@type": "TouristTrip"
   name: "Sortie Privée Aurores Boréales en Islande"
-  description: "Partez à la chasse aux aurores boréales lors d’une excursion privée de 4 heures au départ de Reykjavík. Profitez d’un guide local expérimenté, d’un véhicule 4x4 confortable et d’un itinéraire flexible pour vivre une soirée magique sous les lumières du Nord."
+  description: "Découvrez les Aurores Boréales en Islande lors d'une excursion privée avec Lilja Tours. Profitez de conseils d'expert, de photographies professionnelles et de boissons chaudes pour une expérience inoubliable sous le ciel étoilé."
   image:
     - "https://www.lilja-tours.com/pictures/northern-lights/gallery/northern-lights-1-pc.webp"
     - "https://www.lilja-tours.com/pictures/northern-lights/gallery/northern-lights-2-pc.webp"

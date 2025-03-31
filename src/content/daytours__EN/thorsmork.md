@@ -192,6 +192,7 @@ tags: ["highlands", "hiking", "jeep-only"]
 cardPicSrc: "/pictures/thorsmork/card/thorsmork.webp"
 cardPicAlt: "Sunlight and shadow over a colorful valley"
 cardPicTitle: "Private hiking tour: Þórsmörk's beauty"
+cardTitle: "Þórsmörk's (Thorsmork) Beauty"
 
 
 # Bookings Cards: Vehicles

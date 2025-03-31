@@ -230,6 +230,7 @@ tags: ["south-coast","sightseeing"]
 cardPicSrc: "/pictures/south-coast-volcano-tales/card/the-lava-show.webp"
 cardPicAlt: "Display of information about volcanism in Iceland, on a red lit wall"
 cardPicTitle: "Private tour: South Coast and Volcano Tales"
+cardTitle: "South Coast and Volcano Tales"
 
 
 # Bookings Cards: Vehicles

@@ -51,7 +51,9 @@ const {
     vehicles,
     form,
     fulllinkFr,
-    taggies
+    taggies,
+    cta,
+    cta2
 } = Astro.props
 
 ---
@@ -167,7 +169,7 @@ const {
             gallery={gallery}>
             </GallerySection>
 
-            <BookSection tourTitle={tourTitle}>
+            <BookSection tourTitle={tourTitle} cta={cta} cta2={cta2}>
                 <div slot="carCards" class="carCards">
 
                     {vehicles.map((car:any) => (
@@ -177,7 +179,7 @@ const {
                         srcMobile={car.srcMobile}
                         vehicAlt={car.alt}
                         vehicleTitle={car.title}
-                        capacity={car.capacity}
+                        capacity={car.capacity} 
                         rate={car.rate}
                         bookLink={car.bookLink}
                         buttonText={car.name}

@@ -225,6 +225,7 @@ tags: ["golden-circle","sightseeing"]
 cardPicSrc: "/pictures/golden-circle-farm-visits/card/golden-circle-farm-visits.webp"
 cardPicAlt: "Someone is eating in a fancy restaurant inside of a greenhouse"
 cardPicTitle: "Private tour: Culinary Golden Circle"
+cardTitle: "Culinary Golden Circle"
 
 
 # Bookings Cards: Vehicles

@@ -7,9 +7,9 @@ jeepISK: 250000
 filter: "norm"
 
 # Head and metas
-pageTitle: "Landmannalaugar dans les hautes terres islandaises | Excursion d'exception "
-description: "Explorez Landmannalaugar en randonnée privée. Découvrez champs de lave, montagnes colorées et vues à couper le souffle. Réservez votre aventure !"
-ogTitle: "Visite privée: Landmannalaugar"
+pageTitle: "Excursion Privée Landmannalaugar en Islande | Randonnée de Luxe"
+description: "Découvrez Landmannalaugar lors d'une excursion privée de luxe en Islande. Randonnées guidées à travers montagnes colorées et champs de lave. Réservez votre aventure exclusive !"
+ogTitle: "Excursion Privée Landmannalaugar en Islande | Randonnée de Luxe"
 ogImage: "https://www.lilja-tours.com/pictures/landmannalaugar-heat/card/landmannalaugar.webp"
 language: "fr"
 
@@ -22,13 +22,13 @@ difficulty: "Adaptable"
 
 
 # H1
-tourTitle: "Spectaculaire Landmannalaugar"
+tourTitle: "Excursion Privée de Luxe au Landmannalaugar"
 
 
 # Header Picture
 headerCoverSrcMobile: "/pictures/landmannalaugar-heat/headers/landmannalaugar-mobile.webp"
 headerCoverSrcPC: "/pictures/landmannalaugar-heat/headers/landmannalaugar-pc.webp"
-headerCoverAlt: "Montagnes colorées à perte de vue"
+headerCoverAlt: "Randonnée privée à Landmannalaugar - Montagnes colorées dans les hautes terres islandaises"
 headerCoverTitle: "Randonnée guidée vers le Landmannalaugar"
 
 
@@ -41,18 +41,18 @@ bookButtons: [
 ]
 
 # Iti Picture
-itiCoverTitle: "Votre itinéraire"
+itiCoverTitle: "Excursion au Landmannalaugar"
 itiCoverImgSrcMobile: "/pictures/landmannalaugar-heat/itinerary/title/landmannalaugar-mobile.webp"
 itiCoverImgSrcPC: "/pictures/landmannalaugar-heat/itinerary/title/landmannalaugar-pc.webp"
-itiCoverImgAlt: "Paysages magnifiques de montagnes ocres et oranges"
+itiCoverImgAlt: "Excursion privée à Landmannalaugar - Montagnes ocres et oranges en Islande"
 itiCoverImgTitle: "Landmannalaugar"
 
 
 # Links
-linkFr: "/private-day-tours-iceland/spectacular-landmannalaugar"
+linkFr: "/private-day-tours-iceland/private-hiking-tour-to-the-landmannalaugar"
 bookVan: ""
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/751054"
-fulllinkFr: "https://www.lilja-tours.com/private-day-tours-iceland/spectacular-landmannalaugar"
+fulllinkFr: "https://www.lilja-tours.com/private-day-tours-iceland/private-hiking-tour-to-the-landmannalaugar"
 
 
 # Itinerary
@@ -61,16 +61,16 @@ itiItems: [
     itiItemTitle: "Ljótipollur",
     itiItemPicSrcMobile: "/pictures/landmannalaugar-heat/itinerary/ljotipollur-mobile.webp",
     itiItemPicSrcPC: "/pictures/landmannalaugar-heat/itinerary/ljotipollur-pc.webp",
-    itiItemPicAlt: "Vue panoramique d'un cratère rouge avec un lac bleu turquoise au fond de celui-ci",
+    itiItemPicAlt: "Excursion avec guide francophone - Vue panoramique d'un cratère rouge avec un lac bleu turquoise au fond de celui-ci",
     itiItemPicTitle: "Spectaculaire Landmannalaugar: Ljótipollur",
-    itiItemStrings: ["Ljótipollur est un magnifique lac de cratère niché au milieu de montagnes rouge fer, offrant des vues à couper le souffle sur le paysage environnant. Malgré son nom, qui se traduit par -L'Étang Laid-, Ljótipollur est une merveille naturelle d'une beauté captivante. Ses eaux bleu vif contrastent vivement avec les pentes couleur rouille, créant un spectacle envoûtant, parfait pour la photographie et les promenades en pleine nature.",  
+    itiItemStrings: ["Découvrez Ljótipollur, un cratère rouge spectaculaire avec un lac bleu turquoise. Ce lieu pittoresque est parfait pour les amateurs de photographie et offre une atmosphère paisible, loin des foules.","Ljótipollur est un magnifique lac de cratère niché au milieu de montagnes rouge fer, offrant des vues à couper le souffle sur le paysage environnant. Malgré son nom, qui se traduit par -L'Étang Laid-, Ljótipollur est une merveille naturelle d'une beauté captivante.",  
     "Lors du voyage vers Landmannalaugar, nous ferons une halte à Ljótipollur pour admirer les vues panoramiques et apprécier sa beauté unique. Ce lieu pittoresque offre non seulement un paysage incroyable, mais aussi une atmosphère paisible, faisant de cette étape un moment inoubliable des hautes terres islandaises. Son nom trompeur ajoute à son mystère, car la beauté de Ljótipollur est tout sauf laide. Découvrez le charme de ce joyau caché et profitez de l'un des paysages les plus uniques d'Islande."]
     },
     {
     itiItemTitle: "Landmannalaugar",
     itiItemPicSrcMobile: "/pictures/landmannalaugar-heat/itinerary/landmannalaugar-mobile.webp",
     itiItemPicSrcPC: "/pictures/landmannalaugar-heat/itinerary/landmannalaugar-pc.webp",
-    itiItemPicAlt: "Des montagnes colorées au milieu du déset",
+    itiItemPicAlt: "Des montagnes colorées au milieu du déset vue au cours d'une excurions guidée en français",
     itiItemPicTitle: "Spectaculaire Landmannalaugar: Randonnée au Landmannalaugar",
     itiItemStrings: ["À Landmannalaugar, plusieurs sentiers de randonnée conviennent à différents niveaux de condition physique, offrant tous des vues imprenables sur les paysages uniques de l'Islande.",  
     "Pour une randonnée facile, commencez par Laugarhraun, un champ de lave rempli d'obsidienne avec des vues panoramiques sur la région. Ce chemin est doux et pittoresque. À la fin, vous pouvez faire un détour vers Grænagíl, une montagne verte vibrante de rhyolite altérée, en traversant le champ de lave.",  
@@ -82,12 +82,15 @@ itiItems: [
     itiItemTitle: "Canyon de Sigöldugljúfur",
     itiItemPicSrcMobile: "/pictures/landmannalaugar-heat/itinerary/sigoldugljufur-mobile.webp",
     itiItemPicSrcPC: "/pictures/landmannalaugar-heat/itinerary/sigoldugljufur-pc.webp",
-    itiItemPicAlt: "Un immense canyon avec d'innombrables cascades",
+    itiItemPicAlt: "Un immense canyon avec d'innombrables cascades pendant une randonnée guidée en français",
     itiItemPicTitle: "Spectaculaire Landmannalaugar: Sigöldugljúfur",
     itiItemStrings: ["Sur le chemin du retour, nous visiterons un canyon à couper le souffle connu sous le nom de Vallée des Larmes. Ce joyau caché est un spectacle envoûtant, avec d'innombrables cascades dévalant majestueusement les parois du canyon, créant une atmosphère mystique. Le bruit de l'eau en cascade résonne dans toute la vallée, ajoutant à son ambiance enchanteresse.",  
     "Ce canyon pittoresque offre la conclusion parfaite à votre voyage à travers les Hautes Terres islandaises. Sa beauté saisissante et son cadre serein laissent une impression durable, capturant l'esprit sauvage des paysages islandais."]
     }
     ]
+
+cta: "découvrez les merveilles des hautes terres islandaises !"
+cta2: ""
 
 
 # Tour infos
@@ -124,61 +127,61 @@ gallery: [
 {
 srcMob: "/pictures/landmannalaugar-heat/gallery/landmannalaugar-1-mobile.webp",
 srcPc: "/pictures/landmannalaugar-heat/gallery/landmannalaugar-1-pc.webp",
-alt: "Paysages de montagnes colorées et fumerolles",
+alt: "Randonnée privée à Landmannalaugar - Montagnes colorées et fumerolles",
 title: "Spectaculaire Landmannalaugar: Randonnée"
 },    
 {
 srcMob: "/pictures/landmannalaugar-heat/gallery/landmannalaugar-2-mobile.webp",
 srcPc: "/pictures/landmannalaugar-heat/gallery/landmannalaugar-2-pc.webp",
-alt: "Paysage sans fin de montagnes colorées",
+alt: "Panorama de montagnes colorées - Landmannalaugar en excursion privée",
 title: "Spectaculaire Landmannalaugar: Bláhnúkur"
 },    
 {
 srcMob: "/pictures/landmannalaugar-heat/gallery/landmannalaugar-3-mobile.webp",
 srcPc: "/pictures/landmannalaugar-heat/gallery/landmannalaugar-3-pc.webp",
-alt: "Montagne verte avec quelques randonneurs au sommet",
+alt: "Montagne verte à Landmannalaugar - Randonnée privée en Islande",
 title: "Spectaculaire Landmannalaugar: Grænagíl"
 },  
 {
 srcMob: "/pictures/landmannalaugar-heat/gallery/ljotipollur-2-mobile.webp",
 srcPc: "/pictures/landmannalaugar-heat/gallery/ljotipollur-2-pc.webp",
-alt: "Montagnes rouges et lac bleu",
+alt: "Cratère Ljótipollur - Montagnes rouges et lac bleu sur un tour privé",
 title: "Spectaculaire Landmannalaugar: Ljótipollur"
 },  
 {
 srcMob: "/pictures/landmannalaugar-heat/gallery/landmannalaugar-5-mobile.webp",
 srcPc: "/pictures/landmannalaugar-heat/gallery/landmannalaugar-5-pc.webp",
-alt: "paysages menaçants de monatgnes noires",
+alt: "Montagnes sombres et menaçantes à Landmannalaugar - Randonnée hautes terres",
 title: "Spectaculaire Landmannalaugar: Landmannalaugar"
 },   
 {
 srcMob: "/pictures/landmannalaugar-heat/gallery/landmannalaugar-6-mobile.webp",
 srcPc: "/pictures/landmannalaugar-heat/gallery/landmannalaugar-6-pc.webp",
-alt: "Champs de lave, rivières serpentantes, lacs et fumerolles dans un même panorama",
+alt: "Panorama de Landmannalaugar - Champs de lave, rivières et fumerolles",
 title: "Spectaculaire Landmannalaugar: Randonnée dans le Landmannalaugar"
 },    
 {
 srcMob: "/pictures/landmannalaugar-heat/gallery/landmannalaugar-7-mobile.webp",
 srcPc: "/pictures/landmannalaugar-heat/gallery/landmannalaugar-7-pc.webp",
-alt: "Sombres champs d'obsidienne et montagnes ocres",
+alt: "Champs d'obsidienne et montagnes ocres à Landmannalaugar",
 title: "Spectaculaire Landmannalaugar: Laugarhraun"
 },  
 {
 srcMob: "/pictures/landmannalaugar-heat/gallery/landmannalaugar-8-mobile.webp",
 srcPc: "/pictures/landmannalaugar-heat/gallery/landmannalaugar-8-pc.webp",
-alt: "Champs de lave et montagnes ocres",
+alt: "Randonnée à Landmannalaugar - Champs de lave et montagnes ocres",
 title: "Spectaculaire Landmannalaugar: Grænagíl"
 },  
 {
 srcMob: "/pictures/landmannalaugar-heat/gallery/ljotipollur-1-mobile.webp",
 srcPc: "/pictures/landmannalaugar-heat/gallery/ljotipollur-1-pc.webp",
-alt: "Cratère rouge, lac bleu et mousse jaune",
+alt: "Ljótipollur - Cratère rouge avec lac bleu et mousse jaune",
 title: "Spectaculaire Landmannalaugar: Ljotipollur"
 },  
 {
 srcMob: "/pictures/landmannalaugar-heat/gallery/sigoldugljufur-1-mobile.webp",
 srcPc: "/pictures/landmannalaugar-heat/gallery/sigoldugljufur-1-pc.webp",
-alt: "Innombrables cascades coulant dans un canyon",
+alt: "Sigöldugljúfur - Canyon avec cascades en Islande",
 title: "Spectaculaire Landmannalaugar: Sigöldugljúfur"
 }]
 
@@ -189,6 +192,7 @@ tags: ["hautes-terres", "randonnee", "4x4"]
 cardPicSrc: "/pictures/landmannalaugar-heat/card/landmannalaugar.webp"
 cardPicAlt: "Clair obscur sur une vallée colorée"
 cardPicTitle: "Excursion randonnée privée et guidée: Spectaculaire Landmannalaugar"
+cardTitle: "Spectaculaire Landmannalaugar"
 
 
 # Bookings Cards: Vehicles
@@ -207,10 +211,68 @@ vehicles: [
 
 ]
 
+jsonLD: {
+  "@context": "https://schema.org",
+  "@type": "TouristTrip",
+  "name": "Spectaculaire Landmannalaugar",
+  "description": "Partez pour une excursion privée de luxe à Landmannalaugar avec Lilja Tours. Randonnées guidées au cœur des hautes terres, avec des paysages uniques de montagnes colorées et de cratères volcaniques.",
+  "image": [
+    "https://www.lilja-tours.com/pictures/landmannalaugar/gallery/landmannalaugar-1-pc.webp",
+    "https://www.lilja-tours.com/pictures/landmannalaugar/gallery/landmannalaugar-2-pc.webp",
+    "https://www.lilja-tours.com/pictures/landmannalaugar/gallery/landmannalaugar-3-pc.webp",
+    "https://www.lilja-tours.com/pictures/landmannalaugar/gallery/landmannalaugar-4-pc.webp",
+    "https://www.lilja-tours.com/pictures/landmannalaugar/gallery/landmannalaugar-5-pc.webp"
+  ],
+  "url": "https://www.lilja-tours.com/fr/excursions-en-islande/excursion-guidee-landmannalaugar/",
+  "inLanguage": [
+    "fr",
+    "en"
+  ],
+  "touristType": {
+    "@type": "Audience",
+    "name": "Voyageurs de luxe"
+  },
+  "itinerary": {
+    "@type": "ItemList",
+    "itemListElement": []
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "250000",
+    "priceCurrency": "ISK",
+    "availability": "https://schema.org/InStock",
+    "url": "https://www.lilja-tours.com/fr/excursions-en-islande/spectaculaire-landmannalaugar/"
+  },
+  "provider": {
+    "@type": "TravelAgency",
+    "name": "Lilja Tours",
+    "url": "https://www.lilja-tours.com",
+    "logo": "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png"
+  },
+  "departureLocation": {
+    "@type": "Place",
+    "name": "Reykjavík"
+  },
+  "duration": "PT12H",
+  "maximumAttendeeCapacity": 4,
+  "availableLanguage": [
+    {
+      "@type": "Language",
+      "name": "Français"
+    },
+    {
+      "@type": "Language",
+      "name": "Anglais"
+    }
+  ],
+  "temporalCoverage": "2025-06-01/2025-09-30"
+}
+
+
 form: "https://tally.so/r/w7p12R"
 
 
 
-slug: spectaculaire-landmannalaugar
+slug: excursion-guidee-landmannalaugar-iceland
 
 ---

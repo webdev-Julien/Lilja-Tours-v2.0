@@ -87,6 +87,7 @@ const daytours__EN = defineCollection({
     cardPicSrc: z.string(),
     cardPicAlt: z.string(),
     cardPicTitle: z.string(),
+    cardTitle: z.string(),
 
     // Vehicles
     vehicles: z.array(
@@ -101,6 +102,9 @@ const daytours__EN = defineCollection({
         capacity: z.string(),
       })
     ),
+    cta: z.string().optional(),
+    cta2: z.string().optional(),
+
 
     // Form
 
@@ -241,6 +245,7 @@ const daytours__FR = defineCollection({
     cardPicSrc: z.string(),
     cardPicAlt: z.string(),
     cardPicTitle: z.string(),
+    cardTitle: z.string(),
 
     // Vehicles
     vehicles: z.array(
@@ -255,6 +260,8 @@ const daytours__FR = defineCollection({
         capacity: z.string(),
       })
     ),
+    cta: z.string().optional(),
+    cta2: z.string().optional(),
 
     // Form
 

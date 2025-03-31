@@ -175,6 +175,7 @@ tags: ["ouest-islandais","randonnee"]
 cardPicSrc: "/pictures/glymur/card/glymur.webp"
 cardPicAlt: "Belle cascade tombant dans un canyon profond"
 cardPicTitle: "Excursion privée: Randonnée vers Glymur"
+cardTitle: "Randonnée vers Glymur"
 
 
 # Bookings Cards: Vehicles

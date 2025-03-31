@@ -220,6 +220,7 @@ tags: ["cercle-d-or","decouverte"]
 cardPicSrc: "/pictures/golden-circle-farm-visits/card/golden-circle-farm-visits.webp"
 cardPicAlt: "Quelqu'un mange dans un beau restaurant"
 cardPicTitle: "Visite guidée et privée: Culinaire cercle d'or"
+cardTitle: "Cercle d'Or Culinaire"
 
 
 # Bookings Cards: Vehicles

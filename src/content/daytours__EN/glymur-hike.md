@@ -177,6 +177,7 @@ tags: ["west-iceland","hiking"]
 cardPicSrc: "/pictures/glymur/card/glymur.webp"
 cardPicAlt: "Beautiful waterfall flowing into a deep canyon"
 cardPicTitle: "Private tour: Glymur Hike"
+cardTitle: "Glymur Hike"
 
 
 # Bookings Cards: Vehicles

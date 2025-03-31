@@ -200,6 +200,7 @@ tags: ["west-iceland","sightseeing"]
 cardPicSrc: "/pictures/snaefellsnes-wonders/card/snaefellsnes-private-tour.webp"
 cardPicAlt: "Sunset over a immense natural stone arch"
 cardPicTitle: "Private tour: Snæfellsnes wonders"
+cardTitle: "Snæfellsnes Wonders"
 
 
 # Bookings Cards: Vehicles

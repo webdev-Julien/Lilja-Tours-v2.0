@@ -206,6 +206,7 @@ tags: ["ouest-islandais","decouverte"]
 cardPicSrc: "/pictures/silver-circle/card/silver-circle.webp"
 cardPicAlt: "Belles cascades se jetant dans une rivière bleu turquoise"
 cardPicTitle: "Excursion privée: Borgarfjörður et le cercle d'argent"
+cardTitle: "Le Cercle d'Argent"
 
 
 # Bookings Cards: Vehicles

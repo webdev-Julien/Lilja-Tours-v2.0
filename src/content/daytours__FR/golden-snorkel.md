@@ -205,6 +205,7 @@ tags: ["cercle-d-or","decouverte","aventure"]
 cardPicSrc: "/pictures/golden-snorkel/card/golden-snorkel.webp"
 cardPicAlt: "Personnes en combinaison sèche sur le point de plonger dans des eaux limpides"
 cardPicTitle: "Excursion privée: Golden Snorkel"
+cardTitle: "Cercle d'Or et Silfra"
 
 
 # Bookings Cards: Vehicles

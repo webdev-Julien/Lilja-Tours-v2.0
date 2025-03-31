@@ -210,6 +210,7 @@ tags: ["cote-sud","decouverte", "randonnee", "aventure"]
 cardPicSrc: "/pictures/south-coast-glacier-hike/card/south-coast-glacier-hike.webp"
 cardPicAlt: "Photo prise du haut d'un glacier"
 cardPicTitle: "Excursion privée: Côte sud et rando sur glacier"
+cardTitle: "Côte sud & Rando Glacier"
 
 
 # Bookings Cards: Vehicles

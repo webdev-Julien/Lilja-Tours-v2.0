@@ -171,6 +171,7 @@ tags: ["hautes-terres", "randonnee", "4x4"]
 cardPicSrc: "/pictures/kerlingarfjoll/card/kerlingarfjoll.webp"
 cardPicAlt: "Vallée colorée et fumante"
 cardPicTitle: "Randonnée privée: La puissance de Kerlingarfjöll"
+cardTitle: "La Puissance de Kerlingarfjöll"
 
 
 # Bookings Cards: Vehicles

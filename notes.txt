@@ -1,0 +1,23 @@
+Opti: 
+
+EN:
+
+NL, LMLG, KLG
+
+FR:
+
+NL, LMLG
+
+---
+Do CTA2 after all tours are done.
+
+Do a thorough check of URL with new slugs: LinkFr, Url, JsonLD-Url in all frontmatters.
+
+Implement redirect in .htaccess
+
+
+Then do index requests on GSC keeping in mind that only 10 requests can be done in one day.
+
+Finish all this optimisation before pushing site online again
+
+When pushing site, make sure to first delete old site (so some older pages are not accessible)

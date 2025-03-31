@@ -192,6 +192,7 @@ tags: ["hautes-terres", "randonnee", "4x4"]
 cardPicSrc: "/pictures/thorsmork/card/thorsmork.webp"
 cardPicAlt: "Coucher de soleil par dessus une valéee colorée"
 cardPicTitle: "Randonnée privée: La beauté de Þórsmörk"
+cardTitle: "Beauté de Þórsmörk (Thorsmork)"
 
 
 # Bookings Cards: Vehicles

@@ -204,6 +204,7 @@ tags: ["cote-sud","decouverte", "randonnee"]
 cardPicSrc: "/pictures/westman-islands/card/westman-islands.webp"
 cardPicAlt: "Rocher en forme d'éléphant"
 cardPicTitle: "Excursion privée: Les îles Westman"
+cardTitle: "Les Îles Westman"
 
 
 # Bookings Cards: Vehicles

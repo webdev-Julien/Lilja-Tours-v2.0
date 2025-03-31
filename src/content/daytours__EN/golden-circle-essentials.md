@@ -193,6 +193,7 @@ tags: ["golden-circle","sightseeing"]
 cardPicSrc: "/pictures/golden-circle-essentials/card/golden-circle-essentials-card.webp"
 cardPicAlt: "A geyser about to erupt"
 cardPicTitle: "Private tour: Golden Circle Essentials"
+cardTitle: "Golden Circle Essentials"
 
 
 # Bookings Cards: Vehicles

@@ -170,6 +170,7 @@ tags: ["south-coast","hiking", "adventure"]
 cardPicSrc: "/pictures/glacier-hike/card/glacier-hike.webp"
 cardPicAlt: "Glacier and black sand beach"
 cardPicTitle: "Private tour: Glacier Hike"
+cardTitle: "Glacier Hike"
 
 
 # Bookings Cards: Vehicles
