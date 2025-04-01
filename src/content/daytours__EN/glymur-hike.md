@@ -8,9 +8,9 @@ filter: "norm"
 
 
 # Head and metas
-pageTitle: "Private Glymur Waterfall Hike in Iceland – Scenic Adventure Near Reykjavík"
-description: "Embark on a private hiking adventure to Glymur Waterfall, Iceland's second-highest cascade. Experience breathtaking landscapes, river crossings, and panoramic views near Reykjavík with our expert guides."
-ogTitle: "Private tour: Glymur Hike in Iceland"
+pageTitle: "Private Hiking Tour to Glymur Waterfall | Luxury Hiking Tour Near Reykjavík"
+description: "Discover the Glymur Waterfall on a luxury private hiking tour. Explore breathtaking landscapes, river crossings, and panoramic views near Reykjavík with expert guidance. Book now!"
+ogTitle: "Private Hiking Tour to Glymur Waterfall | Luxury Hiking Tour Near Reykjavík"
 ogImage: "https://www.lilja-tours.com/pictures/glymur/card/glymur.webp"
 language: "en"
 
@@ -23,13 +23,13 @@ difficulty: "Moderate"
 
 
 # H1
-tourTitle: "Private Glymur Waterfall Hike in Iceland"
+tourTitle: "Private Hiking Tour to Glymur Waterfall"
 
 
 # Header Picture
 headerCoverSrcMobile: "/pictures/glymur/headers/glymur-mobile.webp"
 headerCoverSrcPC: "/pictures/glymur/headers/glymur-pc.webp"
-headerCoverAlt: "Stunning waterfall flowing in a canyon"
+headerCoverAlt: "Luxury private hike to Glymur Waterfall - Scenic canyon view"
 headerCoverTitle: "Private hiking tour in Glymur"
 
 
@@ -46,10 +46,10 @@ bookButtons: [
 ]
 
 # Iti Picture
-itiCoverTitle: "Tour overview"
+itiCoverTitle: "Experience a private hiking tour to Glymur Waterfall with Lilja Tours. Explore scenic canyons, cross rivers, and witness breathtaking views of Iceland’s second-highest cascade, guided by local experts"
 itiCoverImgSrcMobile: "/pictures/glymur/itinerary/title/glymur-mobile.webp"
 itiCoverImgSrcPC: "/pictures/glymur/itinerary/title/glymur-pc.webp"
-itiCoverImgAlt: "People wading through a river"
+itiCoverImgAlt: "Hikers crossing a river on the Glymur Waterfall private tour"
 itiCoverImgTitle: "Hiking Glymur"
 
 
@@ -63,18 +63,19 @@ fulllinkFr: "https://www.lilja-tours.com/fr/excursions-en-islande/randonnee-guid
 # Itinerary
 itiItems: [
   { 
-    itiItemTitle: "Expert Guides​",
+    itiItemTitle: "Expert Guides for a Bespoke Hiking Tour​",
     itiItemPicSrcMobile: "/pictures/glymur/itinerary/glymur-mobile.webp",
     itiItemPicSrcPC: "/pictures/glymur/itinerary/glymur-pc.webp",
-    itiItemPicAlt: "Gorgeous waterfall flowing down in a deep canyon",
+    itiItemPicAlt: "Private Hiking Tour - Gorgeous waterfall flowing down in a deep canyon",
     itiItemPicTitle: "Private Glymur Hiking Tour",
-    itiItemStrings: ["The hike to <strong>Glymur</strong>, Iceland’s second-highest waterfall, is a thrilling adventure through breathtaking landscapes. This moderately challenging trail takes about three hours round trip, with an ascent on the way up and a descent back down. Along the way, we’ll traverse rugged terrain, cross rivers, and take in some of the most spectacular views near Reykjavík.",
+    itiItemStrings: ["The hike to Glymur, Iceland’s second-highest waterfall, is a thrilling adventure through breathtaking landscapes. This moderately challenging trail takes about three hours round trip, with an ascent on the way up and a descent back down. Along the way, we’ll traverse rugged terrain, cross rivers, and take in some of the most spectacular views near Reykjavík.",
     "One of the unique features of this hike is the river crossings. The first river has a log to help with the crossing, though depending on water levels, wading shoes might be necessary. The second crossing, located at the very top of the waterfall, offers no alternative: you’ll have to step directly into the refreshing waters, adding to the adventure!",
     "With its dramatic cliffs, lush valleys, and the stunning sight of Glymur plunging into the canyon below, this might just be the most scenic day hike from Reykjavík. If you’re looking for an unforgettable experience in Iceland’s wild nature, this is it!"
 ]
     }
     ]
 
+cta: "discover Iceland’s natural wonders!"
 
 # Tour infos
 
@@ -112,61 +113,61 @@ gallery: [
 {
 srcMob: "/pictures/glymur/gallery/glymur-1-mobile.webp",
 srcPc: "/pictures/glymur/gallery/glymur-1-pc.webp",
-alt: "People crossing a river over a log of wood",
+alt: "Hikers crossing a river on a wooden log - Glymur Waterfall tour",
 title: "Private Glymur Hike"
 },    
 {
 srcMob: "/pictures/glymur/gallery/glymur-2-mobile.webp",
 srcPc: "/pictures/glymur/gallery/glymur-2-pc.webp",
-alt: "One man crossing a river and passing under an iron wire",
+alt: "Adventurer crossing a river with iron wire support - Glymur hike",
 title: "Private Glymur Hike"
 },    
 {
 srcMob: "/pictures/glymur/gallery/glymur-3-mobile.webp",
 srcPc: "/pictures/glymur/gallery/glymur-3-pc.webp",
-alt: "Tall waterfall falling into a deep canyon",
+alt: "Glymur Waterfall - Iceland's second-highest cascade in a canyon",
 title: "Private Glymur Hike"
 },  
 {
 srcMob: "/pictures/glymur/gallery/glymur-4-mobile.webp",
 srcPc: "/pictures/glymur/gallery/glymur-4-pc.webp",
-alt: "Family admiring a stunning panorama over a fjord",
+alt: "Family enjoying the panoramic view of a fjord on Glymur hike",
 title: "Private Glymur Hike"
 },  
 {
 srcMob: "/pictures/glymur/gallery/glymur-5-mobile.webp",
 srcPc: "/pictures/glymur/gallery/glymur-5-pc.webp",
-alt: "Close up of a powerfull waterfall with two birds passing before it",
+alt: "Close-up of Glymur Waterfall with birds flying by",
 title: "Private Glymur Hike"
 },   
 {
 srcMob: "/pictures/glymur/gallery/glymur-6-mobile.webp",
 srcPc: "/pictures/glymur/gallery/glymur-6-pc.webp",
-alt: "Field of purple lupines",
+alt: "Purple lupine field near Glymur Waterfall - Hiking tour",
 title: "Private Glymur Hike"
 },    
 {
 srcMob: "/pictures/glymur/gallery/glymur-7-mobile.webp",
 srcPc: "/pictures/glymur/gallery/glymur-7-pc.webp",
-alt: "Log of wood over a torrent",
+alt: "Wooden log bridge over a rushing torrent - Glymur hike",
 title: "Private Glymur Hike"
 },  
 {
 srcMob: "/pictures/glymur/gallery/glymur-8-mobile.webp",
 srcPc: "/pictures/glymur/gallery/glymur-8-pc.webp",
-alt: "Steep hiking path",
+alt: "Steep trail on the way to Glymur Waterfall - Private hiking tour",
 title: "Private Glymur Hike"
 },  
 {
 srcMob: "/pictures/glymur/gallery/glymur-9-mobile.webp",
 srcPc: "/pictures/glymur/gallery/glymur-9-pc.webp",
-alt: "Close up of a flying seagull at sunset",
+alt: "Seagull soaring at sunset over Icelandic landscape",
 title: "Private Glymur Hike"
 },  
 {
 srcMob: "/pictures/glymur/gallery/glymur-10-mobile.webp",
 srcPc: "/pictures/glymur/gallery/glymur-10-pc.webp",
-alt: "Sunset over a fjord",
+alt: "Breathtaking sunset over an Icelandic fjord - Glymur hike",
 title: "Private Glymur Hike"
 }]
 
@@ -175,7 +176,7 @@ title: "Private Glymur Hike"
 
 tags: ["west-iceland","hiking"]
 cardPicSrc: "/pictures/glymur/card/glymur.webp"
-cardPicAlt: "Beautiful waterfall flowing into a deep canyon"
+cardPicAlt: "Beautiful waterfall flowing into a deep canyon seen on a private luxury hiking tour"
 cardPicTitle: "Private tour: Glymur Hike"
 cardTitle: "Glymur Hike"
 
@@ -214,14 +215,14 @@ jsonLd:
   "@context": "https://schema.org"
   "@type": "TouristTrip"
   name: "Glymur Waterfall Private Hike in Iceland"
-  description: "Hike to Iceland’s second-highest waterfall on this private day tour from Reykjavík. This 8-hour adventure takes you through scenic canyons, river crossings, and dramatic viewpoints, led by a local expert guide in a private setting."
+  description: "Experience a luxury private hiking tour to Glymur Waterfall with Lilja Tours. Explore scenic canyons, cross rivers, and witness breathtaking views of Iceland’s second-highest cascade, guided by local experts."
   image:
     - "https://www.lilja-tours.com/pictures/glymur/gallery/glymur-5-pc.webp"
     - "https://www.lilja-tours.com/pictures/glymur/gallery/glymur-4-pc.webp"
     - "https://www.lilja-tours.com/pictures/glymur/gallery/glymur-3-pc.webp"
     - "https://www.lilja-tours.com/pictures/glymur/gallery/glymur-2-pc.webp"
     - "https://www.lilja-tours.com/pictures/glymur/gallery/glymur-1-pc.webp"
-  url: "https://www.lilja-tours.com/private-day-tours-iceland/private-tour-glymur-hike/"
+  url: "https://www.lilja-tours.com/private-day-tours-iceland/private-hiking-tour-glymur/"
   inLanguage:
     - "en"
     - "fr"
@@ -236,7 +237,7 @@ jsonLd:
     price: "198000"
     priceCurrency: "ISK"
     availability: "https://schema.org/InStock"
-    url: "https://www.lilja-tours.com/private-day-tours-iceland/private-tour-glymur-hike/"
+    url: "https://www.lilja-tours.com/private-day-tours-iceland/private-hiking-tour-glymur/"
   provider:
     "@type": "TravelAgency"
     name: "Lilja Tours"
@@ -252,8 +253,7 @@ jsonLd:
       name: "English"
     - "@type": "Language"
       name: "French"
-  temporalCoverage: "2025-05-01/2025-10-15"
 
-slug: private-tour-glymur-hike
+slug: private-hiking-tour-glymur
 
 ---

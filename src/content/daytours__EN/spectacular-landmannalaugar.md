@@ -41,7 +41,7 @@ bookButtons: [
 ]
 
 # Iti Picture
-itiCoverTitle: "Your itinerary"
+itiCoverTitle: "Join Lilja Tours for a luxury private hiking adventure to Landmannalaugar, one of Iceland’s most stunning highland destinations. Discover vibrant rhyolite mountains, steaming geothermal areas, and rugged lava fields on this exclusive guided tour. Immerse yourself in the breathtaking landscapes of the Icelandic highlands and explore the unique beauty of Landmannalaugar on a personalized journey designed for outdoor enthusiasts and nature lovers."
 itiCoverImgSrcMobile: "/pictures/landmannalaugar-heat/itinerary/title/landmannalaugar-mobile.webp"
 itiCoverImgSrcPC: "/pictures/landmannalaugar-heat/itinerary/title/landmannalaugar-pc.webp"
 itiCoverImgAlt: "Beautiful landscape of rugged mountains"
@@ -63,8 +63,7 @@ itiItems: [
     itiItemPicSrcPC: "/pictures/landmannalaugar-heat/itinerary/ljotipollur-pc.webp",
     itiItemPicAlt: "Red volcanic crater as seen on a private tour to the Landmannalaugar",
     itiItemPicTitle: "Spectacular Landmannalaugar: Ljótipollur",
-    itiItemStrings: ["Experience the mesmerizing Ljótipollur crater lake on your private Landmannalaugar tour. Known for its vibrant blue waters against red volcanic slopes, this hidden gem offers a peaceful atmosphere perfect for photography and relaxation.",
-    "During the journey to Landmannalaugar, we will make a stop at Ljótipollur to take in the panoramic views and appreciate its unique beauty. Its misleading name only adds to the intrigue, as the beauty of Ljótipollur (= The ugly pond) is anything but ugly. Discover the charm of this hidden gem and enjoy one of Iceland’s most unique landscapes."]
+    itiItemStrings: ["Ljótipollur is a stunning crater lake nestled amidst iron-red mountains, offering breathtaking views of the surrounding landscape. Despite its name, which translates to -The Ugly Pond-, Ljótipollur is a beautiful natural wonder that captivates every visitor. Its vibrant blue waters contrast strikingly with the rust-colored slopes, creating a mesmerizing sight perfect for photography and nature walks.","During the journey to Landmannalaugar, we will make a stop at Ljótipollur to take in the panoramic views and appreciate its unique beauty. This picturesque location not only offers incredible scenery but also a peaceful atmosphere, making it an unforgettable part of the Icelandic highlands. Its misleading name only adds to the intrigue, as the beauty of Ljótipollur is anything but ugly. Discover the charm of this hidden gem and enjoy one of Iceland’s most unique landscapes."]
     },
     {
     itiItemTitle: "Landmannalaugar",
@@ -268,7 +267,7 @@ jsonLd: {
       "name": "French"
     }
   ],
-  "temporalCoverage": "2025-06-01/2025-09-30"
+
 }
 
 

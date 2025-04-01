@@ -233,6 +233,50 @@ vehicles: [
 
 ]
 
+jsonLd:
+  "@context": "https://schema.org"
+  "@type": "TouristTrip"
+  name: "Westman Islands Private Tour"
+  description: "Discover the stunning beauty and rich history of the Westman Islands on a luxurious private tour with Lilja Tours. Explore volcanic landscapes, charming fishing villages, and breathtaking coastal views while enjoying personalized service and high-end comfort."
+  image:
+    - "https://www.lilja-tours.com/pictures/westman-islands/gallery/westman-1-pc.webp"
+    - "https://www.lilja-tours.com/pictures/westman-islands/gallery/westman-2-pc.webp"
+    - "https://www.lilja-tours.com/pictures/westman-islands/gallery/westman-3-pc.webp"
+    - "https://www.lilja-tours.com/pictures/westman-islands/gallery/westman-4-pc.webp"
+    - "https://www.lilja-tours.com/pictures/westman-islands/gallery/westman-5-pc.webp"
+  url: "https://www.lilja-tours.com/private-day-tours-iceland/westman-islands/"
+  inLanguage:
+    - "en"
+    - "fr"
+  touristType:
+    "@type": "Audience"
+    name: "Luxury travelers"
+  itinerary:
+    "@type": "ItemList"
+    itemListElement: []
+  offers:
+    "@type": "Offer"
+    price: "250000"
+    priceCurrency: "ISK"
+    availability: "https://schema.org/InStock"
+    url: "https://www.lilja-tours.com/private-day-tours-iceland/westman-islands/"
+  provider:
+    "@type": "TravelAgency"
+    name: "Lilja Tours"
+    url: "https://www.lilja-tours.com"
+    logo: "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png"
+  departureLocation:
+    "@type": "Place"
+    name: "Reykjavík"
+  duration: "PT12H"
+  maximumAttendeeCapacity: 6
+  availableLanguage:
+    - "@type": "Language"
+      name: "English"
+    - "@type": "Language"
+      name: "French"
+
+
 form: "https://tally.so/r/wMMK4Y"
 
 

@@ -234,6 +234,50 @@ vehicles: [
 
 ]
 
+jsonLd:
+  "@context": "https://schema.org"
+  "@type": "TouristTrip"
+  name: "Vikings and Waterfalls"
+  description: "Explore the rich Viking heritage and stunning waterfalls of Iceland's South Coast on a luxury private tour with Lilja Tours. Discover iconic sites, dramatic landscapes, and captivating history while enjoying personalized service and high-end comfort."
+  image:
+    - "https://www.lilja-tours.com/pictures/vikings-waterfalls/gallery/stong-1-pc.webp"
+    - "https://www.lilja-tours.com/pictures/vikings-waterfalls/gallery/haifoss-1-pc.webp"
+    - "https://www.lilja-tours.com/pictures/vikings-waterfalls/gallery/gjain-3-pc.webp"
+    - "https://www.lilja-tours.com/pictures/vikings-waterfalls/gallery/ingolf-1-pc.webp"
+    - "https://www.lilja-tours.com/pictures/vikings-waterfalls/gallery/haifoss-3-pc.webp"
+  url: "https://www.lilja-tours.com/private-day-tours-iceland/vikings-waterfalls/"
+  inLanguage:
+    - "en"
+    - "fr"
+  touristType:
+    "@type": "Audience"
+    name: "Luxury travelers"
+  itinerary:
+    "@type": "ItemList"
+    itemListElement: []
+  offers:
+    "@type": "Offer"
+    price: "190000"
+    priceCurrency: "ISK"
+    availability: "https://schema.org/InStock"
+    url: "https://www.lilja-tours.com/private-day-tours-iceland/vikings-waterfalls/"
+  provider:
+    "@type": "TravelAgency"
+    name: "Lilja Tours"
+    url: "https://www.lilja-tours.com"
+    logo: "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png"
+  departureLocation:
+    "@type": "Place"
+    name: "Reykjavík"
+  duration: "PT9H"
+  maximumAttendeeCapacity: 4
+  availableLanguage:
+    - "@type": "Language"
+      name: "English"
+    - "@type": "Language"
+      name: "French"
+
+
 form: "https://tally.so/r/m6p1QA"
 
 

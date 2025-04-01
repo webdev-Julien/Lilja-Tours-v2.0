@@ -7,9 +7,9 @@ jeepISK: 169000
 filter: "extra"
 
 # Head and metas
-pageTitle: "Borgarfjörður, silver circle | Luxury private tour "
-description: "Embark on a private tour to Borgarfjörður and explore Hraunfossar, Barnafoss, Deildartunguhver, Viðgelmir Cave, and the hot springs of Hvammsvík."
-ogTitle: "Private tour: The Silver Circle"
+pageTitle: "Silver Circle Private Tour | Explore Borgarfjörður’s Waterfalls, Hot Springs & Lava Caves"
+description: "Experience the Silver Circle on a luxury private tour. Visit Hraunfossar, Barnafoss, Deildartunguhver, Viðgelmir Cave, and the Hvammsvík Hot Springs. Book now!"
+ogTitle: "Silver Circle Private Tour | Explore Borgarfjörður’s Waterfalls, Hot Springs & Lava Caves"
 ogImage: "https://www.lilja-tours.com/pictures/silver-circle/card/silver-circle.webp"
 language: "en"
 
@@ -22,13 +22,13 @@ difficulty: "No difficulty"
 
 
 # H1
-tourTitle: "The Silver Circle"
+tourTitle: "Silver Circle Private Tour - Discover Borgarfjörður’s Natural Wonders"
 
 
 # Header Picture
 headerCoverSrcMobile: "/pictures/silver-circle/headers/hraunfossar-mobile.webp"
 headerCoverSrcPC: "/pictures/silver-circle/headers/hraunfossar-pc.webp"
-headerCoverAlt: "Countless waterfalls flowing inside of a river"
+headerCoverAlt: "Borgarfjörður Silver Circle Tour - Hraunfossar Waterfalls"
 headerCoverTitle: "Borgarfjörður: The Silver Circle"
 
 
@@ -45,10 +45,10 @@ bookButtons: [
 ]
 
 # Iti Picture
-itiCoverTitle: "Your itinerary"
+itiCoverTitle: "Experience a silver circle private tour with Lilja Tours. Discover Borgarfjörður’s iconic landmarks including Hraunfossar, Barnafoss, Deildartunguhver, Viðgelmir Cave, and the relaxing Hvammsvík Hot Springs. Immerse yourself in Iceland’s natural beauty and geothermal wonders."
 itiCoverImgSrcMobile: "/pictures/silver-circle/itinerary/title/borgaf-mobile.webp"
 itiCoverImgSrcPC: "/pictures/silver-circle/itinerary/title/borgaf-pc.webp"
-itiCoverImgAlt: "Entrance of a lava tunnel in winter"
+itiCoverImgAlt: "Viðgelmir Lava Tunnel Entrance - Silver Circle Private Tour"
 itiCoverImgTitle: "Viðgelmir lava tunnel"
 
 
@@ -65,7 +65,7 @@ itiItems: [
     itiItemTitle: "Hraunfossar and Barnafoss",
     itiItemPicSrcMobile: "/pictures/silver-circle/itinerary/hraunfossar-mobile.webp",
     itiItemPicSrcPC: "/pictures/silver-circle/itinerary/hraunfossar-pc.webp",
-    itiItemPicAlt: "Breathtaking waterfalls flowing down into turquoise waters",
+    itiItemPicAlt: "Private Silver Circle Tour - Breathtaking waterfalls flowing down into turquoise waters",
     itiItemPicTitle: "Borgarfjörður, Silver Circle: Hraunfossar",
     itiItemStrings: ["Hraunfossar is a series of breathtaking waterfalls, often regarded as some of the most beautiful in Iceland. These cascades emerge from a lava field, traveling underground for kilometers before bursting through rocks and vegetation, tumbling gracefully into a striking turquoise river.",
     "Adjacent to Hraunfossar is Barnafoss, which resembles a powerful torrent rather than a traditional waterfall. Despite its unique appearance, it remains a captivating sight. Adding to its intrigue is a poignant legend that explains the disappearance of a natural stone bridge that once spanned the river."
@@ -76,7 +76,7 @@ itiItems: [
     itiItemTitle: "Deildartunguhver Hot Spring",
     itiItemPicSrcMobile: "/pictures/silver-circle/itinerary/deildartunguhver-mobile.webp",
     itiItemPicSrcPC: "/pictures/silver-circle/itinerary/deildartunguhver-pc.webp",
-    itiItemPicAlt: "A red rock hidden in a cloud of steam",
+    itiItemPicAlt: "A red rock hidden in a cloud of steam - Silver circle tour",
     itiItemPicTitle: "Borgarfjörður, Silver Circle: Deildartunguhver",
     itiItemStrings: ["Deildartunguhver is the most powerful hot spring in Europe, with an unparalleled flow of boiling water emerging from deep within the earth. Nowhere else in Iceland can you witness such an intense geothermal phenomenon.",
     "Hot water pipes from Deildartunguhver extend up to 60 km, with only a minimal heat loss of about 2°C. During our brief stop, you’ll experience the raw power of nature as the scalding water boils and gushes high above the ground."
@@ -86,7 +86,7 @@ itiItems: [
     itiItemTitle: "Viðgelmir Lava Cave",
     itiItemPicSrcMobile: "/pictures/silver-circle/itinerary/vidgelmir-mobile.webp",
     itiItemPicSrcPC: "/pictures/silver-circle/itinerary/vidgelmir-pc.webp",
-    itiItemPicAlt: "Inside of a 5000 years old lava tunnel",
+    itiItemPicAlt: "Private guided tour - Inside of a 5000 years old lava tunnel",
     itiItemPicTitle: "Borgarfjörður, Silver Circle: Viðgelmir",
     itiItemStrings: ["Viðgelmir Lava Cave offers a journey through time inside Iceland’s longest lava tube, formed over 5,000 years ago. Guided group tours provide a fascinating insight into the cave’s geological history while ensuring a safe and unforgettable exploration.",
     "Visiting in winter unveils a rare natural wonder—ice stalagmites rising from the floor to the ceiling, creating an otherworldly spectacle within the cave."
@@ -96,7 +96,7 @@ itiItems: [
     itiItemTitle: "Hvammsvík Hot Springs & Spa",
     itiItemPicSrcMobile: "/pictures/silver-circle/itinerary/hvammsvik-mobile.webp",
     itiItemPicSrcPC: "/pictures/silver-circle/itinerary/hvammsvik-pc.webp",
-    itiItemPicAlt: "People bathing in a fjord's shore",
+    itiItemPicAlt: "Private Tour to the Silver Circle - People bathing in a fjord's shore",
     itiItemPicTitle: "Borgarfjörður, Silver Circle: Hvammsvík",
     itiItemStrings: ["Discover the hot springs of Hvammsvík, a breathtaking retreat on the shores of the stunning Hvalfjörður fjord. This unique geothermal haven features several sea-water baths at varying temperatures, offering a truly immersive relaxation experience.",
     "What sets Hvammsvík apart is its unrivaled panoramic views of the surrounding mountains, creating a serene and picturesque atmosphere. For the adventurous, a dip in the refreshingly cold waters of the Atlantic Ocean awaits—a true test of bravery!",
@@ -104,6 +104,7 @@ itiItems: [
 ]
     }]
 
+cta: "explore Borgarfjörður’s natural wonders!"
 
 # Tour infos
 
@@ -141,61 +142,61 @@ gallery: [
 {
 srcMob: "/pictures/silver-circle/gallery/borgaf-1-mobile.webp",
 srcPc: "/pictures/silver-circle/gallery/borgaf-1-pc.webp",
-alt: "Lava tunnel from the inside",
+alt: "Viðgelmir Lava Tunnel - Inside View",
 title: "Borgarfjörður and Silver Circle: Viðgelmir"
 },    
 {
 srcMob: "/pictures/silver-circle/gallery/borgaf-2-mobile.webp",
 srcPc: "/pictures/silver-circle/gallery/borgaf-2-pc.webp",
-alt: "Solidified lava on a wall",
+alt: "Solidified Lava Wall - Viðgelmir Cave",
 title: "Borgarfjörður and Silver Circle: Viðgelmir"
 },    
 {
 srcMob: "/pictures/silver-circle/gallery/borgaf-3-mobile.webp",
 srcPc: "/pictures/silver-circle/gallery/borgaf-3-pc.webp",
-alt: "Waterfalls in a spring landscape",
+alt: "Hraunfossar Waterfalls - Silver Circle Tour",
 title: "Borgarfjörður and Silver Circle: Hraunfossar"
 },  
 {
 srcMob: "/pictures/silver-circle/gallery/borgaf-4-mobile.webp",
 srcPc: "/pictures/silver-circle/gallery/borgaf-4-pc.webp",
-alt: "Waterfalls in a spring landscape",
+alt: "Barnafoss Waterfall - Silver Circle Tour",
 title: "Borgarfjörður and Silver Circle: Hraunfossar"
 },  
 {
 srcMob: "/pictures/silver-circle/gallery/borgaf-5-mobile.webp",
 srcPc: "/pictures/silver-circle/gallery/borgaf-5-pc.webp",
-alt: "Entrance of a lava tunnel in winter",
+alt: "Viðgelmir Lava Tunnel Entrance - Winter View",
 title: "Borgarfjörður and Silver Circle: Viðgelmir"
 },   
 {
 srcMob: "/pictures/silver-circle/gallery/borgaf-6-mobile.webp",
 srcPc: "/pictures/silver-circle/gallery/borgaf-6-pc.webp",
-alt: "Happy client about to explore a lava tunnel",
+alt: "Tourist at Viðgelmir Lava Tunnel - Silver Circle Adventure",
 title: "Borgarfjörður and Silver Circle: Viðgelmir"
 },    
 {
 srcMob: "/pictures/silver-circle/gallery/borgaf-7-mobile.webp",
 srcPc: "/pictures/silver-circle/gallery/borgaf-7-pc.webp",
-alt: "Hot springs by a fjord and people taking a dip",
+alt: "Hvammsvík Hot Springs - Relaxing by the Fjord",
 title: "Borgarfjörður and Silver Circle: Hvammsvík"
 },  
 {
 srcMob: "/pictures/silver-circle/gallery/borgaf-8-mobile.webp",
 srcPc: "/pictures/silver-circle/gallery/borgaf-8-pc.webp",
-alt: "Countless waterfalls falling into turquoise blue waters",
+alt: "Hraunfossar - Cascading into Turquoise Waters",
 title: "Borgarfjörður and Silver Circle: Hraunfossar"
 },  
 {
 srcMob: "/pictures/silver-circle/gallery/borgaf-9-mobile.webp",
 srcPc: "/pictures/silver-circle/gallery/borgaf-9-pc.webp",
-alt: "Entrance of a lava tunnel and stairway to access it",
+alt: "Entrance of Viðgelmir Lava Tunnel - Access Stairway",
 title: "Borgarfjörður and Silver Circle: Viðgelmir"
 },  
 {
 srcMob: "/pictures/silver-circle/gallery/borgaf-10-mobile.webp",
 srcPc: "/pictures/silver-circle/gallery/borgaf-10-pc.webp",
-alt: "Ice stalagmites forming inside of a lava tube",
+alt: "Ice Stalagmites in Viðgelmir Lava Tube",
 title: "Borgarfjörður and Silver Circle: Viðgelmir"
 }]
 
@@ -204,7 +205,7 @@ title: "Borgarfjörður and Silver Circle: Viðgelmir"
 
 tags: ["west-iceland","sightseeing"]
 cardPicSrc: "/pictures/silver-circle/card/silver-circle.webp"
-cardPicAlt: "Beautiful waterfalls flowing on turquoise blue water"
+cardPicAlt: "Private Silver Circle Tour - Beautiful waterfalls flowing on turquoise blue water"
 cardPicTitle: "Private tour: Borgarfjörður and Silver Circle"
 cardTitle: "The Silver Circle"
 
@@ -235,10 +236,54 @@ vehicles: [
 
 ]
 
+jsonLd:
+  "@context": "https://schema.org"
+  "@type": "TouristTrip"
+  name: "Borgarfjörður Silver Circle"
+  description: "Experience the Borgarfjörður Silver Circle on a luxury private tour. Visit Hraunfossar, Barnafoss, Deildartunguhver, Viðgelmir Cave, and Hvammsvík Hot Springs. Enjoy personalized service and comfort throughout your journey."
+  image:
+    - "https://www.lilja-tours.com/pictures/silver-circle/gallery/borgaf-1-pc.webp"
+    - "https://www.lilja-tours.com/pictures/silver-circle/gallery/borgaf-2-pc.webp"
+    - "https://www.lilja-tours.com/pictures/silver-circle/gallery/borgaf-3-pc.webp"
+    - "https://www.lilja-tours.com/pictures/silver-circle/gallery/borgaf-4-pc.webp"
+    - "https://www.lilja-tours.com/pictures/silver-circle/gallery/borgaf-5-pc.webp"
+  url: "https://www.lilja-tours.com/private-day-tours-iceland/silver-circle-private-tour-iceland/"
+  inLanguage:
+    - "en"
+    - "fr"
+  touristType:
+    "@type": "Audience"
+    name: "Luxury travelers"
+  itinerary:
+    "@type": "ItemList"
+    itemListElement: []
+  offers:
+    "@type": "Offer"
+    price: "169000"
+    priceCurrency: "ISK"
+    availability: "https://schema.org/InStock"
+    url: "https://www.lilja-tours.com/private-day-tours-iceland/silver-circle-private-tour-iceland/"
+  provider:
+    "@type": "TravelAgency"
+    name: "Lilja Tours"
+    url: "https://www.lilja-tours.com"
+    logo: "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png"
+  departureLocation:
+    "@type": "Place"
+    name: "Reykjavík"
+  duration: "PT10H"
+  maximumAttendeeCapacity: 6
+  availableLanguage:
+    - "@type": "Language"
+      name: "English"
+    - "@type": "Language"
+      name: "French"
+
+
 form: "https://tally.so/r/nPk9kQ"
 
 
 
-slug: borgarfjordur-silver-circle
+slug: silver-circle-private-tour-iceland
 
 ---

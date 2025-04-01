@@ -1,0 +1,17 @@
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# This domain inherits the “PHP” package.
+# php -- END cPanel-generated handler, do not edit
+
+RewriteEngine On
+
+# Redirect non-www to www
+RewriteCond %{HTTP_HOST} ^lilja-tours\.com [NC]
+RewriteRule ^(.*)$ https://www.lilja-tours.com/$1 [R=301,L]
+
+# Redirect HTTP to HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://www.lilja-tours.com/$1 [R=301,L]
+
+
+ErrorDocument 404 /404.html

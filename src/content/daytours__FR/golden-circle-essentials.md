@@ -7,9 +7,9 @@ jeepISK: 159000
 filter: "norm"
 
 # Head and metas
-pageTitle: "Les essentiels du cercle d'or | Excursion d'exception "
-description: "Suivez Lilja Tours sur le célèbre Golden Circle. Découvrez Þingvellir, Geysir et Gullfoss en une visite de 6 heures."
-ogTitle: "Visite privée: Les essentiels du cercle d'or"
+pageTitle: "Excursion privée aux essentiels du Cercle d'Or | Þingvellir, Geysir & Gullfoss"
+description: "Partez pour une excursion privée au Cercle d'Or. Découvrez Þingvellir, Geysir et Gullfoss lors d'une visite de luxe de 6 heures avec Lilja Tours. Réservez votre aventure !"
+ogTitle: "Excursion privée aux essentiels du Cercle d'Or | Þingvellir, Geysir & Gullfoss"
 ogImage: "https://www.lilja-tours.com/pictures/golden-circle-essentials/card/golden-circle-card.webp"
 language: "fr"
 
@@ -22,13 +22,13 @@ difficulty: "Sans difficultés"
 
 
 # H1
-tourTitle: "Cercle d'Or: Les essentiels"
+tourTitle: "Excursion privée aux essentiels du Cercle d'Or"
 
 
 # Header Picture
 headerCoverSrcMobile: "/pictures/golden-circle-essentials/headers/oxararfoss-mobile.webp"
 headerCoverSrcPC: "/pictures/golden-circle-essentials/headers/oxararfoss-pc.webp"
-headerCoverAlt: "Cascade gelée et coucher de soleil"
+headerCoverAlt: "Excursion privée Cercle d'Or - Cascade gelée et coucher de soleil"
 headerCoverTitle: "Visite guidée des essentiels du cercle d'or"
 
 
@@ -45,18 +45,18 @@ bookButtons: [
 ]
 
 # Iti Picture
-itiCoverTitle: "Votre itinéraire"
+itiCoverTitle: "Découvrez les essentiels du Cercle d'Or avec Lilja Tours lors d'une excursion privée de luxe. Visitez le site emblématique de Þingvellir, Gullfoss et Strokkur au cours d'une sortie de 6 heures seulement!"
 itiCoverImgSrcMobile: "/pictures/golden-circle-essentials/itinerary/title/gullfoss-mobile.webp"
 itiCoverImgSrcPC: "/pictures/golden-circle-essentials/itinerary/title/gullfoss-pc.webp"
-itiCoverImgAlt: "Gros plan d'une gigantesque cascade"
+itiCoverImgAlt: "Gullfoss - Cascade majestueuse du Cercle d'Or"
 itiCoverImgTitle: "Gullfoss"
 
 
 # Links
-linkFr: "/private-day-tours-iceland/golden-circle-essentials"
+linkFr: "/private-day-tours-iceland/private-tour-golden-circle-essentials-iceland"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753710"
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753711"
-fulllinkFr: "https://www.lilja-tours.com//private-day-tours-iceland/golden-circle-essentials"
+fulllinkFr: "https://www.lilja-tours.com//private-day-tours-iceland/private-tour-golden-circle-essentials-iceland"
 
 
 # Itinerary
@@ -65,9 +65,9 @@ itiItems: [
     itiItemTitle: "Parc national Þingvellir (Thingvellir)",
     itiItemPicSrcMobile: "/pictures/golden-circle-essentials/itinerary/thingvellir/Thingvellir-portrait.webp",
     itiItemPicSrcPC: "/pictures/golden-circle-essentials/itinerary/thingvellir/Thingvellir-landscape.webp",
-    itiItemPicAlt: "Paysage de montagnes, rivières et lac",
+    itiItemPicAlt: "Excursion avec guide français au cercle d'or - Paysage de montagnes, rivières et lac",
     itiItemPicTitle: "Les essentiels du cercle d'or: Þingvellir",
-    itiItemStrings: ["-Þingvellir National Park- est le point de départ idéal pour votre -Golden Circle tour-, offrant des paysages époustouflants et une riche histoire. Fondé en 930, il abrite le premier parlement du monde, où les colons islandais se réunissaient chaque année pour élaborer des lois. Le parlement est resté ici jusqu'en 1798, et en 2004, Þingvellir est devenu un -site du patrimoine mondial de l'UNESCO-.",
+    itiItemStrings: [Þingvellir National Park est le point de départ idéal pour votre excursion au cercle d'or, offrant des paysages époustouflants et une riche histoire.","Fondé en 930, il abrite le premier parlement du monde, où les colons islandais se réunissaient chaque année pour élaborer des lois. Le parlement est resté ici jusqu'en 1798, et en 2004, Þingvellir est devenu un -site du patrimoine mondial de l'UNESCO-.",
     "Au-delà de son histoire, Þingvellir se situe sur la -dorsale médio-atlantique-, où les plaques eurasienne et nord-américaine se séparent. C’est le seul endroit au monde où cette faille est visible au-dessus du niveau de la mer. Depuis la -plateforme d'observation de Hákið-, vous vous tiendrez au bord du continent américain.",
     "Une courte promenade dans le parc vous mène à -Öxarárfoss-, une magnifique cascade au passé unique."]
     },
@@ -75,7 +75,7 @@ itiItems: [
     itiItemTitle: "Geysir & Strokkur",
     itiItemPicSrcMobile: "/pictures/golden-circle-essentials/itinerary/geysir/geysir-portrait.webp",
     itiItemPicSrcPC: "/pictures/golden-circle-essentials/itinerary/geysir/geysir-landscape.webp",
-    itiItemPicAlt: "Geyser en éruption",
+    itiItemPicAlt: "Geyser en éruption - Cercle d'or avec guide francophone",
     itiItemPicTitle: "Les essentiels du cercle d'or: Geysir",
     itiItemStrings: ["Saviez-vous que tous les geysers du monde portent le nom de -Geysir- en Islande ? Le mot geyser vient du verbe islandais -að geysa-, qui signifie jaillir.",
     "Bien que Geysir soit désormais endormi (sa dernière éruption connue date de -2000-), son voisin -Strokkur- reste très actif. Strokkur entre en éruption toutes les -5 à 10 minutes-, offrant aux visiteurs des jaillissements spectaculaires d'eau bouillante.",
@@ -85,7 +85,7 @@ itiItems: [
     itiItemTitle: "Gullfoss: La chute dorée",
     itiItemPicSrcMobile: "/pictures/golden-circle-essentials/itinerary/gullfoss/gullfoss-portrait.webp",
     itiItemPicSrcPC: "/pictures/golden-circle-essentials/itinerary/gullfoss/gullfoss-landscape.webp",
-    itiItemPicAlt: "Magnifique cascade à deux palliers",
+    itiItemPicAlt: "Excursion guidée au cercle d'or - Magnifique cascade à deux palliers",
     itiItemPicTitle: "Les essentiels du cercle d'or Þingvellir",
     itiItemStrings: ["Le célèbre -Golden Circle- d'Islande tire son nom de -Gullfoss-, la majestueuse -Cascade d'Or-. Bien que plusieurs légendes expliquent son nom, votre guide vous racontera les histoires fascinantes lors de votre visite.",
     "Saviez-vous que Gullfoss a failli disparaître ? Un projet de -centrale hydroélectrique- menaçait de transformer cette merveille naturelle à jamais. Heureusement, les efforts de conservation ont préservé sa beauté, permettant aux visiteurs d'admirer sa puissance brute aujourd'hui.",
@@ -126,70 +126,71 @@ gallery: [
 {
 srcMob: "/pictures/golden-circle-essentials/gallery/Thingvellir-1-mobile.webp",
 srcPc: "/pictures/golden-circle-essentials/gallery/Thingvellir-1-pc.webp",
-alt: "Immense montagne, grand lac et une petite forêt",
+alt: "Paysage de Þingvellir - Montagnes, lac et forêt",
 title: "Les essentiels du cercle d'or: Thingvellir"
 },    
 {
 srcMob: "/pictures/golden-circle-essentials/gallery/Thingvellir-2-mobile.webp",
 srcPc: "/pictures/golden-circle-essentials/gallery/Thingvellir-2-pc.webp",
-alt: "Petite cascade avec un arc-en-ciel dans son brouillard",
+alt: "Öxarárfoss - Cascade avec arc-en-ciel à Þingvellir",
 title: "Les essentiels du cercle d'or: Thingvellir"
 },    
 {
 srcMob: "/pictures/golden-circle-essentials/gallery/Thingvellir-3-mobile.webp",
 srcPc: "/pictures/golden-circle-essentials/gallery/Thingvellir-3-pc.webp",
-alt: "Lever de soleil au dessus d'îles et un grand lac",
+alt: "Lever de soleil sur Þingvellir - Vue panoramique",
 title: "Les essentiels du cercle d'or: Thingvellir"
 },  
 {
 srcMob: "/pictures/golden-circle-essentials/gallery/Thingvellir-4-mobile.webp",
 srcPc: "/pictures/golden-circle-essentials/gallery/Thingvellir-4-pc.webp",
-alt: "Montagnes enneigées et lac gelé",
+alt: "Þingvellir en hiver - Montagnes enneigées et lac gelé",
 title: "Les essentiels du cercle d'or: Thingvellir"
 },  
 {
 srcMob: "/pictures/golden-circle-essentials/gallery/geysir-1-mobile.webp",
 srcPc: "/pictures/golden-circle-essentials/gallery/geysir-1-pc.webp",
-alt: "Geyser en éruption",
+alt: "Strokkur en éruption - Site géothermique de Geysir",
 title: "Les essentiels du cercle d'or: Geysir"
 },   
 {
 srcMob: "/pictures/golden-circle-essentials/gallery/geysir-2-mobile.webp",
 srcPc: "/pictures/golden-circle-essentials/gallery/geysir-2-pc.webp",
-alt: "Le mot geysir est gravé sur une pierre devant un cours d'eau fumant",
+alt: "Pierre gravée Geysir - Source chaude fumante",
 title: "Les essentiels du cercle d'or: Geysir"
 },    
 {
 srcMob: "/pictures/golden-circle-essentials/gallery/geysir-3-mobile.webp",
 srcPc: "/pictures/golden-circle-essentials/gallery/geysir-3-pc.webp",
-alt: "Nuage de vapeur suite à l'éruption d'un geyser",
+alt: "Nuage de vapeur après l'éruption de Strokkur",
 title: "Les essentiels du cercle d'or: Geysir"
 },  
 {
 srcMob: "/pictures/golden-circle-essentials/gallery/gullfoss-1-mobile.webp",
 srcPc: "/pictures/golden-circle-essentials/gallery/gullfoss-1-pc.webp",
-alt: "Une immense cascade à deux niveaux",
+alt: "Gullfoss - Cascade à deux niveaux du Cercle d'Or",
 title: "Les essentiels du cercle d'or: Gullfoss"
 },  
 {
 srcMob: "/pictures/golden-circle-essentials/gallery/gullfoss-2-mobile.webp",
 srcPc: "/pictures/golden-circle-essentials/gallery/gullfoss-2-pc.webp",
-alt: "Une famille pose devant une cascade",
+alt: "Famille devant Gullfoss - Excursion privée Cercle d'Or",
 title: "Les essentiels du cercle d'or: Gullfoss"
 },  
 {
 srcMob: "/pictures/golden-circle-essentials/gallery/gullfoss-3-mobile.webp",
 srcPc: "/pictures/golden-circle-essentials/gallery/gullfoss-3-pc.webp",
-alt: "Immense cascade dans un paysage enneigé",
+alt: "Gullfoss en hiver - Cascade impressionnante dans la neige",
 title: "Les essentiels du cercle d'or: Gullfoss"
 }]
 
+cta: "explorez les merveilles de l'Islande !"
 
 # Card
 
 tags: ["cercle-d-or","decouverte"]
 cardPicSrc: "/pictures/golden-circle-essentials/card/golden-circle-essentials-card.webp"
-cardPicAlt: "Un geyser sur le point d'entrer en éruption"
+cardPicAlt: "Excursion avec guide francophone auc ercle d'or - Un geyser sur le point d'entrer en éruption"
 cardPicTitle: "Visite privée et guidée: Les essentiels du cercle d'or"
 cardTitle: "Cercle d'Or: Les essentiels"
 
@@ -220,10 +221,54 @@ vehicles: [
 
 ]
 
+jsonLd:
+  "@context": "https://schema.org"
+  "@type": "TouristTrip"
+  name: "Cercle d'Or Essentiels"
+  description: "Partez pour une excursion privée aux essentiels du Cercle d'Or avec Lilja Tours. Découvrez Þingvellir, Geysir, et Gullfoss lors d'une aventure de 6 heures, guidée par des experts."
+  image:
+    - "https://www.lilja-tours.com/pictures/golden-circle-essentials/gallery/Thingvellir-4-pc.webp"
+    - "https://www.lilja-tours.com/pictures/golden-circle-essentials/gallery/Thingvellir-3-pc.webp"
+    - "https://www.lilja-tours.com/pictures/golden-circle-essentials/gallery/Thingvellir-2-pc.webp"
+    - "https://www.lilja-tours.com/pictures/golden-circle-essentials/gallery/gullfoss-1-pc.webp"
+    - "https://www.lilja-tours.com/pictures/golden-circle-essentials/gallery/geysir-1-pc.webp"
+  url: "https://www.lilja-tours.com/fr/excursions-en-islande/cercle-d-or-avec-guide-francophone-essentiels/"
+  inLanguage:
+    - "en"
+    - "fr"
+  touristType:
+    "@type": "Audience"
+    name: "Luxury travelers"
+  itinerary:
+    "@type": "ItemList"
+    itemListElement: []
+  offers:
+    "@type": "Offer"
+    price: "159000"
+    priceCurrency: "ISK"
+    availability: "https://schema.org/InStock"
+    url: "https://www.lilja-tours.com/fr/excursions-en-islande/cercle-d-or-avec-guide-francophone-essentiels/"
+  provider:
+    "@type": "TravelAgency"
+    name: "Lilja Tours"
+    url: "https://www.lilja-tours.com"
+    logo: "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png"
+  departureLocation:
+    "@type": "Place"
+    name: "Reykjavík"
+  duration: "PT12H"
+  maximumAttendeeCapacity: 4
+  availableLanguage:
+    - "@type": "Language"
+      name: "English"
+    - "@type": "Language"
+      name: "French"
+
+
 form: "https://tally.so/r/mRbZKQ"
 
 
 
-slug: cercle-d-or-essentiels
+slug: cercle-d-or-avec-guide-francophone-essentiels
 
 ---

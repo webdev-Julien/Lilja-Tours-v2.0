@@ -105,7 +105,6 @@ const daytours__EN = defineCollection({
     cta: z.string().optional(),
     cta2: z.string().optional(),
 
-
     // Form
 
     form: z.string(),
@@ -152,7 +151,6 @@ const daytours__EN = defineCollection({
             name: z.string(),
           })
         ),
-        temporalCoverage: z.string(), // format: YYYY-MM-DD/YYYY-MM-DD
       })
       .optional(),
   }),
@@ -309,7 +307,6 @@ const daytours__FR = defineCollection({
             name: z.string(),
           })
         ),
-        temporalCoverage: z.string(), // format: YYYY-MM-DD/YYYY-MM-DD
       })
       .optional(),
   }),

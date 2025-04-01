@@ -320,9 +320,9 @@ const {
         }
 
         .bookButtons {
-        width: 150%;
+        width: 100%;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         gap: 1.25rem;
         align-items: center;
         flex-wrap: wrap;
@@ -346,6 +346,7 @@ const {
     @media only screen and (max-height: 800px) {
         .bookButtons {
             gap: .75rem;
+            flex-direction: column;
         }
 
     }

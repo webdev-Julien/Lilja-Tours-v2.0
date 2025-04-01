@@ -51,7 +51,7 @@ const {
         flex-direction: column;
         align-items: center;
         gap: 2rem;
-        width: 35%;
+        width: 90%;
         margin-inline: auto;
     }
 
@@ -79,7 +79,7 @@ const {
         gap: 1.25rem;
         width: 100%;
         margin-inline: auto;
-        justify-content: space-evenly;
+        justify-content: center;
         flex-wrap: wrap;
         animation-name: Title;
         animation-duration: 2s;
@@ -112,6 +112,17 @@ const {
 
         .bookButtons {
             gap: .75rem;
+        }
+    }
+
+    @media only screen and (max-width: 1600px) {
+        h1 {
+        font-size: clamp(1rem, calc(2.5vw + 1rem), 4rem );
+        text-wrap: wrap;
+
+        }
+        .headerContainer {
+            width: 90%;
         }
     }
 </style>

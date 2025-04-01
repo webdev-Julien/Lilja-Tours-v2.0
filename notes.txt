@@ -2,11 +2,11 @@ Opti:
 
 EN:
 
-NL, LMLG, KLG
+NL, LMLG, KLG, GH, GLYM, GCE, GCFV, GSKL, RKNS, BORG, SN, SCGH, SC, SCVT, THMK
 
 FR:
 
-NL, LMLG
+NL, LMLG, KLG, GH, GLYM, GCE, GCFV, GSKL, RKNS, BORG, SN, SCGH, SC, SCVT, THMK
 
 ---
 Do CTA2 after all tours are done.
@@ -16,7 +16,7 @@ Do a thorough check of URL with new slugs: LinkFr, Url, JsonLD-Url in all frontm
 Implement redirect in .htaccess
 
 
-Then do index requests on GSC keeping in mind that only 10 requests can be done in one day.
+Then do index requests on GSC keeping in mind that only 10 requests can be done in one day. Also request removal of old urls
 
 Finish all this optimisation before pushing site online again
 

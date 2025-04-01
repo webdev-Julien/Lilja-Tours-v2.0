@@ -41,7 +41,7 @@ bookButtons: [
 ]
 
 # Iti Picture
-itiCoverTitle: "Excursion au Landmannalaugar"
+itiCoverTitle: "Partez à l'aventure avec Lilja Tours lors d'une excursion privée de randonnée à Landmannalaugar, au cœur des hautes terres islandaises. Découvrez des montagnes de rhyolite aux couleurs vives, des zones géothermales fumantes et des champs de lave spectaculaires. Ce voyage personnalisé vous offre l'occasion unique d'explorer les paysages sauvages et préservés de Landmannalaugar, idéal pour les passionnés de nature et de randonnée."
 itiCoverImgSrcMobile: "/pictures/landmannalaugar-heat/itinerary/title/landmannalaugar-mobile.webp"
 itiCoverImgSrcPC: "/pictures/landmannalaugar-heat/itinerary/title/landmannalaugar-pc.webp"
 itiCoverImgAlt: "Excursion privée à Landmannalaugar - Montagnes ocres et oranges en Islande"
@@ -63,7 +63,7 @@ itiItems: [
     itiItemPicSrcPC: "/pictures/landmannalaugar-heat/itinerary/ljotipollur-pc.webp",
     itiItemPicAlt: "Excursion avec guide francophone - Vue panoramique d'un cratère rouge avec un lac bleu turquoise au fond de celui-ci",
     itiItemPicTitle: "Spectaculaire Landmannalaugar: Ljótipollur",
-    itiItemStrings: ["Découvrez Ljótipollur, un cratère rouge spectaculaire avec un lac bleu turquoise. Ce lieu pittoresque est parfait pour les amateurs de photographie et offre une atmosphère paisible, loin des foules.","Ljótipollur est un magnifique lac de cratère niché au milieu de montagnes rouge fer, offrant des vues à couper le souffle sur le paysage environnant. Malgré son nom, qui se traduit par -L'Étang Laid-, Ljótipollur est une merveille naturelle d'une beauté captivante.",  
+    itiItemStrings: ["Ljótipollur est un magnifique lac de cratère niché au milieu de montagnes rouge fer, offrant des vues à couper le souffle sur le paysage environnant. Malgré son nom, qui se traduit par -L'Étang Laid-, Ljótipollur est une merveille naturelle d'une beauté captivante. Ses eaux bleu vif contrastent vivement avec les pentes couleur rouille, créant un spectacle envoûtant, parfait pour la photographie et les promenades en pleine nature.",  
     "Lors du voyage vers Landmannalaugar, nous ferons une halte à Ljótipollur pour admirer les vues panoramiques et apprécier sa beauté unique. Ce lieu pittoresque offre non seulement un paysage incroyable, mais aussi une atmosphère paisible, faisant de cette étape un moment inoubliable des hautes terres islandaises. Son nom trompeur ajoute à son mystère, car la beauté de Ljótipollur est tout sauf laide. Découvrez le charme de ce joyau caché et profitez de l'un des paysages les plus uniques d'Islande."]
     },
     {
@@ -241,7 +241,7 @@ jsonLD: {
     "price": "250000",
     "priceCurrency": "ISK",
     "availability": "https://schema.org/InStock",
-    "url": "https://www.lilja-tours.com/fr/excursions-en-islande/spectaculaire-landmannalaugar/"
+    "url": "https://www.lilja-tours.com/fr/excursions-en-islande/excursion-guidee-landmannalaugar/"
   },
   "provider": {
     "@type": "TravelAgency",
@@ -265,7 +265,6 @@ jsonLD: {
       "name": "Anglais"
     }
   ],
-  "temporalCoverage": "2025-06-01/2025-09-30"
 }
 
 

@@ -7,9 +7,9 @@ jeepISK: 139000
 filter: "norm"
 
 # Head and metas
-pageTitle: "Randonnée privée sur le glacier Sólheimajökull – Aventure exclusive en Islande"
-description: "Partez pour une randonnée privée sur le glacier Sólheimajökull, en Islande. Explorez en toute sécurité les formations de glace et crevasses avec un guide expérimenté. Réservez votre aventure exclusive dès maintenant."
-ogTitle: "Excursion privée: Marche sur glacier en Islande"
+pageTitle: "Excursion privée de randonnée sur glacier à Sólheimajökull | Aventure en Islande"
+description: "Découvrez Sólheimajökull lors d'une excursion privée de randonnée sur glacier. Explorez crevasses et formations glacées en toute sécurité avec un guide expert. Réservez votre aventure en Islande !"
+ogTitle: "Excursion privée de randonnée sur glacier à Sólheimajökull | Aventure en Islande"
 ogImage: "https://www.lilja-tours.com/pictures/glacier-hike/card/glacier-hike.webp"
 language: "fr"
 
@@ -22,13 +22,13 @@ difficulty: "Moderée"
 
 
 # H1
-tourTitle: "Randonnée privée sur le glacier Sólheimajökull"
+tourTitle: "Excursion privée de randonnée sur glacier à Sólheimajökull"
 
 
 # Header Picture
 headerCoverSrcMobile: "/pictures/glacier-hike/headers/glacier-hike-mobile.webp"
 headerCoverSrcPC: "/pictures/glacier-hike/headers/glacier-hike-pc.webp"
-headerCoverAlt: "Foule au bord du glacier, s'apprêtant à marcher dessus"
+headerCoverAlt: "Randonnée privée sur le glacier Sólheimajökull - Aventure en Islande"
 headerCoverTitle: "Marche sur glacier en Islande avec guide privé"
 
 
@@ -41,18 +41,18 @@ bookButtons: [
 ]
 
 # Iti Picture
-itiCoverTitle: "Votre experience"
+itiCoverTitle: "Vivez une aventure unique avec Lilja Tours lors d'une excursion privée de randonnée sur glacier à Sólheimajökull. Dès votre arrivée au parking du glacier, retrouvez votre guide expert qui vous équipera de tout le matériel nécessaire : harnais, casque, crampons et piolet. Explorez en toute sécurité les spectaculaires formations de glace et les crevasses glacées, loin des foules, pour une immersion complète dans la nature islandaise."
 itiCoverImgSrcMobile: "/pictures/glacier-hike/itinerary/title/solo-mobile.webp"
 itiCoverImgSrcPC: "/pictures/glacier-hike/itinerary/title/solo-pc.webp"
-itiCoverImgAlt: "Gros plan d'un glacier"
+itiCoverImgAlt: "Randonnée sur glacier à Sólheimajökull - Vue de la glace et des crevasses"
 itiCoverImgTitle: "Rando glaciaire"
 
 
 # Links
-linkFr: "/private-day-tours-iceland/glacier-hike-iceland"
+linkFr: "/private-day-tours-iceland/private-glacier-hike-in-iceland"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/740991"
 bookJeep: "#"
-fulllinkFr: "https://www.lilja-tours.com/private-day-tours-iceland/glacier-hike-iceland"
+fulllinkFr: "https://www.lilja-tours.com/private-day-tours-iceland/private-glacier-hike-in-iceland"
 
 
 # Itinerary
@@ -61,11 +61,11 @@ itiItems: [
     itiItemTitle: "Découvrez la magie des glaciers islandais",
     itiItemPicSrcMobile: "/pictures/glacier-hike/itinerary/glacier-hike-mobile.webp",
     itiItemPicSrcPC: "/pictures/glacier-hike/itinerary/glacier-hike-pc.webp",
-    itiItemPicAlt: "Photo prise du haut d'un glacier",
+    itiItemPicAlt: "Excursion randonnée avec guide privé - Panorama de Sólheimajökull",
     itiItemPicTitle: "Excursion privée sur le glacier de Sólheimajökull",
-    itiItemStrings: ["<strong>Prêt pour une expérience inoubliable ?</strong> Votre aventure commence dès votre arrivée au parking du glacier Sólheimajökull, où vous retrouverez votre guide. Il vous équipera avec tout le matériel nécessaire, comprenant un <strong>harnais, un casque, des crampons et un piolet</strong>, afin que vous soyez parfaitement préparé pour cette randonnée sur glacier.",
-    "Une fois équipé, vous entamerez une <strong>marche de 15 à 20 minutes</strong> pour rejoindre le majestueux <strong>glacier Sólheimajökull</strong>. Avant de vous aventurer sur la glace, votre guide vous donnera des <strong>instructions de sécurité essentielles</strong> et vous expliquera comment utiliser correctement les crampons pour évoluer en toute sécurité.",
-    "Tout est prêt, il est temps de commencer votre <strong>exploration du glacier</strong> ! Vous passerez environ <strong>une heure sur la glace</strong>, découvrant des formations spectaculaires et des crevasses fascinantes. Comme il s’agit d’une <strong>excursion privée</strong>, votre guide vous éloignera des zones les plus fréquentées pour que vous puissiez profiter pleinement du glacier, comme si vous l’aviez rien que pour vous."
+    itiItemStrings: ["Prêt pour une expérience inoubliable ? Votre aventure commence dès votre arrivée au parking du glacier Sólheimajökull, où vous retrouverez votre guide. Il vous équipera avec tout le matériel nécessaire, comprenant un harnais, un casque, des crampons et un piolet, afin que vous soyez parfaitement préparé pour cette randonnée sur glacier.",
+    "Une fois équipé, vous entamerez une marche de 15 à 20 minutes pour rejoindre le majestueux glacier Sólheimajökull. Avant de vous aventurer sur la glace, votre guide vous donnera des instructions de sécurité essentielles et vous expliquera comment utiliser correctement les crampons pour évoluer en toute sécurité.",
+    "Tout est prêt, il est temps de commencer votre exploration du glacier ! Vous passerez environ une heure sur la glace, découvrant des formations spectaculaires et des crevasses fascinantes. Comme il s’agit d’une excursion privée, votre guide vous éloignera des zones les plus fréquentées pour que vous puissiez profiter pleinement du glacier, comme si vous l’aviez rien que pour vous."
 ]
 
 
@@ -109,61 +109,61 @@ gallery: [
 {
 srcMob: "/pictures/glacier-hike/gallery/glacier-hike-1-mobile.webp",
 srcPc: "/pictures/glacier-hike/gallery/glacier-hike-1-pc.webp",
-alt: "Réflection d'une langue glaciaire sur un lac",
+alt: "Reflet du glacier Sólheimajökull sur un lac - Randonnée privée",
 title: "Randonnée sur glacier Sólheimajökull"
 },    
 {
 srcMob: "/pictures/glacier-hike/gallery/glacier-hike-2-mobile.webp",
 srcPc: "/pictures/glacier-hike/gallery/glacier-hike-2-pc.webp",
-alt: "Famille en train de sourire devant un glacier",
+alt: "Famille lors d'une randonnée privée sur le glacier Sólheimajökull",
 title: "Randonnée sur glacier Sólheimajökull"
 },    
 {
 srcMob: "/pictures/glacier-hike/gallery/glacier-hike-3-mobile.webp",
 srcPc: "/pictures/glacier-hike/gallery/glacier-hike-3-pc.webp",
-alt: "Gros plan de chaussures et crampons",
+alt: "Chaussures de randonnée avec crampons sur le glacier Sólheimajökull",
 title: "Randonnée sur glacier Sólheimajökull"
 },  
 {
 srcMob: "/pictures/glacier-hike/gallery/glacier-hike-4-mobile.webp",
 srcPc: "/pictures/glacier-hike/gallery/glacier-hike-4-pc.webp",
-alt: "Quelqu'un se tient devant et sur un glacier",
+alt: "Explorateur sur le glacier Sólheimajökull - Excursion privée",
 title: "Randonnée sur glacier Sólheimajökull"
 },  
 {
 srcMob: "/pictures/glacier-hike/gallery/glacier-hike-5-mobile.webp",
 srcPc: "/pictures/glacier-hike/gallery/glacier-hike-5-pc.webp",
-alt: "Groupe de personne en train de randonner sur un glacier",
+alt: "Groupe en randonnée privée sur le glacier Sólheimajökull",
 title: "Randonnée sur glacier Sólheimajökull"
 },   
 {
 srcMob: "/pictures/glacier-hike/gallery/glacier-hike-6-mobile.webp",
 srcPc: "/pictures/glacier-hike/gallery/glacier-hike-6-pc.webp",
-alt: "Heureuse famille sur un glacier",
+alt: "Famille lors d'une excursion privée sur le glacier Sólheimajökull",
 title: "Randonnée sur glacier Sólheimajökull"
 },    
 {
 srcMob: "/pictures/glacier-hike/gallery/glacier-hike-7-mobile.webp",
 srcPc: "/pictures/glacier-hike/gallery/glacier-hike-7-pc.webp",
-alt: "Parfaite réflection d'icebergs sur un lac glaciaire",
+alt: "Reflets d'icebergs sur un lac glaciaire - Sólheimajökull",
 title: "Randonnée sur glacier Sólheimajökull"
 },  
 {
 srcMob: "/pictures/glacier-hike/gallery/glacier-hike-8-mobile.webp",
 srcPc: "/pictures/glacier-hike/gallery/glacier-hike-8-pc.webp",
-alt: "Lac gelé avec des icebergs à l'intérieur",
+alt: "Lac gelé avec icebergs - Randonnée sur glacier à Sólheimajökull",
 title: "Randonnée sur glacier Sólheimajökull"
 },  
 {
 srcMob: "/pictures/glacier-hike/gallery/glacier-hike-9-mobile.webp",
 srcPc: "/pictures/glacier-hike/gallery/glacier-hike-9-pc.webp",
-alt: "Magnifique glacier islandais",
+alt: "Glacier Sólheimajökull - Randonnée privée en Islande",
 title: "Randonnée sur glacier Sólheimajökull"
 },  
 {
 srcMob: "/pictures/glacier-hike/gallery/glacier-hike-10-mobile.webp",
 srcPc: "/pictures/glacier-hike/gallery/glacier-hike-10-pc.webp",
-alt: "Coucher de soleil sur un glacier islandais",
+alt: "Coucher de soleil sur Sólheimajökull - Randonnée privée",
 title: "Randonnée sur glacier Sólheimajökull"
 }]
 
@@ -199,14 +199,14 @@ jsonLd:
   "@context": "https://schema.org"
   "@type": "TouristTrip"
   name: "Randonnée Privée sur Glacier en Islande"
-  description: "Partez pour une aventure inoubliable sur un glacier du sud de l’Islande avec un guide certifié. Explorez les crevasses, les formations de glace et les paysages spectaculaires lors de cette randonnée privée de 10 heures avec transport depuis Reykjavík."
+  description: "Vivez une expérience unique de randonnée privée sur glacier à Sólheimajökull avec Lilja Tours. Explorez des formations de glace spectaculaires et des crevasses en toute sécurité avec un guide expert."
   image:
     - "https://www.lilja-tours.com/pictures/glacier-hike/glacier-hike-1-pc.webp"
     - "https://www.lilja-tours.com/pictures/glacier-hike/glacier-hike-2-pc.webp"
     - "https://www.lilja-tours.com/pictures/glacier-hike/glacier-hike-3-pc.webp"
     - "https://www.lilja-tours.com/pictures/glacier-hike/glacier-hike-4-pc.webp"
     - "https://www.lilja-tours.com/pictures/glacier-hike/glacier-hike-5-pc.webp"
-  url: "https://www.lilja-tours.com/fr/excursions-en-islande/marche-sur-glacier-en-islande/"
+  url: "https://www.lilja-tours.com/fr/excursions-en-islande/randonnee-guidee-sur-glacier-avec-guide-francophone/"
   inLanguage:
     - "fr"
     - "en"
@@ -218,10 +218,10 @@ jsonLd:
     itemListElement: []
   offers:
     "@type": "Offer"
-    price: "238000"
+    price: "139000"
     priceCurrency: "ISK"
     availability: "https://schema.org/InStock"
-    url: "https://www.lilja-tours.com/fr/excursions-en-islande/marche-sur-glacier-en-islande/"
+    url: "https://www.lilja-tours.com/fr/excursions-en-islande/randonnee-guidee-sur-glacier-avec-guide-francophone/"
   provider:
     "@type": "TravelAgency"
     name: "Lilja Tours"
@@ -237,8 +237,8 @@ jsonLd:
       name: "Français"
     - "@type": "Language"
       name: "Anglais"
-  temporalCoverage: "2025-01-01/2025-12-31"
 
-slug: marche-sur-glacier-en-islande
+
+slug: randonnee-guidee-sur-glacier-avec-guide-francophone
 
 ---

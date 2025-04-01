@@ -25,7 +25,7 @@ import ItiItem from "../layouts/ItiItem.astro"
         <div class="titleUp">
             <div class="title">
                 <Image src={chevron} alt="Downward arrow" title="Navigate to next section" width="60" height="60" class="chevron" id="disp"></Image>
-                <h2>{itiCoverTitle}</h2>
+                <p class="intro">{itiCoverTitle}</p>
                 <Image src={chevron} alt="Downward arrow" title="Navigate to next section" width="60" height="60" class="chevron"></Image>
             </div>
         </div></a>
@@ -66,6 +66,14 @@ import ItiItem from "../layouts/ItiItem.astro"
 
 <style>
 
+    .intro {
+        width: 50%;
+        margin-inline: auto;
+        font-size: clamp(1.75rem, 3vw, 3rem);
+        width: 90%;
+        margin-inline: auto;
+    }
+
     a {
         text-decoration: none;
     }
@@ -90,7 +98,7 @@ import ItiItem from "../layouts/ItiItem.astro"
 
     .title {
         display: flex;
-        width: 50%;
+        width: 75%;
         margin-inline: auto;
         justify-content: space-between;
         align-items: center;
@@ -131,6 +139,8 @@ import ItiItem from "../layouts/ItiItem.astro"
         .title {
             flex-direction: column;
             padding-bottom: 1rem;
+            width: 90%;
+            margin-inline: auto;
         }
 
         .chevron {
@@ -139,6 +149,14 @@ import ItiItem from "../layouts/ItiItem.astro"
 
         p {
             line-height: 1;
+        }
+
+        .intro {
+            width: 90%;
+            font-size: clamp(1rem, 2vw, 2rem);
+            margin-inline: auto;
+            text-align: justify;
+
         }
 
 

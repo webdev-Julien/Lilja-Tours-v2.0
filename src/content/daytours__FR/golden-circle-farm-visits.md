@@ -7,9 +7,9 @@ jeepISK: 179000
 filter: "norm"
 
 # Head and metas
-pageTitle: "Cercle d'or et déjeuner à la ferme | Excursions haut de gamme "
-description: "Découvrez le Cercle d’Or en Islande avec Lilja Tours : explorez Þingvellir, le geyser Strokkur, la chute Gullfoss et des fermes locales pour des expériences uniques."
-ogTitle: "Visite privée: Cercle d'or et expérience culinaire"
+pageTitle: "Excursion privée Cercle d'Or et expérience culinaire | Þingvellir, Geysir, Gullfoss"
+description: "Découvrez le Cercle d'Or lors d'une excursion privée culinaire. Visitez Þingvellir, Geysir, Gullfoss et savourez des produits locaux dans des fermes. Réservez votre aventure gastronomique !"
+ogTitle: "Excursion privée Cercle d'Or et expérience culinaire | Þingvellir, Geysir, Gullfoss"
 ogImage: "https://www.lilja-tours.com/pictures/golden-circle-farm-visits/card/golden-circle-farm-visits.webp"
 language: "fr"
 
@@ -22,13 +22,13 @@ difficulty: "Sans difficultés"
 
 
 # H1
-tourTitle: "Culinaire Cercle d'Or "
+tourTitle: "Excursion privée Cercle d'Or et expérience culinaire"
 
 
 # Header Picture
 headerCoverSrcMobile: "/pictures/golden-circle-farm-visits/headers/golden-circle-farm-visits-mobile.webp"
 headerCoverSrcPC: "/pictures/golden-circle-farm-visits/headers/golden-circle-farm-visits-pc.webp"
-headerCoverAlt: "Incroyables paysages du cercle d'or"
+headerCoverAlt: "Paysages du Cercle d'Or - Excursion privée culinaire en Islande"
 headerCoverTitle: "Cercle d'or et expérience culinaire"
 
 
@@ -45,18 +45,18 @@ bookButtons: [
 ]
 
 # Iti Picture
-itiCoverTitle: "Votre itinéraire"
+itiCoverTitle: "Découvrez les essentiels du Cercle d'Or lors d'une excursion privée culinaire avec Lilja Tours. Explorez les hauts-lieux de cette route mythique, tout en dégustant des spécialités locales."
 itiCoverImgSrcMobile: "/pictures/golden-circle-farm-visits/itinerary/title/Gullfoss-watefall-mobile.webp"
 itiCoverImgSrcPC: "/pictures/golden-circle-farm-visits/itinerary/title/Gullfoss-watefall-pc.webp"
-itiCoverImgAlt: "Gros plan d'une géante cascade"
+itiCoverImgAlt: "Cascade de Gullfoss - Tour culinaire du Cercle d'Or"
 itiCoverImgTitle: "Gullfoss"
 
 
 # Links
-linkFr: "/private-day-tours-iceland/golden-circle-culinary-experience"
+linkFr: "/private-day-tours-iceland/private-golden-circle-tour-iceland"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753715"
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753717"
-fulllinkFr: "https://www.lilja-tours.com/private-day-tours-iceland/golden-circle-culinary-experience"
+fulllinkFr: "https://www.lilja-tours.com/private-day-tours-iceland/private-golden-circle-tour-iceland"
 
 
 # Itinerary
@@ -65,12 +65,12 @@ itiItems: [
     itiItemTitle: "Parc National Þingvellir (Thingvellir)",
     itiItemPicSrcMobile: "/pictures/golden-circle-farm-visits/itinerary/thingvellir-mobile.webp",
     itiItemPicSrcPC: "/pictures/golden-circle-farm-visits/itinerary/thingvellir-pc.webp",
-    itiItemPicAlt: "Paysages de montagnes, rivières et lacs",
+    itiItemPicAlt: "Cercle d'or avec un guide français - Paysages de montagnes, rivières et lacs",
     itiItemPicTitle: "Cercle d'or et expérience culinaire: Þingvellir",
-    itiItemStrings: ["Le -Parc national de Þingvellir- est le premier arrêt idéal de votre <strong>tour du Cercle d’Or</strong>, offrant des paysages à couper le souffle et un riche héritage historique.",  
-    "Fondé en 930, il a accueilli le premier parlement islandais, où les colons se réunissaient pour établir des lois. Le parlement y est resté jusqu’en 1798, et en 2004, Þingvellir a obtenu le statut de <strong>site du patrimoine mondial de l’UNESCO</strong>.",  
-    "Au-delà de son histoire, Þingvellir se trouve sur la -dorsale médio-atlantique-, marquant la séparation entre les plaques tectoniques eurasienne et nord-américaine. C’est le seul endroit au monde où cette faille est visible au-dessus du niveau de la mer. Depuis la -plateforme d’observation de Hákið-, vous vous tiendrez au bord du continent américain.",  
-    "Une courte promenade à travers le parc vous mènera à <strong>Öxarárfoss</strong>, une cascade pittoresque avec une histoire fascinante."]
+    itiItemStrings: ["Le Parc national de Þingvellir est le premier arrêt idéal de votre tour du Cercle d’Or, offrant des paysages à couper le souffle et un riche héritage historique.",  
+    "Fondé en 930, il a accueilli le premier parlement islandais, où les colons se réunissaient pour établir des lois. Le parlement y est resté jusqu’en 1798, et en 2004, Þingvellir a obtenu le statut de site du patrimoine mondial de l’UNESCO.",  
+    "Au-delà de son histoire, Þingvellir se trouve sur la dorsale médio-atlantique, marquant la séparation entre les plaques tectoniques eurasienne et nord-américaine. C’est le seul endroit au monde où cette faille est visible au-dessus du niveau de la mer. Depuis la -plateforme d’observation de Hákið-, vous vous tiendrez au bord du continent américain.",  
+    "Une courte promenade à travers le parc vous mènera à Öxarárfoss, une cascade pittoresque avec une histoire fascinante."]
 
 
     },
@@ -78,17 +78,17 @@ itiItems: [
     itiItemTitle: "Sources chaudes: Laugarvatn",
     itiItemPicSrcMobile: "/pictures/golden-circle-farm-visits/itinerary/laugarvatn-mobile.webp",
     itiItemPicSrcPC: "/pictures/golden-circle-farm-visits/itinerary/laugarvatn-pc.webp",
-    itiItemPicAlt: "Fumantes sources chaudes au coucher du soleil",
+    itiItemPicAlt: "Guide français en Islande - Fumantes sources chaudes au coucher du soleil",
     itiItemPicTitle: "Cercle d'or et expérience culinaire: Laugarvatn",
     itiItemStrings: ["Nichée au bord d’un lac pittoresque, une source chaude active se déverse dans le -Laugarvatn-, empêchant ses rives de geler même en plein hiver islandais.",
-    "Les panoramas depuis le lac sont à couper le souffle, offrant une vue sur le puissant volcan <strong>Hekla</strong> et, par temps clair, sur l’<strong>Eyjafjallajökull</strong>, qui a éclaté en -2010-, perturbant le trafic aérien européen.",
+    "Les panoramas depuis le lac sont à couper le souffle, offrant une vue sur le puissant volcan Hekla et, par temps clair, sur l’Eyjafjallajökull, qui a éclaté en -2010-, perturbant le trafic aérien européen.",
     "Ce lieu cache un autre secret fascinant : une utilisation surprenante de la chaleur terrestre. Mais cela, vous le découvrirez sur place !"]
     },
     {
     itiItemTitle: "Ferme laitière: Efstidalur",
     itiItemPicSrcMobile: "/pictures/golden-circle-farm-visits/itinerary/efstidalur-mobile.webp",
     itiItemPicSrcPC: "/pictures/golden-circle-farm-visits/itinerary/efstidalur-pc.webp",
-    itiItemPicAlt: "Une apétissante présentation de crème glacée",
+    itiItemPicAlt: "Excursion cercle d'or en français - Une apétissante présentation de crème glacée",
     itiItemPicTitle: "Cercle d'or et expérience culinaire: EfstiDalur",
     itiItemStrings: ["Dégustez la meilleure glace d’Islande, faite maison dans une charmante ferme laitière appartenant à la même famille depuis -1750-. Nulle part en Islande (ou même dans le monde ?) vous ne trouverez une crème glacée plus onctueuse et savoureuse.",
     "Saviez-vous que les Islandais raffolent de la glace ? Ce n’est pas une légende, ils en mangent toute l’année, quel que soit le temps. En goûter une, c’est vivre une véritable expérience culturelle !"]
@@ -97,7 +97,7 @@ itiItems: [
     itiItemTitle: "Geysir et Strokkur",
     itiItemPicSrcMobile: "/pictures/golden-circle-farm-visits/itinerary/geysir-mobile.webp",
     itiItemPicSrcPC: "/pictures/golden-circle-farm-visits/itinerary/geysir-pc.webp",
-    itiItemPicAlt: "Un geyser en éruption",
+    itiItemPicAlt: "Un geyser en éruption - Excursion privée au cercle d'or",
     itiItemPicTitle: "Cercle d'or et expérience culinaire: Geysir",
     itiItemStrings: ["Saviez-vous que tous les geysers du monde tirent leur nom de -Geysir- en Islande ? Le mot geyser vient du verbe islandais -að geysa,- qui signifie jaillir.",
     "Bien que Geysir soit désormais endormi (sa dernière éruption enregistrée date de -2000-), son voisin -Strokkur- reste extrêmement actif. Il entre en éruption toutes les -5 à 10 minutes-, offrant aux visiteurs des jets spectaculaires d’eau bouillonnante.",
@@ -107,7 +107,7 @@ itiItems: [
     itiItemTitle: "Gullfoss: La chute dorée",
     itiItemPicSrcMobile: "/pictures/golden-circle-farm-visits/itinerary/gullfoss-mobile.webp",
     itiItemPicSrcPC: "/pictures/golden-circle-farm-visits/itinerary/gullfoss-pc.webp",
-    itiItemPicAlt: "Immense double cascade",
+    itiItemPicAlt: "Voyage d'exception en Islande - Immense double cascade",
     itiItemPicTitle: "Cercle d'or et expérience culinaire: Gullfoss",
     itiItemStrings: ["Le célèbre -Cercle d’Or- islandais doit son nom à -Gullfoss-, la spectaculaire -Chute d’Or-. De nombreuses légendes entourent son origine, et votre guide vous dévoilera ces récits fascinants lors de votre visite.",
     "Saviez-vous que Gullfoss a failli disparaître ? Un projet de -centrale hydroélectrique- aurait pu transformer ce trésor naturel à jamais. Heureusement, des efforts de conservation ont préservé sa splendeur, permettant aux visiteurs d’admirer sa puissance brute encore aujourd’hui.",
@@ -117,7 +117,7 @@ itiItems: [
     itiItemTitle: "Déjeuner à la ferme de Friðheimar",
     itiItemPicSrcMobile: "/pictures/golden-circle-farm-visits/itinerary/fridheimar-mobile.webp",
     itiItemPicSrcPC: "/pictures/golden-circle-farm-visits/itinerary/fridheimar-pc.webp",
-    itiItemPicAlt: "Tomates cerises qui poussent sur un plan à l'intérieur d'une serra",
+    itiItemPicAlt: "Tomates cerises qui poussent sur un plan à l'intérieur d'une serre - Expérience culinaire en Islande",
     itiItemPicTitle: "Cercle d'or et expérience culinaire: Friðheimar",
     itiItemStrings: ["-Friðheimar- est une ferme familiale en serre où des tomates fraîches poussent toute l’année, grâce à l’énergie géothermique islandaise.",
     "Entrez et découvrez un concept culinaire unique—savourez une soupe de tomates maison, du pain frais et même des boissons à base de tomates, le tout servi dans la chaleur de la serre.",
@@ -125,7 +125,7 @@ itiItems: [
     "Une visite à -Friðheimar- est un incontournable du -Cercle d’Or-, offrant une pause gourmande et éducative au cœur des paysages grandioses de l’Islande."]
     }]
 
-
+cta: "vivez une aventure gastronomique en Islande !"
 # Tour infos
 
 goodToKnow: [
@@ -155,61 +155,61 @@ gallery: [
 {
 srcMob: "/pictures/golden-circle-farm-visits/gallery/thingvellir-1-mobile.webp",
 srcPc: "/pictures/golden-circle-farm-visits/gallery/thingvellir-1-pc.webp",
-alt: "Canyon vert et ruisseau",
+alt: "Canyon de Þingvellir - Excursion culinaire Cercle d'Or",
 title: "Cercle d'or et expérience culinaire: Thingvellir"
 },    
 {
 srcMob: "/pictures/golden-circle-farm-visits/gallery/thingvellir-2-mobile.webp",
 srcPc: "/pictures/golden-circle-farm-visits/gallery/thingvellir-2-pc.webp",
-alt: "Lever de soleil au delà de lacs et montagnes",
+alt: "Lever de soleil sur Þingvellir - Tour privé Cercle d'Or",
 title: "Cercle d'or et expérience culinaire: Thingvellir"
 },    
 {
 srcMob: "/pictures/golden-circle-farm-visits/gallery/laugarvatn-1-mobile.webp",
 srcPc: "/pictures/golden-circle-farm-visits/gallery/laugarvatn-1-pc.webp",
-alt: "Lever de soleil au dessus d'une source chaude fumante",
+alt: "Sources chaudes de Laugarvatn - Tour culinaire Cercle d'Or",
 title: "Cercle d'or et expérience culinaire: Laugarvatn"
 },  
 {
 srcMob: "/pictures/golden-circle-farm-visits/gallery/efstidalur-1-mobile.webp",
 srcPc: "/pictures/golden-circle-farm-visits/gallery/efstidalur-1-pc.webp",
-alt: "Une petite fille regarde un étal de crème glacée avec envie",
+alt: "Crème glacée artisanale à EfstiDalur - Tour culinaire Cercle d'Or",
 title: "Cercle d'or et expérience culinaire: EfstiDalur"
 },  
 {
 srcMob: "/pictures/golden-circle-farm-visits/gallery/geysir-1-mobile.webp",
 srcPc: "/pictures/golden-circle-farm-visits/gallery/geysir-1-pc.webp",
-alt: "Gesyer en éruption",
+alt: "Strokkur en éruption - Tour culinaire Cercle d'Or",
 title: "Cercle d'or et expérience culinaire: Geysir"
 },   
 {
 srcMob: "/pictures/golden-circle-farm-visits/gallery/gullfoss-2-mobile.webp",
 srcPc: "/pictures/golden-circle-farm-visits/gallery/gullfoss-2-pc.webp",
-alt: "Heureuse famille devant une immense cascade",
+alt: "Famille devant Gullfoss - Excursion privée Cercle d'Or",
 title: "Cercle d'or et expérience culinaire: Gullfoss"
 },    
 {
 srcMob: "/pictures/golden-circle-farm-visits/gallery/gullfoss-3-mobile.webp",
 srcPc: "/pictures/golden-circle-farm-visits/gallery/gullfoss-3-pc.webp",
-alt: "Chute d'eau à moitié gelée dans un paysage hivernal",
+alt: "Gullfoss en hiver - Tour culinaire Cercle d'Or",
 title: "Cercle d'or et expérience culinaire: Gullfoss"
 },  
 {
 srcMob: "/pictures/golden-circle-farm-visits/gallery/fridheimar-1-mobile.webp",
 srcPc: "/pictures/golden-circle-farm-visits/gallery/fridheimar-1-pc.webp",
-alt: "Plants de tomates dans une serre",
+alt: "Serre de Friðheimar - Dégustation culinaire du Cercle d'Or",
 title: "Cercle d'or et expérience culinaire: Fridheimar"
 },  
 {
 srcMob: "/pictures/golden-circle-farm-visits/gallery/fridheimar-2-mobile.webp",
 srcPc: "/pictures/golden-circle-farm-visits/gallery/fridheimar-2-pc.webp",
-alt: "Une table pleine de pain fait maison",
+alt: "Pain frais à Friðheimar - Tour culinaire Cercle d'Or",
 title: "Cercle d'or et expérience culinaire: Fridheimar"
 },  
 {
 srcMob: "/pictures/golden-circle-farm-visits/gallery/oxararfoss-1-mobile.webp",
 srcPc: "/pictures/golden-circle-farm-visits/gallery/oxararfoss-1-pc.webp",
-alt: "Deux soeurs sourient devant une cascade",
+alt: "Soeurs à Öxarárfoss - Excursion culinaire Cercle d'Or",
 title: "Cercle d'or et expérience culinaire: Öxarárfoss"
 }]
 
@@ -249,10 +249,54 @@ vehicles: [
 
 ]
 
+jsonLd:
+  "@context": "https://schema.org"
+  "@type": "TouristTrip"
+  name: "Expérience Culinaire du Cercle d'Or"
+  description: "Vivez une excursion privée culinaire du Cercle d'Or avec Lilja Tours. Découvrez Þingvellir, Geysir, Gullfoss et profitez de dégustations locales dans des fermes traditionnelles."
+  image:
+    - "https://www.lilja-tours.com/pictures/golden-circle-farm-visits/gallery/thingvellir-1-pc.webp"
+    - "https://www.lilja-tours.com/pictures/golden-circle-farm-visits/gallery/efstidalur-1-pc.webp"
+    - "https://www.lilja-tours.com/pictures/golden-circle-farm-visits/gallery/gullfoss-2-pc.webp"
+    - "https://www.lilja-tours.com/pictures/golden-circle-farm-visits/gallery/fridheimar-2-pc.webp"
+    - "https://www.lilja-tours.com/pictures/golden-circle-farm-visits/gallery/oxararfoss-1-pc.webp"
+  url: "https://www.lilja-tours.com/fr/excursions-en-islande/excursion-privee-cercle-d-or-experience-culinaire/"
+  inLanguage:
+    - "en"
+    - "fr"
+  touristType:
+    "@type": "Audience"
+    name: "Voyageurs de luxe"
+  itinerary:
+    "@type": "ItemList"
+    itemListElement: []
+  offers:
+    "@type": "Offer"
+    price: "179000"
+    priceCurrency: "ISK"
+    availability: "https://schema.org/InStock"
+    url: "https://www.lilja-tours.com/fr/excursions-en-islande/excursion-privee-cercle-d-or-experience-culinaire/"
+  provider:
+    "@type": "TravelAgency"
+    name: "Lilja Tours"
+    url: "https://www.lilja-tours.com"
+    logo: "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png"
+  departureLocation:
+    "@type": "Place"
+    name: "Reykjavík"
+  duration: "PT8H"
+  maximumAttendeeCapacity: 6
+  availableLanguage:
+    - "@type": "Language"
+      name: "Anglais"
+    - "@type": "Language"
+      name: "Français"
+
+
 form: "https://tally.so/r/3xlOzE"
 
 
 
-slug: cercle-d-or-experience-culinaire
+slug: excursion-privee-cercle-d-or-experience-culinaire
 
 ---

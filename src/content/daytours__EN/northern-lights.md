@@ -45,7 +45,7 @@ bookButtons: [
 ]
 
 # Iti Picture
-itiCoverTitle: "Tour overview"
+itiCoverTitle: "Join Lilja Tours for a luxury private Northern Lights tour in Iceland. Experience the captivating Aurora Borealis with expert guides and professional photography, while enjoying the comfort of a Mercedes V-Class or Toyota LandCruiser. Our tailor-made aurora hunting tours are designed for discerning travelers seeking a magical night under Iceland’s starry skies."
 itiCoverImgSrcMobile: "/pictures/northern-lights/itinerary/title/northern-lights-mobile.webp"
 itiCoverImgSrcPC: "/pictures/northern-lights/itinerary/title/northern-lights-pc.webp"
 itiCoverImgAlt: "Green aurora borealis"
@@ -67,7 +67,7 @@ itiItems: [
     itiItemPicSrcPC: "/pictures/northern-lights/itinerary/northern-lights-pc.webp",
     itiItemPicAlt: "Private Northern Lights tour in Iceland - Green auroras illuminating the night sky",
     itiItemPicTitle: "Private Northern Lights Tour: The auroras",
-    itiItemStrings: ["Join Lilja Tours for a luxury private Northern Lights tour in Iceland. Experience the captivating Aurora Borealis with expert guides and professional photography, while enjoying the comfort of a Mercedes V-Class or Toyota LandCruiser. Our tailor-made aurora hunting tours are designed for discerning travelers seeking a magical night under Iceland’s starry skies. Your luxury Northern Lights experience starts in Reykjavík, as we set off on a private tour far from city lights. Your expert local guide will lead you to the most promising locations to witness the Aurora Borealis. With flexible scheduling and a cozy vehicle, we ensure a comfortable and unforgettable night of aurora hunting."
+    itiItemStrings: ["Embark on a private Northern Lights tour in Iceland and witness one of nature’s most mesmerizing spectacles. Your journey begins far from the city lights, where your expert guide will take you to the best locations for spotting the Aurora Borealis. Once the perfect spot is found, patience and a bit of luck will determine how long before the sky lights up in dazzling colors. The Northern Lights are an unpredictable phenomenon, directly linked to the sun’s activity, making each sighting a unique and magical experience.","While waiting for the auroras to appear, you’ll be captivated by the sheer beauty of the Icelandic night sky, free from light pollution. Millions of stars shine above, creating an unforgettable atmosphere. Whether the Northern Lights dance across the sky or remain elusive, this journey into Iceland’s untouched wilderness is an adventure in itself. Don’t miss this once-in-a-lifetime opportunity to chase the auroras in comfort and style!"
     ]
     }
     ]
@@ -248,7 +248,7 @@ jsonLd:
       name: "English"
     - "@type": "Language"
       name: "French"
-  temporalCoverage: "2024-09-01/2025-03-31"
+
 
 
 #slug: northern-lights-iceland

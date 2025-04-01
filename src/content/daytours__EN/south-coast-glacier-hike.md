@@ -7,9 +7,9 @@ jeepISK: 249000
 filter: "norm"
 
 # Head and metas
-pageTitle: "South Coast and Glacier Hike | Luxury private tour "
-description: "​Embark on a private South Coast adventure with Lilja Tours. Explore Seljalandsfoss and Skógafoss waterfalls, stroll along Reynisfjara black sand beach, and hike Sólheimajökull glacier. ​"
-ogTitle: "Private tour: South Coast and Glacier Hike"
+pageTitle: "Luxury Private Tour South Coast & Glacier Hike | Explore Seljalandsfoss, Skógafoss, and Sólheimajökull"
+description: "Join a luxury Private Tour South Coast & Glacier Hike. Visit Seljalandsfoss, Skógafoss, Reynisfjara Black Sand Beach, and hike the Sólheimajökull Glacier with Lilja Tours.​"
+ogTitle: "Luxury Private South Coast & Glacier Hike | Explore Seljalandsfoss, Skógafoss, and Sólheimajökull"
 ogImage: "https://www.lilja-tours.com/pictures/south-coast-glacier-hike/card/south-coast-glacier-hike.webp"
 language: "en"
 
@@ -22,13 +22,13 @@ difficulty: "Moderate"
 
 
 # H1
-tourTitle: "South Coast & Glacier Hike"
+tourTitle: "Private Tour South Coast & Glacier Hike"
 
 
 # Header Picture
 headerCoverSrcMobile: "/pictures/south-coast-glacier-hike/headers/south-coast-glacier-hike-mobile.webp"
 headerCoverSrcPC: "/pictures/south-coast-glacier-hike/headers/south-coast-glacier-hike-pc.webp"
-headerCoverAlt: "Happy clients geared up with mountaineer equipment are standing on a glacier"
+headerCoverAlt: "South Coast Glacier Hike - Tourists on Sólheimajökull with mountaineering equipment"
 headerCoverTitle: "South Coast Glacier Hike private tour"
 
 
@@ -45,18 +45,18 @@ bookButtons: [
 ]
 
 # Iti Picture
-itiCoverTitle: "Your itinerary"
+itiCoverTitle: "Experience a Private Tour South Coast & Glacier Hike in Iceland with Lilja Tours. Discover the majestic waterfalls of Seljalandsfoss and Skógafoss, walk along the famous Reynisfjara Black Sand Beach, and embark on an exhilarating glacier hike at Sólheimajökull."
 itiCoverImgSrcMobile: "/pictures/south-coast-glacier-hike/itinerary/title/solo-mobile.webp"
 itiCoverImgSrcPC: "/pictures/south-coast-glacier-hike/itinerary/title/solo-pc.webp"
-itiCoverImgAlt: "Close up of a glacier"
-itiCoverImgTitle: "Sólheimajökull"
+itiCoverImgAlt: "Sólheimajökull Glacier - Private Hiking Tour"
+itiCoverImgTitle: "Private South Coast and Glacier Hike - Sólheimajökull"
 
 
 # Links
-linkFr: "/fr/excursions-en-islande/cote-sud-rando-glacier-islande"
+linkFr: "/fr/excursions-en-islande/excursion-privee-cote-sud-randonnee-sur-glacier-en-islande"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753723"
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753724"
-fulllinkFr: "https://www.lilja-tours.com/fr/excursions-en-islande/cote-sud-rando-glacier-islande"
+fulllinkFr: "https://www.lilja-tours.com/fr/excursions-en-islande/excursion-privee-cote-sud-randonnee-sur-glacier-en-islande"
 
 
 # Itinerary
@@ -65,48 +65,49 @@ itiItems: [
     itiItemTitle: "Seljalandsfoss waterfall",
     itiItemPicSrcMobile: "/pictures/south-coast-glacier-hike/itinerary/seljalandsfoss-mobile.webp",
     itiItemPicSrcPC: "/pictures/south-coast-glacier-hike/itinerary/seljalandsfoss-pc.webp",
-    itiItemPicAlt: "Thin and tall waterfall",
+    itiItemPicAlt: "Private Glacier Hike - Thin and tall waterfall",
     itiItemPicTitle: "South Coast Glacier Hike: Seljalandsfoss",
-    itiItemStrings: ["Seljalandsfoss is the first major waterfall greeting travelers along Iceland’s South Coast from Reykjavík. Towering at <strong>60 meters</strong>, it’s famous for its remarkable <strong>cave hidden behind the falling water</strong>. This natural passage allows visitors to walk <strong>behind the cascade</strong>, offering a breathtaking, immersive experience with the roar of the waterfall echoing all around.",
-    "The <strong>view from behind the falls</strong> is truly captivating, making it a dream spot for <strong>photographers and nature enthusiasts</strong>. Be prepared to get wet as the mist is unavoidable! If you’re visiting in <strong>winter</strong>, note that the path behind the waterfall is closed due to icy conditions, ensuring visitor safety.",
-    "Don’t miss the chance to witness this <strong>iconic Icelandic wonder</strong>, a highlight of the South Coast’s natural beauty."
+    itiItemStrings: ["Seljalandsfoss is the first major waterfall greeting travelers along Iceland’s South Coast from Reykjavík. Towering at 60 meters, it’s famous for its remarkable cave hidden behind the falling water. This natural passage allows visitors to walk behind the cascade, offering a breathtaking, immersive experience with the roar of the waterfall echoing all around.",
+    "The view from behind the falls is truly captivating, making it a dream spot for photographers and nature enthusiasts. Be prepared to get wet as the mist is unavoidable! If you’re visiting in winter, note that the path behind the waterfall is closed due to icy conditions, ensuring visitor safety.",
+    "Don’t miss the chance to witness this iconic Icelandic wonder, a highlight of the South Coast’s natural beauty."
 ]
     },
     {
     itiItemTitle: "Skógafoss waterfall",
     itiItemPicSrcMobile: "/pictures/south-coast-glacier-hike/itinerary/skogafoss-mobile.webp",
     itiItemPicSrcPC: "/pictures/south-coast-glacier-hike/itinerary/skogafoss-pc.webp",
-    itiItemPicAlt: "Stunning, giant waterfall",
+    itiItemPicAlt: "South Coast and Glacier Hike Tour - Stunning, giant waterfall",
     itiItemPicTitle: "South Coast Glacier Hike: Skógafoss",
-    itiItemStrings: ["<strong>Skógafoss</strong> is one of Iceland’s most iconic waterfalls, easily spotted from <strong>Route One</strong> along the <strong>South Coast</strong>. Standing at <strong>60 meters</strong>, its powerful cascade generates a mesmerizing mist, often creating <strong>vivid rainbows</strong> on sunny days—an absolute paradise for photographers. Its breathtaking beauty and commanding presence attract visitors from around the world, and its fame grew even further after appearing in <strong>Game of Thrones</strong>, making it a must-visit for fans and travelers alike.",
-    "A local legend adds to the magic of <strong>Skógafoss</strong>. According to folklore, a <strong>giant’s hidden treasure</strong> lies behind the waterfall. Many have attempted to uncover it, yet the mystery remains. Your guide will share this intriguing tale as you explore the area. For those craving adventure, a <strong>staircase beside the waterfall</strong> leads to an epic <strong>viewpoint</strong>, offering breathtaking <strong>panoramic views</strong> of the surrounding landscapes.",
-    "<strong>Discover Skógafoss</strong> and immerse yourself in its stunning beauty, rich history, and the myths that make it a truly magical destination."
+    itiItemStrings: ["Skógafoss is one of Iceland’s most iconic waterfalls, easily spotted from Route One along the South Coast. Standing at 60 meters, its powerful cascade generates a mesmerizing mist, often creating vivid rainbows on sunny days—an absolute paradise for photographers. Its breathtaking beauty and commanding presence attract visitors from around the world, and its fame grew even further after appearing in Game of Thrones, making it a must-visit for fans and travelers alike.",
+    "A local legend adds to the magic of Skógafoss. According to folklore, a giant’s hidden treasure lies behind the waterfall. Many have attempted to uncover it, yet the mystery remains. Your guide will share this intriguing tale as you explore the area. For those craving adventure, a staircase beside the waterfall leads to an epic viewpoint, offering breathtaking panoramic views of the surrounding landscapes.",
+    "Discover Skógafoss and immerse yourself in its stunning beauty, rich history, and the myths that make it a truly magical destination."
 ]
     },
     {
     itiItemTitle: "Glacier Hike on Sólheimajökull",
     itiItemPicSrcMobile: "/pictures/south-coast-glacier-hike/itinerary/glacier-hike-mobile.webp",
     itiItemPicSrcPC: "/pictures/south-coast-glacier-hike/itinerary/glacier-hike-pc.webp",
-    itiItemPicAlt: "Happy people on a glacier with mountaineering equipment",
+    itiItemPicAlt: "Happy people on a glacier with mountaineering equipment - Private South Coast & Glacier Hike Tour",
     itiItemPicTitle: "South Coast Glacier Hike: Sólheimajökull",
-    itiItemStrings: ["<strong>Ready for an adventure?</strong> Your guide will equip you with a <strong>harness, helmet, crampons, and an ice axe</strong>, ensuring you’re fully prepared for the journey ahead.",
-    "Once geared up, you’ll take a <strong>15 to 20-minute walk</strong> to the edge of the <strong>Sólheimajökull glacier</strong>. There, your guide will provide essential <strong>safety instructions</strong> and explain the proper approach to navigating the glacier.",
-    "After the briefing, it’s time to set off and spend about <strong>one hour on the ice</strong>. As this is a <strong>private glacier hike</strong>, your guide will lead you away from the crowds, giving you the incredible feeling of having the glacier all to yourself."
+    itiItemStrings: ["Ready for an adventure? Your guide will equip you with a harness, helmet, crampons, and an ice axe, ensuring you’re fully prepared for the journey ahead.",
+    "Once geared up, you’ll take a 15 to 20-minute walk to the edge of the Sólheimajökull glacier. There, your guide will provide essential safety instructions and explain the proper approach to navigating the glacier.",
+    "After the briefing, it’s time to set off and spend about one hour on the ice. As this is a private glacier hike, your guide will lead you away from the crowds, giving you the incredible feeling of having the glacier all to yourself."
 ]
     },
      {
     itiItemTitle: "Reynisfjara Black Sand beach",
     itiItemPicSrcMobile: "/pictures/south-coast-glacier-hike/itinerary/reynisfjara-mobile.webp",
     itiItemPicSrcPC: "/pictures/south-coast-glacier-hike/itinerary/reynisfjara-pc.webp",
-    itiItemPicAlt: "Stunning basaltic columns",
+    itiItemPicAlt: "Guided Glacier Hike - Stunning basaltic columns",
     itiItemPicTitle: "South Coast Glacier Hike: Reynisfjara",
-    itiItemStrings: ["<strong>Reynisfjara</strong>, famously known as the <strong>Dragon Glass Cave</strong> location in <strong>Game of Thrones</strong>, is Iceland’s most breathtaking <strong>black sand beach</strong>. Its <strong>striking basalt columns</strong>, <strong>powerful waves</strong>, and <strong>dramatic cliffs</strong> create a surreal landscape that captivates visitors year-round. The <strong>roaring Atlantic Ocean</strong> adds to its wild, untamed beauty, making it an absolute must-visit for <strong>photographers and nature enthusiasts</strong>.",
-    "Beyond its <strong>geological wonders</strong>, <strong>Reynisfjara</strong> transforms into a bustling <strong>nesting ground</strong> in summer, welcoming thousands of <strong>migratory birds</strong>, including the beloved <strong>puffins</strong>. These seabirds return each year to breed on the towering cliffs above the black sand, offering a <strong>spectacular bird-watching experience</strong>. Visitors can observe them gracefully <strong>diving into the ocean</strong> for fish or resting on the rugged rock formations.",
-    "However, caution is essential—<strong>Reynisfjara</strong> is notorious for its <strong>dangerous sneaker waves</strong>, which can appear suddenly. Explore this <strong>iconic Icelandic landmark</strong> to witness the <strong>raw power of nature</strong> and its vibrant wildlife."
+    itiItemStrings: ["Reynisfjara, famously known as the Dragon Glass Cave location in Game of Thrones, is Iceland’s most breathtaking black sand beach. Its striking basalt columns, powerful waves, and dramatic cliffs create a surreal landscape that captivates visitors year-round. The roaring Atlantic Ocean adds to its wild, untamed beauty, making it an absolute must-visit for photographers and nature enthusiasts.",
+    "Beyond its geological wonders, Reynisfjara transforms into a bustling nesting ground in summer, welcoming thousands of migratory birds, including the beloved puffins. These seabirds return each year to breed on the towering cliffs above the black sand, offering a spectacular bird-watching experience. Visitors can observe them gracefully diving into the ocean for fish or resting on the rugged rock formations.",
+    "However, caution is essential—Reynisfjara is notorious for its dangerous sneaker waves, which can appear suddenly. Explore this iconic Icelandic landmark to witness the raw power of nature and its vibrant wildlife."
 ]
     }
     ]
 
+cta: "enjoy a unique mix of adventure and discoveries"
 
 # Tour infos
 
@@ -145,61 +146,61 @@ gallery: [
 {
 srcMob: "/pictures/south-coast-glacier-hike/gallery/glacier-hike-1-mobile.webp",
 srcPc: "/pictures/south-coast-glacier-hike/gallery/glacier-hike-1-pc.webp",
-alt: "Closeup of shoes and glacier crampons",
+alt: "Mountaineering Equipment on Glacier - Sólheimajökull Hike",
 title: "South Coast Glacier Hike: Sólheimajökull"
 },    
 {
 srcMob: "/pictures/south-coast-glacier-hike/gallery/glacier-hike-2-mobile.webp",
 srcPc: "/pictures/south-coast-glacier-hike/gallery/glacier-hike-2-pc.webp",
-alt: "Happy family on a glacier",
+alt: "Family Enjoying Glacier Hike - Sólheimajökull",
 title: "South Coast Glacier Hike: Sólheimajökull"
 },    
 {
 srcMob: "/pictures/south-coast-glacier-hike/gallery/glacier-hike-3-mobile.webp",
 srcPc: "/pictures/south-coast-glacier-hike/gallery/glacier-hike-3-pc.webp",
-alt: "Close up of a smiling woman on a glacier",
+alt: "Smiling Tourist on Glacier Hike - South Coast Adventure",
 title: "South Coast Glacier Hike: Sólheimajökull"
 },  
 {
 srcMob: "/pictures/south-coast-glacier-hike/gallery/glacier-hike-4-mobile.webp",
 srcPc: "/pictures/south-coast-glacier-hike/gallery/glacier-hike-4-pc.webp",
-alt: "Smiling family on a glacier",
+alt: "Happy Family on Sólheimajökull Glacier - Private Tour",
 title: "South Coast Glacier Hike: Sólheimajökull"
 },  
 {
 srcMob: "/pictures/south-coast-glacier-hike/gallery/glacier-hike-5-mobile.webp",
 srcPc: "/pictures/south-coast-glacier-hike/gallery/glacier-hike-5-pc.webp",
-alt: "Glacier in the foreground and glacial lake",
+alt: "Sólheimajökull Glacier and Lake - South Coast Hike",
 title: "South Coast Glacier Hike: Sólheimajökull"
 },   
 {
 srcMob: "/pictures/south-coast-glacier-hike/gallery/seljalandsfoss-mobile.webp",
 srcPc: "/pictures/south-coast-glacier-hike/gallery/seljalandsfoss-pc.webp",
-alt: "Thin and tall waterfall falling during a misty day",
+alt: "Seljalandsfoss Waterfall on a Misty Day - South Coast Tour",
 title: "South Coast Glacier Hike: Seljalandsfoss"
 },    
 {
 srcMob: "/pictures/south-coast-glacier-hike/gallery/skogafoss-1-mobile.webp",
 srcPc: "/pictures/south-coast-glacier-hike/gallery/skogafoss-1-pc.webp",
-alt: "Couple smiling in front of a waterfall and the rainbow in its mist",
+alt: "Skógafoss Waterfall with Rainbow - South Coast Private Tour",
 title: "South Coast Glacier Hike: Skogafoss"
 },  
 {
 srcMob: "/pictures/south-coast-glacier-hike/gallery/skogafoss-2-mobile.webp",
 srcPc: "/pictures/south-coast-glacier-hike/gallery/skogafoss-2-pc.webp",
-alt: "Happy family in front of a frozen waterfall",
+alt: "Winter at Skógafoss - Family Adventure",
 title: "South Coast Glacier Hike: Skogafoss"
 },  
 {
 srcMob: "/pictures/south-coast-glacier-hike/gallery/skogafoss-3-mobile.webp",
 srcPc: "/pictures/south-coast-glacier-hike/gallery/skogafoss-3-pc.webp",
-alt: "Top of a giant waterfall",
+alt: "Aerial View of Skógafoss Waterfall - South Coast Tour",
 title: "South Coast Glacier Hike: Skógafoss"
 },  
 {
 srcMob: "/pictures/south-coast-glacier-hike/gallery/solheimajokull-1-mobile.webp",
 srcPc: "/pictures/south-coast-glacier-hike/gallery/solheimajokull-1-pc.webp",
-alt: "Close up of a glacier outlet",
+alt: "Sólheimajökull Glacier Outlet - Private Hike",
 title: "South Coast Glacier Hike: Sólheimajökull"
 }]
 
@@ -208,7 +209,7 @@ title: "South Coast Glacier Hike: Sólheimajökull"
 
 tags: ["south-coast","sightseeing", "hiking", "adventure"]
 cardPicSrc: "/pictures/south-coast-glacier-hike/card/south-coast-glacier-hike.webp"
-cardPicAlt: "Picture taken from the top of a glacier"
+cardPicAlt: "South Coast and Glacier Hike Private Tour: Picture taken from the top of a glacier"
 cardPicTitle: "Private tour: South Coast Glacier Hike"
 cardTitle: "South Coast & Glacier Hike"
 
@@ -239,10 +240,54 @@ vehicles: [
 
 ]
 
+jsonLd:
+  "@context": "https://schema.org"
+  "@type": "TouristTrip"
+  name: "South Coast Glacier Hike"
+  description: "Join a luxury private tour to Iceland’s South Coast. Visit Seljalandsfoss, Skógafoss, Reynisfjara Black Sand Beach, and enjoy a glacier hike on Sólheimajökull with expert guidance and personalized service."
+  image:
+    - "https://www.lilja-tours.com/pictures/south-coast-glacier-hike/gallery/glacier-hike-1-pc.webp"
+    - "https://www.lilja-tours.com/pictures/south-coast-glacier-hike/gallery/glacier-hike-2-pc.webp"
+    - "https://www.lilja-tours.com/pictures/south-coast-glacier-hike/gallery/skogafoss-3-pc.webp"
+    - "https://www.lilja-tours.com/pictures/south-coast-glacier-hike/gallery/seljalandsfoss-pc.webp"
+    - "https://www.lilja-tours.com/pictures/south-coast-glacier-hike/gallery/skogafoss-2-pc.webp"
+  url: "https://www.lilja-tours.com/private-day-tours-iceland/private-tour-south-coast-glacier-hike/"
+  inLanguage:
+    - "en"
+    - "fr"
+  touristType:
+    "@type": "Audience"
+    name: "Luxury travelers"
+  itinerary:
+    "@type": "ItemList"
+    itemListElement: []
+  offers:
+    "@type": "Offer"
+    price: "249000"
+    priceCurrency: "ISK"
+    availability: "https://schema.org/InStock"
+    url: "https://www.lilja-tours.com/private-day-tours-iceland/private-tour-south-coast-glacier-hike/"
+  provider:
+    "@type": "TravelAgency"
+    name: "Lilja Tours"
+    url: "https://www.lilja-tours.com"
+    logo: "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png"
+  departureLocation:
+    "@type": "Place"
+    name: "Reykjavík"
+  duration: "PT12H"
+  maximumAttendeeCapacity: 6
+  availableLanguage:
+    - "@type": "Language"
+      name: "English"
+    - "@type": "Language"
+      name: "French"
+
+
 form: "https://tally.so/r/wavNrW"
 
 
 
-slug: south-coast-glacier-hike
+slug: private-tour-south-coast-glacier-hike
 
 ---

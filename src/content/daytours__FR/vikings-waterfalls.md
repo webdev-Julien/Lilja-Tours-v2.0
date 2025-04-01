@@ -237,6 +237,50 @@ vehicles: [
 
 ]
 
+jsonLd:
+  "@context": "https://schema.org"
+  "@type": "TouristTrip"
+  name: "Vikings et Cascades"
+  description: "Explorez le riche patrimoine viking et les cascades majestueuses de la côte sud de l'Islande lors d'une excursion privée de luxe avec Lilja Tours. Découvrez des sites emblématiques, des paysages dramatiques et une histoire captivante tout en profitant d'un service personnalisé et d'un confort haut de gamme."
+  image:
+    - "https://www.lilja-tours.com/pictures/vikings-waterfalls/gallery/stong-1-pc.webp"
+    - "https://www.lilja-tours.com/pictures/vikings-waterfalls/gallery/haifoss-1-pc.webp"
+    - "https://www.lilja-tours.com/pictures/vikings-waterfalls/gallery/gjain-3-pc.webp"
+    - "https://www.lilja-tours.com/pictures/vikings-waterfalls/gallery/ingolf-1-pc.webp"
+    - "https://www.lilja-tours.com/pictures/vikings-waterfalls/gallery/haifoss-3-pc.webp"
+  url: "https://www.lilja-tours.com/fr/excursions-en-islande/vikings-et-cascades-islande/"
+  inLanguage:
+    - "en"
+    - "fr"
+  touristType:
+    "@type": "Audience"
+    name: "Voyageurs de luxe"
+  itinerary:
+    "@type": "ItemList"
+    itemListElement: []
+  offers:
+    "@type": "Offer"
+    price: "190000"
+    priceCurrency: "ISK"
+    availability: "https://schema.org/InStock"
+    url: "https://www.lilja-tours.com/fr/excursions-en-islande/vikings-et-cascades-islande/"
+  provider:
+    "@type": "TravelAgency"
+    name: "Lilja Tours"
+    url: "https://www.lilja-tours.com"
+    logo: "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png"
+  departureLocation:
+    "@type": "Place"
+    name: "Reykjavík"
+  duration: "PT9H"
+  maximumAttendeeCapacity: 6
+  availableLanguage:
+    - "@type": "Language"
+      name: "Anglais"
+    - "@type": "Language"
+      name: "Français"
+
+
 form: "https://tally.so/r/m6p1QA"
 
 

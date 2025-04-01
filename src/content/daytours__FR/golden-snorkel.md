@@ -7,9 +7,9 @@ jeepISK: 185000
 filter: "extra"
 
 # Head and metas
-pageTitle: "Cercle d'or et Masque et tuba dans silfra | Excursions d'exception "
-description: " Découvrez le Cercle d’Or en Islande : Þingvellir et ses plaques tectoniques, Strokkur en éruption, Gullfoss majestueuse et plongez dans les eaux cristallines de Silfra."
-ogTitle: "Excursions privées: Le cercle d'or"
+pageTitle: "Excursion privée Cercle d'Or et tuba dans Silfra | Þingvellir, Geysir, Gullfoss"
+description: "Partez pour une excursion privée au Cercle d'Or et plongez dans les eaux cristallines de Silfra. Explorez Þingvellir, Geysir, et Gullfoss avec Lilja Tours."
+ogTitle: "Excursion privée Cercle d'Or et tuba dans Silfra | Þingvellir, Geysir, Gullfoss"
 ogImage: "https://www.lilja-tours.com/pictures/golden-snorkel/card/golden-snorkel.webp"
 language: "fr"
 
@@ -22,14 +22,14 @@ difficulty: "Modérée"
 
 
 # H1
-tourTitle: "Cercle d'or et sortie tuba dans Silfra"
+tourTitle: "Excursion privée Cercle d'Or et tuba dans Silfra"
 
 
 # Header Picture
 headerCoverSrcMobile: "/pictures/golden-snorkel/headers/silfra-mobile.webp"
 headerCoverSrcPC: "/pictures/golden-snorkel/headers/silfra-pc.webp"
-headerCoverAlt: "Des gens nagent en combinaison dans des eaux claires"
-headerCoverTitle: "Cercle d'or et sortie tuba dans Silfra"
+headerCoverAlt: "Snorkeling dans les eaux cristallines de Silfra - Excursion Cercle d'Or"
+headerCoverTitle: "Excursion privée Cercle d'Or et tuba dans Silfra"
 
 
 # BookButtons
@@ -45,18 +45,18 @@ bookButtons: [
 ]
 
 # Iti Picture
-itiCoverTitle: "Votre itinéraire"
+itiCoverTitle: "Partez pour une excursion privée au Cercle d'Or avec Lilja Tours et plongez dans les eaux claires de Silfra. Explorez les sites emblématiques de Þingvellir, Geysir et Gullfoss lors d'une aventure inoubliable."
 itiCoverImgSrcMobile: "/pictures/golden-snorkel/itinerary/title/golden-snorkel-mobile.webp"
 itiCoverImgSrcPC: "/pictures/golden-snorkel/itinerary/title/golden-snorkel-pc.webp"
-itiCoverImgAlt: "Lever de soleil au dessus du parc Þingvellir"
+itiCoverImgAlt: "Lever de soleil à Þingvellir - Excursion Cercle d'Or et tuba dans Silfra"
 itiCoverImgTitle: "Cercle d'or et sortie tuba dans Silfra"
 
 
 # Links
-linkFr: "/private-day-tours-iceland/golden-circle-snorkel-silfra"
+linkFr: "/private-day-tours-iceland/private-golden-circle-tour-and-silfra-snorkel"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/902694"
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/971139"
-fulllinkFr: "https://www.lilja-tours.com/private-day-tours-iceland/golden-circle-snorkel-silfra"
+fulllinkFr: "https://www.lilja-tours.com/private-day-tours-iceland/private-golden-circle-tour-and-silfra-snorkel"
 
 
 # Itinerary
@@ -104,6 +104,7 @@ itiItems: [
     
     
     ]
+cta: "profitez d'une journée exceptionnelle entre découverte et aventure!"
 
 
 # Tour infos
@@ -140,61 +141,61 @@ gallery: [
 {
 srcMob: "/pictures/golden-snorkel/gallery/golden-snorkel-1-mobile.webp",
 srcPc: "/pictures/golden-snorkel/gallery/golden-snorkel-1-pc.webp",
-alt: "Géante cascade en clair obscur",
+alt: "Gullfoss en clair-obscur - Cercle d'Or et tuba dans Silfra",
 title: "Cercle d'Or et tuba dans Silfra: Gullfoss"
 },    
 {
 srcMob: "/pictures/golden-snorkel/gallery/golden-snorkel-2-mobile.webp",
 srcPc: "/pictures/golden-snorkel/gallery/golden-snorkel-2-pc.webp",
-alt: "Une famille pose devant un magnifique paysage au lever du soleil",
+alt: "Famille au lever du soleil à Þingvellir - Tour privé Cercle d'Or",
 title: "Cercle d'Or et tuba dans Silfra: Þingvellir"
 },    
 {
 srcMob: "/pictures/golden-snorkel/gallery/golden-snorkel-3-mobile.webp",
 srcPc: "/pictures/golden-snorkel/gallery/golden-snorkel-3-pc.webp",
-alt: "Paysages de lacs et montagnes",
+alt: "Panorama de lacs et montagnes à Þingvellir - Excursion Cercle d'Or",
 title: "Cercle d'Or et tuba dans Silfra: Þingvellir"
 },  
 {
 srcMob: "/pictures/golden-snorkel/gallery/golden-snorkel-4-mobile.webp",
 srcPc: "/pictures/golden-snorkel/gallery/golden-snorkel-4-pc.webp",
-alt: "Geyser en éruption",
+alt: "Strokkur en éruption - Tour Cercle d'Or et Silfra",
 title: "Cercle d'Or et tuba dans Silfra: Geysir"
 },  
 {
 srcMob: "/pictures/golden-snorkel/gallery/golden-snorkel-5-mobile.webp",
 srcPc: "/pictures/golden-snorkel/gallery/golden-snorkel-5-pc.webp",
-alt: "Des personnes en combinaison sèche s'apprètent à nager dans des eaux crystallines",
+alt: "Snorkelers en combinaison à Silfra - Excursion Cercle d'Or",
 title: "Cercle d'Or et tuba dans Silfra: Snorkeling in Silfra"
 },   
 {
 srcMob: "/pictures/golden-snorkel/gallery/golden-snorkel-6-mobile.webp",
 srcPc: "/pictures/golden-snorkel/gallery/golden-snorkel-6-pc.webp",
-alt: "Une personne se fait immerger dans l'eau comme pour simuler un baptême",
+alt: "Immersion dans les eaux de Silfra - Aventure Cercle d'Or",
 title: "Cercle d'Or et tuba dans Silfra: Snorkeling in Silfra"
 },    
 {
 srcMob: "/pictures/golden-snorkel/gallery/golden-snorkel-7-mobile.webp",
 srcPc: "/pictures/golden-snorkel/gallery/golden-snorkel-7-pc.webp",
-alt: "Une famille souriante pose pour la photo en portant des combinaisons sèches",
+alt: "Famille en combinaison à Silfra - Excursion privée Cercle d'Or",
 title: "Cercle d'Or et tuba dans Silfra: Snorkeling in Silfra"
 },  
 {
 srcMob: "/pictures/golden-snorkel/gallery/golden-snorkel-8-mobile.webp",
 srcPc: "/pictures/golden-snorkel/gallery/golden-snorkel-8-pc.webp",
-alt: "Petite et belle cascade",
+alt: "Cascade pittoresque à Þingvellir - Tour Cercle d'Or",
 title: "Cercle d'Or et tuba dans Silfra: Öxarárfoss"
 },  
 {
 srcMob: "/pictures/golden-snorkel/gallery/golden-snorkel-9-mobile.webp",
 srcPc: "/pictures/golden-snorkel/gallery/golden-snorkel-9-pc.webp",
-alt: "Cours d'eau à l'intérieur d'un canyon vert",
+alt: "Rivière dans le canyon de Þingvellir - Cercle d'Or et Silfra",
 title: "Cercle d'Or et tuba dans Silfra: Öxarárfoss"
 },  
 {
 srcMob: "/pictures/golden-snorkel/gallery/golden-snorkel-10-mobile.webp",
 srcPc: "/pictures/golden-snorkel/gallery/golden-snorkel-10-pc.webp",
-alt: "Belle cascade",
+alt: "Cascade de Gullfoss - Excursion Cercle d'Or",
 title: "Cercle d'Or et tuba dans Silfra: Gullfoss"
 }]
 
@@ -234,10 +235,54 @@ vehicles: [
 
 ]
 
+jsonLd:
+  "@context": "https://schema.org"
+  "@type": "TouristTrip"
+  name: "Cercle d'Or et Plongée en Tuba à Silfra"
+  description: "Vivez une excursion privée Cercle d'Or et tuba dans Silfra avec Lilja Tours. Explorez Þingvellir, Geysir, Gullfoss et nagez dans les eaux claires de Silfra."
+  image:
+    - "https://www.lilja-tours.com/pictures/golden-circle-snorkeling/gallery/golden-snorkel-1-pc.webp"
+    - "https://www.lilja-tours.com/pictures/golden-circle-snorkeling/gallery/golden-snorkel-2-pc.webp"
+    - "https://www.lilja-tours.com/pictures/golden-circle-snorkeling/gallery/golden-snorkel-3-pc.webp"
+    - "https://www.lilja-tours.com/pictures/golden-circle-snorkeling/gallery/golden-snorkel-4-pc.webp"
+    - "https://www.lilja-tours.com/pictures/golden-circle-snorkeling/gallery/golden-snorkel-5-pc.webp"
+  url: "https://www.lilja-tours.com/fr/excursions-en-islande/excursion-cercle-d-or-et-silfra/"
+  inLanguage:
+    - "en"
+    - "fr"
+  touristType:
+    "@type": "Audience"
+    name: "Voyageurs de luxe"
+  itinerary:
+    "@type": "ItemList"
+    itemListElement: []
+  offers:
+    "@type": "Offer"
+    price: "179000"
+    priceCurrency: "ISK"
+    availability: "https://schema.org/InStock"
+    url: "https://www.lilja-tours.com/fr/excursions-en-islande/excursion-cercle-d-or-et-silfra/"
+  provider:
+    "@type": "TravelAgency"
+    name: "Lilja Tours"
+    url: "https://www.lilja-tours.com"
+    logo: "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png"
+  departureLocation:
+    "@type": "Place"
+    name: "Reykjavík"
+  duration: "PT8H"
+  maximumAttendeeCapacity: 6
+  availableLanguage:
+    - "@type": "Language"
+      name: "Anglais"
+    - "@type": "Language"
+      name: "Français"
+
+
 form: "https://tally.so/r/w27rBD"
 
 
 
-slug: cercle-d-or-tuba-silfra-plongee
+slug: excursion-cercle-d-or-et-silfra
 
 ---

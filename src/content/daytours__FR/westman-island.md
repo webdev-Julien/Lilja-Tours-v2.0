@@ -233,6 +233,50 @@ vehicles: [
 
 ]
 
+jsonLd:
+  "@context": "https://schema.org"
+  "@type": "TouristTrip"
+  name: "Îles Westman - Excursion Privée"
+  description: "Découvrez la beauté spectaculaire et l'histoire fascinante des îles Westman lors d'une excursion privée de luxe avec Lilja Tours. Explorez des paysages volcaniques, des villages de pêche pittoresques et des vues côtières à couper le souffle tout en profitant d'un service personnalisé et d'un confort haut de gamme."
+  image:
+    - "https://www.lilja-tours.com/pictures/westman-islands/gallery/westman-1-pc.webp"
+    - "https://www.lilja-tours.com/pictures/westman-islands/gallery/westman-2-pc.webp"
+    - "https://www.lilja-tours.com/pictures/westman-islands/gallery/westman-3-pc.webp"
+    - "https://www.lilja-tours.com/pictures/westman-islands/gallery/westman-4-pc.webp"
+    - "https://www.lilja-tours.com/pictures/westman-islands/gallery/westman-5-pc.webp"
+  url: "https://www.lilja-tours.com/fr/excursions-en-islande/iles-westman/"
+  inLanguage:
+    - "en"
+    - "fr"
+  touristType:
+    "@type": "Audience"
+    name: "Voyageurs de luxe"
+  itinerary:
+    "@type": "ItemList"
+    itemListElement: []
+  offers:
+    "@type": "Offer"
+    price: "250000"
+    priceCurrency: "ISK"
+    availability: "https://schema.org/InStock"
+    url: "https://www.lilja-tours.com/fr/excursions-en-islande/iles-westman/"
+  provider:
+    "@type": "TravelAgency"
+    name: "Lilja Tours"
+    url: "https://www.lilja-tours.com"
+    logo: "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png"
+  departureLocation:
+    "@type": "Place"
+    name: "Reykjavík"
+  duration: "PT12H"
+  maximumAttendeeCapacity: 6
+  availableLanguage:
+    - "@type": "Language"
+      name: "Anglais"
+    - "@type": "Language"
+      name: "Français"
+
+
 form: "https://tally.so/r/wMMK4Y"
 
 

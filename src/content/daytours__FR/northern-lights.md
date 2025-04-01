@@ -45,7 +45,7 @@ bookButtons: [
 ]
 
 # Iti Picture
-itiCoverTitle: "Votre Excursion"
+itiCoverTitle: "Vivez une aventure inoubliable avec Lilja Tours lors d'une excursion privée aux Aurores Boréales en Islande. Accompagné d'un guide expert, explorez les meilleurs sites pour observer ce phénomène lumineux unique."
 itiCoverImgSrcMobile: "/pictures/northern-lights/itinerary/title/northern-lights-mobile.webp"
 itiCoverImgSrcPC: "/pictures/northern-lights/itinerary/title/northern-lights-pc.webp"
 itiCoverImgAlt: "Aurores Boréales vertes"
@@ -67,7 +67,7 @@ itiItems: [
     itiItemPicSrcPC: "/pictures/northern-lights/itinerary/northern-lights-pc.webp",
     itiItemPicAlt: "Excursion Aurores Boréales en Islande - Ciel illuminé de lumière verte",
     itiItemPicTitle: "Chasse aux aurores boréales",
-    itiItemStrings: ["Vivez une aventure inoubliable avec Lilja Tours lors d'une excursion privée aux Aurores Boréales en Islande. Accompagné d'un guide expert, explorez les meilleurs sites pour observer ce phénomène lumineux unique.","Profitez d'un confort optimal avec boissons chaudes et photographie professionnelle pour immortaliser ce moment magique. Votre aventure commence loin des lumières de la ville, où votre guide expert vous emmènera vers les meilleurs endroits pour observer les aurores boréales. Une fois le lieu idéal trouvé, patience et chance détermineront le temps d’attente avant que le ciel ne s’illumine de couleurs éclatantes. Les aurores boréales sont un phénomène imprévisible, directement lié à l’activité solaire, rendant chaque observation unique et magique."]
+    itiItemStrings: ["Partez pour une excursion privée à la découverte des aurores boréales en Islande et assistez à l’un des spectacles les plus fascinants de la nature. Votre aventure commence loin des lumières de la ville, où votre guide expert vous emmènera vers les meilleurs endroits pour observer les aurores boréales. Une fois le lieu idéal trouvé, patience et chance détermineront le temps d’attente avant que le ciel ne s’illumine de couleurs éclatantes. Les aurores boréales sont un phénomène imprévisible, directement lié à l’activité solaire, rendant chaque observation unique et magique.","En attendant l’apparition des aurores, vous serez émerveillé par la beauté du ciel nocturne islandais, totalement exempt de pollution lumineuse. Des millions d’étoiles scintillent au-dessus de vous, créant une atmosphère inoubliable. Que les aurores dansent sous vos yeux ou restent insaisissables, cette immersion dans la nature intacte de l’Islande est une aventure en soi. Ne manquez pas cette expérience unique pour chasser les aurores en tout confort et avec style !"]
     }
     ]
 
@@ -240,7 +240,7 @@ jsonLd:
       name: "Français"
     - "@type": "Language"
       name: "Anglais"
-  temporalCoverage: "2024-09-01/2025-03-31"
+
 
 
 
