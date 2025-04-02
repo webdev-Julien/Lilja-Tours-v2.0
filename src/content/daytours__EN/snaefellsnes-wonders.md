@@ -57,7 +57,7 @@ itiCoverImgTitle: "Snæfellsnes peninsula itinerary"
 linkFr: "/fr/excursions-en-islande/peninsule-de-snaefellsnes-avec-guide-francophone"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753699"
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753700"
-fulllinkFr: "https://www.lilja-tours.com//fr/excursions-en-islande/peninsule-de-snaefellsnes-avec-guide-francophone"
+fulllinkFr: "https://www.lilja-tours.com/fr/excursions-en-islande/peninsule-de-snaefellsnes-avec-guide-francophone"
 
 
 # Itinerary
