@@ -22,7 +22,7 @@ difficulty: "No difficulty"
 
 
 # H1
-tourTitle: "Luxury Private Tour of Reykjanes Peninsula - Volcanic and Geothermal Wonders"
+tourTitle: "Private Tour of Reykjanes Peninsula - Volcanic and Geothermal Wonders"
 
 
 # Header Picture
@@ -53,10 +53,10 @@ itiCoverImgTitle: "Stampar"
 
 
 # Links
-linkFr: "/fr/excursions-en-islande/excursion-privee-peninsule-de-reykjanes"
+linkFr: "/fr/guide-francophone-islande/excursion-privee-peninsule-de-reykjanes"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/796567"
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/796870"
-fulllinkFr: "https://www.lilja-tours.com/fr/excursions-en-islande/excursion-privee-peninsule-de-reykjanes"
+fulllinkFr: "https://www.lilja-tours.com/fr/guide-francophone-islande/excursion-privee-peninsule-de-reykjanes"
 
 
 # Itinerary
@@ -100,6 +100,7 @@ itiItems: [
     ]
 
 cta: "explore volcanic wonders!"
+cta2: "For another short, 6 hour tour, check out our <a href=\"/day-tours-iceland/private-tour-golden-circle-essentials-iceland/\" title= \"See our Golden Circle Tour\">Private Golden Circle Tour</a>. If you a tour in another volcanic area, have a look at our <a href=\"/day-tours-iceland/private-tour-snaefellsnes-peninsula-iceland/\" title= \"See our Snaefellsnes Tour\">Private Tour to Snaefellsnes Peninsula</a>."
 
 # Tour infos
 
@@ -240,7 +241,7 @@ jsonLd:
     - "https://www.lilja-tours.com/pictures/reykjanes-colors/gallery/reykjanes-2-pc.webp"
     - "https://www.lilja-tours.com/pictures/reykjanes-colors/gallery/seltun-1-pc.webp"
     - "https://www.lilja-tours.com/pictures/reykjanes-colors/gallery/stampar-1-pc.webp"
-  url: "https://www.lilja-tours.com/private-day-tours-iceland/private-tour-reykjanes-peninsula-iceland/"
+  url: "https://www.lilja-tours.com/day-tours-iceland/private-tour-reykjanes-peninsula-iceland/"
   inLanguage:
     - "en"
     - "fr"
@@ -255,7 +256,7 @@ jsonLd:
     price: "159000"
     priceCurrency: "ISK"
     availability: "https://schema.org/InStock"
-    url: "https://www.lilja-tours.com/private-day-tours-iceland/private-tour-reykjanes-peninsula-iceland/"
+    url: "https://www.lilja-tours.com/day-tours-iceland/private-tour-reykjanes-peninsula-iceland/"
   provider:
     "@type": "TravelAgency"
     name: "Lilja Tours"

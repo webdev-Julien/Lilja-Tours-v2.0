@@ -49,10 +49,10 @@ itiCoverImgTitle: "Landmannalaugar"
 
 
 # Links
-linkFr: "/private-day-tours-iceland/private-hiking-tour-to-the-landmannalaugar"
+linkFr: "/day-tours-iceland/private-hiking-tour-to-the-landmannalaugar"
 bookVan: ""
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/751054"
-fulllinkFr: "https://www.lilja-tours.com/private-day-tours-iceland/private-hiking-tour-to-the-landmannalaugar"
+fulllinkFr: "https://www.lilja-tours.com/day-tours-iceland/private-hiking-tour-to-the-landmannalaugar"
 
 
 # Itinerary
@@ -90,7 +90,7 @@ itiItems: [
     ]
 
 cta: "découvrez les merveilles des hautes terres islandaises !"
-cta2: ""
+cta2: "Découvrez d'autres incontournables des hautes-terres islandaises: <a href=\"/fr/guide-francophone-islande/randonnee-avec-guide-francophone-thorsmork-islande/\" title= \"Excursion à Þórsmörk\">Excursion privée à Þórsmörk</a>, ou <a href=\"/fr/guide-francophone-islande/excursion-avec-guide-francophone-a-kerlingarfjoll/\" title= \"Excursion à Kerlingarfjöll\">Excursion Privée de Randonnée à Kerlingarfjöll</a>."
 
 
 # Tour infos
@@ -223,7 +223,7 @@ jsonLD: {
     "https://www.lilja-tours.com/pictures/landmannalaugar/gallery/landmannalaugar-4-pc.webp",
     "https://www.lilja-tours.com/pictures/landmannalaugar/gallery/landmannalaugar-5-pc.webp"
   ],
-  "url": "https://www.lilja-tours.com/fr/excursions-en-islande/excursion-guidee-landmannalaugar/",
+  "url": "https://www.lilja-tours.com/fr/guide-francophone-islande/excursion-guidee-landmannalaugar-islande/",
   "inLanguage": [
     "fr",
     "en"
@@ -241,7 +241,7 @@ jsonLD: {
     "price": "250000",
     "priceCurrency": "ISK",
     "availability": "https://schema.org/InStock",
-    "url": "https://www.lilja-tours.com/fr/excursions-en-islande/excursion-guidee-landmannalaugar/"
+    "url": "https://www.lilja-tours.com/fr/guide-francophone-islande/excursion-guidee-landmannalaugar-islande/"
   },
   "provider": {
     "@type": "TravelAgency",
@@ -272,6 +272,6 @@ form: "https://tally.so/r/w7p12R"
 
 
 
-slug: excursion-guidee-landmannalaugar-iceland
+slug: excursion-guidee-landmannalaugar-islande
 
 ---

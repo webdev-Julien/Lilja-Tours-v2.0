@@ -13,8 +13,8 @@ pageCover:
     title: "Book the Whale of Iceland Exhibition in Reykjavík",
   }
 
-title1: "Whales of Iceland – Exhibition"
-title2: "A interactive exhibition with real size whales replicas"
+title1: "Whales of Iceland Exhibition - Life-Size Whale Replicas"
+title2: "Interactive Whale Exhibition - Real-Size Replicas in Reykjavík"
 
 tag: ["Cultural Experience"]
 
@@ -24,8 +24,8 @@ linkFr: "/fr/a-faire-en-islande/musee-baleines-reykjavik/"
 hrefLang: "https://www.lilja-tours.com/fr/a-faire-en-islande/musee-baleines-reykjavik/"
 
 url: ""
-pageTitle: "Whale Of Iceland in Reykjavík "
-metaDescription: ""
+pageTitle: "Whales of Iceland Exhibition | Life-Size Whale Museum in Reykjavík"
+metaDescription: "Visit the Whales of Iceland Exhibition in Reykjavík. See 23 life-size whale replicas, interactive exhibits, and award-winning documentaries. Perfect for wildlife enthusiasts!"
 
 filter: "reykjavik"
 filter2: "culture"

@@ -23,7 +23,7 @@ difficulty: "No difficulty"
 
 
 # H1
-tourTitle: "Private Golden Circle Tour - Farm to Table"
+tourTitle: "Private Golden Circle Tour - Farm to Table Experience"
 
 
 # Header Picture
@@ -46,7 +46,7 @@ bookButtons: [
 ]
 
 # Iti Picture
-itiCoverTitle: "Join Lilja Tours for a luxury private Golden Circle culinary experience. Explore the iconic sites of Þingvellir National Park, Strokkur, Geysir and Gullfoss while enjoying some delicacies during farm-to-tables experiences."
+itiCoverTitle: "Join Lilja Tours for a luxury private Golden Circle Tour and culinary experience. Explore the iconic sites of Þingvellir National Park, Strokkur, Geysir and Gullfoss while enjoying some delicacies during farm-to-tables experiences."
 itiCoverImgSrcMobile: "/pictures/golden-circle-farm-visits/itinerary/title/Gullfoss-watefall-mobile.webp"
 itiCoverImgSrcPC: "/pictures/golden-circle-farm-visits/itinerary/title/Gullfoss-watefall-pc.webp"
 itiCoverImgAlt: "Gullfoss waterfall - Culinary Golden Circle private tour"
@@ -54,10 +54,10 @@ itiCoverImgTitle: "Gullfoss"
 
 
 # Links
-linkFr: "/fr/excursions-en-islande/excursion-privee-cercle-d-or-experience-culinaire"
+linkFr: "/fr/guide-francophone-islande/excursion-privee-cercle-d-or-experience-culinaire"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753715"
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753717"
-fulllinkFr: "https://www.lilja-tours.com/fr/excursions-en-islande/excursion-privee-cercle-d-or-experience-culinaire"
+fulllinkFr: "https://www.lilja-tours.com/fr/guide-francophone-islande/excursion-privee-cercle-d-or-experience-culinaire"
 
 
 # Itinerary
@@ -127,6 +127,7 @@ itiItems: [
     }]
 
 cta: "savor Icelandic delicacies!"
+cta2: "To focus on the essentials of the Golden Circle, have a look at our <a href=\"/day-tours-iceland/private-tour-golden-circle-essentials-iceland/\" title= \"See the Golden Circle Essentials Tour\">Private Golden Circle Tour - Essentials</a> and for a bit of adventure, check out the <a href=\"/day-tours-iceland/private-golden-circle-tour-and-silfra-snorkel/\" title= \"Golden Circle and Silfra Tour\">Private Golden Circle Tour & Silfra Snorkeling</a>!"
 
 # Tour infos
 
@@ -266,7 +267,7 @@ jsonLd:
     - "https://www.lilja-tours.com/pictures/golden-circle-farm-visits/gallery/gullfoss-2-pc.webp"
     - "https://www.lilja-tours.com/pictures/golden-circle-farm-visits/gallery/fridheimar-2-pc.webp"
     - "https://www.lilja-tours.com/pictures/golden-circle-farm-visits/gallery/oxararfoss-1-pc.webp"
-  url: "https://www.lilja-tours.com/private-day-tours-iceland/private-golden-circle-tour-iceland/"
+  url: "https://www.lilja-tours.com/day-tours-iceland/private-golden-circle-tour-iceland/"
   inLanguage:
     - "en"
     - "fr"
@@ -281,7 +282,7 @@ jsonLd:
     price: "179000"
     priceCurrency: "ISK"
     availability: "https://schema.org/InStock"
-    url: "https://www.lilja-tours.com/private-day-tours-iceland/private-golden-circle-tour-iceland/"
+    url: "https://www.lilja-tours.com/day-tours-iceland/private-golden-circle-tour-iceland/"
   provider:
     "@type": "TravelAgency"
     name: "Lilja Tours"

@@ -13,8 +13,8 @@ pageCover:
     title: "Book a 3 hours ATV ride next to Reykjavík",
   }
 
-title1: "ATV ride next to Reykjavík - 3 Hours"
-title2: "Volcanic Springs ATV Tour"
+title1: "3-Hour ATV Ride Near Reykjavík | Volcanic Springs Adventure"
+title2: "Volcanic Springs ATV Ride | 3-Hour Adventure Near Reykjavík"
 
 tag: ["Adventure tour"]
 
@@ -24,16 +24,16 @@ linkFr: "/fr/a-faire-en-islande/excursion-quad-3-hours-reykjavik/"
 hrefLang: "https://www.lilja-tours.com/fr/a-faire-en-islande/excursion-quad-3-hours-reykjavik/"
 
 url: ""
-pageTitle: "Atv ride - 3 hours tour"
-metaDescription: ""
+pageTitle: "3-Hour ATV Ride Near Reykjavík | Volcanic Springs Adventure Tour"
+metaDescription: "Experience a 3-hour ATV ride near Reykjavík on the Volcanic Springs Adventure. Ride through lava fields, explore geothermal areas, and enjoy views of Hengill, Eyjafjallajökull, and more. Book your Icelandic adventure!"
 
 filter: "reykjavik"
 filter2: "adv"
 
-slug: atv-ride-3-hours-tour
+slug: atv-ride-iceland-3-hours-tour
 ---
 
-**Just 15 Minutes from Reykjavík | Pickup at 13:00 | Available Tue–Sat, May 15 – Nov 15**
+**3-Hour ATV ride just 15 Minutes from Reykjavík | Pickup at 13:00 | Available Tue–Sat, May 15 – Nov 15**
 
 ## **Discover Iceland’s Untamed Beauty on an Epic 3-Hour ATV Adventure**
 

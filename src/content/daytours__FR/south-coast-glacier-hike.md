@@ -53,10 +53,10 @@ itiCoverImgTitle: "Private Glacier Hike and South Coast Tour: Sólheimajökull"
 
 
 # Links
-linkFr: "/private-day-tours-iceland/private-tour-south-coast-glacier-hike"
+linkFr: "/day-tours-iceland/private-tour-south-coast-glacier-hike"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753723"
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753724"
-fulllinkFr: "https://www.lilja-tours.com/private-day-tours-iceland/private-tour-south-coast-glacier-hike"
+fulllinkFr: "https://www.lilja-tours.com/day-tours-iceland/private-tour-south-coast-glacier-hike"
 
 
 # Itinerary
@@ -203,6 +203,7 @@ title: "Côte sud et randonnée sur glacier: Sólheimajökull"
 }]
 
 cta: "profitez d'une journée exceptionnelle entre aventure et découvertes"
+cta2: "Recherchez-vous plutôt une <a href=\"/fr/guide-francophone-islande/excursion-privee-cote-sud-islandaise-guide-francophone/\" title= \"Voir notre tour sur la cotre sud islandaise\">excursion sur la côte sud islandaise</a> Sans la randonnée sur glacier? Ou l'<a href=\"/fr/guide-francophone-islande/randonnee-guidee-sur-glacier-avec-guide-francophone/\" title= \"Notre excursion rando glaciaire en islande\">excursion sur glacier en islande</a> seule?"
 
 # Card
 
@@ -250,7 +251,7 @@ jsonLd:
     - "https://www.lilja-tours.com/pictures/south-coast-glacier-hike/gallery/skogafoss-3-pc.webp"
     - "https://www.lilja-tours.com/pictures/south-coast-glacier-hike/gallery/seljalandsfoss-pc.webp"
     - "https://www.lilja-tours.com/pictures/south-coast-glacier-hike/gallery/skogafoss-2-pc.webp"
-  url: "https://www.lilja-tours.com/fr/excursions-en-islande/excursion-privee-cote-sud-randonnee-sur-glacier-en-islande/"
+  url: "https://www.lilja-tours.com/fr/guide-francophone-islande/excursion-privee-cote-sud-randonnee-sur-glacier-en-islande/"
   inLanguage:
     - "en"
     - "fr"
@@ -265,7 +266,7 @@ jsonLd:
     price: "249000"
     priceCurrency: "ISK"
     availability: "https://schema.org/InStock"
-    url: "https://www.lilja-tours.com/fr/excursions-en-islande/excursion-privee-cote-sud-randonnee-sur-glacier-en-islande/"
+    url: "https://www.lilja-tours.com/fr/guide-francophone-islande/excursion-privee-cote-sud-randonnee-sur-glacier-en-islande/"
   provider:
     "@type": "TravelAgency"
     name: "Lilja Tours"

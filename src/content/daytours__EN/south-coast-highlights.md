@@ -53,10 +53,10 @@ itiCoverImgTitle: "South Coast Highlights private tour"
 
 
 # Links
-linkFr: "/fr/excursions-en-islande/excursion-privee-cote-sud-islandaise-guide-francophone"
+linkFr: "/fr/guide-francophone-islande/excursion-privee-cote-sud-islandaise-guide-francophone"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753704"
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753708"
-fulllinkFr: "https://www.lilja-tours.com/fr/excursions-en-islande/excursion-privee-cote-sud-islandaise-guide-francophone"
+fulllinkFr: "https://www.lilja-tours.com/fr/guide-francophone-islande/excursion-privee-cote-sud-islandaise-guide-francophone"
 
 
 # Itinerary
@@ -201,6 +201,7 @@ title: "South Coast Highlights: Sólheimajökull"
 }]
 
 cta: "explore with Lilja Tours"
+cta2: "If you have 3 days in total and want to discover all the best of Iceland, combine your South Coast Tour with these two other day-tours: <a href=\"/day-tours-iceland/private-golden-circle-tour-iceland/\" title= \"See our golden circle tour\">Private Golden Circle Tour</a> and <a href=\"/day-tours-iceland/private-tour-snaefellsnes-peninsula-iceland/\" title= \"See our Snæfellsnes Peninsula Tour\">Snæfellsnes Peninsula Private Tour</a>."
 # Card
 
 tags: ["south-coast","sightseeing"]
@@ -247,7 +248,7 @@ jsonLd:
     - "https://www.lilja-tours.com/pictures/south-coast-highlights/gallery/skogafoss-1-pc.webp"
     - "https://www.lilja-tours.com/pictures/south-coast-highlights/gallery/solheimajokull-1-pc.webp"
     - "https://www.lilja-tours.com/pictures/south-coast-highlights/gallery/seljalandsfoss-3-pc.webp"
-  url: "https://www.lilja-tours.com/private-day-tours-iceland/private-south-coast-tour-iceland/"
+  url: "https://www.lilja-tours.com/day-tours-iceland/private-south-coast-tour-iceland/"
   inLanguage:
     - "en"
     - "fr"
@@ -262,7 +263,7 @@ jsonLd:
     price: "179000"
     priceCurrency: "ISK"
     availability: "https://schema.org/InStock"
-    url: "https://www.lilja-tours.com/private-day-tours-iceland/private-south-coast-tour-iceland/"
+    url: "https://www.lilja-tours.com/day-tours-iceland/private-south-coast-tour-iceland/"
   provider:
     "@type": "TravelAgency"
     name: "Lilja Tours"

@@ -53,10 +53,10 @@ itiCoverImgTitle: "Randonner à Glymur"
 
 
 # Links
-linkFr: "/private-day-tours-iceland/private-hiking-tour-glymur"
+linkFr: "/day-tours-iceland/private-hiking-tour-glymur"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/740991"
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/971123"
-fulllinkFr: "https://www.lilja-tours.com/private-day-tours-iceland/private-hiking-tour-glymur"
+fulllinkFr: "https://www.lilja-tours.com/day-tours-iceland/private-hiking-tour-glymur"
 
 
 # Itinerary
@@ -75,6 +75,7 @@ itiItems: [
     ]
 
 cta: "découvrez la majestueuse cascade !"
+cta2: "Découvrez notre sélection de <a href=\"/fr/guide-francophone-islande/randonnee/\" title= \"Voir nos excursions de randonnée\">randonnées guidées</a>? Regardez la <a href=\"/fr/guide-francophone-islande/randonnee-guidee-sur-glacier-avec-guide-francophone/\" title= \"Voir la randonnée sur glacier\">Excursion privée de randonnée sur glacier à Sólheimajökull</a> ou l' <a href=\"/fr/guide-francophone-islande/excursion-guidee-landmannalaugar-islande/\" title= \"Voir la randonnée au Landmannalaugar\">Excursion Privée au Landmannalaugar</a>."
 
 
 # Tour infos
@@ -219,7 +220,7 @@ jsonLd:
     - "https://www.lilja-tours.com/pictures/glymur/gallery/glymur-3-pc.webp"
     - "https://www.lilja-tours.com/pictures/glymur/gallery/glymur-2-pc.webp"
     - "https://www.lilja-tours.com/pictures/glymur/gallery/glymur-1-pc.webp"
-  url: "https://www.lilja-tours.com/fr/excursions-en-islande/randonnee-privee-cascade-glymur/"
+  url: "https://www.lilja-tours.com/fr/guide-francophone-islande/randonnee-privee-cascade-glymur/"
   inLanguage:
     - "fr"
     - "en"
@@ -234,7 +235,7 @@ jsonLd:
     price: "159000"
     priceCurrency: "ISK"
     availability: "https://schema.org/InStock"
-    url: "https://www.lilja-tours.com/fr/excursions-en-islande/randonnee-privee-cascade-glymur/"
+    url: "https://www.lilja-tours.com/fr/guide-francophone-islande/randonnee-privee-cascade-glymur/"
   provider:
     "@type": "TravelAgency"
     name: "Lilja Tours"

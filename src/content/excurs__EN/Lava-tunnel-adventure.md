@@ -13,8 +13,8 @@ pageCover:
     title: "Book an adventure inside of a lava tunnel",
   }
 
-title1: "Lava Falls Adventure Tour"
-title2: "Explore Iceland’s Hidden Underground Marvel"
+title1: "Lava Tunnel Adventure Tour | Explore an authentic Lava Tube"
+title2: "Discover Raufarhólshellir | Iceland's Epic Lava Falls Adventure"
 
 tag: ["Adventure tour"]
 
@@ -24,8 +24,8 @@ linkFr: "/fr/a-faire-en-islande/exploration-en-profondeur-d-un-tunnel-de-lave/"
 hrefLang: "https://www.lilja-tours.com/fr/a-faire-en-islande/exploration-en-profondeur-d-un-tunnel-de-lave/"
 
 url: ""
-pageTitle: "The Lava Tunnel in Iceland - Adventure tour"
-metaDescription: ""
+pageTitle: "Lava Tunnel Adventure Tour | Explore Raufarhólshellir in Iceland"
+metaDescription: "Join the Lava Falls Adventure Tour and explore Raufarhólshellir, one of Iceland’s longest lava tunnels. Traverse rugged terrain, see rare lava falls, and experience true underground exploration. Book now!"
 
 filter: "reykjavik"
 filter2: "adv"
@@ -33,7 +33,7 @@ filter2: "adv"
 slug: the-lava-tunnel-adventure-tour
 ---
 
-**3–4 Hour Guided Caving Experience | Small Groups | For Adventurous Souls Only**
+**The Lava Tunnel Adventure Tour is a 3–4 Hour Guided Caving Experience | Small Groups | For Adventurous Souls Only**
 
 ## **Go Deeper Into Iceland’s Lava Tunnels**
 

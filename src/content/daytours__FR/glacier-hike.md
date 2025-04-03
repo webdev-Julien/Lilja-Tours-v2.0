@@ -49,10 +49,10 @@ itiCoverImgTitle: "Rando glaciaire"
 
 
 # Links
-linkFr: "/private-day-tours-iceland/private-glacier-hike-in-iceland"
+linkFr: "/day-tours-iceland/private-glacier-hike-in-iceland"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/740991"
 bookJeep: "#"
-fulllinkFr: "https://www.lilja-tours.com/private-day-tours-iceland/private-glacier-hike-in-iceland"
+fulllinkFr: "https://www.lilja-tours.com/day-tours-iceland/private-glacier-hike-in-iceland"
 
 
 # Itinerary
@@ -67,15 +67,11 @@ itiItems: [
     "Une fois équipé, vous entamerez une marche de 15 à 20 minutes pour rejoindre le majestueux glacier Sólheimajökull. Avant de vous aventurer sur la glace, votre guide vous donnera des instructions de sécurité essentielles et vous expliquera comment utiliser correctement les crampons pour évoluer en toute sécurité.",
     "Tout est prêt, il est temps de commencer votre exploration du glacier ! Vous passerez environ une heure sur la glace, découvrant des formations spectaculaires et des crevasses fascinantes. Comme il s’agit d’une excursion privée, votre guide vous éloignera des zones les plus fréquentées pour que vous puissiez profiter pleinement du glacier, comme si vous l’aviez rien que pour vous."
 ]
-
-
-
-
-
     }
     ]
 
-
+cta: "partez à l'aventure!"
+cta2: "A la recherche d'autres <a href=\"/fr/guide-francophone-islande/randonnee/\" title= \"Voir nos excursions de randonnée\">randonnées avec guide francophone</a>? Jetez un oeil à notre <a href=\"/fr/guide-francophone-islande/randonnee-guidee-glymur-islande/\" title= \"Voir l'excursion vers Glymur\">Excursion privée de randonnée à Glymur</a> ou notre <a href=\"/fr/guide-francophone-islande/excursion-avec-guide-francophone-a-kerlingarfjoll/\" title= \"Voir notre excursion à Kerlingarfjöll\">Excursion Privée de Randonnée à Kerlingarfjöll</a>"
 # Tour infos
 
 goodToKnow: [
@@ -206,7 +202,7 @@ jsonLd:
     - "https://www.lilja-tours.com/pictures/glacier-hike/glacier-hike-3-pc.webp"
     - "https://www.lilja-tours.com/pictures/glacier-hike/glacier-hike-4-pc.webp"
     - "https://www.lilja-tours.com/pictures/glacier-hike/glacier-hike-5-pc.webp"
-  url: "https://www.lilja-tours.com/fr/excursions-en-islande/randonnee-guidee-sur-glacier-avec-guide-francophone/"
+  url: "https://www.lilja-tours.com/fr/guide-francophone-islande/randonnee-guidee-sur-glacier-avec-guide-francophone/"
   inLanguage:
     - "fr"
     - "en"
@@ -221,7 +217,7 @@ jsonLd:
     price: "139000"
     priceCurrency: "ISK"
     availability: "https://schema.org/InStock"
-    url: "https://www.lilja-tours.com/fr/excursions-en-islande/randonnee-guidee-sur-glacier-avec-guide-francophone/"
+    url: "https://www.lilja-tours.com/fr/guide-francophone-islande/randonnee-guidee-sur-glacier-avec-guide-francophone/"
   provider:
     "@type": "TravelAgency"
     name: "Lilja Tours"

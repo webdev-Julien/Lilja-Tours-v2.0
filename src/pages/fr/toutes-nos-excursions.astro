@@ -42,7 +42,7 @@ const {linkFr} = Astro.props
         <meta property="og:image:height" content="630">
         <meta property="og:logo" content="https://www.lilja-tours/logos/Lilja-Tours-Full-Logo.png" />
 
-        <title>Private tours in Iceland | day tours </title>
+        <title>L'Islande avec un guide francophone et privé | excursion à la journée </title>
 
         <slot name="jsonld"></slot>
 
@@ -64,7 +64,7 @@ const {linkFr} = Astro.props
         {
           "@type": "TouristTrip",
           "name": "Randonnée à Glymur",
-          "url": "https://www.lilja-tours.com/fr/excursions-en-islande/randonnee-guidee-glymur-islande/",
+          "url": "https://www.lilja-tours.com/fr/guide-francophone-islande/randonnee-guidee-glymur-islande/",
           "description": "Une randonnée privée de 5 à 6 heures jusqu'à Glymur, la deuxième plus haute chute d'eau d'Islande, offrant des vues à couper le souffle et un défi de randonnée modéré.",
           "image": "https://www.lilja-tours.com/pictures/glymur/headers/glymur-pc.webp",
           "inLanguage": ["en", "fr"],
@@ -95,7 +95,7 @@ const {linkFr} = Astro.props
         {
           "@type": "TouristTrip",
           "name": "Randonnée sur Glacier",
-          "url": "https://www.lilja-tours.com/fr/excursions-en-islande/marche-sur-glacier-en-islande/",
+          "url": "https://www.lilja-tours.com/fr/guide-francophone-islande/marche-sur-glacier-en-islande/",
           "description": "Participez à une randonnée privée de 3 à 4 heures sur un glacier de la côte sud de l’Islande, idéale pour les amateurs de sensations fortes et de paysages naturels.",
           "image": "https://www.lilja-tours.com/pictures/glacier-hike/headers/glacier-hike-pc.webp",
           "inLanguage": ["en", "fr"],
@@ -126,7 +126,7 @@ const {linkFr} = Astro.props
         {
           "@type": "TouristTrip",
           "name": "Cercle d'Or Essentiel",
-          "url": "https://www.lilja-tours.com/fr/excursions-en-islande/cercle-d-or-essentiels/",
+          "url": "https://www.lilja-tours.com/fr/guide-francophone-islande/cercle-d-or-essentiels/",
           "description": "Une excursion privée de 6 heures à travers les sites emblématiques du Cercle d'Or : le parc national de Þingvellir, la zone géothermique de Geysir et la cascade de Gullfoss.",
           "image": "https://www.lilja-tours.com/pictures/golden-circle-essentials/headers/oxararfoss-pc.webp",
           "inLanguage": ["en", "fr"],
@@ -157,7 +157,7 @@ const {linkFr} = Astro.props
         {
           "@type": "TouristTrip",
           "name": "Puissance de Kerlingarfjöll",
-          "url": "https://www.lilja-tours.com/fr/excursions-en-islande/randonnee-a-kerlingarfjoll/",
+          "url": "https://www.lilja-tours.com/fr/guide-francophone-islande/randonnee-a-kerlingarfjoll/",
           "description": "Une excursion privée de 12 heures vers la zone géothermique de Kerlingarfjöll, mettant en valeur des montagnes rhyolitiques colorées et des sources chaudes.",
           "image": "https://www.lilja-tours.com/pictures/kerlingarfjoll/headers/kerlingarfjoll-pc.webp",
           "inLanguage": ["en", "fr"],
@@ -188,7 +188,7 @@ const {linkFr} = Astro.props
         {
           "@type": "TouristTrip",
           "name": "Magie des Aurores Islandaises",
-          "url": "https://www.lilja-tours.com/fr/excursions-en-islande/sortie-privee-aurores-boreales-islande/",
+          "url": "https://www.lilja-tours.com/fr/guide-francophone-islande/sortie-privee-aurores-boreales-islande/",
           "description": "Une excursion privée de 4 à 5 heures à la recherche des aurores boréales, pour une expérience personnalisée face à ce phénomène naturel spectaculaire.",
           "image": "https://www.lilja-tours.com/pictures/northern-lights/headers/aurora-borealis-pc.webp",
           "inLanguage": ["en", "fr"],
@@ -230,8 +230,9 @@ const {linkFr} = Astro.props
             <PicHeader srcMobile="/pictures/list-all-tours/all-private-day-tours-in-iceland-mobile.webp" srcPC="/pictures/list-all-tours/all-private-day-tours-in-iceland-pc.webp" alt="Picture of stunning waterfalls in desertic landscapes" title="All of our day tours in Iceland"></PicHeader></div>
             <div class="headerGradient"></div>
             <div class="headerInfos">
-                <h1>Excursions exclusives en Islande avec guide privé</h1>
+                <h1>Excursions en Islande avec guide francophone & privé</h1>
                 <h2>Explorez l'Islande avec style et confort</h2>
+                <p class="headerP">Chez Lilja Tours, nous sommes spécialisés dans l'organisation de circuits privés et luxueux en Islande avec un guide francophone et privé, offrant aux voyageurs exigeants des excursions sur mesure qui mettent en valeur les paysages époustouflants et les trésors culturels de l'île. Nos expériences exclusives sont conçues pour répondre à vos envies uniques, garantissant ainsi un voyage personnalisé et inoubliable.</p>
 
                          <TagBarFR/>
 
@@ -282,142 +283,160 @@ const {linkFr} = Astro.props
 
 <style>
 
-.firstText {
-        width: calc(100% - 4rem);
-        margin: 2rem auto;
-        padding: 2rem;
-        background-color: rgba(255, 255, 255, 0.25);
-        border-radius: 1rem;
+    
+  .headerP {
+          width: 50%;
+          margin-inline: auto;
+      }
+  
+      .firstText {
+          width: calc(100% - 4rem);
+          margin: 2rem auto;
+          padding: 2rem;
+          background-color: rgba(255, 255, 255, 0.25);
+          border-radius: 1rem;
+  
+          p {
+              width: 100%;
+          }
+  
+          a, a:visited, a:focus {
+              color: white;
+          }
+      }
+  
+      main h2 {
+          margin-bottom: 3rem;
+          width: 100%;
+          text-align: center;
+          margin-inline: auto;
+          font-style: normal;
+      }
+  
+      h2:not(:first-child) {
+          margin-block: 5rem;
+      }
+  
+     main {
+      width: 90%;
+      margin-inline: auto;
+      padding: 5rem 0;
+     }
+  
+  .wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: center;
+  
+  }
+    .header {
+              min-height: 100dvh;
+              width: 100%;
+          }
+  
+          .headerContainerPic {
+              width: 100%;
+              min-height: calc(100dvh - 3.5rem);
+              max-height: calc(100dvh - 3.5rem);
+              position: relative;
+          }
+  
+          .headerGradient {
+              width: 100%;
+              min-height: calc(100dvh - 3.5rem);
+              max-height: calc(100dvh - 3.5rem);
+              position: absolute;
+              top: 3.5rem;
+              background: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(255, 255, 255, 0.00) 99.06%);
+          }
+  
+          .headerInfos {
+              position: absolute;
+              inset: 3.5rem 0 0 0;
+              display: flex;
+              height:  calc(100dvh - 3.5rem);
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              align-content: center;
+              gap: 5rem;
+  
+          }
+  
+          h1 {
+          color: #FFF;
+          text-align: center;
+          font-size: clamp(2rem, calc(5vw + 1rem), 4rem );
+          font-weight: lighter;
+          min-width: min-content;
+          max-width: max-content;
+          text-wrap: balance;
+          animation-name: Title;
+          animation-duration: 2s;
+          animation-fill-mode: forwards;
+          opacity: 0;
+      }
+  
+      h2 {
+          color: #FFF;
+          text-align: center;
+          font-size: clamp(1.5rem, calc(5vw + 1rem), 2.5rem );
+          font-weight: lighter;
+          min-width: min-content;
+          max-width: max-content;
+          text-wrap: balance;
+          animation-name: Title;
+          animation-duration: 2s;
+          animation-delay: 1s;
+          animation-fill-mode: forwards;
+          opacity: 0;
+          font-style: italic;
+      }
+  
+  @keyframes Title {
+      from {opacity: 0}
+      to {opacity: 1}
+  }
+  
+  @media screen and (max-width: 800px) {
+      main h2 {
+          font-size: clamp(1rem, calc(1vw + 1rem), 2rem );
+      }
+  
+      main p {
+          font-size: 1rem;
+      }
+  
+      main {
+          padding-block: 2rem;
+      }
+  
+      .headerInfos {
+          gap: 1rem;
+      }
+  
+      header h2 {
+          margin-block: 0;
+      }
+  
+      .wrapper {
+          width: 95%;
+          margin-inline: auto;
+      }
+  
+      .firstText {
+          width: 95%;
+      }
+  
+      .headerP {
+          width: 75%;
+          margin: 0 auto;
+          
+      }
 
-        p {
-            width: 100%;
-        }
-    }
-
-    main h2 {
-        margin-bottom: 3rem;
-        width: 100%;
-        text-align: center;
-        margin-inline: auto;
-        font-style: normal;
-    }
-
-    h2:not(:first-child) {
-        margin-block: 5rem;
-    }
-
-   main {
-    width: 90%;
-    margin-inline: auto;
-    padding: 5rem 0;
-   }
-
-.wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
-
-}
-  .header {
-            min-height: 100dvh;
-            width: 100%;
-        }
-
-        .headerContainerPic {
-            width: 100%;
-            min-height: calc(100dvh - 3.5rem);
-            max-height: calc(100dvh - 3.5rem);
-            position: relative;
-        }
-
-        .headerGradient {
-            width: 100%;
-            min-height: calc(100dvh - 3.5rem);
-            max-height: calc(100dvh - 3.5rem);
-            position: absolute;
-            top: 3.5rem;
-            background: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(255, 255, 255, 0.00) 99.06%);
-        }
-
-        .headerInfos {
-            position: absolute;
-            inset: 3.5rem 0 0 0;
-            display: flex;
-            height:  calc(100dvh - 3.5rem);
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            align-content: center;
-            gap: 5rem;
-
-        }
-
-        h1 {
-        color: #FFF;
-        text-align: center;
-        font-size: clamp(2rem, calc(5vw + 1rem), 4rem );
-        font-weight: lighter;
-        min-width: min-content;
-        max-width: max-content;
-        text-wrap: balance;
-        animation-name: Title;
-        animation-duration: 2s;
-        animation-fill-mode: forwards;
-        opacity: 0;
-    }
-
-    h2 {
-        color: #FFF;
-        text-align: center;
-        font-size: clamp(1.5rem, calc(5vw + 1rem), 2.5rem );
-        font-weight: lighter;
-        min-width: min-content;
-        max-width: max-content;
-        text-wrap: balance;
-        animation-name: Title;
-        animation-duration: 2s;
-        animation-delay: 1s;
-        animation-fill-mode: forwards;
-        opacity: 0;
-        font-style: italic;
-    }
-
-@keyframes Title {
-    from {opacity: 0}
-    to {opacity: 1}
-}
-
-@media screen and (max-width: 800px) {
-    main h2 {
-        font-size: clamp(1rem, calc(1vw + 1rem), 2rem );
-    }
-
-    main p {
-        font-size: 1rem;
-    }
-
-    main {
-        padding-block: 2rem;
-    }
-
-    .headerInfos {
-        gap: 1rem;
-    }
-
-    header h2 {
-        margin-block: 2rem;
-    }
-
-    .wrapper {
-        width: 95%;
-        margin-inline: auto;
-    }
-
-    .firstText {
-        width: 95%;
-    }
-
-}
-
-</style>
+  
+  
+  }
+  
+  </style>

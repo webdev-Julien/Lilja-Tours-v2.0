@@ -13,8 +13,8 @@ pageCover:
     title: "Book the Aurora Center in Reykjavík",
   }
 
-title1: "Northern Lights Museum"
-title2: "Learn everything about the Aurora Borealis"
+title1: "Northern Lights Museum in Iceland - Aurora Reykjavík"
+title2: "Discover the Aurora Borealis | Explore Iceland’s Northern Lights Museum"
 
 tag: ["Cultural Experience"]
 
@@ -24,20 +24,20 @@ linkFr: "/fr/a-faire-en-islande/le-musee-des-aurores-boreales-reykjavik/"
 hrefLang: "https://www.lilja-tours.com/fr/a-faire-en-islande/le-musee-des-aurores-boreales-reykjavik/"
 
 url: ""
-pageTitle: "The Aurora Center in Reykjavík"
-metaDescription: ""
+pageTitle: "Aurora Reykjavík | Northern Lights Museum and Experience"
+metaDescription: "Visit Aurora Reykjavík, Iceland’s Northern Lights Museum. Explore interactive exhibits, VR experiences, and learn about the Aurora Borealis. A must-see in Reykjavík!"
 
 filter: "reykjavik"
 filter2: "culture"
 
-slug: northern-lights-center-reykjavik
+slug: northern-lights-museum-reykjavik
 ---
 
 ## Discover the Magic of the Northern Lights at Aurora Reykjavík
 
 ### Iceland’s Premier Northern Lights Center in the Heart of Reykjavík
 
-If you're chasing the aurora or simply curious about the science and stories behind it, **Aurora Reykjavík** is a must-visit destination. As Iceland’s only dedicated Northern Lights museum, it offers an unforgettable experience for anyone enchanted by the glow of the Arctic skies.
+If you're chasing the aurora or simply curious about the science and stories behind it, The Northern Lights Museum of Iceland: **Aurora Reykjavík** is a must-visit destination. As Iceland’s only dedicated Northern Lights museum, it offers an unforgettable experience for anyone enchanted by the glow of the Arctic skies.
 
 Located in the vibrant **Grandi Harbour district**, just minutes from downtown, this immersive center blends history, technology, and storytelling to bring the **Northern Lights** to life—no matter the season or weather.
 
@@ -84,5 +84,3 @@ Plans change? No problem. Bookings are **fully refundable** up until the time of
 <script type="text/javascript" src="https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=97236c68-b945-4a96-8587-660bdc4c45fd" async></script>
 
 <div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/10871"></div>
-
-

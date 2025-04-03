@@ -63,7 +63,7 @@ const allTours: CollectionEntry<"daytours__EN">[] = await getCollection("daytour
         {
           "@type": "TouristTrip",
           "name": "Glymur Hike",
-          "url": "https://www.lilja-tours.com/private-day-tours-iceland/private-tour-glymur-hike/",
+          "url": "https://www.lilja-tours.com/day-tours-iceland/private-tour-glymur-hike/",
           "description": "A 5-6 hour private hike to Glymur, Iceland's second-highest waterfall, offering stunning views and a moderate hiking challenge.",
           "image": "https://www.lilja-tours.com/pictures/glymur/headers/glymur-pc.webp",
           "inLanguage": ["en", "fr"],
@@ -93,7 +93,7 @@ const allTours: CollectionEntry<"daytours__EN">[] = await getCollection("daytour
         {
           "@type": "TouristTrip",
           "name": "Glacier Hike",
-          "url": "https://www.lilja-tours.com/private-day-tours-iceland/glacier-hike-iceland/",
+          "url": "https://www.lilja-tours.com/day-tours-iceland/glacier-hike-iceland/",
           "description": "Experience a 3-4 hour private glacier hike on Iceland's South Coast, suitable for those seeking adventure and natural beauty.",
           "image": "https://www.lilja-tours.com/pictures/glacier-hike/headers/glacier-hike-pc.webp",
           "inLanguage": ["en", "fr"],
@@ -123,7 +123,7 @@ const allTours: CollectionEntry<"daytours__EN">[] = await getCollection("daytour
         {
           "@type": "TouristTrip",
           "name": "Golden Circle Essentials",
-          "url": "https://www.lilja-tours.com/private-day-tours-iceland/golden-circle-essentials/",
+          "url": "https://www.lilja-tours.com/day-tours-iceland/golden-circle-essentials/",
           "description": "A 6-hour private tour covering Iceland's iconic Golden Circle, including Thingvellir National Park, Geysir, and Gullfoss waterfall.",
           "image": "https://www.lilja-tours.com/pictures/golden-circle-essentials/headers/oxararfoss-pc.webp",
           "inLanguage": ["en", "fr"],
@@ -154,7 +154,7 @@ const allTours: CollectionEntry<"daytours__EN">[] = await getCollection("daytour
     {
       "@type": "TouristTrip",
       "name": "Kerlingarfjöll's Power",
-      "url": "https://www.lilja-tours.com/private-day-tours-iceland/kerlingarfjoll-power-hiking-tour/",
+      "url": "https://www.lilja-tours.com/day-tours-iceland/kerlingarfjoll-power-hiking-tour/",
       "description": "A challenging 12-hour private tour to the geothermal area of Kerlingarfjöll, showcasing colorful rhyolite mountains and hot springs.",
       "image": "https://www.lilja-tours.com/pictures/kerlingarfjoll/headers/kerlingarfjoll-pc.webp",
       "inLanguage": ["en", "fr"],
@@ -184,7 +184,7 @@ const allTours: CollectionEntry<"daytours__EN">[] = await getCollection("daytour
     {
       "@type": "TouristTrip",
       "name": "Magic of the Icelandic Auroras",
-      "url": "https://www.lilja-tours.com/private-day-tours-iceland/northern-lights-iceland/",
+      "url": "https://www.lilja-tours.com/day-tours-iceland/northern-lights-iceland/",
       "description": "A 4-5 hour private tour chasing the Northern Lights, offering a personalized experience to witness this natural phenomenon.",
       "image": "https://www.lilja-tours.com/pictures/northern-lights/headers/aurora-borealis-pc.webp",
       "inLanguage": ["en", "fr"],
@@ -219,7 +219,7 @@ const allTours: CollectionEntry<"daytours__EN">[] = await getCollection("daytour
     {
       "@type": "TouristTrip",
       "name": "Culinary Golden Circle",
-      "url": "https://www.lilja-tours.com/private-day-tours-iceland/golden-circle-culinary-experience/",
+      "url": "https://www.lilja-tours.com/day-tours-iceland/golden-circle-culinary-experience/",
       "description": "An 8-9 hour private tour combining the classic Golden Circle sights with visits to local farms for unique culinary experiences.",
       "image": "https://www.lilja-tours.com/pictures/golden-circle-farm-visits/headers/golden-circle-farm-visits-pc.webp",
       "inLanguage": ["en", "fr"],
@@ -249,7 +249,7 @@ const allTours: CollectionEntry<"daytours__EN">[] = await getCollection("daytour
     {
       "@type": "TouristTrip",
       "name": "Colors of Reykjanes",
-      "url": "https://www.lilja-tours.com/private-day-tours-iceland/reykjanes-colors/",
+      "url": "https://www.lilja-tours.com/day-tours-iceland/reykjanes-colors/",
       "description": "A 6-hour private tour exploring the Reykjanes Peninsula's geothermal areas, lava fields, and coastal landscapes.",
       "image": "https://www.lilja-tours.com/pictures/reykjanes-colors/headers/reykjanes-pc.webp",
       "inLanguage": ["en", "fr"],
@@ -279,7 +279,7 @@ const allTours: CollectionEntry<"daytours__EN">[] = await getCollection("daytour
     {
       "@type": "TouristTrip",
       "name": "Snæfellsnes Wonders",
-      "url": "https://www.lilja-tours.com/private-day-tours-iceland/snaefellsnes-wonders/",
+      "url": "https://www.lilja-tours.com/day-tours-iceland/snaefellsnes-wonders/",
       "description": "An 11-hour private tour of the Snæfellsnes Peninsula, known as 'Iceland in Miniature,' featuring diverse landscapes and coastal villages.",
       "image": "/pictures/snaefellsnes-wonders/headers/snaefellsnes-pc.webp",
       "inLanguage": ["en", "fr"],
@@ -376,158 +376,160 @@ tour = {tour}
 <style>
 
     
-.headerP {
-        width: 50%;
-        margin-inline: auto;
-    }
+  .headerP {
+          width: 50%;
+          margin-inline: auto;
+      }
+  
+      .firstText {
+          width: calc(100% - 4rem);
+          margin: 2rem auto;
+          padding: 2rem;
+          background-color: rgba(255, 255, 255, 0.25);
+          border-radius: 1rem;
+  
+          p {
+              width: 100%;
+          }
+  
+          a, a:visited, a:focus {
+              color: white;
+          }
+      }
+  
+      main h2 {
+          margin-bottom: 3rem;
+          width: 100%;
+          text-align: center;
+          margin-inline: auto;
+          font-style: normal;
+      }
+  
+      h2:not(:first-child) {
+          margin-block: 5rem;
+      }
+  
+     main {
+      width: 90%;
+      margin-inline: auto;
+      padding: 5rem 0;
+     }
+  
+  .wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: center;
+  
+  }
+    .header {
+              min-height: 100dvh;
+              width: 100%;
+          }
+  
+          .headerContainerPic {
+              width: 100%;
+              min-height: calc(100dvh - 3.5rem);
+              max-height: calc(100dvh - 3.5rem);
+              position: relative;
+          }
+  
+          .headerGradient {
+              width: 100%;
+              min-height: calc(100dvh - 3.5rem);
+              max-height: calc(100dvh - 3.5rem);
+              position: absolute;
+              top: 3.5rem;
+              background: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(255, 255, 255, 0.00) 99.06%);
+          }
+  
+          .headerInfos {
+              position: absolute;
+              inset: 3.5rem 0 0 0;
+              display: flex;
+              height:  calc(100dvh - 3.5rem);
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              align-content: center;
+              gap: 5rem;
+  
+          }
+  
+          h1 {
+          color: #FFF;
+          text-align: center;
+          font-size: clamp(2rem, calc(5vw + 1rem), 4rem );
+          font-weight: lighter;
+          min-width: min-content;
+          max-width: max-content;
+          text-wrap: balance;
+          animation-name: Title;
+          animation-duration: 2s;
+          animation-fill-mode: forwards;
+          opacity: 0;
+      }
+  
+      h2 {
+          color: #FFF;
+          text-align: center;
+          font-size: clamp(1.5rem, calc(5vw + 1rem), 2.5rem );
+          font-weight: lighter;
+          min-width: min-content;
+          max-width: max-content;
+          text-wrap: balance;
+          animation-name: Title;
+          animation-duration: 2s;
+          animation-delay: 1s;
+          animation-fill-mode: forwards;
+          opacity: 0;
+          font-style: italic;
+      }
+  
+  @keyframes Title {
+      from {opacity: 0}
+      to {opacity: 1}
+  }
+  
+  @media screen and (max-width: 800px) {
+      main h2 {
+          font-size: clamp(1rem, calc(1vw + 1rem), 2rem );
+      }
+  
+      main p {
+          font-size: 1rem;
+      }
+  
+      main {
+          padding-block: 2rem;
+      }
+  
+      .headerInfos {
+          gap: 1rem;
+      }
+  
+      header h2 {
+          margin-block: 0;
+          width: 95%;
+      }
+  
+      .wrapper {
+          width: 95%;
+          margin-inline: auto;
+      }
+  
+      .firstText {
+          width: 95%;
+      }
+  
+      .headerP {
+          width: 75%;
+          margin: 0 auto;
+          
+      }
 
-    .firstText {
-        width: calc(100% - 4rem);
-        margin: 2rem auto;
-        padding: 2rem;
-        background-color: rgba(255, 255, 255, 0.25);
-        border-radius: 1rem;
-
-        p {
-            width: 100%;
-        }
-
-        a, a:visited, a:focus {
-            color: white;
-        }
-    }
-
-    main h2 {
-        margin-bottom: 3rem;
-        width: 100%;
-        text-align: center;
-        margin-inline: auto;
-        font-style: normal;
-    }
-
-    h2:not(:first-child) {
-        margin-block: 5rem;
-    }
-
-   main {
-    width: 90%;
-    margin-inline: auto;
-    padding: 5rem 0;
-   }
-
-.wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
-
-}
-  .header {
-            min-height: 100dvh;
-            width: 100%;
-        }
-
-        .headerContainerPic {
-            width: 100%;
-            min-height: calc(100dvh - 3.5rem);
-            max-height: calc(100dvh - 3.5rem);
-            position: relative;
-        }
-
-        .headerGradient {
-            width: 100%;
-            min-height: calc(100dvh - 3.5rem);
-            max-height: calc(100dvh - 3.5rem);
-            position: absolute;
-            top: 3.5rem;
-            background: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(255, 255, 255, 0.00) 99.06%);
-        }
-
-        .headerInfos {
-            position: absolute;
-            inset: 3.5rem 0 0 0;
-            display: flex;
-            height:  calc(100dvh - 3.5rem);
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            align-content: center;
-            gap: 5rem;
-
-        }
-
-        h1 {
-        color: #FFF;
-        text-align: center;
-        font-size: clamp(2rem, calc(5vw + 1rem), 4rem );
-        font-weight: lighter;
-        min-width: min-content;
-        max-width: max-content;
-        text-wrap: balance;
-        animation-name: Title;
-        animation-duration: 2s;
-        animation-fill-mode: forwards;
-        opacity: 0;
-    }
-
-    h2 {
-        color: #FFF;
-        text-align: center;
-        font-size: clamp(1.5rem, calc(5vw + 1rem), 2.5rem );
-        font-weight: lighter;
-        min-width: min-content;
-        max-width: max-content;
-        text-wrap: balance;
-        animation-name: Title;
-        animation-duration: 2s;
-        animation-delay: 1s;
-        animation-fill-mode: forwards;
-        opacity: 0;
-        font-style: italic;
-    }
-
-@keyframes Title {
-    from {opacity: 0}
-    to {opacity: 1}
-}
-
-@media screen and (max-width: 800px) {
-    main h2 {
-        font-size: clamp(1rem, calc(1vw + 1rem), 2rem );
-    }
-
-    main p {
-        font-size: 1rem;
-    }
-
-    main {
-        padding-block: 2rem;
-    }
-
-    .headerInfos {
-        gap: 1rem;
-    }
-
-    header h2 {
-        margin-block: 2rem;
-    }
-
-    .wrapper {
-        width: 95%;
-        margin-inline: auto;
-    }
-
-    .firstText {
-        width: 95%;
-    }
-
-    .headerP {
-        width: 75%;
-        margin-inline: auto;
-    }
-
-
-
-}
-
-</style>
+  
+  
+  }
+  
+  </style>

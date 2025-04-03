@@ -53,10 +53,10 @@ itiCoverImgTitle: "Viðgelmir lava tunnel"
 
 
 # Links
-linkFr: "/fr/excursions-en-islande/cercle-d-argent-islande-borgarfjordur"
+linkFr: "/fr/guide-francophone-islande/cercle-d-argent-islande-borgarfjordur"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/903385"
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/971111"
-fulllinkFr: "https://www.lilja-tours.com/fr/excursions-en-islande/cercle-d-argent-islande-borgarfjordur"
+fulllinkFr: "https://www.lilja-tours.com/fr/guide-francophone-islande/cercle-d-argent-islande-borgarfjordur"
 
 
 # Itinerary
@@ -105,6 +105,7 @@ itiItems: [
     }]
 
 cta: "explore Borgarfjörður’s natural wonders!"
+cta2: "Make it a two day tour combining the Silver Circle with a <a href=\"/day-tours-iceland/private-tour-snaefellsnes-peninsula-iceland/\" title= \"See our Private tour to the Peninsula of Snæfellsnes\">Private Tour to the Snæfellsnes Peninsula</a>. Let us know if you are looking for a multiday <a href=\"/multiday/\" title= \"Our tailor-made private tours\">custom private tour in Iceland</a>."
 
 # Tour infos
 
@@ -247,7 +248,7 @@ jsonLd:
     - "https://www.lilja-tours.com/pictures/silver-circle/gallery/borgaf-3-pc.webp"
     - "https://www.lilja-tours.com/pictures/silver-circle/gallery/borgaf-4-pc.webp"
     - "https://www.lilja-tours.com/pictures/silver-circle/gallery/borgaf-5-pc.webp"
-  url: "https://www.lilja-tours.com/private-day-tours-iceland/silver-circle-private-tour-iceland/"
+  url: "https://www.lilja-tours.com/day-tours-iceland/silver-circle-private-tour-iceland/"
   inLanguage:
     - "en"
     - "fr"
@@ -262,7 +263,7 @@ jsonLd:
     price: "169000"
     priceCurrency: "ISK"
     availability: "https://schema.org/InStock"
-    url: "https://www.lilja-tours.com/private-day-tours-iceland/silver-circle-private-tour-iceland/"
+    url: "https://www.lilja-tours.com/day-tours-iceland/silver-circle-private-tour-iceland/"
   provider:
     "@type": "TravelAgency"
     name: "Lilja Tours"

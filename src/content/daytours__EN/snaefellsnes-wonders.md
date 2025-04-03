@@ -9,7 +9,7 @@ filter: "norm"
 
 # Head and metas
 pageTitle: "Private Tour of Snæfellsnes Peninsula | Discover Arnarstapi, Kirkjufell & Djúpalónssandur"
-description: "Experience the Snæfellsnes Peninsula on a luxury private tour. Visit Arnarstapi, Kirkjufell, and Djúpalónssandur. Discover Iceland's natural wonders with Lilja Tours."
+description: "Experience a Private Tour of Snæfellsnes Peninsula. Visit Arnarstapi, Kirkjufell, and Djúpalónssandur. Discover Iceland's natural wonders with Lilja Tours."
 ogTitle: "Private Tour of Snæfellsnes Peninsula | Discover Arnarstapi, Kirkjufell & Djúpalónssandur"
 ogImage: "https://www.lilja-tours.com/pictures/snaefellsnes-wonders/card/snaefellsnes-private-tour.webp"
 language: "en"
@@ -54,10 +54,10 @@ itiCoverImgTitle: "Snæfellsnes peninsula itinerary"
 
 
 # Links
-linkFr: "/fr/excursions-en-islande/peninsule-de-snaefellsnes-avec-guide-francophone"
+linkFr: "/fr/guide-francophone-islande/peninsule-de-snaefellsnes-avec-guide-francophone"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753699"
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753700"
-fulllinkFr: "https://www.lilja-tours.com/fr/excursions-en-islande/peninsule-de-snaefellsnes-avec-guide-francophone"
+fulllinkFr: "https://www.lilja-tours.com/fr/guide-francophone-islande/peninsule-de-snaefellsnes-avec-guide-francophone"
 
 
 # Itinerary
@@ -101,6 +101,7 @@ itiItems: [
     ]
 
 cta: "explore Iceland's wonders!"
+cta2: "Check out our other <a href=\"/day-tours-iceland/sightseeing/\" title= \"Sightseeing Tours in Iceland\">must-do private tours in Iceland</a>: <a href=\"/day-tours-iceland/golden-circle/\" title= \"Golden Circle tours in Iceland\">Golden Circle Private Tours</a> and <a href=\"/day-tours-iceland/south-coast/\" title= \"South Coast Private Tours\">South Coast Private Tours</a>."
 
 # Tour infos
 
@@ -241,7 +242,7 @@ jsonLd:
     - "https://www.lilja-tours.com/pictures/snaefellsnes-wonders/gallery/snaefellsjokull-1-pc.webp"
     - "https://www.lilja-tours.com/pictures/snaefellsnes-wonders/gallery/djupalonssandur-4-pc.webp"
     - "https://www.lilja-tours.com/pictures/snaefellsnes-wonders/gallery/arnarstapi-3-pc.webp"
-  url: "https://www.lilja-tours.com/private-day-tours-iceland/private-tour-snaefellsnes-peninsula-iceland/"
+  url: "https://www.lilja-tours.com/day-tours-iceland/private-tour-snaefellsnes-peninsula-iceland/"
   inLanguage:
     - "en"
     - "fr"
@@ -256,7 +257,7 @@ jsonLd:
     price: "185000"
     priceCurrency: "ISK"
     availability: "https://schema.org/InStock"
-    url: "https://www.lilja-tours.com/private-day-tours-iceland/private-tour-snaefellsnes-peninsula-iceland/"
+    url: "https://www.lilja-tours.com/day-tours-iceland/private-tour-snaefellsnes-peninsula-iceland/"
   provider:
     "@type": "TravelAgency"
     name: "Lilja Tours"

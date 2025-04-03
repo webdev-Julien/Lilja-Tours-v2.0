@@ -13,8 +13,8 @@ pageCover:
     title: "Book a small group Northern Lights Hunt",
   }
 
-title1: "Northern Lights Hunt - Small group tour"
-title2: "With free Hot Choc, pastries and pictures!"
+title1: "Northern Lights Tour - Small Group Experience"
+title2: "Northern Lights Tour with Free Hot Chocolate, Pastries & Photos"
 
 tag: ["Small group tour"]
 
@@ -24,18 +24,18 @@ linkFr: "/fr/a-faire-en-islande/aurores-boreales-minibus/"
 hrefLang: "https://www.lilja-tours.com/fr/a-faire-en-islande/aurores-boreales-minibus/"
 
 url: ""
-pageTitle: "Northern Lights tour in small group"
-metaDescription: ""
+pageTitle: "Northern Lights Tour in Small Group | Reykjavík Aurora Hunt"
+metaDescription: "Join a small group Northern Lights tour from Reykjavík. Enjoy hot chocolate, pastries, and expert guidance while chasing the Aurora Borealis. Free rebooking if no lights are seen!"
 
 filter: "reykjavik"
 filter2: "bus"
 
-slug: northern-lights-tour-iceland
+slug: northern-lights-tour-small-group-iceland
 ---
 
 ## **Witness the Magic of the Aurora Borealis in Comfort and Style**
 
-The Northern Lights — a celestial dance of colors across the Arctic sky — is one of nature’s most breathtaking wonders. Join us for an intimate evening adventure in search of this elusive beauty, with experienced guides who know exactly where to look.
+Embark on a Nothern Lights Tour in small group from Reykjavík. The Northern Lights — a celestial dance of colors across the Arctic sky — is one of nature’s most breathtaking wonders. Join us for an intimate evening adventure in search of this elusive beauty, with experienced guides who know exactly where to look.
 
 With small group sizes, warm Icelandic touches, and a flexible rebooking policy if we don’t spot the lights, this is more than a tour — it’s a memory in the making.
 

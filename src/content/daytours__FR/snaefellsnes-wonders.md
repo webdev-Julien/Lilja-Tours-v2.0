@@ -53,10 +53,10 @@ itiCoverImgTitle: "Snæfellsnes"
 
 
 # Links
-linkFr: "/private-day-tours-iceland/private-tour-snaefellsnes-peninsula-iceland"
+linkFr: "/day-tours-iceland/private-tour-snaefellsnes-peninsula-iceland"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753699"
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753700"
-fulllinkFr: "https://www.lilja-tours.com/private-day-tours-iceland/private-tour-snaefellsnes-peninsula-iceland"
+fulllinkFr: "https://www.lilja-tours.com/day-tours-iceland/private-tour-snaefellsnes-peninsula-iceland"
 
 
 # Itinerary
@@ -100,6 +100,7 @@ itiItems: [
     ]
 
 cta: "visitez une terre méconnue"
+cta2: "Explorez nos autres <a href=\"/fr/guide-francophone-islande/decouverte/\" title= \"Nos excursions incontournables\">excursions incontournables en Islande en français</a>: <a href=\"/fr/guide-francophone-islande/cercle-d-or/\" title= \"Nos excursions au cercle d'or\">Excursion privée au cercle d'or</a> et <a href=\"/fr/guide-francophone-islande/cote-sud/\" title= \"Excursions sur la côte sud islandaise\">Visite privée de la côte sud islandaise</a>."
 
 # Tour infos
 
@@ -240,7 +241,7 @@ jsonLd:
     - "https://www.lilja-tours.com/pictures/snaefellsnes-wonders/gallery/snaefellsjokull-1-pc.webp"
     - "https://www.lilja-tours.com/pictures/snaefellsnes-wonders/gallery/djupalonssandur-4-pc.webp"
     - "https://www.lilja-tours.com/pictures/snaefellsnes-wonders/gallery/arnarstapi-3-pc.webp"
-  url: "https://www.lilja-tours.com/fr/excursions-en-islande/peninsule-de-snaefellsnes-avec-guide-francophone/"
+  url: "https://www.lilja-tours.com/fr/guide-francophone-islande/peninsule-de-snaefellsnes-avec-guide-francophone/"
   inLanguage:
     - "en"
     - "fr"
@@ -255,7 +256,7 @@ jsonLd:
     price: "185000"
     priceCurrency: "ISK"
     availability: "https://schema.org/InStock"
-    url: "https://www.lilja-tours.com/fr/excursions-en-islande/peninsule-de-snaefellsnes-avec-guide-francophone/"
+    url: "https://www.lilja-tours.com/fr/guide-francophone-islande/peninsule-de-snaefellsnes-avec-guide-francophone/"
   provider:
     "@type": "TravelAgency"
     name: "Lilja Tours"

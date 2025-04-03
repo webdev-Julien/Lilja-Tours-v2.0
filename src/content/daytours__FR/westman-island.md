@@ -54,10 +54,10 @@ itiCoverImgTitle: "Îles Westman"
 
 
 # Links
-linkFr: "/private-day-tours-iceland/private-tour-westman-islands"
+linkFr: "/day-tours-iceland/private-tour-westman-islands"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/741342"
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/971165"
-fulllinkFr: "https://www.lilja-tours.com/private-day-tours-iceland/private-tour-westman-islands"
+fulllinkFr: "https://www.lilja-tours.com/day-tours-iceland/private-tour-westman-islands"
 
 
 # Itinerary
@@ -104,6 +104,7 @@ itiItems: [
     }
     ]
 cta: "visitez des paysages extraordinaires et riches d'histoire."
+cta2: "Envie d'étendre encore plus votre culture volcanique? Nous avons une excursion pensée pour ça: <a href=\"/fr/guide-francophone-islande/excursion-privee-cote-sud-islandaise-volcans/\" title= \"Excursion sur la côte Sud\">Côte Sud et Contes Volcaniques</a>."
 
 # Tour infos
 
@@ -244,7 +245,7 @@ jsonLd:
     - "https://www.lilja-tours.com/pictures/westman-islands/gallery/westman-3-pc.webp"
     - "https://www.lilja-tours.com/pictures/westman-islands/gallery/westman-4-pc.webp"
     - "https://www.lilja-tours.com/pictures/westman-islands/gallery/westman-5-pc.webp"
-  url: "https://www.lilja-tours.com/fr/excursions-en-islande/excursion-en-francais-aux-iles-westman/"
+  url: "https://www.lilja-tours.com/fr/guide-francophone-islande/excursion-en-francais-aux-iles-westman/"
   inLanguage:
     - "en"
     - "fr"
@@ -259,7 +260,7 @@ jsonLd:
     price: "250000"
     priceCurrency: "ISK"
     availability: "https://schema.org/InStock"
-    url: "https://www.lilja-tours.com/fr/excursions-en-islande/excursion-en-francais-aux-iles-westman/"
+    url: "https://www.lilja-tours.com/fr/guide-francophone-islande/excursion-en-francais-aux-iles-westman/"
   provider:
     "@type": "TravelAgency"
     name: "Lilja Tours"

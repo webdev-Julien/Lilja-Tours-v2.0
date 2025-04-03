@@ -13,8 +13,8 @@ pageCover:
     title: "Book a small group tour to the south coast of Iceland",
   }
 
-title1: "South Coast of Iceland - Small group tour"
-title2: "Waterfalls, Glaciers & Black Sand Wonders"
+title1: "South Coast of Iceland Small Group Tour - Waterfalls & Black Sand Beaches"
+title2: "Explore Iceland’s South Coast - Waterfalls, Glaciers & Black Sand"
 
 tag: ["Small group tour"]
 
@@ -24,18 +24,18 @@ linkFr: "/fr/a-faire-en-islande/cote-sud-islandaise-minibus/"
 hrefLang: "https://www.lilja-tours.com/fr/a-faire-en-islande/cote-sud-islandaise-minibus/"
 
 url: ""
-pageTitle: "South Coast tour in small group"
-metaDescription: ""
+pageTitle: "South Coast of Iceland Small Group Tour | Waterfalls & Glaciers"
+metaDescription: "Discover Iceland’s South Coast on a small group tour. Visit Seljalandsfoss, Skógafoss, Reynisfjara Black Sand Beach, and Sólheimajökull Glacier. Book now!"
 
 filter: "reykjavik"
 filter2: "bus"
 
-slug: south-coast-tour-iceland
+slug: south-coast-tour-small-group-iceland
 ---
 
 ## **Discover Iceland’s Wild South – A Journey into Earth’s Raw Beauty**
 
-Ready for a once-in-a-lifetime experience? Our South Coast tour takes you deep into one of Iceland’s most dramatic and awe-inspiring landscapes — where volcanic power meets glacial beauty, and Viking history echoes through the valleys.
+The South Coast of Iceland Small Group Tour is a once-in-a-lifetime experience. It takes you deep into one of Iceland’s most dramatic and awe-inspiring landscapes — where volcanic power meets glacial beauty, and Viking history echoes through the valleys.
 
 From towering waterfalls to ancient ice and haunting black sand shores, this journey is perfect for nature lovers, photography enthusiasts, and adventure seekers alike.
 

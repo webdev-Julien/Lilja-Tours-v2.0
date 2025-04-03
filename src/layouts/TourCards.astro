@@ -47,7 +47,7 @@ interface Props {
 
     </div>
     <div class="textInfos">
-        <a href={"/private-day-tours-iceland/"+tour.slug+"/"} title="see the tour" class="tourLink"><h3>{tour.data.cardTitle}</h3>
+        <a href={"/day-tours-iceland/"+tour.slug+"/"} title="see the tour" class="tourLink"><h3>{tour.data.cardTitle}</h3>
             <div class="rates">
                 <p class="startingFrom">Starting from:</p>
                 <p class="rateISK">{tour.data.jeepISK} ISK <span class="vehicle">/vehicle</span></p>
@@ -57,7 +57,7 @@ interface Props {
                 {
                     tour.data.tags.map((tag:any) => (
                         
-                        <button><a href={"/private-day-tours-iceland/"+tag.toLowerCase()+"/"} title={"list of"+tag}>{tag.charAt(0).toUpperCase() + tag.slice(1).replaceAll("-", " ").replaceAll("circle", "Circle").replaceAll("coast", "Coast")}</a></button>
+                        <button><a href={"/day-tours-iceland/"+tag.toLowerCase()+"/"} title={"list of"+tag}>{tag.charAt(0).toUpperCase() + tag.slice(1).replaceAll("-", " ").replaceAll("circle", "Circle").replaceAll("coast", "Coast")}</a></button>
                     ))
                 }
             </div>

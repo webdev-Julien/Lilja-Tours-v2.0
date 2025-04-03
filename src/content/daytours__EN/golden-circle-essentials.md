@@ -54,10 +54,10 @@ itiCoverImgTitle: "Gullfoss"
 
 
 # Links
-linkFr: "/fr/excursions-en-islande/cercle-d-or-avec-guide-francophone-essentiels"
+linkFr: "/fr/guide-francophone-islande/cercle-d-or-avec-guide-francophone-essentiels"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753710"
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753711"
-fulllinkFr: "https://www.lilja-tours.com/fr/excursions-en-islande/cercle-d-or-avec-guide-francophone-essentiels"
+fulllinkFr: "https://www.lilja-tours.com/fr/guide-francophone-islande/cercle-d-or-avec-guide-francophone-essentiels"
 
 
 # Itinerary
@@ -187,6 +187,7 @@ title: "Golden Circle Essentials: Gullfoss"
 }]
 
 cta: "explore Iceland in comfort!"
+cta2: "We offer a rich selection of <a href=\"/day-tours-iceland/golden-circle/\" title= \"Our Golden Circle Tours\">Golden Circle Private Tours</a> and <a href=\"/day-tours-iceland/sightseeing/\" title= \"Our Sightseeing Tours\">Private Sightseeing Tours</a>. Do not hesitate to have a look!"
 
 # Card
 
@@ -234,7 +235,7 @@ jsonLd:
     - "https://www.lilja-tours.com/pictures/golden-circle-essentials/gallery/Thingvellir-2-pc.webp"
     - "https://www.lilja-tours.com/pictures/golden-circle-essentials/gallery/gullfoss-1-pc.webp"
     - "https://www.lilja-tours.com/pictures/golden-circle-essentials/gallery/geysir-1-pc.webp"
-  url: "https://www.lilja-tours.com/private-day-tours-iceland/private-tour-golden-circle-essentials-iceland/"
+  url: "https://www.lilja-tours.com/day-tours-iceland/private-tour-golden-circle-essentials-iceland/"
   inLanguage:
     - "en"
     - "fr"
@@ -249,7 +250,7 @@ jsonLd:
     price: "159000"
     priceCurrency: "ISK"
     availability: "https://schema.org/InStock"
-    url: "https://www.lilja-tours.com/private-day-tours-iceland/private-tour-golden-circle-essentials-iceland/"
+    url: "https://www.lilja-tours.com/day-tours-iceland/private-tour-golden-circle-essentials-iceland/"
   provider:
     "@type": "TravelAgency"
     name: "Lilja Tours"

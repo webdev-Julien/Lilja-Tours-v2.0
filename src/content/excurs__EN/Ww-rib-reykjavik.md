@@ -13,8 +13,8 @@ pageCover:
     title: "Book a whale watching tour in Reykjavík",
   }
 
-title1: "Whale watching in RIB boats – Reykjavík"
-title2: "Get intimate with the Whales Of Iceland"
+title1: "Whale Watching by RIB Boat - Fast-Paced Adventure from Reykjavík"
+title2: "Get Up Close with Whales - High-Speed RIB Boat Tour"
 
 tag: ["Whale watching"]
 
@@ -24,8 +24,8 @@ linkFr: "/fr/a-faire-en-islande/observation-baleines-zodiac-reykjavik"
 hrefLang: "https://www.lilja-tours.com/fr/a-faire-en-islande/observation-baleines-zodiac-reykjavik/"
 
 url: ""
-pageTitle: "Whale watching Express in Reykjavík "
-metaDescription: ""
+pageTitle: "High-Speed Whale Watching RIB Tour | Reykjavík Adventure"
+metaDescription: "Experience whale watching by RIB boat from Reykjavík. Get closer to whales, see puffins, and enjoy a high-speed adventure. Free entry to Whales of Iceland Exhibition included!"
 
 filter: "reykjavik"
 filter2: "ww"
@@ -86,4 +86,3 @@ Enhance your experience with our app, available in English, German, French, Span
 <script type="text/javascript" src="https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=97236c68-b945-4a96-8587-660bdc4c45fd" async></script>
 
 <div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/20499"></div>
-

@@ -1,5 +1,5 @@
 ---
-const {tourTitle, cta} = Astro.props;
+const {tourTitle, cta, cta2} = Astro.props;
 ---
 
 <section id="bookings">
@@ -8,6 +8,7 @@ const {tourTitle, cta} = Astro.props;
 <h2 class="test">Book your <span class="lj">{tourTitle}</span> and {cta}</h2>
 
 <slot name="carCards"></slot>
+<p set:html={cta2}></p>
 </div>
 </section>
 
@@ -33,5 +34,19 @@ section {
     background-color: #292929;
     padding-block: 5rem;
 }
+
+p {
+    color: white;
+    margin-top: 2rem;
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    a, a:focus, a:visited, a:default, a:active {
+    color: white;
+    text-decoration-thickness: 1px ;
+    text-underline-offset: .25rem;
+    
+}
+}
+
+
 
 </style>

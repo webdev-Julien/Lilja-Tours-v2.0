@@ -13,8 +13,8 @@ pageCover:
     title: "Book the Perlan Museum in Reykjavík",
   }
 
-title1: "Perlan – Wonders of Iceland"
-title2: "Museum and Planetarium Northern Lights"
+title1: "Perlan Museum – Wonders of Iceland"
+title2: "Explore Perlan Museum - Northern Lights Planetarium & Ice Cave"
 
 tag: ["Cultural Experience"]
 
@@ -24,16 +24,16 @@ linkFr: "/fr/a-faire-en-islande/perlan-musee-reykjavik"
 hrefLang: "https://www.lilja-tours.com/fr/a-faire-en-islande/perlan-musee-reykjavik/"
 
 url: ""
-pageTitle: "Perlan museum in Reykjavík "
-metaDescription: ""
+pageTitle: "Perlan Museum in Reykjavík | Wonders of Iceland & Planetarium"
+metaDescription: "Visit Perlan Museum in Reykjavík and explore Wonders of Iceland, the Northern Lights Planetarium, and a real ice cave. Enjoy 360° views from the observation deck. Book now!"
 
 filter: "reykjavik"
 filter2: "culture"
 
-slug: perlan-reykjavik
+slug: perlan-museum-reykjavik
 ---
 
-**Discover Iceland’s natural marvels in one breathtaking location—Perlan, Reykjavik’s iconic glass-domed landmark.**
+**Discover Iceland’s natural marvels in the breathtaking Perlan Museum, Reykjavik’s iconic glass-domed landmark.**
 
 Step into the heart of Iceland’s geological story at **Wonders of Iceland**, a world-class exhibition housed inside Perlan. Feel the intense energy of **volcanoes, earthquakes, and geothermal forces**, and journey deep into a **real indoor ice cave** that brings Iceland’s glaciers to life.
 
@@ -60,4 +60,3 @@ We look forward to welcoming you to Perlan, where the wonders of Iceland come al
 
 <script type="text/javascript" src="https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=97236c68-b945-4a96-8587-660bdc4c45fd" async></script>
 <div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/211379"></div>
-

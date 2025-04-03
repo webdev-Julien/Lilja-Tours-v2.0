@@ -54,10 +54,10 @@ itiCoverImgTitle: "Hiking Glymur"
 
 
 # Links
-linkFr: "/fr/excursions-en-islande/randonnee-guidee-glymur-islande"
+linkFr: "/fr/guide-francophone-islande/randonnee-guidee-glymur-islande"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/740991"
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/971123"
-fulllinkFr: "https://www.lilja-tours.com/fr/excursions-en-islande/randonnee-guidee-glymur-islande"
+fulllinkFr: "https://www.lilja-tours.com/fr/guide-francophone-islande/randonnee-guidee-glymur-islande"
 
 
 # Itinerary
@@ -76,6 +76,7 @@ itiItems: [
     ]
 
 cta: "discover Iceland’s natural wonders!"
+cta2: "Discover our other <a href=\"/day-tours-iceland/hiking/\" title= \"See our Private Hiking tours\">private hiking tours</a>? Have a look at the <a href=\"/day-tours-iceland/private-glacier-hike-in-iceland/\" title= \"See our Glacier Hiking Tour\">Private Glacier Hike on Sólheimajökull</a> or our <a href=\"/day-tours-iceland/private-hiking-tour-to-the-landmannalaugar/\" title= \"See our Hiking Tour to Landmannalaugar\">Private Landmannalaugar Hiking Tour"
 
 # Tour infos
 
@@ -222,7 +223,7 @@ jsonLd:
     - "https://www.lilja-tours.com/pictures/glymur/gallery/glymur-3-pc.webp"
     - "https://www.lilja-tours.com/pictures/glymur/gallery/glymur-2-pc.webp"
     - "https://www.lilja-tours.com/pictures/glymur/gallery/glymur-1-pc.webp"
-  url: "https://www.lilja-tours.com/private-day-tours-iceland/private-hiking-tour-glymur/"
+  url: "https://www.lilja-tours.com/day-tours-iceland/private-hiking-tour-glymur/"
   inLanguage:
     - "en"
     - "fr"
@@ -237,7 +238,7 @@ jsonLd:
     price: "198000"
     priceCurrency: "ISK"
     availability: "https://schema.org/InStock"
-    url: "https://www.lilja-tours.com/private-day-tours-iceland/private-hiking-tour-glymur/"
+    url: "https://www.lilja-tours.com/day-tours-iceland/private-hiking-tour-glymur/"
   provider:
     "@type": "TravelAgency"
     name: "Lilja Tours"

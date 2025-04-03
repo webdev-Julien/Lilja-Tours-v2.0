@@ -53,10 +53,10 @@ itiCoverImgTitle: "South Coast and Volcano Tales"
 
 
 # Links
-linkFr: "/fr/excursions-en-islande/excursion-privee-cote-sud-islandaise-volcans"
+linkFr: "/fr/guide-francophone-islande/excursion-privee-cote-sud-islandaise-volcans"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/899489"
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/971153"
-fulllinkFr: "https://www.lilja-tours.com/fr/excursions-en-islande/excursion-privee-cote-sud-islandaise-volcans"
+fulllinkFr: "https://www.lilja-tours.com/fr/guide-francophone-islande/excursion-privee-cote-sud-islandaise-volcans"
 
 
 # Itinerary
@@ -130,6 +130,7 @@ itiItems: [
     ]
 
 cta: "learn about volcanism while exploring"
+cta2: "To learn more about volcanoes, check out our <a href=\"/day-tours-iceland/private-tour-westman-islands/\" title= \"Westman Islands Tours\">Westman Islands Private Tour</a>. If you are looking for something completely different, see our <a href=\"/day-tours-iceland/highlands/\" title= \"List of Highlands Tours\">Highlands Private Tours</a>."
 
 
 # Tour infos
@@ -272,7 +273,7 @@ jsonLd:
     - "https://www.lilja-tours.com/pictures/south-coast-volcano-tales/gallery/south-coast-volcano-tales-3-pc.webp"
     - "https://www.lilja-tours.com/pictures/south-coast-volcano-tales/gallery/south-coast-volcano-tales-4-pc.webp"
     - "https://www.lilja-tours.com/pictures/south-coast-volcano-tales/gallery/south-coast-volcano-tales-5-pc.webp"
-  url: "https://www.lilja-tours.com/private-day-tours-iceland/private-south-coast-tour-lava-center-and-lava-show/"
+  url: "https://www.lilja-tours.com/day-tours-iceland/private-south-coast-tour-lava-center-and-lava-show/"
   inLanguage:
     - "en"
     - "fr"
@@ -287,7 +288,7 @@ jsonLd:
     price: "190000"
     priceCurrency: "ISK"
     availability: "https://schema.org/InStock"
-    url: "https://www.lilja-tours.com/private-day-tours-iceland/private-south-coast-tour-lava-center-and-lava-show/"
+    url: "https://www.lilja-tours.com/day-tours-iceland/private-south-coast-tour-lava-center-and-lava-show/"
   provider:
     "@type": "TravelAgency"
     name: "Lilja Tours"

@@ -53,10 +53,10 @@ itiCoverImgTitle: "Northern Lights"
 
 
 # Links
-linkFr: "/fr/excursions-en-islande/sortie-privee-aurores-boreales-islande"
+linkFr: "/fr/guide-francophone-islande/sortie-privee-aurores-boreales-islande"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/707396"
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/971141"
-fulllinkFr: "https://www.lilja-tours.com/fr/excursions-en-islande/sortie-privee-aurores-boreales-islande"
+fulllinkFr: "https://www.lilja-tours.com/fr/guide-francophone-islande/sortie-privee-aurores-boreales-islande"
 
 
 # Itinerary
@@ -203,6 +203,7 @@ vehicles: [
 ]
 
 cta: "experience Iceland’s night sky like never before!"
+cta2: "Do not hesitate to combine your Northern Light Hunt with one of our best day tours: <a href=\"/day-tours-iceland/private-golden-circle-tour-iceland/\" title= \"See our Golden Circle Tour\">Private Golden Circle Tour<a>, <a href=\"/day-tours-iceland/private-south-coast-tour-iceland/\" title= \"See our South Coast Tour\">Private South Coast Tour</a>, or even a <a href=\"/day-tours-iceland/private-tour-snaefellsnes-peninsula-iceland/\" title= \"See our tour on Snæfellsnes\">Private Snæfellsnes Peninsula Tour</a>"
 
 form: "https://tally.so/r/wgkK84"
 
@@ -217,7 +218,7 @@ jsonLd:
     - "https://www.lilja-tours.com/pictures/northern-lights/gallery/northern-lights-3-pc.webp"
     - "https://www.lilja-tours.com/pictures/northern-lights/gallery/northern-lights-4-pc.webp"
     - "https://www.lilja-tours.com/pictures/northern-lights/gallery/northern-lights-5-pc.webp"
-  url: "https://www.lilja-tours.com/private-day-tours-iceland/private-northern-lights-tour-in-iceland/"
+  url: "https://www.lilja-tours.com/day-tours-iceland/private-northern-lights-tour-in-iceland/"
   inLanguage:
     - "en"
     - "fr"
@@ -232,7 +233,7 @@ jsonLd:
     price: "173000"
     priceCurrency: "ISK"
     availability: "https://schema.org/InStock"
-    url: "https://www.lilja-tours.com/private-day-tours-iceland/private-northern-lights-tour-in-iceland/"
+    url: "https://www.lilja-tours.com/day-tours-iceland/private-northern-lights-tour-in-iceland/"
   provider:
     "@type": "TravelAgency"
     name: "Lilja Tours"

@@ -49,10 +49,10 @@ itiCoverImgTitle: "Itinéraire dans Thormsork"
 
 
 # Links
-linkFr: "/private-day-tours-iceland/private-hiking-tour-in-thorsmork"
+linkFr: "/day-tours-iceland/private-hiking-tour-in-thorsmork"
 bookVan: ""
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/783279"
-fulllinkFr: "https://www.lilja-tours.com/private-day-tours-iceland/private-hiking-tour-in-thorsmork"
+fulllinkFr: "https://www.lilja-tours.com/day-tours-iceland/private-hiking-tour-in-thorsmork"
 
 
 # Itinerary
@@ -90,6 +90,7 @@ itiItems: [
     ]
 
 cta: "explorez, randonnez, dans des terres reculées"
+cta2: "N'attendez pas pour visiter les hautes terres islandaises! Parcourez nos <a href=\"/fr/guide-francophone-islande/randonnee/\" title= \"Liste de nos excursions de randonnée\">meilleures excursions rando en Islande</a>: <a href=\"/fr/guide-francophone-islande/excursion-avec-guide-francophone-a-kerlingarfjoll/\" title= \"Notre excursion à Kerlingarfjöll\">Excursion Privée de Randonnée à Kerlingarfjöll</a>, ou notre meilleure vente: <a href=\"/fr/guide-francophone-islande/excursion-guidee-landmannalaugar-islande/\" title= \"Excursion au Landmannalaugar\">Excursion Privée au Landmannalaugar</a>."
 # Tour infos
 
 goodToKnow: [
@@ -222,7 +223,7 @@ jsonLd:
     - "https://www.lilja-tours.com/pictures/thorsmork/gallery/thorsmork-3-pc.webp"
     - "https://www.lilja-tours.com/pictures/thorsmork/gallery/thorsmork-4-pc.webp"
     - "https://www.lilja-tours.com/pictures/thorsmork/gallery/thorsmork-5-pc.webp"
-  url: "https://www.lilja-tours.com/fr/excursions-en-islande/randonnee-avec-guide-francophone-thorsmork-islande/"
+  url: "https://www.lilja-tours.com/fr/guide-francophone-islande/randonnee-avec-guide-francophone-thorsmork-islande/"
   inLanguage:
     - "en"
     - "fr"
@@ -237,7 +238,7 @@ jsonLd:
     price: "250000"
     priceCurrency: "ISK"
     availability: "https://schema.org/InStock"
-    url: "https://www.lilja-tours.com/fr/excursions-en-islande/randonnee-avec-guide-francophone-thorsmork-islande/"
+    url: "https://www.lilja-tours.com/fr/guide-francophone-islande/randonnee-avec-guide-francophone-thorsmork-islande/"
   provider:
     "@type": "TravelAgency"
     name: "Lilja Tours"

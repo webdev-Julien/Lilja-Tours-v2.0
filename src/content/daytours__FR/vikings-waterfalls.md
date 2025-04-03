@@ -50,10 +50,10 @@ itiCoverImgTitle: "Gjáin"
 
 
 # Links
-linkFr: "/private-day-tours-iceland/private-cultural-tour-viking-history"
+linkFr: "/day-tours-iceland/private-cultural-tour-viking-history"
 bookVan: ""
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/770519"
-fulllinkFr: "https://www.lilja-tours.com/private-day-tours-iceland/private-cultural-tour-viking-history"
+fulllinkFr: "https://www.lilja-tours.com/day-tours-iceland/private-cultural-tour-viking-history"
 
 
 # Itinerary
@@ -212,6 +212,8 @@ title: "Vikings et Cascades: Sólheimajökull"
 }]
 
 cta: "plongez dans le passé et l'héritage viking de l'Islande."
+cta2: "Pour plus de cascades à couper le souffle, regardez nos <a href=\"/fr/guide-francophone-islande/cote-sud/\" title= \"Liste des excursions sur la côte sud\">excursions sur la côte sud islandaise</a>. Et pour explore les hautes-terres plus en profondeur, Pourquoi ne pas choisir une <a href=\"/fr/guide-francophone-islande/excursion-guidee-landmannalaugar-islande/\" title= \"Excursion au Landmannalaugar\">excursion Privée au Landmannalaugar</a>."
+
 
 # Card
 
@@ -249,7 +251,7 @@ jsonLd:
     - "https://www.lilja-tours.com/pictures/vikings-waterfalls/gallery/gjain-3-pc.webp"
     - "https://www.lilja-tours.com/pictures/vikings-waterfalls/gallery/ingolf-1-pc.webp"
     - "https://www.lilja-tours.com/pictures/vikings-waterfalls/gallery/haifoss-3-pc.webp"
-  url: "https://www.lilja-tours.com/fr/excursions-en-islande/excursion-culturelle-histoire-viking-en-islande/"
+  url: "https://www.lilja-tours.com/fr/guide-francophone-islande/excursion-culturelle-histoire-viking-en-islande/"
   inLanguage:
     - "en"
     - "fr"
@@ -264,7 +266,7 @@ jsonLd:
     price: "190000"
     priceCurrency: "ISK"
     availability: "https://schema.org/InStock"
-    url: "https://www.lilja-tours.com/fr/excursions-en-islande/excursion-culturelle-histoire-viking-en-islande/"
+    url: "https://www.lilja-tours.com/fr/guide-francophone-islande/excursion-culturelle-histoire-viking-en-islande/"
   provider:
     "@type": "TravelAgency"
     name: "Lilja Tours"

@@ -50,10 +50,10 @@ itiCoverImgTitle: "Kerlingarfjöll itinerary"
 
 
 # Links
-linkFr: "/fr/excursions-en-islande/excursion-avec-guide-francophone-a-kerlingarfjoll"
+linkFr: "/fr/guide-francophone-islande/excursion-avec-guide-francophone-a-kerlingarfjoll"
 bookVan: ""
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/895721"
-fulllinkFr: "https://www.lilja-tours.com/fr/excursions-en-islande/excursion-avec-guide-francophone-a-kerlingarfjoll"
+fulllinkFr: "https://www.lilja-tours.com/fr/guide-francophone-islande/excursion-avec-guide-francophone-a-kerlingarfjoll"
 
 
 # Itinerary
@@ -71,6 +71,7 @@ itiItems: [
     ]
 
 cta: "explore Iceland’s breathtaking highlands!"
+cta2: "Explore more tours in the Icelandic Highlands: <a href=\"/day-tours-iceland/private-hiking-tour-to-the-landmannalaugar/\" title= \"See our tour to the Landmannalaugar\">Private Landmannalaugar Hiking Tour</a> and <a href=\"/day-tours-iceland/private-hiking-tour-in-thorsmork/\" title= \"See our private Hiking Tour in Þórsmörk\">Private Hiking Tour in Þórsmörk</a>."
 
 
 # Tour infos
@@ -204,7 +205,7 @@ jsonLd:
     - "https://www.lilja-tours.com/pictures/kerlingarfjoll/gallery/kerlingarfjoll-3-pc.webp"
     - "https://www.lilja-tours.com/pictures/kerlingarfjoll/gallery/kerlingarfjoll-4-pc.webp"
     - "https://www.lilja-tours.com/pictures/kerlingarfjoll/gallery/kerlingarfjoll-5-pc.webp"
-  url: "https://www.lilja-tours.com/private-day-tours-iceland/private-hiking-tour-kerlingarfjoll/"
+  url: "https://www.lilja-tours.com/day-tours-iceland/private-hiking-tour-kerlingarfjoll/"
   inLanguage:
     - "en"
     - "fr"
@@ -219,7 +220,7 @@ jsonLd:
     price: "250000"
     priceCurrency: "ISK"
     availability: "https://schema.org/InStock"
-    url: "https://www.lilja-tours.com/private-day-tours-iceland/private-hiking-tour-kerlingarfjoll/"
+    url: "https://www.lilja-tours.com/day-tours-iceland/private-hiking-tour-kerlingarfjoll/"
   provider:
     "@type": "TravelAgency"
     name: "Lilja Tours"

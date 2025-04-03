@@ -37,6 +37,7 @@ const {
         />
 
        <link rel="alternate" hreflang="fr" href={fulllinkFr} />
+       <link rel="alternate" hreflang="en" href={url} />
        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
        <link rel="canonical" href={url}>
 
@@ -53,8 +54,6 @@ const {
         <meta property="og:logo" content="https://www.lilja-tours/logos/Lilja-Tours-Full-Logo.png" />
 
         <title>{pageTitle}</title>
-
-        <slot name="jsonld"></slot>
 
     </head>
     <body>

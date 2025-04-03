@@ -53,10 +53,10 @@ itiCoverImgTitle: "Aurores Boréales"
 
 
 # Links
-linkFr: "/private-day-tours-iceland/private-northern-lights-tour-in-iceland"
+linkFr: "/day-tours-iceland/private-northern-lights-tour-in-iceland"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/707396"
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/971141"
-fulllinkFr: "https://www.lilja-tours.com/private-day-tours-iceland/private-northern-lights-tour-in-iceland"
+fulllinkFr: "https://www.lilja-tours.com/day-tours-iceland/private-northern-lights-tour-in-iceland"
 
 
 # Itinerary
@@ -195,6 +195,7 @@ vehicles: [
 ]
 
 cta: "vivez la magie du ciel islandais !"
+cta2: "N'hésitez pas à combiner votre chasse aux aurores boréales avec l'une de nos meilleures excursions à la journée: <a href=\"/fr/guide-francophone-islande/excursion-privee-cercle-d-or-experience-culinaire/\" title= \"Voir notre tour sur le cercle d'or\">Excursion privée Cercle d'Or et expérience culinaire<a>, <a href=\"/fr/guide-francophone-islande/excursion-privee-cote-sud-islandaise-guide-francophone/\" title= \"Voir notre excursion sur la côte sud islandaise\">Excursion privée sur la Côte Sud Islandaise</a>, ou encore <a href=\"/fr/guide-francophone-islande/peninsule-de-snaefellsnes-avec-guide-francophone/\" title= \"Voir notre excursion sur Snæfellsnes\">Excursion privée sur la péninsule de Snæfellsnes</a>."
 
 form: "https://tally.so/r/wgkK84"
 
@@ -209,7 +210,7 @@ jsonLd:
     - "https://www.lilja-tours.com/pictures/northern-lights/gallery/northern-lights-3-pc.webp"
     - "https://www.lilja-tours.com/pictures/northern-lights/gallery/northern-lights-4-pc.webp"
     - "https://www.lilja-tours.com/pictures/northern-lights/gallery/northern-lights-5-pc.webp"
-  url: "https://www.lilja-tours.com/fr/excursions-en-islande/sortie-privee-aurores-boreales-islande/"
+  url: "https://www.lilja-tours.com/fr/guide-francophone-islande/sortie-privee-aurores-boreales-islande/"
   inLanguage:
     - "fr"
     - "en"
@@ -224,7 +225,7 @@ jsonLd:
     price: "173000"
     priceCurrency: "ISK"
     availability: "https://schema.org/InStock"
-    url: "https://www.lilja-tours.com/fr/excursions-en-islande/sortie-privee-aurores-boreales-islande/"
+    url: "https://www.lilja-tours.com/fr/guide-francophone-islande/sortie-privee-aurores-boreales-islande/"
   provider:
     "@type": "TravelAgency"
     name: "Lilja Tours"

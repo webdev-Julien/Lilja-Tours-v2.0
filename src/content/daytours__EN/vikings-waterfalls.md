@@ -49,10 +49,10 @@ itiCoverImgTitle: "Gjáin"
 
 
 # Links
-linkFr: "/fr/excursions-en-islande/excursion-culturelle-histoire-viking-en-islande"
+linkFr: "/fr/guide-francophone-islande/excursion-culturelle-histoire-viking-en-islande"
 bookVan: ""
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/770519"
-fulllinkFr: "https://www.lilja-tours.com/fr/excursions-en-islande/excursion-culturelle-histoire-viking-en-islande"
+fulllinkFr: "https://www.lilja-tours.com/fr/guide-francophone-islande/excursion-culturelle-histoire-viking-en-islande"
 
 
 # Itinerary
@@ -116,6 +116,7 @@ itiItems: [
     ]
 
 cta: "dive into viking's history amidst incredible landscapes."
+cta2: "For more stunning waterfalls, have a look at our <a href=\"/day-tours-iceland/south-coast/\" title= \"List of south coast tours\">Private South Coast Tours</a>. And to explore the Highlands more in depth, why not going on a <a href=\"/day-tours-iceland/private-hiking-tour-to-the-landmannalaugar/\" title= \"Hiking tour to the Landmannalaugar\">Private Landmannalaugar Hiking Tour</a>."
 # Tour infos
 
 goodToKnow: [
@@ -245,7 +246,7 @@ jsonLd:
     - "https://www.lilja-tours.com/pictures/vikings-waterfalls/gallery/gjain-3-pc.webp"
     - "https://www.lilja-tours.com/pictures/vikings-waterfalls/gallery/ingolf-1-pc.webp"
     - "https://www.lilja-tours.com/pictures/vikings-waterfalls/gallery/haifoss-3-pc.webp"
-  url: "https://www.lilja-tours.com/private-day-tours-iceland/private-cultural-tour-viking-history/"
+  url: "https://www.lilja-tours.com/day-tours-iceland/private-cultural-tour-viking-history/"
   inLanguage:
     - "en"
     - "fr"
@@ -260,7 +261,7 @@ jsonLd:
     price: "190000"
     priceCurrency: "ISK"
     availability: "https://schema.org/InStock"
-    url: "https://www.lilja-tours.com/private-day-tours-iceland/private-cultural-tour-viking-history/"
+    url: "https://www.lilja-tours.com/day-tours-iceland/private-cultural-tour-viking-history/"
   provider:
     "@type": "TravelAgency"
     name: "Lilja Tours"

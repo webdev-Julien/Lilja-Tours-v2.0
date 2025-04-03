@@ -53,10 +53,10 @@ itiCoverImgTitle: "Viðgelmir tunnel de lave"
 
 
 # Links
-linkFr: "/private-day-tours-iceland/silver-circle-private-tour-iceland"
+linkFr: "/day-tours-iceland/silver-circle-private-tour-iceland"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/903385"
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/971111"
-fulllinkFr: "https://www.lilja-tours.com/private-day-tours-iceland/silver-circle-private-tour-iceland"
+fulllinkFr: "https://www.lilja-tours.com/day-tours-iceland/silver-circle-private-tour-iceland"
 
 
 # Itinerary
@@ -105,6 +105,7 @@ itiItems: [
     }]
 
 cta: "découvrez Borgarfjörður !"
+cta2: "Combinez votre excursion au cercle d'argent avec une <a href=\"/fr/guide-francophone-islande/peninsule-de-snaefellsnes-avec-guide-francophone/\" title= \"See our Private tour to the Peninsula of Snæfellsnes\">excursion avec guide francophone sur la péninsule de Snæfellsnes</a> pour faire un circuit sur deux jours. Remplissez notre formulaire si vous recherchez un <a href=\"/fr/circuits/\" title= \"Nos voyages sur mesure\">voyage sur mesure en Islande</a>."
 
 
 # Tour infos
@@ -248,7 +249,7 @@ jsonLd:
     - "https://www.lilja-tours.com/pictures/silver-circle/gallery/borgaf-3-pc.webp"
     - "https://www.lilja-tours.com/pictures/silver-circle/gallery/borgaf-4-pc.webp"
     - "https://www.lilja-tours.com/pictures/silver-circle/gallery/borgaf-5-pc.webp"
-  url: "https://www.lilja-tours.com/fr/excursions-en-islande/cercle-d-argent-islande-borgarfjordur/"
+  url: "https://www.lilja-tours.com/fr/guide-francophone-islande/cercle-d-argent-islande-borgarfjordur/"
   inLanguage:
     - "en"
     - "fr"
@@ -263,7 +264,7 @@ jsonLd:
     price: "169000"
     priceCurrency: "ISK"
     availability: "https://schema.org/InStock"
-    url: "https://www.lilja-tours.com/fr/excursions-en-islande/cercle-d-argent-islande-borgarfjordur/"
+    url: "https://www.lilja-tours.com/fr/guide-francophone-islande/cercle-d-argent-islande-borgarfjordur/"
   provider:
     "@type": "TravelAgency"
     name: "Lilja Tours"

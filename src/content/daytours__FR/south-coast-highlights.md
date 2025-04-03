@@ -53,10 +53,10 @@ itiCoverImgTitle: "Visite guidée de la côte sud islandaise"
 
 
 # Links
-linkFr: "/private-day-tours-iceland/private-south-coast-tour-iceland"
+linkFr: "/day-tours-iceland/private-south-coast-tour-iceland"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753704"
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753708"
-fulllinkFr: "https://www.lilja-tours.com/private-day-tours-iceland/private-south-coast-tour-iceland"
+fulllinkFr: "https://www.lilja-tours.com/day-tours-iceland/private-south-coast-tour-iceland"
 
 
 # Itinerary
@@ -110,6 +110,7 @@ itiItems: [
     ]
 
 cta: "découvrez les joyaux du sud islandais"
+cta2: "Si vous avez 3 jours devant vous et souhaitez découvrir le meilleur de l'Islande, combinez votre excursion sur la côte sud avec ces deux autres: <a href=\"/fr/guide-francophone-islande/excursion-privee-cercle-d-or-experience-culinaire/\" title= \"Voir l'excursion sur le cercle d'or\">Excursion privée sur le cercle d'or</a> and <a href=\"/fr/guide-francophone-islande/peninsule-de-snaefellsnes-avec-guide-francophone/\" title= \"Voir l'excursion sur la péninsule de Snæfellsnes\">Excursion privée sur la péninsule de Snæfellsnes</a>."
 # Tour infos
 
 goodToKnow: [  
@@ -246,7 +247,7 @@ jsonLd:
     - "https://www.lilja-tours.com/pictures/south-coast-highlights/gallery/skogafoss-1-pc.webp"
     - "https://www.lilja-tours.com/pictures/south-coast-highlights/gallery/solheimajokull-1-pc.webp"
     - "https://www.lilja-tours.com/pictures/south-coast-highlights/gallery/seljalandsfoss-3-pc.webp"
-  url: "https://www.lilja-tours.com/fr/excursions-en-islande/excursion-privee-cote-sud-islandaise-guide-francophone/"
+  url: "https://www.lilja-tours.com/fr/guide-francophone-islande/excursion-privee-cote-sud-islandaise-guide-francophone/"
   inLanguage:
     - "en"
     - "fr"
@@ -261,7 +262,7 @@ jsonLd:
     price: "179000"
     priceCurrency: "ISK"
     availability: "https://schema.org/InStock"
-    url: "https://www.lilja-tours.com/fr/excursions-en-islande/excursion-privee-cote-sud-islandaise-guide-francophone/"
+    url: "https://www.lilja-tours.com/fr/guide-francophone-islande/excursion-privee-cote-sud-islandaise-guide-francophone/"
   provider:
     "@type": "TravelAgency"
     name: "Lilja Tours"

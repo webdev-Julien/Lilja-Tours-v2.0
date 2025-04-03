@@ -13,8 +13,8 @@ pageCover:
     title: "Book a 2 hours ATV ride next to Reykjavík",
   }
 
-title1: "ATV ride next to Reykjavík - 2 Hours"
-title2: "Twin Peaks ATV Adventure"
+title1: "2-Hour ATV Ride Near Reykjavík | Twin Peaks Adventure"
+title2: "Twin Peaks ATV Ride | 2-Hour Adventure Near Reykjavík"
 
 tag: ["Adventure tour"]
 
@@ -24,16 +24,16 @@ linkFr: "/fr/a-faire-en-islande/excursion-quad-2-hours-reykjavik/"
 hrefLang: "https://www.lilja-tours.com/fr/a-faire-en-islande/excursion-quad-2-hours-reykjavik/"
 
 url: ""
-pageTitle: "Atv ride - 2 hours tour"
-metaDescription: ""
+pageTitle: "2-Hour ATV Ride Near Reykjavík | Twin Peaks Adventure Tour"
+metaDescription: "Join a 2-hour ATV ride near Reykjavík and conquer Hafrafell and Úlfarsfell peaks. Enjoy stunning 360° views, varied terrains, and expert-guided adventure. Book now!"
 
 filter: "reykjavik"
 filter2: "adv"
 
-slug: atv-ride-2-hours-tour
+slug: atv-ride-iceland-2-hours-tour
 ---
 
-**Just 15 Minutes from the City | Pickup at 13:00 | Available Year-Round**
+**2-Hour ATV ride just 15 Minutes from the City | Pickup at 13:00 | Available Year-Round**
 
 ## **Push Beyond the Usual with This 2-Hour Mountain ATV Tour**
 

@@ -53,10 +53,10 @@ itiCoverImgTitle: "Private South Coast and Glacier Hike - Sólheimajökull"
 
 
 # Links
-linkFr: "/fr/excursions-en-islande/excursion-privee-cote-sud-randonnee-sur-glacier-en-islande"
+linkFr: "/fr/guide-francophone-islande/excursion-privee-cote-sud-randonnee-sur-glacier-en-islande"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753723"
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753724"
-fulllinkFr: "https://www.lilja-tours.com/fr/excursions-en-islande/excursion-privee-cote-sud-randonnee-sur-glacier-en-islande"
+fulllinkFr: "https://www.lilja-tours.com/fr/guide-francophone-islande/excursion-privee-cote-sud-randonnee-sur-glacier-en-islande"
 
 
 # Itinerary
@@ -108,6 +108,7 @@ itiItems: [
     ]
 
 cta: "enjoy a unique mix of adventure and discoveries"
+cta2: "Are you looking for a <a href=\"/day-tours-iceland/private-south-coast-tour-iceland/\" title= \"See our private south coast tour\">Private South Coast Tour</a> without the glacier hike? Or simply the <a href=\"/day-tours-iceland/private-glacier-hike-in-iceland/\" title= \"See our glacier hiking tour in Iceland\">Private Glacier Hike on Sólheimajökull</a> alone?"
 
 # Tour infos
 
@@ -251,7 +252,7 @@ jsonLd:
     - "https://www.lilja-tours.com/pictures/south-coast-glacier-hike/gallery/skogafoss-3-pc.webp"
     - "https://www.lilja-tours.com/pictures/south-coast-glacier-hike/gallery/seljalandsfoss-pc.webp"
     - "https://www.lilja-tours.com/pictures/south-coast-glacier-hike/gallery/skogafoss-2-pc.webp"
-  url: "https://www.lilja-tours.com/private-day-tours-iceland/private-tour-south-coast-glacier-hike/"
+  url: "https://www.lilja-tours.com/day-tours-iceland/private-tour-south-coast-glacier-hike/"
   inLanguage:
     - "en"
     - "fr"
@@ -266,7 +267,7 @@ jsonLd:
     price: "249000"
     priceCurrency: "ISK"
     availability: "https://schema.org/InStock"
-    url: "https://www.lilja-tours.com/private-day-tours-iceland/private-tour-south-coast-glacier-hike/"
+    url: "https://www.lilja-tours.com/day-tours-iceland/private-tour-south-coast-glacier-hike/"
   provider:
     "@type": "TravelAgency"
     name: "Lilja Tours"

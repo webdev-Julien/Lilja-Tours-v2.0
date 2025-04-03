@@ -50,10 +50,10 @@ itiCoverImgTitle: "Glacier Hike"
 
 
 # Links
-linkFr: "/fr/excursions-en-islande/randonnee-guidee-sur-glacier-avec-guide-francophone"
+linkFr: "/fr/guide-francophone-islande/randonnee-guidee-sur-glacier-avec-guide-francophone"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/740991"
 bookJeep: "#"
-fulllinkFr: "https://www.lilja-tours.com/fr/excursions-en-islande/randonnee-guidee-sur-glacier-avec-guide-francophone"
+fulllinkFr: "https://www.lilja-tours.com/fr/guide-francophone-islande/randonnee-guidee-sur-glacier-avec-guide-francophone"
 
 
 # Itinerary
@@ -72,6 +72,10 @@ itiItems: [
     ]
 
 cta: "explore Iceland’s iconic ice formations!"
+cta2: "Looking for more <a href=\"/day-tours-iceland/hiking/\" title= \"See our Private Hiking tours\">private hiking tours</a>? Check our <a href=\"/day-tours-iceland/private-hiking-tour-glymur/\" title= \"See our Hiking tour to Glymur\">Private Hiking Tour to Glymur Waterfall</a> or our <a href=\"/day-tours-iceland/private-hiking-tour-kerlingarfjoll/\" title= \"See our Hiking Tour to Kerlingarfjöll\">Kerlingarfjöll Private Hiking Tour</a>"
+
+
+
 # Tour infos
 
 goodToKnow: [
@@ -202,7 +206,7 @@ jsonLd:
     - "https://www.lilja-tours.com/pictures/glacier-hike/glacier-hike-3-pc.webp"
     - "https://www.lilja-tours.com/pictures/glacier-hike/glacier-hike-4-pc.webp"
     - "https://www.lilja-tours.com/pictures/glacier-hike/glacier-hike-5-pc.webp"
-  url: "https://www.lilja-tours.com/private-day-tours-iceland/private-glacier-hike-in-iceland/"
+  url: "https://www.lilja-tours.com/day-tours-iceland/private-glacier-hike-in-iceland/"
   inLanguage:
     - "en"
     - "fr"
@@ -217,7 +221,7 @@ jsonLd:
     price: "139000"
     priceCurrency: "ISK"
     availability: "https://schema.org/InStock"
-    url: "https://www.lilja-tours.com/private-day-tours-iceland/private-glacier-hike-in-iceland/"
+    url: "https://www.lilja-tours.com/day-tours-iceland/private-glacier-hike-in-iceland/"
   provider:
     "@type": "TravelAgency"
     name: "Lilja Tours"

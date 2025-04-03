@@ -13,8 +13,8 @@ pageCover:
     title: "Book a whale watching tour in Reykjavík",
   }
 
-title1: "Whale watching and sea angling – Reykjavík"
-title2: "Catch some fresh fish and observe the whales of Iceland"
+title1: "Whale Watching & Sea Angling Combo - Reykjavík Adventure"
+title2: "Experience Whale Watching & Sea Angling - Catch Fish & Spot Whales"
 
 tag: ["Whale watching"]
 
@@ -24,8 +24,8 @@ linkFr: "/fr/a-faire-en-islande/observation-baleines-peche-reykjavik"
 hrefLang: "https://www.lilja-tours.com/fr/a-faire-en-islande/observation-baleines-peche-reykjavik/"
 
 url: ""
-pageTitle: "Whale watching and Sea Angling in Reykjavík "
-metaDescription: ""
+pageTitle: "Whale Watching & Sea Angling Tour | Reykjavík Marine Adventure"
+metaDescription: "Join a Whale Watching & Sea Angling tour from Reykjavík. Spot minke whales, humpbacks, and dolphins before catching fresh fish to grill on board. Book now!"
 
 filter: "reykjavik"
 filter2: "ww"

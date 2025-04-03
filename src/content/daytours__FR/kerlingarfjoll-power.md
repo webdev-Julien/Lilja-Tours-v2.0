@@ -49,10 +49,10 @@ itiCoverImgTitle: "Itinéraire de Kerlingarfjöll"
 
 
 # Links
-linkFr: "/private-day-tours-iceland/private-hiking-tour-kerlingarfjoll"
+linkFr: "/day-tours-iceland/private-hiking-tour-kerlingarfjoll"
 bookVan: ""
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/895721"
-fulllinkFr: "https://www.lilja-tours.com/private-day-tours-iceland/private-hiking-tour-kerlingarfjoll"
+fulllinkFr: "https://www.lilja-tours.com/day-tours-iceland/private-hiking-tour-kerlingarfjoll"
 
 
 # Itinerary
@@ -70,6 +70,7 @@ itiItems: [
     ]
 
 cta: "explorez les merveilles des hautes terres islandaises !"
+cta2: "Explorez nos autres excursions dans les hautes-terres islandaises: <a href=\"/fr/guide-francophone-islande/excursion-guidee-landmannalaugar-islande/\" title= \"Voir notre excursion au Landmannalaugar\">Excursion Privée au Landmannalaugar</a> et <a href=\"/fr/guide-francophone-islande/randonnee-avec-guide-francophone-thorsmork-islande/\" title= \"Voir Excursion privée à Þórsmörk\">Excursion privée à Þórsmörk</a>."
 
 
 # Tour infos
@@ -204,7 +205,7 @@ jsonLd:
     - "https://www.lilja-tours.com/pictures/kerlingarfjoll/gallery/kerlingarfjoll-4-pc.webp"
     - "https://www.lilja-tours.com/pictures/kerlingarfjoll/gallery/kerlingarfjoll-5-pc.webp"
   
-  url: "https://www.lilja-tours.com/fr/excursions-en-islande/excursion-avec-guide-francophone-a-kerlingarfjoll/"
+  url: "https://www.lilja-tours.com/fr/guide-francophone-islande/excursion-avec-guide-francophone-a-kerlingarfjoll/"
   inLanguage:
     - "en"
     - "fr"
@@ -219,7 +220,7 @@ jsonLd:
     price: "250000"
     priceCurrency: "ISK"
     availability: "https://schema.org/InStock"
-    url: "https://www.lilja-tours.com/fr/excursions-en-islande/excursion-avec-guide-francophone-a-kerlingarfjoll/"
+    url: "https://www.lilja-tours.com/fr/guide-francophone-islande/excursion-avec-guide-francophone-a-kerlingarfjoll/"
   provider:
     "@type": "TravelAgency"
     name: "Lilja Tours"

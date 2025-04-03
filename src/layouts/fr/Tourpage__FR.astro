@@ -137,11 +137,11 @@ const {
 
         <main>
 
-            <TagNavEN cateLink="/fr/toutes-nos-excursions" home="EXCURSIONS">
+            <TagNavEN cateLink="/fr/toutes-nos-excursions/" home="EXCURSIONS">
                     {
                         taggies.map((tag:any) => (
                             
-                            <li><a href={"/fr/excursions-en-islande/"+tag.toLowerCase()} title={"liste des excursions : "+tag}><button class="tagButton">{tag.charAt(0).toUpperCase() + tag.slice(1).replaceAll("d-or", "d'or").replaceAll("ote", "ôte").replaceAll("island", "Island").replaceAll("ecou", "écou").replaceAll("onnee", "onnée").replaceAll("-", " ")}</button></a></li>
+                            <li><a href={"/fr/guide-francophone-islande/"+tag.toLowerCase()+"/"} title={"liste des excursions : "+tag}><button class="tagButton">{tag.charAt(0).toUpperCase() + tag.slice(1).replaceAll("d-or", "d'or").replaceAll("ote", "ôte").replaceAll("island", "Island").replaceAll("ecou", "écou").replaceAll("onnee", "onnée").replaceAll("-", " ")}</button></a></li>
                         ))
                     }
             </TagNavEN>

@@ -13,8 +13,8 @@ pageCover:
     title: "Book the Hvammsvík Hot Springs with a bus transfer",
   }
 
-title1: "Hvammsvík hot springs – With transfer from Reykjavík"
-title2: "A Natural Gem Just 45 Minutes from Reykjavík"
+title1: "Hvammsvík Hot Springs with Transfer - Relaxation Near Reykjavík"
+title2: "Experience Hvammsvík Hot Springs, a Nature Retreat Near Reykjavík"
 
 tag: ["Hot Spring"]
 
@@ -24,8 +24,8 @@ linkFr: "/fr/a-faire-en-islande/reserver-hvammsvik-avec-transfert-en-bus/"
 hrefLang: "https://www.lilja-tours.com/fr/a-faire-en-islande/reserver-hvammsvik-avec-transfert-en-bus/"
 
 url: ""
-pageTitle: "Hvammsvík Hot Springs and Spa"
-metaDescription: ""
+pageTitle: "Hvammsvík Hot Springs with Transfer | Spa and Nature Experience"
+metaDescription: "Visit Hvammsvík Hot Springs with transfer from Reykjavík. Enjoy geothermal pools, ocean views, and nature relaxation. Discover Iceland’s most scenic hot spring experience!"
 
 filter: "reykjavik"
 filter2: "hotS"

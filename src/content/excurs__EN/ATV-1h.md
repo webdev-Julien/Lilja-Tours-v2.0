@@ -2,19 +2,19 @@
 cardCover:
   {
     src: "/pictures/excursions/atv-tours/1hours-tour-card.webp",
-    alt: "Someone is riding an ATV in deep snow",
+    alt: "ATV Ride in Reykjavík - Someone is riding an ATV in deep snow",
     title: "Book a 1 hours ATV ride next to Reykjavík",
   }
 pageCover:
   {
     srcPC: "/pictures/excursions/atv-tours/1hours-tour-header-pc.webp",
     srcMobile: "/pictures/excursions/atv-tours/1hours-tour-header-mobile.webp",
-    alt: "Someone is riding an ATV in deep snow",
+    alt: "Someone is riding an ATV in Iceland in deep snow",
     title: "Book a 2 hours ATV ride next to Reykjavík",
   }
 
-title1: "ATV ride next to Reykjavík - 1 Hour"
-title2: "Reykjavík Peak ATV Adventure"
+title1: "1-Hour ATV Ride Near Reykjavík | Adventure in Iceland"
+title2: "Reykjavík Peak ATV Ride | 1-Hour Icelandic Adventure"
 
 tag: ["Adventure tour"]
 
@@ -24,16 +24,16 @@ linkFr: "/fr/a-faire-en-islande/excursion-quad-1-hours-reykjavik/"
 hrefLang: "https://www.lilja-tours.com/fr/a-faire-en-islande/excursion-quad-1-hours-reykjavik/"
 
 url: ""
-pageTitle: "Atv ride - 1 hour tour"
-metaDescription: ""
+pageTitle: "1-Hour ATV Ride Near Reykjavík | Icelandic Adventure Tour"
+metaDescription: "Join a thrilling 1-hour ATV ride near Reykjavík. Discover Iceland’s rugged beauty, climb Reykjavík Peak, and enjoy stunning views of Faxaflói Bay, Bláfjöll Mountains, and more. Book your adventure!"
 
 filter: "reykjavik"
 filter2: "adv"
 
-slug: atv-ride-1-hour-tour
+slug: atv-ride-iceland-1-hour-tour
 ---
 
-**Just 15 Minutes from the City | Pickup at 13:00 | Available Year-Round**
+**One hour ATV ride in Iceland just 15 Minutes from the city | Pickup at 13:00 | Available Year-Round**
 
 ## **Push Beyond the Usual with This 2-Hour Mountain ATV Tour**
 

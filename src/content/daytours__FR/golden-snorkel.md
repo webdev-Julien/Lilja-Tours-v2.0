@@ -53,10 +53,10 @@ itiCoverImgTitle: "Cercle d'or et sortie tuba dans Silfra"
 
 
 # Links
-linkFr: "/private-day-tours-iceland/private-golden-circle-tour-and-silfra-snorkel"
+linkFr: "/day-tours-iceland/private-golden-circle-tour-and-silfra-snorkel"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/902694"
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/971139"
-fulllinkFr: "https://www.lilja-tours.com/private-day-tours-iceland/private-golden-circle-tour-and-silfra-snorkel"
+fulllinkFr: "https://www.lilja-tours.com/day-tours-iceland/private-golden-circle-tour-and-silfra-snorkel"
 
 
 # Itinerary
@@ -105,6 +105,7 @@ itiItems: [
     
     ]
 cta: "profitez d'une journée exceptionnelle entre découverte et aventure!"
+cta2: "Envie d'une autre excursion combinant aventure et découverte? Jetez un oeil à notre <a href=\"/fr/guide-francophone-islande/excursion-privee-cote-sud-randonnee-sur-glacier-en-islande/\" title= \"Voir notre excursion côte sud et rando glaciaire\">Excursion privée Côte Sud & Rando Glacier</a>."
 
 
 # Tour infos
@@ -113,7 +114,8 @@ goodToKnow: [
   "1 km de marche sur un terrain plat",
   "1 km de marche sur un terrain facile, avec quelques marches",
   "L'activité de snorkeling nécessite d'être en bonne condition physique",
-  "Les personnes de plus de 60 ans devront fournir un certificat médical avant de participer."
+  "Les personnes de plus de 60 ans devront fournir un certificat médical avant de participer.",
+  "L'excursion dans Silfra se fait en groupe, et est guidée en anglais"
 ]
 
 WhatToBring: [
@@ -246,7 +248,7 @@ jsonLd:
     - "https://www.lilja-tours.com/pictures/golden-circle-snorkeling/gallery/golden-snorkel-3-pc.webp"
     - "https://www.lilja-tours.com/pictures/golden-circle-snorkeling/gallery/golden-snorkel-4-pc.webp"
     - "https://www.lilja-tours.com/pictures/golden-circle-snorkeling/gallery/golden-snorkel-5-pc.webp"
-  url: "https://www.lilja-tours.com/fr/excursions-en-islande/excursion-cercle-d-or-et-silfra/"
+  url: "https://www.lilja-tours.com/fr/guide-francophone-islande/excursion-cercle-d-or-et-silfra/"
   inLanguage:
     - "en"
     - "fr"
@@ -261,7 +263,7 @@ jsonLd:
     price: "179000"
     priceCurrency: "ISK"
     availability: "https://schema.org/InStock"
-    url: "https://www.lilja-tours.com/fr/excursions-en-islande/excursion-cercle-d-or-et-silfra/"
+    url: "https://www.lilja-tours.com/fr/guide-francophone-islande/excursion-cercle-d-or-et-silfra/"
   provider:
     "@type": "TravelAgency"
     name: "Lilja Tours"

@@ -14,7 +14,7 @@ pageCover:
   }
 
 title1: "Whale watching cruise – Reykjavík"
-title2: "Observe the giants of the sea in their natural habitat"
+title2: "Experience Whale Watching in Reykjavík - See Giants of the Sea"
 
 tag: ["Whale watching"]
 
@@ -24,8 +24,8 @@ linkFr: "/fr/a-faire-en-islande/observation-baleines-reykjavik"
 hrefLang: "https://www.lilja-tours.com/fr/a-faire-en-islande/observation-baleines-reykjavik/"
 
 url: ""
-pageTitle: "Whale watching in Reykjavík "
-metaDescription: ""
+pageTitle: "Whale Watching in Reykjavík | Classic & Express Cruises"
+metaDescription: "Join a whale watching cruise in Reykjavík. Choose between Classic & Express tours to spot minke whales, humpbacks, and dolphins. Book your marine adventure today!"
 
 filter: "reykjavik"
 filter2: "ww"
@@ -81,5 +81,3 @@ Explore the ocean like never before—whether you're here for calm waters or a p
 <script type="text/javascript" src="https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=97236c68-b945-4a96-8587-660bdc4c45fd" async></script>
 
 <div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/20499"></div>
-
-

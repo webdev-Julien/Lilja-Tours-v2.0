@@ -1,23 +1,63 @@
-Opti: 
-
-EN:
-
-NL, LMLG, KLG, GH, GLYM, GCE, GCFV, GSKL, RKNS, BORG, SN, SCGH, SC, SCVT, THMK, VW, WI
-
-FR:
-
-NL, LMLG, KLG, GH, GLYM, GCE, GCFV, GSKL, RKNS, BORG, SN, SCGH, SC, SCVT, THMK, VW, WI
-
----
-Do CTA2 after all tours are done.
-
-Do a thorough check of URL with new slugs: LinkFr, Url, JsonLD-Url in all frontmatters.
-
-Implement redirect in .htaccess
+Finish all this optimisation before pushing site online again
+When pushing site, make sure to first delete old site (so some older pages are not accessible)
 
 
 Then do index requests on GSC keeping in mind that only 10 requests can be done in one day. Also request removal of old urls
 
-Finish all this optimisation before pushing site online again
 
-When pushing site, make sure to first delete old site (so some older pages are not accessible)
+
+<a href=\"\" title= \"\">^
+
+
+https://www.lilja-tours.com/private-day-tours-iceland/glacier-hike-iceland/
+https://www.lilja-tours.com/private-day-tours-iceland/private-tour-glymur-hike/
+https://www.lilja-tours.com/private-day-tours-iceland/golden-circle-essentials/
+https://www.lilja-tours.com/private-day-tours-iceland/kerlingarfjoll-power-hiking-tour/
+https://www.lilja-tours.com/private-day-tours-iceland/golden-circle-culinary-experience/
+https://www.lilja-tours.com/private-day-tours-iceland/northern-lights-iceland/
+https://www.lilja-tours.com/private-day-tours-iceland/reykjanes-colors/
+https://www.lilja-tours.com/private-day-tours-iceland/snaefellsnes-wonders/
+https://www.lilja-tours.com/private-day-tours-iceland/south-coast-glacier-hike/
+https://www.lilja-tours.com/private-day-tours-iceland/spectacular-landmannalaugar/
+https://www.lilja-tours.com/private-day-tours-iceland/south-coast-highlights/
+https://www.lilja-tours.com/private-day-tours-iceland/thorsmork-hiking-tour/
+https://www.lilja-tours.com/private-day-tours-iceland/vikings-waterfalls/
+https://www.lilja-tours.com/private-day-tours-iceland/westman-islands/
+https://www.lilja-tours.com/private-day-tours-iceland/golden-circle-snorkel-silfra/
+https://www.lilja-tours.com/private-day-tours-iceland/borgarfjordur-silver-circle/
+https://www.lilja-tours.com/private-day-tours-iceland/south-coast-lava-center-lava-show/
+https://www.lilja-tours.com/fr/excursions-en-islande/marche-sur-glacier-en-islande/
+https://www.lilja-tours.com/fr/excursions-en-islande/randonnee-guidee-glymur-islande/
+https://www.lilja-tours.com/fr/excursions-en-islande/cercle-d-or-experience-culinaire/
+https://www.lilja-tours.com/fr/excursions-en-islande/cercle-d-or-essentiels/
+https://www.lilja-tours.com/fr/excursions-en-islande/randonnee-a-kerlingarfjoll/
+https://www.lilja-tours.com/fr/excursions-en-islande/couleurs-peninsule-reykjanes/
+https://www.lilja-tours.com/fr/excursions-en-islande/sortie-privee-aurores-boreales-islande/
+https://www.lilja-tours.com/fr/excursions-en-islande/merveilles-de-la-peninsule-de-snaefellsnes/
+https://www.lilja-tours.com/fr/excursions-en-islande/cote-sud-rando-glacier-islande/
+https://www.lilja-tours.com/fr/excursions-en-islande/haut-lieux-cote-sud-islandaise/
+https://www.lilja-tours.com/fr/excursions-en-islande/spectaculaire-landmannalaugar/
+https://www.lilja-tours.com/fr/excursions-en-islande/beaute-thorsmork-islande-randonnee/
+https://www.lilja-tours.com/fr/excursions-en-islande/vikings-et-cascades-islande/
+https://www.lilja-tours.com/fr/excursions-en-islande/iles-westman/
+https://www.lilja-tours.com/fr/excursions-en-islande/cercle-d-or-tuba-silfra-plongee/
+https://www.lilja-tours.com/fr/excursions-en-islande/cercle-d-argent-islande-borgarfjordur/
+https://www.lilja-tours.com/fr/excursions-en-islande/cote-sud-contes-volcaniques-islande/
+https://www.lilja-tours.com/private-day-tours-iceland/golden-circle/
+https://www.lilja-tours.com/private-day-tours-iceland/reykjavik/
+https://www.lilja-tours.com/private-day-tours-iceland/highlands/
+https://www.lilja-tours.com/private-day-tours-iceland/west-iceland/
+https://www.lilja-tours.com/private-day-tours-iceland/south-coast/
+https://www.lilja-tours.com/private-day-tours-iceland/sightseeing/
+https://www.lilja-tours.com/private-day-tours-iceland/adventure/
+https://www.lilja-tours.com/private-day-tours-iceland/hiking/
+https://www.lilja-tours.com/private-day-tours-iceland/jeep-only/
+https://www.lilja-tours.com/fr/excursions-en-islande/cercle-d-or/
+https://www.lilja-tours.com/fr/excursions-en-islande/reykjavik/
+https://www.lilja-tours.com/fr/excursions-en-islande/hautes-terres/
+https://www.lilja-tours.com/fr/excursions-en-islande/ouest-islandais/
+https://www.lilja-tours.com/fr/excursions-en-islande/cote-sud/
+https://www.lilja-tours.com/fr/excursions-en-islande/decouverte/
+https://www.lilja-tours.com/fr/excursions-en-islande/aventure/
+https://www.lilja-tours.com/fr/excursions-en-islande/randonnee/
+https://www.lilja-tours.com/fr/excursions-en-islande/4x4/

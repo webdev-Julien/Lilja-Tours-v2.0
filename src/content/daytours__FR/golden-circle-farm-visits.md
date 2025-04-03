@@ -53,10 +53,10 @@ itiCoverImgTitle: "Gullfoss"
 
 
 # Links
-linkFr: "/private-day-tours-iceland/private-golden-circle-tour-iceland"
+linkFr: "/day-tours-iceland/private-golden-circle-tour-iceland"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753715"
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753717"
-fulllinkFr: "https://www.lilja-tours.com/private-day-tours-iceland/private-golden-circle-tour-iceland"
+fulllinkFr: "https://www.lilja-tours.com/day-tours-iceland/private-golden-circle-tour-iceland"
 
 
 # Itinerary
@@ -126,6 +126,7 @@ itiItems: [
     }]
 
 cta: "vivez une aventure gastronomique en Islande !"
+cta2: "Pour vous focaliser sur les essentiels du cercle d'or, jetez un oeil à notre <a href=\"/fr/guide-francophone-islande/cercle-d-or-avec-guide-francophone-essentiels/\" title= \"Voir les essentiels du cercle d'Or\">excursion privée aux essentiels du Cercle d'Or</a> et pour un zeste d'aventure, regardez notre <a href=\"/fr/guide-francophone-islande/excursion-cercle-d-or-et-silfra/\" title= \"Voir le tour cercle d'or et Silfra\">excursion privée Cercle d'Or et tuba dans Silfra</a>!"
 # Tour infos
 
 goodToKnow: [
@@ -260,7 +261,7 @@ jsonLd:
     - "https://www.lilja-tours.com/pictures/golden-circle-farm-visits/gallery/gullfoss-2-pc.webp"
     - "https://www.lilja-tours.com/pictures/golden-circle-farm-visits/gallery/fridheimar-2-pc.webp"
     - "https://www.lilja-tours.com/pictures/golden-circle-farm-visits/gallery/oxararfoss-1-pc.webp"
-  url: "https://www.lilja-tours.com/fr/excursions-en-islande/excursion-privee-cercle-d-or-experience-culinaire/"
+  url: "https://www.lilja-tours.com/fr/guide-francophone-islande/excursion-privee-cercle-d-or-experience-culinaire/"
   inLanguage:
     - "en"
     - "fr"
@@ -275,7 +276,7 @@ jsonLd:
     price: "179000"
     priceCurrency: "ISK"
     availability: "https://schema.org/InStock"
-    url: "https://www.lilja-tours.com/fr/excursions-en-islande/excursion-privee-cercle-d-or-experience-culinaire/"
+    url: "https://www.lilja-tours.com/fr/guide-francophone-islande/excursion-privee-cercle-d-or-experience-culinaire/"
   provider:
     "@type": "TravelAgency"
     name: "Lilja Tours"

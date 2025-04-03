@@ -49,10 +49,10 @@ itiCoverImgTitle: "Landmannalaugar itinerary"
 
 
 # Links
-linkFr: "/fr/excursions-en-islande/excursion-guidee-landmannalaugar"
+linkFr: "/fr/guide-francophone-islande/excursion-guidee-landmannalaugar-islande"
 bookVan: ""
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/751054"
-fulllinkFr: "https://www.lilja-tours.com/fr/excursions-en-islande/excursion-guidee-landmannalaugar"
+fulllinkFr: "https://www.lilja-tours.com/fr/guide-francophone-islande/excursion-guidee-landmannalaugar-islande"
 
 
 # Itinerary
@@ -89,6 +89,7 @@ itiItems: [
     ]
 
 cta: "experience the breathtaking Icelandic highlands like never before!"
+cta2: "More iconic tours in the Icelandic Highlands with our <a href=\"/day-tours-iceland/private-hiking-tour-in-thorsmork/\" title= \"Private Tour to Þórsmörk\">Private Hiking Tour in Þórsmörk</a>, or <a href=\"/day-tours-iceland/private-hiking-tour-kerlingarfjoll/\" title= \"Private tour to Kerlingarfjöll\">Kerlingarfjöll Luxury Private Hiking Tour</a>."
 
 
 # Tour infos
@@ -225,7 +226,7 @@ jsonLd: {
     "https://www.lilja-tours.com/pictures/landmannalaugar/gallery/landmannalaugar-4-pc.webp",
     "https://www.lilja-tours.com/pictures/landmannalaugar/gallery/landmannalaugar-5-pc.webp"
   ],
-  "url": "https://www.lilja-tours.com/private-day-tours-iceland/private-hiking-tour-to-the-landmannalaugar/",
+  "url": "https://www.lilja-tours.com/day-tours-iceland/private-hiking-tour-to-the-landmannalaugar/",
   "inLanguage": [
     "en",
     "fr"
@@ -243,7 +244,7 @@ jsonLd: {
     "price": "250000",
     "priceCurrency": "ISK",
     "availability": "https://schema.org/InStock",
-    "url": "https://www.lilja-tours.com/private-day-tours-iceland/private-hiking-tour-to-the-landmannalaugar/"
+    "url": "https://www.lilja-tours.com/day-tours-iceland/private-hiking-tour-to-the-landmannalaugar/"
   },
   "provider": {
     "@type": "TravelAgency",

@@ -53,10 +53,10 @@ itiCoverImgTitle: "Private Golden Circle Tour and Silfra Snorkeling"
 
 
 # Links
-linkFr: "/fr/excursions-en-islande/excursion-cercle-d-or-et-silfra"
+linkFr: "/fr/guide-francophone-islande/excursion-cercle-d-or-et-silfra"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/902694"
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/971139"
-fulllinkFr: "https://www.lilja-tours.com/fr/excursions-en-islande/excursion-cercle-d-or-et-silfra"
+fulllinkFr: "https://www.lilja-tours.com/fr/guide-francophone-islande/excursion-cercle-d-or-et-silfra"
 
 
 # Itinerary
@@ -201,6 +201,7 @@ title: "The Golden Snorkel: Gullfoss"
 }]
 
 cta: "enjoy a day full of adventures"
+cta2: "Looking for another tour mixing sightseeing and adventure? See our <a href=\"/day-tours-iceland/private-tour-south-coast-glacier-hike/\" title= \"See our South Coast and Glacier Hike Tour\">Private Tour South Coast & Glacier Hike</a>!"
 # Card
 
 tags: ["golden-circle","sightseeing","adventure"]
@@ -247,7 +248,7 @@ jsonLd:
     - "https://www.lilja-tours.com/pictures/golden-circle-snorkeling/gallery/golden-snorkel-3-pc.webp"
     - "https://www.lilja-tours.com/pictures/golden-circle-snorkeling/gallery/golden-snorkel-4-pc.webp"
     - "https://www.lilja-tours.com/pictures/golden-circle-snorkeling/gallery/golden-snorkel-5-pc.webp"
-  url: "https://www.lilja-tours.com/private-day-tours-iceland/private-golden-circle-tour-and-silfra-snorkel/"
+  url: "https://www.lilja-tours.com/day-tours-iceland/private-golden-circle-tour-and-silfra-snorkel/"
   inLanguage:
     - "en"
     - "fr"
@@ -262,7 +263,7 @@ jsonLd:
     price: "179000"
     priceCurrency: "ISK"
     availability: "https://schema.org/InStock"
-    url: "https://www.lilja-tours.com/private-day-tours-iceland/private-golden-circle-tour-and-silfra-snorkel/"
+    url: "https://www.lilja-tours.com/day-tours-iceland/private-golden-circle-tour-and-silfra-snorkel/"
   provider:
     "@type": "TravelAgency"
     name: "Lilja Tours"

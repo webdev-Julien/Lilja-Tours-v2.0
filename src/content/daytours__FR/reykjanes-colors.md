@@ -53,10 +53,10 @@ itiCoverImgTitle: "Excursion privée sur la péninsule de Reykjanes"
 
 
 # Links
-linkFr: "/private-day-tours-iceland/private-tour-reykjanes-peninsula-iceland"
+linkFr: "/day-tours-iceland/private-tour-reykjanes-peninsula-iceland"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/796567"
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/796870"
-fulllinkFr: "https://www.lilja-tours.com/private-day-tours-iceland/private-tour-reykjanes-peninsula-iceland"
+fulllinkFr: "https://www.lilja-tours.com/day-tours-iceland/private-tour-reykjanes-peninsula-iceland"
 
 
 # Itinerary
@@ -100,6 +100,7 @@ itiItems: [
     ]
 
 cta: " explorez les merveilles volcaniques !"
+cta2: "Pour une autre excursion de 6 heures seulement, nous proposons une <a href=\"/fr/guide-francophone-islande/cercle-d-or-avec-guide-francophone-essentiels/\" title= \"Notre excursion sur le cercle d'or\">Excursion privée sur le cercle d'or</a> focalisée sur les sites essentiels. Pour explorer une autre région volcanique, jetez un oeil à notre <a href=\"/fr/guide-francophone-islande/peninsule-de-snaefellsnes-avec-guide-francophone/\" title= \"Découvrez notre excursion sur Snæfellsnes\">Visite privée de la péninsule de Snæfellsnes</a>."
 # Tour infos
 
 goodToKnow: [  
@@ -238,7 +239,7 @@ jsonLd:
     - "https://www.lilja-tours.com/pictures/reykjanes-colors/gallery/reykjanes-2-pc.webp"
     - "https://www.lilja-tours.com/pictures/reykjanes-colors/gallery/seltun-1-pc.webp"
     - "https://www.lilja-tours.com/pictures/reykjanes-colors/gallery/stampar-1-pc.webp"
-  url: "https://www.lilja-tours.com/fr/excursions-en-islande/couleurs-peninsule-reykjanes/"
+  url: "https://www.lilja-tours.com/fr/guide-francophone-islande/couleurs-peninsule-reykjanes/"
   inLanguage:
     - "en"
     - "fr"
@@ -253,7 +254,7 @@ jsonLd:
     price: "159000"
     priceCurrency: "ISK"
     availability: "https://schema.org/InStock"
-    url: "https://www.lilja-tours.com/fr/excursions-en-islande/couleurs-peninsule-reykjanes/"
+    url: "https://www.lilja-tours.com/fr/guide-francophone-islande/couleurs-peninsule-reykjanes/"
   provider:
     "@type": "TravelAgency"
     name: "Lilja Tours"

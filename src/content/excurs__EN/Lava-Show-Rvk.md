@@ -13,8 +13,8 @@ pageCover:
     title: "Book the Lava Show in Reykjavík",
   }
 
-title1: "LAVA SHOW (Reykjavík) – Feel the Heat!"
-title2: "The World’s Only Live Lava Experience"
+title1: "Lava Show in Reykjavík - Live Molten Lava Experience"
+title2: "Experience Real Molten Lava | Unique Show in Reykjavík"
 
 tag: ["Cultural Experience"]
 
@@ -24,8 +24,8 @@ linkFr: "/fr/a-faire-en-islande/le-lava-show-reykjavik"
 hrefLang: "https://www.lilja-tours.com/fr/a-faire-en-islande/le-lava-show-reykjavik"
 
 url: ""
-pageTitle: "The Lava Show in Reykjavík "
-metaDescription: ""
+pageTitle: "Lava Show in Reykjavík | Live Molten Lava Experience"
+metaDescription: "Join the Lava Falls Adventure Tour and explore Raufarhólshellir, one of Iceland’s longest lava tunnels. Traverse rugged terrain, see rare lava falls, and experience true underground exploration. Book now!"
 
 filter: "reykjavik"
 filter2: "culture"
@@ -33,7 +33,7 @@ filter2: "culture"
 slug: the-lava-show-reykjavik
 ---
 
-Watching **real, flowing lava** up close is on many people's bucket lists, but active volcanoes are both unpredictable and dangerous. When eruptions happen, it’s nearly impossible to get close to **red-hot molten rock**—until now.
+In the Lava Show in Reykjavík, you can watch **real, flowing lava** up close in a controlled environment, as active volcanoes are both unpredictable and dangerous. When eruptions happen, it’s nearly impossible to get close to **red-hot molten rock**—until now.
 
 At **LAVA SHOW**, we bring this thrilling experience to you in a **safe, controlled environment**. By superheating real lava and pouring it into the showroom, you can **see, hear, smell, and feel the heat of molten lava just a few feet away!**
 
@@ -86,5 +86,3 @@ At **LAVA SHOW**, we bring this thrilling experience to you in a **safe, control
 <script type="text/javascript" src="https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=97236c68-b945-4a96-8587-660bdc4c45fd" async></script>
 
 <div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/703861"></div>
-
-

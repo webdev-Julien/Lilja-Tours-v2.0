@@ -53,10 +53,10 @@ itiCoverImgTitle: "Gullfoss"
 
 
 # Links
-linkFr: "/private-day-tours-iceland/private-tour-golden-circle-essentials-iceland"
+linkFr: "/day-tours-iceland/private-tour-golden-circle-essentials-iceland"
 bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753710"
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753711"
-fulllinkFr: "https://www.lilja-tours.com//private-day-tours-iceland/private-tour-golden-circle-essentials-iceland"
+fulllinkFr: "https://www.lilja-tours.com//day-tours-iceland/private-tour-golden-circle-essentials-iceland"
 
 
 # Itinerary
@@ -185,6 +185,7 @@ title: "Les essentiels du cercle d'or: Gullfoss"
 }]
 
 cta: "explorez les merveilles de l'Islande !"
+cta2: "Nous offrons une large sélection d' <a href=\"/fr/guide-francophone-islande/cercle-d-or/\" title= \"Nos excursions au cercle d'or\">excursions au cercle d'or</a> et <a href=\"/fr/guide-francophone-islande/decouverte/\" title= \"Nos excursions découverte\">excursions de découverte</a>. N'hésitez pas à y jeter un oeil!"
 
 # Card
 
@@ -232,7 +233,7 @@ jsonLd:
     - "https://www.lilja-tours.com/pictures/golden-circle-essentials/gallery/Thingvellir-2-pc.webp"
     - "https://www.lilja-tours.com/pictures/golden-circle-essentials/gallery/gullfoss-1-pc.webp"
     - "https://www.lilja-tours.com/pictures/golden-circle-essentials/gallery/geysir-1-pc.webp"
-  url: "https://www.lilja-tours.com/fr/excursions-en-islande/cercle-d-or-avec-guide-francophone-essentiels/"
+  url: "https://www.lilja-tours.com/fr/guide-francophone-islande/cercle-d-or-avec-guide-francophone-essentiels/"
   inLanguage:
     - "en"
     - "fr"
@@ -247,7 +248,7 @@ jsonLd:
     price: "159000"
     priceCurrency: "ISK"
     availability: "https://schema.org/InStock"
-    url: "https://www.lilja-tours.com/fr/excursions-en-islande/cercle-d-or-avec-guide-francophone-essentiels/"
+    url: "https://www.lilja-tours.com/fr/guide-francophone-islande/cercle-d-or-avec-guide-francophone-essentiels/"
   provider:
     "@type": "TravelAgency"
     name: "Lilja Tours"

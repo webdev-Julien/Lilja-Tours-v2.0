@@ -47,7 +47,7 @@ interface Props {
 
     </div>
     <div class="textInfos">
-        <a href={"/fr/excursions-en-islande/"+tour.slug+"/"} title="voir la page" class="tourLink"><h3>{tour.data.cardTitle}</h3>
+        <a href={"/fr/guide-francophone-islande/"+tour.slug+"/"} title="voir la page" class="tourLink"><h3>{tour.data.cardTitle}</h3>
             <div class="rates">
                 <p class="startingFrom">A partir de:</p>
                 <p class="rateISK">{tour.data.jeepISK} ISK <span class="vehicle">/véhicule</span></p>
@@ -56,7 +56,7 @@ interface Props {
             <div class="tags">
                 {
                     tour.data.tags.map((tag:any) => (
-                    <button><a href={"/fr/excursions-en-islande/"+tag.toLowerCase()+"/"} title={"list of "+tag}>{tag.charAt(0).toUpperCase() + tag.slice(1).replaceAll("d-or", "d'or").replaceAll("ote", "ôte").replaceAll("island", "Island").replaceAll("ecou", "écou").replaceAll("onnee", "onnée").replaceAll("-", " ").replaceAll("vik", "vík")}</a></button>
+                    <button><a href={"/fr/guide-francophone-islande/"+tag.toLowerCase()+"/"} title={"list of "+tag}>{tag.charAt(0).toUpperCase() + tag.slice(1).replaceAll("d-or", "d'or").replaceAll("ote", "ôte").replaceAll("island", "Island").replaceAll("ecou", "écou").replaceAll("onnee", "onnée").replaceAll("-", " ").replaceAll("vik", "vík")}</a></button>
                     ))
                 }
             </div>

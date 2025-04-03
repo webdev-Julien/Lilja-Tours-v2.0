@@ -13,8 +13,8 @@ pageCover:
     title: "Book a small group tour to the Snæfellsnes Peninsula in Iceland",
   }
 
-title1: "Snæfellsnes peninsula and farm lunch - Small group tour"
-title2: "Explore the land that we call Iceland in miniature"
+title1: "Snæfellsnes Peninsula Small Group Tour - Farm Lunch Included"
+title2: "Snæfellsnes Peninsula: Iceland in Miniature - Small Group Experience"
 
 tag: ["Small group tour"]
 
@@ -24,18 +24,18 @@ linkFr: "/fr/a-faire-en-islande/peninsule-snaefellsnes-minibus/"
 hrefLang: "https://www.lilja-tours.com/fr/a-faire-en-islande/peninsule-snaefellsnes-minibus/"
 
 url: ""
-pageTitle: "Snæfellsnes peninsula tour in small group"
-metaDescription: ""
+pageTitle: "Snæfellsnes Peninsula Small Group Tour | Iconic Iceland Day Trip"
+metaDescription: "Discover the Snæfellsnes Peninsula on a small group tour. Visit Kirkjufell, Snæfellsjökull Glacier, Djupalonssandur Beach, and more. Includes a farm lunch. Book now!"
 
 filter: "reykjavik"
 filter2: "bus"
 
-slug: snaefellsnes-peninsula-tour-iceland
+slug: snaefellsnes-peninsula-tour-small-group-tour-iceland
 ---
 
 ## **Explore “Iceland in Miniature” on an Epic Day Tour**
 
-Step into a world where glaciers, lava fields, black sand beaches, and ancient fishing villages meet in perfect harmony. Often called _Iceland in Miniature_, the Snæfellsnes Peninsula offers a bit of everything that makes this island unforgettable — all in one captivating region.
+Step into the Snæfellsnes Peninsula, a world where glaciers, lava fields, black sand beaches, and ancient fishing villages meet in perfect harmony. Often called _Iceland in Miniature_, the Snæfellsnes Peninsula offers a bit of everything that makes this island unforgettable — all in one captivating region.
 
 Join our full-day tour to discover the wild beauty and rich folklore of this extraordinary land. Travel in comfort, enjoy a home-cooked meal, and let our expert guides bring the landscape to life with stories from history, mythology, and geology.
 

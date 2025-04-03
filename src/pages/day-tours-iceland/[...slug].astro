@@ -1,14 +1,14 @@
 ---
-import "../../../styles/style.css"
+import "../../styles/style.css"
 
-import TourpageFR from "../../../layouts/fr/Tourpage__FR.astro";
+import TourpageEN from "../../layouts/Tourpage__EN.astro";
 
 import { getCollection } from "astro:content";
 import type { CollectionEntry } from "astro:content";
 
 export async function getStaticPaths() {
-    const daytours__FR: CollectionEntry<"daytours__FR">[] = await getCollection("daytours__FR")
-    return daytours__FR.map(entry => ({
+    const daytours__EN: CollectionEntry<"daytours__EN">[] = await getCollection("daytours__EN")
+    return daytours__EN.map(entry => ({
         params: {
             slug: entry.slug
         },
@@ -18,13 +18,13 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props
 ---
-<TourpageFR
+<TourpageEN
 
 language={entry.data.language}
 description={entry.data.description}
 ogTitle={entry.data.ogTitle}
 ogImage={entry.data.ogImage}
-url={"https://www.lilja-tours.com/fr/excursions-en-islande/"+entry.slug+"/"}
+url={"https://www.lilja-tours.com/day-tours-iceland/"+entry.slug+"/"}
 pageTitle={entry.data.pageTitle}
 headerCoverSrcMobile={entry.data.headerCoverSrcMobile}
 headerCoverSrcPC={entry.data.headerCoverSrcPC}
@@ -52,6 +52,11 @@ vehicles={entry.data.vehicles}
 form={entry.data.form}
 fulllinkFr={entry.data.fulllinkFr+"/"}
 taggies={entry.data.tags}
+jsonLd={entry.data.jsonLd}
 cta={entry.data.cta}
 cta2={entry.data.cta2}
-></TourpageFR>
+
+>
+
+
+</TourpageEN>

@@ -13,8 +13,8 @@ pageCover:
     title: "Book a small group tour to the golden circle in Iceland",
   }
 
-title1: "Golden Circle and farm lunch - Small group tour"
-title2: "Uncover the Magic of Iceland’s Iconic Route"
+title1: "Golden Circle Small Group Tour with Farm Lunch"
+title2: "Golden Circle Adventure | Small Group Tour in Iceland"
 
 tag: ["Small group tour"]
 
@@ -24,16 +24,16 @@ linkFr: "/fr/a-faire-en-islande/cercle-d-or-minibus/"
 hrefLang: "https://www.lilja-tours.com/fr/a-faire-en-islande/cercle-d-or-minibus/"
 
 url: ""
-pageTitle: "Golden Circle tour in small group"
-metaDescription: ""
+pageTitle: "Golden Circle Small Group Tour | Farm Lunch & Iconic Sights"
+metaDescription: "Join a Golden Circle small group tour and discover Þingvellir National Park, Gullfoss Waterfall, Geysir, and a farm lunch at Fridheimar. Book your adventure today!"
 
 filter: "reykjavik"
 filter2: "bus"
 
-slug: golden-circle-tour-iceland
+slug: golden-circle-small-group-tour-iceland
 ---
 
-Embark on an unforgettable journey through Iceland’s famed Golden Circle — a route rich with stunning landscapes, geological marvels, and cultural heritage. From the dramatic rift valley of Þingvellir to erupting geysers, cascading waterfalls, and charming farm stops, this tour offers the perfect mix of nature, history, and local flavor.
+Embark on an unforgettable journey through Iceland’s famed Golden Circle Small Group Tour with Farm Lunch — a route rich with stunning landscapes, geological marvels, and cultural heritage. From the dramatic rift valley of Þingvellir to erupting geysers, cascading waterfalls, and charming farm stops, this tour offers the perfect mix of nature, history, and local flavor.
 
 ## **Tour Highlights**
 

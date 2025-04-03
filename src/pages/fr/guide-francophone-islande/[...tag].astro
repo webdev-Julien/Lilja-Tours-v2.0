@@ -45,7 +45,7 @@ const taggy = tag.charAt(0).toUpperCase() + tag.slice(1).replaceAll("d-or", "d'o
         />
 
        <link rel="alternate" hreflang="en" href={
-       "https://www.lilja-tours.com/private-day-tours-iceland/"+tag
+       "https://www.lilja-tours.com/day-tours-iceland/"+tag
        .replaceAll("cercle-d-or", "golden-circle")
        .replaceAll("cote-sud","south-coast")
        .replaceAll("hautes-terres","highlands")
@@ -55,14 +55,25 @@ const taggy = tag.charAt(0).toUpperCase() + tag.slice(1).replaceAll("d-or", "d'o
        .replaceAll("randonnee","hiking")
        .replaceAll("4x4","jeep-only")
        +"/"}/>
-       <link rel="canonical" href={"https://www.lilja-tours.com/fr/excursions-en-islande/"+tag+"/"} />
+              <link rel="alternate" hreflang="fr" href={
+                "https://www.lilja-tours.com/fr/guide-francophone-islande/"+tag
+                .replaceAll("golden-circle", "cercle-d-or")
+                    .replaceAll("south-coast","cote-sud")
+                    .replaceAll("highlands","hautes-terres")
+                    .replaceAll("west-iceland","ouest-islandais")
+                    .replaceAll("sightseeing","decouverte")
+                    .replaceAll("adventure", "aventure")
+                    .replaceAll("hiking","randonnee")
+                    .replaceAll("jeep-only","4x4")
+                +"/"}/>
+       <link rel="canonical" href={"https://www.lilja-tours.com/fr/guide-francophone-islande/"+tag+"/"} />
        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 
 
         <meta property="og:title" content={"Excursions: "+taggy+" avec guide privé francophone"}>
         <meta property="og:type" content="website">
         <meta property="og:image" content={"/pictures/list-all-tours/excursions-journee-tags/"+tag+"-pc.webp"}>
-        <meta property="og:url" content={"https://www.lilja-tours.com/fr/excursions-en-islande/"+tag}>
+        <meta property="og:url" content={"https://www.lilja-tours.com/fr/guide-francophone-islande/"+tag}>
         <meta property="og:description" content={"Toutes nos excursions privatives: "+taggy+" réservez maintenant!"}>
 
         <meta property="og:locale" content="fr_FR">
@@ -79,7 +90,7 @@ const taggy = tag.charAt(0).toUpperCase() + tag.slice(1).replaceAll("d-or", "d'o
 
     <header class="header">
         <TopBar linkfr={
-            "/private-day-tours-iceland/"+tag
+            "/day-tours-iceland/"+tag
             .replaceAll("cercle-d-or", "golden-circle")
             .replaceAll("cote-sud","south-coast")
             .replaceAll("hautes-terres","highlands")

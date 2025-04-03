@@ -49,10 +49,10 @@ itiCoverImgTitle: "Thormsork itinerary"
 
 
 # Links
-linkFr: "/fr/excursions-en-islande/randonnee-avec-guide-francophone-thorsmork-islande"
+linkFr: "/fr/guide-francophone-islande/randonnee-avec-guide-francophone-thorsmork-islande"
 bookVan: ""
 bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/783279"
-fulllinkFr: "https://www.lilja-tours.com/fr/excursions-en-islande/randonnee-avec-guide-francophone-thorsmork-islande"
+fulllinkFr: "https://www.lilja-tours.com/fr/guide-francophone-islande/randonnee-avec-guide-francophone-thorsmork-islande"
 
 
 # Itinerary
@@ -90,6 +90,7 @@ itiItems: [
     ]
 
 cta: "enjoy a day to forever remember!"
+cta2: "The Highlands can't wait! Have a look at some of our <a href=\"/day-tours-iceland/hiking/\" title= \"List of hiking tours\">best hiking tours</a>: <a href=\"/day-tours-iceland/private-hiking-tour-kerlingarfjoll/\" title= \"Tour to Kerlingarfjöll\">Kerlingarfjöll Luxury Private Hiking Tour</a>, or our best seller: <a href=\"/day-tours-iceland/private-hiking-tour-to-the-landmannalaugar/\" title= \"Tour to the Landmannalaugar\">Private Landmannalaugar Hiking Tour</a>"
 
 # Tour infos
 
@@ -222,7 +223,7 @@ jsonLd:
     - "https://www.lilja-tours.com/pictures/thorsmork/gallery/thorsmork-3-pc.webp"
     - "https://www.lilja-tours.com/pictures/thorsmork/gallery/thorsmork-4-pc.webp"
     - "https://www.lilja-tours.com/pictures/thorsmork/gallery/thorsmork-5-pc.webp"
-  url: "https://www.lilja-tours.com/private-day-tours-iceland/private-hiking-tour-in-thorsmork/"
+  url: "https://www.lilja-tours.com/day-tours-iceland/private-hiking-tour-in-thorsmork/"
   inLanguage:
     - "en"
     - "fr"
@@ -237,7 +238,7 @@ jsonLd:
     price: "250000"
     priceCurrency: "ISK"
     availability: "https://schema.org/InStock"
-    url: "https://www.lilja-tours.com/private-day-tours-iceland/private-hiking-tour-in-thorsmork/"
+    url: "https://www.lilja-tours.com/day-tours-iceland/private-hiking-tour-in-thorsmork/"
   provider:
     "@type": "TravelAgency"
     name: "Lilja Tours"

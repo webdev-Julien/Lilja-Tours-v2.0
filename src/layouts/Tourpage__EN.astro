@@ -53,7 +53,8 @@ const {
     fulllinkFr,
     taggies,
     jsonLd,
-    cta
+    cta,
+    cta2
 } = Astro.props
 
 ---
@@ -140,12 +141,12 @@ const {
 
         <main>
 
-        <TagNavEN cateLink="/all-day-tours" home="DAY TOURS">
+        <TagNavEN cateLink="/all-day-tours/" home="DAY TOURS">
 
                     {
                         taggies.map((tag:any) => (
                             
-                            <li><a href={"/private-day-tours-iceland/"+tag.toLowerCase()} title={"list of"+tag}><button class="tagButton">{tag.charAt(0).toUpperCase() + tag.slice(1).replaceAll("-", " ")}</button></a></li>
+                            <li><a href={"/day-tours-iceland/"+tag.toLowerCase()+"/"} title={"list of"+tag}><button class="tagButton">{tag.charAt(0).toUpperCase() + tag.slice(1).replaceAll("-", " ")}</button></a></li>
                         ))
                     }
             </TagNavEN>
@@ -172,7 +173,7 @@ const {
             gallery={gallery}>
             </GallerySection>
 
-            <BookSection tourTitle={tourTitle} cta={cta}>
+            <BookSection tourTitle={tourTitle} cta={cta} cta2={cta2}>
                 <div slot="carCards" class="carCards">
 
                     {vehicles.map((car:any) => (
