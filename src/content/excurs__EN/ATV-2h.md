@@ -13,8 +13,8 @@ pageCover:
     title: "Book a 2 hours ATV ride next to Reykjavík",
   }
 
-title1: "2-Hour ATV Ride Near Reykjavík | Twin Peaks Adventure"
-title2: "Twin Peaks ATV Ride | 2-Hour Adventure Near Reykjavík"
+title1: "2-Hour ATV Ride Near Reykjavík - Twin Peaks Adventure"
+title2: "Twin Peaks ATV Ride - 2-Hour Adventure Near Reykjavík"
 
 tag: ["Adventure tour"]
 

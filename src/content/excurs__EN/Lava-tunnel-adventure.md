@@ -13,8 +13,8 @@ pageCover:
     title: "Book an adventure inside of a lava tunnel",
   }
 
-title1: "Lava Tunnel Adventure Tour | Explore an authentic Lava Tube"
-title2: "Discover Raufarhólshellir | Iceland's Epic Lava Falls Adventure"
+title1: "Lava Tunnel Adventure Tour - Explore an authentic Lava Tube"
+title2: "Discover Raufarhólshellir - Iceland's Epic Lava Falls Adventure"
 
 tag: ["Adventure tour"]
 

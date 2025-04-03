@@ -13,8 +13,8 @@ pageCover:
     title: "Book a 3 hours ATV ride next to Reykjavík",
   }
 
-title1: "3-Hour ATV Ride Near Reykjavík | Volcanic Springs Adventure"
-title2: "Volcanic Springs ATV Ride | 3-Hour Adventure Near Reykjavík"
+title1: "3-Hour ATV Ride Near Reykjavík - Volcanic Springs Adventure"
+title2: "Volcanic Springs ATV Ride - 3-Hour Adventure Near Reykjavík"
 
 tag: ["Adventure tour"]
 

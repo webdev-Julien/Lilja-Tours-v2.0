@@ -13,8 +13,8 @@ pageCover:
     title: "Book a 2 hours ATV ride next to Reykjavík",
   }
 
-title1: "1-Hour ATV Ride Near Reykjavík | Adventure in Iceland"
-title2: "Reykjavík Peak ATV Ride | 1-Hour Icelandic Adventure"
+title1: "1-Hour ATV Ride Near Reykjavík - Adventure in Iceland"
+title2: "Reykjavík Peak ATV Ride - 1-Hour Icelandic Adventure"
 
 tag: ["Adventure tour"]
 
