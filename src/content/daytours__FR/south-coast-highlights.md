@@ -7,8 +7,8 @@ jeepISK: 179000
 filter: "norm"
 
 # Head and metas
-pageTitle: "Excursion privée sur la Côte Sud Islandaise | Cascades, Plages de Sable Noir & Glaciers"
-description: "Vivez une excursion privée sur la Côte Sud avec Lilja Tours. Découvrez Seljalandsfoss, Skógafoss, Reynisfjara, Dýrhólaey et Sólheimajökull. Réservez votre aventure en Islande !"
+pageTitle: "Excursion privée sur la Côte Sud Islandaise | guide français"
+description: "Vivez une excursion privée sur la Côte Sud avec Lilja Tours. Découvrez Seljalandsfoss, Skógafoss, Reynisfjara, Dýrhólaey et Sólheimajökull. Réservez maintenant !"
 ogTitle: "Excursion privée sur la Côte Sud Islandaise | Cascades, Plages de Sable Noir & Glaciers"
 ogImage: "https://www.lilja-tours.com/pictures/south-coast-highlights/card/south-coast-highlights.webp"
 language: "fr"

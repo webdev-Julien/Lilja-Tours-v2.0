@@ -7,8 +7,8 @@ jeepISK: 159000
 filter: "norm"
 
 # Head and metas
-pageTitle: "Luxury Private Tour of Reykjanes Peninsula | Explore Volcanic Wonders and Geothermal Sites"
-description: "Experience the Reykjanes Peninsula on a luxury private tour. Explore Seltún, Gunnuhver, Nátthagi, and Stampar. Discover volcanic landscapes and geothermal wonders."
+pageTitle: "Luxury Private Tour of Reykjanes Peninsula | Volcanic Wonder"
+description: "Experience the Reykjanes Peninsula on a luxury private tour. Explore Seltún, Gunnuhver, Nátthagi, and Stampar. Discover volcanic and geothermal wonders."
 ogTitle: "Luxury Private Tour of Reykjanes Peninsula | Explore Volcanic Wonders and Geothermal Sites"
 ogImage: "https://www.lilja-tours.com/pictures/reykjanes-colors/card/reykjanes-colors.webp"
 language: "en"

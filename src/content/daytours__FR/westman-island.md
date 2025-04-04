@@ -238,7 +238,7 @@ jsonLd:
   "@context": "https://schema.org"
   "@type": "TouristTrip"
   name: "Excursion privée aux Îles Westman - Nature et Histoire"
-  description: "Découvrez les Îles Westman lors d'une excursion privée avec Lilja Tours. Observez les macareux, explorez Elephant Rock, randonnez sur le volcan Eldfell et visitez le musée Eldheimar. Une immersion complète dans la nature et l'histoire islandaise."
+  description: "Découvrez les Îles Westman lors d'une excursion privée. Observez les macareux, explorez Elephant Rock, randonnez sur Eldfell et visitez Eldheimar."
   image:
     - "https://www.lilja-tours.com/pictures/westman-islands/gallery/westman-1-pc.webp"
     - "https://www.lilja-tours.com/pictures/westman-islands/gallery/westman-2-pc.webp"

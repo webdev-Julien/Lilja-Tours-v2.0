@@ -7,8 +7,8 @@ jeepISK: 210000
 filter: "norm"
 
 # Head and metas
-pageTitle: "Excursion privée à Þórsmörk - Randonnée dans les Hautes Terres d'Islande"
-description: "Découvrez la Beauté de Þórsmörk lors d'une excursion privée. Randonnez dans les Hautes Terres d'Islande, explorez Nauthúsagíl, gravissez Valahnúkur, et admirez Stakkholtsgjá."
+pageTitle: "Excursion privée à Þórsmörk - Rando Hautes Terres d'Islande"
+description: "Découvrez Þórsmörk lors d'une excursion privée. Randonnez dans les Hautes Terres, explorez Nauthúsagíl, gravissez Valahnúkur et admirez Stakkholtsgjá."
 ogTitle: "Excursion privée à Þórsmörk - Randonnée dans les Hautes Terres d'Islande"
 ogImage: "https://www.lilja-tours.com/pictures/thorsmork/card/thorsmork.webp"
 language: "fr"

@@ -7,8 +7,8 @@ jeepISK: 173000
 filter: "norm"
 
 # Head and metas
-pageTitle: "Excursion privée Aurores Boréales en Islande | Photographie Professionnelle"
-description: "Découvrez les Aurores Boréales en Islande lors d'une excursion privée. Guide expert, photographie professionnelle et boissons chaudes pour une nuit magique sous le ciel arctique."
+pageTitle: "Excursion privée Aurores Boréales en Islande avec guide"
+description: "Découvrez les Aurores Boréales en Islande lors d'une excursion privée. Guide expert, photos pro et boissons chaudes pour une nuit magique."
 ogTitle: "Excursion privée Aurores Boréales en Islande | Photographie Professionnelle"
 ogImage: "https://www.lilja-tours.com/pictures/northern-lights/card/northern-lights.webp"
 language: "fr"

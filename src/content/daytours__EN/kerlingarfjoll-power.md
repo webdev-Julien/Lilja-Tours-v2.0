@@ -8,8 +8,8 @@ filter: "norm"
 
 
 # Head and metas
-pageTitle: "Luxury Private Hiking Tour to Kerlingarfjöll | Icelandic Highlands Adventure"
-description: "Experience a luxury private hiking tour to Kerlingarfjöll. Discover geothermal wonders, vibrant orange mountains, and glacier views in the heart of the Icelandic highlands. Book now!"
+pageTitle: "Private Hiking Tour to Kerlingarfjöll | Highlands Adventure"
+description: "Experience a luxury private hiking tour to Kerlingarfjöll. Discover geothermal wonders, vibrant mountains, and glacier views in Iceland's highlands."
 ogTitle: "Luxury Private Hiking Tour to Kerlingarfjöll | Icelandic Highlands Adventure"
 ogImage: "https://www.lilja-tours.com/pictures/kerlingarfjoll/card/kerlingarfjoll.webp"
 language: "en"

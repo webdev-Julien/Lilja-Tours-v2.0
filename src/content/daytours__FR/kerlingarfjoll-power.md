@@ -7,8 +7,8 @@ jeepISK: 210000
 filter: "norm"
 
 # Head and metas
-pageTitle: "Excursion Privée de Randonnée à Kerlingarfjöll | Aventure de Luxe dans les Hautes Terres"
-description: "Partez pour une excursion privée de randonnée à Kerlingarfjöll. Découvrez les hautes terres islandaises : montagnes ocres, sources chaudes et vues spectaculaires. Réservez dès maintenant !"
+pageTitle: "Excursion Randonnée Kerlingarfjöll | Aventure Hautes Terres"
+description: "Partez pour une excursion privée de randonnée à Kerlingarfjöll. Découvrez les hautes terres : montagnes ocres, sources chaudes et vues spectaculaires."
 ogTitle: "Excursion Privée de Randonnée à Kerlingarfjöll | Aventure de Luxe dans les Hautes Terres"
 ogImage: "https://www.lilja-tours.com/pictures/kerlingarfjoll/card/kerlingarfjoll.webp"
 language: "fr"

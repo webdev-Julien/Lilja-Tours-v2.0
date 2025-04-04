@@ -7,8 +7,8 @@ jeepISK: 249000
 filter: "norm"
 
 # Head and metas
-pageTitle: "Excursion privée Côte Sud & Rando Glacier | Seljalandsfoss, Skógafoss, Sólheimajökull"
-description: "Vivez une excursion privée Côte Sud & Rando Glacier avec Lilja Tours. Explorez les cascades Seljalandsfoss, Skógafoss, la plage de Reynisfjara et partez en randonnée sur le glacier Sólheimajökull.​"
+pageTitle: "Excursion privée Côte Sud & Rando Glacier sur Sólheimajökull"
+description: "Vivez une excursion privée Côte Sud & Rando Glacier avec Lilja Tours. Découvrez Seljalandsfoss, Skógafoss, Reynisfjara et randonnez sur Sólheimajökull.​"
 ogTitle: "Excursion privée Côte Sud & Rando Glacier | Seljalandsfoss, Skógafoss, Sólheimajökull"
 ogImage: "https://www.lilja-tours.com/pictures/south-coast-glacier-hike/card/south-coast-glacier-hike.webp"
 language: "fr"

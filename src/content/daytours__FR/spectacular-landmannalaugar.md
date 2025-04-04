@@ -8,7 +8,7 @@ filter: "norm"
 
 # Head and metas
 pageTitle: "Excursion Privée Landmannalaugar en Islande | Randonnée de Luxe"
-description: "Découvrez Landmannalaugar lors d'une excursion privée de luxe en Islande. Randonnées guidées à travers montagnes colorées et champs de lave. Réservez votre aventure exclusive !"
+description: "Découvrez Landmannalaugar lors d'une excursion privée de luxe. Randonnées guidées à travers montagnes colorées et champs de lave."
 ogTitle: "Excursion Privée Landmannalaugar en Islande | Randonnée de Luxe"
 ogImage: "https://www.lilja-tours.com/pictures/landmannalaugar-heat/card/landmannalaugar.webp"
 language: "fr"

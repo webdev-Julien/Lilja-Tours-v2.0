@@ -8,8 +8,8 @@ filter: "norm"
 
 
 # Head and metas
-pageTitle: "Luxury Private Golden Circle Tour | Explore Þingvellir, Geysir & Gullfoss"
-description: "Discover Iceland's iconic Golden Circle on a luxury private tour. Visit Þingvellir National Park, Geysir, and Gullfoss with expert guidance. Book your unforgettable Icelandic adventure!"
+pageTitle: "Luxury Private Golden Circle Tour | Explore  the essentials"
+description: "Discover Iceland's iconic Golden Circle on a luxury private tour. Visit Þingvellir, Geysir, and Gullfoss with expert guides. Book your adventure today!"
 ogTitle: "Luxury Private Golden Circle Tour | Explore Þingvellir, Geysir & Gullfoss"
 ogImage: "https://www.lilja-tours.com/pictures/golden-circle-essentials/card/golden-circle-card.webp"
 language: "en"

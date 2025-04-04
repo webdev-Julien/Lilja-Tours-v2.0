@@ -7,8 +7,8 @@ jeepISK: 169000
 filter: "extra"
 
 # Head and metas
-pageTitle: "Excursion privée au Cercle d'Argent | Borgarfjörður, cascades, sources chaudes et grottes volcaniques"
-description: "Découvrez le Cercle d'Argent lors d'une excursion privée. Explorez Hraunfossar, Barnafoss, Deildartunguhver, la grotte de Viðgelmir et les sources chaudes de Hvammsvík."
+pageTitle: "Excursion privée au Cercle d'Argent | Borgarfjörður"
+description: "Découvrez le Cercle d'Argent en excursion privée. Explorez Hraunfossar, Barnafoss, Deildartunguhver, la grotte de Viðgelmir et les sources chaudes de Hvammsvík."
 ogTitle: "Excursion privée au Cercle d'Argent | Borgarfjörður, cascades, sources chaudes et grottes volcaniques"
 ogImage: "https://www.lilja-tours.com/pictures/silver-circle/card/silver-circle.webp"
 language: "fr"

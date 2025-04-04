@@ -7,8 +7,8 @@ jeepISK: 190000
 filter: "extra"
 
 # Head and metas
-pageTitle: "Luxury Private Tour: South Coast and Volcano Tales | Waterfalls, Glaciers & Lava Show"
-description: "Experience Iceland’s South Coast and Volcano Tales on a luxury private tour. Visit Skógafoss, Seljalandsfoss, Reynisfjara, Sólheimajökull, and the immersive Lava Show. Book now!"
+pageTitle: "Luxury Private Tour: South Coast and Volcano Tales"
+description: "Experience Iceland’s South Coast and Volcano Tales on a luxury private tour. Visit Skógafoss, Seljalandsfoss, Reynisfjara, Sólheimajökull, and the Lava Show. Book now!"
 ogTitle: "Luxury Private Tour: South Coast and Volcano Tales | Waterfalls, Glaciers & Lava Show"
 ogImage: "https://www.lilja-tours.com/pictures/south-coast-volcano-tales/card/the-lava-show.webp"
 language: "en"

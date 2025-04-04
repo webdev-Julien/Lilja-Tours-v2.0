@@ -7,8 +7,8 @@ jeepISK: 159000
 filter: "norm"
 
 # Head and metas
-pageTitle: "Excursion privée de randonnée à Glymur - Cascade spectaculaire près de Reykjavík"
-description: "Découvrez la cascade de Glymur lors d'une excursion privée de randonnée. Traversez des paysages époustouflants et des rivières avec un guide expert. Réservez votre aventure près de Reykjavík !"
+pageTitle: "Excursion privée de randonnée Glymur - Cascade spectaculaire"
+description: "Découvrez la cascade de Glymur lors d'une randonnée privée. Explorez des paysages époustouflants et traversez des rivières avec un guide expert. Réservez maintenant !"
 ogTitle: "Excursion privée de randonnée à Glymur - Cascade spectaculaire près de Reykjavík"
 ogImage: "https://www.lilja-tours.com/pictures/glymur/card/glymur.webp"
 language: "fr"

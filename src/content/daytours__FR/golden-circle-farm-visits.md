@@ -7,8 +7,8 @@ jeepISK: 179000
 filter: "norm"
 
 # Head and metas
-pageTitle: "Excursion privée Cercle d'Or et expérience culinaire | Þingvellir, Geysir, Gullfoss"
-description: "Découvrez le Cercle d'Or lors d'une excursion privée culinaire. Visitez Þingvellir, Geysir, Gullfoss et savourez des produits locaux dans des fermes. Réservez votre aventure gastronomique !"
+pageTitle: "Excursion privée Cercle d'Or et expérience culinaire"
+description: "Découvrez le Cercle d'Or en excursion privée culinaire. Visitez Þingvellir, Geysir, Gullfoss et dégustez des produits locaux. Réservez votre aventure !"
 ogTitle: "Excursion privée Cercle d'Or et expérience culinaire | Þingvellir, Geysir, Gullfoss"
 ogImage: "https://www.lilja-tours.com/pictures/golden-circle-farm-visits/card/golden-circle-farm-visits.webp"
 language: "fr"

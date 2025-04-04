@@ -9,7 +9,7 @@ filter: "norm"
 
 # Head and metas
 pageTitle: "Private Glacier Hike on Sólheimajökull – Luxury Icelandic Adventure"
-description: "Experience a luxury private glacier hike on Sólheimajökull. Explore ice formations, crevasses, and breathtaking glacier landscapes with expert guides. Book your exclusive Iceland adventure today!"
+description: "Experience a luxury private glacier hike on Sólheimajökull. Discover ice formations, crevasses, and stunning glacier views with expert guides. Book now!"
 ogTitle: "Private Glacier Hike on Sólheimajökull – Luxury Icelandic Adventure"
 ogImage: "https://www.lilja-tours.com/pictures/glacier-hike/card/glacier-hike.webp"
 language: "en"

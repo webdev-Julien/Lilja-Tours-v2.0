@@ -7,8 +7,8 @@ jeepISK: 159000
 filter: "norm"
 
 # Head and metas
-pageTitle: "Excursion privée en Péninsule de Reykjanes | Paysages volcaniques et géothermiques"
-description: "Partez pour une excursion privée en Péninsule de Reykjanes. Explorez Seltún, Gunnuhver, Nátthagi et Stampar. Découvrez les paysages volcaniques et géothermiques d'Islande."
+pageTitle: "Excursion privée: Péninsule de Reykjanes | Terre de volcans"
+description: "Partez pour une excursion privée en Péninsule de Reykjanes. Explorez Seltún, Gunnuhver, Nátthagi et Stampar. Découvrez les paysages volcaniques d'Islande."
 ogTitle: "Excursion privée en Péninsule de Reykjanes | Paysages volcaniques et géothermiques"
 ogImage: "https://www.lilja-tours.com/pictures/reykjanes-colors/card/reykjanes-colors.webp"
 language: "fr"

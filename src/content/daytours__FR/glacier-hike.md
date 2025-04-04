@@ -7,8 +7,8 @@ jeepISK: 139000
 filter: "norm"
 
 # Head and metas
-pageTitle: "Excursion privée de randonnée sur glacier à Sólheimajökull | Aventure en Islande"
-description: "Découvrez Sólheimajökull lors d'une excursion privée de randonnée sur glacier. Explorez crevasses et formations glacées en toute sécurité avec un guide expert. Réservez votre aventure en Islande !"
+pageTitle: "Excursion privée de randonnée sur glacier à Sólheimajökull"
+description: "Découvrez Sólheimajökull lors d'une randonnée privée sur glacier. Explorez crevasses et formations glacées en toute sécurité avec un guide expert. Réservez maintenant !"
 ogTitle: "Excursion privée de randonnée sur glacier à Sólheimajökull | Aventure en Islande"
 ogImage: "https://www.lilja-tours.com/pictures/glacier-hike/card/glacier-hike.webp"
 language: "fr"

@@ -7,7 +7,7 @@ jeepISK: 185000
 filter: "extra"
 
 # Head and metas
-pageTitle: "Excursion privée Cercle d'Or et tuba dans Silfra | Þingvellir, Geysir, Gullfoss"
+pageTitle: "Excursion privée Cercle d'Or et tuba dans Silfra | Aventure!"
 description: "Partez pour une excursion privée au Cercle d'Or et plongez dans les eaux cristallines de Silfra. Explorez Þingvellir, Geysir, et Gullfoss avec Lilja Tours."
 ogTitle: "Excursion privée Cercle d'Or et tuba dans Silfra | Þingvellir, Geysir, Gullfoss"
 ogImage: "https://www.lilja-tours.com/pictures/golden-snorkel/card/golden-snorkel.webp"

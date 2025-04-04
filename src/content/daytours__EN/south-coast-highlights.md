@@ -7,8 +7,8 @@ jeepISK: 179000
 filter: "norm"
 
 # Head and metas
-pageTitle: "Luxury Private South Coast Tour in Iceland | Waterfalls, Black Sand Beaches & Glaciers"
-description: "Experience the South Coast Highlights on a luxury private tour. Discover Seljalandsfoss, Skógafoss, Reynisfjara, Dýrhólaey, and Sólheimajökull. Book with Lilja Tours!"
+pageTitle: "Private South Coast Tour in Iceland - Explore with no limit"
+description: "Experience the South Coast Highlights on a luxury private tour. Discover Seljalandsfoss, Skógafoss, Reynisfjara, Dýrhólaey, and Sólheimajökull. Book now!"
 ogTitle: "Luxury Private South Coast Tour in Iceland | Waterfalls, Black Sand Beaches & Glaciers"
 ogImage: "https://www.lilja-tours.com/pictures/south-coast-highlights/card/south-coast-highlights.webp"
 language: "en"

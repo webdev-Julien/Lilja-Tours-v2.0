@@ -7,8 +7,8 @@ jeepISK: 185000
 filter: "norm"
 
 # Head and metas
-pageTitle: "Excursion privée sur la péninsule de Snæfellsnes | Kirkjufell, Arnarstapi, Djúpalónssandur"
-description: "Partez pour une excursion privée sur la péninsule Snæfellsnes avec Lilja Tours. Découvrez Kirkjufell, Arnarstapi et Djúpalónssandur. Réservez votre aventure en Islande !"
+pageTitle: "Excursion privée sur la péninsule de Snæfellsnes | Ouest "
+description: "Partez pour une excursion privée sur la péninsule de Snæfellsnes avec Lilja Tours. Découvrez Kirkjufell, Arnarstapi et Djúpalónssandur."
 ogTitle: "Excursion privée sur la péninsule de Snæfellsnes | Kirkjufell, Arnarstapi, Djúpalónssandur"
 ogImage: "https://www.lilja-tours.com/pictures/snaefellsnes-wonders/card/snaefellsnes-private-tour.webp"
 language: "fr"

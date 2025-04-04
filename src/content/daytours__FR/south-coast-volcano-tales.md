@@ -7,8 +7,8 @@ jeepISK: 190000
 filter: "extra"
 
 # Head and metas
-pageTitle: "Excursion privée Côte Sud et Contes Volcaniques | Cascades, Plages et Volcanisme"
-description: "Partez en excursion privée sur la Côte Sud et découvrez les cascades de Skógafoss et Seljalandsfoss, la plage de Reynisfjara, le glacier Sólheimajökull et le fascinant Lava Show. Réservez dès maintenant !"
+pageTitle: "Excursion privée Côte Sud et Contes Volcaniques - avec guide"
+description: "Partez en excursion privée sur la Côte Sud. Découvrez Skógafoss, Seljalandsfoss, Reynisfjara, Sólheimajökull et le Lava Show. Réservez votre aventure !"
 ogTitle: "Excursions privées: Côte Sud et Contes Volcaniques"
 ogImage: "https://www.lilja-tours.com/pictures/south-coast-volcano-tales/card/the-lava-show.webp"
 language: "fr"

@@ -8,7 +8,7 @@ filter: "norm"
 
 # Head and metas
 pageTitle: "Luxury Private Northern Lights Tour in Iceland | Photography Included"
-description: "Discover Iceland’s Northern Lights on a luxury private tour. Enjoy expert-guided aurora hunting, professional photography, and cozy refreshments. Book your unforgettable adventure!"
+description: "Discover Iceland’s Northern Lights on a luxury private tour. Enjoy expert-guided aurora hunting, pro photography, and cozy refreshments. Book now!"
 ogTitle: "Private tour: Northern Lights Hunting in Iceland"
 ogImage: "https://www.lilja-tours.com/pictures/northern-lights/card/northern-lights.webp"
 language: "en"

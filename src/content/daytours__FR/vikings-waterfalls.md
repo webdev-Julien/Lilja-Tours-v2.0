@@ -8,8 +8,8 @@ filter: "norm"
 
 
 # Head and metas
-pageTitle: "Excursion privée: Vikings et Cascades | Patrimoine et Nature en Islande"
-description: "Partez pour une excursion privée Vikings et Cascades en Islande. Découvrez des ruines vikings, des cascades majestueuses et profitez d'un dîner viking. Réservez votre aventure historique !"
+pageTitle: "Excursion privée: Vikings et Cascades | Patrimoine et Nature"
+description: "Partez pour une excursion privée Vikings et Cascades en Islande. Explorez des ruines vikings, des cascades majestueuses et savourez un dîner viking."
 ogTitle: "Excursion privée: Vikings et Cascades | Patrimoine et Nature en Islande"
 ogImage: "https://www.lilja-tours.com/pictures/vikings-waterfalls/card/vikings-waterfalls.webp"
 language: "fr"

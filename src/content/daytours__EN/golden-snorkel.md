@@ -7,8 +7,8 @@ jeepISK: 185000
 filter: "extra"
 
 # Head and metas
-pageTitle: "Luxury Private Golden Circle & Silfra Snorkeling Tour | Þingvellir, Geysir, Gullfoss"
-description: "Experience the Golden Circle on a luxury private tour. Snorkel in the crystal-clear waters of Silfra, explore Þingvellir, Geysir, and Gullfoss. Book your adventure today!"
+pageTitle: "Luxury Private Golden Circle & Silfra Snorkeling Tour"
+description: "Experience the Golden Circle on a luxury private tour. Snorkel in Silfra, explore Þingvellir, Geysir, and Gullfoss. Book your adventure today!"
 ogTitle: "Luxury Private Golden Circle & Silfra Snorkeling Tour | Þingvellir, Geysir, Gullfoss"
 ogImage: "https://www.lilja-tours.com/pictures/golden-snorkel/card/golden-snorkel.webp"
 language: "en"

@@ -7,8 +7,8 @@ jeepISK: 210000
 filter: "norm"
 
 # Head and metas
-pageTitle: "Luxury Private Landmannalaugar Tour in Iceland | Highland Hiking Adventure"
-description: "Experience a luxury private tour to Landmannalaugar in Iceland. Hike through colorful mountains, lava fields, and rugged highland landscapes. Book your adventure now!"
+pageTitle: "Private Landmannalaugar Tour | Highland Hiking Adventure"
+description: "Experience a luxury private tour to Landmannalaugar. Hike colorful mountains, lava fields, and rugged landscapes. Book your adventure today!"
 ogTitle: "Luxury Private Landmannalaugar Tour in Iceland | Highland Hiking Adventure"
 ogImage: "https://www.lilja-tours.com/pictures/landmannalaugar-heat/card/landmannalaugar.webp"
 language: "en"

@@ -216,7 +216,7 @@ jsonLd:
   "@context": "https://schema.org"
   "@type": "TouristTrip"
   name: "Private Hiking Tour in Þórsmörk - Discover the Icelandic Highlands"
-  description: "Join a luxury private hiking tour of Þórsmörk, Iceland's highlands. Explore Nauthúsagíl waterfall, hike Valahnúkur peak, and visit the stunning Stakkholtsgjá canyon with expert guidance and comfort."
+  description: "Join a luxury private hiking tour in Þórsmörk. Discover Nauthúsagíl waterfall, hike Valahnúkur peak, and explore Stakkholtsgjá canyon. Book now!"
   image:
     - "https://www.lilja-tours.com/pictures/thorsmork/gallery/thorsmork-1-pc.webp"
     - "https://www.lilja-tours.com/pictures/thorsmork/gallery/thorsmork-2-pc.webp"

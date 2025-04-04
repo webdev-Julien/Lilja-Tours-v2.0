@@ -8,8 +8,8 @@ filter: "norm"
 
 
 # Head and metas
-pageTitle: "Private Golden Circle Tour with Local Delicacies | Luxury Golden Circle Culinary Experience"
-description: "Explore the Golden Circle on a luxury private tour. Visit Þingvellir, Geysir, Gullfoss, and local farms to savor authentic Icelandic cuisine. Book your culinary adventure today!"
+pageTitle: "Private Golden Circle Tour with Farm Visits | Private Tour"
+description: "Explore the Golden Circle on a luxury private tour. Visit Þingvellir, Geysir, Gullfoss, and local farms. Savor Icelandic cuisine. Book your adventure!"
 ogTitle: "Private Golden Circle Tour with Local Delicacies | Luxury Golden Circle Culinary Experience"
 ogImage: "https://www.lilja-tours.com/pictures/golden-circle-farm-visits/card/golden-circle-farm-visits.webp"
 language: "en"

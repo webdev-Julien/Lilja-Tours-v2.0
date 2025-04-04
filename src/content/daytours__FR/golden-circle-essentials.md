@@ -7,8 +7,8 @@ jeepISK: 159000
 filter: "norm"
 
 # Head and metas
-pageTitle: "Excursion privée aux essentiels du Cercle d'Or | Þingvellir, Geysir & Gullfoss"
-description: "Partez pour une excursion privée au Cercle d'Or. Découvrez Þingvellir, Geysir et Gullfoss lors d'une visite de luxe de 6 heures avec Lilja Tours. Réservez votre aventure !"
+pageTitle: "Excursion privée aux essentiels du Cercle d'Or - en français"
+description: "Partez pour une excursion privée au Cercle d'Or. Découvrez Þingvellir, Geysir et Gullfoss lors d'une visite de luxe avec Lilja Tours."
 ogTitle: "Excursion privée aux essentiels du Cercle d'Or | Þingvellir, Geysir & Gullfoss"
 ogImage: "https://www.lilja-tours.com/pictures/golden-circle-essentials/card/golden-circle-card.webp"
 language: "fr"

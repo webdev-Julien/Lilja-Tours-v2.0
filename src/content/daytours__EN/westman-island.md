@@ -8,7 +8,7 @@ filter: "norm"
 
 # Head and metas
 pageTitle: "Westman Islands Private Tour | Explore Puffins, Volcanoes & History"
-description: "Discover the Westman Islands on a luxury private tour. Spot puffins, explore Elephant Rock, hike Eldfell volcano, and visit the Eldheimar Museum. Book your adventure!"
+description: "Discover the Westman Islands on a luxury private tour. Spot puffins, explore Elephant Rock, hike Eldfell, and visit the Eldheimar Museum. Book now!"
 ogTitle: "Westman Islands Private Tour | Explore Puffins, Volcanoes & History"
 ogImage: "https://www.lilja-tours.com/pictures/westman-islands/card/westman-islands.webp"
 language: "en"

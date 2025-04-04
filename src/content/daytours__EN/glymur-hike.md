@@ -8,8 +8,8 @@ filter: "norm"
 
 
 # Head and metas
-pageTitle: "Private Hiking Tour to Glymur Waterfall | Luxury Hiking Tour Near Reykjavík"
-description: "Discover the Glymur Waterfall on a luxury private hiking tour. Explore breathtaking landscapes, river crossings, and panoramic views near Reykjavík with expert guidance. Book now!"
+pageTitle: "Private Hiking Tour to Glymur Waterfall | Luxury Hiking Tour"
+description: "Discover the Glymur Waterfall on a luxury private hiking tour. Explore stunning landscapes, river crossings, and views near Reykjavík. Book your adventure!"
 ogTitle: "Private Hiking Tour to Glymur Waterfall | Luxury Hiking Tour Near Reykjavík"
 ogImage: "https://www.lilja-tours.com/pictures/glymur/card/glymur.webp"
 language: "en"
