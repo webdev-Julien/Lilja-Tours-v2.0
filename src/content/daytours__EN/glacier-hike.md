@@ -198,7 +198,7 @@ form: "https://tally.so/r/nG5vgk"
 jsonLd:
   "@context": "https://schema.org"
   "@type": "TouristTrip"
-  name: "Glacier Hike Private Tour in Iceland"
+  name: "Private Glacier Hike on Sólheimajökull"
   description: "Embark on a thrilling private glacier hike in South Iceland with a certified guide. Explore crevasses, ice formations, and stunning glacier landscapes in safety and comfort. This 10-hour adventure includes private transport from Reykjavík and a personalized experience on the ice."
   image:
     - "https://www.lilja-tours.com/pictures/glacier-hike/glacier-hike-1-pc.webp"
@@ -227,6 +227,7 @@ jsonLd:
     name: "Lilja Tours"
     url: "https://www.lilja-tours.com"
     logo: "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png"
+    address: "Hólabraut 15, 220 Hafnarfjörður"
   departureLocation:
     "@type": "Place"
     name: "Reykjavík"

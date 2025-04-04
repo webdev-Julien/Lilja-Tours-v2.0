@@ -240,7 +240,7 @@ vehicles: [
 jsonLd:
   "@context": "https://schema.org"
   "@type": "TouristTrip"
-  name: "Golden Circle and Snorkeling at Silfra"
+  name: "Private Golden Circle Tour & Silfra Snorkeling"
   description: "Experience the Golden Circle & Silfra Snorkeling Tour with Lilja Tours. Visit Þingvellir, Strokkur, Gullfoss, and snorkel in Silfra’s crystal-clear waters. A luxury private adventure combining nature and underwater exploration."
   image:
     - "https://www.lilja-tours.com/pictures/golden-circle-snorkeling/gallery/golden-snorkel-1-pc.webp"
@@ -269,6 +269,7 @@ jsonLd:
     name: "Lilja Tours"
     url: "https://www.lilja-tours.com"
     logo: "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png"
+    address: "Hólabraut 15, 220 Hafnarfjörður"
   departureLocation:
     "@type": "Place"
     name: "Reykjavík"

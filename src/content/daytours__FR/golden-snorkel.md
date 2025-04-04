@@ -240,7 +240,7 @@ vehicles: [
 jsonLd:
   "@context": "https://schema.org"
   "@type": "TouristTrip"
-  name: "Cercle d'Or et Plongée en Tuba à Silfra"
+  name: "Excursion privée Cercle d'Or et tuba dans Silfra"
   description: "Vivez une excursion privée Cercle d'Or et tuba dans Silfra avec Lilja Tours. Explorez Þingvellir, Geysir, Gullfoss et nagez dans les eaux claires de Silfra."
   image:
     - "https://www.lilja-tours.com/pictures/golden-circle-snorkeling/gallery/golden-snorkel-1-pc.webp"
@@ -269,6 +269,7 @@ jsonLd:
     name: "Lilja Tours"
     url: "https://www.lilja-tours.com"
     logo: "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png"
+    address: "Hólabraut 15, 220 Hafnarfjörður"
   departureLocation:
     "@type": "Place"
     name: "Reykjavík"

@@ -234,7 +234,7 @@ vehicles: [
 jsonLd:
   "@context": "https://schema.org"
   "@type": "TouristTrip"
-  name: "Snæfellsnes Wonders"
+  name: "Private Tour of Snæfellsnes Peninsula - Stunning Icelandic Landscapes"
   description: "Experience the Snæfellsnes Peninsula Private Tour with Lilja Tours. Explore Arnarstapi, Kirkjufell, Djúpalónssandur, and Snæfellsjökull Glacier. Discover Iceland’s diverse landscapes and iconic sites on a luxury adventure."
   image:
     - "https://www.lilja-tours.com/pictures/snaefellsnes-wonders/gallery/kirkjufell-1-pc.webp"
@@ -263,6 +263,7 @@ jsonLd:
     name: "Lilja Tours"
     url: "https://www.lilja-tours.com"
     logo: "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png"
+    address: "Hólabraut 15, 220 Hafnarfjörður"
   departureLocation:
     "@type": "Place"
     name: "Reykjavík"

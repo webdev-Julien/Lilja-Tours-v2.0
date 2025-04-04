@@ -227,7 +227,7 @@ vehicles: [
 jsonLd:
   "@context": "https://schema.org"
   "@type": "TouristTrip"
-  name: "Golden Circle Essentials"
+  name: "Private Golden Circle Tour in Iceland - Essentials"
   description: "Explore the Golden Circle Essentials on a luxury private tour with Lilja Tours. Visit Þingvellir National Park, Geysir, and Gullfoss with expert guidance and personalized service. Discover Iceland's most iconic landmarks on a memorable day tour."
   image:
     - "https://www.lilja-tours.com/pictures/golden-circle-essentials/gallery/Thingvellir-4-pc.webp"
@@ -256,6 +256,7 @@ jsonLd:
     name: "Lilja Tours"
     url: "https://www.lilja-tours.com"
     logo: "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png"
+    address: "Hólabraut 15, 220 Hafnarfjörður"
   departureLocation:
     "@type": "Place"
     name: "Reykjavík"

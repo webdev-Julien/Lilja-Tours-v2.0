@@ -210,7 +210,7 @@ form: "https://tally.so/r/wgkK84"
 jsonLd:
   "@context": "https://schema.org"
   "@type": "TouristTrip"
-  name: "Northern Lights Private Tour in Iceland"
+  name: "Private Northern Lights Tour in Iceland"
   description: "Join Lilja Tours for a luxury private Northern Lights adventure from Reykjavík. Our expert-guided tour offers flexible scheduling, professional photography, and cozy refreshments in a comfortable 4x4 vehicle. Experience the awe of the Aurora Borealis with personalized service and high-end amenities."
   image:
     - "https://www.lilja-tours.com/pictures/northern-lights/gallery/northern-lights-1-pc.webp"
@@ -239,6 +239,7 @@ jsonLd:
     name: "Lilja Tours"
     url: "https://www.lilja-tours.com"
     logo: "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png"
+    address: "Hólabraut 15, 220 Hafnarfjörður"
   departureLocation:
     "@type": "Place"
     name: "Reykjavík"

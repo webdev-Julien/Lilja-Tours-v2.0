@@ -241,7 +241,7 @@ vehicles: [
 jsonLd:
   "@context": "https://schema.org"
   "@type": "TouristTrip"
-  name: "Cercle d'Argent et Borgarfjörður"
+  name: "Excursion privée au Cercle d'Argent"
   description: "Partez à la découverte du Cercle d'Argent et de Borgarfjörður avec Lilja Tours lors d'une excursion privée et luxueuse. Explorez des cascades majestueuses, des sources chaudes et des paysages époustouflants tout en bénéficiant du confort et de l'exclusivité d'une visite personnalisée."
   image:
     - "https://www.lilja-tours.com/pictures/silver-circle/gallery/borgaf-1-pc.webp"
@@ -270,6 +270,7 @@ jsonLd:
     name: "Lilja Tours"
     url: "https://www.lilja-tours.com"
     logo: "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png"
+    address: "Hólabraut 15, 220 Hafnarfjörður"
   departureLocation:
     "@type": "Place"
     name: "Reykjavík"

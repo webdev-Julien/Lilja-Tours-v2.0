@@ -237,7 +237,7 @@ vehicles: [
 jsonLd:
   "@context": "https://schema.org"
   "@type": "TouristTrip"
-  name: "Westman Islands Private Tour"
+  name: "Westman Islands Private Tour - Puffins, Volcanoes & Coastal Wonders"
   description: "Join the Westman Islands Private Tour with Lilja Tours. See Elephant Rock, spot puffins, hike Eldfell volcano, and visit the Eldheimar Museum. Discover Iceland's history and wildlife on this luxury adventure."
   image:
     - "https://www.lilja-tours.com/pictures/westman-islands/gallery/westman-1-pc.webp"
@@ -266,6 +266,7 @@ jsonLd:
     name: "Lilja Tours"
     url: "https://www.lilja-tours.com"
     logo: "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png"
+    address: "Hólabraut 15, 220 Hafnarfjörður"
   departureLocation:
     "@type": "Place"
     name: "Reykjavík"

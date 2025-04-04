@@ -194,7 +194,7 @@ form: "https://tally.so/r/nG5vgk"
 jsonLd:
   "@context": "https://schema.org"
   "@type": "TouristTrip"
-  name: "Randonnée Privée sur Glacier en Islande"
+  name: "Excursion privée de randonnée sur glacier à Sólheimajökull"
   description: "Vivez une expérience unique de randonnée privée sur glacier à Sólheimajökull avec Lilja Tours. Explorez des formations de glace spectaculaires et des crevasses en toute sécurité avec un guide expert."
   image:
     - "https://www.lilja-tours.com/pictures/glacier-hike/glacier-hike-1-pc.webp"
@@ -223,6 +223,7 @@ jsonLd:
     name: "Lilja Tours"
     url: "https://www.lilja-tours.com"
     logo: "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png"
+    address: "Hólabraut 15, 220 Hafnarfjörður"
   departureLocation:
     "@type": "Place"
     name: "Reykjavík"

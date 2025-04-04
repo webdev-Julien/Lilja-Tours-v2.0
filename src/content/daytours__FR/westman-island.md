@@ -237,7 +237,7 @@ vehicles: [
 jsonLd:
   "@context": "https://schema.org"
   "@type": "TouristTrip"
-  name: "Îles Westman - Excursion Privée"
+  name: "Excursion privée aux Îles Westman - Nature et Histoire"
   description: "Découvrez les Îles Westman lors d'une excursion privée avec Lilja Tours. Observez les macareux, explorez Elephant Rock, randonnez sur le volcan Eldfell et visitez le musée Eldheimar. Une immersion complète dans la nature et l'histoire islandaise."
   image:
     - "https://www.lilja-tours.com/pictures/westman-islands/gallery/westman-1-pc.webp"
@@ -266,6 +266,7 @@ jsonLd:
     name: "Lilja Tours"
     url: "https://www.lilja-tours.com"
     logo: "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png"
+    address: "Hólabraut 15, 220 Hafnarfjörður"
   departureLocation:
     "@type": "Place"
     name: "Reykjavík"

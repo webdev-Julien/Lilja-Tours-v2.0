@@ -1,7 +1,7 @@
 ---
 # Rates
-vanISK: 250000
-jeepISK: 250000
+vanISK: 210000
+jeepISK: 210000
 
 # filter
 filter: "norm"
@@ -204,7 +204,7 @@ vehicles: [
     srcMobile: "/pictures/cars/Toyota-LandCruiser-mobile.webp",
     alt: "Un toyota LandCruiser gris",
     title: "Réservez en LandCruiser",
-    rate: 250000,
+    rate: 210000,
     bookLink: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/751054",
     capacity: "4"
   }
@@ -214,7 +214,7 @@ vehicles: [
 jsonLD: {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
-  "name": "Spectaculaire Landmannalaugar",
+  "name": "Excursion Privée de Luxe au Landmannalaugar",
   "description": "Partez pour une excursion privée de luxe à Landmannalaugar avec Lilja Tours. Randonnées guidées au cœur des hautes terres, avec des paysages uniques de montagnes colorées et de cratères volcaniques.",
   "image": [
     "https://www.lilja-tours.com/pictures/landmannalaugar/gallery/landmannalaugar-1-pc.webp",
@@ -238,7 +238,7 @@ jsonLD: {
   },
   "offers": {
     "@type": "Offer",
-    "price": "250000",
+    "price": "210000",
     "priceCurrency": "ISK",
     "availability": "https://schema.org/InStock",
     "url": "https://www.lilja-tours.com/fr/guide-francophone-islande/excursion-guidee-landmannalaugar-islande/"
@@ -247,7 +247,8 @@ jsonLD: {
     "@type": "TravelAgency",
     "name": "Lilja Tours",
     "url": "https://www.lilja-tours.com",
-    "logo": "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png"
+    "logo": "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png",
+    "address": "Hólabraut 15, 220 Hafnarfjörður"
   },
   "departureLocation": {
     "@type": "Place",

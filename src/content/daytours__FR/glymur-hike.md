@@ -212,7 +212,7 @@ form: "https://tally.so/r/w4z7kY"
 jsonLd:
   "@context": "https://schema.org"
   "@type": "TouristTrip"
-  name: "Randonnée Privée à la Cascade Glymur en Islande"
+  name: "Excursion privée de randonnée à Glymur"
   description: "Découvrez la cascade de Glymur lors d'une excursion privée de randonnée avec Lilja Tours. Traversez des rivières et explorez des paysages époustouflants près de Reykjavík avec un guide expert."
   image:
     - "https://www.lilja-tours.com/pictures/glymur/gallery/glymur-5-pc.webp"
@@ -241,6 +241,7 @@ jsonLd:
     name: "Lilja Tours"
     url: "https://www.lilja-tours.com"
     logo: "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png"
+    address: "Hólabraut 15, 220 Hafnarfjörður"
   departureLocation:
     "@type": "Place"
     name: "Reykjavík ou rendez-vous sur place"

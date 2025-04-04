@@ -231,7 +231,7 @@ vehicles: [
 jsonLd:
   "@context": "https://schema.org"
   "@type": "TouristTrip"
-  name: "Couleurs de la Péninsule de Reykjanes"
+  name: "Excursion privée en Péninsule de Reykjanes | Volcans et sources géothermiques"
   description: "Partez pour une excursion privée en Péninsule de Reykjanes avec Lilja Tours. Découvrez les paysages volcaniques et géothermiques de Seltún, Gunnuhver, Nátthagi et Stampar."
   image:
     - "https://www.lilja-tours.com/pictures/reykjanes-colors/gallery/fagradalsfjall-2-pc.webp"
@@ -260,6 +260,7 @@ jsonLd:
     name: "Lilja Tours"
     url: "https://www.lilja-tours.com"
     logo: "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png"
+    address: "Hólabraut 15, 220 Hafnarfjörður"
   departureLocation:
     "@type": "Place"
     name: "Reykjavík"

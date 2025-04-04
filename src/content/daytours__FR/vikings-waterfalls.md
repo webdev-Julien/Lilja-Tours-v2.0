@@ -243,7 +243,7 @@ vehicles: [
 jsonLd:
   "@context": "https://schema.org"
   "@type": "TouristTrip"
-  name: "Vikings et Cascades"
+  name: "Excursion privée: Vikings et Cascades - Aventure historique en Islande"
   description: "Partez pour une excursion privée Vikings et Cascades en Islande. Explorez les ruines de Stöng, les cascades de Háifoss et Granni, l’oasis de Gjáin, et savourez un repas viking à Ingolfsskáli. Une immersion entre histoire et nature."
   image:
     - "https://www.lilja-tours.com/pictures/vikings-waterfalls/gallery/stong-1-pc.webp"
@@ -272,6 +272,7 @@ jsonLd:
     name: "Lilja Tours"
     url: "https://www.lilja-tours.com"
     logo: "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png"
+    address: "Hólabraut 15, 220 Hafnarfjörður"
   departureLocation:
     "@type": "Place"
     name: "Reykjavík"

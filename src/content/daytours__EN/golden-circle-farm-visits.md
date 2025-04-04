@@ -259,7 +259,7 @@ vehicles: [
 jsonLd:
   "@context": "https://schema.org"
   "@type": "TouristTrip"
-  name: "Golden Circle Culinary Experience"
+  name: "Private Golden Circle Tour - Farm to Table Experience"
   description: "Join Lilja Tours for a luxury private Golden Circle culinary adventure from Reykjavík. This exclusive experience combines Iceland's iconic natural wonders with gourmet dining. Travel in comfort with a professional guide, savor locally sourced delicacies, and explore the beauty of the Golden Circle with personalized service and high-end amenities."
   image:
     - "https://www.lilja-tours.com/pictures/golden-circle-farm-visits/gallery/thingvellir-1-pc.webp"
@@ -288,6 +288,7 @@ jsonLd:
     name: "Lilja Tours"
     url: "https://www.lilja-tours.com"
     logo: "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png"
+    address: "Hólabraut 15, 220 Hafnarfjörður"
   departureLocation:
     "@type": "Place"
     name: "Reykjavík"

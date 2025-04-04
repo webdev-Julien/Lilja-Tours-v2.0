@@ -240,7 +240,7 @@ vehicles: [
 jsonLd:
   "@context": "https://schema.org"
   "@type": "TouristTrip"
-  name: "South Coast Highlights"
+  name: "Private South Coast Tour in Iceland - Waterfalls, Glaciers & Black Sand Beaches"
   description: "Join a luxury private tour of Iceland’s South Coast Highlights. Visit Seljalandsfoss, Skógafoss, Reynisfjara, Dýrhólaey, and Sólheimajökull with Lilja Tours. Discover dramatic landscapes and iconic natural sites."
   image:
     - "https://www.lilja-tours.com/pictures/south-coast-highlights/gallery/reynisfjara-1-pc.webp"
@@ -269,6 +269,7 @@ jsonLd:
     name: "Lilja Tours"
     url: "https://www.lilja-tours.com"
     logo: "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png"
+    address: "Hólabraut 15, 220 Hafnarfjörður"
   departureLocation:
     "@type": "Place"
     name: "Reykjavík"

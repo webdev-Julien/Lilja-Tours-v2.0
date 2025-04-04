@@ -215,7 +215,7 @@ form: "https://tally.so/r/w4z7kY"
 jsonLd:
   "@context": "https://schema.org"
   "@type": "TouristTrip"
-  name: "Glymur Waterfall Private Hike in Iceland"
+  name: "Private Hiking Tour to Glymur Waterfall"
   description: "Experience a luxury private hiking tour to Glymur Waterfall with Lilja Tours. Explore scenic canyons, cross rivers, and witness breathtaking views of Iceland’s second-highest cascade, guided by local experts."
   image:
     - "https://www.lilja-tours.com/pictures/glymur/gallery/glymur-5-pc.webp"
@@ -244,6 +244,7 @@ jsonLd:
     name: "Lilja Tours"
     url: "https://www.lilja-tours.com"
     logo: "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png"
+    address: "Hólabraut 15, 220 Hafnarfjörður"
   departureLocation:
     "@type": "Place"
     name: "Reykjavík"

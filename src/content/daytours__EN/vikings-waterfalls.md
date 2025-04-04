@@ -238,7 +238,7 @@ vehicles: [
 jsonLd:
   "@context": "https://schema.org"
   "@type": "TouristTrip"
-  name: "Vikings and Waterfalls"
+  name: "Luxury Private Tour: Vikings and Waterfalls - Explore Iceland’s Heritage and Landscapes"
   description: "Join the Vikings and Waterfalls Private Tour with Lilja Tours. Discover Viking settlements, Háifoss Waterfall, Gjáin Oasis, and more. Conclude with a Viking-themed dinner. A blend of Icelandic history and natural beauty."
   image:
     - "https://www.lilja-tours.com/pictures/vikings-waterfalls/gallery/stong-1-pc.webp"
@@ -267,6 +267,7 @@ jsonLd:
     name: "Lilja Tours"
     url: "https://www.lilja-tours.com"
     logo: "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png"
+    address: "Hólabraut 15, 220 Hafnarfjörður"
   departureLocation:
     "@type": "Place"
     name: "Reykjavík"

@@ -265,7 +265,7 @@ vehicles: [
 jsonLd:
   "@context": "https://schema.org"
   "@type": "TouristTrip"
-  name: "South Coast and Volcanic Tales"
+  name: "Luxury Private Tour: South Coast and Volcano Tales - Waterfalls, Glaciers & Volcanoes"
   description: "Join a luxury private tour to Iceland’s South Coast and Volcano Tales. Explore Seljalandsfoss, Skógafoss, Reynisfjara, Sólheimajökull, and experience the Lava Show. Discover the dramatic volcanic landscapes with Lilja Tours."
   image:
     - "https://www.lilja-tours.com/pictures/south-coast-volcano-tales/gallery/south-coast-volcano-tales-1-pc.webp"
@@ -294,6 +294,7 @@ jsonLd:
     name: "Lilja Tours"
     url: "https://www.lilja-tours.com"
     logo: "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png"
+    address: "Hólabraut 15, 220 Hafnarfjörður"
   departureLocation:
     "@type": "Place"
     name: "Reykjavík"

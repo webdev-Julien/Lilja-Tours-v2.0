@@ -253,7 +253,7 @@ vehicles: [
 jsonLd:
   "@context": "https://schema.org"
   "@type": "TouristTrip"
-  name: "Expérience Culinaire du Cercle d'Or"
+  name: "Excursion privée Cercle d'Or et expérience culinaire"
   description: "Vivez une excursion privée culinaire du Cercle d'Or avec Lilja Tours. Découvrez Þingvellir, Geysir, Gullfoss et profitez de dégustations locales dans des fermes traditionnelles."
   image:
     - "https://www.lilja-tours.com/pictures/golden-circle-farm-visits/gallery/thingvellir-1-pc.webp"
@@ -282,6 +282,7 @@ jsonLd:
     name: "Lilja Tours"
     url: "https://www.lilja-tours.com"
     logo: "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png"
+    address: "Hólabraut 15, 220 Hafnarfjörður"
   departureLocation:
     "@type": "Place"
     name: "Reykjavík"

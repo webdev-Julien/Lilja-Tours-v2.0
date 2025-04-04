@@ -225,7 +225,7 @@ vehicles: [
 jsonLd:
   "@context": "https://schema.org"
   "@type": "TouristTrip"
-  name: "Cercle d'Or Essentiels"
+  name: "Excursion privée aux essentiels du Cercle d'Or"
   description: "Partez pour une excursion privée aux essentiels du Cercle d'Or avec Lilja Tours. Découvrez Þingvellir, Geysir, et Gullfoss lors d'une aventure de 6 heures, guidée par des experts."
   image:
     - "https://www.lilja-tours.com/pictures/golden-circle-essentials/gallery/Thingvellir-4-pc.webp"
@@ -254,6 +254,7 @@ jsonLd:
     name: "Lilja Tours"
     url: "https://www.lilja-tours.com"
     logo: "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png"
+    address: "Hólabraut 15, 220 Hafnarfjörður"
   departureLocation:
     "@type": "Place"
     name: "Reykjavík"

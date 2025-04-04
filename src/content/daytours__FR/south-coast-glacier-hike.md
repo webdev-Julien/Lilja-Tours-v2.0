@@ -243,7 +243,7 @@ vehicles: [
 jsonLd:
   "@context": "https://schema.org"
   "@type": "TouristTrip"
-  name: "Randonnée sur Glacier de la Côte Sud"
+  name: "Excursion privée Côte Sud & Rando Glacier - Cascades et paysages spectaculaires"
   description: "Profitez d'une excursion privée Côte Sud & Rando Glacier avec Lilja Tours. Visitez Seljalandsfoss, Skógafoss, Reynisfjara, et faites une randonnée sur le glacier Sólheimajökull."
   image:
     - "https://www.lilja-tours.com/pictures/south-coast-glacier-hike/gallery/glacier-hike-1-pc.webp"
@@ -272,6 +272,7 @@ jsonLd:
     name: "Lilja Tours"
     url: "https://www.lilja-tours.com"
     logo: "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png"
+    address: "Hólabraut 15, 220 Hafnarfjörður"
   departureLocation:
     "@type": "Place"
     name: "Reykjavík"

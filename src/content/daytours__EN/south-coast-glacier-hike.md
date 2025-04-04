@@ -244,7 +244,7 @@ vehicles: [
 jsonLd:
   "@context": "https://schema.org"
   "@type": "TouristTrip"
-  name: "South Coast Glacier Hike"
+  name: "Private Tour South Coast & Glacier Hike"
   description: "Join a luxury private tour to Iceland’s South Coast. Visit Seljalandsfoss, Skógafoss, Reynisfjara Black Sand Beach, and enjoy a glacier hike on Sólheimajökull with expert guidance and personalized service."
   image:
     - "https://www.lilja-tours.com/pictures/south-coast-glacier-hike/gallery/glacier-hike-1-pc.webp"
@@ -273,6 +273,7 @@ jsonLd:
     name: "Lilja Tours"
     url: "https://www.lilja-tours.com"
     logo: "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png"
+    address: "Hólabraut 15, 220 Hafnarfjörður"
   departureLocation:
     "@type": "Place"
     name: "Reykjavík"

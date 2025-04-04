@@ -266,7 +266,7 @@ vehicles: [
 jsonLd:
   "@context": "https://schema.org"
   "@type": "TouristTrip"
-  name: "Côte Sud et Contes Volcaniques"
+  name: "Excursion privée Côte Sud et Contes Volcaniques - Aventure volcanique en Islande"
   description: "Profitez d'une excursion privée sur la Côte Sud Islandaise avec Lilja Tours. Découvrez Seljalandsfoss, Skógafoss, Reynisfjara, Sólheimajökull, et le Lava Show pour une expérience volcanique unique."
   image:
     - "https://www.lilja-tours.com/pictures/south-coast-volcano-tales/gallery/south-coast-volcano-tales-1-pc.webp"
@@ -295,6 +295,7 @@ jsonLd:
     name: "Lilja Tours"
     url: "https://www.lilja-tours.com"
     logo: "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png"
+    address: "Hólabraut 15, 220 Hafnarfjörður"
   departureLocation:
     "@type": "Place"
     name: "Reykjavík"

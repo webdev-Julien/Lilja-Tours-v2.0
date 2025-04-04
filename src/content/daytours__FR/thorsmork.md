@@ -1,7 +1,7 @@
 ---
 # Rates
-vanISK: 250000
-jeepISK: 250000
+vanISK: 210000
+jeepISK: 210000
 
 # filter
 filter: "norm"
@@ -205,7 +205,7 @@ vehicles: [
     srcMobile: "/pictures/cars/Toyota-LandCruiser-mobile.webp",
     alt: "Un toyota Land Cruiser Gris",
     title: "Réserver en LandCruiser",
-    rate: 250000,
+    rate: 210000,
     bookLink: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/783279",
     capacity: "4"
   }
@@ -215,7 +215,7 @@ vehicles: [
 jsonLd:
   "@context": "https://schema.org"
   "@type": "TouristTrip"
-  name: "Beauté de Þórsmörk - Randonnée"
+  name: "Excursion privée à Þórsmörk - Randonnée dans les Hautes Terres Islandaises"
   description: "Participez à une excursion privée à Þórsmörk avec Lilja Tours. Randonnée dans les Hautes Terres d'Islande, découvrez Nauthúsagíl, Valahnúkur, et Stakkholtsgjá."
   image:
     - "https://www.lilja-tours.com/pictures/thorsmork/gallery/thorsmork-1-pc.webp"
@@ -235,7 +235,7 @@ jsonLd:
     itemListElement: []
   offers:
     "@type": "Offer"
-    price: "250000"
+    price: "210000"
     priceCurrency: "ISK"
     availability: "https://schema.org/InStock"
     url: "https://www.lilja-tours.com/fr/guide-francophone-islande/randonnee-avec-guide-francophone-thorsmork-islande/"
@@ -244,6 +244,7 @@ jsonLd:
     name: "Lilja Tours"
     url: "https://www.lilja-tours.com"
     logo: "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png"
+    address: "Hólabraut 15, 220 Hafnarfjörður"
   departureLocation:
     "@type": "Place"
     name: "Reykjavík"

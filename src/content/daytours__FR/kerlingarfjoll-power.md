@@ -1,7 +1,7 @@
 ---
 # Rates
-vanISK: 250000
-jeepISK: 250000
+vanISK: 210000
+jeepISK: 210000
 
 # filter
 filter: "norm"
@@ -186,7 +186,7 @@ vehicles: [
     srcMobile: "/pictures/cars/Toyota-LandCruiser-mobile.webp",
     alt: "Un Toyota Land Cruiser Gris",
     title: "Réserver en LandCruiser",
-    rate: 250000,
+    rate: 210000,
     bookLink: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/895721",
     capacity: "4"
   }
@@ -196,7 +196,7 @@ vehicles: [
 jsonLd:
   "@context": "https://schema.org"
   "@type": "TouristTrip"
-  name: "Randonnée à Kerlingarfjöll"
+  name: "Excursion Privée de Randonnée à Kerlingarfjöll"
   description: "Partez pour une excursion privée de randonnée à Kerlingarfjöll avec Lilja Tours. Découvrez les paysages surréalistes des hautes terres d'Islande, entre montagnes colorées et vapeurs géothermales."
   "image": 
     - "https://www.lilja-tours.com/pictures/kerlingarfjoll/gallery/kerlingarfjoll-1-pc.webp"
@@ -217,7 +217,7 @@ jsonLd:
     itemListElement: []
   offers:
     "@type": "Offer"
-    price: "250000"
+    price: "210000"
     priceCurrency: "ISK"
     availability: "https://schema.org/InStock"
     url: "https://www.lilja-tours.com/fr/guide-francophone-islande/excursion-avec-guide-francophone-a-kerlingarfjoll/"
@@ -226,6 +226,7 @@ jsonLd:
     name: "Lilja Tours"
     url: "https://www.lilja-tours.com"
     logo: "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png"
+    address: "Hólabraut 15, 220 Hafnarfjörður"
   departureLocation:
     "@type": "Place"
     name: "Reykjavík"

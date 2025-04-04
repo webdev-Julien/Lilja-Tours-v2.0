@@ -1,7 +1,7 @@
 ---
 # Rates
-vanISK: 250000
-jeepISK: 250000
+vanISK: 210000
+jeepISK: 210000
 
 # filter
 filter: "norm"
@@ -205,7 +205,7 @@ vehicles: [
     srcMobile: "/pictures/cars/Toyota-LandCruiser-mobile.webp",
     alt: "A grey toyota superJeep",
     title: "Book in LandCruiser",
-    rate: 250000,
+    rate: 210000,
     bookLink: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/751054",
     capacity: "4"
   }
@@ -217,7 +217,7 @@ form: "https://tally.so/r/w7p12R"
 jsonLd: {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
-  "name": "Spectacular Landmannalaugar",
+  "name": "Private Landmannalaugar Hiking Tour in Iceland",
   "description": "Join Lilja Tours for a luxury private Landmannalaugar hiking adventure. Explore colorful mountains, geothermal areas, and majestic waterfalls. Tailored for nature enthusiasts and hiking lovers.",
   "image": [
     "https://www.lilja-tours.com/pictures/landmannalaugar/gallery/landmannalaugar-1-pc.webp",
@@ -241,10 +241,11 @@ jsonLd: {
   },
   "offers": {
     "@type": "Offer",
-    "price": "250000",
+    "price": "210000",
     "priceCurrency": "ISK",
     "availability": "https://schema.org/InStock",
-    "url": "https://www.lilja-tours.com/day-tours-iceland/private-hiking-tour-to-the-landmannalaugar/"
+    "url": "https://www.lilja-tours.com/day-tours-iceland/private-hiking-tour-to-the-landmannalaugar/",
+    "address": "Hólabraut 15, 220 Hafnarfjörður"
   },
   "provider": {
     "@type": "TravelAgency",

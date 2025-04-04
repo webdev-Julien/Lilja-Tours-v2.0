@@ -240,7 +240,7 @@ vehicles: [
 jsonLd:
   "@context": "https://schema.org"
   "@type": "TouristTrip"
-  name: "Borgarfjörður Silver Circle"
+  name: "Silver Circle Private Tour - Discover Borgarfjörður’s Natural Wonders"
   description: "Experience the Borgarfjörður Silver Circle on a luxury private tour. Visit Hraunfossar, Barnafoss, Deildartunguhver, Viðgelmir Cave, and Hvammsvík Hot Springs. Enjoy personalized service and comfort throughout your journey."
   image:
     - "https://www.lilja-tours.com/pictures/silver-circle/gallery/borgaf-1-pc.webp"
@@ -269,6 +269,7 @@ jsonLd:
     name: "Lilja Tours"
     url: "https://www.lilja-tours.com"
     logo: "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png"
+    address: "Hólabraut 15, 220 Hafnarfjörður"
   departureLocation:
     "@type": "Place"
     name: "Reykjavík"

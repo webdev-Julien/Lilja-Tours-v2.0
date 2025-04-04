@@ -233,7 +233,7 @@ vehicles: [
 jsonLd:
   "@context": "https://schema.org"
   "@type": "TouristTrip"
-  name: "Merveilles de la Péninsule de Snæfellsnes"
+  name: "Excursion privée sur la péninsule de Snæfellsnes - Paysages volcaniques et côtiers"
   description: "Profitez d'une excursion privée sur la péninsule de Snæfellsnes avec Lilja Tours. Découvrez Kirkjufell, Arnarstapi, Djúpalónssandur et d'autres sites emblématiques de la région."
   image:
     - "https://www.lilja-tours.com/pictures/snaefellsnes-wonders/gallery/kirkjufell-1-pc.webp"
@@ -262,6 +262,7 @@ jsonLd:
     name: "Lilja Tours"
     url: "https://www.lilja-tours.com"
     logo: "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png"
+    address: "Hólabraut 15, 220 Hafnarfjörður"
   departureLocation:
     "@type": "Place"
     name: "Reykjavík"

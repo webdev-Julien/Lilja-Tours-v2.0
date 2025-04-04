@@ -202,7 +202,7 @@ form: "https://tally.so/r/wgkK84"
 jsonLd:
   "@context": "https://schema.org"
   "@type": "TouristTrip"
-  name: "Sortie Privée Aurores Boréales en Islande"
+  name: "Excursion privée aux aurores boréales en Islande"
   description: "Découvrez les Aurores Boréales en Islande lors d'une excursion privée avec Lilja Tours. Profitez de conseils d'expert, de photographies professionnelles et de boissons chaudes pour une expérience inoubliable sous le ciel étoilé."
   image:
     - "https://www.lilja-tours.com/pictures/northern-lights/gallery/northern-lights-1-pc.webp"
@@ -231,6 +231,7 @@ jsonLd:
     name: "Lilja Tours"
     url: "https://www.lilja-tours.com"
     logo: "https://www.lilja-tours.com/logos/Lilja-Tours-Full-Logo.png"
+    address: "Hólabraut 15, 220 Hafnarfjörður"
   departureLocation:
     "@type": "Place"
     name: "Reykjavík"

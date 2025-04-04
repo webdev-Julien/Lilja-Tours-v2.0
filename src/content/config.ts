@@ -138,6 +138,7 @@ const daytours__EN = defineCollection({
           name: z.string(),
           url: z.string().url(),
           logo: z.string().url(),
+          address: z.string().optional(),
         }),
         departureLocation: z.object({
           "@type": z.literal("Place"),
@@ -294,6 +295,7 @@ const daytours__FR = defineCollection({
           name: z.string(),
           url: z.string().url(),
           logo: z.string().url(),
+          address: z.string().optional(),
         }),
         departureLocation: z.object({
           "@type": z.literal("Place"),
