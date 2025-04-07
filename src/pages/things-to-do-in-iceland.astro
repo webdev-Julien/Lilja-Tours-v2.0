@@ -18,6 +18,10 @@ const rvkHsprings = excurs__EN.filter((excurs:any) =>  excurs.data.filter==="rey
 const rvkMiniBus = excurs__EN.filter((excurs:any) =>  excurs.data.filter==="reykjavik" && excurs.data.filter2 === "bus")
 const rvkWw = excurs__EN.filter((excurs:any) =>  excurs.data.filter==="reykjavik" && excurs.data.filter2 === "ww")
 const rvkAdv = excurs__EN.filter((excurs:any) =>  excurs.data.filter==="reykjavik" && excurs.data.filter2 === "adv")
+const rvkHeli = excurs__EN.filter((excurs:any) =>  excurs.data.filter==="reykjavik" && excurs.data.filter2 === "heli")
+
+const excuSC = excurs__EN.filter((excurs:any) =>  excurs.data.filter==="sc")
+
 
 
 
@@ -49,7 +53,7 @@ const rvkAdv = excurs__EN.filter((excurs:any) =>  excurs.data.filter==="reykjavi
         <meta property="og:image:height" content="630">
         <meta property="og:logo" content="https://www.lilja-tours/logos/Lilja-Tours-Full-Logo.png" />
 
-        <title>Book excursions in Iceland </title>
+        <title>Best activities in Iceland | Explore on your own</title>
 
         <slot name="jsonld"></slot>
 
@@ -72,9 +76,9 @@ const rvkAdv = excurs__EN.filter((excurs:any) =>  excurs.data.filter==="reykjavi
             <PicHeader srcMobile="/pictures/excursions/whale-watching-reykjavik-mobile.webp" srcPC="/pictures/excursions/whale-watching-reykjavik-pc.webp" alt="Picture of stunning waterfalls in desertic landscapes" title="All of our day tours in Iceland"></PicHeader></div>
             <div class="headerGradient"></div>
             <div class="headerInfos">
-                <h1>Explore Iceland on your own</h1>
-                <h2>Book your excursion with one of our trusted partners all around Iceland</h2>
-                <p class="headerP">At <strong>Lilja Tours</strong>, we do not offer self-drive tour. Yet, for those interested in discovering the country fully independently, we provide the possibility to book the best excursions and tours with renowned tour-operators that we have been working with for years now. This curated list allows you to pick only the best possible activities, and at a better price, thanks to our promocode: <strong>LILJA5</strong>, that you may use upon booking. Happy exploration!</p>
+                <h1>Best Activities in Iceland</h1>
+                <h2>Book your excursion with one of our trusted partners and explore on your own</h2>
+                <p class="headerP">For those who prefer to explore Iceland independently, we've partnered with some of the most reputable tour operators to bring you the best activities in Iceland and excursions available. At Lilja Tours, we specialize in private experiences rather than self-drive tours. However, our curated selection ensures top-quality experiences at competitive prices, and you can enjoy an extra discount by using our promo code: LILJA5 when booking. Happy exploring!</p>
             </div>
            
         </div>
@@ -86,7 +90,24 @@ const rvkAdv = excurs__EN.filter((excurs:any) =>  excurs.data.filter==="reykjavi
             <p>All the below excursions offer a departure from Reykjavík. Some of them might require to go to a specific location, while others will offer pickup options. Explore our selection of Whale Watching tours, museums, shows, hot spring admissions and even helicopter tours.</p>
          </div>
 
-         <h3>Adventure tours for thrill-seekers</h3>
+         <h3>Helicopter Tours</h3>
+         <p>Iceland's breathtaking landscapes, shaped by fiery volcanoes and icy glaciers, become even more spectacular when viewed from the sky. We've handpicked some unforgettable helicopter tours below, but our trusted partners offer many more unique aerial adventures across Iceland. If you don't see exactly what you're looking for, feel free to <a href="mailto: julien@lilja-tours.com" title="send us an email">send us an email</a> for additional options or to arrange your very own private helicopter experience!</p>
+         <div class="wrapper">
+        {rvkHeli.map((excu:any) => (
+
+
+        <ExcuCards
+excu = {excu}
+>
+
+</ExcuCards>
+))}
+
+    </div>
+
+         <h3>ATV tours for thrill-seekers</h3>
+         <p>Ready to add an adrenaline rush to your Reykjavík itinerary? Hop onto an ATV tour and discover the thrilling landscapes and untamed beauty that surround Iceland's vibrant capital.</p>
+         <p>We've partnered with a highly experienced local operator who's been offering exceptional ATV adventures for nearly a decade. Their carefully curated tours cater to all skill levels, and all drivers need is a valid driver's license. Adventure awaits!</p>
          <div class="wrapper">
         {rvkAdv.map((excu:any) => (
 
@@ -100,7 +121,10 @@ excu = {excu}
 
     </div>
 
-         <h3>Day tours: Shared departures</h3>
+         <h3>Day tours: Small Group Tours</h3>
+         <p>Want to experience Iceland's stunning landscapes without worrying about driving? Join an affordable small group tour and comfortably explore the country's most breathtaking regions alongside fellow travelers.</p>
+         <p>Our carefully selected partner ranks among the top-rated operators on TripAdvisor, consistently praised for their professional guides and modern, well-maintained buses.</p>
+         <p>If you're seeking even greater flexibility and a tailored itinerary, check out our extensive selection of <a href="/all-day-tours/" title="List of private tours in Iceland">private tours</a> designed just for you!</p>
          <div class="wrapper">
         {rvkMiniBus.map((excu:any) => (
 
@@ -114,6 +138,8 @@ excu = {excu}
        
 
          <h3>Hot Springs</h3>
+         <p>Looking to unwind after a day of exploring Iceland’s rugged beauty? Treat yourself to a soothing soak at one of the country’s world-renowned spas, where relaxation meets breathtaking scenery.</p>
+         <p>Regarding the tours listed below, please keep in mind: The Hvammsvík excursion includes transfer, while for Sky Lagoon (located in the suburbs of Reykjavík), transfer needs to be booked separately.</p>
          <div class="wrapper">
         {rvkHsprings.map((excu:any) => (
 
@@ -125,6 +151,7 @@ excu = {excu}
 </ExcuCards>
 ))}
          <h3>Cultural Experiences</h3>
+         <p>Iceland's breathtaking landscapes and surreal natural beauty are truly mesmerizing. But beyond capturing stunning photos, why not take a moment to dive deeper and learn about the powerful natural forces that shape this magical land?</p>
          <div class="wrapper">
         {rvkCult.map((excu:any) => (
 
@@ -138,6 +165,8 @@ excu = {excu}
 
     </div>
     <h3>Whale Watching Tours</h3>
+    <p>Iceland's waters are home to over 20 different species of whales, dolphins, and porpoises. Witnessing these majestic giants in their natural habitat is undoubtedly a bucket list experience.</p>
+    <p>We've carefully chosen the most reputable operators to ensure you have the unforgettable opportunity to encounter the planet's largest mammals up close!</p>
     <div class="wrapper">
         {rvkWw.map((excu:any) => (
 
@@ -156,8 +185,12 @@ excu = {excu}
         <p>As you are exploring the country and wondering about what to do between two visits of our gorgeous landscapes while far away from the capital area, look no further! We are working with businesses all around the island, take your pick! </p>
      </div>
 
+     <h3>South Coast Activities</h3>
+     <p>The South Coast of Iceland is truly a land of contrasts, where mighty glaciers and powerful volcanoes coexist, embodying Iceland's reputation as the Land of Fire and Ice. This region is home to some of the largest glaciers in Europe, offering unforgettable experiences amidst breathtaking natural beauty.</p>
+     <p>One of the most popular activities on the South Coast is exploring the glaciers, but keep in mind that ice cave tours are only available during the winter months!</p>
+     <p>Beyond glaciers, there's so much more to discover. From exploring lava tunnels to taking a Zodiac boat ride among icebergs (summer only), the South Coast promises endless adventure. For a more personalized experience with expert guidance, take a look at our <a href="/day-tours-iceland/south-coast/" title="list of tours on the south coast">private South Coast tours</a>.</p>
      <div class="wrapper">
-    {excurs__EN.filter((baba:any) => (baba.data.filter==="country")).map((excu:any) => (
+    {excuSC.map((excu:any) => (
 
 
     <ExcuCards
@@ -168,6 +201,8 @@ excu = {excu}
 ))}
 
 </div>
+
+
     </main>
 
 
@@ -179,12 +214,22 @@ excu = {excu}
 
 <style>
 
+    main p {
+        width: 75%;
+        margin-inline: auto;
+        margin-bottom: 2rem;
+    }
+
+    main a {
+        color: white;
+    }
+
 h3 {
   color: white;
   font-size: clamp(1.25rem, 3vw, 2.5rem);
   font-weight: lighter;
-  width: 95%;
-  margin: 5rem auto;
+  width: 75%;
+  margin: 3rem auto;
   text-align: left;
 }
 
@@ -194,7 +239,7 @@ h3 {
     }
 
     .firstText {
-        width: calc(100% - 4rem);
+        width: 75%;
         margin: 2rem auto;
         padding: 2rem;
         background-color: rgba(255, 255, 255, 0.25);
@@ -306,6 +351,11 @@ h3 {
 
     main p {
         font-size: 1rem;
+        width: 95%;
+    }
+
+    main h3 {
+        width: 95%;
     }
 
     main {
@@ -317,9 +367,10 @@ h3 {
     }
 
     header h2 {
-        margin-block: 2rem;
+        margin-block: 1rem;
         width: 95%;
     }
+
 
     .wrapper {
         width: 95%;

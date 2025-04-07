@@ -64,6 +64,8 @@ main h2 {
   font-style: normal;
   text-align: left;
   width: 100%;
+  font-weight: bolder;
+  line-height: 1.1;
 }
 
 h3 {
@@ -76,9 +78,10 @@ p {
   margin: 0.75rem;
 }
 
-p,
-a {
-  font-size: 1rem;
+main p,
+main a,
+main li {
+  font-size: clamp(1rem, 2vw, 1.25rem);
   font-weight: 400;
 }
 
@@ -117,4 +120,8 @@ hr {
   border: none;
   margin: 0;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+}
+
+.test {
+  background-color: red;
 }
