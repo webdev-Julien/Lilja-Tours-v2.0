@@ -73,7 +73,7 @@ itiItems: [
     itiItemPicSrcPC: "/pictures/vikings-waterfalls/itinerary/stong-pc.webp",
     itiItemPicAlt: "Ruines d'installations vikings - Excursion guidée en français",
     itiItemPicTitle: "Vikings et Cascades: Stöng",
-    itiItemStrings: ["Voici le début de l’aspect culturel de notre excursion. **Stöng** est une ruine remarquablement bien préservée d’une longhouse viking, abandonnée en **1104**. Étonnamment, l’événement qui a conduit à son évacuation est aussi celui qui a permis sa conservation exceptionnelle.",  
+    itiItemStrings: ["Voici le début de l’aspect culturel de notre excursion. Stöng est une ruine remarquablement bien préservée d’une longhouse viking, abandonnée en 1104. Étonnamment, l’événement qui a conduit à son évacuation est aussi celui qui a permis sa conservation exceptionnelle.",  
     "L’éruption du volcan Hekla a forcé les habitants à fuir, ensevelissant le site sous une épaisse couche de cendres volcaniques. Au fil des siècles, cette couverture naturelle a protégé les ruines, les maintenant intactes. Ce n’est qu’en 1929, lors de recherches archéologiques dans la région, que ces structures anciennes ont été mises au jour, offrant un fascinant aperçu de l’histoire viking."]
     },
     {

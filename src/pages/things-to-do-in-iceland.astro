@@ -21,6 +21,10 @@ const rvkAdv = excurs__EN.filter((excurs:any) =>  excurs.data.filter==="reykjavi
 const rvkHeli = excurs__EN.filter((excurs:any) =>  excurs.data.filter==="reykjavik" && excurs.data.filter2 === "heli")
 
 const excuSC = excurs__EN.filter((excurs:any) =>  excurs.data.filter==="sc")
+const excuGC = excurs__EN.filter((excurs:any) =>  excurs.data.filter==="gc")
+const excuWI = excurs__EN.filter((excurs:any) =>  excurs.data.filter==="wi")
+
+
 
 
 
@@ -201,7 +205,35 @@ excu = {excu}
 ))}
 
 </div>
+<h3>Golden Circle Activities</h3>
+<p>The Golden Circle is an essential stop for any traveler to Iceland, featuring iconic landmarks like Þingvellir National Park, Gullfoss, and the legendary Geysir. But beyond sightseeing, this famous route also offers a wide range of exciting activities. Whether you want to relax in a geothermal spa like Fontana, snorkel between tectonic plates for an unforgettable underwater adventure, or experience the thrill of snowmobiling on a glacier, the Golden Circle has something for everyone.</p>
+<p>For a more immersive experience, guided by a local expert, consider joining one of our <a href="/day-tours-iceland/golden-circle/" title="Our Golden Circle Tours">private Golden Circle tours</a>. Alternatively, you can explore this iconic route with a group by booking a <a href="/things-to-do-iceland/golden-circle-small-group-tour-iceland/" title="Shared tour: Golden Circle and farm lunch">small group Golden Circle tour</a> with our trusted partner.</p>
+<div class="wrapper">
+{excuGC.map((excu:any) => (
 
+
+<ExcuCards
+excu = {excu}
+>
+
+</ExcuCards>
+))}
+</div>
+
+<h3>West of Iceland Activities</h3>
+<p>When staying in Reykjavík, there are three incredible regions you can explore within a day: the Snæfellsnes Peninsula, the Reykjanes Peninsula, and the lesser-known but equally captivating Borgarfjörður, also known as "The Silver Circle."</p>
+<p>Below, you'll find a handpicked selection of the best activities in these diverse areas. Whether you're drawn to hot springs, lava tunnels, or glacier exploration, there's an adventure waiting for you!</p>
+<p>For a more personalized and comfortable experience, explore these regions in style by booking one of our private tours to the <a href="/day-tours-iceland/private-tour-snaefellsnes-peninsula-iceland/" title="Snæfellsnes private tour">Snæfellsnes Peninsula</a>, <a href="/day-tours-iceland/private-tour-reykjanes-peninsula-iceland/" title="Reykjanes private tour">Reykjanes Peninsula</a>, or the <a href="/day-tours-iceland/silver-circle-private-tour-iceland/" title="Silver Circle private tour">Silver Circle</a>.</p>
+<div class="wrapper">
+{excuWI.map((excu:any) => (
+
+<ExcuCards
+excu = {excu}
+>
+
+</ExcuCards>
+))}
+</div>
 
     </main>
 
