@@ -9,6 +9,8 @@ import TopBar from "../components/TopBar__EN.astro";
 import PicHeader from "../components/Pics/PicHeader.astro";
 import FooterEN from "../components/footer__EN.astro";
 
+import TagBarEXCUEN from "../components/tags/TagBarEXCU__EN.astro";
+
 
 
 const excurs__EN: CollectionEntry<"excurs__EN">[] = await getCollection("excurs__EN")
@@ -94,12 +96,13 @@ const excuFR = excurs__EN.filter((excurs:any) =>  excurs.data.filter==="fr")
     </header>
 
     <main>
+        <TagBarEXCUEN></TagBarEXCUEN>
         <div class="firstText">
-            <h2>Excursions from Reykjavík:</h2>
+            <h2 id="rvk">Excursions from Reykjavík:</h2>
             <p>All the below excursions offer a departure from Reykjavík. Some of them might require to go to a specific location, while others will offer pickup options. Explore our selection of Whale Watching tours, museums, shows, hot spring admissions and even helicopter tours.</p>
          </div>
 
-         <h3>Helicopter Tours</h3>
+         <h3 id="helico">Helicopter Tours</h3>
          <p>Iceland's breathtaking landscapes, shaped by fiery volcanoes and icy glaciers, become even more spectacular when viewed from the sky. We've handpicked some unforgettable helicopter tours below, but our trusted partners offer many more unique aerial adventures across Iceland. If you don't see exactly what you're looking for, feel free to <a href="mailto: julien@lilja-tours.com" title="send us an email">send us an email</a> for additional options or to arrange your very own private helicopter experience!</p>
          <div class="wrapper">
         {rvkHeli.map((excu:any) => (
@@ -114,7 +117,7 @@ excu = {excu}
 
     </div>
 
-         <h3>ATV tours for thrill-seekers</h3>
+         <h3 id="atv">ATV tours for thrill-seekers</h3>
          <p>Ready to add an adrenaline rush to your Reykjavík itinerary? Hop onto an ATV tour and discover the thrilling landscapes and untamed beauty that surround Iceland's vibrant capital.</p>
          <p>We've partnered with a highly experienced local operator who's been offering exceptional ATV adventures for nearly a decade. Their carefully curated tours cater to all skill levels, and all drivers need is a valid driver's license. Adventure awaits!</p>
          <div class="wrapper">
@@ -130,7 +133,7 @@ excu = {excu}
 
     </div>
 
-         <h3>Day tours: Small Group Tours</h3>
+         <h3 id="smallgroup">Day tours: Small Group Tours</h3>
          <p>Want to experience Iceland's stunning landscapes without worrying about driving? Join an affordable small group tour and comfortably explore the country's most breathtaking regions alongside fellow travelers.</p>
          <p>Our carefully selected partner ranks among the top-rated operators on TripAdvisor, consistently praised for their professional guides and modern, well-maintained buses.</p>
          <p>If you're seeking even greater flexibility and a tailored itinerary, check out our extensive selection of <a href="/all-day-tours/" title="List of private tours in Iceland">private tours</a> designed just for you!</p>
@@ -146,7 +149,7 @@ excu = {excu}
 ))}
        
 
-         <h3>Hot Springs</h3>
+         <h3 id="hotspring">Hot Springs</h3>
          <p>Looking to unwind after a day of exploring Iceland’s rugged beauty? Treat yourself to a soothing soak at one of the country’s world-renowned spas, where relaxation meets breathtaking scenery.</p>
          <p>Regarding the tours listed below, please keep in mind: The Hvammsvík excursion includes transfer, while for Sky Lagoon (located in the suburbs of Reykjavík), transfer needs to be booked separately.</p>
          <div class="wrapper">
@@ -159,7 +162,7 @@ excu = {excu}
 
 </ExcuCards>
 ))}
-         <h3>Cultural Experiences</h3>
+         <h3 id="culture">Cultural Experiences</h3>
          <p>Iceland's breathtaking landscapes and surreal natural beauty are truly mesmerizing. But beyond capturing stunning photos, why not take a moment to dive deeper and learn about the powerful natural forces that shape this magical land?</p>
          <div class="wrapper">
         {rvkCult.map((excu:any) => (
@@ -173,7 +176,7 @@ excu = {excu}
 ))}
 
     </div>
-    <h3>Whale Watching Tours</h3>
+    <h3 id="ww">Whale Watching Tours</h3>
     <p>Iceland's waters are home to over 20 different species of whales, dolphins, and porpoises. Witnessing these majestic giants in their natural habitat is undoubtedly a bucket list experience.</p>
     <p>We've carefully chosen the most reputable operators to ensure you have the unforgettable opportunity to encounter the planet's largest mammals up close!</p>
     <div class="wrapper">
@@ -190,11 +193,11 @@ excu = {excu}
 </div>
 
     <div class="firstText">
-        <h2>Excursions in the rest of Iceland:</h2>
+        <h2 id="rest">Excursions in the rest of Iceland:</h2>
         <p>As you are exploring the country and wondering about what to do between two visits of our gorgeous landscapes while far away from the capital area, look no further! We are working with businesses all around the island, take your pick! </p>
      </div>
 
-     <h3>South Coast Activities</h3>
+     <h3 id="sc">South Coast Activities</h3>
      <p>The South Coast of Iceland is truly a land of contrasts, where mighty glaciers and powerful volcanoes coexist, embodying Iceland's reputation as the Land of Fire and Ice. This region is home to some of the largest glaciers in Europe, offering unforgettable experiences amidst breathtaking natural beauty.</p>
      <p>One of the most popular activities on the South Coast is exploring the glaciers, but keep in mind that ice cave tours are only available during the winter months!</p>
      <p>Beyond glaciers, there's so much more to discover. From exploring lava tunnels to taking a Zodiac boat ride among icebergs (summer only), the South Coast promises endless adventure. For a more personalized experience with expert guidance, take a look at our <a href="/day-tours-iceland/south-coast/" title="list of tours on the south coast">private South Coast tours</a>.</p>
@@ -210,7 +213,7 @@ excu = {excu}
 ))}
 
 </div>
-<h3>Golden Circle Activities</h3>
+<h3 id="gc">Golden Circle Activities</h3>
 <p>The Golden Circle is an essential stop for any traveler to Iceland, featuring iconic landmarks like Þingvellir National Park, Gullfoss, and the legendary Geysir. But beyond sightseeing, this famous route also offers a wide range of exciting activities. Whether you want to relax in a geothermal spa like Fontana, snorkel between tectonic plates for an unforgettable underwater adventure, or experience the thrill of snowmobiling on a glacier, the Golden Circle has something for everyone.</p>
 <p>For a more immersive experience, guided by a local expert, consider joining one of our <a href="/day-tours-iceland/golden-circle/" title="Our Golden Circle Tours">private Golden Circle tours</a>. Alternatively, you can explore this iconic route with a group by booking a <a href="/things-to-do-iceland/golden-circle-small-group-tour-iceland/" title="Shared tour: Golden Circle and farm lunch">small group Golden Circle tour</a> with our trusted partner.</p>
 <div class="wrapper">
@@ -225,7 +228,7 @@ excu = {excu}
 ))}
 </div>
 
-<h3>West of Iceland Activities</h3>
+<h3 id="wi">West of Iceland Activities</h3>
 <p>When staying in Reykjavík, there are three incredible regions you can explore within a day: the Snæfellsnes Peninsula, the Reykjanes Peninsula, and the lesser-known but equally captivating Borgarfjörður, also known as "The Silver Circle."</p>
 <p>Below, you'll find a handpicked selection of the best activities in these diverse areas. Whether you're drawn to hot springs, lava tunnels, or glacier exploration, there's an adventure waiting for you!</p>
 <p>For a more personalized and comfortable experience, explore these regions in style by booking one of our private tours to the <a href="/day-tours-iceland/private-tour-snaefellsnes-peninsula-iceland/" title="Snæfellsnes private tour">Snæfellsnes Peninsula</a>, <a href="/day-tours-iceland/private-tour-reykjanes-peninsula-iceland/" title="Reykjanes private tour">Reykjanes Peninsula</a>, or the <a href="/day-tours-iceland/silver-circle-private-tour-iceland/" title="Silver Circle private tour">Silver Circle</a>.</p>
@@ -239,7 +242,7 @@ excu = {excu}
 </ExcuCards>
 ))}
 </div>
-<h3>Activities in Northern Iceland</h3>
+<h3 id="ni">Activities in Northern Iceland</h3>
 <p>North Iceland is a region of dramatic beauty—home to towering mountains, powerful waterfalls, geothermal hot springs, and striking volcanic landscapes. From Akureyri, the country's second-largest city, to the geologically rich Lake Mývatn, and Húsavík, Iceland’s whale watching capital, the North offers unforgettable experiences for every type of traveler. Discover our curated selection of excursions and activities to make the most of your journey through Northern Iceland.</p>
 
 <div class="wrapper">
@@ -253,7 +256,7 @@ excu = {excu}
 ))}
 </div>
 
-<h3>Group Excursions with french speaking guide</h3>
+<h3 id="fr">Group Excursions with french speaking guide</h3>
 <p>Find below our selction of tours and excursions guided by a french speaking guide. <a href="/fr/activites-en-islande/" title="activités en Islande avec guide français">Cliquez ici pour voir la liste de nos excursions en Islande avec guide francophone</a>.</p>
 
 <div class="wrapper">
@@ -329,7 +332,7 @@ h3 {
    main {
     width: 90%;
     margin-inline: auto;
-    padding: 5rem 0;
+    padding: 2rem 0;
    }
 
 .wrapper {

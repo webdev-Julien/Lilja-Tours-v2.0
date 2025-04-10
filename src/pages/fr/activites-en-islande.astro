@@ -96,12 +96,12 @@ const excuGLA = excurs__FR.filter((excurs:any) =>  excurs.data.filter==="sc" && 
 
 <main>
     <div class="firstText">
-        <h2>Excursions avec guide francophone :</h2>
+        <h2 id="fr">Excursions avec guide francophone :</h2>
         <p>Grâce à nos partenariats privilégiés, accédez à une sélection raffinée d’excursions en français et accompagnées de guides francophones. Que vous rêviez d’un circuit en petit groupe pour découvrir les incontournables de l’Islande ou d’une aventure spectaculaire sur glacier, explorez ci-dessous notre liste complète d’options testées et approuvées.</p>
 <p><strong>Important :</strong> Ces excursions en groupe sont proposées par nos partenaires et non directement opérées par Lilja Tours. Pour vivre une expérience plus intime et personnalisée, optez plutôt pour nos <a href="/fr/toutes-nos-excursions/" title="excursions avec guide privé en Islande">circuits privatifs avec guide francophone en Islande</a>.</p>
     </div>
 
-<h3>Circuits en Petit Groupe avec Guide français</h3>
+<h3 id="smallgroup">Circuits en Petit Groupe avec Guide français</h3>
 <p>Explorez les merveilles naturelles de l’Islande en toute convivialité, au sein de petits groupes de 4 à 12 voyageurs. Du célèbre Cercle d’Or aux panoramas spectaculaires de la Côte Sud, jusqu’aux paysages volcaniques du Landmannalaugar dans les Hautes Terres, ces circuits guidés en français vous dévoilent les trésors les plus emblématiques de l’île. Une immersion authentique, sans stress, et riche en découvertes.</p>
 
 <div class="wrapper">
@@ -109,7 +109,7 @@ const excuGLA = excurs__FR.filter((excurs:any) =>  excurs.data.filter==="sc" && 
 </div>
 
 
-<h3>Randonnée Guidée sur Glacier avec Guide Francophone</h3>
+<h3 id="glacier">Randonnée Guidée sur Glacier avec Guide Francophone</h3>
 <p>Vivez une aventure inoubliable sur les glaciers d’Islande en rejoignant un petit groupe encadré par un guide professionnel – qui est aussi photographe ! Marchez au cœur des paysages glacés les plus spectaculaires du pays et repartez avec un <strong>package photo exclusif</strong>, pour immortaliser chaque instant de cette expérience unique.</p>
 <p>Pour une immersion encore plus personnalisée, optez pour notre <a href="/fr/guide-francophone-islande/randonnee-guidee-sur-glacier-avec-guide-francophone/" title="Sortie sur glacier avec guide privé">sortie privée sur le glacier de Sólheimajökull avec guide francophone</a>.</p>
 
@@ -117,12 +117,12 @@ const excuGLA = excurs__FR.filter((excurs:any) =>  excurs.data.filter==="sc" && 
     {excuGLA.map((excu:any) => (<ExcuCards excu={excu}></ExcuCards>))}
 </div>
 <div class="firstText">
-    <h2>Excursions au départ de Reykjavík – En anglais ou en autonomie</h2>
+    <h2 id="rvk">Excursions au départ de Reykjavík – En anglais ou en autonomie</h2>
     <p>Depuis la capitale, de nombreuses aventures vous attendent, que vous préfériez être accompagné d’un guide anglophone ou explorer par vous-même. Que vous souhaitiez découvrir les incontournables d’Islande, vous détendre dans un bain thermal réputé ou visiter un musée captivant, vous trouverez ici une sélection d’activités soigneusement choisies au départ de Reykjavík. Laissez-vous inspirer et organisez votre journée en toute simplicité.</p>
     
 </div>
 <!-- -->
-    <h3>Bains chauds</h3>
+    <h3 id="bains">Bains chauds</h3>
     <p>Besoin de vous détendre après une journée d’exploration ? Offrez-vous un moment de bien-être dans l’un des spas les plus réputés d’Islande, où détente et paysages majestueux se rencontrent.</p>
     <p>Notez que pour les bains ci-dessous : le transport est inclus pour Hvammsvík, mais pour le Sky Lagoon (situé en périphérie de Reykjavík), il doit être réservé séparément.</p>
 
@@ -137,7 +137,7 @@ const excuGLA = excurs__FR.filter((excurs:any) =>  excurs.data.filter==="sc" && 
         {rvkCult.map((excu:any) => (<ExcuCards excu={excu}></ExcuCards>))}
     </div>
 
-    <h3>Observation des baleines</h3>
+    <h3 id="baleines">Observation des baleines</h3>
     <p>Les eaux islandaises abritent plus de 20 espèces différentes de cétacés, dauphins et marsouins. Observer ces géants dans leur habitat naturel est une expérience inoubliable à vivre au moins une fois dans sa vie.</p>
     <p>Nous avons sélectionné les opérateurs les plus réputés pour vous garantir une rencontre exceptionnelle avec les plus grands mammifères marins de la planète.</p>
 
@@ -145,14 +145,14 @@ const excuGLA = excurs__FR.filter((excurs:any) =>  excurs.data.filter==="sc" && 
         {rvkWw.map((excu:any) => (<ExcuCards excu={excu}></ExcuCards>))}
     </div>
 
-    <h3>Vols en hélicoptère</h3>
+    <h3 id="helico">Vols en hélicoptère</h3>
     <p>Les paysages spectaculaires de l’Islande, entre volcans en activité et glaciers millénaires, prennent une toute nouvelle dimension vus du ciel. Nous avons sélectionné pour vous quelques vols en hélicoptère inoubliables. Si vous ne trouvez pas exactement ce que vous cherchez, <a href="mailto: julien@lilja-tours.com" title="envoyez-nous un email">écrivez-nous</a> pour organiser une expérience aérienne privée sur mesure !</p>
 
     <div class="wrapper">
         {rvkHeli.map((excu:any) => (<ExcuCards excu={excu}></ExcuCards>))}
     </div>
 
-    <h3>Tours en quad pour amateurs de sensations fortes</h3>
+    <h3 id="atv">Tours en quad pour amateurs de sensations fortes</h3>
     <p>En quête d’adrénaline à deux pas de Reykjavík ? Enfourchez un quad et partez explorer les paysages volcaniques et sauvages qui entourent la capitale islandaise.</p>
     <p>Notre partenaire local propose des aventures en quad depuis près de dix ans. Ses circuits s’adressent à tous les niveaux, il suffit de posséder un permis de conduire valide. L’aventure vous attend !</p>
 
@@ -160,7 +160,7 @@ const excuGLA = excurs__FR.filter((excurs:any) =>  excurs.data.filter==="sc" && 
         {rvkAdv.map((excu:any) => (<ExcuCards excu={excu}></ExcuCards>))}
     </div>
 
-    <h3>Excursions à la journée : Circuits en petit groupe</h3>
+    <h3 id="smallg">Excursions à la journée : Circuits en petit groupe</h3>
     <p>Envie de découvrir les plus beaux paysages d’Islande sans avoir à conduire ? Rejoignez un circuit en petit groupe et explorez confortablement les sites emblématiques du pays aux côtés d’autres voyageurs.</p>
     <p>Notre partenaire sélectionné fait partie des mieux notés sur TripAdvisor, reconnu pour ses guides passionnés et ses véhicules modernes et confortables.</p>
     <p>Si vous recherchez plus de flexibilité, explorez notre collection de <a href="/fr/toutes-nos-excursions/" title="Liste de nos excursions privées en Islande">tours privés</a> conçus sur mesure pour vous.</p>
@@ -170,11 +170,11 @@ const excuGLA = excurs__FR.filter((excurs:any) =>  excurs.data.filter==="sc" && 
     </div>
 
     <div class="firstText">
-        <h2>Excursions dans le reste de l’Islande – Guidées en anglais ou en toute liberté</h2>
+        <h2 id="rest">Excursions dans le reste de l’Islande – Guidées en anglais ou en toute liberté</h2>
         <p>Vous êtes à l’aise avec un guide anglophone, ou vous souhaitez simplement réserver une activité sans accompagnement ? Que ce soit pour accéder à l’une des nombreuses sources chaudes naturelles, visiter un musée emblématique ou vivre une expérience inédite, découvrez ici notre sélection des meilleurs prestataires d’Islande. Des options fiables, testées et approuvées, pour explorer l’île selon vos envies.</p>
     </div>
 
-    <h3>Activités sur la Côte Sud</h3>
+    <h3 id="sc">Activités sur la Côte Sud</h3>
     <p>Glaciers majestueux, volcans actifs, plages de sable noir… La Côte Sud incarne parfaitement l’Islande, terre de feu et de glace. C’est aussi là que se trouvent certains des plus grands glaciers d’Europe.</p>
     <p>Les randonnées sur glacier y sont particulièrement populaires, mais sachez que les visites de grottes de glace ne sont proposées qu’en hiver.</p>
     <p>Pour une expérience plus intime avec un guide expert, consultez nos <a href="/fr/guide-francophone-islande/cote-sud/" title="Liste de nos excursions privées sur la côte sud">excursions privées sur la Côte Sud</a>.</p>
@@ -183,7 +183,7 @@ const excuGLA = excurs__FR.filter((excurs:any) =>  excurs.data.filter==="sc" && 
         {excuSC.map((excu:any) => (<ExcuCards excu={excu}></ExcuCards>))}
     </div>
 
-    <h3>Activités du Cercle d’Or</h3>
+    <h3 id="gc">Activités du Cercle d’Or</h3>
     <p>Le Cercle d’Or est un incontournable : Þingvellir, Gullfoss, Geysir… Ces noms résonnent comme les joyaux d’un itinéraire magique. Mais cette région ne se limite pas au tourisme classique : bains géothermiques, snorkeling entre deux plaques tectoniques ou encore motoneige sur glacier complètent ce décor unique.</p>
     <p>Pour une immersion plus profonde, laissez-vous guider lors de l’une de nos <a href="/fr/guide-francophone-islande/cercle-d-or/" title="Nos circuits privés du Cercle d'Or">excursions privées du Cercle d’Or</a>, ou optez pour un <a href="/fr/a-faire-en-islande/cercle-d-or-minibus/" title="Excursion partagée : Cercle d'Or et déjeuner à la ferme">tour en petit groupe</a> avec notre partenaire de confiance.</p>
 
@@ -191,7 +191,7 @@ const excuGLA = excurs__FR.filter((excurs:any) =>  excurs.data.filter==="sc" && 
         {excuGC.map((excu:any) => (<ExcuCards excu={excu}></ExcuCards>))}
     </div>
 
-    <h3>Activités dans l’Ouest de l’Islande</h3>
+    <h3 id="wi">Activités dans l’Ouest de l’Islande</h3>
     <p>Depuis Reykjavík, partez à la découverte de trois régions fascinantes en une journée : la péninsule de Snæfellsnes, la péninsule de Reykjanes et la région méconnue mais magique de Borgarfjörður, aussi appelée « le Cercle d’Argent ».</p>
     <p>Ci-dessous, retrouvez notre sélection d’expériences uniques dans ces régions volcaniques. Bains naturels, tunnels de lave, glaciers… à vous de choisir votre aventure.</p>
     <p>Pour un voyage en toute sérénité, réservez l’une de nos excursions privées vers la <a href="/fr/guide-francophone-islande/peninsule-de-snaefellsnes-avec-guide-francophone/" title="Excursion privée Snæfellsnes">péninsule de Snæfellsnes</a>, la <a href="/fr/guide-francophone-islande/excursion-privee-peninsule-de-reykjanes/" title="Excursion privée Reykjanes">péninsule de Reykjanes</a>, ou le <a href="/fr/guide-francophone-islande/cercle-d-argent-islande-borgarfjordur/" title="Excursion privée Cercle d'Argent">Cercle d’Argent</a>.</p>
@@ -200,7 +200,7 @@ const excuGLA = excurs__FR.filter((excurs:any) =>  excurs.data.filter==="sc" && 
         {excuWI.map((excu:any) => (<ExcuCards excu={excu}></ExcuCards>))}
     </div>
 
-    <h3>Activités dans le Nord de l’Islande</h3>
+    <h3 id="ni">Activités dans le Nord de l’Islande</h3>
     <p>Le Nord de l’Islande offre des paysages spectaculaires : montagnes imposantes, cascades puissantes, sources chaudes naturelles et terrains volcaniques fascinants. De la ville d’Akureyri au lac Mývatn, en passant par Húsavík, capitale islandaise de l’observation des baleines, cette région regorge de merveilles.</p>
 
     <div class="wrapper">
@@ -267,7 +267,7 @@ h3 {
    main {
     width: 90%;
     margin-inline: auto;
-    padding: 5rem 0;
+    padding: 2rem 0;
    }
 
 .wrapper {

@@ -1,0 +1,72 @@
+<div class="tags">
+    <a href="#fr" title="Activités en Français"><button class="tagButtR">En français : </button></a>
+    <a href="#smallgroup" title="En petit groupe"><button class="tagButtT">Excursions en minibus</button></a>
+    <a href="#glacier" title="Explorez les glaciers"><button class="tagButtT">Sur Glacier</button></a>
+</div>
+<div class="tags">
+    <a href="#rvk" title="Depuis Reykjavík"><button class="tagButtR">Depuis Reykjavík : </button></a>
+    <a href="#bains" title="Sources Chaudes"><button class="tagButtT">Sources Chaudes</button></a>
+    <a href="#baleines" title="Observez les baleines"><button class="tagButtT">Baleines</button></a>
+    <a href="#helico" title="Vols en hélicoptère"><button class="tagButtT">Hélicoptère</button></a>
+    <a href="#atv" title="Tours en Quad"><button class="tagButtT">Quad</button></a>
+    <a href="#smallg" title="Petits groupes"><button class="tagButtT">Excursions</button></a>
+</div>
+<div class="tags">
+    <a href="#rest" title="Activités en Islande"><button class="tagButtR">Reste de l'Islande : </button></a>
+    <a href="#sc" title="Activités sur la côte Sud"><button class="tagButtT">Côte Sud</button></a>
+    <a href="#gc" title="Activités sur le Cercle d'Or"><button class="tagButtT">Cercle d'Or</button></a>
+    <a href="#wi" title="Activités dans l'Ouest"><button class="tagButtT">L'Ouest</button></a>
+    <a href="#ni" title="Activités dans le Nord"><button class="tagButtT">Le Nord</button></a>
+
+</div>
+
+<style>
+     .tags {
+        display: flex;
+        flex-wrap: wrap;
+        width: 75%;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin-inline: auto;
+    }
+
+    .tags:nth-child(2) {
+        margin-top: 1rem;
+    }
+
+    .tagButtR {
+        padding: .2rem .75rem;
+            border-radius: 9999px;
+            border: none;
+            font-size: 1rem;
+            color: white;
+            cursor: pointer;
+            transition: .3s;
+            background-color: #5B7297;
+    }
+
+
+
+        .tagButtT {
+            padding: .2rem .75rem;
+            border-radius: 9999px;
+            border: none;
+            background-color: #292929;
+            font-size: 1rem;
+            color: white;
+            cursor: pointer;
+            transition: .3s;
+        }
+        .tagButtR:hover, .tagButtR:focus,   .tagButtT:hover, .tagButtT:focus {
+            filter: brightness(140%);
+            translate: 0 -.25rem;
+            transition: .3s;
+        }
+        
+  @media screen and (max-width: 800px) {
+    .tags {
+        width: 95%;
+    }
+  }
+</style>

@@ -1,0 +1,70 @@
+<div class="tags">
+    <a href="#rvk" title="Activities from Reykjavík"><button class="tagButtR">From Reykjavík : </button></a>
+    <a href="#helico" title="See our helicopter tours"><button class="tagButtT">Helicopter</button></a>
+    <a href="#atv" title="See our atv tours"><button class="tagButtT">ATV</button></a>
+    <a href="#smallgroup" title="See our small group tours"><button class="tagButtT">Small group</button></a>
+    <a href="#hotspring" title="See the HOt Springs Admission"><button class="tagButtT">Hot Springs</button></a>
+    <a href="#culture" title="Cultural Experiences"><button class="tagButtT">Culture</button></a>
+    <a href="#ww" title="Whale Watching"><button class="tagButtT">Whale Watching</button></a>
+</div>
+<div class="tags">
+    <a href="#rest" title="Activities in Iceland"><button class="tagButtR">Rest of Iceland : </button></a>
+    <a href="#sc" title="See our South Coast activities"><button class="tagButtT">South Coast</button></a>
+    <a href="#gc" title="See our Golden Circle Activties"><button class="tagButtT">Golden Circle</button></a>
+    <a href="#wi" title="See our Wesit Iceland Activities"><button class="tagButtT">West Iceland</button></a>
+    <a href="#ni" title="See our Norther Iceland Activties"><button class="tagButtT">North Iceland</button></a>
+    <a href="#fr" title="See our french speaking excursions"><button class="tagButtT">In french</button></a>
+
+
+</div>
+
+<style>
+     .tags {
+        display: flex;
+        flex-wrap: wrap;
+        width: 75%;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin-inline: auto;
+    }
+
+    .tags:nth-child(2) {
+        margin-top: 1rem;
+    }
+
+    .tagButtR {
+        padding: .2rem .75rem;
+            border-radius: 9999px;
+            border: none;
+            font-size: 1rem;
+            color: white;
+            cursor: pointer;
+            transition: .3s;
+            background-color: #5B7297;
+    }
+
+
+
+        .tagButtT {
+            padding: .2rem .75rem;
+            border-radius: 9999px;
+            border: none;
+            background-color: #292929;
+            font-size: 1rem;
+            color: white;
+            cursor: pointer;
+            transition: .3s;
+        }
+        .tagButtR:hover, .tagButtR:focus,   .tagButtT:hover, .tagButtT:focus {
+            filter: brightness(140%);
+            translate: 0 -.25rem;
+            transition: .3s;
+        }
+        
+  @media screen and (max-width: 800px) {
+    .tags {
+        width: 95%;
+    }
+  }
+</style>
