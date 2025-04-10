@@ -1,13 +1,13 @@
 ---
-import "../../styles/md-3.css"
+import "../../../styles/md-3.css"
 
-import ExcupageEN from "../../layouts/Excupage__EN.astro";
+import ExcupageEN from "../../../layouts/Excupage__FR.astro";
 
 import { getCollection } from "astro:content";
 import type { CollectionEntry } from "astro:content";
 
 export async function getStaticPaths() {
-    const daytours__EN: CollectionEntry<"excurs__EN">[] = await getCollection("excurs__EN")
+    const daytours__EN: CollectionEntry<"excurs__FR">[] = await getCollection("excurs__FR")
     return daytours__EN.map(entry => ({
         params: {
             slug: entry.slug+"/"
@@ -22,12 +22,12 @@ const {Content} = await entry.render()
 ---
 
 <ExcupageEN
-language="en"
+language="fr"
 description = {entry.data.metaDescription}
 fulllinkFr= {entry.data.hrefLang}
 ogTitle= {entry.data.pageTitle}
 ogImage= {entry.data.pageCover.srcPC}
-url= {"https://www.lilja-tours.com/things-to-do-iceland/"+entry.slug+"/"}
+url= {"https://www.lilja-tours.com/fr/a-faire-en-islande/"+entry.slug+"/"}
 pageTitle= {entry.data.pageTitle}
 linkFr= {entry.data.linkFr}
 headerCoverSrcMobile= {entry.data.pageCover.srcMobile}
@@ -37,7 +37,7 @@ headerCoverTitle= {entry.data.pageCover.title}
 tourTitle= {entry.data.title1}
 subTitle= {entry.data.title2}
 rate= {entry.data.rate}
+
 >
 <Content/>
 </ExcupageEN>
-

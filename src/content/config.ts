@@ -350,8 +350,45 @@ const excurs__EN = defineCollection({
   }),
 });
 
+const excurs__FR = defineCollection({
+  type: "content",
+  schema: z.object({
+    cardCover: z.object({
+      src: z.string(),
+      alt: z.string(),
+      title: z.string(),
+    }),
+    pageCover: z.object({
+      srcPC: z.string(),
+      srcMobile: z.string(),
+      alt: z.string(),
+      title: z.string(),
+    }),
+
+    title1: z.string(),
+    title2: z.string(),
+
+    tag: z.array(z.string()),
+
+    rate: z.number(),
+
+    linkFr: z.string(),
+    hrefLang: z.string(),
+
+    url: z.string(),
+
+    pageTitle: z.string(),
+
+    metaDescription: z.string(),
+
+    filter: z.string().optional(),
+    filter2: z.string().optional(),
+  }),
+});
+
 export const collections = {
   daytours__EN: daytours__EN,
   daytours__FR: daytours__FR,
   excurs__EN: excurs__EN,
+  excurs__FR: excurs__FR,
 };

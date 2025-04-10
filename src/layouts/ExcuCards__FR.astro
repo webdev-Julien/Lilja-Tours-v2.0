@@ -8,7 +8,7 @@ import {ISK_to_USD_Rate, ISK_to_EUR_Rate} from "../constants"
 const {excu} = Astro.props
 
 interface Props {
-    excu:CollectionEntry<"excurs__EN">
+    excu:CollectionEntry<"excurs__FR">
 }
 
 ---
@@ -18,11 +18,11 @@ interface Props {
             <img src={excu.data.cardCover.src} alt={excu.data.cardCover.alt} title={excu.data.cardCover.title} loading="lazy" width="400" height="225" class="backImg">
     </div>
     <div class="textInfos">
-        <a href={"/things-to-do-iceland/"+excu.slug+"/"} title="see the excursion" class="tourLink"><h3>{excu.data.title1}</h3>
+        <a href={"/fr/a-faire-en-islande/"+excu.slug+"/"} title="voir l'excursion" class="tourLink"><h3>{excu.data.title1}</h3>
             <div class="rates">
-                <p class="startingFrom">Starting from:</p>
-                <p class="rateISK">{excu.data.rate} ISK <span class="vehicle">/person</span></p>
-                <p class="approx"><em>Approx. {Math.floor(excu.data.rate / ISK_to_USD_Rate)} $ or {Math.floor(excu.data.rate / ISK_to_EUR_Rate)} €</em></p>
+                <p class="startingFrom">A partir de:</p>
+                <p class="rateISK">{excu.data.rate} ISK <span class="vehicle">/personne</span></p>
+                <p class="approx"><em>Approx. {Math.floor(excu.data.rate / ISK_to_USD_Rate)} $ ou {Math.floor(excu.data.rate / ISK_to_EUR_Rate)} €</em></p>
             </div></a>
             <div class="tags">
                 {

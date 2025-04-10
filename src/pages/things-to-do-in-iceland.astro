@@ -23,6 +23,10 @@ const rvkHeli = excurs__EN.filter((excurs:any) =>  excurs.data.filter==="reykjav
 const excuSC = excurs__EN.filter((excurs:any) =>  excurs.data.filter==="sc")
 const excuGC = excurs__EN.filter((excurs:any) =>  excurs.data.filter==="gc")
 const excuWI = excurs__EN.filter((excurs:any) =>  excurs.data.filter==="wi")
+const excuNI = excurs__EN.filter((excurs:any) =>  excurs.data.filter==="ni")
+const excuFR = excurs__EN.filter((excurs:any) =>  excurs.data.filter==="fr")
+
+
 
 
 
@@ -42,10 +46,11 @@ const excuWI = excurs__EN.filter((excurs:any) =>  excurs.data.filter==="wi")
 
 
        <link rel="alternate" hreflang="fr" href="https://www.lilja-tours.com/fr/toutes-nos-excursions/" />
+       <link rel="alternate" hreflang="en" href="https://www.lilja-tours.com/things-to-do-in-iceland/" />
        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-       <link rel="canonical" href="https://www.lilja-tours.com/things-to-do-iceland/">
+       <link rel="canonical" href="https://www.lilja-tours.com/things-to-do-in-iceland/">
 
-        <meta property="og:title" content="Discover all of our private tours">
+        <meta property="og:title" content="Visit and explore Iceland on your own - Best activities in Iceland">
         <meta property="og:type" content="website">
         <meta property="og:image" content="https://www.lilja-tours.com/pictures/excursions/whale-watching-reykjavik-mobile-pc.webp">
         <meta property="og:url" content="https://www.lilja-tours.com/things-to-do-iceland">
@@ -75,7 +80,7 @@ const excuWI = excurs__EN.filter((excurs:any) =>  excurs.data.filter==="wi")
     </head>
 
     <header class="header">
-        <TopBar linkfr="/fr/toutes-nos-excursions"></TopBar>
+        <TopBar linkfr="/fr/activites-en-islande/"></TopBar>
         <div class="headerContainerPic">
             <PicHeader srcMobile="/pictures/excursions/whale-watching-reykjavik-mobile.webp" srcPC="/pictures/excursions/whale-watching-reykjavik-pc.webp" alt="Picture of stunning waterfalls in desertic landscapes" title="All of our day tours in Iceland"></PicHeader></div>
             <div class="headerGradient"></div>
@@ -226,6 +231,33 @@ excu = {excu}
 <p>For a more personalized and comfortable experience, explore these regions in style by booking one of our private tours to the <a href="/day-tours-iceland/private-tour-snaefellsnes-peninsula-iceland/" title="Snæfellsnes private tour">Snæfellsnes Peninsula</a>, <a href="/day-tours-iceland/private-tour-reykjanes-peninsula-iceland/" title="Reykjanes private tour">Reykjanes Peninsula</a>, or the <a href="/day-tours-iceland/silver-circle-private-tour-iceland/" title="Silver Circle private tour">Silver Circle</a>.</p>
 <div class="wrapper">
 {excuWI.map((excu:any) => (
+
+<ExcuCards
+excu = {excu}
+>
+
+</ExcuCards>
+))}
+</div>
+<h3>Activities in Northern Iceland</h3>
+<p>North Iceland is a region of dramatic beauty—home to towering mountains, powerful waterfalls, geothermal hot springs, and striking volcanic landscapes. From Akureyri, the country's second-largest city, to the geologically rich Lake Mývatn, and Húsavík, Iceland’s whale watching capital, the North offers unforgettable experiences for every type of traveler. Discover our curated selection of excursions and activities to make the most of your journey through Northern Iceland.</p>
+
+<div class="wrapper">
+{excuNI.map((excu:any) => (
+
+<ExcuCards
+excu = {excu}
+>
+
+</ExcuCards>
+))}
+</div>
+
+<h3>Group Excursions with french speaking guide</h3>
+<p>Find below our selction of tours and excursions guided by a french speaking guide. <a href="/fr/activites-en-islande/" title="activités en Islande avec guide français">Cliquez ici pour voir la liste de nos excursions en Islande avec guide francophone</a>.</p>
+
+<div class="wrapper">
+{excuFR.map((excu:any) => (
 
 <ExcuCards
 excu = {excu}
