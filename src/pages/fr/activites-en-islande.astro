@@ -9,6 +9,7 @@ import TopBar from "../../components/TopBar__FR.astro";
 import PicHeader from "../../components/Pics/PicHeader.astro";
 import FooterEN from "../../components/footer__FR.astro";
 
+import TagBarEXCUEN from "../../components/tags/TagBarEXCU__FR.astro";
 
 
 const excurs__FR: CollectionEntry<"excurs__FR">[] = await getCollection("excurs__FR")
@@ -95,6 +96,8 @@ const excuGLA = excurs__FR.filter((excurs:any) =>  excurs.data.filter==="sc" && 
 </header>
 
 <main>
+    <TagBarEXCUEN></TagBarEXCUEN>
+
     <div class="firstText">
         <h2 id="fr">Excursions avec guide francophone :</h2>
         <p>Grâce à nos partenariats privilégiés, accédez à une sélection raffinée d’excursions en français et accompagnées de guides francophones. Que vous rêviez d’un circuit en petit groupe pour découvrir les incontournables de l’Islande ou d’une aventure spectaculaire sur glacier, explorez ci-dessous notre liste complète d’options testées et approuvées.</p>
