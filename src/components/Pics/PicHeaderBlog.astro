@@ -1,0 +1,22 @@
+---
+const {
+    srcMobile,
+    srcPC,
+    alt,
+    title
+} = Astro.props
+---
+<picture>
+    <source media="(max-width:650px)" srcset={srcMobile} width="428" height="905">
+    <img src={srcPC} alt={alt} title={title} class="headerPic" width="1920" height="1080">
+  </picture>
+
+<style>
+    img {
+        display: block;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        height: calc(50dvh - 3.5rem);
+    }
+</style>

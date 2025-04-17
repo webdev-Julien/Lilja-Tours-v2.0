@@ -1,0 +1,52 @@
+---
+import "../../styles/blog.css"
+
+import BlogPage__EN from "../../layouts/BlogPage__EN.astro";
+
+import { getCollection } from "astro:content";
+import type { CollectionEntry } from "astro:content";
+
+export async function getStaticPaths() {
+    const blog__EN: CollectionEntry<"blog__EN">[] = await getCollection("blog__EN")
+    return blog__EN.map(entry => ({
+        params: {
+            slug: entry.slug+"/"
+        },
+        props: {entry}
+    }))
+}
+
+const { entry } = Astro.props
+
+const {Content} = await entry.render()
+---
+
+<BlogPage__EN
+linkfr={entry.data.linkFr}
+slug={entry.data.stringSlug}
+description={entry.data.description}
+pageTitle={entry.data.pageTitle}
+ogImage={entry.data.ogImage}
+headerCoverSrcMobile={entry.data.headerCoverSrcMobile}
+headerCoverSrcPC={entry.data.headerCoverSrcPC}
+headerCoverAlt={entry.data.headerCoverAlt}
+headerCoverTitle={entry.data.headerCoverTitle}
+h1={entry.data.h1}
+>
+<div class="container">
+<Content/></div>
+</BlogPage__EN>
+
+<style>
+    .container {
+        width: 75%;
+        margin-inline: auto;
+    }
+
+    @media  only screen and (max-width: 800px) {
+        .container  {
+            width: 95%;
+        }
+        
+    }
+</style>

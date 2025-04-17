@@ -1,0 +1,218 @@
+---
+const {linkFr, slug, description, pageTitle, ogImage,headerCoverSrcMobile, headerCoverSrcPC, headerCoverAlt, headerCoverTitle, h1} = Astro.props
+import TopBar from "../components/TopBar__EN.astro"
+import PicHeader from "../components/Pics/PicHeaderBlog.astro"
+import HeaderInfos from "../layouts/HeaderBlog.astro"
+import Footer from "../components/footer__EN.astro"
+---
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content={description}
+        />
+
+       <link rel="alternate" hreflang="fr" href={"https://www.lilja-tours.com/"+linkFr+"/"} />
+       <link rel="alternate" hreflang="en" href={"https://www.lilja-tours.com/"+linkFr+"/"} />
+       <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+       <link rel="canonical" href={"https://www.lilja-tours.com/"+slug+"/"}>
+
+        <meta property="og:title" content={pageTitle}>
+        <meta property="og:type" content="website">
+        <meta property="og:image" content={ogImage}>
+        <meta property="og:url" content={"https://www.lilja-tours.com/"+slug+"/"}>
+        <meta property="og:description" content={description}>
+
+        <meta property="og:locale" content="en_US">
+        <meta property="og:locale:alternate" content="fr_FR">
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="630">
+        <meta property="og:logo" content="https://www.lilja-tours/logos/Lilja-Tours-Full-Logo.png" />
+
+        <title>{pageTitle}</title>
+
+    </head>
+<body>
+    <header class="header">
+        <TopBar linkfr={linkFr}></TopBar>
+        <div class="headerContainerPic">
+            <PicHeader srcMobile={headerCoverSrcMobile} srcPC={headerCoverSrcPC} alt={headerCoverAlt} title={headerCoverTitle}></PicHeader></div>
+            <div class="headerGradient"></div>
+            <div class="headerInfos">
+                
+                <HeaderInfos h1={h1}>
+                
+            
+                </HeaderInfos>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="wrapper">
+        <slot></slot></div>
+    </main>
+    <Footer></Footer>
+</body>
+</html>
+
+<style>
+       .wrapper  {
+            width: 50%;
+            margin: 3rem auto;
+            padding: 2rem 3rem;
+            background-color: hsl(0, 0%, 10%);
+            border-radius: 1rem;
+
+        }
+
+        main {
+            position: relative;
+        }
+
+        .tagButton {
+            padding: .2rem .75rem;
+            border-radius: 9999px;
+            border: none;
+            background-color: rgba(91, 114, 151, 0.3);
+            font-size: 1rem;
+            color: white;
+            cursor: pointer;
+            transition: .3s;
+        }
+
+        .tagButton:hover, .tagButton:focus {
+            filter: brightness(140%);
+            translate: 0 -.25rem;
+            transition: .3s;
+
+        }
+
+         li:nth-child(2) .tagButton {
+            background-color: rgb(91, 114, 151);
+        }
+
+        .tagButton:nth-child(2):hover, .tagButton:nth-child(2):focus {
+            filter: brightness(120%);
+            transition: .3s;
+        }
+    
+
+        .formA {
+        text-decoration: none;
+        width: fit-content
+    }
+
+    .formButton {
+        width: 15rem;
+        height: 5rem;
+        flex-shrink: 0;
+        border-radius: 1rem;
+        border: 2px solid hsla(0, 0%, 100%, 0.5);
+        background: rgba(0, 0, 0, 0.30);
+        backdrop-filter: blur(7.5px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        cursor: pointer;
+        transition: .5s;
+        margin-inline: auto;
+
+    }
+
+    .formAction {
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: lighter;
+        margin: 0;
+    }
+
+
+    .formButton:hover, .formButton:focus {
+        background: rgba(255, 255, 255, 0.50);
+        border: 2px solid rgba(0, 0, 0, 0.30);
+        transition: .5s;
+
+        .formAction {
+        color: rgba(0, 0, 0, 0.50);
+        }
+
+    }
+        .header {
+            min-height: 50dvh;
+            width: 100%;
+        }
+
+        .headerContainerPic {
+            width: 100%;
+            min-height: calc(50dvh - 3.5rem);
+            max-height: calc(50dvh - 3.5rem);
+            position: relative;
+        }
+
+        .headerGradient {
+            width: 100%;
+            min-height: calc(50dvh - 3.5rem);
+            max-height: calc(50dvh - 3.5rem);
+            position: absolute;
+            top: 3.5rem;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(255, 255, 255, 0.00) 99.06%);
+        }
+
+        .headerInfos {
+            position: absolute;
+            inset: 3.5rem 0 0 0;
+            display: flex;
+            height:  calc(50dvh - 3.5rem);
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            align-content: center;
+
+        }
+
+        .bookButtons {
+        width: 150%;
+        display: flex;
+        justify-content: space-evenly;
+        gap: 1.25rem;
+        align-items: center;
+        flex-wrap: wrap;
+        animation-name: Title;
+        animation-duration: 2s;
+        animation-delay: 2s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+    }
+
+    .carCards {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 3rem;
+    }
+
+
+
+    @media only screen and (max-height: 800px) {
+        .bookButtons {
+            gap: .75rem;
+        }
+
+    }
+
+    
+    @media only screen and (max-width: 800px) {
+        .wrapper {
+            width: 95%;
+        }
+
+    }
+</style>

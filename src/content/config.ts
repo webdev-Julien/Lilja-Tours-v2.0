@@ -386,9 +386,26 @@ const excurs__FR = defineCollection({
   }),
 });
 
+const blog__EN = defineCollection({
+  type: "content",
+  schema: z.object({
+    stringSlug: z.string(),
+    h1: z.string(),
+    linkFr: z.string(),
+    description: z.string(),
+    pageTitle: z.string(),
+    ogImage: z.string(),
+    headerCoverSrcMobile: z.string(),
+    headerCoverSrcPC: z.string(),
+    headerCoverAlt: z.string(),
+    headerCoverTitle: z.string(),
+  }),
+});
+
 export const collections = {
   daytours__EN: daytours__EN,
   daytours__FR: daytours__FR,
   excurs__EN: excurs__EN,
   excurs__FR: excurs__FR,
+  blog__EN: blog__EN,
 };

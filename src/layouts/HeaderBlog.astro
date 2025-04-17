@@ -1,0 +1,60 @@
+---
+const {
+
+    h1,
+    subTitle,
+    rate
+} = Astro.props
+
+---
+
+<div class="headerContainer">
+    <h1 class="blogTitle">{h1}</h1>
+   
+</div>
+
+<style>
+
+
+    .headerContainer {
+        padding-block: 2.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        width: 50%;
+        margin-inline: auto;
+    }
+
+    .blogTitle {
+        animation-name: Title;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+    }
+    
+
+@keyframes Title {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+
+    @media only screen and (max-height: 800px) {
+    
+        .headerContainer {
+            gap: 1rem;
+        }
+
+
+    }
+
+    @media only screen and (max-width: 800px) {
+
+        .headerContainer {
+            width: 90%;
+            
+        }
+    }
+
+</style>
