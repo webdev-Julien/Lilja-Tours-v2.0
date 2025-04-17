@@ -1,0 +1,268 @@
+---
+import { getCollection } from "astro:content";
+import type { CollectionEntry } from "astro:content";
+import BlogCard__EN from "../layouts/BlogCard__EN.astro";
+import "../styles/style.css"
+
+import TopBar from "../components/TopBar__EN.astro";
+
+import PicHeader from "../components/Pics/PicHeader.astro";
+import FooterEN from "../components/footer__EN.astro";
+
+import TagBarEXCUEN from "../components/tags/TagBarEXCU__EN.astro";
+
+
+
+const blog__EN: CollectionEntry<"blog__EN">[] = await getCollection("blog__EN")
+
+---
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Expert travel tips in Iceland to plan your perfect trip. Discover how to explore Iceland with confidence, comfort, and unforgettable moments.">
+
+
+       <link rel="alternate" hreflang="fr" href="https://www.lilja-tours.com/fr/blog/" />
+       <link rel="alternate" hreflang="en" href="https://www.lilja-tours.com/blog/" />
+       <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+       <link rel="canonical" href="https://www.lilja-tours.com/blog/">
+
+        <meta property="og:title" content="Everything you need to know about Iceland | Lilja Tours' Blog">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="https://www.lilja-tours.com/pictures/excursions/whale-watching-reykjavik-pc.webp">
+        <meta property="og:url" content="https://www.lilja-tours.com/blog/">
+        <meta property="og:description" content="Expert travel tips in Iceland to plan your perfect luxury trip. Discover how to explore Iceland with confidence, comfort, and unforgettable moments.">
+
+        <meta property="og:locale" content="en_US">
+        <meta property="og:locale:alternate" content="fr_FR">
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="630">
+        <meta property="og:logo" content="https://www.lilja-tours/logos/Lilja-Tours-Full-Logo.png" />
+
+        <title>Best Travel Tips in Iceland | Lilja Tours' Blog</title>
+
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16894749666">
+</script>
+<script is:raw>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-16894749666');
+</script>
+
+</head>
+<body>
+    <header class="header">
+        <TopBar linkfr="/fr/blog"></TopBar>
+        <div class="headerContainerPic">
+            <PicHeader srcMobile="/pictures/excursions/whale-watching-reykjavik-mobile.webp" srcPC="/pictures/excursions/whale-watching-reykjavik-pc.webp" alt="Picture of stunning waterfalls in desertic landscapes" title="All of our day tours in Iceland"></PicHeader></div>
+            <div class="headerGradient"></div>
+            <div class="headerInfos">
+                <h1>Essential Travel Tips in Iceland for a Unforgettable Journey</h1>
+                <h2>Plan with Confidence, Travel in Style: Let us be your Guide in Iceland</h2>
+                <p class="headerP">Welcome to Lilja Tours’ collection of expert travel tips in Iceland — thoughtfully crafted to elevate your experience, from planning to arrival. Whether you're joining one of our private tours or exploring on your own, our insights are designed to help you travel smarter, safer, and in style.</p>
+
+                <p class="headerP">This blog reflects the questions we hear most often from our well-travelled guests, as well as trending topics we see across social media. Our goal is simple: to help you create an unforgettable journey in Iceland, marked by comfort, authenticity, and wonder.</p>
+            </div>
+        </div>
+    </header>
+
+<main>
+        {blog__EN.map((blog:any) => (
+
+
+        <BlogCard__EN
+        blog = {blog}
+        >
+        </BlogCard__EN>
+))}
+</main>
+</body>
+</html>
+
+
+<style>
+
+    main p {
+        width: 75%;
+        margin-inline: auto;
+        margin-bottom: 2rem;
+    }
+
+    main a {
+        color: white;
+    }
+
+h3 {
+  color: white;
+  font-size: clamp(1.25rem, 3vw, 2.5rem);
+  font-weight: lighter;
+  width: 75%;
+  margin: 3rem auto;
+  text-align: left;
+}
+
+    .headerP {
+        width: 50%;
+        margin-inline: auto;
+    }
+
+    .firstText {
+        width: 75%;
+        margin: 2rem auto;
+        padding: 2rem;
+        background-color: rgba(255, 255, 255, 0.25);
+        border-radius: 1rem;
+
+        p {
+            width: 100%;
+        }
+    }
+
+    main h2 {
+        margin-bottom: 3rem;
+        width: 100%;
+        text-align: center;
+        margin-inline: auto;
+        font-style: normal;
+    }
+
+    h2:not(:first-child) {
+        margin-block: 5rem;
+    }
+
+   main {
+    width: 90%;
+    margin-inline: auto;
+    padding: 2rem 0;
+   }
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    justify-content:baseline;
+    margin-inline: auto;
+
+}
+  .header {
+            min-height: 100dvh;
+            width: 100%;
+        }
+
+        .headerContainerPic {
+            width: 100%;
+            min-height: calc(100dvh - 3.5rem);
+            max-height: calc(100dvh - 3.5rem);
+            position: relative;
+        }
+
+        .headerGradient {
+            width: 100%;
+            min-height: calc(100dvh - 3.5rem);
+            max-height: calc(100dvh - 3.5rem);
+            position: absolute;
+            top: 3.5rem;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(255, 255, 255, 0.00) 99.06%);
+        }
+
+        .headerInfos {
+            position: absolute;
+            inset: 3.5rem 0 0 0;
+            display: flex;
+            height:  calc(100dvh - 3.5rem);
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            gap: 5rem;
+
+        }
+
+        h1 {
+        color: #FFF;
+        text-align: center;
+        font-size: clamp(2rem, calc(5vw + 1rem), 4rem );
+        font-weight: lighter;
+        min-width: min-content;
+        max-width: max-content;
+        text-wrap: balance;
+        animation-name: Title;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+    }
+
+    h2 {
+        color: #FFF;
+        text-align: center;
+        font-size: clamp(1.5rem, calc(5vw + 1rem), 2.5rem );
+        font-weight: lighter;
+        min-width: min-content;
+        max-width: max-content;
+        text-wrap: balance;
+        animation-name: Title;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+        font-style: italic;
+    }
+
+@keyframes Title {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+@media screen and (max-width: 800px) {
+    main h2 {
+        font-size: clamp(1rem, calc(1vw + 1rem), 2rem );
+    }
+
+    main p {
+        font-size: 1rem;
+        width: 95%;
+    }
+
+    main h3 {
+        width: 95%;
+    }
+
+    main {
+        padding-block: 2rem;
+    }
+
+    .headerInfos {
+        gap: 1rem;
+    }
+
+    header h2 {
+        margin-block: 1rem;
+        width: 95%;
+    }
+
+
+    .wrapper {
+        width: 95%;
+        margin-inline: auto;
+    }
+
+    .firstText {
+        width: 95%;
+    }
+
+    .headerP {
+        width: 75%;
+        margin-inline: auto;
+    }
+
+
+}
+
+</style>

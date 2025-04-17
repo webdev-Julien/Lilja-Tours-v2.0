@@ -1,5 +1,5 @@
 ---
-const {linkFr, slug, description, pageTitle, ogImage,headerCoverSrcMobile, headerCoverSrcPC, headerCoverAlt, headerCoverTitle, h1} = Astro.props
+const {linkFr, slug, description, pageTitle, ogImage,headerCoverSrcMobile, headerCoverSrcPC, headerCoverAlt, headerCoverTitle, h1, jsonLd} = Astro.props
 import TopBar from "../components/TopBar__EN.astro"
 import PicHeader from "../components/Pics/PicHeaderBlog.astro"
 import HeaderInfos from "../layouts/HeaderBlog.astro"
@@ -23,7 +23,7 @@ import Footer from "../components/footer__EN.astro"
        <link rel="canonical" href={"https://www.lilja-tours.com/"+slug+"/"}>
 
         <meta property="og:title" content={pageTitle}>
-        <meta property="og:type" content="website">
+        <meta property="og:type" content="article">
         <meta property="og:image" content={ogImage}>
         <meta property="og:url" content={"https://www.lilja-tours.com/"+slug+"/"}>
         <meta property="og:description" content={description}>
@@ -35,6 +35,10 @@ import Footer from "../components/footer__EN.astro"
         <meta property="og:logo" content="https://www.lilja-tours/logos/Lilja-Tours-Full-Logo.png" />
 
         <title>{pageTitle}</title>
+
+        {jsonLd && (
+            <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+          )}
 
     </head>
 <body>

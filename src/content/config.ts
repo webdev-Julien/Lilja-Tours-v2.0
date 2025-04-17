@@ -399,6 +399,14 @@ const blog__EN = defineCollection({
     headerCoverSrcPC: z.string(),
     headerCoverAlt: z.string(),
     headerCoverTitle: z.string(),
+    cardImgSrc: z.string(),
+    cardImgAlt: z.string(),
+    cardImgTitle: z.string(),
+    cardArticleTitle: z.string(),
+    cardArticleSumup: z.string(),
+    tags: z.array(z.string())
+
+    
   }),
 });
 
