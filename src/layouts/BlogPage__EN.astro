@@ -24,7 +24,7 @@ import Footer from "../components/footer__EN.astro"
 
         <meta property="og:title" content={pageTitle}>
         <meta property="og:type" content="article">
-        <meta property="og:image" content={ogImage}>
+        <meta property="og:image" content={"https://www.lilja-tours.com"+ogImage}>
         <meta property="og:url" content={"https://www.lilja-tours.com/"+slug+"/"}>
         <meta property="og:description" content={description}>
 
@@ -216,6 +216,7 @@ import Footer from "../components/footer__EN.astro"
     @media only screen and (max-width: 800px) {
         .wrapper {
             width: 95%;
+            padding-inline: 1rem;
         }
 
     }
