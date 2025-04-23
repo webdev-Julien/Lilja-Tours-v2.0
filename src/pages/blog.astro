@@ -7,9 +7,7 @@ import "../styles/style.css"
 import TopBar from "../components/TopBar__EN.astro";
 
 import PicHeader from "../components/Pics/PicHeader.astro";
-import FooterEN from "../components/footer__EN.astro";
-
-import TagBarEXCUEN from "../components/tags/TagBarEXCU__EN.astro";
+import Footer from "../components/footer__EN.astro";
 
 
 
@@ -31,7 +29,7 @@ const blog__EN: CollectionEntry<"blog__EN">[] = await getCollection("blog__EN")
 
         <meta property="og:title" content="Everything you need to know about Iceland | Lilja Tours' Blog">
         <meta property="og:type" content="website">
-        <meta property="og:image" content="https://www.lilja-tours.com/pictures/excursions/whale-watching-reykjavik-pc.webp">
+        <meta property="og:image" content="https://www.lilja-tours.com/pictures/blog/travel-tips-iceland-pc.webp">
         <meta property="og:url" content="https://www.lilja-tours.com/blog/">
         <meta property="og:description" content="Expert travel tips in Iceland to plan your perfect luxury trip. Discover how to explore Iceland with confidence, comfort, and unforgettable moments.">
 
@@ -61,7 +59,7 @@ const blog__EN: CollectionEntry<"blog__EN">[] = await getCollection("blog__EN")
     <header class="header">
         <TopBar linkfr="/fr/blog"></TopBar>
         <div class="headerContainerPic">
-            <PicHeader srcMobile="/pictures/excursions/whale-watching-reykjavik-mobile.webp" srcPC="/pictures/excursions/whale-watching-reykjavik-pc.webp" alt="Picture of stunning waterfalls in desertic landscapes" title="All of our day tours in Iceland"></PicHeader></div>
+            <PicHeader srcMobile="/pictures/blog/travel-tips-iceland-mobile.webp" srcPC="/pictures/blog/travel-tips-iceland-pc.webp" alt="Travel tips about Iceland, hot springs and more" title="Blog articles about Iceland"></PicHeader></div>
             <div class="headerGradient"></div>
             <div class="headerInfos">
                 <h1>Essential Travel Tips in Iceland for a Unforgettable Journey</h1>
@@ -74,6 +72,13 @@ const blog__EN: CollectionEntry<"blog__EN">[] = await getCollection("blog__EN")
     </header>
 
 <main>
+    <div class="wrapper">
+    <h2>Explore Iceland Through the Eyes of Private Travel Experts</h2>
+    <h3>Authentic Advice for Your Personalized Journey</h3>
+    <p>In this blog, we go beyond basic travel tips. Whether you're planning a tailor made trip or simply curious about how to travel smarter, you’ll find insights from real on-the-ground experience. From choosing between custom tours or small groups, to witnessing volcanic landscapes up close — we share it all.</p>
+    
+    <p>Our goal is to enrich your travel planning with expert advice shaped by years of creating private tours and personalized itineraries in Iceland. This space grows continuously with fresh topics, inspired by our guests' most frequent questions and our own explorations. Even if you're traveling independently, you'll benefit from our passion for thoughtful, individual travel.</p>
+
         {blog__EN.map((blog:any) => (
 
 
@@ -81,8 +86,9 @@ const blog__EN: CollectionEntry<"blog__EN">[] = await getCollection("blog__EN")
         blog = {blog}
         >
         </BlogCard__EN>
-))}
+))}</div>
 </main>
+<Footer></Footer>
 </body>
 </html>
 
@@ -90,7 +96,7 @@ const blog__EN: CollectionEntry<"blog__EN">[] = await getCollection("blog__EN")
 <style>
 
     main p {
-        width: 75%;
+        width: 100%;
         margin-inline: auto;
         margin-bottom: 2rem;
     }
@@ -103,7 +109,7 @@ h3 {
   color: white;
   font-size: clamp(1.25rem, 3vw, 2.5rem);
   font-weight: lighter;
-  width: 75%;
+  width: 100%;
   margin: 3rem auto;
   text-align: left;
 }
@@ -128,7 +134,7 @@ h3 {
     main h2 {
         margin-bottom: 3rem;
         width: 100%;
-        text-align: center;
+        text-align: left;
         margin-inline: auto;
         font-style: normal;
     }

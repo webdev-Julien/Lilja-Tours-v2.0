@@ -1,0 +1,281 @@
+---
+import { getCollection } from "astro:content";
+import type { CollectionEntry } from "astro:content";
+import BlogCard__FR from "../../layouts/BlogCard__FR.astro";
+import "../../styles/style.css"
+
+import TopBar from "../../components/TopBar__FR.astro";
+
+import PicHeader from "../../components/Pics/PicHeader.astro";
+import Footer from "../../components/footer__FR.astro";
+
+
+
+const blog__FR: CollectionEntry<"blog__FR">[] = await getCollection("blog__FR")
+
+---
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Conseils de voyage en Islande pour organiser un séjour parfait. Explorez l'Islande avec confiance, confort et émerveillement.">
+
+
+       <link rel="alternate" hreflang="fr" href="https://www.lilja-tours.com/fr/blog/" />
+       <link rel="alternate" hreflang="en" href="https://www.lilja-tours.com/blog/" />
+       <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+       <link rel="canonical" href="https://www.lilja-tours.com/fr/blog/">
+
+        <meta property="og:title" content="Conseils pour voyager en Islande | Blog Lilja Tours">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="https://www.lilja-tours.com/pictures/blog/travel-tips-iceland-pc.webp">
+        <meta property="og:url" content="https://www.lilja-tours.com/fr/blog/">
+        <meta property="og:description" content="Conseils de voyage en Islande pour organiser un séjour parfait. Explorez l'Islande avec confiance, confort et émerveillement.">
+
+        <meta property="og:locale" content="fr_FR">
+        <meta property="og:locale:alternate" content="en_US">
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="630">
+        <meta property="og:logo" content="https://www.lilja-tours/logos/Lilja-Tours-Full-Logo.png" />
+
+        <title>Conseils pour voyager en Islande | Blog Lilja Tours</title>
+
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16894749666">
+</script>
+<script is:raw>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-16894749666');
+</script>
+
+</head>
+<body>
+    <header class="header">
+        <TopBar linkfr="/blog"></TopBar>
+        <div class="headerContainerPic">
+            <PicHeader 
+                srcMobile="/pictures/blog/travel-tips-iceland-mobile.webp" 
+                srcPC="/pictures/blog/travel-tips-iceland-pc.webp" 
+                alt="Conseils de voyage en Islande, sources chaudes et plus encore" 
+                title="Articles de blog sur l'Islande">
+            </PicHeader>
+        </div>
+        <div class="headerGradient"></div>
+        <div class="headerInfos">
+            <h1>Conseils essentiels pour un voyage inoubliable en Islande</h1>
+            <h2>Préparez votre séjour en toute confiance : laissez-nous vous guider en Islande</h2>
+    
+            <p class="headerP">Bienvenue dans la collection de conseils de voyage experts de Lilja Tours — soigneusement rédigés pour enrichir votre expérience, de la préparation à l’arrivée. Que vous partiez avec l’un de nos voyages sur mesure ou que vous exploriez en autonomie, nos recommandations vous aideront à voyager avec sérénité, confort et style.</p>
+    
+            <p class="headerP">Ce blog s’inspire des questions fréquemment posées par nos voyageurs aguerris, ainsi que des sujets tendances observés sur les réseaux sociaux. Notre objectif est simple : vous aider à vivre un séjour inoubliable en Islande, alliant authenticité, confort et émerveillement.</p>
+        </div>
+    </header>
+
+<main>
+    <div class="wrapper">
+        <h2>Découvrez l’Islande à travers les yeux d’experts du voyage privé</h2>
+        <h3>Des conseils authentiques pour un itinéraire personnalisé</h3>
+    
+        <p>Ce blog va bien au-delà des simples conseils de voyage. Que vous prépariez un voyage sur mesure ou que vous cherchiez simplement à voyager plus intelligemment, vous y trouverez des recommandations issues de notre expérience terrain. Du choix entre un voyage individuel ou en petit groupe, jusqu’à l’exploration des paysages volcaniques — nous partageons tout.</p>
+        
+        <p>Notre ambition est d’enrichir votre préparation grâce à des conseils d’experts, forgés par des années de création d’itinéraires personnalisés et de voyages privés en Islande. Ce blog évolue en permanence, nourri par les questions fréquentes de nos voyageurs et nos propres découvertes. Même si vous voyagez de façon autonome, vous profiterez de notre passion pour un voyage individuel, réfléchi et authentique.</p>
+
+        {blog__FR.map((blog:any) => (
+
+
+        <BlogCard__FR
+        blog = {blog}
+        >
+        </BlogCard__FR>
+))}</div>
+</main>
+<Footer></Footer>
+</body>
+</html>
+
+
+<style>
+
+    main p {
+        width: 100%;
+        margin-inline: auto;
+        margin-bottom: 2rem;
+    }
+
+    main a {
+        color: white;
+    }
+
+h3 {
+  color: white;
+  font-size: clamp(1.25rem, 3vw, 2.5rem);
+  font-weight: lighter;
+  width: 100%;
+  margin: 3rem auto;
+  text-align: left;
+}
+
+    .headerP {
+        width: 50%;
+        margin-inline: auto;
+    }
+
+    .firstText {
+        width: 75%;
+        margin: 2rem auto;
+        padding: 2rem;
+        background-color: rgba(255, 255, 255, 0.25);
+        border-radius: 1rem;
+
+        p {
+            width: 100%;
+        }
+    }
+
+    main h2 {
+        margin-bottom: 3rem;
+        width: 100%;
+        text-align: left;
+        margin-inline: auto;
+        font-style: normal;
+    }
+
+    h2:not(:first-child) {
+        margin-block: 5rem;
+    }
+
+   main {
+    width: 90%;
+    margin-inline: auto;
+    padding: 2rem 0;
+   }
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    justify-content:baseline;
+    margin-inline: auto;
+
+}
+  .header {
+            min-height: 100dvh;
+            width: 100%;
+        }
+
+        .headerContainerPic {
+            width: 100%;
+            min-height: calc(100dvh - 3.5rem);
+            max-height: calc(100dvh - 3.5rem);
+            position: relative;
+        }
+
+        .headerGradient {
+            width: 100%;
+            min-height: calc(100dvh - 3.5rem);
+            max-height: calc(100dvh - 3.5rem);
+            position: absolute;
+            top: 3.5rem;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(255, 255, 255, 0.00) 99.06%);
+        }
+
+        .headerInfos {
+            position: absolute;
+            inset: 3.5rem 0 0 0;
+            display: flex;
+            height:  calc(100dvh - 3.5rem);
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            gap: 5rem;
+
+        }
+
+        h1 {
+        color: #FFF;
+        text-align: center;
+        font-size: clamp(2rem, calc(5vw + 1rem), 4rem );
+        font-weight: lighter;
+        min-width: min-content;
+        max-width: max-content;
+        text-wrap: balance;
+        animation-name: Title;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+    }
+
+    h2 {
+        color: #FFF;
+        text-align: center;
+        font-size: clamp(1.5rem, calc(5vw + 1rem), 2.5rem );
+        font-weight: lighter;
+        min-width: min-content;
+        max-width: max-content;
+        text-wrap: balance;
+        animation-name: Title;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+        font-style: italic;
+    }
+
+@keyframes Title {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+@media screen and (max-width: 800px) {
+    main h2 {
+        font-size: clamp(1rem, calc(1vw + 1rem), 2rem );
+    }
+
+    main p {
+        font-size: 1rem;
+        width: 95%;
+    }
+
+    main h3 {
+        width: 95%;
+    }
+
+    main {
+        padding-block: 2rem;
+    }
+
+    .headerInfos {
+        gap: 1rem;
+    }
+
+    header h2 {
+        margin-block: 1rem;
+        width: 95%;
+    }
+
+
+    .wrapper {
+        width: 95%;
+        margin-inline: auto;
+    }
+
+    .firstText {
+        width: 95%;
+    }
+
+    .headerP {
+        width: 75%;
+        margin-inline: auto;
+    }
+
+
+}
+
+</style>
