@@ -23,8 +23,8 @@ import "../styles/style.css"
 
             <li class="pc"><a href="/fr/about/" class="menuLink nonImp" title="A propos de  Lilja Tours">A propos</a></li>
             <li class="pc"><a href="/fr/contact/" class="menuLink nonImp" title="Contactez nous">Contact</a></li>
-            <!--<li class="pc"><a href="#" class="menuLink nonImp" title="Foire aux questions">F.A.Q</a></li>
-            <li class="pc"><a href="#" class="menuLink nonImp" title="Notre blog">Blog</a></li> -->
+            <!--<li class="pc"><a href="#" class="menuLink nonImp" title="Foire aux questions">F.A.Q</a></li> -->
+            <li class="pc"><a href="/fr/blog/" class="menuLink nonImp" title="Notre blog">Blog</a></li>
             <li class="pc"><a href="https://www.iceland-for-you.com" class="menuLink nonImp" title="Go to Iceland for You Website" target="_blank">CIRCUITS EN GROUPE</a></li>
 
         </ul><div class="close" id="closeButt"><CloseButton></CloseButton></div>
@@ -136,10 +136,10 @@ import "../styles/style.css"
     
 
     .menuLink {
-        color: white;
+        color: white !important;
         text-decoration: none;
-        font-size: clamp(1rem, 2vw, 1.1rem);
-        text-underline-offset: .4rem;
+        font-size: clamp(1rem, 2vw, 1.1rem) !important;
+        text-underline-offset: .4rem !important;
         height: 100%;
         transition: var(--transitionTime);
         display: flex;
@@ -162,7 +162,7 @@ import "../styles/style.css"
     }
 
     .nonImp {
-        color: #a3b9e1;
+        color: #a3b9e1 !important;
     }
 
 

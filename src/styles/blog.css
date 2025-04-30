@@ -38,15 +38,12 @@ body {
   border-spacing: 1.125rem;
 }
 
-img {
+main img {
+  margin-top: 2rem;
   display: block;
   max-width: 100%;
   min-width: 100%;
   height: auto;
-}
-
-main img {
-  margin-top: 2rem;
 }
 
 h1 {
