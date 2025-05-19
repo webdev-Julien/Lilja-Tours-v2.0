@@ -1,0 +1,129 @@
+---
+import { Image } from "astro:assets";
+import calendar from "../assets/icons/calendar-white.svg"
+import hourglass from "../assets/icons/hourglass-white.svg"
+import level from "../assets/icons/difficulty-white.svg"
+import groupSize from "../assets/icons/group-size-white.svg"
+
+const {
+    season,
+    duration,
+    difficulty,
+    capacity,
+    tourTitle,
+    toyotadisplay
+} = Astro.props
+
+---
+
+<div class="headerContainer">
+    <h1>{tourTitle}</h1>
+    <div class="tourInfos">
+        <div class="tourInfo">
+            <Image src={calendar} alt="calendar icon" title="seasonality" width="30" height="30" class="infoIcon" loading="lazy"></Image>
+            <p class="info">: {season}</p>
+        </div>
+        <div class="tourInfo">
+            <Image src={hourglass} alt="calendar icon" title="duration" width="30" height="30" class="infoIcon" loading="lazy"></Image>
+            <p class="info">: {duration} days</p>
+        </div>
+        <div class="tourInfo">
+            <Image src={level} alt="calendar icon" title="difficulty" width="30" height="30" class="infoIcon" loading="lazy"></Image>
+            <p class="info">: {difficulty}</p>
+        </div>
+        <div class="tourInfo">
+            <Image src={groupSize} alt="calendar icon" title="capacity" width="30" height="30" class="infoIcon" loading="lazy"></Image>
+            <p class="info">: {capacity} maximum</p>
+        </div>
+    </div>
+
+
+        <slot name="bookButtons"></slot>
+
+    
+</div>
+
+<style>
+
+    .headerContainer {
+        padding-block: 2.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        width: 90%;
+        margin-inline: auto;
+    }
+
+    h1 {
+        color: #FFF;
+        text-align: center;
+        font-size: clamp(2rem, calc(5vw + 1rem), 4rem );
+        font-weight: lighter;
+        min-width: min-content;
+        max-width: max-content;
+        text-wrap: balance;
+        animation-name: Title;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+    }
+
+@keyframes Title {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+    .tourInfos {
+        display: flex;
+        gap: 1.25rem;
+        width: 100%;
+        margin-inline: auto;
+        justify-content: center;
+        flex-wrap: wrap;
+        animation-name: Title;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+    }
+
+    .tourInfo {
+        display: flex;
+        justify-content: space-between;
+        width: max-content;
+        align-items: center;
+    }
+
+    .info {
+        color: white;
+        margin: 0;
+    }
+    .info::before {
+        content: " ";
+        white-space: pre;
+    }
+
+    @media only screen and (max-height: 800px) {
+    
+        .headerContainer {
+            gap: 1rem;
+        }
+
+        .bookButtons {
+            gap: .75rem;
+        }
+    }
+
+    @media only screen and (max-width: 1600px) {
+        h1 {
+        font-size: clamp(1rem, calc(2.5vw + 1rem), 4rem );
+        text-wrap: wrap;
+
+        }
+
+        .headerContainer {
+            width: 90%;
+        }
+    }
+</style>

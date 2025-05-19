@@ -5,6 +5,11 @@ import "../styles/style.css"
 import TopBar from "../components/TopBar__EN.astro";
 import ReadMore from "../components/buttons/ReadMore__EN.astro";
 import ReadMoreEN from "../components/buttons/ReadMore__EN.astro";
+
+import { getCollection } from "astro:content";
+import type { CollectionEntry } from "astro:content";
+import MultiCards from "../layouts/MultidayCard__EN.astro";
+const allTours: CollectionEntry<"multiday__EN">[] = await getCollection("multiday__EN")
 ---
 
 <!DOCTYPE html>
@@ -63,6 +68,17 @@ import ReadMoreEN from "../components/buttons/ReadMore__EN.astro";
     </header>
 
     <main id="quote">
+
+            <div class="wrapper">
+
+    {allTours.filter((baba:any) => baba.data.filter==="norm").map((tour) => (
+
+        <MultiCards
+tour = {tour}
+>
+
+</MultiCards>
+))}
         
             <h2>Tailored Private Tour in Iceland: Comfort, Freedom, and Personalization</h2>
             <h3>Why Choose a Private Tour?</h3>

@@ -1,0 +1,356 @@
+---
+import TopBar from "../components/TopBar__EN.astro"
+import PicHeader from "../components/Pics/PicHeader.astro"
+import HeaderInfos from "../layouts/HeaderMulti__EN..astro"
+import ItiSection from "../layouts/ItiSection__EN.astro"
+import InternalNav from "../components/InternalNav__EN.astro"
+import InfoSection from "./InfoSection__EN.astro"
+import GallerySection from "../layouts/GallerySection.astro"
+import BookSection from "../layouts/BookSection__EN.astro"
+import FormSection from "../layouts/FormSection.astro"
+import BookCardEN from "../components/bookCards/BookCard__EN.astro"
+
+import FooterEN from "../components/footer__EN.astro"
+
+import BookVClassEN from "../components/buttons/BookVClass__EN.astro"
+
+import ReadMore from "../components/buttons/ReadMore__EN.astro"
+
+import TagNavEN from "../components/tags/TagNav__EN.astro"
+
+
+const {
+    language,  
+    description, 
+    ogTitle, 
+    ogImage, 
+    url,
+    pageTitle,
+    linkFr,
+    tourTitle,
+    season,
+    duration,
+    difficulty,
+    capacity,
+    bookButtons,
+    itiCoverImgSrcMobile, 
+    itiCoverImgSrcPC,
+    itiCoverImgAlt,
+    itiCoverImgTitle,
+    itiCoverTitle,
+    itiItems,
+    headerCoverSrcMobile,
+    headerCoverSrcPC,
+    headerCoverAlt,
+    headerCoverTitle,
+    gtk,
+    wtb,
+    i,
+    ni,
+    gallery,
+    vehicles,
+    form,
+    fulllinkFr,
+    taggies,
+    jsonLd,
+    cta,
+    cta2
+} = Astro.props
+
+---
+<!doctype html>
+<html lang={language}>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content={description}
+        />
+
+       <link rel="alternate" hreflang="fr" href={fulllinkFr} />
+       <link rel="alternate" hreflang="en" href={url} />
+
+       <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+       <link rel="canonical" href={url}>
+
+        <meta property="og:title" content={ogTitle}>
+        <meta property="og:type" content="website">
+        <meta property="og:image" content={ogImage}>
+        <meta property="og:url" content={url}>
+        <meta property="og:description" content={description}>
+
+        <meta property="og:locale" content="en_US">
+        <meta property="og:locale:alternate" content="fr_FR">
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="630">
+        <meta property="og:logo" content="https://www.lilja-tours/logos/Lilja-Tours-Full-Logo.png" />
+
+        <title>{pageTitle}</title>
+
+       
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16894749666">
+</script>
+<script is:raw>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-16894749666');
+</script>
+
+{jsonLd && (
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  )}
+
+
+
+    </head>
+    <body>
+        <header class="header">
+            <TopBar linkfr={linkFr}></TopBar>
+            <div class="headerContainerPic">
+                <PicHeader srcMobile={headerCoverSrcMobile} srcPC={headerCoverSrcPC} alt={headerCoverAlt} title={headerCoverTitle}></PicHeader></div>
+                <div class="headerGradient"></div>
+                <div class="headerInfos">
+                    
+                    <HeaderInfos
+                    tourTitle={tourTitle}
+                    season={season}
+                    duration={duration}
+                    difficulty={difficulty}
+                    capacity={capacity}
+                    >
+                
+                    <div slot="bookButtons" class="bookButtons">
+                        {bookButtons.map((button:any) => (
+
+                            <BookVClassEN
+                            bookLinkMercedes = {button.bookLink}
+                            buttonText = {button.textButton}
+                    ></BookVClassEN>
+                    ))}
+                    <ReadMore>
+                    </div>
+                
+                </HeaderInfos>
+                </div>
+            </div>
+        </header>
+
+        <main>
+
+        <TagNavEN cateLink="/all-day-tours/" home="DAY TOURS">
+
+                    {
+                        taggies.map((tag:any) => (
+                            
+                            <li><a href={"/day-tours-iceland/"+tag.toLowerCase()+"/"} title={"list of"+tag}><button class="tagButton">{tag.charAt(0).toUpperCase() + tag.slice(1).replaceAll("-", " ")}</button></a></li>
+                        ))
+                    }
+            </TagNavEN>
+
+
+            <ItiSection
+            itiCoverImgSrcMobile={itiCoverImgSrcMobile}
+            itiCoverImgSrcPC={itiCoverImgSrcPC}
+            itiCoverImgAlt={itiCoverImgAlt}
+            itiCoverImgTitle={itiCoverImgTitle}
+            itiCoverTitle={itiCoverTitle}
+            itiItems={itiItems}
+            ></ItiSection>
+            
+            <InfoSection
+            gtk={gtk}
+            wtb={wtb}
+            i={i}
+            ni={ni}
+            
+            ></InfoSection>
+
+            <GallerySection 
+            gallery={gallery}>
+            </GallerySection>
+
+            <BookSection tourTitle={tourTitle} cta={cta} cta2={cta2}>
+                <div slot="carCards" class="carCards">
+
+                    {vehicles.map((car:any) => (
+                        <BookCardEN
+                        vehicName={car.name}
+                        srcPC={car.srcPC}
+                        srcMobile={car.srcMobile}
+                        vehicAlt={car.alt}
+                        vehicleTitle={car.title}
+                        capacity={car.capacity}
+                        rate={car.rate}
+                        bookLink={car.bookLink}
+                        buttonText={car.name}
+                        ></BookCardEN>
+                    ))}
+
+                </div>
+            </BookSection>
+
+            <FormSection>
+                <div slot="form">
+                    <a href={form} title="fill a form" class="formA" target="_blank">
+                        <button class="formButton"><p class="formAction">Access our form</p></button>
+                    </a>
+                </div>
+            </FormSection>
+
+            
+
+
+            <InternalNav bookOrQuote="BOOK"></InternalNav>
+
+        </main>
+
+    <FooterEN></FooterEN>
+    </body>
+
+    <style>
+
+        main {
+            position: relative;
+        }
+
+        .tagButton {
+            padding: .2rem .75rem;
+            border-radius: 9999px;
+            border: none;
+            background-color: rgba(91, 114, 151, 0.3);
+            font-size: 1rem;
+            color: white;
+            cursor: pointer;
+            transition: .3s;
+        }
+
+        .tagButton:hover, .tagButton:focus {
+            filter: brightness(140%);
+            translate: 0 -.25rem;
+            transition: .3s;
+
+        }
+
+         li:nth-child(2) .tagButton {
+            background-color: rgb(91, 114, 151);
+        }
+
+        .tagButton:nth-child(2):hover, .tagButton:nth-child(2):focus {
+            filter: brightness(120%);
+            transition: .3s;
+        }
+    
+
+        .formA {
+        text-decoration: none;
+        width: fit-content
+    }
+
+    .formButton {
+        width: 15rem;
+        height: 5rem;
+        flex-shrink: 0;
+        border-radius: 1rem;
+        border: 2px solid hsla(0, 0%, 100%, 0.5);
+        background: rgba(0, 0, 0, 0.30);
+        backdrop-filter: blur(7.5px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        cursor: pointer;
+        transition: .5s;
+        margin-inline: auto;
+
+    }
+
+    .formAction {
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: lighter;
+        margin: 0;
+    }
+
+
+    .formButton:hover, .formButton:focus {
+        background: rgba(255, 255, 255, 0.50);
+        border: 2px solid rgba(0, 0, 0, 0.30);
+        transition: .5s;
+
+        .formAction {
+        color: rgba(0, 0, 0, 0.50);
+        }
+
+    }
+        .header {
+            min-height: 100dvh;
+            width: 100%;
+        }
+
+        .headerContainerPic {
+            width: 100%;
+            min-height: calc(100dvh - 3.5rem);
+            max-height: calc(100dvh - 3.5rem);
+            position: relative;
+        }
+
+        .headerGradient {
+            width: 100%;
+            min-height: calc(100dvh - 3.5rem);
+            max-height: calc(100dvh - 3.5rem);
+            position: absolute;
+            top: 3.5rem;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(255, 255, 255, 0.00) 99.06%);
+        }
+
+        .headerInfos {
+            position: absolute;
+            inset: 3.5rem 0 0 0;
+            display: flex;
+            height:  calc(100dvh - 3.5rem);
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            align-content: center;
+
+        }
+
+        .bookButtons {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 1.25rem;
+        align-items: center;
+        flex-wrap: wrap;
+        animation-name: Title;
+        animation-duration: 2s;
+        animation-delay: 2s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+    }
+
+    .carCards {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 3rem;
+    }
+
+
+
+    @media only screen and (max-height: 800px) {
+        .bookButtons {
+            gap: .75rem;
+            flex-direction: column;
+        }
+
+    }
+    </style>
+
+
