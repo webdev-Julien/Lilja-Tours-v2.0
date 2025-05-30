@@ -2,7 +2,7 @@
 import TopBar from "../components/TopBar__EN.astro"
 import PicHeader from "../components/Pics/PicHeader.astro"
 import HeaderInfos from "../layouts/HeaderMulti__EN..astro"
-import ItiSection from "../layouts/ItiSection__EN.astro"
+import ItiSection from "../layouts/ItiSectionMulti__EN.astro"
 import InternalNav from "../components/InternalNav__EN.astro"
 import InfoSection from "./InfoSection__EN.astro"
 import GallerySection from "../layouts/GallerySection.astro"
@@ -54,7 +54,8 @@ const {
     taggies,
     jsonLd,
     cta,
-    cta2
+    cta2,
+    day
 } = Astro.props
 
 ---
@@ -122,16 +123,6 @@ const {
                     difficulty={difficulty}
                     capacity={capacity}
                     >
-                
-                    <div slot="bookButtons" class="bookButtons">
-                        {bookButtons.map((button:any) => (
-
-                            <BookVClassEN
-                            bookLinkMercedes = {button.bookLink}
-                            buttonText = {button.textButton}
-                    ></BookVClassEN>
-                    ))}
-                    <ReadMore>
                     </div>
                 
                 </HeaderInfos>
@@ -141,7 +132,7 @@ const {
 
         <main>
 
-        <TagNavEN cateLink="/all-day-tours/" home="DAY TOURS">
+        <TagNavEN cateLink="/multiday/" home="MULTIDAY TOURS">
 
                     {
                         taggies.map((tag:any) => (
@@ -159,6 +150,7 @@ const {
             itiCoverImgTitle={itiCoverImgTitle}
             itiCoverTitle={itiCoverTitle}
             itiItems={itiItems}
+            day={day}
             ></ItiSection>
             
             <InfoSection

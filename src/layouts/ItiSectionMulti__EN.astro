@@ -1,0 +1,166 @@
+---
+import type { CollectionEntry } from "astro:content";
+
+const {
+    itiCoverImgSrcMobile, 
+    itiCoverImgSrcPC,
+    itiCoverImgAlt,
+    itiCoverImgTitle,
+    itiCoverTitle,
+    itiItems,
+    day
+} = Astro.props
+
+import { Image } from "astro:assets";
+import chevron from "../assets/icons/Next-section.svg"
+import PicItiTitle from "../components/Pics/PicItiTitle.astro"
+import ItiItem from "../layouts/ItiItem_Multi__EN.astro"
+---
+<section>
+    <div class="itiTitleSection">
+
+        <PicItiTitle srcMobile={itiCoverImgSrcMobile} srcPC={itiCoverImgSrcPC} alt={itiCoverImgAlt} title={itiCoverImgTitle}></PicItiTitle>
+
+        <div class="gradient"></div>
+        <a href="#itin" title="navigate to your itinerary">
+        <div class="titleUp">
+            <div class="title">
+                <Image src={chevron} alt="Downward arrow" title="Navigate to next section" width="60" height="60" class="chevron" id="disp"></Image>
+                <p class="intro">{itiCoverTitle}</p>
+                <Image src={chevron} alt="Downward arrow" title="Navigate to next section" width="60" height="60" class="chevron"></Image>
+            </div>
+        </div></a>
+    </div>
+
+    <div class="allItems" id="itin">
+
+	{
+        itiItems.map((iti:any) => {
+
+            return (
+
+                <ItiItem
+                itiItemTitle={iti.itiItemTitle}
+                srcMobile={iti.itiItemPicSrcMobile}
+                itiItemPicSrcPC={iti.itiItemPicSrcPC}
+                itiItemPicAlt={iti.itiItemPicAlt}
+                itiItemPicTitle={iti.itiItemPicTitle}
+                day={iti.day}
+                >
+                    <div>
+                        {iti.itiItemStrings.map((paraph:any) => (
+                            <p set:html={paraph}></p>
+                        ))}
+                    </div>
+
+                
+                    
+                </ItiItem>                    
+            )
+        })
+    }
+
+</div>
+
+
+</section>
+
+
+<style>
+
+    .intro {
+        width: 50%;
+        margin-inline: auto;
+        font-size: clamp(1.75rem, 3vw, 3rem);
+        width: 90%;
+        margin-inline: auto;
+    }
+
+    a {
+        text-decoration: none;
+    }
+    .itiTitleSection  {
+        position: relative;
+    }
+
+    .gradient {
+        width: 100%;
+        height: 50dvh;
+        /*background-color: #5b7297;*/
+        position: absolute;
+        inset: 0;
+    }
+
+    h2 {
+        font-size: clamp(2rem, calc(5vw + 1rem), 4rem );
+        color: white;
+        text-align: center;
+        font-weight: lighter;
+    }
+
+    .title {
+        display: flex;
+        width: 75%;
+        margin-inline: auto;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        height: fit-content;
+    }
+
+    .titleUp {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        position: absolute;
+        align-items: center;
+        inset: 0;
+        cursor: default;
+    }
+
+    .chevron {
+        animation-name: chevrons;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        
+
+    }
+
+    @keyframes chevrons {
+        0% {opacity: .5;}
+        50% {opacity: 1;}        
+        100% {opacity: .5;}
+    }
+
+    @media only screen and (max-width: 1100px) {
+
+        #disp {
+            display: none;
+        }
+
+        .title {
+            flex-direction: column;
+            padding-bottom: 1rem;
+            width: 90%;
+            margin-inline: auto;
+        }
+
+        .chevron {
+            width: 3rem;
+        }
+
+        p {
+            line-height: 1;
+        }
+
+        .intro {
+            width: 90%;
+            font-size: clamp(1rem, 2vw, 2rem);
+            margin-inline: auto;
+            text-align: justify;
+
+        }
+
+
+    }
+</style>

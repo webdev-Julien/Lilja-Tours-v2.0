@@ -404,9 +404,7 @@ const blog__EN = defineCollection({
     cardImgTitle: z.string(),
     cardArticleTitle: z.string(),
     cardArticleSumup: z.string(),
-    tags: z.array(z.string())
-
-    
+    tags: z.array(z.string()),
   }),
 });
 
@@ -428,9 +426,7 @@ const blog__FR = defineCollection({
     cardImgTitle: z.string(),
     cardArticleTitle: z.string(),
     cardArticleSumup: z.string(),
-    tags: z.array(z.string())
-
-    
+    tags: z.array(z.string()),
   }),
 });
 
@@ -468,14 +464,6 @@ const multiday__EN = defineCollection({
     headerCoverAlt: z.string(),
     headerCoverTitle: z.string(),
 
-    // BookButtons
-    bookButtons: z.array(
-      z.object({
-        textButton: z.string(),
-        bookLink: z.string(),
-      })
-    ),
-
     // Iti Picture
     itiCoverTitle: z.string(),
     itiCoverImgSrcMobile: z.string(),
@@ -485,13 +473,13 @@ const multiday__EN = defineCollection({
 
     // Links
     linkFr: z.string(),
-    bookVan: z.string(),
-    bookJeep: z.string(),
+
     fulllinkFr: z.string(),
 
     // Itinerary
     itiItems: z.array(
       z.object({
+        day: z.string(),
         itiItemTitle: z.string(),
         itiItemPicSrcMobile: z.string(),
         itiItemPicSrcPC: z.string(),
@@ -603,7 +591,6 @@ const multiday__FR = defineCollection({
     vanISK: z.number(),
     jeepISK: z.number(),
     personRate: z.number(),
-
 
     // Head and metas
     pageTitle: z.string(),
@@ -759,6 +746,5 @@ export const collections = {
   blog__EN: blog__EN,
   blog__FR: blog__FR,
   multiday__FR: multiday__FR,
-  multiday__EN: multiday__EN
-
+  multiday__EN: multiday__EN,
 };

@@ -9,7 +9,7 @@ filter: "norm"
 
 
 # Head and metas
-pageTitle: "2day private winter adventure | Icelandic South Coast"
+pageTitle: "2day private adventure | Icelandic South Coast"
 description: "The most magical region of Iceland: The South Coast. Discover it with a high-end private tour. Ask us for a quote!"
 ogTitle: "2Days Luxury tour on the Icelandic South Coast | From Reykjavík to Diamond Beach"
 ogImage: "https://www.lilja-tours.com/pictures/golden-circle-essentials/card/golden-circle-essentials-card.webp"
@@ -19,12 +19,12 @@ language: "en"
 # Tour datas
 duration: "2"
 capacity: "6"
-season: "Oct. - March"
+season: "All year long"
 difficulty: "No difficulty"
 
 
 # H1
-tourTitle: "Exceptionnal 2day private tour on the Icelandic South Coast"
+tourTitle: "Exceptionnal 2 day private tour on the Icelandic South Coast"
 
 
 # Header Picture
@@ -34,65 +34,43 @@ headerCoverAlt: "South Coast private tour - Iceland at its best"
 headerCoverTitle: "South Coast private tour"
 
 
-# BookButtons
-bookButtons: [
-  {
-    textButton: "Mercedes V-class",
-    bookLink: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753710"
-  },
-    {
-    textButton: "Toyota LandCruiser",
-    bookLink: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753711"
-  }
-]
-
 # Iti Picture
-itiCoverTitle: "Experience the Golden Circle Essentials with Lilja Tours on a luxury private tour. Discover the natural wonders of Þingvellir National Park, the geyser of Strokkur and Gullfoss Waterfall, on a 6 hour tour"
-itiCoverImgSrcMobile: "/pictures/golden-circle-essentials/itinerary/title/gullfoss-mobile.webp"
-itiCoverImgSrcPC: "/pictures/golden-circle-essentials/itinerary/title/gullfoss-pc.webp"
-itiCoverImgAlt: "Gullfoss Waterfall - Golden Circle Essentials private tour"
-itiCoverImgTitle: "Gullfoss"
+itiCoverTitle: "Explore the Icelandic South Coast on a private 2 day tour along the Icelandic South Coast. Between glaciers and volcanos, from the beautiful Seljalandsfoss waterfall to the astonishing Fellsfjara, most commonly known as Diamond Beach."
+itiCoverImgSrcMobile: "/pictures/multiday-tours/2-day-south-coast-winter-tour/itiTitle/glacier-lagoon-mobile.webp"
+itiCoverImgSrcPC: "/pictures/multiday-tours/2-day-south-coast-winter-tour/itiTitle/glacier-lagoon-pc.webp"
+itiCoverImgAlt: "Fjallsarlon Glacier Lagoon - 2 day South Coast Tour"
+itiCoverImgTitle: "Fjallsarlon"
 
 
 # Links
 linkFr: "/fr/guide-francophone-islande/cercle-d-or-avec-guide-francophone-essentiels"
-bookVan: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753710"
-bookJeep: "https://widgets.bokun.io/online-sales/97236c68-b945-4a96-8587-660bdc4c45fd/experience-calendar/753711"
+
 fulllinkFr: "https://www.lilja-tours.com/fr/guide-francophone-islande/cercle-d-or-avec-guide-francophone-essentiels"
 
 
 # Itinerary
 itiItems: [
   { 
-    itiItemTitle: "Þingvellir (Thingvellir) National Park",
-    itiItemPicSrcMobile: "/pictures/golden-circle-essentials/itinerary/thingvellir/Thingvellir-portrait.webp",
-    itiItemPicSrcPC: "/pictures/golden-circle-essentials/itinerary/thingvellir/Thingvellir-landscape.webp",
-    itiItemPicAlt: "Golden Circle with a private guide - Landscape of mountains, rivers and lake",
-    itiItemPicTitle: "Golden Circle Essentials: Þingvellir",
-    itiItemStrings: ["Þingvellir National Park is the perfect starting point for your -Golden Circle tour-, offering stunning scenery and rich history.",
-    "Founded in 930, it’s home to the world’s first parliament, where Icelandic settlers met annually to shape laws. The parliament remained here until 1798, and in 2004, Þingvellir became a -UNESCO World Heritage Site-.",
-    "Beyond history, Þingvellir sits on the -Mid-Atlantic Ridge-, where the Eurasian and North American plates drift apart. It’s the only place on Earth where this rift is visible above sea level. From the -Hákið viewing platform-, you’ll stand on the edge of the American continent.",
-    "A short walk through the park leads to Öxarárfoss, a scenic waterfall with its own unique history."]
+    day: "One",
+    itiItemTitle: "The Icelandic South Coast: Waterfalls and Black Sand Beaches",
+    itiItemPicSrcMobile: "/pictures/multiday-tours/2-day-south-coast-winter-tour/itinerary/first-day-south-coast-mobile.webp",
+    itiItemPicSrcPC: "/pictures/multiday-tours/2-day-south-coast-winter-tour/itinerary/first-day-south-coast-pc.webp",
+    itiItemPicAlt: "The Icelandic South Coast between glaciers and Volcanoes",
+    itiItemPicTitle: "Private 2 day South Coast Tour",
+    itiItemStrings: ["Experience the wild beauty of Iceland’s South Coast on a private tour that blends comfort and adventure. Start your journey with a walk behind the magical Seljalandsfoss waterfall and take in the charm of the countryside as you travel in a premium vehicle.",
+    "Next, witness the power of Skógafoss, where the mist often creates vivid rainbows. Continue to Sólheimajökull glacier for stunning views of crevasses and ice formations—a striking reminder of Iceland’s natural wonders.",
+    "End your day at the black sand beach of Reynisfjara, famous for its basalt columns and roaring waves. With a private guide and flexible itinerary, this South Coast tour offers an unforgettable luxury experience."]
     },
     {
-    itiItemTitle: "Geysir & Strokkur",
-    itiItemPicSrcMobile: "/pictures/golden-circle-essentials/itinerary/geysir/geysir-portrait.webp",
-    itiItemPicSrcPC: "/pictures/golden-circle-essentials/itinerary/geysir/geysir-landscape.webp",
-    itiItemPicAlt: "Geyser erupting - Private guide on the Golden Circle",
-    itiItemPicTitle: "Golden Circle Essentials: Geysir",
-    itiItemStrings: ["Did you know that all geysers worldwide are named after Geysir in Iceland? The word geyser originates from the Icelandic verb >að geysa, meaning to gush.",
-    "While Geysir itself is now dormant (its last known eruption was in the year -2000-), its neighboring geyser Strokkur remains highly active. Strokkur erupts every 5 to 10 minutes, thrilling visitors with powerful bursts of steaming water.",
-    "Located in the famous Golden Circle, Geysir and Strokkur are must-visit natural wonders, showcasing Iceland's geothermal power. Don't miss the chance to witness Strokkur’s spectacular eruptions up close!"]
-    },
-    {
-    itiItemTitle: "Gullfoss: The Golden Waterfall",
-    itiItemPicSrcMobile: "/pictures/golden-circle-essentials/itinerary/gullfoss/gullfoss-portrait.webp",
-    itiItemPicSrcPC: "/pictures/golden-circle-essentials/itinerary/gullfoss/gullfoss-landscape.webp",
-    itiItemPicAlt: "Private Golden Circle tour - Landscape of mountains rivers and lake",
-    itiItemPicTitle: "Golden Circle Essentials Þingvellir",
-    itiItemStrings: ["Iceland’s famous -Golden Circle- gets its name from -Gullfoss-, the breathtaking -Golden Waterfall.- While several legends explain its name, your guide will share the fascinating stories during your visit.",
-    "Did you know that Gullfoss was once at risk of disappearing? A proposed -hydropower plant- nearly altered this natural wonder forever. Thankfully, conservation efforts preserved its beauty, allowing visitors to witness its raw power today.",
-    "A must-see on the -Golden Circle-, Gullfoss showcases Iceland’s untamed nature with its thunderous cascades and stunning golden mist."]
+    day: "Two",
+    itiItemTitle: "The Vatnajökull National Park: Alongside the largest glacier in Europe",
+    itiItemPicSrcMobile: "/pictures/multiday-tours/2-day-south-coast-winter-tour/itinerary/second-day-vatnajokull-mobile.webp",
+    itiItemPicSrcPC: "/pictures/multiday-tours/2-day-south-coast-winter-tour/itinerary/second-day-vatnajokull-pc.webp",
+    itiItemPicAlt: "The Vatnajökull National Park during a private tour",
+    itiItemPicTitle: "2 day South Coast Tour: Vatnajökull",
+    itiItemStrings: ["Discover Iceland’s icy wonders on a private tour along the edge of Vatnajökull, Europe’s largest glacier. Travel in comfort as you explore the dramatic landscapes shaped by ancient ice and volcanic forces.",
+    "Marvel at Jökulsárlón Glacier Lagoon, where massive icebergs float peacefully in a sapphire-blue lake. Just across the road, stroll Fellsfjara (also known as Diamond Beach) where glistening ice shards scatter across the black sand.",
+    "Complete your journey with a visit to Fjallsárlón, a lesser-known glacier lagoon offering serene views and fewer crowds. With a personal guide, this luxury tour offers an unforgettable glimpse into Iceland’s frozen beauty."]
     }]
 
 

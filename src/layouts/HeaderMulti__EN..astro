@@ -38,12 +38,47 @@ const {
     </div>
 
 
-        <slot name="bookButtons"></slot>
+        <button class="quote"><p>Quote request</p></button>
 
     
 </div>
 
 <style>
+        .quote {
+        width: 15rem;
+        height: 5rem;
+        flex-shrink: 0;
+        border-radius: 1rem;
+        border: 2px solid hsla(0, 0%, 100%, 0.5);
+        background: rgba(0, 0, 0, 0.30);
+        backdrop-filter: blur(7.5px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        cursor: pointer;
+        transition: .5s;
+        text-align: center;
+
+    }
+
+    .quote > p, .quote > a {
+        text-align: center;
+        font-size: clamp(1rem, 3vw, 1.5rem);
+        font-weight: normal;
+
+    }
+
+    .quote:hover > p {
+        color: black;
+    }
+
+        .quote:hover, .quote:focus {
+        background: rgba(255, 255, 255, 0.50);
+        border: 2px solid rgba(0, 0, 0, 0.30);
+        transition: .5s;
+
+    }
 
     .headerContainer {
         padding-block: 2.5rem;
